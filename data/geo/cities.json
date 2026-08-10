@@ -241,5 +241,41 @@
     "lat": 39.7392,
     "lng": -104.9903,
     "population": 715522
+  },
+  {
+    "city": "Boston",
+    "city_slug": "boston",
+    "state": "MA",
+    "state_slug": "massachusetts",
+    "lat": 42.3601,
+    "lng": -71.0589,
+    "population": 675647
+  },
+  {
+    "city": "Jacksonville",
+    "city_slug": "jacksonville",
+    "state": "FL",
+    "state_slug": "florida",
+    "lat": 30.3322,
+    "lng": -81.6557,
+    "population": 949611
+  },
+  {
+    "city": "Columbus",
+    "city_slug": "columbus",
+    "state": "OH",
+    "state_slug": "ohio",
+    "lat": 39.9612,
+    "lng": -82.9988,
+    "population": 905748
+  },
+  {
+    "city": "Fort Worth",
+    "city_slug": "fort-worth",
+    "state": "TX",
+    "state_slug": "texas",
+    "lat": 32.7555,
+    "lng": -97.3308,
+    "population": 918915
   }
 ]

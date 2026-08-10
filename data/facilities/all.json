@@ -401,5 +401,70 @@
     "source_url": "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Recycle-Compost-Trash/Large-Item-Pickup",
     "hours": "See Large Item Pickup calendar / HHW appointment",
     "phone": "720-913-1311"
+  },
+  {
+    "name": "Boston Public Works special collection / Zero Waste events",
+    "facility_type": "Municipal special collection & Zero Waste Day HHW events",
+    "city_slug": "boston",
+    "state": "MA",
+    "zip": "02201",
+    "address": "1 City Hall Square, Boston, MA 02201",
+    "lat": 42.3601,
+    "lng": -71.0589,
+    "source_url": "https://www.boston.gov/departments/public-works/special-collection-items",
+    "hours": "By appointment / event schedule via boston.gov & 311",
+    "phone": "617-635-4500"
+  },
+  {
+    "name": "Jacksonville HHW Facility",
+    "facility_type": "Household hazardous waste / e-waste drop-off",
+    "city_slug": "jacksonville",
+    "state": "FL",
+    "zip": "32254",
+    "address": "2675 Commonwealth Avenue, Jacksonville, FL 32254",
+    "lat": 30.3365,
+    "lng": -81.7425,
+    "source_url": "https://www.jacksonville.gov/departments/office-of-administrative-services/solid-waste/disposal-operations/household-hazardous-wastes-(hhw)",
+    "hours": "Tue\u2013Sat 8:00\u201317:00",
+    "phone": "904-387-8847"
+  },
+  {
+    "name": "Alum Creek Waste and Reuse Convenience Center",
+    "facility_type": "Resident convenience center \u2014 bulk / select electronics / food scraps",
+    "city_slug": "columbus",
+    "state": "OH",
+    "zip": "43207",
+    "address": "2100 Alum Creek Drive, Columbus, OH 43207",
+    "lat": 39.9275,
+    "lng": -82.9538,
+    "source_url": "https://www.columbus.gov/Services/Trash-Recycling-Bulk-Collection/Bulk-Collection",
+    "hours": "Tue\u2013Sat (confirm hours on city page)",
+    "phone": "614-645-3111"
+  },
+  {
+    "name": "SWACO Household Hazardous Waste Facility",
+    "facility_type": "Household hazardous waste drop-off",
+    "city_slug": "columbus",
+    "state": "OH",
+    "zip": "43201",
+    "address": "645 E 8th Avenue, Columbus, OH 43201",
+    "lat": 39.9812,
+    "lng": -82.9865,
+    "source_url": "https://www.columbus.gov/Services/Trash-Recycling-Bulk-Collection/Household-Trash-Collection/Household-Hazardous-Waste-Collection",
+    "hours": "Mon\u2013Fri 9:00\u201317:00; first Sat 9:00\u201314:00",
+    "phone": "614-871-5100"
+  },
+  {
+    "name": "Brennan Drop-off Station (Fort Worth)",
+    "facility_type": "Municipal drop-off \u2014 bulk / freon appliances / e-waste / HHW / tires",
+    "city_slug": "fort-worth",
+    "state": "TX",
+    "zip": "76106",
+    "address": "2400 Brennan Avenue, Fort Worth, TX 76106",
+    "lat": 32.7885,
+    "lng": -97.3482,
+    "source_url": "https://www.fortworthtexas.gov/departments/environmental-services/solidwaste/dropoff",
+    "hours": "Tue\u2013Fri 8:00\u201317:00; Sat 8:00\u201312:00",
+    "phone": "817-392-EASY"
   }
 ]

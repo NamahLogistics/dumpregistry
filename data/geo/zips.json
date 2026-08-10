@@ -388,5 +388,85 @@
     "lat": 39.734,
     "lng": -105.021,
     "population": 34000
+  },
+  {
+    "zip": "02108",
+    "city": "Boston",
+    "city_slug": "boston",
+    "state": "MA",
+    "state_slug": "massachusetts",
+    "lat": 42.357,
+    "lng": -71.064,
+    "population": 4000
+  },
+  {
+    "zip": "02115",
+    "city": "Boston",
+    "city_slug": "boston",
+    "state": "MA",
+    "state_slug": "massachusetts",
+    "lat": 42.342,
+    "lng": -71.092,
+    "population": 28000
+  },
+  {
+    "zip": "32202",
+    "city": "Jacksonville",
+    "city_slug": "jacksonville",
+    "state": "FL",
+    "state_slug": "florida",
+    "lat": 30.329,
+    "lng": -81.659,
+    "population": 8000
+  },
+  {
+    "zip": "32204",
+    "city": "Jacksonville",
+    "city_slug": "jacksonville",
+    "state": "FL",
+    "state_slug": "florida",
+    "lat": 30.312,
+    "lng": -81.685,
+    "population": 12000
+  },
+  {
+    "zip": "43215",
+    "city": "Columbus",
+    "city_slug": "columbus",
+    "state": "OH",
+    "state_slug": "ohio",
+    "lat": 39.965,
+    "lng": -82.999,
+    "population": 15000
+  },
+  {
+    "zip": "43207",
+    "city": "Columbus",
+    "city_slug": "columbus",
+    "state": "OH",
+    "state_slug": "ohio",
+    "lat": 39.917,
+    "lng": -82.965,
+    "population": 42000
+  },
+  {
+    "zip": "76102",
+    "city": "Fort Worth",
+    "city_slug": "fort-worth",
+    "state": "TX",
+    "state_slug": "texas",
+    "lat": 32.753,
+    "lng": -97.332,
+    "population": 10000
+  },
+  {
+    "zip": "76104",
+    "city": "Fort Worth",
+    "city_slug": "fort-worth",
+    "state": "TX",
+    "state_slug": "texas",
+    "lat": 32.731,
+    "lng": -97.321,
+    "population": 22000
   }
 ]

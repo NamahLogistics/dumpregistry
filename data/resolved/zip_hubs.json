@@ -1077,5 +1077,239 @@
         "phone": "720-913-1311"
       }
     ]
+  },
+  {
+    "state_slug": "massachusetts",
+    "city_slug": "boston",
+    "zip": "02108",
+    "city": "Boston",
+    "state": "MA",
+    "lat": 42.357,
+    "lng": -71.064,
+    "population": 4000,
+    "indexable": true,
+    "facilities": [
+      {
+        "name": "Boston Public Works special collection / Zero Waste events",
+        "facility_type": "Municipal special collection & Zero Waste Day HHW events",
+        "city_slug": "boston",
+        "state": "MA",
+        "zip": "02201",
+        "address": "1 City Hall Square, Boston, MA 02201",
+        "lat": 42.3601,
+        "lng": -71.0589,
+        "source_url": "https://www.boston.gov/departments/public-works/special-collection-items",
+        "hours": "By appointment / event schedule via boston.gov & 311",
+        "phone": "617-635-4500"
+      }
+    ]
+  },
+  {
+    "state_slug": "massachusetts",
+    "city_slug": "boston",
+    "zip": "02115",
+    "city": "Boston",
+    "state": "MA",
+    "lat": 42.342,
+    "lng": -71.092,
+    "population": 28000,
+    "indexable": true,
+    "facilities": [
+      {
+        "name": "Boston Public Works special collection / Zero Waste events",
+        "facility_type": "Municipal special collection & Zero Waste Day HHW events",
+        "city_slug": "boston",
+        "state": "MA",
+        "zip": "02201",
+        "address": "1 City Hall Square, Boston, MA 02201",
+        "lat": 42.3601,
+        "lng": -71.0589,
+        "source_url": "https://www.boston.gov/departments/public-works/special-collection-items",
+        "hours": "By appointment / event schedule via boston.gov & 311",
+        "phone": "617-635-4500"
+      }
+    ]
+  },
+  {
+    "state_slug": "florida",
+    "city_slug": "jacksonville",
+    "zip": "32202",
+    "city": "Jacksonville",
+    "state": "FL",
+    "lat": 30.329,
+    "lng": -81.659,
+    "population": 8000,
+    "indexable": true,
+    "facilities": [
+      {
+        "name": "Jacksonville HHW Facility",
+        "facility_type": "Household hazardous waste / e-waste drop-off",
+        "city_slug": "jacksonville",
+        "state": "FL",
+        "zip": "32254",
+        "address": "2675 Commonwealth Avenue, Jacksonville, FL 32254",
+        "lat": 30.3365,
+        "lng": -81.7425,
+        "source_url": "https://www.jacksonville.gov/departments/office-of-administrative-services/solid-waste/disposal-operations/household-hazardous-wastes-(hhw)",
+        "hours": "Tue\u2013Sat 8:00\u201317:00",
+        "phone": "904-387-8847"
+      }
+    ]
+  },
+  {
+    "state_slug": "florida",
+    "city_slug": "jacksonville",
+    "zip": "32204",
+    "city": "Jacksonville",
+    "state": "FL",
+    "lat": 30.312,
+    "lng": -81.685,
+    "population": 12000,
+    "indexable": true,
+    "facilities": [
+      {
+        "name": "Jacksonville HHW Facility",
+        "facility_type": "Household hazardous waste / e-waste drop-off",
+        "city_slug": "jacksonville",
+        "state": "FL",
+        "zip": "32254",
+        "address": "2675 Commonwealth Avenue, Jacksonville, FL 32254",
+        "lat": 30.3365,
+        "lng": -81.7425,
+        "source_url": "https://www.jacksonville.gov/departments/office-of-administrative-services/solid-waste/disposal-operations/household-hazardous-wastes-(hhw)",
+        "hours": "Tue\u2013Sat 8:00\u201317:00",
+        "phone": "904-387-8847"
+      }
+    ]
+  },
+  {
+    "state_slug": "ohio",
+    "city_slug": "columbus",
+    "zip": "43215",
+    "city": "Columbus",
+    "state": "OH",
+    "lat": 39.965,
+    "lng": -82.999,
+    "population": 15000,
+    "indexable": true,
+    "facilities": [
+      {
+        "name": "Alum Creek Waste and Reuse Convenience Center",
+        "facility_type": "Resident convenience center \u2014 bulk / select electronics / food scraps",
+        "city_slug": "columbus",
+        "state": "OH",
+        "zip": "43207",
+        "address": "2100 Alum Creek Drive, Columbus, OH 43207",
+        "lat": 39.9275,
+        "lng": -82.9538,
+        "source_url": "https://www.columbus.gov/Services/Trash-Recycling-Bulk-Collection/Bulk-Collection",
+        "hours": "Tue\u2013Sat (confirm hours on city page)",
+        "phone": "614-645-3111"
+      },
+      {
+        "name": "SWACO Household Hazardous Waste Facility",
+        "facility_type": "Household hazardous waste drop-off",
+        "city_slug": "columbus",
+        "state": "OH",
+        "zip": "43201",
+        "address": "645 E 8th Avenue, Columbus, OH 43201",
+        "lat": 39.9812,
+        "lng": -82.9865,
+        "source_url": "https://www.columbus.gov/Services/Trash-Recycling-Bulk-Collection/Household-Trash-Collection/Household-Hazardous-Waste-Collection",
+        "hours": "Mon\u2013Fri 9:00\u201317:00; first Sat 9:00\u201314:00",
+        "phone": "614-871-5100"
+      }
+    ]
+  },
+  {
+    "state_slug": "ohio",
+    "city_slug": "columbus",
+    "zip": "43207",
+    "city": "Columbus",
+    "state": "OH",
+    "lat": 39.917,
+    "lng": -82.965,
+    "population": 42000,
+    "indexable": true,
+    "facilities": [
+      {
+        "name": "Alum Creek Waste and Reuse Convenience Center",
+        "facility_type": "Resident convenience center \u2014 bulk / select electronics / food scraps",
+        "city_slug": "columbus",
+        "state": "OH",
+        "zip": "43207",
+        "address": "2100 Alum Creek Drive, Columbus, OH 43207",
+        "lat": 39.9275,
+        "lng": -82.9538,
+        "source_url": "https://www.columbus.gov/Services/Trash-Recycling-Bulk-Collection/Bulk-Collection",
+        "hours": "Tue\u2013Sat (confirm hours on city page)",
+        "phone": "614-645-3111"
+      },
+      {
+        "name": "SWACO Household Hazardous Waste Facility",
+        "facility_type": "Household hazardous waste drop-off",
+        "city_slug": "columbus",
+        "state": "OH",
+        "zip": "43201",
+        "address": "645 E 8th Avenue, Columbus, OH 43201",
+        "lat": 39.9812,
+        "lng": -82.9865,
+        "source_url": "https://www.columbus.gov/Services/Trash-Recycling-Bulk-Collection/Household-Trash-Collection/Household-Hazardous-Waste-Collection",
+        "hours": "Mon\u2013Fri 9:00\u201317:00; first Sat 9:00\u201314:00",
+        "phone": "614-871-5100"
+      }
+    ]
+  },
+  {
+    "state_slug": "texas",
+    "city_slug": "fort-worth",
+    "zip": "76102",
+    "city": "Fort Worth",
+    "state": "TX",
+    "lat": 32.753,
+    "lng": -97.332,
+    "population": 10000,
+    "indexable": true,
+    "facilities": [
+      {
+        "name": "Brennan Drop-off Station (Fort Worth)",
+        "facility_type": "Municipal drop-off \u2014 bulk / freon appliances / e-waste / HHW / tires",
+        "city_slug": "fort-worth",
+        "state": "TX",
+        "zip": "76106",
+        "address": "2400 Brennan Avenue, Fort Worth, TX 76106",
+        "lat": 32.7885,
+        "lng": -97.3482,
+        "source_url": "https://www.fortworthtexas.gov/departments/environmental-services/solidwaste/dropoff",
+        "hours": "Tue\u2013Fri 8:00\u201317:00; Sat 8:00\u201312:00",
+        "phone": "817-392-EASY"
+      }
+    ]
+  },
+  {
+    "state_slug": "texas",
+    "city_slug": "fort-worth",
+    "zip": "76104",
+    "city": "Fort Worth",
+    "state": "TX",
+    "lat": 32.731,
+    "lng": -97.321,
+    "population": 22000,
+    "indexable": true,
+    "facilities": [
+      {
+        "name": "Brennan Drop-off Station (Fort Worth)",
+        "facility_type": "Municipal drop-off \u2014 bulk / freon appliances / e-waste / HHW / tires",
+        "city_slug": "fort-worth",
+        "state": "TX",
+        "zip": "76106",
+        "address": "2400 Brennan Avenue, Fort Worth, TX 76106",
+        "lat": 32.7885,
+        "lng": -97.3482,
+        "source_url": "https://www.fortworthtexas.gov/departments/environmental-services/solidwaste/dropoff",
+        "hours": "Tue\u2013Fri 8:00\u201317:00; Sat 8:00\u201312:00",
+        "phone": "817-392-EASY"
+      }
+    ]
   }
 ]
