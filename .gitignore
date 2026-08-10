@@ -11,3 +11,4 @@ apps/web/public/dumpregistry-indexnow-key-placeholder.txt
 *.log
 .turbo
 pgdata
+.vercel
