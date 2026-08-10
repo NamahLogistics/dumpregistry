@@ -1,0 +1,1262 @@
+[
+  {
+    "item_slug": "mattress",
+    "state": "CA",
+    "city_slug": null,
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Bulky item / mattress recycler",
+    "common_disposal_fee": "$25-$100",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "Do not put a mattress in your regular trash cart. Schedule bulky pickup or use a mattress recycler. This reflects California statewide guidance; always confirm city service details.",
+    "steps": [
+      "Confirm whether your hauler offers bulky/mattress collection.",
+      "Keep the mattress dry and accessible on pickup day.",
+      "Or drop off at a listed mattress recycler / transfer station."
+    ],
+    "faqs": [
+      {
+        "q": "Can I leave a mattress on the curb anytime?",
+        "a": "No. Unscheduled dumping can lead to fines \u2014 book bulky service."
+      },
+      {
+        "q": "Are box springs the same?",
+        "a": "Usually yes \u2014 treat box springs as bulky like mattresses."
+      },
+      {
+        "q": "Can I donate it?",
+        "a": "Only if clean, dry, and accepted by a local reuse program."
+      }
+    ],
+    "source_url": "https://calrecycle.ca.gov/",
+    "source_name": "California Department of Resources Recycling and Recovery (CalRecycle)",
+    "last_verified_at": "2026-06-15",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "car-battery",
+    "state": "CA",
+    "city_slug": null,
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Auto parts / battery retailer",
+    "common_disposal_fee": "Free-$15",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "Car batteries are banned from landfill trash. Return them to an auto parts store or household hazardous waste site. This reflects California statewide guidance; always confirm city service details.",
+    "steps": [
+      "Keep the battery upright and terminals covered.",
+      "Take it to an auto parts retailer that accepts lead-acid batteries.",
+      "Ask for any core credit or free take-back."
+    ],
+    "faqs": [
+      {
+        "q": "Why are they banned?",
+        "a": "They contain lead and acid that contaminate landfills and groundwater."
+      },
+      {
+        "q": "Can recycling take them?",
+        "a": "Not the blue bin \u2014 use battery take-back only."
+      },
+      {
+        "q": "What if it is leaking?",
+        "a": "Place in a sturdy secondary container and go to HHW."
+      }
+    ],
+    "source_url": "https://calrecycle.ca.gov/homehazwaste/",
+    "source_name": "CalRecycle Household Hazardous Waste",
+    "last_verified_at": "2026-06-15",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "paint-latex",
+    "state": "CA",
+    "city_slug": null,
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "PaintCare / HHW",
+    "common_disposal_fee": "Free-$30",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Medium",
+    "answer": "Liquid latex paint should go to PaintCare or HHW \u2014 not down drains or in trash while wet. This reflects California statewide guidance; always confirm city service details.",
+    "steps": [
+      "Keep paint in the original labeled can.",
+      "Find a PaintCare drop-off or city HHW event.",
+      "Only fully dried latex may have different local trash rules \u2014 confirm first."
+    ],
+    "faqs": [
+      {
+        "q": "Is dried latex trash?",
+        "a": "Some cities allow dried latex in trash; liquid paint usually does not."
+      },
+      {
+        "q": "Oil-based too?",
+        "a": "Oil-based paint is always HHW."
+      },
+      {
+        "q": "Can I recycle empty cans?",
+        "a": "Empty, dry metal cans may be recyclable \u2014 check local rules."
+      }
+    ],
+    "source_url": "https://calrecycle.ca.gov/homehazwaste/",
+    "source_name": "CalRecycle Household Hazardous Waste",
+    "last_verified_at": "2026-06-15",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "paint-oil",
+    "state": "CA",
+    "city_slug": null,
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "HHW facility",
+    "common_disposal_fee": "Free-$40",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "Oil-based paint is household hazardous waste and must go to an HHW facility. This reflects California statewide guidance; always confirm city service details.",
+    "steps": [
+      "Do not air-dry oil-based paint for trash.",
+      "Transport upright to an HHW facility.",
+      "Bring only accepted quantities for residents."
+    ],
+    "faqs": [
+      {
+        "q": "Can I put it in blue bin?",
+        "a": "No."
+      },
+      {
+        "q": "What about stain/varnish?",
+        "a": "Usually HHW like oil-based paint."
+      },
+      {
+        "q": "Business waste?",
+        "a": "Commercial generators often need a different program."
+      }
+    ],
+    "source_url": "https://calrecycle.ca.gov/homehazwaste/",
+    "source_name": "CalRecycle Household Hazardous Waste",
+    "last_verified_at": "2026-06-15",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "motor-oil",
+    "state": "CA",
+    "city_slug": null,
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Certified used-oil center",
+    "common_disposal_fee": "Free-$15",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "Used motor oil must go to a certified collection center \u2014 never storm drains or trash. This reflects California statewide guidance; always confirm city service details.",
+    "steps": [
+      "Store oil in a clean, sealed plastic container.",
+      "Take it to a certified used-oil collection center (often auto parts stores).",
+      "Ask about oil-filter recycling at the same visit."
+    ],
+    "faqs": [
+      {
+        "q": "Can I mix solvents in?",
+        "a": "No \u2014 keep oil uncontaminated."
+      },
+      {
+        "q": "Filters too?",
+        "a": "Drain filters and recycle where accepted."
+      },
+      {
+        "q": "Is there a limit?",
+        "a": "Residential limits vary \u2014 call ahead."
+      }
+    ],
+    "source_url": "https://calrecycle.ca.gov/homehazwaste/",
+    "source_name": "CalRecycle Household Hazardous Waste",
+    "last_verified_at": "2026-06-15",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "television",
+    "state": "CA",
+    "city_slug": null,
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "E-waste collector",
+    "common_disposal_fee": "Free-$40",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "Medium",
+    "answer": "TVs are covered e-waste in California and cannot go in regular trash. This reflects California statewide guidance; always confirm city service details.",
+    "steps": [
+      "Do not put TVs in trash or blue bins.",
+      "Use a city e-waste event, recycler, or retailer take-back.",
+      "CRT TVs may have special handling \u2014 call ahead."
+    ],
+    "faqs": [
+      {
+        "q": "Is this a California law?",
+        "a": "California's Covered Electronic Waste program restricts landfill disposal of many TVs/monitors."
+      },
+      {
+        "q": "Curbside e-waste?",
+        "a": "Some cities offer scheduled e-waste pickup \u2014 check local service."
+      },
+      {
+        "q": "Broken glass?",
+        "a": "Still e-waste; package safely for transport."
+      }
+    ],
+    "source_url": "https://calrecycle.ca.gov/electronics/",
+    "source_name": "CalRecycle Covered Electronic Waste",
+    "last_verified_at": "2026-06-15",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "tires",
+    "state": "CA",
+    "city_slug": null,
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Tire retailer / transfer",
+    "common_disposal_fee": "$2-$15 each",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "Medium",
+    "answer": "Scrap tires are not regular trash. Return them to a tire shop or approved transfer site. This reflects California statewide guidance; always confirm city service details.",
+    "steps": [
+      "Ask the installer to recycle your old tires when you buy new ones.",
+      "Or take tires to an approved drop-off (fees may apply).",
+      "Do not stockpile illegally."
+    ],
+    "faqs": [
+      {
+        "q": "Why banned?",
+        "a": "Whole tires cause landfill problems and mosquito breeding when dumped."
+      },
+      {
+        "q": "Rims on?",
+        "a": "Many sites want tires demounted \u2014 ask first."
+      },
+      {
+        "q": "How many at once?",
+        "a": "Limits vary by facility."
+      }
+    ],
+    "source_url": "https://calrecycle.ca.gov/tires/",
+    "source_name": "CalRecycle Tire Management",
+    "last_verified_at": "2026-06-15",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "refrigerator",
+    "state": "CA",
+    "city_slug": null,
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Appliance hauler / utility program",
+    "common_disposal_fee": "$20-$100",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "Medium",
+    "answer": "Refrigerators need refrigerant recovery. Schedule appliance pickup \u2014 do not curb them as trash. This reflects California statewide guidance; always confirm city service details.",
+    "steps": [
+      "Unplug and defrost safely.",
+      "Book municipal bulky/appliance service or retailer haul-away.",
+      "Confirm doors are secured for safety."
+    ],
+    "faqs": [
+      {
+        "q": "Can scrap guys take it?",
+        "a": "Only if they are certified for refrigerant recovery."
+      },
+      {
+        "q": "Free programs?",
+        "a": "Some utilities offer free fridge recycling \u2014 check eligibility."
+      },
+      {
+        "q": "Freezer same rules?",
+        "a": "Yes."
+      }
+    ],
+    "source_url": "https://calrecycle.ca.gov/homehazwaste/",
+    "source_name": "CalRecycle Household Hazardous Waste",
+    "last_verified_at": "2026-06-15",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "propane-tank",
+    "state": "CA",
+    "city_slug": null,
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Propane exchange / HHW",
+    "common_disposal_fee": "$5-$40",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "Propane tanks are pressurized and banned from trash carts. Use exchange or HHW. This reflects California statewide guidance; always confirm city service details.",
+    "steps": [
+      "Prefer cylinder exchange at hardware stores for BBQ tanks.",
+      "For uncommon sizes, use HHW or a propane dealer.",
+      "Never put tanks in compactors or trash trucks."
+    ],
+    "faqs": [
+      {
+        "q": "Empty tanks OK in trash?",
+        "a": "No \u2014 still pressurized risk."
+      },
+      {
+        "q": "Camping cylinders?",
+        "a": "Often HHW or specialty drop-off."
+      },
+      {
+        "q": "Is exchange recycling?",
+        "a": "Exchange refills/reuses cylinders."
+      }
+    ],
+    "source_url": "https://calrecycle.ca.gov/homehazwaste/",
+    "source_name": "CalRecycle Household Hazardous Waste",
+    "last_verified_at": "2026-06-15",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "fluorescent-bulbs",
+    "state": "CA",
+    "city_slug": null,
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "HHW / retail take-back",
+    "common_disposal_fee": "Free-$10",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "CFLs and fluorescent tubes contain mercury. Use HHW or retail take-back \u2014 not trash. This reflects California statewide guidance; always confirm city service details.",
+    "steps": [
+      "Store unbroken bulbs in original sleeves if possible.",
+      "Take to HHW or participating retailer.",
+      "If broken, ventilate and follow mercury cleanup guidance."
+    ],
+    "faqs": [
+      {
+        "q": "LEDs same?",
+        "a": "LEDs usually differ \u2014 check local rules."
+      },
+      {
+        "q": "Can blue bin take tubes?",
+        "a": "Generally no."
+      },
+      {
+        "q": "Business lamps?",
+        "a": "Often a separate commercial program."
+      }
+    ],
+    "source_url": "https://calrecycle.ca.gov/homehazwaste/",
+    "source_name": "CalRecycle Household Hazardous Waste",
+    "last_verified_at": "2026-06-15",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "medical-sharps",
+    "state": "CA",
+    "city_slug": null,
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Sharps mail-back / pharmacy",
+    "common_disposal_fee": "Free-$20",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "Sharps must go in approved containers to a sharps program \u2014 never loose in trash or recycling. This reflects California statewide guidance; always confirm city service details.",
+    "steps": [
+      "Place needles in an FDA-cleared sharps container.",
+      "Use a mail-back, pharmacy, or county sharps drop-off.",
+      "Do not recycle sharps containers in blue bins."
+    ],
+    "faqs": [
+      {
+        "q": "Plastic bottle OK?",
+        "a": "Some areas allow rigid bottles temporarily \u2014 confirm locally."
+      },
+      {
+        "q": "Can I recycle needles?",
+        "a": "No."
+      },
+      {
+        "q": "What about lancets?",
+        "a": "Treat as sharps."
+      }
+    ],
+    "source_url": "https://calrecycle.ca.gov/homehazwaste/",
+    "source_name": "CalRecycle Household Hazardous Waste",
+    "last_verified_at": "2026-06-15",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "plastic-bags",
+    "state": "CA",
+    "city_slug": null,
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Store drop-off",
+    "common_disposal_fee": "Free",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "Plastic bags jam sorting equipment. Return clean bags to grocery store drop-off \u2014 not the blue bin. This reflects California statewide guidance; always confirm city service details.",
+    "steps": [
+      "Keep bags clean and dry.",
+      "Use the store film-recycling bin.",
+      "Better: switch to reusable bags."
+    ],
+    "faqs": [
+      {
+        "q": "Why not blue bin?",
+        "a": "Bags tangle machinery and contaminate loads."
+      },
+      {
+        "q": "Film wrap too?",
+        "a": "Clean film often goes with store drop-off."
+      },
+      {
+        "q": "Compostable bags?",
+        "a": "Usually not in recycling; follow organics labels."
+      }
+    ],
+    "source_url": "https://calrecycle.ca.gov/",
+    "source_name": "California Department of Resources Recycling and Recovery (CalRecycle)",
+    "last_verified_at": "2026-06-15",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "yard-waste",
+    "state": "CA",
+    "city_slug": null,
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Organics / green bin",
+    "common_disposal_fee": "Free-$30",
+    "badge": "ACCEPTED_IN_BLUE_BIN",
+    "hazard_rating": "Low",
+    "answer": "Yard waste usually belongs in your organics/green cart where the city offers it \u2014 not mixed recycling. This reflects California statewide guidance; always confirm city service details.",
+    "steps": [
+      "Use the green/organics cart for leaves, grass, and small prunings.",
+      "Follow local size limits for branches.",
+      "For large volumes, use a transfer station or chipper service."
+    ],
+    "faqs": [
+      {
+        "q": "Is it the blue bin?",
+        "a": "No \u2014 organics/green cart. The badge means accepted in the diversion stream."
+      },
+      {
+        "q": "Palm fronds?",
+        "a": "Some cities restrict them \u2014 check your hauler."
+      },
+      {
+        "q": "Dirt/soil?",
+        "a": "Usually not in organics carts."
+      }
+    ],
+    "source_url": "https://calrecycle.ca.gov/organics/",
+    "source_name": "CalRecycle Organics",
+    "last_verified_at": "2026-06-15",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "e-waste-mixed",
+    "state": "CA",
+    "city_slug": null,
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "E-waste recycler",
+    "common_disposal_fee": "Free-$40",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "Medium",
+    "answer": "Mixed electronics should go to a certified e-waste recycler under California rules. This reflects California statewide guidance; always confirm city service details.",
+    "steps": [
+      "Wipe personal data from devices.",
+      "Use a city e-waste event or certified collector.",
+      "Keep batteries separate when required."
+    ],
+    "faqs": [
+      {
+        "q": "Is all electronics banned from trash?",
+        "a": "Many covered devices are; when unsure, recycle as e-waste."
+      },
+      {
+        "q": "Cables/keyboards?",
+        "a": "Often accepted at e-waste events."
+      },
+      {
+        "q": "Broken devices?",
+        "a": "Still recyclable as e-waste."
+      }
+    ],
+    "source_url": "https://calrecycle.ca.gov/electronics/",
+    "source_name": "CalRecycle Covered Electronic Waste",
+    "last_verified_at": "2026-06-15",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "lithium-battery",
+    "state": "CA",
+    "city_slug": null,
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "HHW / battery drop-off",
+    "common_disposal_fee": "Free-$20",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "Loose lithium batteries are a fire hazard and must not go in trash or recycling carts. This reflects California statewide guidance; always confirm city service details.",
+    "steps": [
+      "Tape terminals on exposed battery contacts.",
+      "Take to HHW or a battery drop-off.",
+      "Damaged/swollen batteries need special handling \u2014 ask HHW."
+    ],
+    "faqs": [
+      {
+        "q": "Inside a device?",
+        "a": "Recycle the whole device as e-waste when possible."
+      },
+      {
+        "q": "Why fires?",
+        "a": "Crushed lithium cells can ignite in trucks."
+      },
+      {
+        "q": "Can I mail them?",
+        "a": "Only via approved programs."
+      }
+    ],
+    "source_url": "https://calrecycle.ca.gov/homehazwaste/",
+    "source_name": "CalRecycle Household Hazardous Waste",
+    "last_verified_at": "2026-06-15",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "smartphone",
+    "state": "CA",
+    "city_slug": null,
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Retailer / e-waste",
+    "common_disposal_fee": "Free-$10",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "Medium",
+    "answer": "Wipe your phone and recycle it through retailer trade-in or e-waste \u2014 not the trash. This reflects California statewide guidance; always confirm city service details.",
+    "steps": [
+      "Factory reset and remove SIM/SD cards.",
+      "Use carrier/retailer take-back or city e-waste.",
+      "Remove cases if the recycler requests it."
+    ],
+    "faqs": [
+      {
+        "q": "Donation OK?",
+        "a": "Yes if it still works and you wiped it."
+      },
+      {
+        "q": "Battery swollen?",
+        "a": "Treat as damaged lithium \u2014 HHW guidance."
+      },
+      {
+        "q": "Broken screen?",
+        "a": "Still e-waste."
+      }
+    ],
+    "source_url": "https://calrecycle.ca.gov/electronics/",
+    "source_name": "CalRecycle Covered Electronic Waste",
+    "last_verified_at": "2026-06-15",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "computer-monitor",
+    "state": "CA",
+    "city_slug": null,
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "E-waste recycler",
+    "common_disposal_fee": "Free-$35",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "Medium",
+    "answer": "Monitors are covered e-waste in California. Use an e-waste collector. This reflects California statewide guidance; always confirm city service details.",
+    "steps": [
+      "Do not trash or curb as garbage.",
+      "Drop off at an e-waste recycler or event.",
+      "CRT monitors may have fees \u2014 call ahead."
+    ],
+    "faqs": [
+      {
+        "q": "TV rules apply?",
+        "a": "Yes, similar covered-device rules."
+      },
+      {
+        "q": "Office monitors?",
+        "a": "Businesses may need commercial e-waste service."
+      },
+      {
+        "q": "With stand?",
+        "a": "Usually accepted attached."
+      }
+    ],
+    "source_url": "https://calrecycle.ca.gov/electronics/",
+    "source_name": "CalRecycle Covered Electronic Waste",
+    "last_verified_at": "2026-06-15",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "air-conditioner",
+    "state": "CA",
+    "city_slug": null,
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Appliance hauler",
+    "common_disposal_fee": "$20-$120",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "Air conditioners contain refrigerant and need certified appliance recycling. This reflects California statewide guidance; always confirm city service details.",
+    "steps": [
+      "Do not vent refrigerant yourself.",
+      "Schedule appliance haul-away or a certified recycler.",
+      "Window units still need proper recovery."
+    ],
+    "faqs": [
+      {
+        "q": "Is scrap OK?",
+        "a": "Only certified handlers."
+      },
+      {
+        "q": "Can bulky pickup take ACs?",
+        "a": "Often yes if advertised as appliance service."
+      },
+      {
+        "q": "Portable AC same?",
+        "a": "Usually yes."
+      }
+    ],
+    "source_url": "https://calrecycle.ca.gov/homehazwaste/",
+    "source_name": "CalRecycle Household Hazardous Waste",
+    "last_verified_at": "2026-06-15",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "cooking-oil",
+    "state": "CA",
+    "city_slug": null,
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Grease recycler / organics guidance",
+    "common_disposal_fee": "Free-$15",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Medium",
+    "answer": "Do not pour cooking oil down drains. Small solidified amounts may have local organics rules; larger volumes need grease recycling. This reflects California statewide guidance; always confirm city service details.",
+    "steps": [
+      "Cool oil and store in a sealed container.",
+      "For large volumes, use a grease recycler or HHW guidance.",
+      "Wipe pans with a paper towel into organics where accepted."
+    ],
+    "faqs": [
+      {
+        "q": "Can it go in organics?",
+        "a": "Some cities accept small amounts absorbed in paper \u2014 not gallons of liquid oil."
+      },
+      {
+        "q": "Turkey fryer oil?",
+        "a": "Take to a recycler; do not dump."
+      },
+      {
+        "q": "Grease vs oil?",
+        "a": "Both clog pipes \u2014 never pour out."
+      }
+    ],
+    "source_url": "https://calrecycle.ca.gov/homehazwaste/",
+    "source_name": "CalRecycle Household Hazardous Waste",
+    "last_verified_at": "2026-06-15",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "construction-debris",
+    "state": "CA",
+    "city_slug": null,
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Transfer / C&D facility",
+    "common_disposal_fee": "$50-$200/load",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "Construction debris is not residential cart waste. Use a transfer station or C&D facility. This reflects California statewide guidance; always confirm city service details.",
+    "steps": [
+      "Separate hazardous materials first.",
+      "Haul to a transfer or C&D recycling facility.",
+      "For remodels, consider a temporary debris box."
+    ],
+    "faqs": [
+      {
+        "q": "Can I use black bin?",
+        "a": "Not for remodel loads \u2014 caps and fines apply."
+      },
+      {
+        "q": "Concrete OK there?",
+        "a": "Often yes at C&D sites."
+      },
+      {
+        "q": "Need a permit?",
+        "a": "Debris boxes may need right-of-way permits."
+      }
+    ],
+    "source_url": "https://calrecycle.ca.gov/",
+    "source_name": "California Department of Resources Recycling and Recovery (CalRecycle)",
+    "last_verified_at": "2026-06-15",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "food-scraps",
+    "state": "CA",
+    "city_slug": null,
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Organics cart",
+    "common_disposal_fee": "Free",
+    "badge": "ACCEPTED_IN_BLUE_BIN",
+    "hazard_rating": "Low",
+    "answer": "Food scraps belong in organics/compost carts where offered. This reflects California statewide guidance; always confirm city service details.",
+    "steps": [
+      "Collect scraps in organics cart or kitchen caddy.",
+      "Keep out plastic bags unless city-approved compostable bags.",
+      "No glass/metal in organics."
+    ],
+    "faqs": [
+      {
+        "q": "Meat OK?",
+        "a": "Often yes in municipal organics \u2014 confirm."
+      },
+      {
+        "q": "Pizza boxes?",
+        "a": "Greasy boxes may go organics if accepted."
+      },
+      {
+        "q": "Plastic containers?",
+        "a": "No."
+      }
+    ],
+    "source_url": "https://calrecycle.ca.gov/organics/",
+    "source_name": "CalRecycle Organics",
+    "last_verified_at": "2026-06-15",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "mattress",
+    "state": "CA",
+    "city_slug": "los-angeles",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Bulky item / mattress recycler",
+    "common_disposal_fee": "$25-$100",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Los Angeles, schedule LASAN bulky item collection for mattresses \u2014 do not leave them out unscheduled.",
+    "steps": [
+      "Confirm whether your hauler offers bulky/mattress collection.",
+      "Keep the mattress dry and accessible on pickup day.",
+      "Or drop off at a listed mattress recycler / transfer station."
+    ],
+    "faqs": [
+      {
+        "q": "Can I leave a mattress on the curb anytime?",
+        "a": "No. Unscheduled dumping can lead to fines \u2014 book bulky service."
+      },
+      {
+        "q": "Are box springs the same?",
+        "a": "Usually yes \u2014 treat box springs as bulky like mattresses."
+      },
+      {
+        "q": "Can I donate it?",
+        "a": "Only if clean, dry, and accepted by a local reuse program."
+      }
+    ],
+    "source_url": "https://www.lacitysan.org/",
+    "source_name": "City of Los Angeles Sanitation (LASAN)",
+    "last_verified_at": "2026-06-15",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "television",
+    "state": "CA",
+    "city_slug": "los-angeles",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "E-waste collector",
+    "common_disposal_fee": "Free-$40",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "Medium",
+    "answer": "Los Angeles residents should use LASAN e-waste options or certified collectors; TVs are not regular trash.",
+    "steps": [
+      "Do not put TVs in trash or blue bins.",
+      "Use a city e-waste event, recycler, or retailer take-back.",
+      "CRT TVs may have special handling \u2014 call ahead."
+    ],
+    "faqs": [
+      {
+        "q": "Is this a California law?",
+        "a": "California's Covered Electronic Waste program restricts landfill disposal of many TVs/monitors."
+      },
+      {
+        "q": "Curbside e-waste?",
+        "a": "Some cities offer scheduled e-waste pickup \u2014 check local service."
+      },
+      {
+        "q": "Broken glass?",
+        "a": "Still e-waste; package safely for transport."
+      }
+    ],
+    "source_url": "https://www.lacitysan.org/",
+    "source_name": "City of Los Angeles Sanitation (LASAN)",
+    "last_verified_at": "2026-06-15",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "yard-waste",
+    "state": "CA",
+    "city_slug": "los-angeles",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Organics / green bin",
+    "common_disposal_fee": "Free-$30",
+    "badge": "ACCEPTED_IN_BLUE_BIN",
+    "hazard_rating": "Low",
+    "answer": "LA organics/yard waste goes in the green bin where provided by your hauler.",
+    "steps": [
+      "Use the green/organics cart for leaves, grass, and small prunings.",
+      "Follow local size limits for branches.",
+      "For large volumes, use a transfer station or chipper service."
+    ],
+    "faqs": [
+      {
+        "q": "Is it the blue bin?",
+        "a": "No \u2014 organics/green cart. The badge means accepted in the diversion stream."
+      },
+      {
+        "q": "Palm fronds?",
+        "a": "Some cities restrict them \u2014 check your hauler."
+      },
+      {
+        "q": "Dirt/soil?",
+        "a": "Usually not in organics carts."
+      }
+    ],
+    "source_url": "https://www.lacitysan.org/",
+    "source_name": "City of Los Angeles Sanitation (LASAN)",
+    "last_verified_at": "2026-06-15",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "mattress",
+    "state": "CA",
+    "city_slug": "san-francisco",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Bulky item / mattress recycler",
+    "common_disposal_fee": "$25-$100",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "San Francisco bulky/reusable services handle mattresses \u2014 Recology schedules apply; do not dump on sidewalks.",
+    "steps": [
+      "Confirm whether your hauler offers bulky/mattress collection.",
+      "Keep the mattress dry and accessible on pickup day.",
+      "Or drop off at a listed mattress recycler / transfer station."
+    ],
+    "faqs": [
+      {
+        "q": "Can I leave a mattress on the curb anytime?",
+        "a": "No. Unscheduled dumping can lead to fines \u2014 book bulky service."
+      },
+      {
+        "q": "Are box springs the same?",
+        "a": "Usually yes \u2014 treat box springs as bulky like mattresses."
+      },
+      {
+        "q": "Can I donate it?",
+        "a": "Only if clean, dry, and accepted by a local reuse program."
+      }
+    ],
+    "source_url": "https://www.sfenvironment.org/",
+    "source_name": "Recology / SF Environment",
+    "last_verified_at": "2026-06-15",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "plastic-bags",
+    "state": "CA",
+    "city_slug": "san-francisco",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Store drop-off",
+    "common_disposal_fee": "Free",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "SF blue bins do not want plastic bags; use store take-back for clean film.",
+    "steps": [
+      "Keep bags clean and dry.",
+      "Use the store film-recycling bin.",
+      "Better: switch to reusable bags."
+    ],
+    "faqs": [
+      {
+        "q": "Why not blue bin?",
+        "a": "Bags tangle machinery and contaminate loads."
+      },
+      {
+        "q": "Film wrap too?",
+        "a": "Clean film often goes with store drop-off."
+      },
+      {
+        "q": "Compostable bags?",
+        "a": "Usually not in recycling; follow organics labels."
+      }
+    ],
+    "source_url": "https://www.sfenvironment.org/",
+    "source_name": "Recology / SF Environment",
+    "last_verified_at": "2026-06-15",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "food-scraps",
+    "state": "CA",
+    "city_slug": "san-francisco",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Organics cart",
+    "common_disposal_fee": "Free",
+    "badge": "ACCEPTED_IN_BLUE_BIN",
+    "hazard_rating": "Low",
+    "answer": "SF compost carts accept food scraps \u2014 keep liquids minimal and follow Recology rules.",
+    "steps": [
+      "Collect scraps in organics cart or kitchen caddy.",
+      "Keep out plastic bags unless city-approved compostable bags.",
+      "No glass/metal in organics."
+    ],
+    "faqs": [
+      {
+        "q": "Meat OK?",
+        "a": "Often yes in municipal organics \u2014 confirm."
+      },
+      {
+        "q": "Pizza boxes?",
+        "a": "Greasy boxes may go organics if accepted."
+      },
+      {
+        "q": "Plastic containers?",
+        "a": "No."
+      }
+    ],
+    "source_url": "https://www.sfenvironment.org/",
+    "source_name": "Recology / SF Environment",
+    "last_verified_at": "2026-06-15",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "tires",
+    "state": "CA",
+    "city_slug": "san-diego",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Tire retailer / transfer",
+    "common_disposal_fee": "$2-$15 each",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "Medium",
+    "answer": "San Diego residents should use tire retailers or approved facilities; tires are not curbside trash.",
+    "steps": [
+      "Ask the installer to recycle your old tires when you buy new ones.",
+      "Or take tires to an approved drop-off (fees may apply).",
+      "Do not stockpile illegally."
+    ],
+    "faqs": [
+      {
+        "q": "Why banned?",
+        "a": "Whole tires cause landfill problems and mosquito breeding when dumped."
+      },
+      {
+        "q": "Rims on?",
+        "a": "Many sites want tires demounted \u2014 ask first."
+      },
+      {
+        "q": "How many at once?",
+        "a": "Limits vary by facility."
+      }
+    ],
+    "source_url": "https://www.sandiego.gov/environmental-services",
+    "source_name": "City of San Diego Environmental Services",
+    "last_verified_at": "2026-06-15",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "car-battery",
+    "state": "CA",
+    "city_slug": "san-diego",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Auto parts / battery retailer",
+    "common_disposal_fee": "Free-$15",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "Take car batteries to auto parts take-back or HHW \u2014 not City trash carts.",
+    "steps": [
+      "Keep the battery upright and terminals covered.",
+      "Take it to an auto parts retailer that accepts lead-acid batteries.",
+      "Ask for any core credit or free take-back."
+    ],
+    "faqs": [
+      {
+        "q": "Why are they banned?",
+        "a": "They contain lead and acid that contaminate landfills and groundwater."
+      },
+      {
+        "q": "Can recycling take them?",
+        "a": "Not the blue bin \u2014 use battery take-back only."
+      },
+      {
+        "q": "What if it is leaking?",
+        "a": "Place in a sturdy secondary container and go to HHW."
+      }
+    ],
+    "source_url": "https://www.sandiego.gov/environmental-services",
+    "source_name": "City of San Diego Environmental Services",
+    "last_verified_at": "2026-06-15",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "refrigerator",
+    "state": "CA",
+    "city_slug": "san-jose",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Appliance hauler / utility program",
+    "common_disposal_fee": "$20-$100",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "Medium",
+    "answer": "San Jos\u00e9 appliance/bulky programs can haul refrigerators \u2014 confirm refrigerant-capable service.",
+    "steps": [
+      "Unplug and defrost safely.",
+      "Book municipal bulky/appliance service or retailer haul-away.",
+      "Confirm doors are secured for safety."
+    ],
+    "faqs": [
+      {
+        "q": "Can scrap guys take it?",
+        "a": "Only if they are certified for refrigerant recovery."
+      },
+      {
+        "q": "Free programs?",
+        "a": "Some utilities offer free fridge recycling \u2014 check eligibility."
+      },
+      {
+        "q": "Freezer same rules?",
+        "a": "Yes."
+      }
+    ],
+    "source_url": "https://www.sanjoseca.gov/your-government/departments-offices/environmental-services",
+    "source_name": "City of San Jos\u00e9 Environmental Services",
+    "last_verified_at": "2026-06-15",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "motor-oil",
+    "state": "CA",
+    "city_slug": "san-jose",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Certified used-oil center",
+    "common_disposal_fee": "Free-$15",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "Use certified used-oil centers in Santa Clara County rather than trash carts.",
+    "steps": [
+      "Store oil in a clean, sealed plastic container.",
+      "Take it to a certified used-oil collection center (often auto parts stores).",
+      "Ask about oil-filter recycling at the same visit."
+    ],
+    "faqs": [
+      {
+        "q": "Can I mix solvents in?",
+        "a": "No \u2014 keep oil uncontaminated."
+      },
+      {
+        "q": "Filters too?",
+        "a": "Drain filters and recycle where accepted."
+      },
+      {
+        "q": "Is there a limit?",
+        "a": "Residential limits vary \u2014 call ahead."
+      }
+    ],
+    "source_url": "https://www.sanjoseca.gov/your-government/departments-offices/environmental-services",
+    "source_name": "City of San Jos\u00e9 Environmental Services",
+    "last_verified_at": "2026-06-15",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "paint-latex",
+    "state": "CA",
+    "city_slug": "sacramento",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "PaintCare / HHW",
+    "common_disposal_fee": "Free-$30",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Medium",
+    "answer": "Sacramento residents can use PaintCare drop-off sites for latex paint \u2014 not drainage or wet trash.",
+    "steps": [
+      "Keep paint in the original labeled can.",
+      "Find a PaintCare drop-off or city HHW event.",
+      "Only fully dried latex may have different local trash rules \u2014 confirm first."
+    ],
+    "faqs": [
+      {
+        "q": "Is dried latex trash?",
+        "a": "Some cities allow dried latex in trash; liquid paint usually does not."
+      },
+      {
+        "q": "Oil-based too?",
+        "a": "Oil-based paint is always HHW."
+      },
+      {
+        "q": "Can I recycle empty cans?",
+        "a": "Empty, dry metal cans may be recyclable \u2014 check local rules."
+      }
+    ],
+    "source_url": "https://www.cityofsacramento.gov/public-works/recycling-solid-waste",
+    "source_name": "City of Sacramento Recycling & Solid Waste",
+    "last_verified_at": "2026-06-15",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "propane-tank",
+    "state": "CA",
+    "city_slug": "sacramento",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Propane exchange / HHW",
+    "common_disposal_fee": "$5-$40",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "Propane tanks go to exchange or county HHW \u2014 never Sacramento trash carts.",
+    "steps": [
+      "Prefer cylinder exchange at hardware stores for BBQ tanks.",
+      "For uncommon sizes, use HHW or a propane dealer.",
+      "Never put tanks in compactors or trash trucks."
+    ],
+    "faqs": [
+      {
+        "q": "Empty tanks OK in trash?",
+        "a": "No \u2014 still pressurized risk."
+      },
+      {
+        "q": "Camping cylinders?",
+        "a": "Often HHW or specialty drop-off."
+      },
+      {
+        "q": "Is exchange recycling?",
+        "a": "Exchange refills/reuses cylinders."
+      }
+    ],
+    "source_url": "https://www.cityofsacramento.gov/public-works/recycling-solid-waste",
+    "source_name": "City of Sacramento Recycling & Solid Waste",
+    "last_verified_at": "2026-06-15",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "e-waste-mixed",
+    "state": "CA",
+    "city_slug": "oakland",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "E-waste recycler",
+    "common_disposal_fee": "Free-$40",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "Medium",
+    "answer": "Oakland residents should use Alameda County e-waste options; electronics are not garbage.",
+    "steps": [
+      "Wipe personal data from devices.",
+      "Use a city e-waste event or certified collector.",
+      "Keep batteries separate when required."
+    ],
+    "faqs": [
+      {
+        "q": "Is all electronics banned from trash?",
+        "a": "Many covered devices are; when unsure, recycle as e-waste."
+      },
+      {
+        "q": "Cables/keyboards?",
+        "a": "Often accepted at e-waste events."
+      },
+      {
+        "q": "Broken devices?",
+        "a": "Still recyclable as e-waste."
+      }
+    ],
+    "source_url": "https://www.oaklandca.gov/topics/recycling-and-waste",
+    "source_name": "City of Oakland Public Works",
+    "last_verified_at": "2026-06-15",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "lithium-battery",
+    "state": "CA",
+    "city_slug": "oakland",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "HHW / battery drop-off",
+    "common_disposal_fee": "Free-$20",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "Bring lithium batteries to HHW/battery drop-off \u2014 Oakland carts cannot take loose cells.",
+    "steps": [
+      "Tape terminals on exposed battery contacts.",
+      "Take to HHW or a battery drop-off.",
+      "Damaged/swollen batteries need special handling \u2014 ask HHW."
+    ],
+    "faqs": [
+      {
+        "q": "Inside a device?",
+        "a": "Recycle the whole device as e-waste when possible."
+      },
+      {
+        "q": "Why fires?",
+        "a": "Crushed lithium cells can ignite in trucks."
+      },
+      {
+        "q": "Can I mail them?",
+        "a": "Only via approved programs."
+      }
+    ],
+    "source_url": "https://www.oaklandca.gov/topics/recycling-and-waste",
+    "source_name": "City of Oakland Public Works",
+    "last_verified_at": "2026-06-15",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "name": "LA Sanitation HHW Program",
+    "facility_type": "HHW facility",
+    "city_slug": "los-angeles",
+    "state": "CA",
+    "zip": "90058",
+    "address": "See LASAN HHW schedule",
+    "lat": 34.02,
+    "lng": -118.235,
+    "source_url": "https://www.lacitysan.org/"
+  },
+  {
+    "name": "SF Environment facility guidance",
+    "facility_type": "Municipal transfer",
+    "city_slug": "san-francisco",
+    "state": "CA",
+    "zip": "94124",
+    "address": "See SF Environment facility list",
+    "lat": 37.727,
+    "lng": -122.384,
+    "source_url": "https://www.sfenvironment.org/"
+  },
+  {
+    "name": "City of San Diego Miramar public facilities",
+    "facility_type": "Municipal transfer",
+    "city_slug": "san-diego",
+    "state": "CA",
+    "zip": "92145",
+    "address": "Confirm gate hours before visiting",
+    "lat": 32.872,
+    "lng": -117.148,
+    "source_url": "https://www.sandiego.gov/environmental-services"
+  },
+  {
+    "name": "Santa Clara County HHW Program",
+    "facility_type": "HHW facility",
+    "city_slug": "san-jose",
+    "state": "CA",
+    "zip": "95112",
+    "address": "County HHW appointment sites",
+    "lat": 37.348,
+    "lng": -121.89,
+    "source_url": "https://www.sccgov.org/"
+  },
+  {
+    "name": "Sacramento County HHW",
+    "facility_type": "HHW facility",
+    "city_slug": "sacramento",
+    "state": "CA",
+    "zip": "95828",
+    "address": "Confirm hours before visiting",
+    "lat": 38.5,
+    "lng": -121.4,
+    "source_url": "https://www.cityofsacramento.gov/public-works/recycling-solid-waste"
+  },
+  {
+    "name": "Alameda County HHW",
+    "facility_type": "HHW facility",
+    "city_slug": "oakland",
+    "state": "CA",
+    "zip": "94607",
+    "address": "County HHW drop-off \u2014 confirm site",
+    "lat": 37.804,
+    "lng": -122.28,
+    "source_url": "https://www.oaklandca.gov/topics/recycling-and-waste"
+  }
+]

@@ -1,0 +1,137 @@
+[
+  {
+    "city": "Los Angeles",
+    "city_slug": "los-angeles",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 34.0522,
+    "lng": -118.2437,
+    "population": 3898747
+  },
+  {
+    "city": "San Diego",
+    "city_slug": "san-diego",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 32.7157,
+    "lng": -117.1611,
+    "population": 1386932
+  },
+  {
+    "city": "San Jose",
+    "city_slug": "san-jose",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 37.3382,
+    "lng": -121.8863,
+    "population": 1013240
+  },
+  {
+    "city": "San Francisco",
+    "city_slug": "san-francisco",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 37.7749,
+    "lng": -122.4194,
+    "population": 873965
+  },
+  {
+    "city": "Sacramento",
+    "city_slug": "sacramento",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 38.5816,
+    "lng": -121.4944,
+    "population": 524943
+  },
+  {
+    "city": "Oakland",
+    "city_slug": "oakland",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 37.8044,
+    "lng": -122.2712,
+    "population": 440646
+  },
+  {
+    "city": "Fresno",
+    "city_slug": "fresno",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 36.7378,
+    "lng": -119.7871,
+    "population": 542107
+  },
+  {
+    "city": "Long Beach",
+    "city_slug": "long-beach",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 33.7701,
+    "lng": -118.1937,
+    "population": 466742
+  },
+  {
+    "city": "Bakersfield",
+    "city_slug": "bakersfield",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 35.3733,
+    "lng": -119.0187,
+    "population": 403455
+  },
+  {
+    "city": "Anaheim",
+    "city_slug": "anaheim",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 33.8366,
+    "lng": -117.9143,
+    "population": 346824
+  },
+  {
+    "city": "Santa Ana",
+    "city_slug": "santa-ana",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 33.7455,
+    "lng": -117.8677,
+    "population": 310227
+  },
+  {
+    "city": "Riverside",
+    "city_slug": "riverside",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 33.9806,
+    "lng": -117.3755,
+    "population": 314998
+  },
+  {
+    "city": "Stockton",
+    "city_slug": "stockton",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 37.9577,
+    "lng": -121.2908,
+    "population": 320804
+  },
+  {
+    "city": "Irvine",
+    "city_slug": "irvine",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 33.6846,
+    "lng": -117.8265,
+    "population": 307670
+  },
+  {
+    "city": "Chula Vista",
+    "city_slug": "chula-vista",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 32.6401,
+    "lng": -117.0842,
+    "population": 275487
+  }
+]

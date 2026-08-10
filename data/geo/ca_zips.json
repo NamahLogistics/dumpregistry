@@ -1,0 +1,152 @@
+[
+  {
+    "zip": "90012",
+    "city": "Los Angeles",
+    "city_slug": "los-angeles",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 34.061,
+    "lng": -118.239,
+    "population": 35000
+  },
+  {
+    "zip": "90024",
+    "city": "Los Angeles",
+    "city_slug": "los-angeles",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 34.064,
+    "lng": -118.438,
+    "population": 42000
+  },
+  {
+    "zip": "90045",
+    "city": "Los Angeles",
+    "city_slug": "los-angeles",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 33.959,
+    "lng": -118.4,
+    "population": 38000
+  },
+  {
+    "zip": "92101",
+    "city": "San Diego",
+    "city_slug": "san-diego",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 32.719,
+    "lng": -117.162,
+    "population": 41000
+  },
+  {
+    "zip": "92109",
+    "city": "San Diego",
+    "city_slug": "san-diego",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 32.794,
+    "lng": -117.239,
+    "population": 36000
+  },
+  {
+    "zip": "95112",
+    "city": "San Jose",
+    "city_slug": "san-jose",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 37.346,
+    "lng": -121.887,
+    "population": 45000
+  },
+  {
+    "zip": "95125",
+    "city": "San Jose",
+    "city_slug": "san-jose",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 37.296,
+    "lng": -121.892,
+    "population": 32000
+  },
+  {
+    "zip": "94102",
+    "city": "San Francisco",
+    "city_slug": "san-francisco",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 37.779,
+    "lng": -122.419,
+    "population": 28000
+  },
+  {
+    "zip": "94110",
+    "city": "San Francisco",
+    "city_slug": "san-francisco",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 37.75,
+    "lng": -122.415,
+    "population": 48000
+  },
+  {
+    "zip": "95814",
+    "city": "Sacramento",
+    "city_slug": "sacramento",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 38.581,
+    "lng": -121.494,
+    "population": 15000
+  },
+  {
+    "zip": "95825",
+    "city": "Sacramento",
+    "city_slug": "sacramento",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 38.59,
+    "lng": -121.406,
+    "population": 30000
+  },
+  {
+    "zip": "94607",
+    "city": "Oakland",
+    "city_slug": "oakland",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 37.804,
+    "lng": -122.285,
+    "population": 25000
+  },
+  {
+    "zip": "94612",
+    "city": "Oakland",
+    "city_slug": "oakland",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 37.81,
+    "lng": -122.268,
+    "population": 18000
+  },
+  {
+    "zip": "93721",
+    "city": "Fresno",
+    "city_slug": "fresno",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 36.737,
+    "lng": -119.787,
+    "population": 22000
+  },
+  {
+    "zip": "90802",
+    "city": "Long Beach",
+    "city_slug": "long-beach",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 33.77,
+    "lng": -118.192,
+    "population": 28000
+  }
+]

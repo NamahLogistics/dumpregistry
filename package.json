@@ -1,0 +1,21 @@
+{
+  "name": "dumpregistry",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "pnpm@10.33.0",
+  "scripts": {
+    "dev": "pnpm --filter web dev",
+    "build": "pnpm --filter web build",
+    "start": "pnpm --filter web start",
+    "lint": "pnpm --filter web lint",
+    "db:generate": "pnpm --filter @dumpregistry/db generate",
+    "db:migrate": "pnpm --filter @dumpregistry/db migrate",
+    "db:seed": "pnpm --filter @dumpregistry/db seed",
+    "data:resolve": "python3 scripts/resolve_pages.py",
+    "data:zips": "python3 scripts/download_zips.py",
+    "data:sitemaps": "python3 scripts/generate_sitemaps.py",
+    "data:indexnow": "python3 scripts/ping_indexnow.py",
+    "data:scrape": "python3 scripts/scrape_city_portals.py",
+    "smoke": "python3 scripts/smoke_check.py"
+  }
+}

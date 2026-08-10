@@ -1,0 +1,338 @@
+[
+  {
+    "state_slug": "california",
+    "city_slug": "los-angeles",
+    "zip": "90012",
+    "city": "Los Angeles",
+    "state": "CA",
+    "lat": 34.061,
+    "lng": -118.239,
+    "population": 35000,
+    "indexable": true,
+    "facilities": [
+      {
+        "name": "LA Sanitation HHW Program",
+        "facility_type": "HHW facility",
+        "city_slug": "los-angeles",
+        "state": "CA",
+        "zip": "90058",
+        "address": "See LASAN HHW schedule",
+        "lat": 34.02,
+        "lng": -118.235,
+        "source_url": "https://www.lacitysan.org/"
+      }
+    ]
+  },
+  {
+    "state_slug": "california",
+    "city_slug": "los-angeles",
+    "zip": "90024",
+    "city": "Los Angeles",
+    "state": "CA",
+    "lat": 34.064,
+    "lng": -118.438,
+    "population": 42000,
+    "indexable": true,
+    "facilities": [
+      {
+        "name": "LA Sanitation HHW Program",
+        "facility_type": "HHW facility",
+        "city_slug": "los-angeles",
+        "state": "CA",
+        "zip": "90058",
+        "address": "See LASAN HHW schedule",
+        "lat": 34.02,
+        "lng": -118.235,
+        "source_url": "https://www.lacitysan.org/"
+      }
+    ]
+  },
+  {
+    "state_slug": "california",
+    "city_slug": "los-angeles",
+    "zip": "90045",
+    "city": "Los Angeles",
+    "state": "CA",
+    "lat": 33.959,
+    "lng": -118.4,
+    "population": 38000,
+    "indexable": true,
+    "facilities": [
+      {
+        "name": "LA Sanitation HHW Program",
+        "facility_type": "HHW facility",
+        "city_slug": "los-angeles",
+        "state": "CA",
+        "zip": "90058",
+        "address": "See LASAN HHW schedule",
+        "lat": 34.02,
+        "lng": -118.235,
+        "source_url": "https://www.lacitysan.org/"
+      }
+    ]
+  },
+  {
+    "state_slug": "california",
+    "city_slug": "san-diego",
+    "zip": "92101",
+    "city": "San Diego",
+    "state": "CA",
+    "lat": 32.719,
+    "lng": -117.162,
+    "population": 41000,
+    "indexable": true,
+    "facilities": [
+      {
+        "name": "City of San Diego Miramar public facilities",
+        "facility_type": "Municipal transfer",
+        "city_slug": "san-diego",
+        "state": "CA",
+        "zip": "92145",
+        "address": "Confirm gate hours before visiting",
+        "lat": 32.872,
+        "lng": -117.148,
+        "source_url": "https://www.sandiego.gov/environmental-services"
+      }
+    ]
+  },
+  {
+    "state_slug": "california",
+    "city_slug": "san-diego",
+    "zip": "92109",
+    "city": "San Diego",
+    "state": "CA",
+    "lat": 32.794,
+    "lng": -117.239,
+    "population": 36000,
+    "indexable": true,
+    "facilities": [
+      {
+        "name": "City of San Diego Miramar public facilities",
+        "facility_type": "Municipal transfer",
+        "city_slug": "san-diego",
+        "state": "CA",
+        "zip": "92145",
+        "address": "Confirm gate hours before visiting",
+        "lat": 32.872,
+        "lng": -117.148,
+        "source_url": "https://www.sandiego.gov/environmental-services"
+      }
+    ]
+  },
+  {
+    "state_slug": "california",
+    "city_slug": "san-jose",
+    "zip": "95112",
+    "city": "San Jose",
+    "state": "CA",
+    "lat": 37.346,
+    "lng": -121.887,
+    "population": 45000,
+    "indexable": true,
+    "facilities": [
+      {
+        "name": "Santa Clara County HHW Program",
+        "facility_type": "HHW facility",
+        "city_slug": "san-jose",
+        "state": "CA",
+        "zip": "95112",
+        "address": "County HHW appointment sites",
+        "lat": 37.348,
+        "lng": -121.89,
+        "source_url": "https://www.sccgov.org/"
+      }
+    ]
+  },
+  {
+    "state_slug": "california",
+    "city_slug": "san-jose",
+    "zip": "95125",
+    "city": "San Jose",
+    "state": "CA",
+    "lat": 37.296,
+    "lng": -121.892,
+    "population": 32000,
+    "indexable": true,
+    "facilities": [
+      {
+        "name": "Santa Clara County HHW Program",
+        "facility_type": "HHW facility",
+        "city_slug": "san-jose",
+        "state": "CA",
+        "zip": "95112",
+        "address": "County HHW appointment sites",
+        "lat": 37.348,
+        "lng": -121.89,
+        "source_url": "https://www.sccgov.org/"
+      }
+    ]
+  },
+  {
+    "state_slug": "california",
+    "city_slug": "san-francisco",
+    "zip": "94102",
+    "city": "San Francisco",
+    "state": "CA",
+    "lat": 37.779,
+    "lng": -122.419,
+    "population": 28000,
+    "indexable": true,
+    "facilities": [
+      {
+        "name": "SF Environment facility guidance",
+        "facility_type": "Municipal transfer",
+        "city_slug": "san-francisco",
+        "state": "CA",
+        "zip": "94124",
+        "address": "See SF Environment facility list",
+        "lat": 37.727,
+        "lng": -122.384,
+        "source_url": "https://www.sfenvironment.org/"
+      }
+    ]
+  },
+  {
+    "state_slug": "california",
+    "city_slug": "san-francisco",
+    "zip": "94110",
+    "city": "San Francisco",
+    "state": "CA",
+    "lat": 37.75,
+    "lng": -122.415,
+    "population": 48000,
+    "indexable": true,
+    "facilities": [
+      {
+        "name": "SF Environment facility guidance",
+        "facility_type": "Municipal transfer",
+        "city_slug": "san-francisco",
+        "state": "CA",
+        "zip": "94124",
+        "address": "See SF Environment facility list",
+        "lat": 37.727,
+        "lng": -122.384,
+        "source_url": "https://www.sfenvironment.org/"
+      }
+    ]
+  },
+  {
+    "state_slug": "california",
+    "city_slug": "sacramento",
+    "zip": "95814",
+    "city": "Sacramento",
+    "state": "CA",
+    "lat": 38.581,
+    "lng": -121.494,
+    "population": 15000,
+    "indexable": true,
+    "facilities": [
+      {
+        "name": "Sacramento County HHW",
+        "facility_type": "HHW facility",
+        "city_slug": "sacramento",
+        "state": "CA",
+        "zip": "95828",
+        "address": "Confirm hours before visiting",
+        "lat": 38.5,
+        "lng": -121.4,
+        "source_url": "https://www.cityofsacramento.gov/public-works/recycling-solid-waste"
+      }
+    ]
+  },
+  {
+    "state_slug": "california",
+    "city_slug": "sacramento",
+    "zip": "95825",
+    "city": "Sacramento",
+    "state": "CA",
+    "lat": 38.59,
+    "lng": -121.406,
+    "population": 30000,
+    "indexable": true,
+    "facilities": [
+      {
+        "name": "Sacramento County HHW",
+        "facility_type": "HHW facility",
+        "city_slug": "sacramento",
+        "state": "CA",
+        "zip": "95828",
+        "address": "Confirm hours before visiting",
+        "lat": 38.5,
+        "lng": -121.4,
+        "source_url": "https://www.cityofsacramento.gov/public-works/recycling-solid-waste"
+      }
+    ]
+  },
+  {
+    "state_slug": "california",
+    "city_slug": "oakland",
+    "zip": "94607",
+    "city": "Oakland",
+    "state": "CA",
+    "lat": 37.804,
+    "lng": -122.285,
+    "population": 25000,
+    "indexable": true,
+    "facilities": [
+      {
+        "name": "Alameda County HHW",
+        "facility_type": "HHW facility",
+        "city_slug": "oakland",
+        "state": "CA",
+        "zip": "94607",
+        "address": "County HHW drop-off \u2014 confirm site",
+        "lat": 37.804,
+        "lng": -122.28,
+        "source_url": "https://www.oaklandca.gov/topics/recycling-and-waste"
+      }
+    ]
+  },
+  {
+    "state_slug": "california",
+    "city_slug": "oakland",
+    "zip": "94612",
+    "city": "Oakland",
+    "state": "CA",
+    "lat": 37.81,
+    "lng": -122.268,
+    "population": 18000,
+    "indexable": true,
+    "facilities": [
+      {
+        "name": "Alameda County HHW",
+        "facility_type": "HHW facility",
+        "city_slug": "oakland",
+        "state": "CA",
+        "zip": "94607",
+        "address": "County HHW drop-off \u2014 confirm site",
+        "lat": 37.804,
+        "lng": -122.28,
+        "source_url": "https://www.oaklandca.gov/topics/recycling-and-waste"
+      }
+    ]
+  },
+  {
+    "state_slug": "california",
+    "city_slug": "fresno",
+    "zip": "93721",
+    "city": "Fresno",
+    "state": "CA",
+    "lat": 36.737,
+    "lng": -119.787,
+    "population": 22000,
+    "indexable": true,
+    "facilities": []
+  },
+  {
+    "state_slug": "california",
+    "city_slug": "long-beach",
+    "zip": "90802",
+    "city": "Long Beach",
+    "state": "CA",
+    "lat": 33.77,
+    "lng": -118.192,
+    "population": 28000,
+    "indexable": true,
+    "facilities": []
+  }
+]

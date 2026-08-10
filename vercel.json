@@ -1,0 +1,5 @@
+{
+  "framework": "nextjs",
+  "installCommand": "pnpm install",
+  "buildCommand": "python3 scripts/resolve_pages.py && python3 scripts/generate_sitemaps.py && pnpm --filter web build"
+}

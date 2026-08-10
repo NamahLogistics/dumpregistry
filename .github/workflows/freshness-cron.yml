@@ -1,0 +1,23 @@
+name: Biannual portal freshness flags
+
+on:
+  schedule:
+    # Roughly twice a year
+    - cron: "0 14 1 1,7 *"
+  workflow_dispatch:
+
+jobs:
+  flag:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Dry-run scrape stub
+        run: python3 scripts/scrape_city_portals.py
+      - name: Upload flags
+        uses: actions/upload-artifact@v4
+        with:
+          name: portal-flags
+          path: data/resolved/portal_flags.json
