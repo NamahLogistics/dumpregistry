@@ -19,7 +19,15 @@ PORTALS = [
     {"city": "San Francisco", "url": "https://www.sfenvironment.org/"},
     {"city": "Sacramento", "url": "https://www.cityofsacramento.gov/public-works/recycling-solid-waste"},
     {"city": "Oakland", "url": "https://www.oaklandca.gov/topics/recycling-and-waste"},
-    # Extend toward top 100 over time
+    {"city": "Fresno", "url": "https://cleanupfresnocounty.com/drop-off-locations/"},
+    {"city": "Long Beach", "url": "https://www.longbeach.gov/lbds/neighborhood-services/environmental-services/"},
+    {"city": "Bakersfield", "url": "https://www.kernpublicworks.com/services/solid-waste/hazardous-waste/residential-hazardous-waste"},
+    {"city": "Anaheim", "url": "https://oclandfills.com/hhw"},
+    {"city": "Santa Ana", "url": "https://oclandfills.com/hhw"},
+    {"city": "Riverside", "url": "https://rcwaste.org/household-hazardous-waste"},
+    {"city": "Stockton", "url": "https://www.stocktonca.gov/services/garbage___recycling/hazardous_waste/index.php"},
+    {"city": "Irvine", "url": "https://oclandfills.com/hhw"},
+    {"city": "Chula Vista", "url": "https://www.chulavistaca.gov/departments/clean/environmental-services/hazardous-waste"},
 ]
 
 PATTERNS = [
@@ -66,7 +74,7 @@ def main() -> None:
             entry["error"] = str(exc)
         results.append(entry)
 
-    # Flag pages in resolved dataset when city matches
+    # Flag only — never rewrite answers, fees, facilities, or source fields.
     pages_path = ROOT / "data" / "resolved" / "pages.json"
     if pages_path.exists() and not dry:
         pages = json.loads(pages_path.read_text())
@@ -74,10 +82,11 @@ def main() -> None:
         for p in pages:
             if p.get("city") in flagged_cities:
                 p["needs_review"] = True
+                # Explicitly do not mutate answer/steps/fees/source_* here.
         pages_path.write_text(json.dumps(pages, indent=2))
 
     OUT.write_text(json.dumps(results, indent=2))
-    print(f"Wrote {OUT} ({len(results)} portals; dry={dry})")
+    print(f"Wrote {OUT} ({len(results)} portals; dry={dry}; flags-only=True)")
 
 
 if __name__ == "__main__":

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Resolve city×item pages with rule inheritance and indexability gates."""
+"""Resolve publishable city×item pages — city-sourced rules only (zero fake local pages)."""
 
 from __future__ import annotations
 
@@ -14,145 +14,99 @@ def load(path: Path):
     return json.loads(path.read_text(encoding="utf-8"))
 
 
+def load_merged(preferred: Path, *fallbacks: Path):
+    if preferred.exists():
+        return load(preferred)
+    rows = []
+    for path in fallbacks:
+        if path.exists():
+            rows.extend(load(path))
+    return rows
+
+
 def main() -> None:
-    items = load(DATA / "items.json")
-    cities = load(DATA / "geo" / "ca_cities.json")
-    zips = load(DATA / "geo" / "ca_zips.json")
-    rules = load(DATA / "rules" / "ca.json")
-    facilities = load(DATA / "facilities" / "ca.json")
+    items = {i["slug"]: i for i in load(DATA / "items.json")}
+    cities_rows = load_merged(
+        DATA / "geo" / "cities.json",
+        DATA / "geo" / "ca_cities.json",
+    )
+    cities = {c["city_slug"]: c for c in cities_rows}
+    zips = load_merged(DATA / "geo" / "zips.json", DATA / "geo" / "ca_zips.json")
+    rules = load_merged(
+        DATA / "rules" / "all.json",
+        DATA / "rules" / "ca.json",
+        DATA / "rules" / "national.json",
+    )
+    facilities = load_merged(
+        DATA / "facilities" / "all.json",
+        DATA / "facilities" / "ca.json",
+    )
 
-    items_by_slug = {i["slug"]: i for i in items}
-    state_rules = {}
-    city_rules = {}
-    for r in rules:
-        key = r["item_slug"]
-        if r.get("city_slug"):
-            city_rules[(r["city_slug"], key)] = r
-        else:
-            state_rules[key] = r
-
-    fac_by_city = {}
+    fac_by_city: dict[str, list] = {}
     for f in facilities:
+        if not f.get("source_url"):
+            continue
+        if not (f.get("address") or f.get("source_url")):
+            continue
         fac_by_city.setdefault(f["city_slug"], []).append(f)
 
-    zip_by_city = {}
+    zip_by_city: dict[str, list] = {}
     for z in zips:
         zip_by_city.setdefault(z["city_slug"], []).append(z)
 
     pages = []
-    for city in cities:
-        for item in items:
-            state_rule = state_rules.get(item["slug"])
-            city_rule = city_rules.get((city["city_slug"], item["slug"]))
-            # Index ONLY city-sourced rules. State/default can power the wizard but must not rank as local pages.
-            if city_rule:
-                rule = city_rule
-                source_level = "city"
-                badge = rule["badge"]
-                hazard = rule["hazard_rating"]
-                curbside = bool(rule["is_curbside_allowed"])
-                fee = rule["common_disposal_fee"]
-                facility = rule["nearest_facility_type"]
-                answer = rule["answer"]
-                steps = rule.get("steps") or []
-                faqs = rule.get("faqs") or []
-                source_url = rule.get("source_url")
-                source_name = rule.get("source_name")
-                last_verified = rule.get("last_verified_at")
-                needs_review = bool(rule.get("needs_review"))
-                indexable = True
-            elif state_rule:
-                rule = state_rule
-                source_level = "state"
-                badge = rule["badge"]
-                hazard = rule["hazard_rating"]
-                curbside = bool(rule["is_curbside_allowed"])
-                fee = rule["common_disposal_fee"]
-                facility = rule["nearest_facility_type"]
-                answer = (
-                    f"{rule['answer']} Note: this is statewide guidance only — we do not yet have a "
-                    f"verified {city['city']}-specific program source for this item."
-                )
-                steps = rule.get("steps") or []
-                faqs = rule.get("faqs") or []
-                source_url = rule.get("source_url")
-                source_name = rule.get("source_name")
-                last_verified = rule.get("last_verified_at")
-                needs_review = True
-                indexable = False
-            else:
-                badge = item["badge_default"]
-                hazard = item["hazard_default"]
-                curbside = bool(item["curbside_default"])
-                fee = item["fee_band_default"]
-                facility = item["facility_type_default"]
-                answer = (
-                    f"{item['summary_default']} We do not yet have a verified "
-                    f"{city['city']}, {city['state']} source for this item — treat this as general guidance."
-                )
-                steps = [
-                    "Check your city sanitation or hauler website for this item.",
-                    "If hazardous, use a household hazardous waste program.",
-                    "Suggest a correction on this page if you find an official update.",
-                ]
-                faqs = [
-                    {
-                        "q": f"Is this official for {city['city']}?",
-                        "a": "Not yet verified locally. Use the correction form with a .gov source.",
-                    },
-                    {
-                        "q": "Can I put it in my regular cart?",
-                        "a": "Follow the badge and summary; when unsure, assume special handling.",
-                    },
-                    {
-                        "q": "Where should I go?",
-                        "a": f"Start with a {facility.lower()} near {city['city']}.",
-                    },
-                ]
-                source_url = None
-                source_name = None
-                last_verified = None
-                needs_review = True
-                indexable = False
+    for r in rules:
+        city_slug = r.get("city_slug")
+        if not city_slug:
+            continue
+        city = cities.get(city_slug)
+        item = items.get(r["item_slug"])
+        if not city or not item:
+            continue
+        if not r.get("source_url") or not r.get("source_name") or not r.get("last_verified_at"):
+            continue
+        if not r.get("answer") or not r.get("steps"):
+            continue
 
-            city_facilities = fac_by_city.get(city["city_slug"], [])
-            # ZIP pages only when we have coordinates (facility distance usefulness)
-            pages.append(
-                {
-                    "state_slug": city["state_slug"],
-                    "city_slug": city["city_slug"],
-                    "zip": None,
-                    "item_slug": item["slug"],
-                    "city": city["city"],
-                    "state": city["state"],
-                    "item_name": item["name"],
-                    "category": item["category"],
-                    "is_curbside_allowed": curbside,
-                    "nearest_facility_type": facility,
-                    "common_disposal_fee": fee,
-                    "badge": badge,
-                    "hazard_rating": hazard,
-                    "answer": answer,
-                    "steps": steps,
-                    "faqs": faqs,
-                    "rule_source_level": source_level,
-                    "source_url": source_url,
-                    "source_name": source_name,
-                    "last_verified_at": last_verified,
-                    "lat": city.get("lat"),
-                    "lng": city.get("lng"),
-                    "indexable": indexable,
-                    "needs_review": needs_review,
-                    "facilities": city_facilities[:3],
-                    "nearby_zips": [z["zip"] for z in zip_by_city.get(city["city_slug"], [])[:5]],
-                }
-            )
+        city_facilities = fac_by_city.get(city_slug, [])
+        pages.append(
+            {
+                "state_slug": city["state_slug"],
+                "city_slug": city_slug,
+                "zip": None,
+                "item_slug": item["slug"],
+                "city": city["city"],
+                "state": city["state"],
+                "item_name": item["name"],
+                "category": item["category"],
+                "is_curbside_allowed": bool(r["is_curbside_allowed"]),
+                "nearest_facility_type": r["nearest_facility_type"],
+                "common_disposal_fee": r["common_disposal_fee"],
+                "badge": r["badge"],
+                "hazard_rating": r["hazard_rating"],
+                "answer": r["answer"],
+                "steps": r.get("steps") or [],
+                "faqs": r.get("faqs") or [],
+                "rule_source_level": "city",
+                "source_url": r["source_url"],
+                "source_name": r["source_name"],
+                "last_verified_at": r["last_verified_at"],
+                "lat": city.get("lat"),
+                "lng": city.get("lng"),
+                "indexable": True,
+                "needs_review": bool(r.get("needs_review")),
+                "facilities": city_facilities[:5],
+                "nearby_zips": [z["zip"] for z in zip_by_city.get(city_slug, [])[:5]],
+            }
+        )
 
-    # ZIP hubs only indexable when the city has real facility rows (not empty placeholders)
+    covered_cities = {p["city_slug"] for p in pages}
     cities_with_facilities = {c for c, rows in fac_by_city.items() if rows}
+
     zip_hubs = []
     for z in zips:
-        has_facilities = z["city_slug"] in cities_with_facilities
+        if z["city_slug"] not in covered_cities or z["city_slug"] not in cities_with_facilities:
+            continue
         zip_hubs.append(
             {
                 "state_slug": z["state_slug"],
@@ -163,18 +117,29 @@ def main() -> None:
                 "lat": z.get("lat"),
                 "lng": z.get("lng"),
                 "population": z.get("population", 0),
-                "indexable": has_facilities,
+                "indexable": True,
                 "facilities": fac_by_city.get(z["city_slug"], [])[:5],
             }
         )
+
+    coverage = {
+        "cities_with_guides": sorted(covered_cities),
+        "page_count": len(pages),
+        "zip_hub_count": len(zip_hubs),
+        "items_by_city": {},
+        "states": sorted({p["state_slug"] for p in pages}),
+    }
+    for p in pages:
+        coverage["items_by_city"].setdefault(p["city_slug"], []).append(p["item_slug"])
 
     out_dir = DATA / "resolved"
     out_dir.mkdir(parents=True, exist_ok=True)
     (out_dir / "pages.json").write_text(json.dumps(pages, indent=2))
     (out_dir / "zip_hubs.json").write_text(json.dumps(zip_hubs, indent=2))
-    indexable = sum(1 for p in pages if p["indexable"])
-    print(f"Resolved {len(pages)} city×item pages ({indexable} indexable), {len(zip_hubs)} ZIP hubs")
-    print(f"Wrote {out_dir / 'pages.json'}")
+    (out_dir / "coverage.json").write_text(json.dumps(coverage, indent=2))
+    print(f"Resolved {len(pages)} city-sourced pages only, {len(zip_hubs)} ZIP hubs")
+    print(f"States: {', '.join(coverage['states']) or '(none)'}")
+    print(f"Cities: {', '.join(sorted(covered_cities)) or '(none)'}")
 
 
 if __name__ == "__main__":

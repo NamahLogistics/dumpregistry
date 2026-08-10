@@ -8,27 +8,52 @@ export const metadata: Metadata = {
 };
 
 export default function CaliforniaHubPage() {
-  const cities = [...getCities()].sort((a, b) => b.population - a.population);
-  const indexable = getIndexablePages().length;
+  const pages = getIndexablePages().filter((p) => p.state_slug === "california");
+  const covered = new Set(pages.map((p) => p.city_slug));
+  const cities = [...getCities()]
+    .filter((c) => c.state_slug === "california")
+    .sort((a, b) => b.population - a.population);
+  const ready = cities.filter((c) => covered.has(c.city_slug));
+  const pending = cities.filter((c) => !covered.has(c.city_slug));
 
   return (
     <div className="shell page">
       <header className="prose">
         <h1>California</h1>
         <p>
-          We only publish indexable guides when we have a <strong>city-specific</strong> program source — not
-          statewide copy pasted as local advice. {indexable} verified city guides are live (starting with Los
-          Angeles, San Francisco, and San Diego). Other cities remain wizard-only until researched.
+          {pages.length} verified city-program guides across {ready.length} cities. We do not publish
+          statewide text as local advice.
         </p>
       </header>
-      <div className="hub-grid">
-        {cities.map((c) => (
-          <Link key={c.city_slug} className="hub-link" href={`/${c.state_slug}/${c.city_slug}`}>
-            <strong>{c.city}</strong>
-            <div>Population {c.population.toLocaleString()}</div>
-          </Link>
-        ))}
-      </div>
+
+      <section>
+        <h2>Verified cities</h2>
+        <div className="hub-grid">
+          {ready.map((c) => (
+            <Link key={c.city_slug} className="hub-link" href={`/${c.state_slug}/${c.city_slug}`}>
+              <strong>{c.city}</strong>
+              <div>
+                {pages.filter((p) => p.city_slug === c.city_slug).length} guides
+              </div>
+            </Link>
+          ))}
+        </div>
+      </section>
+
+      {pending.length ? (
+        <section>
+          <h2>Research pending</h2>
+          <p>These hubs exist so you can request a source — they have no invented local guides.</p>
+          <div className="hub-grid">
+            {pending.map((c) => (
+              <Link key={c.city_slug} className="hub-link" href={`/${c.state_slug}/${c.city_slug}`}>
+                <strong>{c.city}</strong>
+                <div>Not researched yet</div>
+              </Link>
+            ))}
+          </div>
+        </section>
+      ) : null}
     </div>
   );
 }

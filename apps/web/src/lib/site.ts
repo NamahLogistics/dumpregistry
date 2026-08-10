@@ -1,8 +1,8 @@
 export const site = {
   name: "DumpRegistry",
-  domain: "dumpregistry.org",
-  url: "https://dumpregistry.org",
-  tagline: "Clear answers for what you can dump — and how.",
+  domain: "www.dumpregistry.org",
+  url: "https://www.dumpregistry.org",
+  tagline: "City-sourced answers for what you can dispose of — and how.",
   description:
-    "DumpRegistry helps people dispose of hard-to-trash items with verified local guidance, sources, and next steps.",
+    "DumpRegistry publishes verified, city-program disposal guidance for hard-to-trash items, with official sources, verification dates, and clear next steps.",
 };

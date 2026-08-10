@@ -11,7 +11,7 @@ export function dataRoot() {
   ].filter(Boolean) as string[];
 
   for (const candidate of candidates) {
-    if (existsSync(candidate)) return candidate;
+    if (existsSync(/*turbopackIgnore: true*/ candidate)) return candidate;
   }
   return path.resolve(process.cwd(), "../../data");
 }
@@ -23,7 +23,7 @@ export function contentRoot() {
     path.resolve(__dirname, "../../../../content"),
   ];
   for (const candidate of candidates) {
-    if (existsSync(candidate)) return candidate;
+    if (existsSync(/*turbopackIgnore: true*/ candidate)) return candidate;
   }
   return path.resolve(process.cwd(), "../../content");
 }

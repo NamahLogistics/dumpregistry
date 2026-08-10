@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Smoke checks for resolved pages, sitemaps, and schema-critical fields."""
+"""Smoke checks for zero-fake city-sourced publish set."""
 
 from __future__ import annotations
 
@@ -14,53 +14,58 @@ ROOT = Path(__file__).resolve().parents[1]
 
 def main() -> None:
     pages = json.loads((ROOT / "data" / "resolved" / "pages.json").read_text())
-    indexable = [p for p in pages if p["indexable"]]
-    assert indexable, "No indexable pages"
-    sample = next(p for p in indexable if p["city_slug"] == "los-angeles" and p["item_slug"] == "mattress")
-    assert sample["source_url"]
-    assert sample["last_verified_at"]
-    assert len(sample["faqs"]) >= 3
-    assert sample["answer"]
-    thin = next(p for p in pages if not p["indexable"])
-    assert thin["rule_source_level"] == "default"
+    assert pages, "No pages"
+    assert all(p["indexable"] and p["rule_source_level"] == "city" for p in pages)
+    assert all(p.get("source_url") and p.get("last_verified_at") for p in pages)
+    assert not any("statewide guidance only" in (p.get("answer") or "").lower() for p in pages)
+
+    sample = next(p for p in pages if p["city_slug"] == "los-angeles" and p["item_slug"] == "mattress")
+    assert "LASAN" in sample["answer"] or "MyLA311" in sample["answer"]
+
     sitemap = ROOT / "apps" / "web" / "public" / "sitemap.xml"
-    assert sitemap.exists(), "sitemap.xml missing — run generate_sitemaps.py"
     robots = ROOT / "apps" / "web" / "public" / "robots.txt"
-    assert robots.exists(), "robots.txt missing"
-    sitemap_body = sitemap.read_text()
-    assert "sitemap-001.xml" in sitemap_body
-    schedule = json.loads((ROOT / "data" / "publish_schedule.json").read_text())
-    assert schedule["current_url_count"] > 0
+    assert sitemap.exists() and robots.exists()
 
     base = os.environ.get("SMOKE_BASE_URL")
     if base:
-        paths = [
+        for path in [
             "/",
             "/california/los-angeles/dispose/mattress",
-            "/california/los-angeles/dispose/box-spring",
-            "/methodology",
-            "/robots.txt",
+            "/california",
             "/sitemap.xml",
-        ]
-        for path in paths:
-            url = base.rstrip("/") + path
-            with urllib.request.urlopen(url, timeout=20) as resp:
-                html = resp.read().decode("utf-8", errors="replace")
+        ]:
+            with urllib.request.urlopen(base.rstrip("/") + path, timeout=20) as resp:
                 assert resp.status == 200
+                body = resp.read().decode("utf-8", errors="replace")
             if path.endswith("mattress"):
-                assert "FAQPage" in html
-                assert "HowTo" in html
-                assert "Banned from landfills" in html or "Special handling" in html
-                assert "noindex" not in html.lower()
-            if path.endswith("box-spring"):
-                assert "noindex" in html.lower()
+                assert "FAQPage" in body
+                assert "noindex" not in body.lower()
+        # Covered city guide must be indexable
+        with urllib.request.urlopen(
+            base.rstrip("/") + "/california/san-jose/dispose/mattress", timeout=20
+        ) as resp:
+            assert resp.status == 200
+            sj = resp.read().decode("utf-8", errors="replace")
+            assert "noindex" not in sj.lower()
+            assert "statewide guidance" not in sj.lower()
+
+        # Unknown item slug must 404
+        try:
+            urllib.request.urlopen(
+                base.rstrip("/") + "/california/los-angeles/dispose/not-a-real-item", timeout=20
+            )
+            raise AssertionError("expected 404 for unknown dispose page")
+        except urllib.error.HTTPError as exc:
+            assert exc.code == 404
+
+    cities = {p["city_slug"] for p in pages}
+    states = {p["state_slug"] for p in pages}
+    assert "california" in states
+    if "houston" in cities:
+        assert any(p["city_slug"] == "houston" and p["item_slug"] == "mattress" for p in pages)
 
     print("SMOKE OK")
-    print(f"  pages={len(pages)} indexable={len(indexable)}")
-    print(f"  sample={sample['city']} / {sample['item_name']} indexable={sample['indexable']}")
-    print(f"  sitemap={sitemap}")
-    if base:
-        print(f"  http checks against {base}")
+    print(f"  pages={len(pages)} cities={len(cities)} states={sorted(states)}")
 
 
 if __name__ == "__main__":

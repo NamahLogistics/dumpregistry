@@ -37,8 +37,8 @@ export function LeadModule({
     <section className="lead-module" aria-labelledby="lead-heading">
       <h2 id="lead-heading">Need pickup in {city}?</h2>
       <p>
-        If you cannot haul it yourself, request a junk-removal / specialty pickup quote. This is optional and
-        separate from the free disposal answer above.
+        If you cannot haul it yourself, request pickup options. We may share this request with vetted local
+        haulers in our lead marketplace. Optional — separate from the free disposal answer above.
       </p>
       <form onSubmit={submit} className="lead-form">
         <label>

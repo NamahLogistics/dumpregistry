@@ -9,7 +9,7 @@ import urllib.request
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-BASE = "https://dumpregistry.org"
+BASE = "https://www.dumpregistry.org"
 KEY = os.environ.get("INDEXNOW_KEY", "dumpregistry-indexnow-key-placeholder")
 
 

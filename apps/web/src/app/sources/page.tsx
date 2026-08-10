@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
-import { readFileSync } from "node:fs";
+import { readFileSync, existsSync } from "node:fs";
 import path from "node:path";
+import { SourceLink } from "@/components/SourceLink";
 import { dataRoot } from "@/lib/paths";
 
 export const metadata: Metadata = {
   title: "Sources",
-  description: "Primary sources used for California disposal guidance on DumpRegistry.",
+  description: "Primary sources used for city disposal guidance on DumpRegistry.",
 };
 
 type Rule = {
@@ -15,26 +16,38 @@ type Rule = {
   item_slug: string;
 };
 
+function loadRules(): Rule[] {
+  const root = dataRoot();
+  const preferred = path.join(root, "rules/all.json");
+  if (existsSync(preferred)) return JSON.parse(readFileSync(preferred, "utf8")) as Rule[];
+  const rows: Rule[] = [];
+  for (const name of ["ca.json", "national.json"]) {
+    const p = path.join(root, "rules", name);
+    if (existsSync(p)) rows.push(...(JSON.parse(readFileSync(p, "utf8")) as Rule[]));
+  }
+  return rows;
+}
+
 export default function SourcesPage() {
-  const rules = JSON.parse(
-    readFileSync(path.join(dataRoot(), "rules/ca.json"), "utf8"),
-  ) as Rule[];
+  const rules = loadRules();
   const unique = new Map<string, Rule>();
-  for (const r of rules) unique.set(r.source_url, r);
+  for (const r of rules) {
+    if (r.city_slug) unique.set(r.source_url, r);
+  }
 
   return (
     <article className="shell page prose">
       <h1>Sources</h1>
       <p>
-        Indexable answers cite the sources below. Always confirm hours, fees, and appointment rules on the
-        originating site before you haul an item.
+        Indexable answers cite the city/county sources below. Always confirm hours, fees, and appointment rules
+        on the originating site before you haul an item.
       </p>
       <ul>
         {[...unique.values()].map((r) => (
           <li key={r.source_url}>
-            <a href={r.source_url} target="_blank" rel="noopener noreferrer">
+            <SourceLink url={r.source_url} title={r.source_name}>
               {r.source_name}
-            </a>
+            </SourceLink>
           </li>
         ))}
       </ul>

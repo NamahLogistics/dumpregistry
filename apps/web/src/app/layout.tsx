@@ -1,18 +1,21 @@
 import type { Metadata } from "next";
-import { Fraunces, Source_Sans_3 } from "next/font/google";
+import { Merriweather, Source_Sans_3 } from "next/font/google";
+import { OfficialViewerProvider } from "@/components/OfficialViewer";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 import { site } from "@/lib/site";
 import "./globals.css";
 
-const display = Fraunces({
+const display = Merriweather({
   variable: "--font-display",
   subsets: ["latin"],
+  weight: ["700", "900"],
 });
 
 const body = Source_Sans_3({
   variable: "--font-body",
   subsets: ["latin"],
+  weight: ["400", "600", "700"],
 });
 
 export const metadata: Metadata = {
@@ -62,9 +65,11 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(siteJsonLd) }}
         />
-        <SiteHeader />
-        <main className="flex-1">{children}</main>
-        <SiteFooter />
+        <OfficialViewerProvider>
+          <SiteHeader />
+          <main className="flex-1">{children}</main>
+          <SiteFooter />
+        </OfficialViewerProvider>
       </body>
     </html>
   );

@@ -148,5 +148,75 @@
     "lat": 33.77,
     "lng": -118.192,
     "population": 28000
+  },
+  {
+    "zip": "93301",
+    "city": "Bakersfield",
+    "city_slug": "bakersfield",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 35.3733,
+    "lng": -119.0187,
+    "population": 403455
+  },
+  {
+    "zip": "92805",
+    "city": "Anaheim",
+    "city_slug": "anaheim",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 33.8366,
+    "lng": -117.9143,
+    "population": 346824
+  },
+  {
+    "zip": "92701",
+    "city": "Santa Ana",
+    "city_slug": "santa-ana",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 33.7455,
+    "lng": -117.8677,
+    "population": 310227
+  },
+  {
+    "zip": "92501",
+    "city": "Riverside",
+    "city_slug": "riverside",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 33.9806,
+    "lng": -117.3755,
+    "population": 314998
+  },
+  {
+    "zip": "95202",
+    "city": "Stockton",
+    "city_slug": "stockton",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 37.9577,
+    "lng": -121.2908,
+    "population": 320804
+  },
+  {
+    "zip": "92602",
+    "city": "Irvine",
+    "city_slug": "irvine",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 33.6846,
+    "lng": -117.8265,
+    "population": 307670
+  },
+  {
+    "zip": "91910",
+    "city": "Chula Vista",
+    "city_slug": "chula-vista",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 32.6401,
+    "lng": -117.0842,
+    "population": 275487
   }
 ]

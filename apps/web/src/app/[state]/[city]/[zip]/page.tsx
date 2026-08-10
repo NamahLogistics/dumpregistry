@@ -1,27 +1,30 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { MapPlaceholder } from "@/components/MapPlaceholder";
-import { getCityPages, getZipHub } from "@/lib/data";
+import { CityItemFinder } from "@/components/CityItemFinder";
+import { ContinueReading } from "@/components/ContinueReading";
+import { FacilityMap } from "@/components/FacilityMap";
+import { getCityHighIntentGuides, getCityPages, getZipHub, getZipHubs } from "@/lib/data";
 
 type Props = { params: Promise<{ state: string; city: string; zip: string }> };
 
 export async function generateStaticParams() {
-  const { getZipHubs } = await import("@/lib/data");
-  return getZipHubs().map((z) => ({
-    state: z.state_slug,
-    city: z.city_slug,
-    zip: z.zip,
-  }));
+  return getZipHubs()
+    .filter((z) => z.indexable)
+    .map((z) => ({
+      state: z.state_slug,
+      city: z.city_slug,
+      zip: z.zip,
+    }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { state, city, zip } = await params;
   const hub = getZipHub(state, city, zip);
-  if (!hub) return {};
+  if (!hub) return { robots: { index: false, follow: false } };
   return {
     title: `ZIP ${hub.zip} disposal context — ${hub.city}, ${hub.state}`,
-    description: `Facilities and item guides near ZIP ${hub.zip} in ${hub.city}.`,
+    description: `Verified facilities and item guides near ZIP ${hub.zip} in ${hub.city}.`,
   };
 }
 
@@ -29,40 +32,78 @@ export default async function ZipHubPage({ params }: Props) {
   const { state, city, zip } = await params;
   const hub = getZipHub(state, city, zip);
   if (!hub) notFound();
-  const guides = getCityPages(state, city).filter((p) => p.indexable);
+  const guides = getCityPages(state, city);
+  const starters = getCityHighIntentGuides(state, city, 8);
+  const otherZips = getZipHubs().filter(
+    (z) =>
+      z.indexable &&
+      z.state_slug === state &&
+      z.city_slug === city &&
+      z.zip !== hub.zip,
+  );
 
   return (
     <div className="shell page">
+      <nav className="crumb-row" aria-label="Breadcrumb">
+        <Link href="/cities">Cities</Link>
+        <span>/</span>
+        <Link href={`/${hub.state_slug}/${hub.city_slug}`}>{hub.city}</Link>
+        <span>/</span>
+        <span>ZIP {hub.zip}</span>
+      </nav>
+
       <header className="prose">
         <h1>
           ZIP {hub.zip} · {hub.city}, {hub.state}
         </h1>
         <p>
-          Facility orientation for this ZIP. Item answers live on city guides — we only create ZIP hubs when
-          coordinates help humans navigate.{" "}
+          Facility orientation for this ZIP. Open an item guide next for the full disposal answer.{" "}
           <Link href={`/${hub.state_slug}/${hub.city_slug}`}>{hub.city} hub</Link>
         </p>
       </header>
-      <MapPlaceholder
+
+      <ContinueReading
+        id="zip-starters"
+        heading={`Start with a guide in ${hub.city}`}
+        lead="ZIP pages orient facilities — item pages give the step-by-step answer."
+        links={starters.map((p) => ({
+          href: `/${p.state_slug}/${p.city_slug}/dispose/${p.item_slug}`,
+          title: p.item_name,
+          meta: p.category,
+        }))}
+      />
+
+      <FacilityMap
+        city={`${hub.city} ${hub.zip}`}
         lat={hub.lat}
         lng={hub.lng}
-        city={`${hub.city} ${hub.zip}`}
         facilities={hub.facilities}
+        zipRefs={[{ zip: hub.zip, lat: hub.lat, lng: hub.lng }]}
       />
-      <section>
-        <h2>Item guides for {hub.city}</h2>
-        <div className="hub-grid">
-          {guides.map((p) => (
-            <Link
-              key={p.item_slug}
-              className="hub-link"
-              href={`/${p.state_slug}/${p.city_slug}/dispose/${p.item_slug}`}
-            >
-              {p.item_name}
-            </Link>
-          ))}
-        </div>
-      </section>
+
+      {otherZips.length ? (
+        <ContinueReading
+          id="other-zips"
+          heading={`Other ${hub.city} ZIP hubs`}
+          links={otherZips.slice(0, 8).map((z) => ({
+            href: `/${z.state_slug}/${z.city_slug}/${z.zip}`,
+            title: `ZIP ${z.zip}`,
+            meta: hub.city,
+          }))}
+        />
+      ) : null}
+
+      <CityItemFinder
+        city={hub.city}
+        guides={guides.map((p) => ({
+          item_slug: p.item_slug,
+          item_name: p.item_name,
+          category: p.category,
+          state_slug: p.state_slug,
+          city_slug: p.city_slug,
+          badge: p.badge,
+        }))}
+      />
     </div>
   );
 }

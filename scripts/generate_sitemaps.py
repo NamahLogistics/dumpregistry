@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate sitemap index + up to 40 sitemap files (≤50k URLs each)."""
+"""Generate sitemap index — verified city-sourced URLs only."""
 
 from __future__ import annotations
 
@@ -10,7 +10,7 @@ from xml.sax.saxutils import escape
 ROOT = Path(__file__).resolve().parents[1]
 SITE = (ROOT / "apps" / "web" / "public").resolve()
 SITEMAP_DIR = SITE / "sitemaps"
-BASE = "https://dumpregistry.org"
+BASE = "https://www.dumpregistry.org"
 MAX_URLS = 50_000
 
 
@@ -27,17 +27,21 @@ def url_entry(loc: str, priority: str = "0.6") -> str:
 def main() -> None:
     pages = json.loads((ROOT / "data" / "resolved" / "pages.json").read_text())
     zip_hubs = json.loads((ROOT / "data" / "resolved" / "zip_hubs.json").read_text())
-    cities = json.loads((ROOT / "data" / "geo" / "ca_cities.json").read_text())
+    covered_cities = sorted({(p["state_slug"], p["city_slug"]) for p in pages if p.get("indexable")})
 
+    states = sorted({s for s, _ in covered_cities})
     urls: list[tuple[str, str]] = [
         (f"{BASE}/", "1.0"),
         (f"{BASE}/about", "0.5"),
         (f"{BASE}/methodology", "0.5"),
         (f"{BASE}/sources", "0.5"),
-        (f"{BASE}/california", "0.8"),
+        (f"{BASE}/partners", "0.6"),
+        (f"{BASE}/cities", "0.8"),
     ]
-    for c in cities:
-        urls.append((f"{BASE}/{c['state_slug']}/{c['city_slug']}", "0.7"))
+    for state_slug in states:
+        urls.append((f"{BASE}/{state_slug}", "0.75"))
+    for state_slug, city_slug in covered_cities:
+        urls.append((f"{BASE}/{state_slug}/{city_slug}", "0.7"))
     for z in zip_hubs:
         if z.get("indexable"):
             urls.append((f"{BASE}/{z['state_slug']}/{z['city_slug']}/{z['zip']}", "0.55"))
@@ -56,7 +60,6 @@ def main() -> None:
         old.unlink()
 
     chunks = [urls[i : i + MAX_URLS] for i in range(0, max(len(urls), 1), MAX_URLS)]
-    # Reserve naming through 040 even if empty placeholders are not written
     sitemap_names = []
     for idx, chunk in enumerate(chunks, start=1):
         name = f"sitemap-{idx:03d}.xml"
@@ -77,13 +80,10 @@ def main() -> None:
     (SITE / "sitemap.xml").write_text(index)
 
     schedule = {
-        "month_1": {"sitemaps": ["sitemap-001.xml"], "region": "California verified pages"},
-        "month_2": {"sitemaps": ["sitemap-002.xml", "sitemap-003.xml", "sitemap-004.xml"], "region": "TX, NY, FL (when verified)"},
-        "month_3": {"sitemaps": [f"sitemap-{i:03d}.xml" for i in range(5, 11)], "region": "Midwest (when verified)"},
-        "month_4_6": {"sitemaps": [f"sitemap-{i:03d}.xml" for i in range(11, 41)], "region": "Nationwide expansion"},
-        "note": "Only submit sitemaps that contain verified/indexable URLs. Empty reserved names are not generated until needed.",
+        "policy": "Only verified city-sourced URLs",
         "current_url_count": len(urls),
         "files_written": sitemap_names,
+        "covered_city_count": len(covered_cities),
     }
     (ROOT / "data" / "publish_schedule.json").write_text(json.dumps(schedule, indent=2))
     print(f"Wrote {len(sitemap_names)} sitemap file(s), {len(urls)} URLs total")

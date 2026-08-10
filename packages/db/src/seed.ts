@@ -13,12 +13,20 @@ function readJson<T>(rel: string): T {
 async function main() {
   const db = createDb();
   const itemRows = readJson<Array<Record<string, unknown>>>("data/items.json");
-  const cities = readJson<Array<Record<string, unknown>>>("data/geo/ca_cities.json");
-  const zips = existsSync(resolve(root, "data/geo/ca_zips.json"))
-    ? readJson<Array<Record<string, unknown>>>("data/geo/ca_zips.json")
-    : [];
-  const ruleRows = readJson<Array<Record<string, unknown>>>("data/rules/ca.json");
-  const facilityRows = readJson<Array<Record<string, unknown>>>("data/facilities/ca.json");
+  const cities = existsSync(resolve(root, "data/geo/cities.json"))
+    ? readJson<Array<Record<string, unknown>>>("data/geo/cities.json")
+    : readJson<Array<Record<string, unknown>>>("data/geo/ca_cities.json");
+  const zips = existsSync(resolve(root, "data/geo/zips.json"))
+    ? readJson<Array<Record<string, unknown>>>("data/geo/zips.json")
+    : existsSync(resolve(root, "data/geo/ca_zips.json"))
+      ? readJson<Array<Record<string, unknown>>>("data/geo/ca_zips.json")
+      : [];
+  const ruleRows = existsSync(resolve(root, "data/rules/all.json"))
+    ? readJson<Array<Record<string, unknown>>>("data/rules/all.json")
+    : readJson<Array<Record<string, unknown>>>("data/rules/ca.json");
+  const facilityRows = existsSync(resolve(root, "data/facilities/all.json"))
+    ? readJson<Array<Record<string, unknown>>>("data/facilities/all.json")
+    : readJson<Array<Record<string, unknown>>>("data/facilities/ca.json");
   const pages = existsSync(resolve(root, "data/resolved/pages.json"))
     ? readJson<Array<Record<string, unknown>>>("data/resolved/pages.json")
     : [];
@@ -68,27 +76,28 @@ async function main() {
     ].slice(0, 5000),
   );
 
-  await db.insert(rules).values(
-    ruleRows.map((r) => ({
-      itemSlug: String(r.item_slug),
-      state: String(r.state),
-      citySlug: (r.city_slug as string | null) ?? null,
-      zip: (r.zip as string | null) ?? null,
-      isCurbsideAllowed: r.is_curbside_allowed as boolean | null,
-      nearestFacilityType: (r.nearest_facility_type as string | null) ?? null,
-      commonDisposalFee: (r.common_disposal_fee as string | null) ?? null,
-      badge: (r.badge as string | null) ?? null,
-      hazardRating: (r.hazard_rating as string | null) ?? null,
-      answer: (r.answer as string | null) ?? null,
-      stepsJson: JSON.stringify(r.steps ?? []),
-      faqsJson: JSON.stringify(r.faqs ?? []),
-      sourceUrl: String(r.source_url),
-      sourceName: String(r.source_name),
-      lastVerifiedAt: new Date(String(r.last_verified_at)),
-      reviewedBy: (r.reviewed_by as string | null) ?? "editorial",
-      needsReview: Boolean(r.needs_review ?? false),
-    })),
-  );
+  const mappedRules = ruleRows.map((r) => ({
+    itemSlug: String(r.item_slug),
+    state: String(r.state),
+    citySlug: (r.city_slug as string | null) ?? null,
+    zip: (r.zip as string | null) ?? null,
+    isCurbsideAllowed: r.is_curbside_allowed as boolean | null,
+    nearestFacilityType: (r.nearest_facility_type as string | null) ?? null,
+    commonDisposalFee: (r.common_disposal_fee as string | null) ?? null,
+    badge: (r.badge as string | null) ?? null,
+    hazardRating: (r.hazard_rating as string | null) ?? null,
+    answer: (r.answer as string | null) ?? null,
+    stepsJson: JSON.stringify(r.steps ?? []),
+    faqsJson: JSON.stringify(r.faqs ?? []),
+    sourceUrl: String(r.source_url),
+    sourceName: String(r.source_name),
+    lastVerifiedAt: new Date(String(r.last_verified_at)),
+    reviewedBy: (r.reviewed_by as string | null) ?? "editorial",
+    needsReview: Boolean(r.needs_review ?? false),
+  }));
+  for (let i = 0; i < mappedRules.length; i += 100) {
+    await db.insert(rules).values(mappedRules.slice(i, i + 100));
+  }
 
   if (facilityRows.length) {
     await db.insert(facilities).values(
@@ -107,34 +116,35 @@ async function main() {
   }
 
   if (pages.length) {
-    await db.insert(disposalPages).values(
-      pages.map((p) => ({
-        stateSlug: String(p.state_slug),
-        citySlug: String(p.city_slug),
-        zip: (p.zip as string | null) ?? null,
-        itemSlug: String(p.item_slug),
-        city: String(p.city),
-        state: String(p.state),
-        itemName: String(p.item_name),
-        category: String(p.category),
-        isCurbsideAllowed: Boolean(p.is_curbside_allowed),
-        nearestFacilityType: String(p.nearest_facility_type),
-        commonDisposalFee: String(p.common_disposal_fee),
-        badge: String(p.badge),
-        hazardRating: String(p.hazard_rating),
-        answer: String(p.answer),
-        stepsJson: JSON.stringify(p.steps ?? []),
-        faqsJson: JSON.stringify(p.faqs ?? []),
-        ruleSourceLevel: String(p.rule_source_level),
-        sourceUrl: (p.source_url as string | null) ?? null,
-        sourceName: (p.source_name as string | null) ?? null,
-        lastVerifiedAt: p.last_verified_at ? new Date(String(p.last_verified_at)) : null,
-        lat: p.lat != null ? Number(p.lat) : null,
-        lng: p.lng != null ? Number(p.lng) : null,
-        indexable: Boolean(p.indexable),
-        needsReview: Boolean(p.needs_review ?? false),
-      })),
-    );
+    const mappedPages = pages.map((p) => ({
+      stateSlug: String(p.state_slug),
+      citySlug: String(p.city_slug),
+      zip: (p.zip as string | null) ?? null,
+      itemSlug: String(p.item_slug),
+      city: String(p.city),
+      state: String(p.state),
+      itemName: String(p.item_name),
+      category: String(p.category),
+      isCurbsideAllowed: Boolean(p.is_curbside_allowed),
+      nearestFacilityType: String(p.nearest_facility_type),
+      commonDisposalFee: String(p.common_disposal_fee),
+      badge: String(p.badge),
+      hazardRating: String(p.hazard_rating),
+      answer: String(p.answer),
+      stepsJson: JSON.stringify(p.steps ?? []),
+      faqsJson: JSON.stringify(p.faqs ?? []),
+      ruleSourceLevel: String(p.rule_source_level),
+      sourceUrl: (p.source_url as string | null) ?? null,
+      sourceName: (p.source_name as string | null) ?? null,
+      lastVerifiedAt: p.last_verified_at ? new Date(String(p.last_verified_at)) : null,
+      lat: p.lat != null ? Number(p.lat) : null,
+      lng: p.lng != null ? Number(p.lng) : null,
+      indexable: Boolean(p.indexable),
+      needsReview: Boolean(p.needs_review ?? false),
+    }));
+    for (let i = 0; i < mappedPages.length; i += 50) {
+      await db.insert(disposalPages).values(mappedPages.slice(i, i + 50));
+    }
   }
 
   console.log(`Seeded ${itemRows.length} items, ${ruleRows.length} rules, ${pages.length} pages`);

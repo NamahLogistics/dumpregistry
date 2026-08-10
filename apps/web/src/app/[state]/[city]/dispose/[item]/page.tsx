@@ -2,20 +2,34 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { AdSlot } from "@/components/AdSlot";
+import { CityItemFinder } from "@/components/CityItemFinder";
+import { ContinueReading, pagesToContinueLinks } from "@/components/ContinueReading";
 import { CorrectionWidget } from "@/components/CorrectionWidget";
+import { DoThisNow } from "@/components/DoThisNow";
 import { FaqSection, faqJsonLd, howToJsonLd } from "@/components/FaqSection";
+import { FacilityMap } from "@/components/FacilityMap";
 import { LeadModule } from "@/components/LeadModule";
-import { MapPlaceholder } from "@/components/MapPlaceholder";
+import { QuickAnswerBar } from "@/components/QuickAnswerBar";
+import { SourceLink } from "@/components/SourceLink";
 import { SpecsTable } from "@/components/SpecsTable";
 import { StatusBadge } from "@/components/StatusBadge";
-import { getPage, getPages } from "@/lib/data";
+import {
+  badgeLabel,
+  getCityPages,
+  getIndexablePages,
+  getPage,
+  getRelatedInCity,
+  getSameItemOtherCities,
+  getSiblingCities,
+  getZipHubs,
+} from "@/lib/data";
 
 type Props = {
   params: Promise<{ state: string; city: string; item: string }>;
 };
 
 export async function generateStaticParams() {
-  return getPages().map((p) => ({
+  return getIndexablePages().map((p) => ({
     state: p.state_slug,
     city: p.city_slug,
     item: p.item_slug,
@@ -25,11 +39,11 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { state, city, item } = await params;
   const page = getPage(state, city, item);
-  if (!page) return {};
+  if (!page) return { robots: { index: false, follow: false } };
   return {
     title: `How to Dispose of ${page.item_name} in ${page.city}, ${page.state}`,
     description: page.answer.slice(0, 155),
-    robots: page.indexable ? { index: true, follow: true } : { index: false, follow: true },
+    robots: { index: true, follow: true },
   };
 }
 
@@ -38,9 +52,15 @@ export default async function DisposeItemPage({ params }: Props) {
   const page = getPage(state, city, item);
   if (!page) notFound();
 
-  const siblings = getPages()
-    .filter((p) => p.state_slug === state && p.city_slug === city && p.indexable && p.item_slug !== item)
-    .slice(0, 8);
+  const cityGuides = getCityPages(state, city).filter((p) => p.item_slug !== item);
+  const related = getRelatedInCity(page, 6);
+  const otherCities = getSameItemOtherCities(page, 6);
+  const siblingCities = getSiblingCities(state, city, 6);
+  const zips = getZipHubs().filter(
+    (z) => z.state_slug === state && z.city_slug === city && z.indexable,
+  );
+  const primaryPhone = page.facilities?.find((f) => f.phone)?.phone ?? null;
+  const zipRefs = zips.map((z) => ({ zip: z.zip, lat: z.lat, lng: z.lng }));
 
   return (
     <div className="shell page">
@@ -61,6 +81,16 @@ export default async function DisposeItemPage({ params }: Props) {
         }}
       />
 
+      <nav className="crumb-row" aria-label="Breadcrumb">
+        <Link href="/cities">Cities</Link>
+        <span>/</span>
+        <Link href={`/${page.state_slug}`}>{page.state}</Link>
+        <span>/</span>
+        <Link href={`/${page.state_slug}/${page.city_slug}`}>{page.city}</Link>
+        <span>/</span>
+        <span>{page.item_name}</span>
+      </nav>
+
       <section className="answer-band">
         <StatusBadge badge={page.badge} />
         <h1>
@@ -70,63 +100,112 @@ export default async function DisposeItemPage({ params }: Props) {
         <div className="meta-row">
           <span>Category: {page.category}</span>
           <span>
-            Based on {page.rule_source_level}
+            City program
             {page.source_name ? ` · ${page.source_name}` : ""}
           </span>
+          {page.last_verified_at ? <span>Verified {page.last_verified_at}</span> : null}
           {page.source_url ? (
-            <a href={page.source_url} target="_blank" rel="noopener noreferrer">
+            <SourceLink url={page.source_url} title={page.source_name}>
               View source
-            </a>
-          ) : (
-            <span>General guidance (not locally verified)</span>
-          )}
+            </SourceLink>
+          ) : null}
         </div>
       </section>
+
+      <QuickAnswerBar
+        badgeLabel={badgeLabel(page.badge)}
+        fee={page.common_disposal_fee}
+        curbside={page.is_curbside_allowed}
+        facilityType={page.nearest_facility_type}
+        verifiedAt={page.last_verified_at}
+        phone={primaryPhone}
+        sourceUrl={page.source_url}
+      />
+
+      <DoThisNow
+        steps={page.steps}
+        sourceUrl={page.source_url}
+        sourceName={page.source_name}
+        phone={primaryPhone}
+      />
+
+      <ContinueReading
+        id="related-same-city"
+        heading={`Also disposing in ${page.city}?`}
+        lead={`Related ${page.category.toLowerCase()} and common pickup items — next guide is one tap.`}
+        links={pagesToContinueLinks(related, "item").map((l) => ({
+          ...l,
+          meta: l.meta?.replace(`in ${page.city} · `, "") ?? page.category,
+        }))}
+      />
+
+      <FacilityMap
+        city={page.city}
+        lat={page.lat}
+        lng={page.lng}
+        facilities={page.facilities}
+        zipRefs={zipRefs}
+      />
+
+      <AdSlot slot="inline" />
 
       <section>
         <h2>Local specifics</h2>
         <SpecsTable page={page} />
       </section>
 
-      <section>
-        <h2>What to do today</h2>
-        <ol className="steps">
-          {page.steps.map((step) => (
-            <li key={step}>{step}</li>
-          ))}
-        </ol>
-      </section>
+      <FaqSection faqs={page.faqs} />
 
-      <AdSlot slot="inline" />
-
-      <MapPlaceholder
-        lat={page.lat}
-        lng={page.lng}
-        city={page.city}
-        facilities={page.facilities}
+      <ContinueReading
+        id="same-item-cities"
+        heading={`${page.item_name} in other cities`}
+        lead="Same item, different city rules — useful if you moved or are comparing nearby metros."
+        links={pagesToContinueLinks(otherCities, "city")}
       />
 
-      <FaqSection faqs={page.faqs} />
+      {zips.length ? (
+        <ContinueReading
+          id="zip-continue"
+          heading={`ZIP pages near ${page.city}`}
+          lead="Facility orientation by ZIP — then jump back into item guides."
+          links={zips.slice(0, 6).map((z) => ({
+            href: `/${z.state_slug}/${z.city_slug}/${z.zip}`,
+            title: `ZIP ${z.zip}`,
+            meta: `${page.city} hub context`,
+          }))}
+        />
+      ) : null}
+
+      {siblingCities.length ? (
+        <ContinueReading
+          id="nearby-cities"
+          heading={`More ${page.state} cities`}
+          lead="Verified guides in nearby metros — keep browsing on DumpRegistry."
+          links={siblingCities.map((c) => ({
+            href: `/${c.state_slug}/${c.city_slug}`,
+            title: c.city,
+            meta: `${getCityPages(c.state_slug, c.city_slug).length} guides`,
+          }))}
+        />
+      ) : null}
 
       <LeadModule city={page.city} state={page.state} itemSlug={page.item_slug} />
 
-      <section>
-        <h2>More in {page.city}</h2>
-        <div className="hub-grid">
-          <Link className="hub-link" href={`/${page.state_slug}/${page.city_slug}`}>
-            {page.city} hub
-          </Link>
-          {siblings.map((s) => (
-            <Link
-              key={s.item_slug}
-              className="hub-link"
-              href={`/${s.state_slug}/${s.city_slug}/dispose/${s.item_slug}`}
-            >
-              {s.item_name}
-            </Link>
-          ))}
-        </div>
-      </section>
+      <CityItemFinder
+        city={page.city}
+        heading={`All guides in ${page.city}`}
+        lead={`Browse all ${cityGuides.length} other verified guides (70 total including this page).`}
+        hubHref={`/${page.state_slug}/${page.city_slug}`}
+        hubLabel={`${page.city} hub`}
+        guides={cityGuides.map((p) => ({
+          item_slug: p.item_slug,
+          item_name: p.item_name,
+          category: p.category,
+          state_slug: p.state_slug,
+          city_slug: p.city_slug,
+          badge: p.badge,
+        }))}
+      />
 
       <CorrectionWidget
         city={page.city}

@@ -1,67 +1,8 @@
 {
-  "month_1": {
-    "sitemaps": [
-      "sitemap-001.xml"
-    ],
-    "region": "California verified pages"
-  },
-  "month_2": {
-    "sitemaps": [
-      "sitemap-002.xml",
-      "sitemap-003.xml",
-      "sitemap-004.xml"
-    ],
-    "region": "TX, NY, FL (when verified)"
-  },
-  "month_3": {
-    "sitemaps": [
-      "sitemap-005.xml",
-      "sitemap-006.xml",
-      "sitemap-007.xml",
-      "sitemap-008.xml",
-      "sitemap-009.xml",
-      "sitemap-010.xml"
-    ],
-    "region": "Midwest (when verified)"
-  },
-  "month_4_6": {
-    "sitemaps": [
-      "sitemap-011.xml",
-      "sitemap-012.xml",
-      "sitemap-013.xml",
-      "sitemap-014.xml",
-      "sitemap-015.xml",
-      "sitemap-016.xml",
-      "sitemap-017.xml",
-      "sitemap-018.xml",
-      "sitemap-019.xml",
-      "sitemap-020.xml",
-      "sitemap-021.xml",
-      "sitemap-022.xml",
-      "sitemap-023.xml",
-      "sitemap-024.xml",
-      "sitemap-025.xml",
-      "sitemap-026.xml",
-      "sitemap-027.xml",
-      "sitemap-028.xml",
-      "sitemap-029.xml",
-      "sitemap-030.xml",
-      "sitemap-031.xml",
-      "sitemap-032.xml",
-      "sitemap-033.xml",
-      "sitemap-034.xml",
-      "sitemap-035.xml",
-      "sitemap-036.xml",
-      "sitemap-037.xml",
-      "sitemap-038.xml",
-      "sitemap-039.xml",
-      "sitemap-040.xml"
-    ],
-    "region": "Nationwide expansion"
-  },
-  "note": "Only submit sitemaps that contain verified/indexable URLs. Empty reserved names are not generated until needed.",
-  "current_url_count": 90,
+  "policy": "Only verified city-sourced URLs",
+  "current_url_count": 1972,
   "files_written": [
     "sitemap-001.xml"
-  ]
+  ],
+  "covered_city_count": 27
 }
