@@ -32,6 +32,8 @@ export type Facility = {
   lat?: number | null;
   lng?: number | null;
   source_url?: string | null;
+  hours?: string | null;
+  phone?: string | null;
 };
 
 export type DisposalPage = {

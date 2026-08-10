@@ -21,7 +21,9 @@ export function MapPlaceholder({
             ? `${city} centroid ≈ ${lat.toFixed(4)}, ${lng.toFixed(4)}`
             : `${city} — coordinates unavailable`}
         </p>
-        <p className="map-note">Interactive map placeholder. Facility list below is editorial seed data.</p>
+        <p className="map-note">
+          Facility list below is from city program pages (addresses/hours). Confirm before you haul — programs change.
+        </p>
       </div>
       {facilities.length > 0 ? (
         <ul className="facility-list">
@@ -32,6 +34,8 @@ export function MapPlaceholder({
                 {f.facility_type}
                 {f.address ? ` · ${f.address}` : ""}
               </span>
+              {f.hours ? <span>Hours: {f.hours}</span> : null}
+              {f.phone ? <span>Phone: {f.phone}</span> : null}
               {f.source_url ? (
                 <a href={f.source_url} rel="noopener noreferrer" target="_blank">
                   Official info
@@ -41,7 +45,10 @@ export function MapPlaceholder({
           ))}
         </ul>
       ) : (
-        <p>No seeded facility rows for this city yet — use your city sanitation site.</p>
+        <p>
+          No city facility rows yet for this location — we only list drop-offs after verifying a city program
+          page.
+        </p>
       )}
     </section>
   );

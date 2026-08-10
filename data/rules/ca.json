@@ -760,34 +760,71 @@
     "state": "CA",
     "city_slug": "los-angeles",
     "zip": null,
-    "is_curbside_allowed": false,
-    "nearest_facility_type": "Bulky item / mattress recycler",
-    "common_disposal_fee": "$25-$100",
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "LASAN bulky item curbside pickup",
+    "common_disposal_fee": "Free (scheduled LASAN bulky pickup)",
     "badge": "SPECIAL_HANDLING",
     "hazard_rating": "Low",
-    "answer": "In Los Angeles, schedule LASAN bulky item collection for mattresses \u2014 do not leave them out unscheduled.",
+    "answer": "In the City of Los Angeles, schedule a free LASAN bulky-item pickup for mattresses \u2014 do not leave them out unscheduled. Use MyLA311, the online request form, or call 1-800-773-2489 at least one business day before your regular trash day.",
     "steps": [
-      "Confirm whether your hauler offers bulky/mattress collection.",
-      "Keep the mattress dry and accessible on pickup day.",
-      "Or drop off at a listed mattress recycler / transfer station."
+      "Confirm you are served by LASAN (City of LA sanitation).",
+      "Schedule bulky pickup via MyLA311 / LASAN online request / 1-800-773-2489 at least 1 business day ahead.",
+      "Set the mattress out on your regular trash day only after it is scheduled.",
+      "Keep an itemized list ready (e.g., \u201c1 mattress, 1 box spring\u201d)."
     ],
     "faqs": [
       {
-        "q": "Can I leave a mattress on the curb anytime?",
-        "a": "No. Unscheduled dumping can lead to fines \u2014 book bulky service."
+        "q": "Is bulky pickup free?",
+        "a": "LASAN describes unlimited residential bulky curbside service at no additional charge when scheduled."
       },
       {
-        "q": "Are box springs the same?",
-        "a": "Usually yes \u2014 treat box springs as bulky like mattresses."
+        "q": "Can I put a mattress in the black bin?",
+        "a": "No \u2014 it is oversized and must go through bulky collection or a drop-off event."
       },
       {
-        "q": "Can I donate it?",
-        "a": "Only if clean, dry, and accepted by a local reuse program."
+        "q": "What if I miss the window?",
+        "a": "Reschedule; unscheduled curb dumping can be treated as illegal dumping."
       }
     ],
-    "source_url": "https://www.lacitysan.org/",
-    "source_name": "City of Los Angeles Sanitation (LASAN)",
-    "last_verified_at": "2026-06-15",
+    "source_url": "https://sanitation.lacity.gov/san/faces/home/portal/s-lsh-wwd/s-lsh-wwd-s/s-lsh-wwd-s-c/s-lsh-wwd-s-c-bic",
+    "source_name": "LASAN Bulky Item Collection",
+    "last_verified_at": "2026-08-10",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "refrigerator",
+    "state": "CA",
+    "city_slug": "los-angeles",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "LASAN bulky / metal appliance pickup",
+    "common_disposal_fee": "Free (scheduled LASAN bulky/appliance pickup)",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Medium",
+    "answer": "LA City residents can request free LASAN pickup for large metal appliances including refrigerators via MyLA311. Do not put fridges in the black bin. Automotive parts and construction debris are not accepted on bulky routes.",
+    "steps": [
+      "Request large-item / metal appliance pickup at myla311.lacity.org or 1-800-773-2489.",
+      "Unplug and defrost; secure the door.",
+      "Place at the curb only on the scheduled collection day."
+    ],
+    "faqs": [
+      {
+        "q": "Does LASAN take abandoned fridges?",
+        "a": "Yes \u2014 report abandoned bulky waste through MyLA311 for free pickup on LASAN-served streets."
+      },
+      {
+        "q": "Construction debris with the fridge?",
+        "a": "No \u2014 LASAN bulky service does not collect construction materials."
+      },
+      {
+        "q": "Is refrigerant handled?",
+        "a": "Use the City\u2019s appliance/bulky channel rather than scrap dumping; follow LASAN scheduling instructions."
+      }
+    ],
+    "source_url": "https://lacity.gov/residents/trash-recycling",
+    "source_name": "City of Los Angeles / LASAN",
+    "last_verified_at": "2026-08-10",
     "reviewed_by": "editorial",
     "needs_review": false
   },
@@ -796,34 +833,502 @@
     "state": "CA",
     "city_slug": "los-angeles",
     "zip": null,
-    "is_curbside_allowed": false,
-    "nearest_facility_type": "E-waste collector",
-    "common_disposal_fee": "Free-$40",
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "LASAN bulky e-waste pickup or S.A.F.E. Center",
+    "common_disposal_fee": "Free (LASAN e-waste bulky or S.A.F.E. Center)",
     "badge": "BANNED_FROM_LANDFILLS",
     "hazard_rating": "Medium",
-    "answer": "Los Angeles residents should use LASAN e-waste options or certified collectors; TVs are not regular trash.",
+    "answer": "In Los Angeles, TVs are e-waste. You can schedule free LASAN curbside e-waste/bulky pickup (MyLA311 / 1-800-773-2489) or drop electronics at a S.A.F.E. Center. Do not put TVs in trash or blue bins.",
     "steps": [
-      "Do not put TVs in trash or blue bins.",
-      "Use a city e-waste event, recycler, or retailer take-back.",
-      "CRT TVs may have special handling \u2014 call ahead."
+      "Schedule e-waste/bulky pickup via MyLA311 or call 1-800-773-2489, or",
+      "Take the TV to a LASAN S.A.F.E. Center (weekend HHW/e-waste drop-off).",
+      "Do not place in black or blue bins."
     ],
     "faqs": [
       {
-        "q": "Is this a California law?",
-        "a": "California's Covered Electronic Waste program restricts landfill disposal of many TVs/monitors."
+        "q": "Is e-waste accepted at S.A.F.E. Centers?",
+        "a": "Yes \u2014 LASAN lists computers, TVs, and microwaves among e-waste accepted at S.A.F.E. Centers."
       },
       {
-        "q": "Curbside e-waste?",
-        "a": "Some cities offer scheduled e-waste pickup \u2014 check local service."
+        "q": "Can bulky trucks take TVs?",
+        "a": "LASAN bulky collection lists electronic waste such as TVs among accepted items when scheduled."
       },
       {
-        "q": "Broken glass?",
-        "a": "Still e-waste; package safely for transport."
+        "q": "County residents?",
+        "a": "S.A.F.E. Centers are used by LA City and many LA County residents \u2014 bring a valid address."
       }
     ],
-    "source_url": "https://www.lacitysan.org/",
-    "source_name": "City of Los Angeles Sanitation (LASAN)",
-    "last_verified_at": "2026-06-15",
+    "source_url": "https://sanitation.lacity.gov/san/faces/home/portal/s-lsh-wwd/s-lsh-wwd-s/s-lsh-wwd-s-c/s-lsh-wwd-s-c-hw",
+    "source_name": "LASAN Household Hazardous Waste / S.A.F.E. Centers",
+    "last_verified_at": "2026-08-10",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "computer-monitor",
+    "state": "CA",
+    "city_slug": "los-angeles",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "LASAN bulky e-waste pickup or S.A.F.E. Center",
+    "common_disposal_fee": "Free (LASAN e-waste bulky or S.A.F.E. Center)",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "Medium",
+    "answer": "Computer monitors are e-waste in Los Angeles. Schedule LASAN e-waste/bulky pickup or drop off at a S.A.F.E. Center \u2014 not the trash cart.",
+    "steps": [
+      "Wipe personal data if the device still powers on.",
+      "Schedule LASAN e-waste pickup or visit a S.A.F.E. Center.",
+      "Keep glass/CRT monitors packed safely for transport."
+    ],
+    "faqs": [
+      {
+        "q": "Same rules as TVs?",
+        "a": "Yes \u2014 both are treated as electronic waste through LASAN programs."
+      },
+      {
+        "q": "Blue bin OK?",
+        "a": "No."
+      },
+      {
+        "q": "Mobile events?",
+        "a": "LASAN also runs mobile HHW/e-waste events in areas farther from permanent centers."
+      }
+    ],
+    "source_url": "https://sanitation.lacity.gov/san/faces/home/portal/s-lsh-wwd/s-lsh-wwd-s/s-lsh-wwd-s-c/s-lsh-wwd-s-c-hw",
+    "source_name": "LASAN Household Hazardous Waste / S.A.F.E. Centers",
+    "last_verified_at": "2026-08-10",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "smartphone",
+    "state": "CA",
+    "city_slug": "los-angeles",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "S.A.F.E. Center e-waste drop-off",
+    "common_disposal_fee": "Free (S.A.F.E. Center / retailer take-back)",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "Medium",
+    "answer": "In LA, phones are e-waste. Factory-reset the device, then drop it at a S.A.F.E. Center or a retailer take-back \u2014 not the black or blue bin.",
+    "steps": [
+      "Factory reset and remove SIM/SD cards.",
+      "Drop off at a S.A.F.E. Center or participating retailer.",
+      "Tape exposed battery contacts if the battery is loose."
+    ],
+    "faqs": [
+      {
+        "q": "Can bulky pickup take a phone?",
+        "a": "Phones are usually easier via S.A.F.E./retail take-back; bulky is aimed at larger e-waste."
+      },
+      {
+        "q": "Working phone?",
+        "a": "Donate or trade-in after wiping data."
+      },
+      {
+        "q": "Swollen battery?",
+        "a": "Treat as damaged lithium \u2014 use HHW/S.A.F.E. guidance."
+      }
+    ],
+    "source_url": "https://lacity.gov/residents/trash-recycling",
+    "source_name": "City of Los Angeles / LASAN",
+    "last_verified_at": "2026-08-10",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "e-waste-mixed",
+    "state": "CA",
+    "city_slug": "los-angeles",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "S.A.F.E. Center or scheduled LASAN e-waste pickup",
+    "common_disposal_fee": "Free (LASAN e-waste programs)",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "Medium",
+    "answer": "Mixed electronics in Los Angeles go through LASAN e-waste channels: schedule free curbside e-waste pickup or use a S.A.F.E. Center. Never landfill e-waste in the black bin.",
+    "steps": [
+      "List devices for MyLA311 / LASAN scheduling, or",
+      "Drive to a S.A.F.E. Center on an open weekend.",
+      "Separate loose batteries when required."
+    ],
+    "faqs": [
+      {
+        "q": "Microwaves?",
+        "a": "LASAN lists microwaves among e-waste examples for S.A.F.E. Centers."
+      },
+      {
+        "q": "Business e-waste?",
+        "a": "Commercial generators often need a different program \u2014 S.A.F.E. is for household waste."
+      },
+      {
+        "q": "Proof of address?",
+        "a": "S.A.F.E. Centers may require a valid residential address at drop-off."
+      }
+    ],
+    "source_url": "https://sanitation.lacity.gov/san/faces/home/portal/s-lsh-wwd/s-lsh-wwd-s/s-lsh-wwd-s-c/s-lsh-wwd-s-c-hw",
+    "source_name": "LASAN Household Hazardous Waste / S.A.F.E. Centers",
+    "last_verified_at": "2026-08-10",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "car-battery",
+    "state": "CA",
+    "city_slug": "los-angeles",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "S.A.F.E. Center or auto-parts take-back",
+    "common_disposal_fee": "Free (S.A.F.E. Center / auto retailer)",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "Car batteries are household hazardous waste in LA \u2014 not trash or recycling. Take them to a S.A.F.E. Center or an auto-parts retailer that accepts lead-acid batteries.",
+    "steps": [
+      "Keep upright with terminals covered.",
+      "Take to a S.A.F.E. Center or participating auto retailer.",
+      "Do not schedule as regular bulky trash."
+    ],
+    "faqs": [
+      {
+        "q": "Bulky pickup?",
+        "a": "No \u2014 automotive products/batteries are excluded from LASAN bulky lists."
+      },
+      {
+        "q": "Leaking battery?",
+        "a": "Contain it and go to S.A.F.E./HHW \u2014 do not put in carts."
+      },
+      {
+        "q": "Core charge?",
+        "a": "Retailers often give a core credit; City drop-off is for safe disposal."
+      }
+    ],
+    "source_url": "https://sanitation.lacity.gov/san/faces/home/portal/s-lsh-wwd/s-lsh-wwd-s/s-lsh-wwd-s-c/s-lsh-wwd-s-c-hw",
+    "source_name": "LASAN Household Hazardous Waste / S.A.F.E. Centers",
+    "last_verified_at": "2026-08-10",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "lithium-battery",
+    "state": "CA",
+    "city_slug": "los-angeles",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "S.A.F.E. Center battery drop-off",
+    "common_disposal_fee": "Free (S.A.F.E. Center)",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "Loose lithium batteries are a fire hazard and are not allowed in LA trash or recycling carts. Tape terminals and take them to a S.A.F.E. Center.",
+    "steps": [
+      "Tape exposed terminals.",
+      "Take to a S.A.F.E. Center (HHW/e-waste).",
+      "Ask staff how to handle swollen/damaged cells."
+    ],
+    "faqs": [
+      {
+        "q": "Why not the blue bin?",
+        "a": "Crushed lithium cells can ignite in collection trucks."
+      },
+      {
+        "q": "Inside a device?",
+        "a": "Recycle the whole device as e-waste when possible."
+      },
+      {
+        "q": "Household alkaline?",
+        "a": "Also better at HHW/battery drop-off than trash when local guidance says so."
+      }
+    ],
+    "source_url": "https://sanitation.lacity.gov/san/faces/home/portal/s-lsh-wwd/s-lsh-wwd-s/s-lsh-wwd-s-c/s-lsh-wwd-s-c-hw",
+    "source_name": "LASAN Household Hazardous Waste / S.A.F.E. Centers",
+    "last_verified_at": "2026-08-10",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "paint-latex",
+    "state": "CA",
+    "city_slug": "los-angeles",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "S.A.F.E. Center HHW drop-off",
+    "common_disposal_fee": "Free (S.A.F.E. Center)",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Medium",
+    "answer": "Liquid paint is household hazardous waste in Los Angeles. Take latex or oil-based paint to a S.A.F.E. Center \u2014 LASAN bulky pickup will not take paints or chemicals.",
+    "steps": [
+      "Keep paint in the original labeled can.",
+      "Visit a S.A.F.E. Center on an open weekend.",
+      "Do not pour paint down drains or into carts."
+    ],
+    "faqs": [
+      {
+        "q": "Dried latex in trash?",
+        "a": "City guidance emphasizes S.A.F.E./HHW for paint products; do not assume wet paint can be trashed."
+      },
+      {
+        "q": "Bulky exclusion?",
+        "a": "LASAN lists paints/solvents/chemicals as not accepted on bulky routes."
+      },
+      {
+        "q": "Empty cans?",
+        "a": "Ask S.A.F.E. staff or check local recycling rules for empty dry metal cans."
+      }
+    ],
+    "source_url": "https://sanitation.lacity.gov/san/faces/home/portal/s-lsh-wwd/s-lsh-wwd-s/s-lsh-wwd-s-c/s-lsh-wwd-s-c-hw",
+    "source_name": "LASAN Household Hazardous Waste / S.A.F.E. Centers",
+    "last_verified_at": "2026-08-10",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "paint-oil",
+    "state": "CA",
+    "city_slug": "los-angeles",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "S.A.F.E. Center HHW drop-off",
+    "common_disposal_fee": "Free (S.A.F.E. Center)",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "Oil-based paint is HHW in Los Angeles. Take it to a S.A.F.E. Center \u2014 never trash, recycling, or bulky pickup.",
+    "steps": [
+      "Transport upright in the original container.",
+      "Drop at a S.A.F.E. Center.",
+      "Do not air-dry oil paint for landfill disposal."
+    ],
+    "faqs": [
+      {
+        "q": "Same as latex?",
+        "a": "Both go to S.A.F.E.; oil-based is always HHW."
+      },
+      {
+        "q": "Thinners/solvents?",
+        "a": "Also HHW at S.A.F.E. Centers."
+      },
+      {
+        "q": "Business paint?",
+        "a": "Commercial waste is not a household S.A.F.E. drop-off."
+      }
+    ],
+    "source_url": "https://sanitation.lacity.gov/san/faces/home/portal/s-lsh-wwd/s-lsh-wwd-s/s-lsh-wwd-s-c/s-lsh-wwd-s-c-hw",
+    "source_name": "LASAN Household Hazardous Waste / S.A.F.E. Centers",
+    "last_verified_at": "2026-08-10",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "motor-oil",
+    "state": "CA",
+    "city_slug": "los-angeles",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "S.A.F.E. Center or certified used-oil center",
+    "common_disposal_fee": "Free (S.A.F.E. Center / certified oil center)",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "Used motor oil is accepted as automotive HHW at LA S.A.F.E. Centers. Do not put oil in trash carts or pour it out \u2014 LASAN bulky service also excludes used oil.",
+    "steps": [
+      "Store oil in a clean sealed plastic container.",
+      "Take to a S.A.F.E. Center or certified used-oil collection center.",
+      "Ask about oil-filter recycling at the same visit."
+    ],
+    "faqs": [
+      {
+        "q": "Bulky pickup for oil?",
+        "a": "No \u2014 used oil is excluded from bulky collection."
+      },
+      {
+        "q": "Storm drain?",
+        "a": "Illegal and environmentally harmful."
+      },
+      {
+        "q": "Limit per visit?",
+        "a": "Follow S.A.F.E. Center quantity rules for household loads."
+      }
+    ],
+    "source_url": "https://sanitation.lacity.gov/san/faces/home/portal/s-lsh-wwd/s-lsh-wwd-s/s-lsh-wwd-s-c/s-lsh-wwd-s-c-hw",
+    "source_name": "LASAN Household Hazardous Waste / S.A.F.E. Centers",
+    "last_verified_at": "2026-08-10",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "propane-tank",
+    "state": "CA",
+    "city_slug": "los-angeles",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "S.A.F.E. Center or propane cylinder exchange",
+    "common_disposal_fee": "Free\u2013exchange fee (S.A.F.E. / propane exchange)",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "Propane tanks are hazardous and banned from LA trash carts. Use a propane exchange when possible, or take accepted cylinders to a S.A.F.E. Center \u2014 never bulky trash pickup.",
+    "steps": [
+      "Prefer hardware-store cylinder exchange for BBQ tanks.",
+      "Or confirm cylinder acceptance at a S.A.F.E. Center.",
+      "Never put tanks in compactors or black bins."
+    ],
+    "faqs": [
+      {
+        "q": "Empty tanks in trash?",
+        "a": "No \u2014 still a pressurized hazard."
+      },
+      {
+        "q": "Bulky list?",
+        "a": "Chemicals/pressurized items are not bulky trash."
+      },
+      {
+        "q": "Camping cylinders?",
+        "a": "Ask S.A.F.E. staff which sizes they accept."
+      }
+    ],
+    "source_url": "https://lacity.gov/residents/trash-recycling",
+    "source_name": "City of Los Angeles / LASAN",
+    "last_verified_at": "2026-08-10",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "fluorescent-bulbs",
+    "state": "CA",
+    "city_slug": "los-angeles",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "S.A.F.E. Center HHW drop-off",
+    "common_disposal_fee": "Free (S.A.F.E. Center)",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "Fluorescent tubes/CFLs contain mercury. In Los Angeles, take them to a S.A.F.E. Center \u2014 LASAN notes fluorescent lights are not accepted on bulky routes.",
+    "steps": [
+      "Store unbroken bulbs in sleeves/original packaging.",
+      "Drop off at a S.A.F.E. Center.",
+      "If broken, ventilate and follow mercury cleanup guidance before packaging residues."
+    ],
+    "faqs": [
+      {
+        "q": "Bulky pickup?",
+        "a": "No \u2014 fluorescent lights are listed among bulky exclusions."
+      },
+      {
+        "q": "LEDs?",
+        "a": "Different rules \u2014 still confirm locally; many go to HHW/e-waste channels."
+      },
+      {
+        "q": "Retail take-back?",
+        "a": "Some retailers accept CFLs; S.A.F.E. is the City channel."
+      }
+    ],
+    "source_url": "https://sanitation.lacity.gov/san/faces/home/portal/s-lsh-wwd/s-lsh-wwd-s/s-lsh-wwd-s-c/s-lsh-wwd-s-c-bic",
+    "source_name": "LASAN Bulky Item Collection",
+    "last_verified_at": "2026-08-10",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "medical-sharps",
+    "state": "CA",
+    "city_slug": "los-angeles",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "S.A.F.E. Center sharps drop-off",
+    "common_disposal_fee": "Free (S.A.F.E. / sharps program)",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "Needles and syringes must not go loose in LA trash or recycling. Use an approved sharps container and LASAN\u2019s needles/syringes drop-off guidance (including S.A.F.E. Centers).",
+    "steps": [
+      "Place sharps in an approved sharps container.",
+      "Follow LASAN\u2019s needles & syringes drop-off guide / S.A.F.E. Center acceptance.",
+      "Never recycle sharps containers in the blue bin."
+    ],
+    "faqs": [
+      {
+        "q": "Medicines with needles?",
+        "a": "LASAN bulky/trash exclusions include medicines and needles \u2014 use proper drop-off programs."
+      },
+      {
+        "q": "Plastic bottle OK?",
+        "a": "Use an approved sharps container whenever possible."
+      },
+      {
+        "q": "Home pickup?",
+        "a": "Check current LASAN sharps guidance for home-bound options."
+      }
+    ],
+    "source_url": "https://lacity.gov/residents/trash-recycling",
+    "source_name": "City of Los Angeles / LASAN",
+    "last_verified_at": "2026-08-10",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "tires",
+    "state": "CA",
+    "city_slug": "los-angeles",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "LASAN tire recycling drop-off",
+    "common_disposal_fee": "Free (LASAN tire drop-off program)",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "Medium",
+    "answer": "Los Angeles residents can recycle used vehicle tires through LASAN\u2019s free tire drop-off program \u2014 not in regular trash carts or as unscheduled curb dumping.",
+    "steps": [
+      "Use LASAN\u2019s tire drop-off guide / program locations.",
+      "Or ask a tire retailer to recycle tires when you buy replacements.",
+      "Do not put whole tires in the black bin."
+    ],
+    "faqs": [
+      {
+        "q": "Bulky pickup for tires?",
+        "a": "Automotive parts are excluded from LASAN bulky collection."
+      },
+      {
+        "q": "Abandoned tires?",
+        "a": "Report illegal dumping via MyLA311."
+      },
+      {
+        "q": "Rims on?",
+        "a": "Follow the City tire guide for prep requirements."
+      }
+    ],
+    "source_url": "https://lacity.gov/residents/trash-recycling",
+    "source_name": "City of Los Angeles / LASAN",
+    "last_verified_at": "2026-08-10",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "air-conditioner",
+    "state": "CA",
+    "city_slug": "los-angeles",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "LASAN bulky / appliance pickup",
+    "common_disposal_fee": "Free (scheduled LASAN appliance/bulky pickup)",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "High",
+    "answer": "Window/portable ACs and similar large appliances should be scheduled through LASAN bulky/metal appliance pickup in the City of Los Angeles \u2014 not left as unscheduled dumping.",
+    "steps": [
+      "Schedule via MyLA311 or 1-800-773-2489.",
+      "Do not vent refrigerant yourself.",
+      "Set out only on the scheduled day."
+    ],
+    "faqs": [
+      {
+        "q": "Is it free?",
+        "a": "LASAN residential bulky/appliance pickup is described as free when scheduled."
+      },
+      {
+        "q": "S.A.F.E. Center?",
+        "a": "S.A.F.E. Centers generally do not take large appliances/furniture \u2014 use bulky pickup."
+      },
+      {
+        "q": "Commercial units?",
+        "a": "Commercial appliances are excluded from residential bulky lists."
+      }
+    ],
+    "source_url": "https://lacity.gov/residents/trash-recycling",
+    "source_name": "City of Los Angeles / LASAN",
+    "last_verified_at": "2026-08-10",
     "reviewed_by": "editorial",
     "needs_review": false
   },
@@ -833,33 +1338,177 @@
     "city_slug": "los-angeles",
     "zip": null,
     "is_curbside_allowed": true,
-    "nearest_facility_type": "Organics / green bin",
-    "common_disposal_fee": "Free-$30",
+    "nearest_facility_type": "LASAN green organics cart",
+    "common_disposal_fee": "Free (green bin); excess brush has free annual pickup",
     "badge": "ACCEPTED_IN_BLUE_BIN",
     "hazard_rating": "Low",
-    "answer": "LA organics/yard waste goes in the green bin where provided by your hauler.",
+    "answer": "In Los Angeles, yard trimmings go in the green organics bin with food waste. For excess brush, LASAN offers a free annual excess yard-trimmings/brush pickup \u2014 schedule through City channels.",
     "steps": [
-      "Use the green/organics cart for leaves, grass, and small prunings.",
-      "Follow local size limits for branches.",
-      "For large volumes, use a transfer station or chipper service."
+      "Place leaves/grass/small prunings in the green bin.",
+      "Follow size limits for branches.",
+      "Schedule the free annual excess brush pickup if you have overflow."
     ],
     "faqs": [
       {
-        "q": "Is it the blue bin?",
-        "a": "No \u2014 organics/green cart. The badge means accepted in the diversion stream."
+        "q": "Food scraps too?",
+        "a": "Yes \u2014 LA green-bin organics service includes yard trimmings and food waste."
       },
       {
-        "q": "Palm fronds?",
-        "a": "Some cities restrict them \u2014 check your hauler."
+        "q": "Blue bin?",
+        "a": "No \u2014 organics go in green, not blue recycling."
       },
       {
-        "q": "Dirt/soil?",
-        "a": "Usually not in organics carts."
+        "q": "Christmas trees?",
+        "a": "LASAN runs seasonal curbside Christmas-tree collection at no extra charge."
       }
     ],
-    "source_url": "https://www.lacitysan.org/",
-    "source_name": "City of Los Angeles Sanitation (LASAN)",
-    "last_verified_at": "2026-06-15",
+    "source_url": "https://www.lacitysan.org/san/faces/home/portal/s-lsh-wwd/s-lsh-wwd-s/s-lsh-wwd-s-c",
+    "source_name": "City of Los Angeles / LASAN",
+    "last_verified_at": "2026-08-10",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "food-scraps",
+    "state": "CA",
+    "city_slug": "los-angeles",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "LASAN green organics cart",
+    "common_disposal_fee": "Free (green organics bin)",
+    "badge": "ACCEPTED_IN_BLUE_BIN",
+    "hazard_rating": "Low",
+    "answer": "Los Angeles residential organics service puts food waste in the green bin with yard trimmings \u2014 not the blue recycling cart.",
+    "steps": [
+      "Collect food scraps for the green bin.",
+      "Keep out glass/metal/plastic unless City-approved liners say otherwise.",
+      "Report missed organics collection via MyLA311 if needed."
+    ],
+    "faqs": [
+      {
+        "q": "Meat and bones?",
+        "a": "Generally accepted in municipal organics \u2014 follow LASAN sorting guidance."
+      },
+      {
+        "q": "Plastic bags?",
+        "a": "Do not use regular plastic bags in organics."
+      },
+      {
+        "q": "Black bin?",
+        "a": "Food scraps belong in green organics, not landfill trash when service is provided."
+      }
+    ],
+    "source_url": "https://www.lacitysan.org/san/faces/home/portal/s-lsh-wwd/s-lsh-wwd-s/s-lsh-wwd-s-c",
+    "source_name": "City of Los Angeles / LASAN",
+    "last_verified_at": "2026-08-10",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "plastic-bags",
+    "state": "CA",
+    "city_slug": "los-angeles",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Grocery store plastic-film drop-off",
+    "common_disposal_fee": "Free (store film drop-off)",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "Plastic bags are not for LA\u2019s blue bin \u2014 they jam sorting equipment. Return clean dry bags to grocery-store film recycling bins.",
+    "steps": [
+      "Keep bags clean and dry.",
+      "Use a store plastic-film drop-off bin.",
+      "Switch to reusable bags when possible."
+    ],
+    "faqs": [
+      {
+        "q": "Blue bin?",
+        "a": "No \u2014 film plastic contaminates recycling."
+      },
+      {
+        "q": "Move-out cardboard?",
+        "a": "LASAN has a separate move-in/out extra pickup for boxes/bags \u2014 still not a substitute for film recycling rules."
+      },
+      {
+        "q": "Compostable bags?",
+        "a": "Only if explicitly allowed in organics guidance."
+      }
+    ],
+    "source_url": "https://lacity.gov/residents/trash-recycling",
+    "source_name": "City of Los Angeles / LASAN",
+    "last_verified_at": "2026-08-10",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "cooking-oil",
+    "state": "CA",
+    "city_slug": "los-angeles",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "S.A.F.E. Center / grease recycling guidance",
+    "common_disposal_fee": "Free\u2013low (HHW / grease guidance)",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Medium",
+    "answer": "Do not pour cooking oil down LA drains. Small amounts wiped into organics may be OK; larger volumes should be contained and taken to proper drop-off (S.A.F.E./grease recycling) \u2014 confirm acceptance before you haul.",
+    "steps": [
+      "Cool oil and store in a sealed container.",
+      "For larger volumes, use HHW/S.A.F.E. or a grease recycler.",
+      "Never dump oil into storm drains."
+    ],
+    "faqs": [
+      {
+        "q": "Green bin?",
+        "a": "Only small absorbed amounts if organics rules allow \u2014 not gallons of liquid oil."
+      },
+      {
+        "q": "Turkey fryer oil?",
+        "a": "Contain and use a proper drop-off."
+      },
+      {
+        "q": "Fats clog pipes?",
+        "a": "Yes \u2014 never pour grease down the sink."
+      }
+    ],
+    "source_url": "https://sanitation.lacity.gov/san/faces/home/portal/s-lsh-wwd/s-lsh-wwd-s/s-lsh-wwd-s-c/s-lsh-wwd-s-c-hw",
+    "source_name": "LASAN Household Hazardous Waste / S.A.F.E. Centers",
+    "last_verified_at": "2026-08-10",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "construction-debris",
+    "state": "CA",
+    "city_slug": "los-angeles",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Private debris box or transfer station (not LASAN bulky)",
+    "common_disposal_fee": "Transfer / debris box fees apply",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "LASAN residential bulky pickup does not collect construction materials (concrete, bricks, dirt, remodel debris). Use a permitted debris box or a transfer/C&D facility.",
+    "steps": [
+      "Separate HHW (paint, solvents) for S.A.F.E. Centers.",
+      "Order a debris box or haul to a C&D/transfer facility.",
+      "Do not overload black bins with remodel waste."
+    ],
+    "faqs": [
+      {
+        "q": "Why won\u2019t bulky take it?",
+        "a": "LASAN explicitly excludes construction materials from bulky collection."
+      },
+      {
+        "q": "Cardboard from remodel?",
+        "a": "Not via standard bulky; use recycling/move services as applicable."
+      },
+      {
+        "q": "Illegal dumping?",
+        "a": "Report via MyLA311."
+      }
+    ],
+    "source_url": "https://sanitation.lacity.gov/san/faces/home/portal/s-lsh-wwd/s-lsh-wwd-s/s-lsh-wwd-s-c/s-lsh-wwd-s-c-bic",
+    "source_name": "LASAN Bulky Item Collection",
+    "last_verified_at": "2026-08-10",
     "reviewed_by": "editorial",
     "needs_review": false
   },
@@ -868,70 +1517,610 @@
     "state": "CA",
     "city_slug": "san-francisco",
     "zip": null,
-    "is_curbside_allowed": false,
-    "nearest_facility_type": "Bulky item / mattress recycler",
-    "common_disposal_fee": "$25-$100",
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Recology bulky pickup or SF Transfer Station",
+    "common_disposal_fee": "Free (Recology bulky; up to 4 free at Transfer Station)",
     "badge": "SPECIAL_HANDLING",
     "hazard_rating": "Low",
-    "answer": "San Francisco bulky/reusable services handle mattresses \u2014 Recology schedules apply; do not dump on sidewalks.",
+    "answer": "San Francisco residents should schedule a Recology bulky-item collection for mattresses (or drop off qualifying mattresses at the SF Transfer Station \u2014 Recology has advertised up to 4 free mattresses/day when they meet cleanliness rules). Do not abandon mattresses on the sidewalk.",
     "steps": [
-      "Confirm whether your hauler offers bulky/mattress collection.",
-      "Keep the mattress dry and accessible on pickup day.",
-      "Or drop off at a listed mattress recycler / transfer station."
+      "Schedule Recology bulky pickup online or call (415) 330-1300.",
+      "Place items curbside only on the appointment day with a \u201cRECOLOGY\u201d sign.",
+      "Or drop clean/dry mattresses at 501 Tunnel Ave (confirm current free-unit limits at the scale house)."
     ],
     "faqs": [
       {
-        "q": "Can I leave a mattress on the curb anytime?",
-        "a": "No. Unscheduled dumping can lead to fines \u2014 book bulky service."
+        "q": "How many free bulky pickups?",
+        "a": "Recology: residential buildings \u22645 units get 2 free curbside bulky collections/year; larger buildings get 1 per unit."
       },
       {
-        "q": "Are box springs the same?",
-        "a": "Usually yes \u2014 treat box springs as bulky like mattresses."
+        "q": "Memory foam free drop-off?",
+        "a": "Recology notes memory foam may be excluded from the free mattress drop-off program \u2014 confirm at the Transfer Station."
       },
       {
-        "q": "Can I donate it?",
-        "a": "Only if clean, dry, and accepted by a local reuse program."
+        "q": "Illegal dumping fines?",
+        "a": "SF Public Works can fine sidewalk dumping \u2014 use bulky or Transfer Station."
       }
     ],
-    "source_url": "https://www.sfenvironment.org/",
-    "source_name": "Recology / SF Environment",
-    "last_verified_at": "2026-06-15",
+    "source_url": "https://www.sfenvironment.org/bulky-items",
+    "source_name": "SF Environment \u2014 Bulky items",
+    "last_verified_at": "2026-08-10",
     "reviewed_by": "editorial",
     "needs_review": false
   },
   {
-    "item_slug": "plastic-bags",
+    "item_slug": "refrigerator",
+    "state": "CA",
+    "city_slug": "san-francisco",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Recology bulky pickup / SF Transfer Station",
+    "common_disposal_fee": "Free (eligible Recology bulky) or Transfer Station fees may apply",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Medium",
+    "answer": "In San Francisco, schedule Recology bulky-item collection for appliances/furniture, or self-haul to the SF Transfer Station. Do not leave appliances on the sidewalk without an appointment.",
+    "steps": [
+      "Call (415) 330-1300 or use Recology\u2019s bulky form to schedule.",
+      "List every item when you book.",
+      "Set out only on the scheduled day."
+    ],
+    "faqs": [
+      {
+        "q": "Hazardous waste with the fridge?",
+        "a": "HHW is separate \u2014 use the HHW facility (Thu\u2013Sat), not bulky."
+      },
+      {
+        "q": "Donate instead?",
+        "a": "If it works, use SF Environment reuse/donation options first."
+      },
+      {
+        "q": "Extra pickups?",
+        "a": "Additional bulky pickups may be available for a fee after free allotments."
+      }
+    ],
+    "source_url": "https://www.recology.com/recology-san-francisco/bulky-items/",
+    "source_name": "Recology San Francisco \u2014 Bulky Items",
+    "last_verified_at": "2026-08-10",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "television",
+    "state": "CA",
+    "city_slug": "san-francisco",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Recology bulky pickup or SF Transfer Station e-waste",
+    "common_disposal_fee": "Free (Recology bulky) or Transfer Station e-waste drop-off",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "Medium",
+    "answer": "TVs are e-waste in San Francisco and cannot go in trash/recycling carts. Schedule Recology bulky pickup or drop electronics at the SF Transfer Station (501 Tunnel Ave).",
+    "steps": [
+      "Schedule bulky pickup at (415) 330-1300, or",
+      "Self-haul electronics to 501 Tunnel Avenue.",
+      "Wipe data on smart TVs when possible."
+    ],
+    "faqs": [
+      {
+        "q": "HHW building for TVs?",
+        "a": "Electronics drop-off is at the Transfer Station e-waste channel; HHW hours differ (Thu\u2013Sat)."
+      },
+      {
+        "q": "Blue bin?",
+        "a": "No."
+      },
+      {
+        "q": "Working TV?",
+        "a": "Donate via SFRecycles partners when accepted."
+      }
+    ],
+    "source_url": "https://www.sfenvironment.org/bulky-items",
+    "source_name": "SF Environment \u2014 Bulky items",
+    "last_verified_at": "2026-08-10",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "computer-monitor",
+    "state": "CA",
+    "city_slug": "san-francisco",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Recology bulky pickup or SF Transfer Station",
+    "common_disposal_fee": "Free (Recology bulky / Transfer Station)",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "Medium",
+    "answer": "Monitors are accepted through Recology\u2019s bulky e-waste pickup and Transfer Station electronics drop-off \u2014 not SF trash or recycling carts.",
+    "steps": [
+      "Schedule bulky pickup or self-haul to 501 Tunnel Ave.",
+      "Remove personal data if possible.",
+      "Do not place in any cart."
+    ],
+    "faqs": [
+      {
+        "q": "Non-working OK?",
+        "a": "Yes \u2014 e-waste channels accept non-working electronics."
+      },
+      {
+        "q": "Cords/chargers?",
+        "a": "Often accepted with e-waste/bulky \u2014 list them when scheduling."
+      },
+      {
+        "q": "Business loads?",
+        "a": "Commercial rules differ; residents use household programs."
+      }
+    ],
+    "source_url": "https://www.recology.com/recology-san-francisco/bulky-items/",
+    "source_name": "Recology San Francisco \u2014 Bulky Items",
+    "last_verified_at": "2026-08-10",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "smartphone",
     "state": "CA",
     "city_slug": "san-francisco",
     "zip": null,
     "is_curbside_allowed": false,
-    "nearest_facility_type": "Store drop-off",
-    "common_disposal_fee": "Free",
-    "badge": "SPECIAL_HANDLING",
-    "hazard_rating": "Low",
-    "answer": "SF blue bins do not want plastic bags; use store take-back for clean film.",
+    "nearest_facility_type": "SF Transfer Station e-waste drop-off",
+    "common_disposal_fee": "Free (Transfer Station e-waste / retailer)",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "Medium",
+    "answer": "Phones are universal/e-waste in San Francisco. Wipe the device and recycle via the Transfer Station electronics drop-off or retailer take-back \u2014 never trash carts.",
     "steps": [
-      "Keep bags clean and dry.",
-      "Use the store film-recycling bin.",
-      "Better: switch to reusable bags."
+      "Factory reset and remove SIM.",
+      "Drop at 501 Tunnel Ave e-waste or a retailer program.",
+      "Tape terminals on loose batteries."
     ],
     "faqs": [
       {
-        "q": "Why not blue bin?",
-        "a": "Bags tangle machinery and contaminate loads."
+        "q": "Bulky for a phone?",
+        "a": "Possible with other electronics, but drop-off is usually simpler."
       },
       {
-        "q": "Film wrap too?",
-        "a": "Clean film often goes with store drop-off."
+        "q": "HHW facility?",
+        "a": "Consumer batteries/phones are part of e-waste/universal waste rules \u2014 use Transfer Station guidance."
       },
       {
-        "q": "Compostable bags?",
-        "a": "Usually not in recycling; follow organics labels."
+        "q": "Donation?",
+        "a": "Wipe first, then donate if it still works."
+      }
+    ],
+    "source_url": "https://www.recology.com/recology-san-francisco/sf-transfer-station/",
+    "source_name": "Recology SF Transfer Station & HHW Facility",
+    "last_verified_at": "2026-08-10",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "e-waste-mixed",
+    "state": "CA",
+    "city_slug": "san-francisco",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Recology bulky or SF Transfer Station",
+    "common_disposal_fee": "Free (Recology bulky / Transfer Station)",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "Medium",
+    "answer": "Mixed electronics in SF must use Recology bulky pickup or Transfer Station e-waste drop-off. Putting e-waste in trash/recycling carts is prohibited.",
+    "steps": [
+      "Schedule bulky pickup listing all devices, or self-haul to 501 Tunnel Ave.",
+      "Keep batteries separate when required.",
+      "No hazardous chemicals in the same load as trash."
+    ],
+    "faqs": [
+      {
+        "q": "Why banned from carts?",
+        "a": "Electronics contain heavy metals that can pollute when landfilled or processed incorrectly."
+      },
+      {
+        "q": "Hours?",
+        "a": "Transfer Station is generally open 7 days (confirm holiday closures)."
+      },
+      {
+        "q": "Sort loads?",
+        "a": "Follow scale-house sorting instructions."
+      }
+    ],
+    "source_url": "https://www.recology.com/recology-san-francisco/sf-transfer-station/",
+    "source_name": "Recology SF Transfer Station & HHW Facility",
+    "last_verified_at": "2026-08-10",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "car-battery",
+    "state": "CA",
+    "city_slug": "san-francisco",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Recology HHW Facility (501 Tunnel Ave)",
+    "common_disposal_fee": "Free (HHW facility for residents)",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "Car batteries are hazardous waste in San Francisco. Residents can drop household hazardous waste at Recology\u2019s HHW Facility (proof of SF residency; Thu\u2013Sat 8am\u20134pm; max ~15 gallons/trip). Not for trash/recycling carts or standard bulky pickup.",
+    "steps": [
+      "Keep the battery upright.",
+      "Visit HHW Facility Thu\u2013Sat with proof of SF residency.",
+      "Or use an auto retailer take-back."
+    ],
+    "faqs": [
+      {
+        "q": "Bulky pickup?",
+        "a": "Recology bulky does not accept hazardous waste, auto parts, or tires."
+      },
+      {
+        "q": "Limit?",
+        "a": "About 15 gallons of HHW per trip for residents."
+      },
+      {
+        "q": "Property managers?",
+        "a": "VSQG program is appointment-only \u2014 call Recology HHW."
+      }
+    ],
+    "source_url": "https://www.sfenvironment.org/bulky-items",
+    "source_name": "SF Environment \u2014 Bulky items",
+    "last_verified_at": "2026-08-10",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "lithium-battery",
+    "state": "CA",
+    "city_slug": "san-francisco",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Recology HHW / e-waste channels at Tunnel Ave",
+    "common_disposal_fee": "Free (HHW / Transfer Station battery rules)",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "Loose lithium batteries must not go in SF trash or recycling carts. Tape terminals and use Recology\u2019s HHW/e-waste drop-off channels at 501 Tunnel Avenue.",
+    "steps": [
+      "Tape terminals on exposed cells.",
+      "Use HHW (Thu\u2013Sat) or e-waste drop-off guidance at the Transfer Station.",
+      "Ask staff about damaged/swollen batteries."
+    ],
+    "faqs": [
+      {
+        "q": "Fire risk?",
+        "a": "Yes \u2014 crushed lithium cells can ignite in trucks."
+      },
+      {
+        "q": "Inside devices?",
+        "a": "Recycle the device as e-waste."
+      },
+      {
+        "q": "Carts?",
+        "a": "Prohibited in trash/recycling carts."
+      }
+    ],
+    "source_url": "https://www.recology.com/recology-san-francisco/sf-transfer-station/",
+    "source_name": "Recology SF Transfer Station & HHW Facility",
+    "last_verified_at": "2026-08-10",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "paint-latex",
+    "state": "CA",
+    "city_slug": "san-francisco",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Recology HHW Facility",
+    "common_disposal_fee": "Free (HHW facility, within household limits)",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Medium",
+    "answer": "Paint is household hazardous waste in San Francisco. Residents drop it at the HHW Facility at 501 Tunnel Ave (Thu\u2013Sat 8\u20134, proof of residency, ~15 gallon limit) \u2014 not in any curbside cart.",
+    "steps": [
+      "Keep cans labeled and sealed.",
+      "Drop off Thu\u2013Sat at the HHW Facility.",
+      "Do not put wet paint in trash or compost."
+    ],
+    "faqs": [
+      {
+        "q": "Bulky?",
+        "a": "No hazardous waste on bulky routes."
+      },
+      {
+        "q": "Business paint?",
+        "a": "Different VSQG rules/fees."
+      },
+      {
+        "q": "Empty cans?",
+        "a": "Ask staff; empty dry cans may have separate recycling rules."
+      }
+    ],
+    "source_url": "https://www.recology.com/recology-san-francisco/sf-transfer-station/",
+    "source_name": "Recology SF Transfer Station & HHW Facility",
+    "last_verified_at": "2026-08-10",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "paint-oil",
+    "state": "CA",
+    "city_slug": "san-francisco",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Recology HHW Facility",
+    "common_disposal_fee": "Free (HHW facility, within limits)",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "Oil-based paint must go to San Francisco\u2019s HHW Facility \u2014 never carts or bulky pickup.",
+    "steps": [
+      "Transport upright.",
+      "HHW Facility Thu\u2013Sat with proof of SF residency.",
+      "Stay within household quantity limits."
+    ],
+    "faqs": [
+      {
+        "q": "Same building as Transfer Station?",
+        "a": "Yes \u2014 501 Tunnel Ave campus; HHW has distinct hours."
+      },
+      {
+        "q": "Solvents?",
+        "a": "HHW."
+      },
+      {
+        "q": "Appointment?",
+        "a": "Residential drop-off follows posted HHW hours; VSQG needs appointment."
+      }
+    ],
+    "source_url": "https://www.recology.com/recology-san-francisco/sf-transfer-station/",
+    "source_name": "Recology SF Transfer Station & HHW Facility",
+    "last_verified_at": "2026-08-10",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "motor-oil",
+    "state": "CA",
+    "city_slug": "san-francisco",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Recology HHW Facility",
+    "common_disposal_fee": "Free (HHW facility, within limits)",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "Used motor oil is HHW in San Francisco. Take it to the Recology HHW Facility (resident limits apply). Do not put oil in trash, recycling, or compost carts.",
+    "steps": [
+      "Use a clean sealed container.",
+      "Drop at HHW Facility Thu\u2013Sat.",
+      "Ask about filters."
+    ],
+    "faqs": [
+      {
+        "q": "Bulky?",
+        "a": "No \u2014 hazardous and auto wastes excluded."
+      },
+      {
+        "q": "15 gallon limit?",
+        "a": "Yes for typical residential HHW trips."
+      },
+      {
+        "q": "Stormwater?",
+        "a": "Never pour oil into streets or drains."
+      }
+    ],
+    "source_url": "https://www.recology.com/recology-san-francisco/sf-transfer-station/",
+    "source_name": "Recology SF Transfer Station & HHW Facility",
+    "last_verified_at": "2026-08-10",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "propane-tank",
+    "state": "CA",
+    "city_slug": "san-francisco",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Propane exchange or Recology HHW (confirm size)",
+    "common_disposal_fee": "Exchange or HHW acceptance rules apply",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "Propane cylinders are hazardous and are not for SF carts or standard bulky pickup. Use a cylinder exchange when possible, or confirm acceptance with Recology HHW before visiting Tunnel Ave.",
+    "steps": [
+      "Prefer retail propane exchange.",
+      "Call HHW (415) 330-1405 if unsure about cylinder size.",
+      "Never put tanks in carts."
+    ],
+    "faqs": [
+      {
+        "q": "Bulky exclusions?",
+        "a": "Hazardous waste and auto-related items are excluded from bulky."
+      },
+      {
+        "q": "Empty tanks?",
+        "a": "Still specialized disposal."
+      },
+      {
+        "q": "Camping fuel?",
+        "a": "Confirm with HHW staff."
+      }
+    ],
+    "source_url": "https://www.recology.com/recology-san-francisco/bulky-items/",
+    "source_name": "Recology San Francisco \u2014 Bulky Items",
+    "last_verified_at": "2026-08-10",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "fluorescent-bulbs",
+    "state": "CA",
+    "city_slug": "san-francisco",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Recology HHW Facility",
+    "common_disposal_fee": "Free (HHW facility)",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "Mercury lamps/CFLs are hazardous waste in San Francisco \u2014 take them to the HHW Facility, not trash or recycling carts.",
+    "steps": [
+      "Keep bulbs unbroken in original packaging if possible.",
+      "Drop at HHW Facility Thu\u2013Sat.",
+      "Follow mercury cleanup steps if a bulb breaks."
+    ],
+    "faqs": [
+      {
+        "q": "Transfer Station trash side?",
+        "a": "Use the HHW channel for mercury lamps."
+      },
+      {
+        "q": "LEDs?",
+        "a": "Often different \u2014 confirm locally."
+      },
+      {
+        "q": "Retail take-back?",
+        "a": "Some stores accept CFLs; City HHW is the reliable option."
+      }
+    ],
+    "source_url": "https://www.recology.com/recology-san-francisco/sf-transfer-station/",
+    "source_name": "Recology SF Transfer Station & HHW Facility",
+    "last_verified_at": "2026-08-10",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "medical-sharps",
+    "state": "CA",
+    "city_slug": "san-francisco",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Approved sharps drop-off / HHW guidance",
+    "common_disposal_fee": "Free\u2013program cost (sharps container programs)",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "Sharps must never go loose in San Francisco trash or recycling. Use an approved sharps container and a proper drop-off/mail-back program; ask Recology HHW if household sharps are accepted under current rules.",
+    "steps": [
+      "Contain sharps in an approved container.",
+      "Use pharmacy/mail-back or confirmed HHW acceptance.",
+      "Do not recycle sharps containers."
+    ],
+    "faqs": [
+      {
+        "q": "Why not trash?",
+        "a": "Needlestick and contamination risk for workers."
+      },
+      {
+        "q": "Medications?",
+        "a": "Use drug take-back \u2014 do not flush unless labeled."
+      },
+      {
+        "q": "Home-bound?",
+        "a": "Ask your pharmacy or city sharps program about pickup options."
+      }
+    ],
+    "source_url": "https://www.sfenvironment.org/bulky-items",
+    "source_name": "SF Environment \u2014 Bulky items",
+    "last_verified_at": "2026-08-10",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "tires",
+    "state": "CA",
+    "city_slug": "san-francisco",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Tire retailer take-back (not Recology bulky)",
+    "common_disposal_fee": "Retailer / specialty fee",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "Medium",
+    "answer": "Recology\u2019s SF bulky program does not accept tires or auto parts. Take tires to a retailer/recycler that accepts scrap tires \u2014 do not leave them on the sidewalk.",
+    "steps": [
+      "Ask the installer to recycle old tires when buying new ones.",
+      "Or find a scrap-tire drop-off.",
+      "Do not use bulky pickup for tires."
+    ],
+    "faqs": [
+      {
+        "q": "Why excluded?",
+        "a": "Recology lists auto parts and tires as not accepted on bulky routes."
+      },
+      {
+        "q": "Transfer Station?",
+        "a": "Confirm specialty tire rules before self-hauling."
+      },
+      {
+        "q": "Illegal dumping?",
+        "a": "SF Public Works can fine abandoned waste."
+      }
+    ],
+    "source_url": "https://www.recology.com/recology-san-francisco/bulky-items/",
+    "source_name": "Recology San Francisco \u2014 Bulky Items",
+    "last_verified_at": "2026-08-10",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "air-conditioner",
+    "state": "CA",
+    "city_slug": "san-francisco",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Recology bulky pickup",
+    "common_disposal_fee": "Free (eligible Recology bulky) / Transfer Station fees may apply",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "High",
+    "answer": "Schedule Recology bulky pickup for air conditioners/appliances in San Francisco, or self-haul to the Transfer Station. Do not abandon units on the sidewalk.",
+    "steps": [
+      "Book bulky pickup at (415) 330-1300.",
+      "Do not vent refrigerant yourself.",
+      "Set out only on the appointment day."
+    ],
+    "faqs": [
+      {
+        "q": "HHW?",
+        "a": "Appliances generally use bulky/Transfer Station, not the HHW chemical counter."
+      },
+      {
+        "q": "Free allotments?",
+        "a": "Use your annual free bulky collections first."
+      },
+      {
+        "q": "Donate?",
+        "a": "Only working units via reuse partners."
+      }
+    ],
+    "source_url": "https://www.sfenvironment.org/bulky-items",
+    "source_name": "SF Environment \u2014 Bulky items",
+    "last_verified_at": "2026-08-10",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "yard-waste",
+    "state": "CA",
+    "city_slug": "san-francisco",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Recology green compost cart",
+    "common_disposal_fee": "Free (green compost cart)",
+    "badge": "ACCEPTED_IN_BLUE_BIN",
+    "hazard_rating": "Low",
+    "answer": "San Francisco yard trimmings go in the green compost cart with food scraps \u2014 not the blue recycling cart.",
+    "steps": [
+      "Use the green cart for yard trimmings and food scraps.",
+      "Follow Recology contamination rules.",
+      "For oversized brush, use bulky or Transfer Station options."
+    ],
+    "faqs": [
+      {
+        "q": "Blue bin?",
+        "a": "No \u2014 organics are green cart."
+      },
+      {
+        "q": "Palm fronds?",
+        "a": "Confirm current Recology acceptance limits."
+      },
+      {
+        "q": "Christmas trees?",
+        "a": "Seasonal programs apply \u2014 check Recology/SF Environment alerts."
       }
     ],
     "source_url": "https://www.sfenvironment.org/",
-    "source_name": "Recology / SF Environment",
-    "last_verified_at": "2026-06-15",
+    "source_name": "SF Environment \u2014 Bulky items",
+    "last_verified_at": "2026-08-10",
     "reviewed_by": "editorial",
     "needs_review": false
   },
@@ -941,69 +2130,357 @@
     "city_slug": "san-francisco",
     "zip": null,
     "is_curbside_allowed": true,
-    "nearest_facility_type": "Organics cart",
-    "common_disposal_fee": "Free",
+    "nearest_facility_type": "Recology green compost cart",
+    "common_disposal_fee": "Free (green compost cart)",
     "badge": "ACCEPTED_IN_BLUE_BIN",
     "hazard_rating": "Low",
-    "answer": "SF compost carts accept food scraps \u2014 keep liquids minimal and follow Recology rules.",
+    "answer": "SF food scraps belong in the green compost cart. Keep liquids minimal and follow Recology sorting rules \u2014 not blue recycling.",
     "steps": [
-      "Collect scraps in organics cart or kitchen caddy.",
-      "Keep out plastic bags unless city-approved compostable bags.",
-      "No glass/metal in organics."
+      "Collect scraps in a kitchen caddy.",
+      "Empty into the green cart.",
+      "No plastic bags unless City-approved compostable bags are allowed."
     ],
     "faqs": [
       {
         "q": "Meat OK?",
-        "a": "Often yes in municipal organics \u2014 confirm."
+        "a": "Generally yes in SF compost \u2014 follow current Recology guidance."
       },
       {
         "q": "Pizza boxes?",
-        "a": "Greasy boxes may go organics if accepted."
+        "a": "Greasy boxes often go compost if accepted."
       },
       {
-        "q": "Plastic containers?",
-        "a": "No."
+        "q": "Trash cart?",
+        "a": "Compost first; landfill is last resort."
       }
     ],
     "source_url": "https://www.sfenvironment.org/",
-    "source_name": "Recology / SF Environment",
-    "last_verified_at": "2026-06-15",
+    "source_name": "SF Environment \u2014 Bulky items",
+    "last_verified_at": "2026-08-10",
     "reviewed_by": "editorial",
     "needs_review": false
   },
   {
-    "item_slug": "tires",
+    "item_slug": "plastic-bags",
+    "state": "CA",
+    "city_slug": "san-francisco",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Store plastic-film drop-off",
+    "common_disposal_fee": "Free (store drop-off)",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "San Francisco blue bins do not want plastic bags. Return clean film to grocery store drop-off bins.",
+    "steps": [
+      "Keep bags clean/dry.",
+      "Use store film recycling.",
+      "Prefer reusable bags."
+    ],
+    "faqs": [
+      {
+        "q": "Why not blue?",
+        "a": "Bags tangle sorting equipment."
+      },
+      {
+        "q": "Compostable bags?",
+        "a": "Only if explicitly allowed in green cart rules."
+      },
+      {
+        "q": "Cling film?",
+        "a": "Often with store film drop-off when clean."
+      }
+    ],
+    "source_url": "https://www.sfenvironment.org/",
+    "source_name": "SF Environment \u2014 Bulky items",
+    "last_verified_at": "2026-08-10",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "cooking-oil",
+    "state": "CA",
+    "city_slug": "san-francisco",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Recology HHW / grease recycling",
+    "common_disposal_fee": "Free\u2013low (HHW / grease programs)",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Medium",
+    "answer": "Do not pour cooking oil into SF drains or storm drains. Small compost-compatible scraps differ from gallons of oil \u2014 contain oil and use HHW/grease recycling guidance.",
+    "steps": [
+      "Cool and seal oil in a container.",
+      "For larger volumes, use HHW or a grease recycler.",
+      "Wipe pans into organics only when rules allow."
+    ],
+    "faqs": [
+      {
+        "q": "Green cart liquids?",
+        "a": "Avoid pouring free oil into compost."
+      },
+      {
+        "q": "HHW accepts oil?",
+        "a": "Household oils/chemicals are HHW-category \u2014 confirm at Tunnel Ave."
+      },
+      {
+        "q": "Restaurants?",
+        "a": "Commercial grease programs differ."
+      }
+    ],
+    "source_url": "https://www.recology.com/recology-san-francisco/sf-transfer-station/",
+    "source_name": "Recology SF Transfer Station & HHW Facility",
+    "last_verified_at": "2026-08-10",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "construction-debris",
+    "state": "CA",
+    "city_slug": "san-francisco",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Recology debris box or SF Transfer Station (C&D)",
+    "common_disposal_fee": "Debris box / Transfer Station rates",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "Recology bulky pickup does not take construction & demolition debris. For remodels, order a debris box or self-haul sorted C&D to the SF Transfer Station (registered C&D facility).",
+    "steps": [
+      "Keep HHW out of C&D loads.",
+      "Order a debris box or self-haul to 501 Tunnel Ave.",
+      "Follow sorting rules at the scale house."
+    ],
+    "faqs": [
+      {
+        "q": "Bulky for remodel waste?",
+        "a": "No \u2014 C&D is excluded from bulky."
+      },
+      {
+        "q": "Permit?",
+        "a": "Right-of-way debris boxes may need permits."
+      },
+      {
+        "q": "Reusable lumber?",
+        "a": "Ask about reuse diversion options."
+      }
+    ],
+    "source_url": "https://www.recology.com/recology-san-francisco/bulky-items/",
+    "source_name": "Recology San Francisco \u2014 Bulky Items",
+    "last_verified_at": "2026-08-10",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "mattress",
     "state": "CA",
     "city_slug": "san-diego",
     "zip": null,
     "is_curbside_allowed": false,
-    "nearest_facility_type": "Tire retailer / transfer",
-    "common_disposal_fee": "$2-$15 each",
-    "badge": "BANNED_FROM_LANDFILLS",
-    "hazard_rating": "Medium",
-    "answer": "San Diego residents should use tire retailers or approved facilities; tires are not curbside trash.",
+    "nearest_facility_type": "Franchise hauler bulky service or Miramar complex",
+    "common_disposal_fee": "Hauler bulky rules vary; Miramar/transfer fees may apply",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "San Diego bulky mattress disposal depends on your franchise hauler\u2019s bulky program \u2014 it is not regular cart trash. Use WasteFreeSD.org to find reuse/disposal options, or self-haul to an accepted facility. Confirm your hauler\u2019s bulky appointment rules before setting items out.",
     "steps": [
-      "Ask the installer to recycle your old tires when you buy new ones.",
-      "Or take tires to an approved drop-off (fees may apply).",
-      "Do not stockpile illegally."
+      "Check your hauler bill/portal for bulky-item appointments.",
+      "Search WasteFreeSD.org for mattress reuse/recycling options.",
+      "Do not dump mattresses in alleys or open space."
     ],
     "faqs": [
       {
-        "q": "Why banned?",
-        "a": "Whole tires cause landfill problems and mosquito breeding when dumped."
+        "q": "Citywide free bulky like LA?",
+        "a": "San Diego relies more on franchise haulers + drop-off \u2014 verify your provider."
       },
       {
-        "q": "Rims on?",
-        "a": "Many sites want tires demounted \u2014 ask first."
+        "q": "Miramar?",
+        "a": "Large items may be directed through Miramar complex channels \u2014 call ESD at 858-694-7000."
       },
       {
-        "q": "How many at once?",
-        "a": "Limits vary by facility."
+        "q": "Illegal dumping?",
+        "a": "Report via City channels; fines apply."
       }
     ],
-    "source_url": "https://www.sandiego.gov/environmental-services",
-    "source_name": "City of San Diego Environmental Services",
-    "last_verified_at": "2026-06-15",
+    "source_url": "https://www.sandiego.gov/environmental-services/recycling",
+    "source_name": "City of San Diego \u2014 Recycling Programs",
+    "last_verified_at": "2026-08-10",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "refrigerator",
+    "state": "CA",
+    "city_slug": "san-diego",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Miramar Recycling Center",
+    "common_disposal_fee": "$25 at Miramar Recycling Center (CFC appliances)",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "Medium",
+    "answer": "In the City of San Diego, refrigerators/freezers/CFC appliances can be recycled at the Miramar Recycling Center for a posted $25 fee each. Do not put them in residential carts. Call 858-268-8971 to confirm current pricing/acceptance.",
+    "steps": [
+      "Transport to Miramar Recycling Center (5165 Convoy St.).",
+      "Pay the posted CFC appliance fee ($25 as published).",
+      "Or ask your franchise hauler about appliance pickup options."
+    ],
+    "faqs": [
+      {
+        "q": "Hours?",
+        "a": "Miramar Recycling Center: Mon\u2013Sat 7:00 a.m.\u20134:30 p.m. (holiday closures listed by the City)."
+      },
+      {
+        "q": "Other large appliances?",
+        "a": "Stoves/washers/dryers/water heaters are listed at $12 each at Miramar Recycling Center."
+      },
+      {
+        "q": "HHW facility?",
+        "a": "The HHW Transfer Facility does not accept appliances."
+      }
+    ],
+    "source_url": "https://www.sandiego.gov/environmental-services/recycling/centers/miramarrecycle",
+    "source_name": "City of San Diego \u2014 Miramar Recycling Center",
+    "last_verified_at": "2026-08-10",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "television",
+    "state": "CA",
+    "city_slug": "san-diego",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Miramar Recycling Center",
+    "common_disposal_fee": "Free (TVs/monitors/CPUs at Miramar Recycling Center)",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "Medium",
+    "answer": "San Diego\u2019s Miramar Recycling Center accepts TVs, computer monitors, laptops, and CPUs at no charge (donation/recycling). Do not landfill e-waste in carts. Note: the City HHW Transfer Facility does not accept electronics.",
+    "steps": [
+      "Take TVs to Miramar Recycling Center (5165 Convoy St.).",
+      "Keep separate from HHW chemicals (different facility/appointment).",
+      "Call 858-268-8971 with questions."
+    ],
+    "faqs": [
+      {
+        "q": "HHW appointment for TVs?",
+        "a": "No \u2014 City HHW facility explicitly does not accept electronics."
+      },
+      {
+        "q": "Small electronics fee?",
+        "a": "Small computer/household electronics 1\u201349 lb are listed at $0.25/lb."
+      },
+      {
+        "q": "Proof?",
+        "a": "Follow site rules when you arrive."
+      }
+    ],
+    "source_url": "https://www.sandiego.gov/environmental-services/recycling/centers/miramarrecycle",
+    "source_name": "City of San Diego \u2014 Miramar Recycling Center",
+    "last_verified_at": "2026-08-10",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "computer-monitor",
+    "state": "CA",
+    "city_slug": "san-diego",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Miramar Recycling Center",
+    "common_disposal_fee": "Free at Miramar Recycling Center",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "Medium",
+    "answer": "Computer monitors are accepted free at San Diego\u2019s Miramar Recycling Center along with TVs/laptops/CPUs. Not for trash carts; not for the HHW Transfer Facility.",
+    "steps": [
+      "Self-haul to 5165 Convoy St.",
+      "Ask staff where to unload e-waste.",
+      "Wipe data when possible."
+    ],
+    "faqs": [
+      {
+        "q": "Same as TV rules?",
+        "a": "Yes for Miramar\u2019s free computer electronics list."
+      },
+      {
+        "q": "Printers?",
+        "a": "Small electronics may be weighed at $0.25/lb \u2014 confirm on site."
+      },
+      {
+        "q": "Business loads?",
+        "a": "Commercial rules may differ."
+      }
+    ],
+    "source_url": "https://www.sandiego.gov/environmental-services/recycling/centers/miramarrecycle",
+    "source_name": "City of San Diego \u2014 Miramar Recycling Center",
+    "last_verified_at": "2026-08-10",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "smartphone",
+    "state": "CA",
+    "city_slug": "san-diego",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Miramar Recycling Center",
+    "common_disposal_fee": "Often $0.25/lb small electronics \u2014 confirm on site",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "Medium",
+    "answer": "Phones are e-waste in San Diego. Use Miramar Recycling Center (small electronics may be charged per pound) or retailer take-back \u2014 not carts, and not the HHW chemical facility.",
+    "steps": [
+      "Factory reset the phone.",
+      "Take to Miramar Recycling Center or a retailer program.",
+      "Keep loose batteries taped."
+    ],
+    "faqs": [
+      {
+        "q": "HHW facility?",
+        "a": "Does not accept electronics."
+      },
+      {
+        "q": "CRV?",
+        "a": "Phones are not CRV beverage containers."
+      },
+      {
+        "q": "Working phone?",
+        "a": "Trade-in/donate after wiping."
+      }
+    ],
+    "source_url": "https://www.sandiego.gov/environmental-services/recycling/centers/miramarrecycle",
+    "source_name": "City of San Diego \u2014 Miramar Recycling Center",
+    "last_verified_at": "2026-08-10",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "e-waste-mixed",
+    "state": "CA",
+    "city_slug": "san-diego",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Miramar Recycling Center",
+    "common_disposal_fee": "Free for TVs/monitors/CPUs; other electronics may be $0.25/lb",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "Medium",
+    "answer": "Bring household e-waste to Miramar Recycling Center. TVs/monitors/computers are listed free; many smaller electronics are priced per pound. The separate HHW Transfer Facility does not take electronics.",
+    "steps": [
+      "Sort e-waste from chemicals.",
+      "Visit Miramar Recycling Center Mon\u2013Sat.",
+      "Call 858-268-8971 to verify fees."
+    ],
+    "faqs": [
+      {
+        "q": "Why not HHW?",
+        "a": "City publishes that HHW Transfer Facility does not accept electronic waste."
+      },
+      {
+        "q": "Landfill gate?",
+        "a": "E-waste must be properly handled before landfill entry."
+      },
+      {
+        "q": "WasteFreeSD?",
+        "a": "Also lists reuse/repair options."
+      }
+    ],
+    "source_url": "https://www.sandiego.gov/environmental-services/ep/hazardous",
+    "source_name": "City of San Diego \u2014 Household Hazardous Waste",
+    "last_verified_at": "2026-08-10",
     "reviewed_by": "editorial",
     "needs_review": false
   },
@@ -1013,249 +2490,537 @@
     "city_slug": "san-diego",
     "zip": null,
     "is_curbside_allowed": false,
-    "nearest_facility_type": "Auto parts / battery retailer",
-    "common_disposal_fee": "Free-$15",
+    "nearest_facility_type": "Miramar HHW Transfer Facility",
+    "common_disposal_fee": "Free (HHW Transfer Facility by appointment)",
     "badge": "BANNED_FROM_LANDFILLS",
     "hazard_rating": "High",
-    "answer": "Take car batteries to auto parts take-back or HHW \u2014 not City trash carts.",
+    "answer": "Car batteries are household hazardous waste for City of San Diego residents. Book an appointment and drop off free at the HHW Transfer Facility at the Miramar Landfill entrance (5161 Convoy St.) with proof of City residency. Not for trash carts.",
     "steps": [
-      "Keep the battery upright and terminals covered.",
-      "Take it to an auto parts retailer that accepts lead-acid batteries.",
-      "Ask for any core credit or free take-back."
+      "Schedule an HHW appointment (City process).",
+      "Bring ID/proof of City of San Diego residency.",
+      "Keep the battery upright; stay within household quantity limits (\u226415 gallons / 125 lb guidance)."
     ],
     "faqs": [
       {
-        "q": "Why are they banned?",
-        "a": "They contain lead and acid that contaminate landfills and groundwater."
+        "q": "Electronics with batteries?",
+        "a": "HHW facility does not accept electronics \u2014 batteries/chemicals only per HHW rules."
       },
       {
-        "q": "Can recycling take them?",
-        "a": "Not the blue bin \u2014 use battery take-back only."
+        "q": "Open containers?",
+        "a": "Not accepted if leaky/open."
       },
       {
-        "q": "What if it is leaking?",
-        "a": "Place in a sturdy secondary container and go to HHW."
+        "q": "Business batteries?",
+        "a": "Business waste is not accepted at the residential HHW facility."
       }
     ],
-    "source_url": "https://www.sandiego.gov/environmental-services",
-    "source_name": "City of San Diego Environmental Services",
-    "last_verified_at": "2026-06-15",
-    "reviewed_by": "editorial",
-    "needs_review": false
-  },
-  {
-    "item_slug": "refrigerator",
-    "state": "CA",
-    "city_slug": "san-jose",
-    "zip": null,
-    "is_curbside_allowed": false,
-    "nearest_facility_type": "Appliance hauler / utility program",
-    "common_disposal_fee": "$20-$100",
-    "badge": "BANNED_FROM_LANDFILLS",
-    "hazard_rating": "Medium",
-    "answer": "San Jos\u00e9 appliance/bulky programs can haul refrigerators \u2014 confirm refrigerant-capable service.",
-    "steps": [
-      "Unplug and defrost safely.",
-      "Book municipal bulky/appliance service or retailer haul-away.",
-      "Confirm doors are secured for safety."
-    ],
-    "faqs": [
-      {
-        "q": "Can scrap guys take it?",
-        "a": "Only if they are certified for refrigerant recovery."
-      },
-      {
-        "q": "Free programs?",
-        "a": "Some utilities offer free fridge recycling \u2014 check eligibility."
-      },
-      {
-        "q": "Freezer same rules?",
-        "a": "Yes."
-      }
-    ],
-    "source_url": "https://www.sanjoseca.gov/your-government/departments-offices/environmental-services",
-    "source_name": "City of San Jos\u00e9 Environmental Services",
-    "last_verified_at": "2026-06-15",
-    "reviewed_by": "editorial",
-    "needs_review": false
-  },
-  {
-    "item_slug": "motor-oil",
-    "state": "CA",
-    "city_slug": "san-jose",
-    "zip": null,
-    "is_curbside_allowed": false,
-    "nearest_facility_type": "Certified used-oil center",
-    "common_disposal_fee": "Free-$15",
-    "badge": "BANNED_FROM_LANDFILLS",
-    "hazard_rating": "High",
-    "answer": "Use certified used-oil centers in Santa Clara County rather than trash carts.",
-    "steps": [
-      "Store oil in a clean, sealed plastic container.",
-      "Take it to a certified used-oil collection center (often auto parts stores).",
-      "Ask about oil-filter recycling at the same visit."
-    ],
-    "faqs": [
-      {
-        "q": "Can I mix solvents in?",
-        "a": "No \u2014 keep oil uncontaminated."
-      },
-      {
-        "q": "Filters too?",
-        "a": "Drain filters and recycle where accepted."
-      },
-      {
-        "q": "Is there a limit?",
-        "a": "Residential limits vary \u2014 call ahead."
-      }
-    ],
-    "source_url": "https://www.sanjoseca.gov/your-government/departments-offices/environmental-services",
-    "source_name": "City of San Jos\u00e9 Environmental Services",
-    "last_verified_at": "2026-06-15",
-    "reviewed_by": "editorial",
-    "needs_review": false
-  },
-  {
-    "item_slug": "paint-latex",
-    "state": "CA",
-    "city_slug": "sacramento",
-    "zip": null,
-    "is_curbside_allowed": false,
-    "nearest_facility_type": "PaintCare / HHW",
-    "common_disposal_fee": "Free-$30",
-    "badge": "SPECIAL_HANDLING",
-    "hazard_rating": "Medium",
-    "answer": "Sacramento residents can use PaintCare drop-off sites for latex paint \u2014 not drainage or wet trash.",
-    "steps": [
-      "Keep paint in the original labeled can.",
-      "Find a PaintCare drop-off or city HHW event.",
-      "Only fully dried latex may have different local trash rules \u2014 confirm first."
-    ],
-    "faqs": [
-      {
-        "q": "Is dried latex trash?",
-        "a": "Some cities allow dried latex in trash; liquid paint usually does not."
-      },
-      {
-        "q": "Oil-based too?",
-        "a": "Oil-based paint is always HHW."
-      },
-      {
-        "q": "Can I recycle empty cans?",
-        "a": "Empty, dry metal cans may be recyclable \u2014 check local rules."
-      }
-    ],
-    "source_url": "https://www.cityofsacramento.gov/public-works/recycling-solid-waste",
-    "source_name": "City of Sacramento Recycling & Solid Waste",
-    "last_verified_at": "2026-06-15",
-    "reviewed_by": "editorial",
-    "needs_review": false
-  },
-  {
-    "item_slug": "propane-tank",
-    "state": "CA",
-    "city_slug": "sacramento",
-    "zip": null,
-    "is_curbside_allowed": false,
-    "nearest_facility_type": "Propane exchange / HHW",
-    "common_disposal_fee": "$5-$40",
-    "badge": "BANNED_FROM_LANDFILLS",
-    "hazard_rating": "High",
-    "answer": "Propane tanks go to exchange or county HHW \u2014 never Sacramento trash carts.",
-    "steps": [
-      "Prefer cylinder exchange at hardware stores for BBQ tanks.",
-      "For uncommon sizes, use HHW or a propane dealer.",
-      "Never put tanks in compactors or trash trucks."
-    ],
-    "faqs": [
-      {
-        "q": "Empty tanks OK in trash?",
-        "a": "No \u2014 still pressurized risk."
-      },
-      {
-        "q": "Camping cylinders?",
-        "a": "Often HHW or specialty drop-off."
-      },
-      {
-        "q": "Is exchange recycling?",
-        "a": "Exchange refills/reuses cylinders."
-      }
-    ],
-    "source_url": "https://www.cityofsacramento.gov/public-works/recycling-solid-waste",
-    "source_name": "City of Sacramento Recycling & Solid Waste",
-    "last_verified_at": "2026-06-15",
-    "reviewed_by": "editorial",
-    "needs_review": false
-  },
-  {
-    "item_slug": "e-waste-mixed",
-    "state": "CA",
-    "city_slug": "oakland",
-    "zip": null,
-    "is_curbside_allowed": false,
-    "nearest_facility_type": "E-waste recycler",
-    "common_disposal_fee": "Free-$40",
-    "badge": "BANNED_FROM_LANDFILLS",
-    "hazard_rating": "Medium",
-    "answer": "Oakland residents should use Alameda County e-waste options; electronics are not garbage.",
-    "steps": [
-      "Wipe personal data from devices.",
-      "Use a city e-waste event or certified collector.",
-      "Keep batteries separate when required."
-    ],
-    "faqs": [
-      {
-        "q": "Is all electronics banned from trash?",
-        "a": "Many covered devices are; when unsure, recycle as e-waste."
-      },
-      {
-        "q": "Cables/keyboards?",
-        "a": "Often accepted at e-waste events."
-      },
-      {
-        "q": "Broken devices?",
-        "a": "Still recyclable as e-waste."
-      }
-    ],
-    "source_url": "https://www.oaklandca.gov/topics/recycling-and-waste",
-    "source_name": "City of Oakland Public Works",
-    "last_verified_at": "2026-06-15",
+    "source_url": "https://www.sandiego.gov/environmental-services/ep/hazardous",
+    "source_name": "City of San Diego \u2014 Household Hazardous Waste",
+    "last_verified_at": "2026-08-10",
     "reviewed_by": "editorial",
     "needs_review": false
   },
   {
     "item_slug": "lithium-battery",
     "state": "CA",
-    "city_slug": "oakland",
+    "city_slug": "san-diego",
     "zip": null,
     "is_curbside_allowed": false,
-    "nearest_facility_type": "HHW / battery drop-off",
-    "common_disposal_fee": "Free-$20",
+    "nearest_facility_type": "Miramar HHW Transfer Facility",
+    "common_disposal_fee": "Free (HHW by appointment)",
     "badge": "BANNED_FROM_LANDFILLS",
     "hazard_rating": "High",
-    "answer": "Bring lithium batteries to HHW/battery drop-off \u2014 Oakland carts cannot take loose cells.",
+    "answer": "Loose lithium batteries are hazardous and fire-prone. City of San Diego residents should use the appointment-based HHW Transfer Facility \u2014 never carts.",
     "steps": [
-      "Tape terminals on exposed battery contacts.",
-      "Take to HHW or a battery drop-off.",
-      "Damaged/swollen batteries need special handling \u2014 ask HHW."
+      "Tape terminals.",
+      "Book HHW appointment; bring proof of residency.",
+      "Tell staff if cells are swollen/damaged."
     ],
     "faqs": [
       {
-        "q": "Inside a device?",
-        "a": "Recycle the whole device as e-waste when possible."
+        "q": "E-waste building instead?",
+        "a": "Loose batteries are HHW-category; devices go to Miramar Recycling Center."
       },
       {
-        "q": "Why fires?",
-        "a": "Crushed lithium cells can ignite in trucks."
+        "q": "Limit?",
+        "a": "Follow 15 gal / 125 lb household guidance."
       },
       {
-        "q": "Can I mail them?",
-        "a": "Only via approved programs."
+        "q": "No appointment?",
+        "a": "Facility is appointment-only for residents."
       }
     ],
-    "source_url": "https://www.oaklandca.gov/topics/recycling-and-waste",
-    "source_name": "City of Oakland Public Works",
-    "last_verified_at": "2026-06-15",
+    "source_url": "https://www.sandiego.gov/environmental-services/ep/hazardous",
+    "source_name": "City of San Diego \u2014 Household Hazardous Waste",
+    "last_verified_at": "2026-08-10",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "paint-latex",
+    "state": "CA",
+    "city_slug": "san-diego",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Miramar HHW Transfer Facility",
+    "common_disposal_fee": "Free (HHW by appointment)",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Medium",
+    "answer": "Paint is HHW in San Diego. City residents dispose of it free by appointment at the Miramar HHW Transfer Facility \u2014 not in carts. Containers larger than 5 gallons or unidentifiable products are not accepted.",
+    "steps": [
+      "Keep product in original sealed containers.",
+      "Book HHW appointment; bring proof of residency.",
+      "Do not mix different products together."
+    ],
+    "faqs": [
+      {
+        "q": "Electronics there?",
+        "a": "No."
+      },
+      {
+        "q": "Max load?",
+        "a": "Up to about 15 gallons or 125 pounds of HHW."
+      },
+      {
+        "q": "Business paint?",
+        "a": "Not accepted at residential HHW."
+      }
+    ],
+    "source_url": "https://www.sandiego.gov/environmental-services/ep/hazardous",
+    "source_name": "City of San Diego \u2014 Household Hazardous Waste",
+    "last_verified_at": "2026-08-10",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "paint-oil",
+    "state": "CA",
+    "city_slug": "san-diego",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Miramar HHW Transfer Facility",
+    "common_disposal_fee": "Free (HHW by appointment)",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "Oil-based paint must go to San Diego\u2019s appointment-only HHW Transfer Facility. Never trash or pour out.",
+    "steps": [
+      "Transport upright in the trunk/bed, not the passenger cabin.",
+      "Appointment + proof of City residency.",
+      "Follow max quantity rules."
+    ],
+    "faqs": [
+      {
+        "q": "Same site as landfill?",
+        "a": "HHW is at the Miramar Landfill entrance area but is a separate program."
+      },
+      {
+        "q": "Leaky cans?",
+        "a": "Not accepted."
+      },
+      {
+        "q": "Solvents?",
+        "a": "HHW."
+      }
+    ],
+    "source_url": "https://www.sandiego.gov/environmental-services/ep/hazardous",
+    "source_name": "City of San Diego \u2014 Household Hazardous Waste",
+    "last_verified_at": "2026-08-10",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "motor-oil",
+    "state": "CA",
+    "city_slug": "san-diego",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Miramar HHW Transfer Facility",
+    "common_disposal_fee": "Free (HHW by appointment)",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "Used motor oil is accepted as household hazardous waste at San Diego\u2019s HHW Transfer Facility by appointment for City residents. Not for storm drains or trash carts.",
+    "steps": [
+      "Store in a sealed container.",
+      "Book HHW appointment.",
+      "Ask about oil filters if you bring them."
+    ],
+    "faqs": [
+      {
+        "q": "Retail take-back?",
+        "a": "Many auto parts stores also take oil \u2014 HHW is the City channel."
+      },
+      {
+        "q": "Business oil?",
+        "a": "Not for the residential HHW facility."
+      },
+      {
+        "q": "Landfill refuse line?",
+        "a": "HHW must be handled through the HHW facility, not refuse tipping."
+      }
+    ],
+    "source_url": "https://www.sandiego.gov/environmental-services/ep/hazardous",
+    "source_name": "City of San Diego \u2014 Household Hazardous Waste",
+    "last_verified_at": "2026-08-10",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "propane-tank",
+    "state": "CA",
+    "city_slug": "san-diego",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Propane exchange or Miramar HHW (propane cylinders/fire extinguishers noted)",
+    "common_disposal_fee": "Exchange or HHW rules for accepted cylinders",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "Propane cylinders need special handling in San Diego. Prefer cylinder exchange; the City HHW facility guidance discusses limited compressed-gas exceptions (e.g., propane cylinders/fire extinguishers) \u2014 confirm when booking your appointment.",
+    "steps": [
+      "Use retail propane exchange when possible.",
+      "If using HHW, book an appointment and confirm cylinder acceptance.",
+      "Never put tanks in carts or landfill refuse loads."
+    ],
+    "faqs": [
+      {
+        "q": "Other compressed gases?",
+        "a": "Many are not accepted at HHW."
+      },
+      {
+        "q": "Electronics?",
+        "a": "Separate facility."
+      },
+      {
+        "q": "Empty tank?",
+        "a": "Still specialized."
+      }
+    ],
+    "source_url": "https://www.sandiego.gov/environmental-services/ep/hazardous",
+    "source_name": "City of San Diego \u2014 Household Hazardous Waste",
+    "last_verified_at": "2026-08-10",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "fluorescent-bulbs",
+    "state": "CA",
+    "city_slug": "san-diego",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Miramar HHW Transfer Facility",
+    "common_disposal_fee": "Free (HHW by appointment)",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "Mercury lamps/CFLs are household hazardous waste in San Diego \u2014 appointment-only HHW Transfer Facility, not trash carts.",
+    "steps": [
+      "Keep bulbs intact.",
+      "Book HHW appointment with proof of residency.",
+      "Follow mercury cleanup if broken."
+    ],
+    "faqs": [
+      {
+        "q": "Recycling Center?",
+        "a": "Universal/mercury waste is HHW-channel; don\u2019t assume the recycling center takes unbroken mercury lamps without asking."
+      },
+      {
+        "q": "LEDs?",
+        "a": "Ask staff \u2014 often different."
+      },
+      {
+        "q": "Limit?",
+        "a": "Household HHW quantity limits apply."
+      }
+    ],
+    "source_url": "https://www.sandiego.gov/environmental-services/ep/hazardous",
+    "source_name": "City of San Diego \u2014 Household Hazardous Waste",
+    "last_verified_at": "2026-08-10",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "medical-sharps",
+    "state": "CA",
+    "city_slug": "san-diego",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Sharps mail-back / pharmacy / County guidance",
+    "common_disposal_fee": "Program-dependent",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "Sharps must not go loose in San Diego trash or recycling. Use an approved sharps container and pharmacy/mail-back or County-approved drop-off. Confirm whether your HHW appointment can include household sharps before you haul.",
+    "steps": [
+      "Contain sharps properly.",
+      "Use a sharps program (pharmacy/mail-back).",
+      "Never recycle sharps containers."
+    ],
+    "faqs": [
+      {
+        "q": "HHW accepts sharps?",
+        "a": "Ask when booking \u2014 rules are specific and change."
+      },
+      {
+        "q": "Needles in plastic bottles?",
+        "a": "Prefer FDA-cleared containers."
+      },
+      {
+        "q": "Medications?",
+        "a": "Use drug take-back separately."
+      }
+    ],
+    "source_url": "https://www.sandiego.gov/environmental-services/ep/hazardous",
+    "source_name": "City of San Diego \u2014 Household Hazardous Waste",
+    "last_verified_at": "2026-08-10",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "tires",
+    "state": "CA",
+    "city_slug": "san-diego",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Miramar Recycling Center",
+    "common_disposal_fee": "$7 each at Miramar Recycling Center (\u226418\", no rims)",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "Medium",
+    "answer": "Whole tires are not landfilled in San Diego. Miramar Recycling Center lists tires 18\" and under (no rims) at $7 each. Retailers often take tires when you buy new ones.",
+    "steps": [
+      "Take qualifying tires to Miramar Recycling Center or a tire shop.",
+      "Remove rims if required.",
+      "Do not put whole tires in refuse loads destined for landfill burial."
+    ],
+    "faqs": [
+      {
+        "q": "Landfill ban?",
+        "a": "State/City rules restrict landfilling whole tires unless volume-reduced."
+      },
+      {
+        "q": "Fee?",
+        "a": "$7 each as published for \u226418\" no-rim tires \u2014 call to confirm."
+      },
+      {
+        "q": "With rims?",
+        "a": "Ask the Recycling Center; scrap metal rules may differ."
+      }
+    ],
+    "source_url": "https://www.sandiego.gov/environmental-services/recycling/centers/miramarrecycle",
+    "source_name": "City of San Diego \u2014 Miramar Recycling Center",
+    "last_verified_at": "2026-08-10",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "air-conditioner",
+    "state": "CA",
+    "city_slug": "san-diego",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Miramar Recycling Center",
+    "common_disposal_fee": "$25 at Miramar Recycling Center (CFC appliances)",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "Air conditioners that contain CFCs are listed with refrigerators/freezers at $25 each at San Diego\u2019s Miramar Recycling Center. Do not put them in carts.",
+    "steps": [
+      "Transport to 5165 Convoy St.",
+      "Pay the posted CFC appliance fee.",
+      "Do not vent refrigerant yourself."
+    ],
+    "faqs": [
+      {
+        "q": "Same as fridge fee?",
+        "a": "Yes \u2014 grouped at $25 in the City fee table."
+      },
+      {
+        "q": "HHW?",
+        "a": "Appliances are not an HHW Transfer Facility item."
+      },
+      {
+        "q": "Hauler pickup?",
+        "a": "Ask your franchise hauler for optional appliance collection."
+      }
+    ],
+    "source_url": "https://www.sandiego.gov/environmental-services/recycling/centers/miramarrecycle",
+    "source_name": "City of San Diego \u2014 Miramar Recycling Center",
+    "last_verified_at": "2026-08-10",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "yard-waste",
+    "state": "CA",
+    "city_slug": "san-diego",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Franchise hauler organics/green cart",
+    "common_disposal_fee": "Free (organics cart where provided)",
+    "badge": "ACCEPTED_IN_BLUE_BIN",
+    "hazard_rating": "Low",
+    "answer": "San Diego residents should use their organics/yard-waste cart under the City\u2019s organic waste recycling program (SB 1383). Yard waste is not blue-bin recycling. See the City\u2019s What Goes Where guides and your hauler for set-out rules.",
+    "steps": [
+      "Use the organics cart for yard trimmings as directed.",
+      "Follow City container/signage guidelines.",
+      "For oversized loads, use Miramar greenery options or hauler extras."
+    ],
+    "faqs": [
+      {
+        "q": "What Goes Where?",
+        "a": "City publishes multilingual guides under Environmental Services recycling."
+      },
+      {
+        "q": "Food scraps too?",
+        "a": "Organics program covers food and yard waste where rolled out."
+      },
+      {
+        "q": "Private hauler?",
+        "a": "Still must follow City recycling/organics ordinances."
+      }
+    ],
+    "source_url": "https://www.sandiego.gov/environmental-services/recycling",
+    "source_name": "City of San Diego \u2014 Recycling Programs",
+    "last_verified_at": "2026-08-10",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "food-scraps",
+    "state": "CA",
+    "city_slug": "san-diego",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Franchise hauler organics cart",
+    "common_disposal_fee": "Free (organics cart where provided)",
+    "badge": "ACCEPTED_IN_BLUE_BIN",
+    "hazard_rating": "Low",
+    "answer": "Food scraps go in San Diego organics carts under the City organics program \u2014 not the recycling cart. Use the City\u2019s Organic Waste Recycling Guide for steps and signage.",
+    "steps": [
+      "Collect food scraps for the organics cart.",
+      "Follow hauler contamination rules.",
+      "Use City guides if your building lacks service \u2014 you can report missing organics service."
+    ],
+    "faqs": [
+      {
+        "q": "Report no organics service?",
+        "a": "City has a complaint form for properties missing recycling/organics."
+      },
+      {
+        "q": "Plastic bags?",
+        "a": "Generally no."
+      },
+      {
+        "q": "Business food waste?",
+        "a": "AB 1826 commercial rules differ \u2014 ESD can help at 858-694-7000."
+      }
+    ],
+    "source_url": "https://www.sandiego.gov/environmental-services/recycling",
+    "source_name": "City of San Diego \u2014 Recycling Programs",
+    "last_verified_at": "2026-08-10",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "plastic-bags",
+    "state": "CA",
+    "city_slug": "san-diego",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Store plastic-film drop-off",
+    "common_disposal_fee": "Free (store drop-off)",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "Plastic bags are not curbside recycling in San Diego\u2019s blue cart. Return clean bags to grocery store film drop-off.",
+    "steps": [
+      "Keep bags clean/dry.",
+      "Use store drop-off.",
+      "Prefer reusables."
+    ],
+    "faqs": [
+      {
+        "q": "City What Goes Where?",
+        "a": "Follow the guide \u2014 film plastic is typically store take-back."
+      },
+      {
+        "q": "Organics bags?",
+        "a": "Only certified compostable bags if your hauler allows them."
+      },
+      {
+        "q": "Cling wrap?",
+        "a": "Usually with store film recycling when clean."
+      }
+    ],
+    "source_url": "https://www.sandiego.gov/environmental-services/recycling",
+    "source_name": "City of San Diego \u2014 Recycling Programs",
+    "last_verified_at": "2026-08-10",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "cooking-oil",
+    "state": "CA",
+    "city_slug": "san-diego",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Miramar Recycling Center",
+    "common_disposal_fee": "Free at Miramar Recycling Center (max 30 quarts residential used cooking oil)",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Medium",
+    "answer": "San Diego\u2019s Miramar Recycling Center accepts used residential cooking oil (maximum 30 quarts) at no charge. Do not pour oil down drains. HHW is for hazardous products \u2014 cooking oil has this recycling-center pathway.",
+    "steps": [
+      "Cool and contain oil (max 30 quarts).",
+      "Take to Miramar Recycling Center.",
+      "Never dump into storm drains."
+    ],
+    "faqs": [
+      {
+        "q": "Is it free?",
+        "a": "Listed under donation/no-fee items for used residential cooking oil (max 30 quarts)."
+      },
+      {
+        "q": "Larger volumes?",
+        "a": "Commercial grease recyclers."
+      },
+      {
+        "q": "HHW instead?",
+        "a": "Cooking oil is directed to the Recycling Center list \u2014 confirm if your oil is contaminated with chemicals."
+      }
+    ],
+    "source_url": "https://www.sandiego.gov/environmental-services/recycling/centers/miramarrecycle",
+    "source_name": "City of San Diego \u2014 Miramar Recycling Center",
+    "last_verified_at": "2026-08-10",
+    "reviewed_by": "editorial",
+    "needs_review": false
+  },
+  {
+    "item_slug": "construction-debris",
+    "state": "CA",
+    "city_slug": "san-diego",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "C&D facility or Miramar Landfill (permitted loads)",
+    "common_disposal_fee": "C&D ordinance deposits / Miramar refuse fees",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "San Diego remodel debris is regulated by the Construction & Demolition Recycling Ordinance \u2014 not residential carts. Use a permitted C&D facility or the Miramar complex with covered loads; separate HHW first.",
+    "steps": [
+      "Check whether your permit triggers C&D diversion requirements.",
+      "Haul to a certified C&D recycler or Miramar as directed.",
+      "Cover loads (uncovered-load fees apply)."
+    ],
+    "faqs": [
+      {
+        "q": "Cart overload?",
+        "a": "Don\u2019t use black carts for remodel debris."
+      },
+      {
+        "q": "HHW in debris?",
+        "a": "Remove paint/chemicals for HHW appointments."
+      },
+      {
+        "q": "Fee schedule?",
+        "a": "See City Miramar refuse fee publications."
+      }
+    ],
+    "source_url": "https://www.sandiego.gov/environmental-services/recycling",
+    "source_name": "City of San Diego \u2014 Recycling Programs",
+    "last_verified_at": "2026-08-10",
     "reviewed_by": "editorial",
     "needs_review": false
   }

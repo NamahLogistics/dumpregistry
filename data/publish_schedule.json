@@ -60,7 +60,7 @@
     "region": "Nationwide expansion"
   },
   "note": "Only submit sitemaps that contain verified/indexable URLs. Empty reserved names are not generated until needed.",
-  "current_url_count": 350,
+  "current_url_count": 90,
   "files_written": [
     "sitemap-001.xml"
   ]

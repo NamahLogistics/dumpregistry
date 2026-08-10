@@ -44,10 +44,10 @@ def main() -> None:
         for item in items:
             state_rule = state_rules.get(item["slug"])
             city_rule = city_rules.get((city["city_slug"], item["slug"]))
-            rule = city_rule or state_rule
-            source_level = "city" if city_rule else "state" if state_rule else "default"
-
-            if rule:
+            # Index ONLY city-sourced rules. State/default can power the wizard but must not rank as local pages.
+            if city_rule:
+                rule = city_rule
+                source_level = "city"
                 badge = rule["badge"]
                 hazard = rule["hazard_rating"]
                 curbside = bool(rule["is_curbside_allowed"])
@@ -61,6 +61,25 @@ def main() -> None:
                 last_verified = rule.get("last_verified_at")
                 needs_review = bool(rule.get("needs_review"))
                 indexable = True
+            elif state_rule:
+                rule = state_rule
+                source_level = "state"
+                badge = rule["badge"]
+                hazard = rule["hazard_rating"]
+                curbside = bool(rule["is_curbside_allowed"])
+                fee = rule["common_disposal_fee"]
+                facility = rule["nearest_facility_type"]
+                answer = (
+                    f"{rule['answer']} Note: this is statewide guidance only — we do not yet have a "
+                    f"verified {city['city']}-specific program source for this item."
+                )
+                steps = rule.get("steps") or []
+                faqs = rule.get("faqs") or []
+                source_url = rule.get("source_url")
+                source_name = rule.get("source_name")
+                last_verified = rule.get("last_verified_at")
+                needs_review = True
+                indexable = False
             else:
                 badge = item["badge_default"]
                 hazard = item["hazard_default"]
@@ -129,9 +148,11 @@ def main() -> None:
                 }
             )
 
-    # Selective ZIP hub pages (not every item) — facility-oriented indexable ZIP hubs
+    # ZIP hubs only indexable when the city has real facility rows (not empty placeholders)
+    cities_with_facilities = {c for c, rows in fac_by_city.items() if rows}
     zip_hubs = []
     for z in zips:
+        has_facilities = z["city_slug"] in cities_with_facilities
         zip_hubs.append(
             {
                 "state_slug": z["state_slug"],
@@ -142,8 +163,8 @@ def main() -> None:
                 "lat": z.get("lat"),
                 "lng": z.get("lng"),
                 "population": z.get("population", 0),
-                "indexable": True,
-                "facilities": fac_by_city.get(z["city_slug"], [])[:3],
+                "indexable": has_facilities,
+                "facilities": fac_by_city.get(z["city_slug"], [])[:5],
             }
         )
 

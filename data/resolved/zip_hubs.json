@@ -11,15 +11,30 @@
     "indexable": true,
     "facilities": [
       {
-        "name": "LA Sanitation HHW Program",
-        "facility_type": "HHW facility",
+        "name": "LASAN S.A.F.E. Centers (HHW & e-waste)",
+        "facility_type": "HHW / e-waste drop-off",
         "city_slug": "los-angeles",
         "state": "CA",
-        "zip": "90058",
-        "address": "See LASAN HHW schedule",
-        "lat": 34.02,
-        "lng": -118.235,
-        "source_url": "https://www.lacitysan.org/"
+        "zip": "90012",
+        "address": "Multiple permanent weekend S.A.F.E. Center locations citywide \u2014 see LASAN S.A.F.E. Centers page; bring a valid address",
+        "lat": 34.0522,
+        "lng": -118.2437,
+        "source_url": "https://lacity.gov/residents/trash-recycling",
+        "hours": "Open weekends (confirm location hours before visiting)",
+        "phone": "1-800-773-2489"
+      },
+      {
+        "name": "LASAN Bulky Item Collection (curbside)",
+        "facility_type": "Municipal bulky pickup",
+        "city_slug": "los-angeles",
+        "state": "CA",
+        "zip": null,
+        "address": "Curbside at your LA residence on your trash day after scheduling via MyLA311",
+        "lat": 34.0522,
+        "lng": -118.2437,
+        "source_url": "https://sanitation.lacity.gov/san/faces/home/portal/s-lsh-wwd/s-lsh-wwd-s/s-lsh-wwd-s-c/s-lsh-wwd-s-c-bic",
+        "hours": "By appointment \u22651 business day before trash day",
+        "phone": "1-800-773-2489"
       }
     ]
   },
@@ -35,15 +50,30 @@
     "indexable": true,
     "facilities": [
       {
-        "name": "LA Sanitation HHW Program",
-        "facility_type": "HHW facility",
+        "name": "LASAN S.A.F.E. Centers (HHW & e-waste)",
+        "facility_type": "HHW / e-waste drop-off",
         "city_slug": "los-angeles",
         "state": "CA",
-        "zip": "90058",
-        "address": "See LASAN HHW schedule",
-        "lat": 34.02,
-        "lng": -118.235,
-        "source_url": "https://www.lacitysan.org/"
+        "zip": "90012",
+        "address": "Multiple permanent weekend S.A.F.E. Center locations citywide \u2014 see LASAN S.A.F.E. Centers page; bring a valid address",
+        "lat": 34.0522,
+        "lng": -118.2437,
+        "source_url": "https://lacity.gov/residents/trash-recycling",
+        "hours": "Open weekends (confirm location hours before visiting)",
+        "phone": "1-800-773-2489"
+      },
+      {
+        "name": "LASAN Bulky Item Collection (curbside)",
+        "facility_type": "Municipal bulky pickup",
+        "city_slug": "los-angeles",
+        "state": "CA",
+        "zip": null,
+        "address": "Curbside at your LA residence on your trash day after scheduling via MyLA311",
+        "lat": 34.0522,
+        "lng": -118.2437,
+        "source_url": "https://sanitation.lacity.gov/san/faces/home/portal/s-lsh-wwd/s-lsh-wwd-s/s-lsh-wwd-s-c/s-lsh-wwd-s-c-bic",
+        "hours": "By appointment \u22651 business day before trash day",
+        "phone": "1-800-773-2489"
       }
     ]
   },
@@ -59,15 +89,30 @@
     "indexable": true,
     "facilities": [
       {
-        "name": "LA Sanitation HHW Program",
-        "facility_type": "HHW facility",
+        "name": "LASAN S.A.F.E. Centers (HHW & e-waste)",
+        "facility_type": "HHW / e-waste drop-off",
         "city_slug": "los-angeles",
         "state": "CA",
-        "zip": "90058",
-        "address": "See LASAN HHW schedule",
-        "lat": 34.02,
-        "lng": -118.235,
-        "source_url": "https://www.lacitysan.org/"
+        "zip": "90012",
+        "address": "Multiple permanent weekend S.A.F.E. Center locations citywide \u2014 see LASAN S.A.F.E. Centers page; bring a valid address",
+        "lat": 34.0522,
+        "lng": -118.2437,
+        "source_url": "https://lacity.gov/residents/trash-recycling",
+        "hours": "Open weekends (confirm location hours before visiting)",
+        "phone": "1-800-773-2489"
+      },
+      {
+        "name": "LASAN Bulky Item Collection (curbside)",
+        "facility_type": "Municipal bulky pickup",
+        "city_slug": "los-angeles",
+        "state": "CA",
+        "zip": null,
+        "address": "Curbside at your LA residence on your trash day after scheduling via MyLA311",
+        "lat": 34.0522,
+        "lng": -118.2437,
+        "source_url": "https://sanitation.lacity.gov/san/faces/home/portal/s-lsh-wwd/s-lsh-wwd-s/s-lsh-wwd-s-c/s-lsh-wwd-s-c-bic",
+        "hours": "By appointment \u22651 business day before trash day",
+        "phone": "1-800-773-2489"
       }
     ]
   },
@@ -83,15 +128,30 @@
     "indexable": true,
     "facilities": [
       {
-        "name": "City of San Diego Miramar public facilities",
-        "facility_type": "Municipal transfer",
+        "name": "City of San Diego Miramar Recycling Center",
+        "facility_type": "Recycling / e-waste / appliances",
         "city_slug": "san-diego",
         "state": "CA",
-        "zip": "92145",
-        "address": "Confirm gate hours before visiting",
+        "zip": "92111",
+        "address": "5165 Convoy St, San Diego, CA 92111",
         "lat": 32.872,
-        "lng": -117.148,
-        "source_url": "https://www.sandiego.gov/environmental-services"
+        "lng": -117.155,
+        "source_url": "https://www.sandiego.gov/environmental-services/recycling/centers/miramarrecycle",
+        "hours": "Mon\u2013Sat 7:00\u201316:30",
+        "phone": "858-268-8971"
+      },
+      {
+        "name": "City of San Diego HHW Transfer Facility",
+        "facility_type": "HHW facility",
+        "city_slug": "san-diego",
+        "state": "CA",
+        "zip": "92111",
+        "address": "Miramar Landfill entrance, 5161 Convoy St, San Diego, CA 92111 (appointment only)",
+        "lat": 32.872,
+        "lng": -117.156,
+        "source_url": "https://www.sandiego.gov/environmental-services/ep/hazardous",
+        "hours": "By appointment; City residents with proof of residency",
+        "phone": "858-694-7000"
       }
     ]
   },
@@ -107,15 +167,30 @@
     "indexable": true,
     "facilities": [
       {
-        "name": "City of San Diego Miramar public facilities",
-        "facility_type": "Municipal transfer",
+        "name": "City of San Diego Miramar Recycling Center",
+        "facility_type": "Recycling / e-waste / appliances",
         "city_slug": "san-diego",
         "state": "CA",
-        "zip": "92145",
-        "address": "Confirm gate hours before visiting",
+        "zip": "92111",
+        "address": "5165 Convoy St, San Diego, CA 92111",
         "lat": 32.872,
-        "lng": -117.148,
-        "source_url": "https://www.sandiego.gov/environmental-services"
+        "lng": -117.155,
+        "source_url": "https://www.sandiego.gov/environmental-services/recycling/centers/miramarrecycle",
+        "hours": "Mon\u2013Sat 7:00\u201316:30",
+        "phone": "858-268-8971"
+      },
+      {
+        "name": "City of San Diego HHW Transfer Facility",
+        "facility_type": "HHW facility",
+        "city_slug": "san-diego",
+        "state": "CA",
+        "zip": "92111",
+        "address": "Miramar Landfill entrance, 5161 Convoy St, San Diego, CA 92111 (appointment only)",
+        "lat": 32.872,
+        "lng": -117.156,
+        "source_url": "https://www.sandiego.gov/environmental-services/ep/hazardous",
+        "hours": "By appointment; City residents with proof of residency",
+        "phone": "858-694-7000"
       }
     ]
   },
@@ -128,20 +203,8 @@
     "lat": 37.346,
     "lng": -121.887,
     "population": 45000,
-    "indexable": true,
-    "facilities": [
-      {
-        "name": "Santa Clara County HHW Program",
-        "facility_type": "HHW facility",
-        "city_slug": "san-jose",
-        "state": "CA",
-        "zip": "95112",
-        "address": "County HHW appointment sites",
-        "lat": 37.348,
-        "lng": -121.89,
-        "source_url": "https://www.sccgov.org/"
-      }
-    ]
+    "indexable": false,
+    "facilities": []
   },
   {
     "state_slug": "california",
@@ -152,20 +215,8 @@
     "lat": 37.296,
     "lng": -121.892,
     "population": 32000,
-    "indexable": true,
-    "facilities": [
-      {
-        "name": "Santa Clara County HHW Program",
-        "facility_type": "HHW facility",
-        "city_slug": "san-jose",
-        "state": "CA",
-        "zip": "95112",
-        "address": "County HHW appointment sites",
-        "lat": 37.348,
-        "lng": -121.89,
-        "source_url": "https://www.sccgov.org/"
-      }
-    ]
+    "indexable": false,
+    "facilities": []
   },
   {
     "state_slug": "california",
@@ -179,15 +230,43 @@
     "indexable": true,
     "facilities": [
       {
-        "name": "SF Environment facility guidance",
-        "facility_type": "Municipal transfer",
+        "name": "Recology SF Transfer Station",
+        "facility_type": "Municipal transfer / e-waste",
         "city_slug": "san-francisco",
         "state": "CA",
-        "zip": "94124",
-        "address": "See SF Environment facility list",
-        "lat": 37.727,
-        "lng": -122.384,
-        "source_url": "https://www.sfenvironment.org/"
+        "zip": "94134",
+        "address": "501 Tunnel Avenue, San Francisco, CA 94134",
+        "lat": 37.7125,
+        "lng": -122.4019,
+        "source_url": "https://www.recology.com/recology-san-francisco/sf-transfer-station/",
+        "hours": "Mon\u2013Fri 7:00\u20134:30; Sat\u2013Sun 7:30\u20134:00 (confirm holidays)",
+        "phone": "415-330-1400"
+      },
+      {
+        "name": "Recology SF Household Hazardous Waste Facility",
+        "facility_type": "HHW facility",
+        "city_slug": "san-francisco",
+        "state": "CA",
+        "zip": "94134",
+        "address": "501 Tunnel Avenue, San Francisco, CA 94134 (HHW entrance)",
+        "lat": 37.7125,
+        "lng": -122.4019,
+        "source_url": "https://www.recology.com/recology-san-francisco/sf-transfer-station/",
+        "hours": "Thu\u2013Sat 8:00\u201316:00; SF residents only; ~15 gal/trip",
+        "phone": "415-330-1405"
+      },
+      {
+        "name": "Recology San Francisco Bulky Item Collection",
+        "facility_type": "Municipal bulky pickup",
+        "city_slug": "san-francisco",
+        "state": "CA",
+        "zip": null,
+        "address": "Curbside by appointment for SF Recology customers",
+        "lat": 37.7749,
+        "lng": -122.4194,
+        "source_url": "https://www.recology.com/recology-san-francisco/bulky-items/",
+        "hours": "Next available business day when scheduled",
+        "phone": "415-330-1300"
       }
     ]
   },
@@ -203,15 +282,43 @@
     "indexable": true,
     "facilities": [
       {
-        "name": "SF Environment facility guidance",
-        "facility_type": "Municipal transfer",
+        "name": "Recology SF Transfer Station",
+        "facility_type": "Municipal transfer / e-waste",
         "city_slug": "san-francisco",
         "state": "CA",
-        "zip": "94124",
-        "address": "See SF Environment facility list",
-        "lat": 37.727,
-        "lng": -122.384,
-        "source_url": "https://www.sfenvironment.org/"
+        "zip": "94134",
+        "address": "501 Tunnel Avenue, San Francisco, CA 94134",
+        "lat": 37.7125,
+        "lng": -122.4019,
+        "source_url": "https://www.recology.com/recology-san-francisco/sf-transfer-station/",
+        "hours": "Mon\u2013Fri 7:00\u20134:30; Sat\u2013Sun 7:30\u20134:00 (confirm holidays)",
+        "phone": "415-330-1400"
+      },
+      {
+        "name": "Recology SF Household Hazardous Waste Facility",
+        "facility_type": "HHW facility",
+        "city_slug": "san-francisco",
+        "state": "CA",
+        "zip": "94134",
+        "address": "501 Tunnel Avenue, San Francisco, CA 94134 (HHW entrance)",
+        "lat": 37.7125,
+        "lng": -122.4019,
+        "source_url": "https://www.recology.com/recology-san-francisco/sf-transfer-station/",
+        "hours": "Thu\u2013Sat 8:00\u201316:00; SF residents only; ~15 gal/trip",
+        "phone": "415-330-1405"
+      },
+      {
+        "name": "Recology San Francisco Bulky Item Collection",
+        "facility_type": "Municipal bulky pickup",
+        "city_slug": "san-francisco",
+        "state": "CA",
+        "zip": null,
+        "address": "Curbside by appointment for SF Recology customers",
+        "lat": 37.7749,
+        "lng": -122.4194,
+        "source_url": "https://www.recology.com/recology-san-francisco/bulky-items/",
+        "hours": "Next available business day when scheduled",
+        "phone": "415-330-1300"
       }
     ]
   },
@@ -224,20 +331,8 @@
     "lat": 38.581,
     "lng": -121.494,
     "population": 15000,
-    "indexable": true,
-    "facilities": [
-      {
-        "name": "Sacramento County HHW",
-        "facility_type": "HHW facility",
-        "city_slug": "sacramento",
-        "state": "CA",
-        "zip": "95828",
-        "address": "Confirm hours before visiting",
-        "lat": 38.5,
-        "lng": -121.4,
-        "source_url": "https://www.cityofsacramento.gov/public-works/recycling-solid-waste"
-      }
-    ]
+    "indexable": false,
+    "facilities": []
   },
   {
     "state_slug": "california",
@@ -248,20 +343,8 @@
     "lat": 38.59,
     "lng": -121.406,
     "population": 30000,
-    "indexable": true,
-    "facilities": [
-      {
-        "name": "Sacramento County HHW",
-        "facility_type": "HHW facility",
-        "city_slug": "sacramento",
-        "state": "CA",
-        "zip": "95828",
-        "address": "Confirm hours before visiting",
-        "lat": 38.5,
-        "lng": -121.4,
-        "source_url": "https://www.cityofsacramento.gov/public-works/recycling-solid-waste"
-      }
-    ]
+    "indexable": false,
+    "facilities": []
   },
   {
     "state_slug": "california",
@@ -272,20 +355,8 @@
     "lat": 37.804,
     "lng": -122.285,
     "population": 25000,
-    "indexable": true,
-    "facilities": [
-      {
-        "name": "Alameda County HHW",
-        "facility_type": "HHW facility",
-        "city_slug": "oakland",
-        "state": "CA",
-        "zip": "94607",
-        "address": "County HHW drop-off \u2014 confirm site",
-        "lat": 37.804,
-        "lng": -122.28,
-        "source_url": "https://www.oaklandca.gov/topics/recycling-and-waste"
-      }
-    ]
+    "indexable": false,
+    "facilities": []
   },
   {
     "state_slug": "california",
@@ -296,20 +367,8 @@
     "lat": 37.81,
     "lng": -122.268,
     "population": 18000,
-    "indexable": true,
-    "facilities": [
-      {
-        "name": "Alameda County HHW",
-        "facility_type": "HHW facility",
-        "city_slug": "oakland",
-        "state": "CA",
-        "zip": "94607",
-        "address": "County HHW drop-off \u2014 confirm site",
-        "lat": 37.804,
-        "lng": -122.28,
-        "source_url": "https://www.oaklandca.gov/topics/recycling-and-waste"
-      }
-    ]
+    "indexable": false,
+    "facilities": []
   },
   {
     "state_slug": "california",
@@ -320,7 +379,7 @@
     "lat": 36.737,
     "lng": -119.787,
     "population": 22000,
-    "indexable": true,
+    "indexable": false,
     "facilities": []
   },
   {
@@ -332,7 +391,7 @@
     "lat": 33.77,
     "lng": -118.192,
     "population": 28000,
-    "indexable": true,
+    "indexable": false,
     "facilities": []
   }
 ]

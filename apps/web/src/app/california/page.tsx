@@ -16,8 +16,9 @@ export default function CaliforniaHubPage() {
       <header className="prose">
         <h1>California</h1>
         <p>
-          City hubs and item guides with sourced statewide or city rules. {indexable} indexable guides are
-          published so far — utility pages stay available in the wizard without being pushed into search.
+          We only publish indexable guides when we have a <strong>city-specific</strong> program source — not
+          statewide copy pasted as local advice. {indexable} verified city guides are live (starting with Los
+          Angeles, San Francisco, and San Diego). Other cities remain wizard-only until researched.
         </p>
       </header>
       <div className="hub-grid">
