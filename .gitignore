@@ -12,3 +12,4 @@ apps/web/public/dumpregistry-indexnow-key-placeholder.txt
 .turbo
 pgdata
 .vercel
+__pycache__/
