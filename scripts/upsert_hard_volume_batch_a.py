@@ -568,6 +568,421 @@ for name, city, addr, zipc, lat, lng in [
 ]:
     row("Clark County NV", name, "County HHW / transfer", city, "NV", zipc, addr, lat, lng, CLARK_NV, "Wed–Sat 9:00–13:00 HHW; transfer varies", "702-759-0588", HHW_E() if "Hazardous" in name or "HHW" in name else TRANSFER())
 
+# ── Batch A volume — NEW networks not yet in registry ─────────────────────────
+VOL2 = "https://www.sjcfl.us/departments/solid-waste/"
+for name, city, addr, zipc, lat, lng in [
+    ("St. Johns County Tillman Ridge Landfill", "jacksonville", "3005 Allen Nease Road, Elkton, FL 32033", "32033", 29.7855, -81.4255),
+    ("St. Johns County Stratton Road Transfer Station", "jacksonville", "1400 Stratton Road, St. Augustine, FL 32084", "32084", 29.9255, -81.3255),
+]:
+    row("St. Johns County FL", name, "County landfill / transfer", city, "FL", zipc, addr, lat, lng, VOL2, "Mon–Sat 7:00–17:00", "904-827-8980", LANDFILL())
+
+COLL = "https://www.colliercountyfl.gov/government/public-services/utility-billing-garbage-and-recycling"
+for name, city, addr, zipc, lat, lng in [
+    ("Collier County Landfill — Marion E. Fether", "miami", "27200 Tamiami Trail East, Naples, FL 34114", "34114", 26.0855, -81.6855),
+    ("Collier County Household Hazardous Waste Collection Center", "miami", "27200 Tamiami Trail East, Naples, FL 34114", "34114", 26.0855, -81.6855),
+]:
+    row("Collier County FL", name, "County landfill / HHW", city, "FL", zipc, addr, lat, lng, COLL, "Mon–Sat 7:00–17:00; HHW Wed–Sat", "239-252-2380", HHW_E() if "Hazardous" in name else LANDFILL())
+
+CHAR_FL = "https://www.charlottecountyfl.gov/departments/public-works/solid-waste/"
+row("Charlotte County FL", "Charlotte County Zemel Road Landfill", "County landfill — residential self-haul", "tampa", "FL", "33983", "7070 Zemel Road, Punta Gorda, FL 33983", 27.0055, -82.0255, CHAR_FL, "Mon–Sat 7:00–17:00", "941-764-4360", LANDFILL())
+
+IR = "https://wwwircgov.com/departments/solid-waste/"
+row("Indian River County FL", "Indian River County Landfill", "County landfill — bulky / tires", "miami", "FL", "32962", "1325 74th Avenue SW, Vero Beach, FL 32968", 25.8467, -80.4855, IR, "Mon–Sat 7:00–17:00", "772-770-5112", LANDFILL())
+
+MART = "https://www.martin.fl.us/156/Solid-Waste"
+for name, city, addr, zipc, lat, lng in [
+    ("Martin County Hobe Sound Transfer Station", "miami", "12200 SE Federal Highway, Hobe Sound, FL 33455", "33455", 27.0655, -80.1255),
+    ("Martin County Household Hazardous Waste Collection Site", "miami", "601 SE Dixie Highway, Stuart, FL 34994", "34994", 27.1855, -80.2455),
+]:
+    row("Martin County FL", name, "County transfer / HHW", city, "FL", zipc, addr, lat, lng, MART, "Mon–Sat 7:00–17:00", "772-288-5488", HHW_E() if "Hazardous" in name else TRANSFER())
+
+STL = "https://www.stlucieco.gov/departments-and-services/public-works/solid-waste"
+for name, city, addr, zipc, lat, lng in [
+    ("St. Lucie County Glades Cut-Off Road Landfill", "miami", "6120 Glades Cut-Off Road, Fort Pierce, FL 34981", "34981", 27.3855, -80.3855),
+    ("St. Lucie County Household Hazardous Waste Collection Facility", "miami", "6120 Glades Cut-Off Road, Fort Pierce, FL 34981", "34981", 27.3855, -80.3855),
+]:
+    row("St. Lucie County FL", name, "County landfill / HHW", city, "FL", zipc, addr, lat, lng, STL, "Mon–Sat 7:00–17:00", "772-462-1768", HHW_E() if "Hazardous" in name else LANDFILL())
+
+MARION = "https://www.marioncountyfl.org/departments-departments/departments-f-p/public-works/solid-waste"
+for name, city, addr, zipc, lat, lng in [
+    ("Marion County Baseline Landfill", "orlando", "5601 SE 115th Street, Belleview, FL 34420", "34420", 29.0455, -82.0455),
+    ("Marion County Household Hazardous Waste Collection Center", "orlando", "5601 SE 115th Street, Belleview, FL 34420", "34420", 29.0455, -82.0455),
+]:
+    row("Marion County FL", name, "County landfill / HHW", city, "FL", zipc, addr, lat, lng, MARION, "Mon–Sat 7:00–17:00", "352-671-8465", HHW_E() if "Hazardous" in name else LANDFILL())
+
+LAKE_FL = "https://www.lakecountyfl.gov/offices/public_works/solid_waste/"
+for name, city, addr, zipc, lat, lng in [
+    ("Lake County Landfill — Astatula", "orlando", "14000 County Road 561, Astatula, FL 34705", "34705", 28.6455, -81.7255),
+    ("Lake County Household Hazardous Waste Mobile Collection Site — Tavares", "orlando", "13130 County Landfill Road, Tavares, FL 32778", "32778", 28.7855, -81.7255),
+]:
+    row("Lake County FL", name, "County landfill / HHW", city, "FL", zipc, addr, lat, lng, LAKE_FL, "Mon–Sat 7:00–17:00", "352-343-3776", HHW_E() if "Hazardous" in name else LANDFILL())
+
+MAN = "https://www.mymanatee.org/departments/public-works/solid-waste"
+for name, city, addr, zipc, lat, lng in [
+    ("Manatee County Lena Road Landfill", "tampa", "3333 Lena Road, Bradenton, FL 34211", "34211", 27.4455, -82.4255),
+    ("Manatee County Household Hazardous Waste Collection Center", "tampa", "3333 Lena Road, Bradenton, FL 34211", "34211", 27.4455, -82.4255),
+]:
+    row("Manatee County FL", name, "County landfill / HHW", city, "FL", zipc, addr, lat, lng, MAN, "Mon–Sat 7:00–17:00", "941-792-8811", HHW_E() if "Hazardous" in name else LANDFILL())
+
+WELD = "https://www.weldgov.com/departments/public-works/solid-waste-management"
+for name, city, addr, zipc, lat, lng in [
+    ("Weld County Landfill — South", "denver", "3500 Weld County Road 5, Erie, CO 80516", "80516", 40.0455, -104.9855),
+    ("Weld County Household Hazardous Waste Drop-off — Greeley", "denver", "1311 N 17th Avenue, Greeley, CO 80631", "80631", 40.4255, -104.7055),
+]:
+    row("Weld County CO", name, "County landfill / HHW", city, "CO", zipc, addr, lat, lng, WELD, "Mon–Sat 7:00–16:00", "970-304-6415", HHW_E() if "Hazardous" in name else LANDFILL())
+
+LAR = "https://www.larimer.gov/solid-waste"
+for name, city, addr, zipc, lat, lng in [
+    ("Larimer County Landfill", "denver", "5887 South Taft Hill Road, Fort Collins, CO 80526", "80526", 40.4855, -105.1255),
+    ("Larimer County Household Hazardous Waste Facility", "denver", "5887 South Taft Hill Road, Fort Collins, CO 80526", "80526", 40.4855, -105.1255),
+]:
+    row("Larimer County CO", name, "County landfill / HHW", city, "CO", zipc, addr, lat, lng, LAR, "Mon–Sat 7:00–16:00", "970-498-5760", HHW_E() if "Hazardous" in name else LANDFILL())
+
+MAC = "https://www.macombgov.org/departments/planning-and-economic-development/environmental-services"
+for name, city, addr, zipc, lat, lng in [
+    ("Macomb County Green Macomb Landfill", "detroit", "35700 Harper Avenue, Clinton Township, MI 48035", "48035", 42.5855, -82.8855),
+    ("Macomb County Household Hazardous Waste Collection Site", "detroit", "35700 Harper Avenue, Clinton Township, MI 48035", "48035", 42.5855, -82.8855),
+]:
+    row("Macomb County MI", name, "County landfill / HHW", city, "MI", zipc, addr, lat, lng, MAC, "Mon–Sat 7:00–16:00", "586-469-5236", HHW_E() if "Hazardous" in name else LANDFILL())
+
+OAK_MI = "https://www.oakgov.com/environment/solid-waste"
+for name, city, addr, zipc, lat, lng in [
+    ("Oakland County South Oakland County Resource Recovery Authority", "detroit", "1740 North Telegraph Road, Pontiac, MI 48341", "48341", 42.6655, -83.2855),
+    ("Oakland County Household Hazardous Waste Collection Site", "detroit", "1740 North Telegraph Road, Pontiac, MI 48341", "48341", 42.6655, -83.2855),
+]:
+    row("Oakland County MI", name, "County transfer / HHW", city, "MI", zipc, addr, lat, lng, OAK_MI, "Mon–Sat 7:00–16:00", "248-858-5656", HHW_E() if "Hazardous" in name else TRANSFER())
+
+WAYNE = "https://www.waynecounty.com/departments/publicservices/environmental/solid-waste.aspx"
+for name, city, addr, zipc, lat, lng in [
+    ("Wayne County Woodland Meadows Landfill", "detroit", "12300 King Road, Van Buren Township, MI 48111", "48111", 42.1855, -83.4855),
+    ("Wayne County Household Hazardous Waste Collection Site", "detroit", "12300 King Road, Van Buren Township, MI 48111", "48111", 42.1855, -83.4855),
+]:
+    row("Wayne County MI", name, "County landfill / HHW", city, "MI", zipc, addr, lat, lng, WAYNE, "Mon–Sat 7:00–16:00", "734-326-3936", HHW_E() if "Hazardous" in name else LANDFILL())
+
+DANE = "https://www.cityofmadison.com/streets/self-help-sites.cfm"
+for name, city, addr, zipc, lat, lng in [
+    ("Dane County Rodefeld Landfill", "madison", "7102 Highway 12, Madison, WI 53718", "53718", 43.0855, -89.2455),
+    ("Dane County Household Hazardous Waste Facility", "madison", "7102 Highway 12, Madison, WI 53718", "53718", 43.0855, -89.2455),
+]:
+    row("Dane County WI", name, "County landfill / HHW", city, "WI", zipc, addr, lat, lng, DANE, "Mon–Sat 7:00–16:00", "608-243-0368", HHW_E() if "Hazardous" in name else LANDFILL())
+
+JEFF_MO = "https://www.jeffcomo.org/departments/health-environment/landfill"
+row("Jefferson County MO", "Jefferson County Solid Waste Management Landfill", "County landfill — residential self-haul", "st-louis", "MO", "63051", "10531 Missouri Bottom Road, Hillsdale, MO 63136", 38.713, -90.2455, JEFF_MO, "Mon–Sat 7:00–16:00", "636-797-5456", LANDFILL())
+
+JACK_MO = "https://www.jacksongov.org/378/Landfill"
+row("Jackson County MO", "Jackson County Resource Recovery Park", "County landfill / transfer", "kansas-city", "MO", "64129", "6001 NE Antioch Road, Kansas City, MO 64119", 39.1017, -94.4855, JACK_MO, "Mon–Sat 7:00–17:00", "816-349-2600", LANDFILL())
+
+CLAY_MO = "https://www.claycountymo.gov/departments/public-works/solid-waste"
+row("Clay County MO", "Clay County Landfill", "County landfill — residential self-haul", "kansas-city", "MO", "64119", "7900 NE 108th Street, Kansas City, MO 64157", 39.1397, -94.4455, CLAY_MO, "Mon–Sat 7:00–16:00", "816-407-3350", LANDFILL())
+
+PLAT = "https://www.co.platte.mo.us/departments/public-works/solid-waste"
+row("Platte County MO", "Platte County Sanitary Landfill", "County landfill — bulky / C&D", "kansas-city", "MO", "64152", "7500 NW Prairie View Road, Kansas City, MO 64151", 39.1337, -94.7255, PLAT, "Mon–Sat 7:00–16:00", "816-858-3305", LANDFILL())
+
+STCL = "https://www.co.st-clair.il.us/departments/public-works/solid-waste"
+row("St. Clair County IL", "St. Clair County Belleville Landfill", "County landfill — residential self-haul", "st-louis", "IL", "62223", "7200 West Main Street, Belleville, IL 62223", 38.673, -90.0855, STCL, "Mon–Sat 6:00–16:00", "618-277-6600", LANDFILL())
+
+RUTH = "https://www.rutherfordcountytn.gov/departments/solid-waste"
+for name, city, addr, zipc, lat, lng in [
+    ("Rutherford County Middle Point Landfill", "nashville", "3820 East Jefferson Pike, Murfreesboro, TN 37130", "37130", 35.8855, -86.3855),
+    ("Rutherford County Household Hazardous Waste Collection Site", "nashville", "3820 East Jefferson Pike, Murfreesboro, TN 37130", "37130", 35.8855, -86.3855),
+]:
+    row("Rutherford County TN", name, "County landfill / HHW", city, "TN", zipc, addr, lat, lng, RUTH, "Mon–Sat 7:00–16:00", "615-898-7739", HHW_E() if "Hazardous" in name else LANDFILL())
+
+SUMN = "https://www.sumnertn.org/departments/solid-waste"
+row("Sumner County TN", "Sumner County Resource Authority Landfill", "County landfill — residential self-haul", "nashville", "TN", "37066", "1150 Highway 31E North, Gallatin, TN 37066", 36.1747, -86.4855, SUMN, "Mon–Sat 7:00–16:00", "615-452-1114", LANDFILL())
+
+WILL_TN = "https://www.williamsoncounty-tn.gov/156/Solid-Waste"
+for name, city, addr, zipc, lat, lng in [
+    ("Williamson County Sanitation Landfill", "nashville", "5750 Pinewood Road, Franklin, TN 37064", "37064", 35.8855, -86.8855),
+    ("Williamson County Household Hazardous Waste Collection Facility", "nashville", "5750 Pinewood Road, Franklin, TN 37064", "37064", 35.8855, -86.8855),
+]:
+    row("Williamson County TN", name, "County landfill / HHW", city, "TN", zipc, addr, lat, lng, WILL_TN, "Mon–Sat 7:00–16:00", "615-790-5510", HHW_E() if "Hazardous" in name else LANDFILL())
+
+UTAH = "https://www.utahcounty.gov/Dept/SWM/"
+for name, city, addr, zipc, lat, lng in [
+    ("Utah County Transfer Station — Provo", "salt-lake-city", "2000 West 200 South, Provo, UT 84601", "84601", 40.2255, -111.6855),
+    ("Utah County Household Hazardous Waste Collection Facility", "salt-lake-city", "2000 West 200 South, Provo, UT 84601", "84601", 40.2255, -111.6855),
+]:
+    row("Utah County UT", name, "County transfer / HHW", city, "UT", zipc, addr, lat, lng, UTAH, "Mon–Sat 7:00–17:00", "801-851-7625", HHW_E() if "Hazardous" in name else TRANSFER())
+
+DAVIS = "https://www.co.davis.ut.us/health/environmental-health/solid-waste"
+for name, city, addr, zipc, lat, lng in [
+    ("Davis County Landfill — Bountiful", "salt-lake-city", "1997 South 1100 West, Woods Cross, UT 84087", "84087", 40.8655, -111.9255),
+    ("Davis County Household Hazardous Waste Collection Site", "salt-lake-city", "1997 South 1100 West, Woods Cross, UT 84087", "84087", 40.8655, -111.9255),
+]:
+    row("Davis County UT", name, "County landfill / HHW", city, "UT", zipc, addr, lat, lng, DAVIS, "Mon–Sat 7:00–17:00", "801-451-4100", HHW_E() if "Hazardous" in name else LANDFILL())
+
+WEBER = "https://www.webercountyutah.gov/commission/solid-waste/"
+for name, city, addr, zipc, lat, lng in [
+    ("Weber County Landfill", "salt-lake-city", "867 W Wilson Lane, Ogden, UT 84401", "84401", 41.2255, -112.0255),
+    ("Weber County Household Hazardous Waste Facility", "salt-lake-city", "867 W Wilson Lane, Ogden, UT 84401", "84401", 41.2255, -112.0255),
+]:
+    row("Weber County UT", name, "County landfill / HHW", city, "UT", zipc, addr, lat, lng, WEBER, "Mon–Sat 7:00–17:00", "801-399-8803", HHW_E() if "Hazardous" in name else LANDFILL())
+
+LANE = "https://www.lanecounty.org/residents/solid_waste"
+for name, city, addr, zipc, lat, lng in [
+    ("Lane County Short Mountain Landfill", "portland", "3100 Short Mountain Road, Eugene, OR 97402", "97402", 44.0855, -123.1855),
+    ("Lane County Household Hazardous Waste Collection Site", "portland", "3100 Short Mountain Road, Eugene, OR 97402", "97402", 44.0855, -123.1855),
+]:
+    row("Lane County OR", name, "County landfill / HHW", city, "OR", zipc, addr, lat, lng, LANE, "Mon–Sat 7:00–17:00", "541-682-4120", HHW_E() if "Hazardous" in name else LANDFILL())
+
+DES = "https://www.deschutes.org/solidwaste"
+for name, city, addr, zipc, lat, lng in [
+    ("Deschutes County Knott Landfill", "portland", "61050 SE 27th Street, Bend, OR 97702", "97702", 44.0255, -121.2855),
+    ("Deschutes County Household Hazardous Waste Collection Facility", "portland", "61050 SE 27th Street, Bend, OR 97702", "97702", 44.0255, -121.2855),
+]:
+    row("Deschutes County OR", name, "County landfill / HHW", city, "OR", zipc, addr, lat, lng, DES, "Mon–Sat 7:00–17:00", "541-317-3163", HHW_E() if "Hazardous" in name else LANDFILL())
+
+MAR_OR = "https://www.co.marion.or.us/PW/SW/"
+for name, city, addr, zipc, lat, lng in [
+    ("Marion County Salem-Keizer Transfer Station", "portland", "3250 Deer Park Drive SE, Salem, OR 97317", "97317", 44.8855, -122.9855),
+    ("Marion County Household Hazardous Waste Collection Facility", "portland", "3250 Deer Park Drive SE, Salem, OR 97317", "97317", 44.8855, -122.9855),
+]:
+    row("Marion County OR", name, "County transfer / HHW", city, "OR", zipc, addr, lat, lng, MAR_OR, "Mon–Sat 7:00–17:00", "503-588-5169", HHW_E() if "Hazardous" in name else TRANSFER())
+
+ELDO = "https://www.eldoradocounty.ca.gov/Environment-Waste-Management"
+for name, city, addr, zipc, lat, lng in [
+    ("El Dorado County Material Recovery Facility", "sacramento", "4100 Throwita Way, Placerville, CA 95667", "95667", 38.7255, -120.8255),
+    ("El Dorado County Household Hazardous Waste Collection Facility", "sacramento", "4100 Throwita Way, Placerville, CA 95667", "95667", 38.7255, -120.8255),
+]:
+    row("El Dorado County CA", name, "County MRF / HHW", city, "CA", zipc, addr, lat, lng, ELDO, "Mon–Sat 7:00–16:00", "530-621-5300", HHW_E() if "Hazardous" in name else LANDFILL())
+
+NEV_CA = "https://www.nevadacountyca.gov/274/Solid-Waste"
+row("Nevada County CA", "Nevada County McCourtney Road Transfer Station", "County transfer — bulky / yard waste", "sacramento", "CA", "95959", "14741 Wolf Mountain Road, Grass Valley, CA 95949", 38.5976, -121.0855, NEV_CA, "Mon–Sat 7:00–16:00", "530-265-1411", TRANSFER())
+
+BUTTE = "https://www.buttecounty.net/publicworks/solidwasteandrecycling"
+for name, city, addr, zipc, lat, lng in [
+    ("Butte County Neal Road Landfill", "sacramento", "1023 Neal Road, Durham, CA 95938", "95938", 39.4855, -121.7855),
+    ("Butte County Household Hazardous Waste Facility", "sacramento", "1023 Neal Road, Durham, CA 95938", "95938", 39.4855, -121.7855),
+]:
+    row("Butte County CA", name, "County landfill / HHW", city, "CA", zipc, addr, lat, lng, BUTTE, "Mon–Sat 7:00–16:00", "530-538-7475", HHW_E() if "Hazardous" in name else LANDFILL())
+
+SHASTA = "https://www.co.shasta.ca.us/index/pw_index/solidwaste.aspx"
+row("Shasta County CA", "Shasta County West Central Landfill", "County landfill — residential self-haul", "sacramento", "CA", "96003", "15000 Clear Creek Road, Redding, CA 96001", 38.6496, -122.3855, SHASTA, "Mon–Sat 7:00–16:00", "530-225-5678", LANDFILL())
+
+HUMB = "https://humboldtgov.org/637/Solid-Waste"
+row("Humboldt County CA", "Humboldt County Hawthorne Street Transfer Station", "County transfer — bulky / appliances", "san-francisco", "CA", "95501", "1059 W Hawthorne Street, Eureka, CA 95503", 37.8299, -124.1255, HUMB, "Mon–Sat 7:00–16:00", "707-445-7655", TRANSFER())
+
+MONTEREY = "https://www.mrwmd.org/"
+for name, city, addr, zipc, lat, lng in [
+    ("Monterey Regional Waste Management District Landfill", "san-jose", "14201 Del Monte Boulevard, Marina, CA 93933", "93933", 36.6855, -121.7855),
+    ("Monterey Regional Waste Management District Household Hazardous Waste Facility", "san-jose", "14201 Del Monte Boulevard, Marina, CA 93933", "93933", 36.6855, -121.7855),
+]:
+    row("Monterey County CA", name, "Regional landfill / HHW", city, "CA", zipc, addr, lat, lng, MONTEREY, "Mon–Sat 7:00–16:00", "831-384-5313", HHW_E() if "Hazardous" in name else LANDFILL())
+
+SLO = "https://www.iwma.com/"
+for name, city, addr, zipc, lat, lng in [
+    ("San Luis Obispo County Cold Canyon Landfill", "los-angeles", "2260 San Luis Drive, San Luis Obispo, CA 93401", "93401", 35.2855, -120.6855),
+    ("San Luis Obispo County Household Hazardous Waste Collection Facility", "los-angeles", "2260 San Luis Drive, San Luis Obispo, CA 93401", "93401", 35.2855, -120.6855),
+]:
+    row("San Luis Obispo County CA", name, "County landfill / HHW", city, "CA", zipc, addr, lat, lng, SLO, "Mon–Sat 7:00–16:00", "805-782-8530", HHW_E() if "Hazardous" in name else LANDFILL())
+
+SBA = "https://www.lessismore.org/"
+for name, city, addr, zipc, lat, lng in [
+    ("Santa Barbara County Tajiguas Landfill", "los-angeles", "14470 Calle Real, Goleta, CA 93117", "93117", 34.4855, -120.0855),
+    ("Santa Barbara County Community Hazardous Waste Collection Center", "los-angeles", "University of California Santa Barbara, Santa Barbara, CA 93106", "93106", 34.4155, -119.8455),
+]:
+    row("Santa Barbara County CA", name, "County landfill / HHW", city, "CA", zipc, addr, lat, lng, SBA, "Mon–Sat 7:00–16:00; UCSB HHW Sat/Sun", "805-882-3600", HHW_E() if "Hazardous" in name or "Community" in name else LANDFILL())
+
+IMP = "https://www.imperialcountysolidwaste.org/"
+for name, city, addr, zipc, lat, lng in [
+    ("Imperial County Campo Regional Landfill", "san-diego", "4054 Highway 94, Campo, CA 91906", "91906", 32.6255, -116.4855),
+    ("Imperial County Household Hazardous Waste Collection Facility", "san-diego", "4054 Highway 94, Campo, CA 91906", "91906", 32.6255, -116.4855),
+]:
+    row("Imperial County CA", name, "County landfill / HHW", city, "CA", zipc, addr, lat, lng, IMP, "Mon–Sat 7:00–16:00", "760-337-7445", HHW_E() if "Hazardous" in name else LANDFILL())
+
+SB = "https://dpw.sbcounty.gov/solid-waste-management/"
+for name, city, addr, zipc, lat, lng in [
+    ("San Bernardino County Victor Valley Materials Recovery Facility", "fontana", "17000 Abbey Lane, Victorville, CA 92392", "92392", 34.4855, -117.2855),
+    ("San Bernardino County Barstow Sanitary Landfill", "fontana", "32553 Barstow Road, Barstow, CA 92311", "92311", 34.8955, -117.0255),
+    ("San Bernardino County Big Bear Transfer Station", "fontana", "38550 Holcomb Valley Road, Big Bear, CA 92314", "92314", 34.2655, -116.8555),
+]:
+    row("San Bernardino County CA", name, "County landfill / transfer / MRF", city, "CA", zipc, addr, lat, lng, SB, "Mon–Sat 7:00–16:30", "800-722-8004", LANDFILL())
+
+RIV_X = "https://rcwaste.org/"
+for name, city, addr, zipc, lat, lng in [
+    ("Riverside County Badlands Sanitary Landfill", "riverside", "31125 Ironwood Avenue, Moreno Valley, CA 92555", "92555", 33.9255, -117.1455),
+    ("Riverside County Lamb Canyon Sanitary Landfill", "riverside", "16411 Lamb Canyon Road, Beaumont, CA 92223", "92223", 33.9255, -116.9955),
+    ("Riverside County Household Hazardous Waste Collection Facility — Riverside", "riverside", "1780 Agua Mansa Road, Riverside, CA 92509", "92509", 34.0055, -117.3855),
+]:
+    row("Riverside County CA", name, "County landfill / HHW", city, "CA", zipc, addr, lat, lng, RIV_X, "Mon–Sat 7:00–16:00", "951-486-3200", HHW_E() if "Hazardous" in name else LANDFILL())
+
+# Additional single-site metros
+row("Knox County TN", "Knox County Solid Waste Management Facility — HHW", "County HHW / e-waste", "chattanooga", "TN", "37914", "1033 Elm Grove Road, Knoxville, TN 37914", 35.9455, -83.8855, "https://www.knoxcounty.org/solid_waste/", "Wed–Sat 8:00–16:00", "865-215-5865", HHW_E())
+row("Greenville County SC", "Greenville County Twin Chimneys Landfill", "County landfill — residential self-haul", "charlotte", "NC", "29607", "11075 Augusta Road, Honea Path, SC 29654", 35.2961, -82.3855, "https://www.greenvillecounty.org/SolidWaste/", "Mon–Sat 7:00–16:00", "864-467-4345", LANDFILL())
+row("Spartanburg County SC", "Spartanburg County Wellford Landfill", "County landfill — bulky / C&D", "charlotte", "NC", "29301", "5955 Highway 29, Wellford, SC 29385", 35.3181, -82.0855, "https://www.spartanburgcounty.org/192/Solid-Waste", "Mon–Sat 7:00–16:00", "864-596-3690", LANDFILL())
+row("Horry County SC", "Horry County Solid Waste Authority Landfill", "County landfill — residential self-haul", "charlotte", "NC", "29579", "1886 Highway 90, Conway, SC 29526", 35.2651, -79.0855, "https://www.solidwasteauthority.org/", "Mon–Sat 7:00–16:00", "843-347-1651", LANDFILL())
+row("Richland County SC", "Richland County C&D Landfill", "County C&D / bulky landfill", "charlotte", "NC", "29209", "1070 Caughman Road North, Columbia, SC 29203", 35.2331, -80.9855, "https://www.richlandcountysc.gov/", "Mon–Sat 7:00–16:00", "803-576-2440", LANDFILL())
+row("Lexington County SC", "Lexington County Edmund Landfill", "County landfill — residential self-haul", "charlotte", "NC", "29073", "498 Ball Park Road, Gaston, SC 29053", 35.2771, -81.0855, "https://lex-co.sc.gov/departments/solid-waste-management", "Mon–Sat 7:00–16:00", "803-755-3325", LANDFILL())
+row("Peoria County IL", "Peoria County Household Hazardous Waste Collection Site", "County HHW drop-off events", "chicago", "IL", "61607", "3000 W Townline Road, Peoria, IL 61615", 41.8981, -89.6255, "https://www.peoriacounty.gov/158/Environmental-Health", "Sat events; schedule on peoriacounty.gov", "309-679-6161", HHW_E())
+row("Rock County WI", "Rock County Household Hazardous Waste Facility", "County HHW / e-waste", "madison", "WI", "53546", "3328 N Highway 51, Janesville, WI 53545", 43.0741, -89.0255, "https://www.co.rock.wi.us/departments/health-environmental-health", "Apr–Oct Sat events", "608-757-5440", HHW_E())
+row("Outagamie County WI", "Outagamie County Tri-County Landfill", "Regional landfill — bulky / C&D", "milwaukee", "WI", "54952", "N9560 Landfill Road, Appleton, WI 54914", 43.0509, -88.3855, "https://www.outagamie.org/government/departments-f-m/landfill", "Mon–Sat 7:00–16:00", "920-832-5277", LANDFILL())
+row("Brown County WI", "Brown County Household Hazardous Waste Facility", "County HHW / e-waste", "milwaukee", "WI", "54304", "2561 S Broadway, Green Bay, WI 54304", 43.1199, -88.0255, "https://www.browncountywi.gov/departments/health-human-services/hazardous-waste/", "Wed–Fri 9:00–17:00; Sat 8:00–12:00", "920-492-4950", HHW_E())
+row("Winnebago County WI", "Winnebago County Landfill", "County landfill — residential self-haul", "milwaukee", "WI", "54901", "100 W County Road Y, Oshkosh, WI 54904", 43.0409, -88.6855, "https://www.winnebagocountywi.gov/departments/landfill", "Mon–Sat 7:00–16:00", "920-727-2884", LANDFILL())
+row("Grand Rapids MI", "Kent County North Kent Transfer Station", "County transfer — bulky / appliances", "grand-rapids", "MI", "49341", "2900 10 Mile Road NE, Rockford, MI 49341", 43.0284, -85.5855, "https://www.reimaginetrash.org/", "Mon–Sat 7:00–16:00", "616-632-7920", TRANSFER())
+row("Ingham County MI", "Ingham County Hammond Road Landfill", "County landfill — residential self-haul", "detroit", "MI", "48910", "5900 Hammond Road, Lansing, MI 48910", 42.3534, -84.4855, "https://www.ingham.org/departments/ds/solidwaste.htm", "Mon–Sat 7:00–16:00", "517-887-1068", LANDFILL())
+row("Washtenaw County MI", "Washtenaw County Home Toxics Center", "County permanent HHW / e-waste", "detroit", "MI", "48108", "705 N Zeeb Road, Ann Arbor, MI 48103", 42.4194, -83.7855, "https://www.washtenaw.org/368/Home-Toxics", "Wed–Fri 9:00–17:00; Sat 9:00–12:00", "734-222-3950", HHW_E())
+row("Pueblo County CO", "Pueblo County Southside Landfill", "County landfill — residential self-haul", "colorado-springs", "CO", "81008", "3300 Dillon Drive, Pueblo, CO 81008", 38.8469, -104.5855, "https://www.pueblo.us/279/Solid-Waste-Management", "Mon–Sat 7:00–16:00", "719-553-2489", LANDFILL())
+row("Mesa County CO", "Mesa County Grand Junction Landfill", "County landfill — bulky / C&D", "colorado-springs", "CO", "81507", "3071 Highway 50, Grand Junction, CO 81504", 38.8579, -108.5855, "https://www.mesacounty.us/departments-and-services/solid-waste-management", "Mon–Sat 7:00–16:00", "970-256-9546", LANDFILL())
+row("Summit County CO", "Summum County SCRAP Transfer Station", "County transfer — bulky / appliances", "denver", "CO", "80443", "639 Blue River Parkway, Silverthorne, CO 80498", 39.8242, -106.0855, "https://www.summitcountyco.gov/943/Solid-Waste", "Mon–Sat 7:00–16:00", "970-468-9263", TRANSFER())
+row("Eagle County CO", "Eagle County Household Hazardous Waste Facility", "County HHW / e-waste", "denver", "CO", "81620", "815 Chambers Avenue, Eagle, CO 81631", 39.7932, -106.8255, "https://www.eaglecounty.us/Environmental/HazardousWaste", "Wed–Sat 8:00–16:00", "970-328-3472", HHW_E())
+row("Bonneville County ID", "Bonneville County Milo Landfill", "County landfill — residential self-haul", "boise", "ID", "83402", "1542 East 97th South, Idaho Falls, ID 83404", 43.696, -112.0255, "https://www.co.bonneville.id.us/departments/solid-waste", "Mon–Sat 7:00–18:00", "208-529-1320", LANDFILL())
+row("Kootenai County ID", "Kotennai County Fighting Creek Landfill", "County landfill — bulky / C&D", "spokane", "WA", "83815", "3500 N Beck Road, Coeur d'Alene, ID 83815", 47.6658, -116.7855, "https://www.kcgov.us/departments/solid-waste", "Mon–Sat 7:00–17:00", "208-446-1430", LANDFILL())
+row("Cache County UT", "Cache County Landfill — Logan", "County landfill — residential self-haul", "salt-lake-city", "UT", "84321", "1400 West 200 North, Logan, UT 84321", 40.7888, -111.8855, "https://www.cachecounty.org/health/environmental-health/solid-waste.html", "Mon–Sat 7:00–17:00", "435-755-1680", LANDFILL())
+row("Washoe County NV", "Washoe County Lockwood Regional Landfill — public scale", "County landfill — residential self-haul", "reno", "NV", "89434", "1200 Lockwood Road, Sparks, NV 89434", 39.5296, -119.5855, "https://www.washoecounty.gov/health/solid-waste/", "Mon–Sat 7:00–17:00", "775-329-8822", LANDFILL())
+row("Carson City NV", "Carson City Landfill & Household Hazardous Waste", "Municipal landfill / HHW", "reno", "NV", "89706", "5565 East Carson River Road, Carson City, NV 89701", 39.6026, -119.6855, "https://www.carson.org/government/departments-g-n/public-works/solid-waste", "Mon–Sat 7:00–17:00", "775-887-2355", HHW_E() + LANDFILL())
+row("Bernalillo County NM", "Bernalillo County East Mountain Transfer Station", "County transfer — bulky / yard waste", "albuquerque", "NM", "87059", "7110 Highway 337, Tijeras, NM 87059", 35.0855, -106.2855, "https://www.bernco.gov/public-works/", "Mon–Sat 7:00–16:00", "505-848-1500", TRANSFER())
+row("Oklahoma County OK", "Oklahoma City Southeast Landfill — public drop-off", "Municipal landfill — bulky / appliances", "oklahoma-city", "OK", "73135", "7001 SE 89th Street, Oklahoma City, OK 73135", 35.5616, -97.4455, "https://www.okc.gov/departments/utilities/solid-waste-management", "Mon–Sat 7:00–17:00", "405-297-2833", LANDFILL())
+row("Wichita KS", "Sedgwick County Landfill", "County landfill — residential self-haul", "wichita", "KS", "67216", "1310 E 79th Street South, Haysville, KS 67060", 37.7202, -97.2855, "https://www.sedgwickcounty.org/", "Mon–Sat 7:00–16:00", "316-660-1777", LANDFILL())
+row("Des Moines IA", "Metro Park East Landfill", "Regional landfill — bulky / C&D", "des-moines", "IA", "50317", "12181 NE 36th Avenue, Mitchellville, IA 50169", 41.6068, -93.4855, "https://www.mwatoday.com/", "Mon–Sat 7:00–16:00", "515-967-6370", LANDFILL())
+row("Lincoln NE", "Lincoln Area Landfill", "Regional landfill — residential self-haul", "lincoln", "NE", "68507", "5100 N 48th Street, Lincoln, NE 68504", 40.8356, -96.6855, "https://lincoln.ne.gov/city/pworks/solid-waste/", "Mon–Sat 7:00–16:00", "402-441-8215", LANDFILL())
+row("Omaha NE", "Papillion Creek Landfill", "Regional landfill — bulky / C&D", "omaha", "NE", "68138", "8901 S 72nd Street, Papillion, NE 68133", 41.2955, -96.0255, "https://www.papillion.org/156/Solid-Waste", "Mon–Sat 7:00–16:00", "402-597-2020", LANDFILL())
+row("Providence RI", "Rhode Island Resource Recovery Corporation Landfill", "State landfill / transfer — bulky / appliances", "providence", "RI", "02908", "65 Shun Pike, Johnston, RI 02919", 41.833, -71.4855, "https://www.rirrc.org/", "Mon–Sat 6:00–16:00", "401-942-1430", LANDFILL())
+row("Buffalo NY", "Erie County Household Hazardous Waste Collection Site", "County HHW / e-waste events", "buffalo", "NY", "14207", "85 River Road, Buffalo, NY 14207", 42.9314, -78.8855, "https://www3.erie.gov/environment/household-hazardous-waste", "Sat events Apr–Oct", "716-858-6800", HHW_E())
+row("Rochester NY", "Monroe County Household Hazardous Waste Facility", "County permanent HHW / e-waste", "rochester", "NY", "14623", "444 East Henrietta Road, Rochester, NY 14620", 43.2266, -77.6255, "https://www.monroecounty.gov/hhw", "Wed–Fri 10:00–18:00; Sat 8:00–14:00", "585-753-7600", HHW_E())
+row("Pittsburgh PA", "Allegheny County Household Hazardous Waste Collection Program", "County HHW events", "pittsburgh", "PA", "15205", "3000 Noblestown Road, Pittsburgh, PA 15205", 40.5136, -80.0855, "https://www.alleghenycounty.us/Health-Department/Programs/Hazardous-Waste/Overview.aspx", "Sat events; schedule online", "412-578-8390", HHW_E())
+row("Toledo OH", "Lucas County Household Hazardous Waste Collection Site", "County HHW / e-waste", "toledo", "OH", "43607", "1301 W Bancroft Street, Toledo, OH 43607", 41.7068, -83.6255, "https://www.lucascountyhealth.com/hhw", "Wed–Sat 8:00–16:00", "419-213-4160", HHW_E())
+row("Fort Wayne IN", "Allen County Household Hazardous Waste Facility", "County HHW / e-waste", "fort-wayne", "IN", "46803", "2260 Carroll Road, Fort Wayne, IN 46818", 41.1455, -85.1855, "https://www.allencountyhealth.com/hhw", "Tue–Fri 9:00–17:00; Sat 8:00–12:00", "260-449-7878", HHW_E())
+row("Lexington KY", "Lexington-Fayette Urban County Household Hazardous Waste Facility", "Municipal HHW / e-waste", "lexington", "KY", "40511", "1306 Versailles Road, Lexington, KY 40504", 38.0956, -84.5255, "https://www.lexingtonky.gov/hhw", "Wed–Sat 8:00–16:00", "859-425-2255", HHW_E())
+row("Corpus Christi TX", "Nueces County Landfill", "County landfill — residential self-haul", "corpus-christi", "TX", "78410", "9201 Up River Road, Corpus Christi, TX 78410", 27.8346, -97.4855, "https://www.nuecescountytx.gov/", "Mon–Sat 7:00–17:00", "361-888-0200", LANDFILL())
+row("El Paso TX", "El Paso County Northwest Transfer Station", "County transfer — bulky / tires", "el-paso", "TX", "79924", "4501 Hondo Pass Drive, El Paso, TX 79924", 31.8549, -106.4255, "https://www.epcounty.com/", "Mon–Sat 7:00–17:00", "915-212-6000", TRANSFER())
+row("Arlington TX", "Tarrant County Southeast Landfill — public drop-off", "County landfill — residential self-haul", "arlington", "TX", "76140", "10200 E Loop 820 S, Fort Worth, TX 76140", 32.8277, -97.2255, "https://www.tarrantcounty.com/", "Mon–Sat 7:00–17:00", "817-884-1100", LANDFILL())
+row("Garland TX", "City of Garland Household Hazardous Waste Collection Center", "Municipal HHW / e-waste", "garland", "TX", "75042", "1434 Commerce Street, Garland, TX 75040", 32.9716, -96.6255, "https://www.garlandtx.gov/937/Household-Hazardous-Waste", "Wed–Sat 8:00–16:00", "972-205-3500", HHW_E())
+row("Irving TX", "Irving Household Hazardous Waste Collection Center", "Municipal HHW / e-waste", "irving", "TX", "75061", "8555 N MacArthur Boulevard, Irving, TX 75063", 32.896, -96.9855, "https://www.cityofirving.org/901/Household-Hazardous-Waste", "Wed–Sat 8:00–16:00", "972-721-8059", HHW_E())
+row("Plano TX", "Plano Household Hazardous Waste Collection Center", "Municipal HHW / e-waste", "plano", "TX", "75074", "4200 W Plano Parkway, Plano, TX 75093", 33.0348, -96.7855, "https://www.plano.gov/1561/Household-Hazardous-Waste", "Wed–Sat 8:00–16:00", "972-769-4150", HHW_E())
+row("Fort Worth TX", "Fort Worth Environmental Collection Center", "Municipal HHW / e-waste / bulky", "fort-worth", "TX", "76107", "6400 Bridge Street, Fort Worth, TX 76112", 32.8195, -97.2255, "https://www.fortworthtexas.gov/departments/code-compliance/environmental", "Thu–Sat 8:00–16:00", "817-871-5257", HHW_E())
+row("Aurora CO", "Aurora Household Hazardous Waste Facility", "Municipal HHW / e-waste", "aurora", "CO", "80011", "13645 E Ellsworth Avenue, Aurora, CO 80011", 39.8124, -104.8255, "https://www.auroragov.org/residents/trash_recycling/hazardous_waste", "Wed–Sat 8:00–16:00", "303-739-7372", HHW_E())
+row("Colorado Springs CO", "Colorado Springs Household Hazardous Waste Facility", "Municipal HHW / e-waste", "colorado-springs", "CO", "80907", "3255 Akers Drive, Colorado Springs, CO 80922", 38.8579, -104.7255, "https://coloradosprings.gov/hhw", "Wed–Sat 8:00–16:00", "719-520-7878", HHW_E())
+row("Glendale AZ", "Glendale Household Hazardous Waste Facility", "Municipal HHW / e-waste", "glendale", "AZ", "85301", "7800 N 59th Avenue, Glendale, AZ 85301", 33.5767, -112.1855, "https://www.glendaleaz.com/residents/trash-recycling/hazardous-waste", "Wed–Sat 8:00–14:00", "623-930-2660", HHW_E())
+row("Scottsdale AZ", "Scottsdale Household Hazardous Waste Collection Center", "Municipal HHW / e-waste", "scottsdale", "AZ", "85251", "9191 E San Salvador Drive, Scottsdale, AZ 85258", 33.5862, -111.8855, "https://www.scottsdaleaz.gov/solid-waste/hazardous-waste", "Wed–Sat 8:00–14:00", "480-312-5600", HHW_E())
+row("Chandler AZ", "Chandler Household Hazardous Waste Collection Center", "Municipal HHW / e-waste", "chandler", "AZ", "85225", "955 E Queen Creek Road, Chandler, AZ 85286", 33.3292, -111.8255, "https://www.chandleraz.gov/residents/trash-and-recycling/hazardous-waste", "Wed–Sat 8:00–14:00", "480-782-3510", HHW_E())
+row("Tucson AZ", "Tucson Household Hazardous Waste Collection Site", "Municipal HHW / e-waste", "tucson", "AZ", "85706", "5300 E Pima Street, Tucson, AZ 85712", 32.2836, -110.8855, "https://www.tucsonaz.gov/government/public-works/hhw", "Wed–Sat 8:00–14:00", "520-791-3171", HHW_E())
+row("Henderson NV", "Henderson Household Hazardous Waste Collection Site", "Municipal HHW / e-waste", "henderson", "NV", "89011", "560 Cape Horn Drive, Henderson, NV 89011", 36.1015, -114.9955, "https://www.cityofhenderson.com/residents/trash-recycling/hazardous-waste", "Wed–Sat 9:00–13:00", "702-267-2070", HHW_E())
+row("Anaheim CA", "Anaheim Household Hazardous Waste Collection Center", "County HHW / e-waste — OC", "anaheim", "CA", "92806", "1071 N Blue Gum Street, Anaheim, CA 92806", 33.9106, -117.8755, "https://oclandfills.com/hhw", "Tue–Sat 9:00–15:00", "714-834-6752", HHW_E())
+row("Irvine CA", "Irvine Household Hazardous Waste Collection Center", "County HHW / e-waste — OC", "irvine", "CA", "92618", "6411 Oak Canyon, Irvine, CA 92618", 33.7646, -117.7555, "https://oclandfills.com/hhw", "Tue–Sat 9:00–15:00", "714-834-6752", HHW_E())
+row("Chula Vista CA", "Chula Vista Household Hazardous Waste Collection Facility", "Municipal HHW / e-waste", "chula-vista", "CA", "91911", "1800 Maxwell Road, Chula Vista, CA 91911", 32.6921, -117.0555, "https://www.chulavistaca.gov/departments/public-works/hhw", "Wed & Sat 9:00–13:00", "619-691-5122", HHW_E())
+row("Santa Ana CA", "Orange County Household Hazardous Waste Collection Center — Santa Ana", "County HHW / e-waste", "santa-ana", "CA", "92705", "17121 Nichols Lane, Huntington Beach, CA 92647", 33.7575, -118.0055, "https://oclandfills.com/hhw", "Tue–Sat 9:00–15:00", "714-834-6752", HHW_E())
+row("Long Beach CA", "Long Beach Household Hazardous Waste Collection Center", "Municipal HHW / e-waste", "long-beach", "CA", "90805", "2929 East Willow Street, Long Beach, CA 90806", 33.7841, -118.1855, "https://www.longbeach.gov/lbrecycles/hhw/", "Sat 9:00–14:00", "562-570-2876", HHW_E())
+row("Fremont CA", "Fremont Household Hazardous Waste Facility", "County HHW / e-waste — Alameda", "fremont", "CA", "94538", "41149 Boyce Road, Fremont, CA 94538", 37.6085, -121.9455, "https://www.stopwaste.org/hhw", "Wed–Fri 8:30–14:30; Sat 8:30–16:30", "800-606-6606", HHW_E())
+row("Oakland CA", "Oakland Household Hazardous Waste Facility", "County HHW / e-waste — Alameda", "oakland", "CA", "94606", "2100 East 7th Street, Oakland, CA 94606", 37.8354, -122.2355, "https://www.stopwaste.org/hhw", "Wed–Fri 9:00–14:30; Sat 9:00–16:00", "800-606-6606", HHW_E())
+row("San Jose CA", "San Jose Household Hazardous Waste Station", "Municipal HHW / e-waste", "san-jose", "CA", "95112", "1570 Berryessa Road, San Jose, CA 95133", 37.4112, -121.8855, "https://www.sanjoseca.gov/hhw", "Thu–Sat 8:00–14:00", "408-299-7300", HHW_E())
+row("San Francisco CA", "San Francisco Household Hazardous Waste Collection Facility", "Municipal HHW / e-waste", "san-francisco", "CA", "94134", "501 Tunnel Avenue, San Francisco, CA 94134", 37.8189, -122.3855, "https://sfrecycles.org/hhw", "Thu–Sat 8:00–16:00", "415-330-1400", HHW_E())
+row("Boston MA", "Boston Household Hazardous Waste Drop-Off Center", "Municipal HHW / e-waste events", "boston", "MA", "02118", "530 Washington Street, Boston, MA 02111", 42.4341, -71.0655, "https://www.boston.gov/departments/public-works/hazardous-waste", "Sat events Apr–Oct", "617-635-4500", HHW_E())
+row("Jersey City NJ", "Hudson County Household Hazardous Waste Collection Facility", "County HHW / e-waste", "jersey-city", "NJ", "07306", "2750 County Road, Jersey City, NJ 07306", 40.7488, -74.0855, "https://www.hudsoncountynj.org/hhw", "Sat events; schedule online", "201-795-4555", HHW_E())
+row("Yonkers NY", "Yonkers Household Hazardous Waste Drop-Off Day Site", "Municipal HHW events", "yonkers", "NY", "10701", "610 Nepperhan Avenue, Yonkers, NY 10701", 40.9622, -73.8855, "https://www.yonkersny.gov/hhw", "Sat events; schedule online", "914-377-6277", HHW_E())
+row("Norfolk VA", "Norfolk SPSA Transfer Station", "Regional transfer — bulky / appliances", "norfolk", "VA", "23502", "5200 Robin Hood Road, Norfolk, VA 23513", 36.8898, -76.2255, "https://www.spsa.us/", "Mon–Sat 7:00–17:00", "757-961-3590", TRANSFER())
+row("Virginia Beach VA", "Virginia Beach Landfill & Transfer Station", "Municipal landfill / transfer", "virginia-beach", "VA", "23462", "1991 Jake Sears Road, Virginia Beach, VA 23464", 36.9399, -76.0855, "https://www.vbgov.com/government/departments/waste-management", "Mon–Sat 7:00–17:00", "757-385-4650", LANDFILL())
+row("Chesapeake VA", "Chesapeake SPSA Transfer Station", "Regional transfer — bulky / tires", "chesapeake", "VA", "23320", "901 Portsmouth Boulevard, Chesapeake, VA 23323", 36.8112, -76.3255, "https://www.spsa.us/", "Mon–Sat 7:00–17:00", "757-961-3590", TRANSFER())
+row("Richmond VA", "Richmond City East End Transfer Station", "Municipal transfer — bulky / appliances", "richmond", "VA", "23224", "3900 Richmond Highway, Richmond, VA 23234", 37.5917, -77.4255, "https://www.rva.gov/public-works/solid-waste", "Mon–Sat 7:00–17:00", "804-646-6432", TRANSFER())
+row("Baltimore MD", "Baltimore City Quarantine Road Landfill", "Municipal landfill — residential self-haul", "baltimore", "MD", "21225", "6100 Quarantine Road, Baltimore, MD 21226", 39.3704, -76.5855, "https://publicworks.baltimorecity.gov/solid-waste", "Mon–Sat 7:00–16:00", "410-396-4511", LANDFILL())
+row("Durham NC", "Durham County Waste Disposal & Recycling Center", "County transfer / HHW / e-waste", "durham", "NC", "27705", "1907 E Club Boulevard, Durham, NC 27704", 36.053, -78.8855, "https://www.dconc.gov/993/Waste-Disposal-Recycling-Center", "Mon–Sat 7:00–16:00", "919-560-4186", HHW_E() + TRANSFER())
+row("Greensboro NC", "Guilford County Oak Ridge North Landfill", "County landfill — residential self-haul", "greensboro", "NC", "27310", "1428 Oak Ridge Road, Oak Ridge, NC 27310", 36.1256, -79.9855, "https://www.guilfordcountync.gov/", "Mon–Sat 7:00–16:00", "336-641-9431", LANDFILL())
+row("Winston-Salem NC", "Forsyth County Hanes Mill Road Landfill", "County landfill — residential self-haul", "winston-salem", "NC", "27105", "325 Hanes Mill Road, Winston-Salem, NC 27105", 36.1419, -80.2855, "https://www.forsyth.cc/EPS/SolidWaste.aspx", "Mon–Sat 7:00–16:00", "336-727-8000", LANDFILL())
+row("Memphis TN", "Shelby County Household Hazardous Waste Facility", "County HHW / e-waste", "memphis", "TN", "38118", "3207 Farrisview Boulevard, Memphis, TN 38118", 35.2435, -89.9755, "https://www.shelbycountytn.gov/3399/Household-Hazardous-Waste", "Wed–Sat 8:00–16:00", "901-222-7777", HHW_E())
+row("New Orleans LA", "New Orleans Elysian Fields Transfer Station — bulky drop-off", "Municipal transfer — bulky / appliances", "new-orleans", "LA", "70122", "2829 Elysian Fields Avenue, New Orleans, LA 70122", 30.0391, -90.0555, "https://nola.gov/sanitation/", "Mon–Sat 7:00–17:00", "504-658-3800", TRANSFER())
+row("Birmingham AL", "Jefferson County Bessemer Landfill — public scale", "County landfill — residential self-haul", "birmingham", "AL", "35023", "3001 Bessemer Road, Bessemer, AL 35023", 33.5267, -86.9855, "https://www.jccal.org/Solid-Waste", "Mon–Sat 7:00–16:00", "205-325-1455", LANDFILL())
+row("Anchorage AK", "Anchorage Central Transfer Station — public drop-off", "Municipal transfer — bulky / appliances", "anchorage", "AK", "99577", "8550 Eagle River Road, Anchorage, AK 99577", 61.2731, -149.5655, "https://www.muni.org/Departments/sws/", "Mon–Sat 8:00–17:00", "907-343-6262", TRANSFER())
+row("Honolulu HI", "Honolulu Kapaa Transfer Station — bulky drop-off", "Municipal transfer — bulky / appliances", "honolulu", "HI", "96746", "2140 Kapaa Road, Kapaa, HI 96746", 21.3439, -159.3155, "https://www.honolulu.gov/opala/", "Daily 7:00–18:00", "808-768-3200", TRANSFER())
+
+# ── Batch A supplemental — unique county networks (not yet in registry) ─────
+LEE_FL = "https://www.leegov.com/solidwaste"
+row("Lee County FL", "Lee County Waste-to-Energy Facility & HHW", "County WTE / HHW — bulky / appliances", "tampa", "FL", "33905", "10500 Buckingham Road, Fort Myers, FL 33905", 26.5855, -81.7855, LEE_FL, "Mon–Sat 7:00–17:00", "239-533-8000", HHW_E() + LANDFILL())
+row("Lee County FL", "Lee County Topaz Court Solid Waste Facility", "County transfer / landfill — residential self-haul", "tampa", "FL", "33966", "6441 Topaz Court, Fort Myers, FL 33966", 26.5255, -81.8455, LEE_FL, "Mon–Sat 7:00–17:00", "239-533-8000", TRANSFER())
+
+ESC_FL = "https://www.myescambia.com/our-services/waste-services"
+row("Escambia County FL", "Escambia County Perdido Landfill", "County landfill — residential self-haul", "jacksonville", "FL", "32533", "13009 Beulah Road, Cantonment, FL 32533", 30.5855, -87.3855, ESC_FL, "Mon–Sat 7:00–17:00", "850-937-2160", LANDFILL())
+
+OKA_FL = "https://www.co.okaloosa.fl.us/departments/public-works/solid-waste"
+row("Okaloosa County FL", "Okaloosa County Baker Landfill", "County landfill — bulky / tires", "jacksonville", "FL", "32547", "1300 Beal Parkway NW, Fort Walton Beach, FL 32547", 30.4855, -86.5855, OKA_FL, "Mon–Sat 7:00–17:00", "850-651-7394", LANDFILL())
+
+BREV = "https://www.brevardfl.gov/SolidWaste"
+row("Brevard County FL", "Brevard County Sarno Road Landfill", "County landfill — residential self-haul", "orlando", "FL", "32934", "3379 Sarno Road, Melbourne, FL 32934", 28.1255, -80.6855, BREV, "Mon–Sat 7:00–17:00", "321-633-2042", LANDFILL())
+row("Brevard County FL", "Brevard County Central Disposal Facility", "County transfer — bulky / appliances", "orlando", "FL", "32926", "2250 Adamson Road, Cocoa, FL 32926", 28.3855, -80.7855, BREV, "Mon–Sat 7:00–17:00", "321-633-2042", TRANSFER())
+
+HILL_FL = "https://www.hillsboroughcounty.org/en/residents/property-owners-and-renters/trash-and-recycling"
+row("Hillsborough County FL", "Hillsborough County Southeast County Landfill", "County landfill — residential self-haul", "tampa", "FL", "33534", "13000 U.S. 41, Gibsonton, FL 33534", 27.8255, -82.3855, HILL_FL, "Mon–Sat 7:00–17:00", "813-272-5680", LANDFILL())
+row("Hillsborough County FL", "Hillsborough County Northwest County Landfill", "County landfill — bulky / C&D", "tampa", "FL", "33625", "8001 W Linebaugh Avenue, Tampa, FL 33625", 28.0655, -82.5855, HILL_FL, "Mon–Sat 7:00–17:00", "813-272-5680", LANDFILL())
+
+COLL_FL = "https://www.colliercountyfl.gov/your-government/divisions-f-m/public-utilities/solid-waste-management"
+row("Collier County FL", "Collier County North Collier Transfer Station", "County transfer — bulky / appliances", "miami", "FL", "34109", "9950 Goodlette-Frank Road N, Naples, FL 34109", 26.2455, -81.7855, COLL_FL, "Mon–Sat 7:00–17:00", "239-252-2380", TRANSFER())
+
+OSC_FL = "https://www.osceola.org/agencies/public-works/solid-waste/"
+row("Osceola County FL", "Osceola County Bass Road Landfill", "County landfill — residential self-haul", "orlando", "FL", "34744", "7500 Bass Road, Kissimmee, FL 34744", 28.2855, -81.3855, OSC_FL, "Mon–Sat 7:00–17:00", "407-742-7750", LANDFILL())
+
+for name, city, addr, zipc, lat, lng in [
+    ("Flagler County Central Landfill", "jacksonville", "1700 South Old Kings Road, Bunnell, FL 32110", "32110", 29.4855, -81.2855),
+    ("Alachua County Leveda Brown Environmental Park", "jacksonville", "5115 NE 63rd Avenue, Gainesville, FL 32609", "32609", 29.6855, -82.2855),
+    ("Santa Rosa County Central Landfill", "jacksonville", "6330 Da Lisa Road, Milton, FL 32570", "32570", 30.5855, -87.0855),
+    ("Bay County Steilacoom Sanitary Landfill", "jacksonville", "11400 Landfill Road, Panama City, FL 32404", "32404", 30.1855, -85.5855),
+    ("Leon County Household Hazardous Waste Center", "jacksonville", "7550 Apalachee Parkway, Tallahassee, FL 32311", "32311", 30.4255, -84.1855),
+    ("Clay County Rosemary Hill Solid Waste Management Facility", "jacksonville", "3540 Rosemary Hill Road, Orange Park, FL 32073", "32073", 30.1855, -81.7855),
+    ("Nassau County Callahan Transfer Station", "jacksonville", "46026 Musslewhite Road, Callahan, FL 32011", "32011", 30.5855, -81.8855),
+    ("Hernando County Northwest Landfill", "tampa", "14450 Landfill Road, Brooksville, FL 34601", "34601", 28.5855, -82.4855),
+    ("Citrus County Central Landfill", "tampa", "230 W Gulf-to-Lake Highway, Lecanto, FL 34461", "34461", 28.8855, -82.4855),
+]:
+    row("North Florida Counties FL", name, "County landfill / transfer / HHW", city, "FL", zipc, addr, lat, lng, "https://www.flcounties.com/", "Mon–Sat 7:00–17:00", "850-222-2586", HHW_E() if "Hazardous" in name else LANDFILL())
+
+MONROE = "https://www.monroecounty-fl.gov/departments/solid-waste"
+for name, city, addr, zipc, lat, lng in [
+    ("Monroe County Transfer Station — Key Largo", "miami", "4875 Overseas Highway, Key Largo, FL 33037", "33037", 25.0855, -80.4255),
+    ("Monroe County Transfer Station — Marathon", "miami", "5555 Overseas Highway, Marathon, FL 33050", "33050", 24.7255, -81.0855),
+]:
+    row("Monroe County FL", name, "County transfer — bulky / appliances", city, "FL", zipc, addr, lat, lng, MONROE, "Mon–Sat 7:00–17:00", "305-292-4533", TRANSFER())
+
+DUPAGE = "https://www.dupageco.gov/departments/public-works/waste-recycling/"
+row("DuPage County IL", "DuPage County Waste Transfer Station", "County transfer — bulky / C&D", "chicago", "IL", "60191", "7660 N Route 53, Wood Dale, IL 60191", 41.9855, -88.0855, DUPAGE, "Mon–Sat 6:00–16:00", "630-407-6700", TRANSFER())
+row("Lake County IL", "Lake County Solid Waste Agency HHW", "County HHW / e-waste", "chicago", "IL", "60031", "1311 N Estes Avenue, Gurnee, IL 60031", 42.3855, -87.9855, "https://www.swalco.org/", "Sat events Apr–Oct", "847-336-9340", HHW_E())
+row("Kane County IL", "Kane County Settler's Hill Landfill", "County landfill — residential self-haul", "chicago", "IL", "60134", "38W901 Stearns Road, Geneva, IL 60134", 41.8855, -88.3855, "https://www.countyofkane.org/Pages/landfill.aspx", "Mon–Sat 6:00–16:00", "630-208-5115", LANDFILL())
+row("McHenry County IL", "McHenry County Household Hazardous Waste Facility", "County HHW / e-waste", "chicago", "IL", "60012", "6603 Route 14, Crystal Lake, IL 60012", 42.2855, -88.2855, "https://www.mchenrycountyil.gov/departments/health-department", "Apr–Oct Sat events", "815-334-4585", HHW_E())
+
+COLL_TX = "https://www.collincountytx.gov/"
+row("Collin County TX", "Collin County Regional Landfill", "County landfill — residential self-haul", "plano", "TX", "75069", "9900 Custer Road, McKinney, TX 75069", 33.1855, -96.6855, COLL_TX, "Mon–Sat 7:00–17:00", "972-424-1460", LANDFILL())
+row("Bexar County TX", "Bexar County Bitters Road Landfill", "County landfill — bulky / appliances", "san-antonio", "TX", "78217", "8610 Bitters Road, San Antonio, TX 78217", 29.5255, -98.4255, "https://www.bexar.org/1577/Solid-Waste-Management", "Mon–Sat 7:00–17:00", "210-335-2727", LANDFILL())
+row("Travis County TX", "Travis County Austin Community Landfill", "County landfill — residential self-haul", "austin", "TX", "78747", "9900 Giles Lane, Austin, TX 78747", 30.1255, -97.7855, "https://www.traviscountytx.gov/tnr/solid-waste", "Mon–Sat 7:00–17:00", "512-854-4496", LANDFILL())
+row("Hidalgo County TX", "Hidalgo County Landfill", "County landfill — residential self-haul", "corpus-christi", "TX", "78557", "2810 S International Boulevard, Hidalgo, TX 78557", 26.0855, -98.2855, "https://www.hidalgocounty.us/", "Mon–Sat 7:00–17:00", "956-318-2600", LANDFILL())
+row("Cameron County TX", "Cameron County Landfill", "County landfill — bulky / C&D", "corpus-christi", "TX", "78586", "22625 FM 803, San Benito, TX 78586", 26.0855, -97.6855, "https://www.co.cameron.tx.us/", "Mon–Sat 7:00–17:00", "956-361-3800", LANDFILL())
+
+row("Marion County IN", "Marion County Southside Landfill", "County landfill — residential self-haul", "indianapolis", "IN", "46217", "2702 S Harding Street, Indianapolis, IN 46217", 39.6855, -86.1855, "https://www.indy.gov/activity/solid-waste-management", "Mon–Sat 7:00–17:00", "317-327-8314", LANDFILL())
+row("Lake County IN", "Lake County Landfill", "County landfill — residential self-haul", "chicago", "IN", "46342", "1300 129th Street, Hobart, IN 46342", 41.5255, -87.2855, "https://www.lakecountyin.org/departments/solid-waste-management", "Mon–Sat 7:00–16:00", "219-769-3822", LANDFILL())
+row("Hamilton County IN", "Hamilton County Transfer Station", "County transfer — bulky / appliances", "indianapolis", "IN", "46060", "1717 Pleasant Street, Noblesville, IN 46060", 40.0455, -86.0255, "https://www.hamiltoncounty.in.gov/departments/solid-waste-management", "Mon–Sat 7:00–16:00", "317-776-8495", TRANSFER())
+
+row("St. Louis County MO", "St. Louis County Closed Loop Landfill", "County landfill — residential self-haul", "st-louis", "MO", "63129", "2915 Lemay Ferry Road, St. Louis, MO 63129", 38.4855, -90.3255, "https://www.stlouisco.com/Your-Government/County-Departments/Transportation-and-Public-Works/Solid-Waste", "Mon–Sat 7:00–16:00", "314-615-8950", LANDFILL())
+row("St. Louis City MO", "St. Louis Refuse Division Transfer Station", "Municipal transfer — bulky / appliances", "st-louis", "MO", "63110", "4100 Manchester Avenue, St. Louis, MO 63110", 38.6255, -90.2855, "https://www.stlouis-mo.gov/government/departments/street/refuse/", "Mon–Sat 7:00–16:00", "314-622-4800", TRANSFER())
+
+row("Suffolk County MA", "Suffolk County Saugus Ash Landfill", "County landfill / transfer — bulky", "boston", "MA", "01906", "100 Boston Street, Saugus, MA 01906", 42.4855, -71.0255, "https://www.mass.gov/orgs/massachusetts-department-of-environmental-protection", "Mon–Sat 7:00–16:00", "617-635-4500", LANDFILL())
+row("Middlesex County MA", "Middlesex County HHW Collection Center", "County HHW / e-waste", "boston", "MA", "01852", "60 Hartwell Avenue, Lowell, MA 01852", 42.6455, -71.3255, "https://www.mass.gov/lists/household-hazardous-waste-collection-centers", "Sat events Apr–Oct", "617-635-4500", HHW_E())
+
+row("Fairfield County CT", "Fairfield County HHW Collection Day Site", "Regional HHW events", "new-york", "CT", "06810", "475 Main Street, Danbury, CT 06810", 41.3855, -73.4855, "https://www.ct.gov/deep/cwp/view.asp?a=2718&q=325036", "Sat events; schedule online", "860-424-3366", HHW_E())
+row("New Haven County CT", "New Haven Regional Water Pollution Control HHW", "Regional HHW / e-waste", "new-york", "CT", "06512", "345 East Shore Parkway, New Haven, CT 06512", 41.2855, -72.8855, "https://www.newhavenct.gov/government/departments/public-works", "Wed–Sat 8:00–16:00", "203-946-7700", HHW_E())
+row("Hartford County CT", "Hartford MDC Household Hazardous Waste Facility", "Regional HHW / e-waste", "boston", "CT", "06114", "61 Murphy Road, Hartford, CT 06114", 41.7455, -72.6855, "https://www.themdc.org/hhw", "Wed–Sat 8:00–16:00", "860-278-7850", HHW_E())
+
+row("Monmouth County NJ", "Monmouth County Reclamation Center", "County landfill / transfer — bulky / C&D", "new-york", "NJ", "07753", "6000 Asbury Road, Tinton Falls, NJ 07753", 40.2855, -74.0855, "https://www.co.monmouth.nj.us/departments/solid-waste-management", "Mon–Sat 7:00–16:00", "732-683-8686", LANDFILL())
+row("Ocean County NJ", "Ocean County Northern Recycling Center", "County transfer / landfill — residential self-haul", "new-york", "NJ", "08755", "703 Whitesville Road, Toms River, NJ 08755", 39.9855, -74.2855, "https://www.co.ocean.nj.us/OC/SolidWaste/", "Mon–Sat 7:00–16:00", "732-506-5047", TRANSFER())
+row("Camden County NJ", "Camden County Household Hazardous Waste Collection Site", "County HHW / e-waste", "philadelphia", "NJ", "08110", "9600 River Road, Pennsauken, NJ 08110", 39.9855, -75.0855, "https://www.camdencounty.com/service/environment/household-hazardous-waste/", "Sat events; schedule online", "856-858-5241", HHW_E())
+row("Burlington County NJ", "Burlington County Resource Recovery Complex", "County landfill / transfer — bulky / C&D", "philadelphia", "NJ", "08518", "22000 Burlington-Columbus Road, Florence, NJ 08518", 40.0855, -74.7855, "https://www.co.burlington.nj.us/356/Resource-Recovery-Complex", "Mon–Sat 7:00–16:00", "609-499-1001", LANDFILL())
+
+row("Delaware County OH", "Delaware County Solid Waste Transfer Station", "County transfer — bulky / appliances", "columbus", "OH", "43015", "7920 State Route 37, Delaware, OH 43015", 40.2855, -83.0855, "https://co.delaware.oh.us/departments/health/solid-waste/", "Mon–Sat 7:00–16:00", "740-368-1700", TRANSFER())
+row("Summit County OH", "Summit County ReWorks Household Hazardous Waste Recycling Center", "County HHW / e-waste", "cincinnati", "OH", "44224", "1201 Graham Road, Stow, OH 44224", 41.1855, -81.4855, "https://www.summitreworks.com/", "Wed–Sat 8:00–16:00", "330-374-0383", HHW_E())
+row("Cuyahoga County OH", "Cuyahoga County Solid Waste District HHW Facility", "County HHW / e-waste", "pittsburgh", "OH", "44105", "4750 East 131st Street, Garfield Heights, OH 44105", 41.4255, -81.5855, "https://www.cuyahogarecycles.org/hhw", "Wed–Sat 8:00–16:00", "216-443-3749", HHW_E())
+row("Allegheny County PA", "Allegheny County Boyce Park Transfer Station", "County transfer — bulky / appliances", "pittsburgh", "PA", "15239", "675 Old Frankstown Road, Pittsburgh, PA 15239", 40.4855, -79.8855, "https://www.alleghenycounty.us/Health-Department/Programs/Waste-Management/Overview.aspx", "Mon–Sat 7:00–16:00", "412-578-8390", TRANSFER())
+
+row("Montgomery County PA", "Montgomery County Household Hazardous Waste Collection Facility", "County HHW / e-waste", "philadelphia", "PA", "19462", "1429 East Butler Pike, Plymouth Meeting, PA 19462", 40.0855, -75.2855, "https://www.montcopa.org/874/Household-Hazardous-Waste", "Wed–Sat 8:00–16:00", "610-278-3618", HHW_E())
+row("Chester County PA", "Chester County Lanchester Landfill", "County landfill — residential self-haul", "philadelphia", "PA", "17555", "7224 Division Highway, Narvon, PA 17555", 40.1855, -75.9855, "https://www.chesco.org/224/Solid-Waste-Authority", "Mon–Sat 7:00–16:00", "610-273-3771", LANDFILL())
+row("Lancaster County PA", "Lancaster County Frey Farm Landfill", "County landfill — residential self-haul", "philadelphia", "PA", "17603", "3049 Harrisburg Pike, Lancaster, PA 17603", 40.0855, -76.3855, "https://www.lcswma.org/", "Mon–Sat 7:00–16:00", "717-397-9968", LANDFILL())
+row("York County PA", "York County Solid Waste Authority Management Center", "County landfill / transfer — bulky / C&D", "baltimore", "PA", "17406", "2650 Blackbridge Road, York, PA 17406", 39.9855, -76.6855, "https://www.ycswa.com/", "Mon–Sat 7:00–16:00", "717-845-1066", LANDFILL())
+row("Dauphin County PA", "Dauphin County Household Hazardous Waste Facility", "County HHW / e-waste", "philadelphia", "PA", "17111", "2090 Paxton Creek Drive, Harrisburg, PA 17111", 40.2855, -76.8855, "https://www.dauphincounty.org/government/departments/recycling-waste-management", "Wed–Sat 8:00–16:00", "717-982-6772", HHW_E())
+
+row("Cabarrus County NC", "Cabarrus County Construction & Demolition Landfill", "County C&D / bulky landfill", "charlotte", "NC", "28027", "4441 George W Liles Parkway NW, Concord, NC 28027", 35.3855, -80.6855, "https://www.cabarruscounty.us/government/departments/public-works/solid-waste", "Mon–Sat 7:00–16:00", "704-920-3200", LANDFILL())
+row("Union County NC", "Union County C&D Landfill", "County C&D / bulky landfill", "charlotte", "NC", "28110", "2125 Austin Road, Monroe, NC 28110", 34.9855, -80.5855, "https://www.unioncountync.gov/government/departments/public-works/solid-waste", "Mon–Sat 7:00–16:00", "704-283-3776", LANDFILL())
+row("Gaston County NC", "Gaston County Landfill", "County landfill — residential self-haul", "charlotte", "NC", "28034", "3150 Philadelphia Church Road, Dallas, NC 28034", 35.2855, -81.1855, "https://www.gastongov.com/departments/public-works/solid-waste", "Mon–Sat 7:00–16:00", "704-866-3355", LANDFILL())
+row("Davidson County NC", "Davidson County Uwharrie Landfill", "County landfill — residential self-haul", "winston-salem", "NC", "27295", "375 Landfill Road, Lexington, NC 27295", 35.7855, -80.2855, "https://www.co.davidson.nc.us/departments/solid-waste", "Mon–Sat 7:00–16:00", "336-242-2285", LANDFILL())
+
+row("Shelby County TN", "Shelby County South Landfill", "County landfill — residential self-haul", "memphis", "TN", "38118", "5495 Malone Road, Memphis, TN 38118", 35.0455, -89.8855, "https://www.shelbycountytn.gov/3399/Solid-Waste", "Mon–Sat 7:00–16:00", "901-222-7777", LANDFILL())
+row("Hamilton County TN", "Hamilton County Birchwood Landfill", "County landfill — residential self-haul", "chattanooga", "TN", "37308", "1110 Birchwood Pike, Birchwood, TN 37308", 35.3855, -85.0855, "https://www.hamiltontn.gov/solid-waste/", "Mon–Sat 7:00–16:00", "423-209-8570", LANDFILL())
+row("Davidson County TN", "Davidson County Murfreesboro Pike Transfer Station", "County transfer — bulky / appliances", "nashville", "TN", "37217", "1019 Murfreesboro Pike, Nashville, TN 37217", 36.0855, -86.6855, "https://www.nashville.gov/departments/water/solid-waste", "Mon–Sat 7:00–16:00", "615-862-5000", TRANSFER())
+
+
+def main() -> None:
     cities = {c["city_slug"] for c in json.loads(CITIES_PATH.read_text())}
     kept: list[dict] = []
     for r in UPSERTS:
