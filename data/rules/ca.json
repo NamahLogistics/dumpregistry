@@ -33434,5 +33434,4297 @@
     "last_verified_at": "2026-08-10",
     "reviewed_by": "editorial-audit",
     "needs_review": false
+  },
+  {
+    "item_slug": "mattress",
+    "state": "CA",
+    "city_slug": "fremont",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Fremont / Republic bulky pickup",
+    "common_disposal_fee": "2 free bulky/yr Republic 510-657-3500 \u2014 max 6\u00d76\u00d76 ft",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "Fremont mattresses use Republic bulky pickup \u2014 2 free per year \u2014 call 510-657-3500. Maximum item size 6\u00d76\u00d76 feet. Tires are NOT bulky.",
+    "steps": [
+      "Call Republic 510-657-3500 to schedule bulky.",
+      "2 free bulky pickups per year.",
+      "Maximum 6\u00d76\u00d76 feet per item."
+    ],
+    "faqs": [
+      {
+        "q": "Fee?",
+        "a": "2 free per year via Republic."
+      },
+      {
+        "q": "Size limit?",
+        "a": "6\u00d76\u00d76 feet maximum."
+      }
+    ],
+    "source_url": "https://www.fremont.gov/government/departments/environmental-services/environmental-services-faqs",
+    "source_name": "City of Fremont \u2014 Environmental Services FAQs",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "refrigerator",
+    "state": "CA",
+    "city_slug": "fremont",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Fremont / Republic bulky / Alameda County HHW \u2014 41149 Boyce Rd",
+    "common_disposal_fee": "Free bulky OR self-haul $12+$37 Freon at 41149 Boyce Rd",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "High",
+    "answer": "Fremont Freon refrigerators may go on free Republic bulky (within 2/year allotment) OR self-haul to Alameda County facility \u2014 41149 Boyce Rd \u2014 $12 gate + $37 Freon fee. Remove doors. Never vent refrigerant yourself.",
+    "steps": [
+      "Schedule Republic bulky \u2014 510-657-3500.",
+      "Or haul to 41149 Boyce Rd \u2014 $12 + $37 Freon.",
+      "Remove doors; never vent Freon yourself."
+    ],
+    "faqs": [
+      {
+        "q": "Bulky for Freon fridge?",
+        "a": "Yes \u2014 within 2 free/year."
+      },
+      {
+        "q": "Self-haul fee?",
+        "a": "$12 gate + $37 Freon at Boyce Rd."
+      }
+    ],
+    "source_url": "https://www.fremont.gov/government/departments/environmental-services/recycling-compost-garbage/electronic-hazardous-waste",
+    "source_name": "City of Fremont \u2014 Electronic & Hazardous Waste",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "air-conditioner",
+    "state": "CA",
+    "city_slug": "fremont",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Fremont / Republic bulky / Alameda County HHW \u2014 41149 Boyce Rd",
+    "common_disposal_fee": "Free bulky OR self-haul $12+$37 Freon at 41149 Boyce Rd",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "High",
+    "answer": "Fremont Freon window AC units may go on Republic bulky OR self-haul to 41149 Boyce Rd \u2014 $12 gate + $37 Freon fee. Never vent refrigerant yourself.",
+    "steps": [
+      "Schedule Republic bulky \u2014 510-657-3500.",
+      "Or haul to 41149 Boyce Rd \u2014 $12 + $37 Freon.",
+      "Keep sealed until proper Freon handling."
+    ],
+    "faqs": [
+      {
+        "q": "Same as Freon fridge?",
+        "a": "Yes \u2014 bulky or Boyce Rd self-haul."
+      }
+    ],
+    "source_url": "https://www.fremont.gov/government/departments/environmental-services/recycling-compost-garbage/electronic-hazardous-waste",
+    "source_name": "City of Fremont \u2014 Electronic & Hazardous Waste",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "washer",
+    "state": "CA",
+    "city_slug": "fremont",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Fremont / Republic bulky pickup",
+    "common_disposal_fee": "2 free bulky/yr Republic 510-657-3500 \u2014 max 6\u00d76\u00d76 ft",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Medium",
+    "answer": "Non-Freon appliances such as washers use Fremont Republic bulky \u2014 510-657-3500. 2 free per year, max 6\u00d76\u00d76 feet. Freon refrigerators/AC also on bulky or Boyce Rd.",
+    "steps": [
+      "Call 510-657-3500 to schedule bulky.",
+      "2 free per year.",
+      "Maximum 6\u00d76\u00d76 feet per item."
+    ],
+    "faqs": [
+      {
+        "q": "Same as Freon fridge?",
+        "a": "Yes \u2014 all large appliances on bulky."
+      }
+    ],
+    "source_url": "https://www.fremont.gov/government/departments/environmental-services/environmental-services-faqs",
+    "source_name": "City of Fremont \u2014 Environmental Services FAQs",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "dryer",
+    "state": "CA",
+    "city_slug": "fremont",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Fremont / Republic bulky pickup",
+    "common_disposal_fee": "2 free bulky/yr Republic 510-657-3500 \u2014 max 6\u00d76\u00d76 ft",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Medium",
+    "answer": "Non-Freon appliances such as dryers use Fremont Republic bulky \u2014 510-657-3500. 2 free per year, max 6\u00d76\u00d76 feet. Freon refrigerators/AC also on bulky or Boyce Rd.",
+    "steps": [
+      "Call 510-657-3500 to schedule bulky.",
+      "2 free per year.",
+      "Maximum 6\u00d76\u00d76 feet per item."
+    ],
+    "faqs": [
+      {
+        "q": "Same as Freon fridge?",
+        "a": "Yes \u2014 all large appliances on bulky."
+      }
+    ],
+    "source_url": "https://www.fremont.gov/government/departments/environmental-services/environmental-services-faqs",
+    "source_name": "City of Fremont \u2014 Environmental Services FAQs",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "dishwasher",
+    "state": "CA",
+    "city_slug": "fremont",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Fremont / Republic bulky pickup",
+    "common_disposal_fee": "2 free bulky/yr Republic 510-657-3500 \u2014 max 6\u00d76\u00d76 ft",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Medium",
+    "answer": "Non-Freon appliances such as dishwashers use Fremont Republic bulky \u2014 510-657-3500. 2 free per year, max 6\u00d76\u00d76 feet. Freon refrigerators/AC also on bulky or Boyce Rd.",
+    "steps": [
+      "Call 510-657-3500 to schedule bulky.",
+      "2 free per year.",
+      "Maximum 6\u00d76\u00d76 feet per item."
+    ],
+    "faqs": [
+      {
+        "q": "Same as Freon fridge?",
+        "a": "Yes \u2014 all large appliances on bulky."
+      }
+    ],
+    "source_url": "https://www.fremont.gov/government/departments/environmental-services/environmental-services-faqs",
+    "source_name": "City of Fremont \u2014 Environmental Services FAQs",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "stove",
+    "state": "CA",
+    "city_slug": "fremont",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Fremont / Republic bulky pickup",
+    "common_disposal_fee": "2 free bulky/yr Republic 510-657-3500 \u2014 max 6\u00d76\u00d76 ft",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Medium",
+    "answer": "Non-Freon appliances such as stoves use Fremont Republic bulky \u2014 510-657-3500. 2 free per year, max 6\u00d76\u00d76 feet. Freon refrigerators/AC also on bulky or Boyce Rd.",
+    "steps": [
+      "Call 510-657-3500 to schedule bulky.",
+      "2 free per year.",
+      "Maximum 6\u00d76\u00d76 feet per item."
+    ],
+    "faqs": [
+      {
+        "q": "Same as Freon fridge?",
+        "a": "Yes \u2014 all large appliances on bulky."
+      }
+    ],
+    "source_url": "https://www.fremont.gov/government/departments/environmental-services/environmental-services-faqs",
+    "source_name": "City of Fremont \u2014 Environmental Services FAQs",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "water-heater",
+    "state": "CA",
+    "city_slug": "fremont",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Fremont / Republic bulky pickup",
+    "common_disposal_fee": "2 free bulky/yr Republic 510-657-3500 \u2014 max 6\u00d76\u00d76 ft",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Medium",
+    "answer": "Non-Freon appliances such as water heaters use Fremont Republic bulky \u2014 510-657-3500. 2 free per year, max 6\u00d76\u00d76 feet. Freon refrigerators/AC also on bulky or Boyce Rd.",
+    "steps": [
+      "Call 510-657-3500 to schedule bulky.",
+      "2 free per year.",
+      "Maximum 6\u00d76\u00d76 feet per item."
+    ],
+    "faqs": [
+      {
+        "q": "Same as Freon fridge?",
+        "a": "Yes \u2014 all large appliances on bulky."
+      }
+    ],
+    "source_url": "https://www.fremont.gov/government/departments/environmental-services/environmental-services-faqs",
+    "source_name": "City of Fremont \u2014 Environmental Services FAQs",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "television",
+    "state": "CA",
+    "city_slug": "fremont",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Fremont / Republic bulky / transfer station",
+    "common_disposal_fee": "Free bulky (2/yr) OR transfer station",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "Medium",
+    "answer": "Fremont TVs may go on free Republic bulky pickup (within 2/year) OR self-haul to transfer station. Wipe data before set-out or drop-off.",
+    "steps": [
+      "Schedule Republic bulky \u2014 510-657-3500.",
+      "Or haul to transfer station.",
+      "Wipe personal data."
+    ],
+    "faqs": [
+      {
+        "q": "Bulky for TVs?",
+        "a": "Yes \u2014 within 2 free/year allotment."
+      },
+      {
+        "q": "Transfer station?",
+        "a": "Alternative to bulky."
+      }
+    ],
+    "source_url": "https://www.fremont.gov/government/departments/environmental-services/recycling-compost-garbage/electronic-hazardous-waste",
+    "source_name": "City of Fremont \u2014 Electronic & Hazardous Waste",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "computer-monitor",
+    "state": "CA",
+    "city_slug": "fremont",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Fremont / Republic bulky / Alameda County HHW \u2014 41149 Boyce Rd",
+    "common_disposal_fee": "Free bulky (2/yr) OR Alameda County HHW at Boyce Rd",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "Medium",
+    "answer": "Fremont electronics including monitors may go on Republic bulky (2/year) OR free Alameda County HHW at 41149 Boyce Rd \u2014 800-606-6606. Wipe data before drop-off.",
+    "steps": [
+      "Schedule Republic bulky \u2014 510-657-3500.",
+      "Or haul to 41149 Boyce Rd HHW.",
+      "Wipe personal data."
+    ],
+    "faqs": [
+      {
+        "q": "HHW at Boyce Rd?",
+        "a": "Yes \u2014 free for Alameda County residents."
+      },
+      {
+        "q": "Bulky for e-waste?",
+        "a": "Yes \u2014 within 2/year."
+      }
+    ],
+    "source_url": "https://www.fremont.gov/government/departments/environmental-services/recycling-compost-garbage/electronic-hazardous-waste",
+    "source_name": "City of Fremont \u2014 Electronic & Hazardous Waste",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "smartphone",
+    "state": "CA",
+    "city_slug": "fremont",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Fremont / Republic bulky / Alameda County HHW \u2014 41149 Boyce Rd",
+    "common_disposal_fee": "Free bulky (2/yr) OR Alameda County HHW at Boyce Rd",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "Medium",
+    "answer": "Fremont electronics including phones may go on Republic bulky (2/year) OR free Alameda County HHW at 41149 Boyce Rd \u2014 800-606-6606. Wipe data before drop-off.",
+    "steps": [
+      "Schedule Republic bulky \u2014 510-657-3500.",
+      "Or haul to 41149 Boyce Rd HHW.",
+      "Wipe personal data."
+    ],
+    "faqs": [
+      {
+        "q": "HHW at Boyce Rd?",
+        "a": "Yes \u2014 free for Alameda County residents."
+      },
+      {
+        "q": "Bulky for e-waste?",
+        "a": "Yes \u2014 within 2/year."
+      }
+    ],
+    "source_url": "https://www.fremont.gov/government/departments/environmental-services/recycling-compost-garbage/electronic-hazardous-waste",
+    "source_name": "City of Fremont \u2014 Electronic & Hazardous Waste",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "e-waste-mixed",
+    "state": "CA",
+    "city_slug": "fremont",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Fremont / Republic bulky / Alameda County HHW \u2014 41149 Boyce Rd",
+    "common_disposal_fee": "Free bulky (2/yr) OR Alameda County HHW at Boyce Rd",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "Medium",
+    "answer": "Fremont electronics including mixed e-waste may go on Republic bulky (2/year) OR free Alameda County HHW at 41149 Boyce Rd \u2014 800-606-6606. Wipe data before drop-off.",
+    "steps": [
+      "Schedule Republic bulky \u2014 510-657-3500.",
+      "Or haul to 41149 Boyce Rd HHW.",
+      "Wipe personal data."
+    ],
+    "faqs": [
+      {
+        "q": "HHW at Boyce Rd?",
+        "a": "Yes \u2014 free for Alameda County residents."
+      },
+      {
+        "q": "Bulky for e-waste?",
+        "a": "Yes \u2014 within 2/year."
+      }
+    ],
+    "source_url": "https://www.fremont.gov/government/departments/environmental-services/recycling-compost-garbage/electronic-hazardous-waste",
+    "source_name": "City of Fremont \u2014 Electronic & Hazardous Waste",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "paint-latex",
+    "state": "CA",
+    "city_slug": "fremont",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Alameda County HHW \u2014 41149 Boyce Rd, Fremont",
+    "common_disposal_fee": "Free Alameda County HHW at Boyce Rd \u2014 800-606-6606",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Medium",
+    "answer": "Fremont latex paint goes free to Alameda County HHW \u2014 41149 Boyce Rd \u2014 call 800-606-6606 for hours. Not bulky or trash.",
+    "steps": [
+      "Haul sealed latex paint to 41149 Boyce Rd.",
+      "Call 800-606-6606 for hours.",
+      "Bring proof of Alameda County residence."
+    ],
+    "faqs": [
+      {
+        "q": "Boyce Rd address?",
+        "a": "41149 Boyce Rd, Fremont."
+      },
+      {
+        "q": "Bulky for paint?",
+        "a": "No \u2014 HHW only."
+      }
+    ],
+    "source_url": "https://www.stopwaste.org/recycling-disposal/hazardous-waste/household-hazardous-waste",
+    "source_name": "Alameda County / StopWaste \u2014 Household Hazardous Waste",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "paint-oil",
+    "state": "CA",
+    "city_slug": "fremont",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Alameda County HHW \u2014 41149 Boyce Rd, Fremont",
+    "common_disposal_fee": "Free Alameda County HHW at Boyce Rd \u2014 800-606-6606",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "Fremont oil-based paint goes free to Alameda County HHW \u2014 41149 Boyce Rd. Not bulky or trash.",
+    "steps": [
+      "Haul sealed oil paint to 41149 Boyce Rd.",
+      "Call 800-606-6606 for hours.",
+      "Keep containers sealed and labeled."
+    ],
+    "faqs": [
+      {
+        "q": "Same as latex?",
+        "a": "Yes \u2014 both free at Boyce Rd HHW."
+      }
+    ],
+    "source_url": "https://www.stopwaste.org/recycling-disposal/hazardous-waste/household-hazardous-waste",
+    "source_name": "Alameda County / StopWaste \u2014 Household Hazardous Waste",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "pesticides",
+    "state": "CA",
+    "city_slug": "fremont",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Alameda County HHW \u2014 41149 Boyce Rd, Fremont",
+    "common_disposal_fee": "Free Alameda County HHW at Boyce Rd \u2014 800-606-6606",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "Take pesticides free to Alameda County HHW \u2014 41149 Boyce Rd. Not bulky or trash.",
+    "steps": [
+      "Haul to 41149 Boyce Rd.",
+      "Call 800-606-6606 for hours.",
+      "Keep chemicals off bulky piles."
+    ],
+    "faqs": [
+      {
+        "q": "HHW phone?",
+        "a": "800-606-6606."
+      }
+    ],
+    "source_url": "https://www.stopwaste.org/recycling-disposal/hazardous-waste/household-hazardous-waste",
+    "source_name": "Alameda County / StopWaste \u2014 Household Hazardous Waste",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "herbicides",
+    "state": "CA",
+    "city_slug": "fremont",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Alameda County HHW \u2014 41149 Boyce Rd, Fremont",
+    "common_disposal_fee": "Free Alameda County HHW at Boyce Rd \u2014 800-606-6606",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "Take herbicides free to Alameda County HHW \u2014 41149 Boyce Rd. Not bulky or trash.",
+    "steps": [
+      "Haul to 41149 Boyce Rd.",
+      "Call 800-606-6606 for hours.",
+      "Keep chemicals off bulky piles."
+    ],
+    "faqs": [
+      {
+        "q": "HHW phone?",
+        "a": "800-606-6606."
+      }
+    ],
+    "source_url": "https://www.stopwaste.org/recycling-disposal/hazardous-waste/household-hazardous-waste",
+    "source_name": "Alameda County / StopWaste \u2014 Household Hazardous Waste",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "pool-chemicals",
+    "state": "CA",
+    "city_slug": "fremont",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Alameda County HHW \u2014 41149 Boyce Rd, Fremont",
+    "common_disposal_fee": "Free Alameda County HHW at Boyce Rd \u2014 800-606-6606",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "Take pool chemicals free to Alameda County HHW \u2014 41149 Boyce Rd. Not bulky or trash.",
+    "steps": [
+      "Haul to 41149 Boyce Rd.",
+      "Call 800-606-6606 for hours.",
+      "Keep chemicals off bulky piles."
+    ],
+    "faqs": [
+      {
+        "q": "HHW phone?",
+        "a": "800-606-6606."
+      }
+    ],
+    "source_url": "https://www.stopwaste.org/recycling-disposal/hazardous-waste/household-hazardous-waste",
+    "source_name": "Alameda County / StopWaste \u2014 Household Hazardous Waste",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "gasoline",
+    "state": "CA",
+    "city_slug": "fremont",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Alameda County HHW \u2014 41149 Boyce Rd, Fremont",
+    "common_disposal_fee": "Free Alameda County HHW at Boyce Rd \u2014 800-606-6606",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "Take gasoline free to Alameda County HHW \u2014 41149 Boyce Rd. Not bulky or trash.",
+    "steps": [
+      "Haul to 41149 Boyce Rd.",
+      "Call 800-606-6606 for hours.",
+      "Keep chemicals off bulky piles."
+    ],
+    "faqs": [
+      {
+        "q": "HHW phone?",
+        "a": "800-606-6606."
+      }
+    ],
+    "source_url": "https://www.stopwaste.org/recycling-disposal/hazardous-waste/household-hazardous-waste",
+    "source_name": "Alameda County / StopWaste \u2014 Household Hazardous Waste",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "car-battery",
+    "state": "CA",
+    "city_slug": "fremont",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Alameda County HHW \u2014 41149 Boyce Rd, Fremont",
+    "common_disposal_fee": "Free Alameda County HHW at Boyce Rd \u2014 800-606-6606",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "Alameda County HHW at 41149 Boyce Rd accepts household hazardous materials free. Lead-acid batteries at Boyce Rd HHW.",
+    "steps": [
+      "Haul to 41149 Boyce Rd.",
+      "Call 800-606-6606.",
+      "Tires use transfer station path."
+    ],
+    "faqs": [
+      {
+        "q": "Tires at HHW?",
+        "a": "No \u2014 transfer station $10\u201333; $63 min."
+      }
+    ],
+    "source_url": "https://www.stopwaste.org/recycling-disposal/hazardous-waste/household-hazardous-waste",
+    "source_name": "Alameda County / StopWaste \u2014 Household Hazardous Waste",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "lithium-battery",
+    "state": "CA",
+    "city_slug": "fremont",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Alameda County HHW \u2014 41149 Boyce Rd, Fremont",
+    "common_disposal_fee": "Free Alameda County HHW at Boyce Rd \u2014 800-606-6606",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "Alameda County HHW at 41149 Boyce Rd accepts household hazardous materials free. Lithium batteries at Boyce Rd HHW.",
+    "steps": [
+      "Haul to 41149 Boyce Rd.",
+      "Call 800-606-6606.",
+      "Tires use transfer station path."
+    ],
+    "faqs": [
+      {
+        "q": "Tires at HHW?",
+        "a": "No \u2014 transfer station $10\u201333; $63 min."
+      }
+    ],
+    "source_url": "https://www.stopwaste.org/recycling-disposal/hazardous-waste/household-hazardous-waste",
+    "source_name": "Alameda County / StopWaste \u2014 Household Hazardous Waste",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "motor-oil",
+    "state": "CA",
+    "city_slug": "fremont",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Alameda County HHW \u2014 41149 Boyce Rd, Fremont",
+    "common_disposal_fee": "Free Alameda County HHW at Boyce Rd \u2014 800-606-6606",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "Alameda County HHW at 41149 Boyce Rd accepts household hazardous materials free. Used motor oil at Boyce Rd HHW.",
+    "steps": [
+      "Haul to 41149 Boyce Rd.",
+      "Call 800-606-6606.",
+      "Tires use transfer station path."
+    ],
+    "faqs": [
+      {
+        "q": "Tires at HHW?",
+        "a": "No \u2014 transfer station $10\u201333; $63 min."
+      }
+    ],
+    "source_url": "https://www.stopwaste.org/recycling-disposal/hazardous-waste/household-hazardous-waste",
+    "source_name": "Alameda County / StopWaste \u2014 Household Hazardous Waste",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "propane-tank",
+    "state": "CA",
+    "city_slug": "fremont",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Alameda County HHW \u2014 41149 Boyce Rd, Fremont",
+    "common_disposal_fee": "Free Alameda County HHW at Boyce Rd \u2014 800-606-6606",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "Alameda County HHW at 41149 Boyce Rd accepts household hazardous materials free. Propane tanks at Boyce Rd HHW \u2014 confirm size limits.",
+    "steps": [
+      "Haul to 41149 Boyce Rd.",
+      "Call 800-606-6606.",
+      "Tires use transfer station path."
+    ],
+    "faqs": [
+      {
+        "q": "Tires at HHW?",
+        "a": "No \u2014 transfer station $10\u201333; $63 min."
+      }
+    ],
+    "source_url": "https://www.stopwaste.org/recycling-disposal/hazardous-waste/household-hazardous-waste",
+    "source_name": "Alameda County / StopWaste \u2014 Household Hazardous Waste",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "fluorescent-bulbs",
+    "state": "CA",
+    "city_slug": "fremont",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Alameda County HHW \u2014 41149 Boyce Rd, Fremont",
+    "common_disposal_fee": "Free Alameda County HHW at Boyce Rd \u2014 800-606-6606",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "Alameda County HHW at 41149 Boyce Rd accepts household hazardous materials free. Fluorescent bulbs at Boyce Rd HHW.",
+    "steps": [
+      "Haul to 41149 Boyce Rd.",
+      "Call 800-606-6606.",
+      "Tires use transfer station path."
+    ],
+    "faqs": [
+      {
+        "q": "Tires at HHW?",
+        "a": "No \u2014 transfer station $10\u201333; $63 min."
+      }
+    ],
+    "source_url": "https://www.stopwaste.org/recycling-disposal/hazardous-waste/household-hazardous-waste",
+    "source_name": "Alameda County / StopWaste \u2014 Household Hazardous Waste",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "cooking-oil",
+    "state": "CA",
+    "city_slug": "fremont",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Alameda County HHW \u2014 41149 Boyce Rd, Fremont",
+    "common_disposal_fee": "Free Alameda County HHW at Boyce Rd \u2014 800-606-6606",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Medium",
+    "answer": "Alameda County HHW at 41149 Boyce Rd accepts household hazardous materials free. Cooking oil at Boyce Rd HHW when not trash-safe.",
+    "steps": [
+      "Haul to 41149 Boyce Rd.",
+      "Call 800-606-6606.",
+      "Tires use transfer station path."
+    ],
+    "faqs": [
+      {
+        "q": "Tires at HHW?",
+        "a": "No \u2014 transfer station $10\u201333; $63 min."
+      }
+    ],
+    "source_url": "https://www.stopwaste.org/recycling-disposal/hazardous-waste/household-hazardous-waste",
+    "source_name": "Alameda County / StopWaste \u2014 Household Hazardous Waste",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "medical-sharps",
+    "state": "CA",
+    "city_slug": "fremont",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Alameda County HHW \u2014 41149 Boyce Rd, Fremont",
+    "common_disposal_fee": "Rigid sealed container \u2014 confirm Boyce Rd HHW sharps acceptance",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "Place sharps in a rigid sealed container. Confirm acceptance at Alameda County HHW \u2014 41149 Boyce Rd. Do not loose-bag needles.",
+    "steps": [
+      "Use rigid sealed container.",
+      "Confirm sharps at Boyce Rd HHW.",
+      "Never recycle loose needles."
+    ],
+    "faqs": [
+      {
+        "q": "Medications?",
+        "a": "Confirm drug take-back via Alameda County programs."
+      }
+    ],
+    "source_url": "https://www.stopwaste.org/recycling-disposal/hazardous-waste/household-hazardous-waste",
+    "source_name": "Alameda County / StopWaste \u2014 Household Hazardous Waste",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "tires",
+    "state": "CA",
+    "city_slug": "fremont",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Fremont transfer station",
+    "common_disposal_fee": "NOT bulky \u2014 transfer station $10\u201333; $63 minimum",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Medium",
+    "answer": "Fremont tires are NOT accepted on Republic bulky. Self-haul to transfer station \u2014 $10\u201333 per tire; $63 minimum load. Retailer take-back when replacing tires.",
+    "steps": [
+      "Do not set tires out for Republic bulky.",
+      "Haul to transfer station.",
+      "Fee: $10\u201333/tire; $63 minimum load."
+    ],
+    "faqs": [
+      {
+        "q": "Bulky for tires?",
+        "a": "No \u2014 transfer station only."
+      },
+      {
+        "q": "Minimum fee?",
+        "a": "$63 minimum load."
+      }
+    ],
+    "source_url": "https://www.fremont.gov/government/departments/environmental-services/recycling-compost-garbage/electronic-hazardous-waste",
+    "source_name": "City of Fremont \u2014 Electronic & Hazardous Waste",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "yard-waste",
+    "state": "CA",
+    "city_slug": "fremont",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Fremont organics collection",
+    "common_disposal_fee": "Fremont yard waste / organics collection",
+    "badge": "ACCEPTED_IN_BLUE_BIN",
+    "hazard_rating": "Low",
+    "answer": "Fremont handles yard waste through organics collection. Follow set-out rules on fremont.gov.",
+    "steps": [
+      "Use organics/yard waste set-out rules.",
+      "Keep yard waste out of HHW and e-waste.",
+      "Check fremont.gov for seasonal guidance."
+    ],
+    "faqs": [
+      {
+        "q": "Christmas trees?",
+        "a": "Follow city seasonal yard waste guidance."
+      }
+    ],
+    "source_url": "https://www.fremont.gov/government/departments/environmental-services/environmental-services-faqs",
+    "source_name": "City of Fremont \u2014 Environmental Services FAQs",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "food-scraps",
+    "state": "CA",
+    "city_slug": "fremont",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Fremont organics cart",
+    "common_disposal_fee": "Organics cart",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "Fremont food scraps go in the organics cart. Keep food out of recycling and HHW.",
+    "steps": [
+      "Place food scraps in organics cart.",
+      "Keep organics out of recycling.",
+      "Yard trimmings use organics pathways."
+    ],
+    "faqs": [
+      {
+        "q": "HHW for food?",
+        "a": "No."
+      }
+    ],
+    "source_url": "https://www.fremont.gov/government/departments/environmental-services/environmental-services-faqs",
+    "source_name": "City of Fremont \u2014 Environmental Services FAQs",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "plastic-bags",
+    "state": "CA",
+    "city_slug": "fremont",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Retail bag take-back / trash",
+    "common_disposal_fee": "Not recycling \u2014 store take-back / trash",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "Plastic bags are not accepted in curbside recycling. Use store take-back or trash.",
+    "steps": [
+      "Keep bags out of recycling.",
+      "Use grocery take-back.",
+      "Otherwise trash."
+    ],
+    "faqs": [
+      {
+        "q": "Bulky for bags?",
+        "a": "No."
+      }
+    ],
+    "source_url": "https://www.fremont.gov/government/departments/environmental-services/environmental-services-faqs",
+    "source_name": "City of Fremont \u2014 Environmental Services FAQs",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "construction-debris",
+    "state": "CA",
+    "city_slug": "fremont",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Private C&D hauler / Fremont transfer station",
+    "common_disposal_fee": "NOT Republic bulky \u2014 private C&D hauler / transfer",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "Construction debris is not Fremont Republic bulky material. Hire a private C&D hauler or use transfer station. Route paint/chemicals to Boyce Rd HHW separately.",
+    "steps": [
+      "Do not treat remodel debris as Republic bulky.",
+      "Hire private C&D or use transfer station.",
+      "Route paint to Boyce Rd HHW."
+    ],
+    "faqs": [
+      {
+        "q": "HHW for C&D?",
+        "a": "No \u2014 separate paint/chemicals."
+      }
+    ],
+    "source_url": "https://www.fremont.gov/government/departments/environmental-services/environmental-services-faqs",
+    "source_name": "City of Fremont \u2014 Environmental Services FAQs",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "box-spring",
+    "state": "CA",
+    "city_slug": "fremont",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Fremont / Republic bulky pickup",
+    "common_disposal_fee": "2 free bulky/yr Republic 510-657-3500 \u2014 max 6\u00d76\u00d76 ft",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Fremont, box spring follows the same verified program pathway as mattress. Fremont mattresses use Republic bulky pickup \u2014 2 free per year \u2014 call 510-657-3500. Maximum item size 6\u00d76\u00d76 feet. Tires are NOT bulky.",
+    "steps": [
+      "Call Republic 510-657-3500 to schedule bulky.",
+      "2 free bulky pickups per year.",
+      "Maximum 6\u00d76\u00d76 feet per item."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as mattress?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Fremont \u2014 Environmental Services FAQs (audited)."
+      }
+    ],
+    "source_url": "https://www.fremont.gov/government/departments/environmental-services/environmental-services-faqs",
+    "source_name": "City of Fremont \u2014 Environmental Services FAQs",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "sofa",
+    "state": "CA",
+    "city_slug": "fremont",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Fremont / Republic bulky pickup",
+    "common_disposal_fee": "2 free bulky/yr Republic 510-657-3500 \u2014 max 6\u00d76\u00d76 ft",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Fremont, sofa follows the same verified program pathway as mattress. Fremont mattresses use Republic bulky pickup \u2014 2 free per year \u2014 call 510-657-3500. Maximum item size 6\u00d76\u00d76 feet. Tires are NOT bulky.",
+    "steps": [
+      "Call Republic 510-657-3500 to schedule bulky.",
+      "2 free bulky pickups per year.",
+      "Maximum 6\u00d76\u00d76 feet per item."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as mattress?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Fremont \u2014 Environmental Services FAQs (audited)."
+      }
+    ],
+    "source_url": "https://www.fremont.gov/government/departments/environmental-services/environmental-services-faqs",
+    "source_name": "City of Fremont \u2014 Environmental Services FAQs",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "recliner",
+    "state": "CA",
+    "city_slug": "fremont",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Fremont / Republic bulky pickup",
+    "common_disposal_fee": "2 free bulky/yr Republic 510-657-3500 \u2014 max 6\u00d76\u00d76 ft",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Fremont, recliner follows the same verified program pathway as mattress. Fremont mattresses use Republic bulky pickup \u2014 2 free per year \u2014 call 510-657-3500. Maximum item size 6\u00d76\u00d76 feet. Tires are NOT bulky.",
+    "steps": [
+      "Call Republic 510-657-3500 to schedule bulky.",
+      "2 free bulky pickups per year.",
+      "Maximum 6\u00d76\u00d76 feet per item."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as mattress?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Fremont \u2014 Environmental Services FAQs (audited)."
+      }
+    ],
+    "source_url": "https://www.fremont.gov/government/departments/environmental-services/environmental-services-faqs",
+    "source_name": "City of Fremont \u2014 Environmental Services FAQs",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "carpet",
+    "state": "CA",
+    "city_slug": "fremont",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Fremont / Republic bulky pickup",
+    "common_disposal_fee": "2 free bulky/yr Republic 510-657-3500 \u2014 max 6\u00d76\u00d76 ft",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Fremont, carpet follows the same verified program pathway as mattress. Fremont mattresses use Republic bulky pickup \u2014 2 free per year \u2014 call 510-657-3500. Maximum item size 6\u00d76\u00d76 feet. Tires are NOT bulky.",
+    "steps": [
+      "Call Republic 510-657-3500 to schedule bulky.",
+      "2 free bulky pickups per year.",
+      "Maximum 6\u00d76\u00d76 feet per item."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as mattress?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Fremont \u2014 Environmental Services FAQs (audited)."
+      }
+    ],
+    "source_url": "https://www.fremont.gov/government/departments/environmental-services/environmental-services-faqs",
+    "source_name": "City of Fremont \u2014 Environmental Services FAQs",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "exercise-equipment",
+    "state": "CA",
+    "city_slug": "fremont",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Fremont / Republic bulky pickup",
+    "common_disposal_fee": "2 free bulky/yr Republic 510-657-3500 \u2014 max 6\u00d76\u00d76 ft",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Fremont, exercise equipment follows the same verified program pathway as mattress. Fremont mattresses use Republic bulky pickup \u2014 2 free per year \u2014 call 510-657-3500. Maximum item size 6\u00d76\u00d76 feet. Tires are NOT bulky.",
+    "steps": [
+      "Call Republic 510-657-3500 to schedule bulky.",
+      "2 free bulky pickups per year.",
+      "Maximum 6\u00d76\u00d76 feet per item."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as mattress?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Fremont \u2014 Environmental Services FAQs (audited)."
+      }
+    ],
+    "source_url": "https://www.fremont.gov/government/departments/environmental-services/environmental-services-faqs",
+    "source_name": "City of Fremont \u2014 Environmental Services FAQs",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "dining-table",
+    "state": "CA",
+    "city_slug": "fremont",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Fremont / Republic bulky pickup",
+    "common_disposal_fee": "2 free bulky/yr Republic 510-657-3500 \u2014 max 6\u00d76\u00d76 ft",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Fremont, dining table follows the same verified program pathway as mattress. Fremont mattresses use Republic bulky pickup \u2014 2 free per year \u2014 call 510-657-3500. Maximum item size 6\u00d76\u00d76 feet. Tires are NOT bulky.",
+    "steps": [
+      "Call Republic 510-657-3500 to schedule bulky.",
+      "2 free bulky pickups per year.",
+      "Maximum 6\u00d76\u00d76 feet per item."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as mattress?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Fremont \u2014 Environmental Services FAQs (audited)."
+      }
+    ],
+    "source_url": "https://www.fremont.gov/government/departments/environmental-services/environmental-services-faqs",
+    "source_name": "City of Fremont \u2014 Environmental Services FAQs",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "desk",
+    "state": "CA",
+    "city_slug": "fremont",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Fremont / Republic bulky pickup",
+    "common_disposal_fee": "2 free bulky/yr Republic 510-657-3500 \u2014 max 6\u00d76\u00d76 ft",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Fremont, desk follows the same verified program pathway as mattress. Fremont mattresses use Republic bulky pickup \u2014 2 free per year \u2014 call 510-657-3500. Maximum item size 6\u00d76\u00d76 feet. Tires are NOT bulky.",
+    "steps": [
+      "Call Republic 510-657-3500 to schedule bulky.",
+      "2 free bulky pickups per year.",
+      "Maximum 6\u00d76\u00d76 feet per item."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as mattress?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Fremont \u2014 Environmental Services FAQs (audited)."
+      }
+    ],
+    "source_url": "https://www.fremont.gov/government/departments/environmental-services/environmental-services-faqs",
+    "source_name": "City of Fremont \u2014 Environmental Services FAQs",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "bookshelf",
+    "state": "CA",
+    "city_slug": "fremont",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Fremont / Republic bulky pickup",
+    "common_disposal_fee": "2 free bulky/yr Republic 510-657-3500 \u2014 max 6\u00d76\u00d76 ft",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Fremont, bookshelf follows the same verified program pathway as mattress. Fremont mattresses use Republic bulky pickup \u2014 2 free per year \u2014 call 510-657-3500. Maximum item size 6\u00d76\u00d76 feet. Tires are NOT bulky.",
+    "steps": [
+      "Call Republic 510-657-3500 to schedule bulky.",
+      "2 free bulky pickups per year.",
+      "Maximum 6\u00d76\u00d76 feet per item."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as mattress?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Fremont \u2014 Environmental Services FAQs (audited)."
+      }
+    ],
+    "source_url": "https://www.fremont.gov/government/departments/environmental-services/environmental-services-faqs",
+    "source_name": "City of Fremont \u2014 Environmental Services FAQs",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "hot-tub",
+    "state": "CA",
+    "city_slug": "fremont",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Fremont / Republic bulky pickup",
+    "common_disposal_fee": "2 free bulky/yr Republic 510-657-3500 \u2014 max 6\u00d76\u00d76 ft",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Fremont, hot tub follows the same verified program pathway as mattress. Fremont mattresses use Republic bulky pickup \u2014 2 free per year \u2014 call 510-657-3500. Maximum item size 6\u00d76\u00d76 feet. Tires are NOT bulky.",
+    "steps": [
+      "Call Republic 510-657-3500 to schedule bulky.",
+      "2 free bulky pickups per year.",
+      "Maximum 6\u00d76\u00d76 feet per item."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as mattress?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Fremont \u2014 Environmental Services FAQs (audited)."
+      }
+    ],
+    "source_url": "https://www.fremont.gov/government/departments/environmental-services/environmental-services-faqs",
+    "source_name": "City of Fremont \u2014 Environmental Services FAQs",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "piano",
+    "state": "CA",
+    "city_slug": "fremont",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Fremont / Republic bulky pickup",
+    "common_disposal_fee": "2 free bulky/yr Republic 510-657-3500 \u2014 max 6\u00d76\u00d76 ft",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Fremont, piano follows the same verified program pathway as mattress. Fremont mattresses use Republic bulky pickup \u2014 2 free per year \u2014 call 510-657-3500. Maximum item size 6\u00d76\u00d76 feet. Tires are NOT bulky.",
+    "steps": [
+      "Call Republic 510-657-3500 to schedule bulky.",
+      "2 free bulky pickups per year.",
+      "Maximum 6\u00d76\u00d76 feet per item."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as mattress?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Fremont \u2014 Environmental Services FAQs (audited)."
+      }
+    ],
+    "source_url": "https://www.fremont.gov/government/departments/environmental-services/environmental-services-faqs",
+    "source_name": "City of Fremont \u2014 Environmental Services FAQs",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "freezer",
+    "state": "CA",
+    "city_slug": "fremont",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Fremont / Republic bulky / Alameda County HHW \u2014 41149 Boyce Rd",
+    "common_disposal_fee": "Free bulky OR self-haul $12+$37 Freon at 41149 Boyce Rd",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "High",
+    "answer": "In Fremont, freezer follows the same verified program pathway as refrigerator. Fremont Freon refrigerators may go on free Republic bulky (within 2/year allotment) OR self-haul to Alameda County facility \u2014 41149 Boyce Rd \u2014 $12 gate + $37 Freon fee. Remove doors. Never vent refrigerant yourself.",
+    "steps": [
+      "Schedule Republic bulky \u2014 510-657-3500.",
+      "Or haul to 41149 Boyce Rd \u2014 $12 + $37 Freon.",
+      "Remove doors; never vent Freon yourself."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as refrigerator?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Fremont \u2014 Electronic & Hazardous Waste (audited)."
+      }
+    ],
+    "source_url": "https://www.fremont.gov/government/departments/environmental-services/recycling-compost-garbage/electronic-hazardous-waste",
+    "source_name": "City of Fremont \u2014 Electronic & Hazardous Waste",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "laptop",
+    "state": "CA",
+    "city_slug": "fremont",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Fremont / Republic bulky / transfer station",
+    "common_disposal_fee": "Free bulky (2/yr) OR transfer station",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "Medium",
+    "answer": "In Fremont, laptop follows the same verified program pathway as television. Fremont TVs may go on free Republic bulky pickup (within 2/year) OR self-haul to transfer station. Wipe data before set-out or drop-off.",
+    "steps": [
+      "Schedule Republic bulky \u2014 510-657-3500.",
+      "Or haul to transfer station.",
+      "Wipe personal data."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as television?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Fremont \u2014 Electronic & Hazardous Waste (audited)."
+      }
+    ],
+    "source_url": "https://www.fremont.gov/government/departments/environmental-services/recycling-compost-garbage/electronic-hazardous-waste",
+    "source_name": "City of Fremont \u2014 Electronic & Hazardous Waste",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "desktop-computer",
+    "state": "CA",
+    "city_slug": "fremont",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Fremont / Republic bulky / transfer station",
+    "common_disposal_fee": "Free bulky (2/yr) OR transfer station",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "Medium",
+    "answer": "In Fremont, desktop computer follows the same verified program pathway as television. Fremont TVs may go on free Republic bulky pickup (within 2/year) OR self-haul to transfer station. Wipe data before set-out or drop-off.",
+    "steps": [
+      "Schedule Republic bulky \u2014 510-657-3500.",
+      "Or haul to transfer station.",
+      "Wipe personal data."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as television?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Fremont \u2014 Electronic & Hazardous Waste (audited)."
+      }
+    ],
+    "source_url": "https://www.fremont.gov/government/departments/environmental-services/recycling-compost-garbage/electronic-hazardous-waste",
+    "source_name": "City of Fremont \u2014 Electronic & Hazardous Waste",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "printer",
+    "state": "CA",
+    "city_slug": "fremont",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Fremont / Republic bulky / transfer station",
+    "common_disposal_fee": "Free bulky (2/yr) OR transfer station",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "Medium",
+    "answer": "In Fremont, printer follows the same verified program pathway as television. Fremont TVs may go on free Republic bulky pickup (within 2/year) OR self-haul to transfer station. Wipe data before set-out or drop-off.",
+    "steps": [
+      "Schedule Republic bulky \u2014 510-657-3500.",
+      "Or haul to transfer station.",
+      "Wipe personal data."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as television?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Fremont \u2014 Electronic & Hazardous Waste (audited)."
+      }
+    ],
+    "source_url": "https://www.fremont.gov/government/departments/environmental-services/recycling-compost-garbage/electronic-hazardous-waste",
+    "source_name": "City of Fremont \u2014 Electronic & Hazardous Waste",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "tablet",
+    "state": "CA",
+    "city_slug": "fremont",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Fremont / Republic bulky / transfer station",
+    "common_disposal_fee": "Free bulky (2/yr) OR transfer station",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "Medium",
+    "answer": "In Fremont, tablet follows the same verified program pathway as television. Fremont TVs may go on free Republic bulky pickup (within 2/year) OR self-haul to transfer station. Wipe data before set-out or drop-off.",
+    "steps": [
+      "Schedule Republic bulky \u2014 510-657-3500.",
+      "Or haul to transfer station.",
+      "Wipe personal data."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as television?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Fremont \u2014 Electronic & Hazardous Waste (audited)."
+      }
+    ],
+    "source_url": "https://www.fremont.gov/government/departments/environmental-services/recycling-compost-garbage/electronic-hazardous-waste",
+    "source_name": "City of Fremont \u2014 Electronic & Hazardous Waste",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "microwave",
+    "state": "CA",
+    "city_slug": "fremont",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Fremont / Republic bulky / transfer station",
+    "common_disposal_fee": "Free bulky (2/yr) OR transfer station",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "Medium",
+    "answer": "In Fremont, microwave follows the same verified program pathway as television. Fremont TVs may go on free Republic bulky pickup (within 2/year) OR self-haul to transfer station. Wipe data before set-out or drop-off.",
+    "steps": [
+      "Schedule Republic bulky \u2014 510-657-3500.",
+      "Or haul to transfer station.",
+      "Wipe personal data."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as television?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Fremont \u2014 Electronic & Hazardous Waste (audited)."
+      }
+    ],
+    "source_url": "https://www.fremont.gov/government/departments/environmental-services/recycling-compost-garbage/electronic-hazardous-waste",
+    "source_name": "City of Fremont \u2014 Electronic & Hazardous Waste",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "hard-drive",
+    "state": "CA",
+    "city_slug": "fremont",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Fremont / Republic bulky / transfer station",
+    "common_disposal_fee": "Free bulky (2/yr) OR transfer station",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "Medium",
+    "answer": "In Fremont, hard drive follows the same verified program pathway as television. Fremont TVs may go on free Republic bulky pickup (within 2/year) OR self-haul to transfer station. Wipe data before set-out or drop-off.",
+    "steps": [
+      "Schedule Republic bulky \u2014 510-657-3500.",
+      "Or haul to transfer station.",
+      "Wipe personal data."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as television?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Fremont \u2014 Electronic & Hazardous Waste (audited)."
+      }
+    ],
+    "source_url": "https://www.fremont.gov/government/departments/environmental-services/recycling-compost-garbage/electronic-hazardous-waste",
+    "source_name": "City of Fremont \u2014 Electronic & Hazardous Waste",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "ink-toner",
+    "state": "CA",
+    "city_slug": "fremont",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Fremont / Republic bulky / Alameda County HHW \u2014 41149 Boyce Rd",
+    "common_disposal_fee": "Free bulky (2/yr) OR Alameda County HHW at Boyce Rd",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "Medium",
+    "answer": "In Fremont, ink toner follows the same verified program pathway as e waste mixed. Fremont electronics including mixed e-waste may go on Republic bulky (2/year) OR free Alameda County HHW at 41149 Boyce Rd \u2014 800-606-6606. Wipe data before drop-off.",
+    "steps": [
+      "Schedule Republic bulky \u2014 510-657-3500.",
+      "Or haul to 41149 Boyce Rd HHW.",
+      "Wipe personal data."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as e waste mixed?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Fremont \u2014 Electronic & Hazardous Waste (audited)."
+      }
+    ],
+    "source_url": "https://www.fremont.gov/government/departments/environmental-services/recycling-compost-garbage/electronic-hazardous-waste",
+    "source_name": "City of Fremont \u2014 Electronic & Hazardous Waste",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "solar-panel",
+    "state": "CA",
+    "city_slug": "fremont",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Fremont / Republic bulky / Alameda County HHW \u2014 41149 Boyce Rd",
+    "common_disposal_fee": "Free bulky (2/yr) OR Alameda County HHW at Boyce Rd",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "Medium",
+    "answer": "In Fremont, solar panel follows the same verified program pathway as e waste mixed. Fremont electronics including mixed e-waste may go on Republic bulky (2/year) OR free Alameda County HHW at 41149 Boyce Rd \u2014 800-606-6606. Wipe data before drop-off.",
+    "steps": [
+      "Schedule Republic bulky \u2014 510-657-3500.",
+      "Or haul to 41149 Boyce Rd HHW.",
+      "Wipe personal data."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as e waste mixed?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Fremont \u2014 Electronic & Hazardous Waste (audited)."
+      }
+    ],
+    "source_url": "https://www.fremont.gov/government/departments/environmental-services/recycling-compost-garbage/electronic-hazardous-waste",
+    "source_name": "City of Fremont \u2014 Electronic & Hazardous Waste",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "household-batteries",
+    "state": "CA",
+    "city_slug": "fremont",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Alameda County HHW \u2014 41149 Boyce Rd, Fremont",
+    "common_disposal_fee": "Free Alameda County HHW at Boyce Rd \u2014 800-606-6606",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "In Fremont, household batteries follows the same verified program pathway as car battery. Alameda County HHW at 41149 Boyce Rd accepts household hazardous materials free. Lead-acid batteries at Boyce Rd HHW.",
+    "steps": [
+      "Haul to 41149 Boyce Rd.",
+      "Call 800-606-6606.",
+      "Tires use transfer station path."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as car battery?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on Alameda County / StopWaste \u2014 Household Hazardous Waste (audited)."
+      }
+    ],
+    "source_url": "https://www.stopwaste.org/recycling-disposal/hazardous-waste/household-hazardous-waste",
+    "source_name": "Alameda County / StopWaste \u2014 Household Hazardous Waste",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "antifreeze",
+    "state": "CA",
+    "city_slug": "fremont",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Alameda County HHW \u2014 41149 Boyce Rd, Fremont",
+    "common_disposal_fee": "Free Alameda County HHW at Boyce Rd \u2014 800-606-6606",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "In Fremont, antifreeze follows the same verified program pathway as car battery. Alameda County HHW at 41149 Boyce Rd accepts household hazardous materials free. Lead-acid batteries at Boyce Rd HHW.",
+    "steps": [
+      "Haul to 41149 Boyce Rd.",
+      "Call 800-606-6606.",
+      "Tires use transfer station path."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as car battery?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on Alameda County / StopWaste \u2014 Household Hazardous Waste (audited)."
+      }
+    ],
+    "source_url": "https://www.stopwaste.org/recycling-disposal/hazardous-waste/household-hazardous-waste",
+    "source_name": "Alameda County / StopWaste \u2014 Household Hazardous Waste",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "helium-tank",
+    "state": "CA",
+    "city_slug": "fremont",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Alameda County HHW \u2014 41149 Boyce Rd, Fremont",
+    "common_disposal_fee": "Free Alameda County HHW at Boyce Rd \u2014 800-606-6606",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "In Fremont, helium tank follows the same verified program pathway as propane tank. Alameda County HHW at 41149 Boyce Rd accepts household hazardous materials free. Propane tanks at Boyce Rd HHW \u2014 confirm size limits.",
+    "steps": [
+      "Haul to 41149 Boyce Rd.",
+      "Call 800-606-6606.",
+      "Tires use transfer station path."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as propane tank?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on Alameda County / StopWaste \u2014 Household Hazardous Waste (audited)."
+      }
+    ],
+    "source_url": "https://www.stopwaste.org/recycling-disposal/hazardous-waste/household-hazardous-waste",
+    "source_name": "Alameda County / StopWaste \u2014 Household Hazardous Waste",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "fire-extinguisher",
+    "state": "CA",
+    "city_slug": "fremont",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Alameda County HHW \u2014 41149 Boyce Rd, Fremont",
+    "common_disposal_fee": "Free Alameda County HHW at Boyce Rd \u2014 800-606-6606",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "In Fremont, fire extinguisher follows the same verified program pathway as propane tank. Alameda County HHW at 41149 Boyce Rd accepts household hazardous materials free. Propane tanks at Boyce Rd HHW \u2014 confirm size limits.",
+    "steps": [
+      "Haul to 41149 Boyce Rd.",
+      "Call 800-606-6606.",
+      "Tires use transfer station path."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as propane tank?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on Alameda County / StopWaste \u2014 Household Hazardous Waste (audited)."
+      }
+    ],
+    "source_url": "https://www.stopwaste.org/recycling-disposal/hazardous-waste/household-hazardous-waste",
+    "source_name": "Alameda County / StopWaste \u2014 Household Hazardous Waste",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "smoke-detector",
+    "state": "CA",
+    "city_slug": "fremont",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Alameda County HHW \u2014 41149 Boyce Rd, Fremont",
+    "common_disposal_fee": "Free Alameda County HHW at Boyce Rd \u2014 800-606-6606",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "In Fremont, smoke detector follows the same verified program pathway as fluorescent bulbs. Alameda County HHW at 41149 Boyce Rd accepts household hazardous materials free. Fluorescent bulbs at Boyce Rd HHW.",
+    "steps": [
+      "Haul to 41149 Boyce Rd.",
+      "Call 800-606-6606.",
+      "Tires use transfer station path."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as fluorescent bulbs?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on Alameda County / StopWaste \u2014 Household Hazardous Waste (audited)."
+      }
+    ],
+    "source_url": "https://www.stopwaste.org/recycling-disposal/hazardous-waste/household-hazardous-waste",
+    "source_name": "Alameda County / StopWaste \u2014 Household Hazardous Waste",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "thermometer-mercury",
+    "state": "CA",
+    "city_slug": "fremont",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Alameda County HHW \u2014 41149 Boyce Rd, Fremont",
+    "common_disposal_fee": "Free Alameda County HHW at Boyce Rd \u2014 800-606-6606",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "In Fremont, thermometer mercury follows the same verified program pathway as fluorescent bulbs. Alameda County HHW at 41149 Boyce Rd accepts household hazardous materials free. Fluorescent bulbs at Boyce Rd HHW.",
+    "steps": [
+      "Haul to 41149 Boyce Rd.",
+      "Call 800-606-6606.",
+      "Tires use transfer station path."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as fluorescent bulbs?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on Alameda County / StopWaste \u2014 Household Hazardous Waste (audited)."
+      }
+    ],
+    "source_url": "https://www.stopwaste.org/recycling-disposal/hazardous-waste/household-hazardous-waste",
+    "source_name": "Alameda County / StopWaste \u2014 Household Hazardous Waste",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "led-bulbs",
+    "state": "CA",
+    "city_slug": "fremont",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Alameda County HHW \u2014 41149 Boyce Rd, Fremont",
+    "common_disposal_fee": "Free Alameda County HHW at Boyce Rd \u2014 800-606-6606",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "In Fremont, led bulbs follows the same verified program pathway as fluorescent bulbs. Alameda County HHW at 41149 Boyce Rd accepts household hazardous materials free. Fluorescent bulbs at Boyce Rd HHW.",
+    "steps": [
+      "Haul to 41149 Boyce Rd.",
+      "Call 800-606-6606.",
+      "Tires use transfer station path."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as fluorescent bulbs?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on Alameda County / StopWaste \u2014 Household Hazardous Waste (audited)."
+      }
+    ],
+    "source_url": "https://www.stopwaste.org/recycling-disposal/hazardous-waste/household-hazardous-waste",
+    "source_name": "Alameda County / StopWaste \u2014 Household Hazardous Waste",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "incandescent-bulbs",
+    "state": "CA",
+    "city_slug": "fremont",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Alameda County HHW \u2014 41149 Boyce Rd, Fremont",
+    "common_disposal_fee": "Free Alameda County HHW at Boyce Rd \u2014 800-606-6606",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "In Fremont, incandescent bulbs follows the same verified program pathway as fluorescent bulbs. Alameda County HHW at 41149 Boyce Rd accepts household hazardous materials free. Fluorescent bulbs at Boyce Rd HHW.",
+    "steps": [
+      "Haul to 41149 Boyce Rd.",
+      "Call 800-606-6606.",
+      "Tires use transfer station path."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as fluorescent bulbs?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on Alameda County / StopWaste \u2014 Household Hazardous Waste (audited)."
+      }
+    ],
+    "source_url": "https://www.stopwaste.org/recycling-disposal/hazardous-waste/household-hazardous-waste",
+    "source_name": "Alameda County / StopWaste \u2014 Household Hazardous Waste",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "needles",
+    "state": "CA",
+    "city_slug": "fremont",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Alameda County HHW \u2014 41149 Boyce Rd, Fremont",
+    "common_disposal_fee": "Rigid sealed container \u2014 confirm Boyce Rd HHW sharps acceptance",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "In Fremont, needles follows the same verified program pathway as medical sharps. Place sharps in a rigid sealed container. Confirm acceptance at Alameda County HHW \u2014 41149 Boyce Rd. Do not loose-bag needles.",
+    "steps": [
+      "Use rigid sealed container.",
+      "Confirm sharps at Boyce Rd HHW.",
+      "Never recycle loose needles."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as medical sharps?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on Alameda County / StopWaste \u2014 Household Hazardous Waste (audited)."
+      }
+    ],
+    "source_url": "https://www.stopwaste.org/recycling-disposal/hazardous-waste/household-hazardous-waste",
+    "source_name": "Alameda County / StopWaste \u2014 Household Hazardous Waste",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "prescription-drugs",
+    "state": "CA",
+    "city_slug": "fremont",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Alameda County HHW \u2014 41149 Boyce Rd, Fremont",
+    "common_disposal_fee": "Rigid sealed container \u2014 confirm Boyce Rd HHW sharps acceptance",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "In Fremont, prescription drugs follows the same verified program pathway as medical sharps. Place sharps in a rigid sealed container. Confirm acceptance at Alameda County HHW \u2014 41149 Boyce Rd. Do not loose-bag needles.",
+    "steps": [
+      "Use rigid sealed container.",
+      "Confirm sharps at Boyce Rd HHW.",
+      "Never recycle loose needles."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as medical sharps?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on Alameda County / StopWaste \u2014 Household Hazardous Waste (audited)."
+      }
+    ],
+    "source_url": "https://www.stopwaste.org/recycling-disposal/hazardous-waste/household-hazardous-waste",
+    "source_name": "Alameda County / StopWaste \u2014 Household Hazardous Waste",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "tire-rims",
+    "state": "CA",
+    "city_slug": "fremont",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Fremont transfer station",
+    "common_disposal_fee": "NOT bulky \u2014 transfer station $10\u201333; $63 minimum",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Medium",
+    "answer": "In Fremont, tire rims follows the same verified program pathway as tires. Fremont tires are NOT accepted on Republic bulky. Self-haul to transfer station \u2014 $10\u201333 per tire; $63 minimum load. Retailer take-back when replacing tires.",
+    "steps": [
+      "Do not set tires out for Republic bulky.",
+      "Haul to transfer station.",
+      "Fee: $10\u201333/tire; $63 minimum load."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as tires?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Fremont \u2014 Electronic & Hazardous Waste (audited)."
+      }
+    ],
+    "source_url": "https://www.fremont.gov/government/departments/environmental-services/recycling-compost-garbage/electronic-hazardous-waste",
+    "source_name": "City of Fremont \u2014 Electronic & Hazardous Waste",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "dehumidifier",
+    "state": "CA",
+    "city_slug": "fremont",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Fremont / Republic bulky / Alameda County HHW \u2014 41149 Boyce Rd",
+    "common_disposal_fee": "Free bulky OR self-haul $12+$37 Freon at 41149 Boyce Rd",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "High",
+    "answer": "In Fremont, dehumidifier follows the same verified program pathway as air conditioner. Fremont Freon window AC units may go on Republic bulky OR self-haul to 41149 Boyce Rd \u2014 $12 gate + $37 Freon fee. Never vent refrigerant yourself.",
+    "steps": [
+      "Schedule Republic bulky \u2014 510-657-3500.",
+      "Or haul to 41149 Boyce Rd \u2014 $12 + $37 Freon.",
+      "Keep sealed until proper Freon handling."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as air conditioner?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Fremont \u2014 Electronic & Hazardous Waste (audited)."
+      }
+    ],
+    "source_url": "https://www.fremont.gov/government/departments/environmental-services/recycling-compost-garbage/electronic-hazardous-waste",
+    "source_name": "City of Fremont \u2014 Electronic & Hazardous Waste",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "christmas-tree",
+    "state": "CA",
+    "city_slug": "fremont",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Fremont organics collection",
+    "common_disposal_fee": "Fremont yard waste / organics collection",
+    "badge": "ACCEPTED_IN_BLUE_BIN",
+    "hazard_rating": "Low",
+    "answer": "In Fremont, christmas tree follows the same verified program pathway as yard waste. Fremont handles yard waste through organics collection. Follow set-out rules on fremont.gov.",
+    "steps": [
+      "Use organics/yard waste set-out rules.",
+      "Keep yard waste out of HHW and e-waste.",
+      "Check fremont.gov for seasonal guidance."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as yard waste?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Fremont \u2014 Environmental Services FAQs (audited)."
+      }
+    ],
+    "source_url": "https://www.fremont.gov/government/departments/environmental-services/environmental-services-faqs",
+    "source_name": "City of Fremont \u2014 Environmental Services FAQs",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "styrofoam",
+    "state": "CA",
+    "city_slug": "fremont",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Retail bag take-back / trash",
+    "common_disposal_fee": "Not recycling \u2014 store take-back / trash",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Fremont, styrofoam follows the same verified program pathway as plastic bags. Plastic bags are not accepted in curbside recycling. Use store take-back or trash.",
+    "steps": [
+      "Keep bags out of recycling.",
+      "Use grocery take-back.",
+      "Otherwise trash."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as plastic bags?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Fremont \u2014 Environmental Services FAQs (audited)."
+      }
+    ],
+    "source_url": "https://www.fremont.gov/government/departments/environmental-services/environmental-services-faqs",
+    "source_name": "City of Fremont \u2014 Environmental Services FAQs",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "cardboard",
+    "state": "CA",
+    "city_slug": "fremont",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Retail bag take-back / trash",
+    "common_disposal_fee": "Not recycling \u2014 store take-back / trash",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Fremont, cardboard follows the same verified program pathway as plastic bags. Plastic bags are not accepted in curbside recycling. Use store take-back or trash.",
+    "steps": [
+      "Keep bags out of recycling.",
+      "Use grocery take-back.",
+      "Otherwise trash."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as plastic bags?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Fremont \u2014 Environmental Services FAQs (audited)."
+      }
+    ],
+    "source_url": "https://www.fremont.gov/government/departments/environmental-services/environmental-services-faqs",
+    "source_name": "City of Fremont \u2014 Environmental Services FAQs",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "glass-bottles",
+    "state": "CA",
+    "city_slug": "fremont",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Retail bag take-back / trash",
+    "common_disposal_fee": "Not recycling \u2014 store take-back / trash",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Fremont, glass bottles follows the same verified program pathway as plastic bags. Plastic bags are not accepted in curbside recycling. Use store take-back or trash.",
+    "steps": [
+      "Keep bags out of recycling.",
+      "Use grocery take-back.",
+      "Otherwise trash."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as plastic bags?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Fremont \u2014 Environmental Services FAQs (audited)."
+      }
+    ],
+    "source_url": "https://www.fremont.gov/government/departments/environmental-services/environmental-services-faqs",
+    "source_name": "City of Fremont \u2014 Environmental Services FAQs",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "concrete",
+    "state": "CA",
+    "city_slug": "fremont",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Private C&D hauler / Fremont transfer station",
+    "common_disposal_fee": "NOT Republic bulky \u2014 private C&D hauler / transfer",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Fremont, concrete follows the same verified program pathway as construction debris. Construction debris is not Fremont Republic bulky material. Hire a private C&D hauler or use transfer station. Route paint/chemicals to Boyce Rd HHW separately.",
+    "steps": [
+      "Do not treat remodel debris as Republic bulky.",
+      "Hire private C&D or use transfer station.",
+      "Route paint to Boyce Rd HHW."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as construction debris?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Fremont \u2014 Environmental Services FAQs (audited)."
+      }
+    ],
+    "source_url": "https://www.fremont.gov/government/departments/environmental-services/environmental-services-faqs",
+    "source_name": "City of Fremont \u2014 Environmental Services FAQs",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "drywall",
+    "state": "CA",
+    "city_slug": "fremont",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Private C&D hauler / Fremont transfer station",
+    "common_disposal_fee": "NOT Republic bulky \u2014 private C&D hauler / transfer",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Fremont, drywall follows the same verified program pathway as construction debris. Construction debris is not Fremont Republic bulky material. Hire a private C&D hauler or use transfer station. Route paint/chemicals to Boyce Rd HHW separately.",
+    "steps": [
+      "Do not treat remodel debris as Republic bulky.",
+      "Hire private C&D or use transfer station.",
+      "Route paint to Boyce Rd HHW."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as construction debris?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Fremont \u2014 Environmental Services FAQs (audited)."
+      }
+    ],
+    "source_url": "https://www.fremont.gov/government/departments/environmental-services/environmental-services-faqs",
+    "source_name": "City of Fremont \u2014 Environmental Services FAQs",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "lumber",
+    "state": "CA",
+    "city_slug": "fremont",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Private C&D hauler / Fremont transfer station",
+    "common_disposal_fee": "NOT Republic bulky \u2014 private C&D hauler / transfer",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Fremont, lumber follows the same verified program pathway as construction debris. Construction debris is not Fremont Republic bulky material. Hire a private C&D hauler or use transfer station. Route paint/chemicals to Boyce Rd HHW separately.",
+    "steps": [
+      "Do not treat remodel debris as Republic bulky.",
+      "Hire private C&D or use transfer station.",
+      "Route paint to Boyce Rd HHW."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as construction debris?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Fremont \u2014 Environmental Services FAQs (audited)."
+      }
+    ],
+    "source_url": "https://www.fremont.gov/government/departments/environmental-services/environmental-services-faqs",
+    "source_name": "City of Fremont \u2014 Environmental Services FAQs",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "asphalt-shingles",
+    "state": "CA",
+    "city_slug": "fremont",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Private C&D hauler / Fremont transfer station",
+    "common_disposal_fee": "NOT Republic bulky \u2014 private C&D hauler / transfer",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Fremont, asphalt shingles follows the same verified program pathway as construction debris. Construction debris is not Fremont Republic bulky material. Hire a private C&D hauler or use transfer station. Route paint/chemicals to Boyce Rd HHW separately.",
+    "steps": [
+      "Do not treat remodel debris as Republic bulky.",
+      "Hire private C&D or use transfer station.",
+      "Route paint to Boyce Rd HHW."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as construction debris?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Fremont \u2014 Environmental Services FAQs (audited)."
+      }
+    ],
+    "source_url": "https://www.fremont.gov/government/departments/environmental-services/environmental-services-faqs",
+    "source_name": "City of Fremont \u2014 Environmental Services FAQs",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "car-parts",
+    "state": "CA",
+    "city_slug": "fremont",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Private C&D hauler / Fremont transfer station",
+    "common_disposal_fee": "NOT Republic bulky \u2014 private C&D hauler / transfer",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Fremont, car parts follows the same verified program pathway as construction debris. Construction debris is not Fremont Republic bulky material. Hire a private C&D hauler or use transfer station. Route paint/chemicals to Boyce Rd HHW separately.",
+    "steps": [
+      "Do not treat remodel debris as Republic bulky.",
+      "Hire private C&D or use transfer station.",
+      "Route paint to Boyce Rd HHW."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as construction debris?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Fremont \u2014 Environmental Services FAQs (audited)."
+      }
+    ],
+    "source_url": "https://www.fremont.gov/government/departments/environmental-services/environmental-services-faqs",
+    "source_name": "City of Fremont \u2014 Environmental Services FAQs",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "mattress",
+    "state": "CA",
+    "city_slug": "fontana",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Fontana / Burrtec bulky pickup",
+    "common_disposal_fee": "Burrtec bulky 909-822-9739 \u2014 2 collections/yr, 5 items each",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "Fontana mattresses use Burrtec bulky pickup \u2014 call 909-822-9739. 2 collections per year, 5 items each. Tires have separate bulky rules with additional fee.",
+    "steps": [
+      "Call Burrtec 909-822-9739 to schedule bulky.",
+      "2 collections per year, 5 items each.",
+      "Set out on scheduled bulky day."
+    ],
+    "faqs": [
+      {
+        "q": "Fee?",
+        "a": "Included in Burrtec bulky allotment."
+      },
+      {
+        "q": "How many pickups?",
+        "a": "2 per year, 5 items each."
+      }
+    ],
+    "source_url": "https://www.tinytots.fontana.org/541/Trash-and-Recycling-Services",
+    "source_name": "City of Fontana \u2014 Trash and Recycling Services (Burrtec)",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "refrigerator",
+    "state": "CA",
+    "city_slug": "fontana",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Fontana / Burrtec bulky pickup",
+    "common_disposal_fee": "Burrtec bulky ONLY if Freon removed first \u2014 909-822-9739",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "High",
+    "answer": "Fontana Freon refrigerators may go on Burrtec bulky pickup ONLY if Freon is removed first \u2014 call 909-822-9739. 2 collections/year, 5 items each. Never vent refrigerant yourself.",
+    "steps": [
+      "Have Freon removed by certified technician first.",
+      "Call 909-822-9739 to schedule bulky.",
+      "2 collections/year, 5 items each."
+    ],
+    "faqs": [
+      {
+        "q": "Bulky for Freon fridge?",
+        "a": "Only if Freon removed first."
+      },
+      {
+        "q": "Washer on bulky?",
+        "a": "Yes \u2014 Burrtec bulky pickup."
+      }
+    ],
+    "source_url": "https://www.tinytots.fontana.org/541/Trash-and-Recycling-Services",
+    "source_name": "City of Fontana \u2014 Trash and Recycling Services (Burrtec)",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "air-conditioner",
+    "state": "CA",
+    "city_slug": "fontana",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Fontana / Burrtec bulky pickup",
+    "common_disposal_fee": "Burrtec bulky ONLY if Freon removed first \u2014 909-822-9739",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "High",
+    "answer": "Fontana Freon window AC units may go on Burrtec bulky ONLY if Freon is removed first \u2014 call 909-822-9739. Never vent refrigerant yourself.",
+    "steps": [
+      "Have Freon removed by certified technician first.",
+      "Call 909-822-9739 to schedule bulky.",
+      "Keep sealed until proper Freon handling."
+    ],
+    "faqs": [
+      {
+        "q": "Same as Freon fridge?",
+        "a": "Yes \u2014 bulky only if Freon removed first."
+      }
+    ],
+    "source_url": "https://www.tinytots.fontana.org/541/Trash-and-Recycling-Services",
+    "source_name": "City of Fontana \u2014 Trash and Recycling Services (Burrtec)",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "washer",
+    "state": "CA",
+    "city_slug": "fontana",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Fontana / Burrtec bulky pickup",
+    "common_disposal_fee": "Burrtec bulky 909-822-9739 \u2014 2 collections/yr, 5 items each",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Medium",
+    "answer": "Non-Freon appliances such as washers use Fontana Burrtec bulky pickup \u2014 909-822-9739. 2 collections/year, 5 items each. Freon appliances need Freon removed first.",
+    "steps": [
+      "Call 909-822-9739 to schedule bulky.",
+      "2 collections/year, 5 items each.",
+      "Freon appliances need Freon removed first."
+    ],
+    "faqs": [
+      {
+        "q": "Same as Freon fridge?",
+        "a": "No \u2014 non-Freon uses standard bulky."
+      }
+    ],
+    "source_url": "https://www.tinytots.fontana.org/541/Trash-and-Recycling-Services",
+    "source_name": "City of Fontana \u2014 Trash and Recycling Services (Burrtec)",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "dryer",
+    "state": "CA",
+    "city_slug": "fontana",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Fontana / Burrtec bulky pickup",
+    "common_disposal_fee": "Burrtec bulky 909-822-9739 \u2014 2 collections/yr, 5 items each",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Medium",
+    "answer": "Non-Freon appliances such as dryers use Fontana Burrtec bulky pickup \u2014 909-822-9739. 2 collections/year, 5 items each. Freon appliances need Freon removed first.",
+    "steps": [
+      "Call 909-822-9739 to schedule bulky.",
+      "2 collections/year, 5 items each.",
+      "Freon appliances need Freon removed first."
+    ],
+    "faqs": [
+      {
+        "q": "Same as Freon fridge?",
+        "a": "No \u2014 non-Freon uses standard bulky."
+      }
+    ],
+    "source_url": "https://www.tinytots.fontana.org/541/Trash-and-Recycling-Services",
+    "source_name": "City of Fontana \u2014 Trash and Recycling Services (Burrtec)",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "dishwasher",
+    "state": "CA",
+    "city_slug": "fontana",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Fontana / Burrtec bulky pickup",
+    "common_disposal_fee": "Burrtec bulky 909-822-9739 \u2014 2 collections/yr, 5 items each",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Medium",
+    "answer": "Non-Freon appliances such as dishwashers use Fontana Burrtec bulky pickup \u2014 909-822-9739. 2 collections/year, 5 items each. Freon appliances need Freon removed first.",
+    "steps": [
+      "Call 909-822-9739 to schedule bulky.",
+      "2 collections/year, 5 items each.",
+      "Freon appliances need Freon removed first."
+    ],
+    "faqs": [
+      {
+        "q": "Same as Freon fridge?",
+        "a": "No \u2014 non-Freon uses standard bulky."
+      }
+    ],
+    "source_url": "https://www.tinytots.fontana.org/541/Trash-and-Recycling-Services",
+    "source_name": "City of Fontana \u2014 Trash and Recycling Services (Burrtec)",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "stove",
+    "state": "CA",
+    "city_slug": "fontana",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Fontana / Burrtec bulky pickup",
+    "common_disposal_fee": "Burrtec bulky 909-822-9739 \u2014 2 collections/yr, 5 items each",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Medium",
+    "answer": "Non-Freon appliances such as stoves use Fontana Burrtec bulky pickup \u2014 909-822-9739. 2 collections/year, 5 items each. Freon appliances need Freon removed first.",
+    "steps": [
+      "Call 909-822-9739 to schedule bulky.",
+      "2 collections/year, 5 items each.",
+      "Freon appliances need Freon removed first."
+    ],
+    "faqs": [
+      {
+        "q": "Same as Freon fridge?",
+        "a": "No \u2014 non-Freon uses standard bulky."
+      }
+    ],
+    "source_url": "https://www.tinytots.fontana.org/541/Trash-and-Recycling-Services",
+    "source_name": "City of Fontana \u2014 Trash and Recycling Services (Burrtec)",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "water-heater",
+    "state": "CA",
+    "city_slug": "fontana",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Fontana / Burrtec bulky pickup",
+    "common_disposal_fee": "Burrtec bulky 909-822-9739 \u2014 2 collections/yr, 5 items each",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Medium",
+    "answer": "Non-Freon appliances such as water heaters use Fontana Burrtec bulky pickup \u2014 909-822-9739. 2 collections/year, 5 items each. Freon appliances need Freon removed first.",
+    "steps": [
+      "Call 909-822-9739 to schedule bulky.",
+      "2 collections/year, 5 items each.",
+      "Freon appliances need Freon removed first."
+    ],
+    "faqs": [
+      {
+        "q": "Same as Freon fridge?",
+        "a": "No \u2014 non-Freon uses standard bulky."
+      }
+    ],
+    "source_url": "https://www.tinytots.fontana.org/541/Trash-and-Recycling-Services",
+    "source_name": "City of Fontana \u2014 Trash and Recycling Services (Burrtec)",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "television",
+    "state": "CA",
+    "city_slug": "fontana",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Fontana / Burrtec bulky / HHW \u2014 16454 Orange Way",
+    "common_disposal_fee": "Burrtec bulky includes e-waste OR HHW 16454 Orange Way Saturdays 8-12",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "Medium",
+    "answer": "Fontana TVs may go on Burrtec bulky pickup (e-waste included) \u2014 909-822-9739 \u2014 OR HHW facility \u2014 16454 Orange Way \u2014 Saturdays 8:00\u201312:00. Wipe data before set-out or drop-off.",
+    "steps": [
+      "Schedule Burrtec bulky \u2014 909-822-9739.",
+      "Or haul to 16454 Orange Way HHW Saturdays 8\u201312.",
+      "Wipe personal data."
+    ],
+    "faqs": [
+      {
+        "q": "Bulky for TVs?",
+        "a": "Yes \u2014 bulky program includes e-waste."
+      },
+      {
+        "q": "HHW for TVs?",
+        "a": "Alternative \u2014 Saturdays 8\u201312."
+      }
+    ],
+    "source_url": "https://www.tinytots.fontana.org/541/Trash-and-Recycling-Services",
+    "source_name": "City of Fontana \u2014 Trash and Recycling Services (Burrtec)",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "computer-monitor",
+    "state": "CA",
+    "city_slug": "fontana",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Fontana / Burrtec bulky / HHW \u2014 16454 Orange Way",
+    "common_disposal_fee": "Burrtec bulky includes e-waste OR HHW 16454 Orange Way Saturdays 8-12",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "Medium",
+    "answer": "Fontana electronics including monitors may go on Burrtec bulky (e-waste included) \u2014 909-822-9739 \u2014 OR HHW \u2014 16454 Orange Way \u2014 Saturdays 8:00\u201312:00. Wipe data before drop-off.",
+    "steps": [
+      "Schedule Burrtec bulky \u2014 909-822-9739.",
+      "Or haul to 16454 Orange Way HHW.",
+      "Wipe personal data."
+    ],
+    "faqs": [
+      {
+        "q": "Bulky for e-waste?",
+        "a": "Yes \u2014 bulky program includes e-waste."
+      }
+    ],
+    "source_url": "https://www.tinytots.fontana.org/541/Trash-and-Recycling-Services",
+    "source_name": "City of Fontana \u2014 Trash and Recycling Services (Burrtec)",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "smartphone",
+    "state": "CA",
+    "city_slug": "fontana",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Fontana / Burrtec bulky / HHW \u2014 16454 Orange Way",
+    "common_disposal_fee": "Burrtec bulky includes e-waste OR HHW 16454 Orange Way Saturdays 8-12",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "Medium",
+    "answer": "Fontana electronics including phones may go on Burrtec bulky (e-waste included) \u2014 909-822-9739 \u2014 OR HHW \u2014 16454 Orange Way \u2014 Saturdays 8:00\u201312:00. Wipe data before drop-off.",
+    "steps": [
+      "Schedule Burrtec bulky \u2014 909-822-9739.",
+      "Or haul to 16454 Orange Way HHW.",
+      "Wipe personal data."
+    ],
+    "faqs": [
+      {
+        "q": "Bulky for e-waste?",
+        "a": "Yes \u2014 bulky program includes e-waste."
+      }
+    ],
+    "source_url": "https://www.tinytots.fontana.org/541/Trash-and-Recycling-Services",
+    "source_name": "City of Fontana \u2014 Trash and Recycling Services (Burrtec)",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "e-waste-mixed",
+    "state": "CA",
+    "city_slug": "fontana",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Fontana / Burrtec bulky / HHW \u2014 16454 Orange Way",
+    "common_disposal_fee": "Burrtec bulky includes e-waste OR HHW 16454 Orange Way Saturdays 8-12",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "Medium",
+    "answer": "Fontana electronics including mixed e-waste may go on Burrtec bulky (e-waste included) \u2014 909-822-9739 \u2014 OR HHW \u2014 16454 Orange Way \u2014 Saturdays 8:00\u201312:00. Wipe data before drop-off.",
+    "steps": [
+      "Schedule Burrtec bulky \u2014 909-822-9739.",
+      "Or haul to 16454 Orange Way HHW.",
+      "Wipe personal data."
+    ],
+    "faqs": [
+      {
+        "q": "Bulky for e-waste?",
+        "a": "Yes \u2014 bulky program includes e-waste."
+      }
+    ],
+    "source_url": "https://www.tinytots.fontana.org/541/Trash-and-Recycling-Services",
+    "source_name": "City of Fontana \u2014 Trash and Recycling Services (Burrtec)",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "paint-latex",
+    "state": "CA",
+    "city_slug": "fontana",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Fontana HHW \u2014 16454 Orange Way",
+    "common_disposal_fee": "NOT bulky \u2014 HHW facility 16454 Orange Way (paint and thinners)",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Medium",
+    "answer": "Fontana latex paint goes to HHW facility \u2014 16454 Orange Way \u2014 Saturdays 8:00\u201312:00. Paint is NOT accepted on Burrtec bulky pickup.",
+    "steps": [
+      "Haul sealed latex paint to 16454 Orange Way.",
+      "Saturdays 8:00\u201312:00.",
+      "Keep paint off bulky piles."
+    ],
+    "faqs": [
+      {
+        "q": "HHW address?",
+        "a": "16454 Orange Way, Fontana."
+      },
+      {
+        "q": "Bulky for paint?",
+        "a": "No \u2014 HHW only."
+      }
+    ],
+    "source_url": "https://www.nature.fontana.org/589/Household-Hazardous-Waste-HHW",
+    "source_name": "City of Fontana \u2014 Household Hazardous Waste (HHW)",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "paint-oil",
+    "state": "CA",
+    "city_slug": "fontana",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Fontana HHW \u2014 16454 Orange Way",
+    "common_disposal_fee": "NOT bulky \u2014 HHW facility 16454 Orange Way (paint and thinners)",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "Fontana oil-based paint and paint thinners go to HHW facility \u2014 16454 Orange Way \u2014 Saturdays 8:00\u201312:00. Not bulky or trash.",
+    "steps": [
+      "Haul sealed oil paint to 16454 Orange Way.",
+      "Saturdays 8:00\u201312:00.",
+      "Keep containers sealed and labeled."
+    ],
+    "faqs": [
+      {
+        "q": "Same as latex?",
+        "a": "Yes \u2014 both at HHW Orange Way."
+      }
+    ],
+    "source_url": "https://www.nature.fontana.org/589/Household-Hazardous-Waste-HHW",
+    "source_name": "City of Fontana \u2014 Household Hazardous Waste (HHW)",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "pesticides",
+    "state": "CA",
+    "city_slug": "fontana",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Fontana HHW \u2014 16454 Orange Way",
+    "common_disposal_fee": "HHW facility 16454 Orange Way Saturdays 8-12",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "Take pesticides to Fontana HHW facility \u2014 16454 Orange Way \u2014 Saturdays 8:00\u201312:00. Not bulky or trash.",
+    "steps": [
+      "Haul to 16454 Orange Way.",
+      "Saturdays 8:00\u201312:00.",
+      "Keep chemicals off bulky piles."
+    ],
+    "faqs": [
+      {
+        "q": "HHW for chemicals?",
+        "a": "Yes \u2014 16454 Orange Way Saturdays."
+      }
+    ],
+    "source_url": "https://www.nature.fontana.org/589/Household-Hazardous-Waste-HHW",
+    "source_name": "City of Fontana \u2014 Household Hazardous Waste (HHW)",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "herbicides",
+    "state": "CA",
+    "city_slug": "fontana",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Fontana HHW \u2014 16454 Orange Way",
+    "common_disposal_fee": "HHW facility 16454 Orange Way Saturdays 8-12",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "Take herbicides to Fontana HHW facility \u2014 16454 Orange Way \u2014 Saturdays 8:00\u201312:00. Not bulky or trash.",
+    "steps": [
+      "Haul to 16454 Orange Way.",
+      "Saturdays 8:00\u201312:00.",
+      "Keep chemicals off bulky piles."
+    ],
+    "faqs": [
+      {
+        "q": "HHW for chemicals?",
+        "a": "Yes \u2014 16454 Orange Way Saturdays."
+      }
+    ],
+    "source_url": "https://www.nature.fontana.org/589/Household-Hazardous-Waste-HHW",
+    "source_name": "City of Fontana \u2014 Household Hazardous Waste (HHW)",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "pool-chemicals",
+    "state": "CA",
+    "city_slug": "fontana",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Fontana HHW \u2014 16454 Orange Way",
+    "common_disposal_fee": "HHW facility 16454 Orange Way Saturdays 8-12",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "Take pool chemicals to Fontana HHW facility \u2014 16454 Orange Way \u2014 Saturdays 8:00\u201312:00. Not bulky or trash.",
+    "steps": [
+      "Haul to 16454 Orange Way.",
+      "Saturdays 8:00\u201312:00.",
+      "Keep chemicals off bulky piles."
+    ],
+    "faqs": [
+      {
+        "q": "HHW for chemicals?",
+        "a": "Yes \u2014 16454 Orange Way Saturdays."
+      }
+    ],
+    "source_url": "https://www.nature.fontana.org/589/Household-Hazardous-Waste-HHW",
+    "source_name": "City of Fontana \u2014 Household Hazardous Waste (HHW)",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "gasoline",
+    "state": "CA",
+    "city_slug": "fontana",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Fontana HHW \u2014 16454 Orange Way",
+    "common_disposal_fee": "HHW facility 16454 Orange Way Saturdays 8-12",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "Take gasoline to Fontana HHW facility \u2014 16454 Orange Way \u2014 Saturdays 8:00\u201312:00. Not bulky or trash.",
+    "steps": [
+      "Haul to 16454 Orange Way.",
+      "Saturdays 8:00\u201312:00.",
+      "Keep chemicals off bulky piles."
+    ],
+    "faqs": [
+      {
+        "q": "HHW for chemicals?",
+        "a": "Yes \u2014 16454 Orange Way Saturdays."
+      }
+    ],
+    "source_url": "https://www.nature.fontana.org/589/Household-Hazardous-Waste-HHW",
+    "source_name": "City of Fontana \u2014 Household Hazardous Waste (HHW)",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "car-battery",
+    "state": "CA",
+    "city_slug": "fontana",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Fontana HHW \u2014 16454 Orange Way",
+    "common_disposal_fee": "HHW facility 16454 Orange Way Saturdays 8-12",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "Fontana HHW at 16454 Orange Way accepts household hazardous materials. Lead-acid batteries at HHW Orange Way.",
+    "steps": [
+      "Haul to 16454 Orange Way.",
+      "Saturdays 8:00\u201312:00.",
+      "Tires use bulky path with fee."
+    ],
+    "faqs": [
+      {
+        "q": "Tires at HHW?",
+        "a": "No \u2014 bulky max 9 off-rim with additional fee."
+      }
+    ],
+    "source_url": "https://www.nature.fontana.org/589/Household-Hazardous-Waste-HHW",
+    "source_name": "City of Fontana \u2014 Household Hazardous Waste (HHW)",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "lithium-battery",
+    "state": "CA",
+    "city_slug": "fontana",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Fontana HHW \u2014 16454 Orange Way",
+    "common_disposal_fee": "HHW facility 16454 Orange Way Saturdays 8-12",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "Fontana HHW at 16454 Orange Way accepts household hazardous materials. Lithium batteries at HHW Orange Way.",
+    "steps": [
+      "Haul to 16454 Orange Way.",
+      "Saturdays 8:00\u201312:00.",
+      "Tires use bulky path with fee."
+    ],
+    "faqs": [
+      {
+        "q": "Tires at HHW?",
+        "a": "No \u2014 bulky max 9 off-rim with additional fee."
+      }
+    ],
+    "source_url": "https://www.nature.fontana.org/589/Household-Hazardous-Waste-HHW",
+    "source_name": "City of Fontana \u2014 Household Hazardous Waste (HHW)",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "motor-oil",
+    "state": "CA",
+    "city_slug": "fontana",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Fontana HHW \u2014 16454 Orange Way",
+    "common_disposal_fee": "HHW facility 16454 Orange Way Saturdays 8-12",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "Fontana HHW at 16454 Orange Way accepts household hazardous materials. Used motor oil at HHW Orange Way.",
+    "steps": [
+      "Haul to 16454 Orange Way.",
+      "Saturdays 8:00\u201312:00.",
+      "Tires use bulky path with fee."
+    ],
+    "faqs": [
+      {
+        "q": "Tires at HHW?",
+        "a": "No \u2014 bulky max 9 off-rim with additional fee."
+      }
+    ],
+    "source_url": "https://www.nature.fontana.org/589/Household-Hazardous-Waste-HHW",
+    "source_name": "City of Fontana \u2014 Household Hazardous Waste (HHW)",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "propane-tank",
+    "state": "CA",
+    "city_slug": "fontana",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Fontana HHW \u2014 16454 Orange Way",
+    "common_disposal_fee": "HHW facility 16454 Orange Way Saturdays 8-12",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "Fontana HHW at 16454 Orange Way accepts household hazardous materials. Propane tanks at HHW Orange Way \u2014 confirm size limits.",
+    "steps": [
+      "Haul to 16454 Orange Way.",
+      "Saturdays 8:00\u201312:00.",
+      "Tires use bulky path with fee."
+    ],
+    "faqs": [
+      {
+        "q": "Tires at HHW?",
+        "a": "No \u2014 bulky max 9 off-rim with additional fee."
+      }
+    ],
+    "source_url": "https://www.nature.fontana.org/589/Household-Hazardous-Waste-HHW",
+    "source_name": "City of Fontana \u2014 Household Hazardous Waste (HHW)",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "fluorescent-bulbs",
+    "state": "CA",
+    "city_slug": "fontana",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Fontana HHW \u2014 16454 Orange Way",
+    "common_disposal_fee": "HHW facility 16454 Orange Way Saturdays 8-12",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "Fontana HHW at 16454 Orange Way accepts household hazardous materials. Fluorescent bulbs at HHW Orange Way.",
+    "steps": [
+      "Haul to 16454 Orange Way.",
+      "Saturdays 8:00\u201312:00.",
+      "Tires use bulky path with fee."
+    ],
+    "faqs": [
+      {
+        "q": "Tires at HHW?",
+        "a": "No \u2014 bulky max 9 off-rim with additional fee."
+      }
+    ],
+    "source_url": "https://www.nature.fontana.org/589/Household-Hazardous-Waste-HHW",
+    "source_name": "City of Fontana \u2014 Household Hazardous Waste (HHW)",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "cooking-oil",
+    "state": "CA",
+    "city_slug": "fontana",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Fontana HHW \u2014 16454 Orange Way",
+    "common_disposal_fee": "HHW facility 16454 Orange Way Saturdays 8-12",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Medium",
+    "answer": "Fontana HHW at 16454 Orange Way accepts household hazardous materials. Cooking oil at HHW Orange Way when not trash-safe.",
+    "steps": [
+      "Haul to 16454 Orange Way.",
+      "Saturdays 8:00\u201312:00.",
+      "Tires use bulky path with fee."
+    ],
+    "faqs": [
+      {
+        "q": "Tires at HHW?",
+        "a": "No \u2014 bulky max 9 off-rim with additional fee."
+      }
+    ],
+    "source_url": "https://www.nature.fontana.org/589/Household-Hazardous-Waste-HHW",
+    "source_name": "City of Fontana \u2014 Household Hazardous Waste (HHW)",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "medical-sharps",
+    "state": "CA",
+    "city_slug": "fontana",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Fontana HHW \u2014 16454 Orange Way",
+    "common_disposal_fee": "Rigid sealed container \u2014 confirm HHW Orange Way sharps acceptance",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "Place sharps in a rigid sealed container. Confirm acceptance at Fontana HHW \u2014 16454 Orange Way. Do not loose-bag needles.",
+    "steps": [
+      "Use rigid sealed container.",
+      "Confirm sharps at HHW Orange Way.",
+      "Never recycle loose needles."
+    ],
+    "faqs": [
+      {
+        "q": "Medications?",
+        "a": "Confirm drug take-back via San Bernardino County programs."
+      }
+    ],
+    "source_url": "https://www.nature.fontana.org/589/Household-Hazardous-Waste-HHW",
+    "source_name": "City of Fontana \u2014 Household Hazardous Waste (HHW)",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "tires",
+    "state": "CA",
+    "city_slug": "fontana",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Fontana / Burrtec bulky pickup",
+    "common_disposal_fee": "Burrtec bulky max 9 off-rim \u2014 additional fee \u2014 909-822-9739",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Medium",
+    "answer": "Fontana tires may go on Burrtec bulky pickup \u2014 max 9 off-rim tires with additional fee \u2014 call 909-822-9739. Retailer take-back when replacing tires.",
+    "steps": [
+      "Call 909-822-9739 to schedule bulky for tires.",
+      "Max 9 off-rim tires per pickup.",
+      "Additional fee applies."
+    ],
+    "faqs": [
+      {
+        "q": "Bulky for tires?",
+        "a": "Yes \u2014 max 9 off-rim with additional fee."
+      },
+      {
+        "q": "Fee?",
+        "a": "Additional fee per Burrtec Fontana newsletter."
+      }
+    ],
+    "source_url": "https://www.tinytots.fontana.org/541/Trash-and-Recycling-Services",
+    "source_name": "City of Fontana \u2014 Trash and Recycling Services (Burrtec)",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "yard-waste",
+    "state": "CA",
+    "city_slug": "fontana",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Fontana yard waste collection",
+    "common_disposal_fee": "Fontana yard waste collection",
+    "badge": "ACCEPTED_IN_BLUE_BIN",
+    "hazard_rating": "Low",
+    "answer": "Fontana handles yard waste through regular collection. Follow set-out rules on fontana.org.",
+    "steps": [
+      "Use yard waste set-out rules.",
+      "Keep yard waste out of HHW and e-waste.",
+      "Check fontana.org for seasonal guidance."
+    ],
+    "faqs": [
+      {
+        "q": "Christmas trees?",
+        "a": "Follow city seasonal yard waste guidance."
+      }
+    ],
+    "source_url": "https://www.tinytots.fontana.org/541/Trash-and-Recycling-Services",
+    "source_name": "City of Fontana \u2014 Trash and Recycling Services (Burrtec)",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "food-scraps",
+    "state": "CA",
+    "city_slug": "fontana",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Fontana garbage / private compost",
+    "common_disposal_fee": "Garbage cart unless private compost",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "Bag food scraps for garbage unless you compost. Keep food out of recycling and HHW.",
+    "steps": [
+      "Bag food for garbage if no compost.",
+      "Keep organics out of recycling.",
+      "Yard trimmings use yard-waste pathways."
+    ],
+    "faqs": [
+      {
+        "q": "HHW for food?",
+        "a": "No."
+      }
+    ],
+    "source_url": "https://www.tinytots.fontana.org/541/Trash-and-Recycling-Services",
+    "source_name": "City of Fontana \u2014 Trash and Recycling Services (Burrtec)",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "plastic-bags",
+    "state": "CA",
+    "city_slug": "fontana",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Retail bag take-back / trash",
+    "common_disposal_fee": "Not recycling \u2014 store take-back / trash",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "Plastic bags are not accepted in curbside recycling. Use store take-back or trash.",
+    "steps": [
+      "Keep bags out of recycling.",
+      "Use grocery take-back.",
+      "Otherwise trash."
+    ],
+    "faqs": [
+      {
+        "q": "Bulky for bags?",
+        "a": "No."
+      }
+    ],
+    "source_url": "https://www.tinytots.fontana.org/541/Trash-and-Recycling-Services",
+    "source_name": "City of Fontana \u2014 Trash and Recycling Services (Burrtec)",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "construction-debris",
+    "state": "CA",
+    "city_slug": "fontana",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Private C&D hauler",
+    "common_disposal_fee": "NOT Burrtec bulky \u2014 private C&D hauler",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "Construction debris is not Fontana Burrtec bulky material. Hire a private C&D hauler for remodel loads. Route paint/chemicals to HHW Orange Way separately.",
+    "steps": [
+      "Do not treat remodel debris as Burrtec bulky.",
+      "Hire private C&D for larger projects.",
+      "Route paint to HHW Orange Way."
+    ],
+    "faqs": [
+      {
+        "q": "HHW for C&D?",
+        "a": "No \u2014 separate paint/chemicals."
+      }
+    ],
+    "source_url": "https://www.tinytots.fontana.org/541/Trash-and-Recycling-Services",
+    "source_name": "City of Fontana \u2014 Trash and Recycling Services (Burrtec)",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "box-spring",
+    "state": "CA",
+    "city_slug": "fontana",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Fontana / Burrtec bulky pickup",
+    "common_disposal_fee": "Burrtec bulky 909-822-9739 \u2014 2 collections/yr, 5 items each",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Fontana, box spring follows the same verified program pathway as mattress. Fontana mattresses use Burrtec bulky pickup \u2014 call 909-822-9739. 2 collections per year, 5 items each. Tires have separate bulky rules with additional fee.",
+    "steps": [
+      "Call Burrtec 909-822-9739 to schedule bulky.",
+      "2 collections per year, 5 items each.",
+      "Set out on scheduled bulky day."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as mattress?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Fontana \u2014 Trash and Recycling Services (Burrtec) (audited)."
+      }
+    ],
+    "source_url": "https://www.tinytots.fontana.org/541/Trash-and-Recycling-Services",
+    "source_name": "City of Fontana \u2014 Trash and Recycling Services (Burrtec)",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "sofa",
+    "state": "CA",
+    "city_slug": "fontana",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Fontana / Burrtec bulky pickup",
+    "common_disposal_fee": "Burrtec bulky 909-822-9739 \u2014 2 collections/yr, 5 items each",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Fontana, sofa follows the same verified program pathway as mattress. Fontana mattresses use Burrtec bulky pickup \u2014 call 909-822-9739. 2 collections per year, 5 items each. Tires have separate bulky rules with additional fee.",
+    "steps": [
+      "Call Burrtec 909-822-9739 to schedule bulky.",
+      "2 collections per year, 5 items each.",
+      "Set out on scheduled bulky day."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as mattress?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Fontana \u2014 Trash and Recycling Services (Burrtec) (audited)."
+      }
+    ],
+    "source_url": "https://www.tinytots.fontana.org/541/Trash-and-Recycling-Services",
+    "source_name": "City of Fontana \u2014 Trash and Recycling Services (Burrtec)",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "recliner",
+    "state": "CA",
+    "city_slug": "fontana",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Fontana / Burrtec bulky pickup",
+    "common_disposal_fee": "Burrtec bulky 909-822-9739 \u2014 2 collections/yr, 5 items each",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Fontana, recliner follows the same verified program pathway as mattress. Fontana mattresses use Burrtec bulky pickup \u2014 call 909-822-9739. 2 collections per year, 5 items each. Tires have separate bulky rules with additional fee.",
+    "steps": [
+      "Call Burrtec 909-822-9739 to schedule bulky.",
+      "2 collections per year, 5 items each.",
+      "Set out on scheduled bulky day."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as mattress?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Fontana \u2014 Trash and Recycling Services (Burrtec) (audited)."
+      }
+    ],
+    "source_url": "https://www.tinytots.fontana.org/541/Trash-and-Recycling-Services",
+    "source_name": "City of Fontana \u2014 Trash and Recycling Services (Burrtec)",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "carpet",
+    "state": "CA",
+    "city_slug": "fontana",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Fontana / Burrtec bulky pickup",
+    "common_disposal_fee": "Burrtec bulky 909-822-9739 \u2014 2 collections/yr, 5 items each",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Fontana, carpet follows the same verified program pathway as mattress. Fontana mattresses use Burrtec bulky pickup \u2014 call 909-822-9739. 2 collections per year, 5 items each. Tires have separate bulky rules with additional fee.",
+    "steps": [
+      "Call Burrtec 909-822-9739 to schedule bulky.",
+      "2 collections per year, 5 items each.",
+      "Set out on scheduled bulky day."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as mattress?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Fontana \u2014 Trash and Recycling Services (Burrtec) (audited)."
+      }
+    ],
+    "source_url": "https://www.tinytots.fontana.org/541/Trash-and-Recycling-Services",
+    "source_name": "City of Fontana \u2014 Trash and Recycling Services (Burrtec)",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "exercise-equipment",
+    "state": "CA",
+    "city_slug": "fontana",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Fontana / Burrtec bulky pickup",
+    "common_disposal_fee": "Burrtec bulky 909-822-9739 \u2014 2 collections/yr, 5 items each",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Fontana, exercise equipment follows the same verified program pathway as mattress. Fontana mattresses use Burrtec bulky pickup \u2014 call 909-822-9739. 2 collections per year, 5 items each. Tires have separate bulky rules with additional fee.",
+    "steps": [
+      "Call Burrtec 909-822-9739 to schedule bulky.",
+      "2 collections per year, 5 items each.",
+      "Set out on scheduled bulky day."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as mattress?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Fontana \u2014 Trash and Recycling Services (Burrtec) (audited)."
+      }
+    ],
+    "source_url": "https://www.tinytots.fontana.org/541/Trash-and-Recycling-Services",
+    "source_name": "City of Fontana \u2014 Trash and Recycling Services (Burrtec)",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "dining-table",
+    "state": "CA",
+    "city_slug": "fontana",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Fontana / Burrtec bulky pickup",
+    "common_disposal_fee": "Burrtec bulky 909-822-9739 \u2014 2 collections/yr, 5 items each",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Fontana, dining table follows the same verified program pathway as mattress. Fontana mattresses use Burrtec bulky pickup \u2014 call 909-822-9739. 2 collections per year, 5 items each. Tires have separate bulky rules with additional fee.",
+    "steps": [
+      "Call Burrtec 909-822-9739 to schedule bulky.",
+      "2 collections per year, 5 items each.",
+      "Set out on scheduled bulky day."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as mattress?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Fontana \u2014 Trash and Recycling Services (Burrtec) (audited)."
+      }
+    ],
+    "source_url": "https://www.tinytots.fontana.org/541/Trash-and-Recycling-Services",
+    "source_name": "City of Fontana \u2014 Trash and Recycling Services (Burrtec)",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "desk",
+    "state": "CA",
+    "city_slug": "fontana",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Fontana / Burrtec bulky pickup",
+    "common_disposal_fee": "Burrtec bulky 909-822-9739 \u2014 2 collections/yr, 5 items each",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Fontana, desk follows the same verified program pathway as mattress. Fontana mattresses use Burrtec bulky pickup \u2014 call 909-822-9739. 2 collections per year, 5 items each. Tires have separate bulky rules with additional fee.",
+    "steps": [
+      "Call Burrtec 909-822-9739 to schedule bulky.",
+      "2 collections per year, 5 items each.",
+      "Set out on scheduled bulky day."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as mattress?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Fontana \u2014 Trash and Recycling Services (Burrtec) (audited)."
+      }
+    ],
+    "source_url": "https://www.tinytots.fontana.org/541/Trash-and-Recycling-Services",
+    "source_name": "City of Fontana \u2014 Trash and Recycling Services (Burrtec)",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "bookshelf",
+    "state": "CA",
+    "city_slug": "fontana",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Fontana / Burrtec bulky pickup",
+    "common_disposal_fee": "Burrtec bulky 909-822-9739 \u2014 2 collections/yr, 5 items each",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Fontana, bookshelf follows the same verified program pathway as mattress. Fontana mattresses use Burrtec bulky pickup \u2014 call 909-822-9739. 2 collections per year, 5 items each. Tires have separate bulky rules with additional fee.",
+    "steps": [
+      "Call Burrtec 909-822-9739 to schedule bulky.",
+      "2 collections per year, 5 items each.",
+      "Set out on scheduled bulky day."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as mattress?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Fontana \u2014 Trash and Recycling Services (Burrtec) (audited)."
+      }
+    ],
+    "source_url": "https://www.tinytots.fontana.org/541/Trash-and-Recycling-Services",
+    "source_name": "City of Fontana \u2014 Trash and Recycling Services (Burrtec)",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "hot-tub",
+    "state": "CA",
+    "city_slug": "fontana",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Fontana / Burrtec bulky pickup",
+    "common_disposal_fee": "Burrtec bulky 909-822-9739 \u2014 2 collections/yr, 5 items each",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Fontana, hot tub follows the same verified program pathway as mattress. Fontana mattresses use Burrtec bulky pickup \u2014 call 909-822-9739. 2 collections per year, 5 items each. Tires have separate bulky rules with additional fee.",
+    "steps": [
+      "Call Burrtec 909-822-9739 to schedule bulky.",
+      "2 collections per year, 5 items each.",
+      "Set out on scheduled bulky day."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as mattress?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Fontana \u2014 Trash and Recycling Services (Burrtec) (audited)."
+      }
+    ],
+    "source_url": "https://www.tinytots.fontana.org/541/Trash-and-Recycling-Services",
+    "source_name": "City of Fontana \u2014 Trash and Recycling Services (Burrtec)",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "piano",
+    "state": "CA",
+    "city_slug": "fontana",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Fontana / Burrtec bulky pickup",
+    "common_disposal_fee": "Burrtec bulky 909-822-9739 \u2014 2 collections/yr, 5 items each",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Fontana, piano follows the same verified program pathway as mattress. Fontana mattresses use Burrtec bulky pickup \u2014 call 909-822-9739. 2 collections per year, 5 items each. Tires have separate bulky rules with additional fee.",
+    "steps": [
+      "Call Burrtec 909-822-9739 to schedule bulky.",
+      "2 collections per year, 5 items each.",
+      "Set out on scheduled bulky day."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as mattress?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Fontana \u2014 Trash and Recycling Services (Burrtec) (audited)."
+      }
+    ],
+    "source_url": "https://www.tinytots.fontana.org/541/Trash-and-Recycling-Services",
+    "source_name": "City of Fontana \u2014 Trash and Recycling Services (Burrtec)",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "freezer",
+    "state": "CA",
+    "city_slug": "fontana",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Fontana / Burrtec bulky pickup",
+    "common_disposal_fee": "Burrtec bulky ONLY if Freon removed first \u2014 909-822-9739",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "High",
+    "answer": "In Fontana, freezer follows the same verified program pathway as refrigerator. Fontana Freon refrigerators may go on Burrtec bulky pickup ONLY if Freon is removed first \u2014 call 909-822-9739. 2 collections/year, 5 items each. Never vent refrigerant yourself.",
+    "steps": [
+      "Have Freon removed by certified technician first.",
+      "Call 909-822-9739 to schedule bulky.",
+      "2 collections/year, 5 items each."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as refrigerator?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Fontana \u2014 Trash and Recycling Services (Burrtec) (audited)."
+      }
+    ],
+    "source_url": "https://www.tinytots.fontana.org/541/Trash-and-Recycling-Services",
+    "source_name": "City of Fontana \u2014 Trash and Recycling Services (Burrtec)",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "laptop",
+    "state": "CA",
+    "city_slug": "fontana",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Fontana / Burrtec bulky / HHW \u2014 16454 Orange Way",
+    "common_disposal_fee": "Burrtec bulky includes e-waste OR HHW 16454 Orange Way Saturdays 8-12",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "Medium",
+    "answer": "In Fontana, laptop follows the same verified program pathway as television. Fontana TVs may go on Burrtec bulky pickup (e-waste included) \u2014 909-822-9739 \u2014 OR HHW facility \u2014 16454 Orange Way \u2014 Saturdays 8:00\u201312:00. Wipe data before set-out or drop-off.",
+    "steps": [
+      "Schedule Burrtec bulky \u2014 909-822-9739.",
+      "Or haul to 16454 Orange Way HHW Saturdays 8\u201312.",
+      "Wipe personal data."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as television?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Fontana \u2014 Trash and Recycling Services (Burrtec) (audited)."
+      }
+    ],
+    "source_url": "https://www.tinytots.fontana.org/541/Trash-and-Recycling-Services",
+    "source_name": "City of Fontana \u2014 Trash and Recycling Services (Burrtec)",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "desktop-computer",
+    "state": "CA",
+    "city_slug": "fontana",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Fontana / Burrtec bulky / HHW \u2014 16454 Orange Way",
+    "common_disposal_fee": "Burrtec bulky includes e-waste OR HHW 16454 Orange Way Saturdays 8-12",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "Medium",
+    "answer": "In Fontana, desktop computer follows the same verified program pathway as television. Fontana TVs may go on Burrtec bulky pickup (e-waste included) \u2014 909-822-9739 \u2014 OR HHW facility \u2014 16454 Orange Way \u2014 Saturdays 8:00\u201312:00. Wipe data before set-out or drop-off.",
+    "steps": [
+      "Schedule Burrtec bulky \u2014 909-822-9739.",
+      "Or haul to 16454 Orange Way HHW Saturdays 8\u201312.",
+      "Wipe personal data."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as television?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Fontana \u2014 Trash and Recycling Services (Burrtec) (audited)."
+      }
+    ],
+    "source_url": "https://www.tinytots.fontana.org/541/Trash-and-Recycling-Services",
+    "source_name": "City of Fontana \u2014 Trash and Recycling Services (Burrtec)",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "printer",
+    "state": "CA",
+    "city_slug": "fontana",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Fontana / Burrtec bulky / HHW \u2014 16454 Orange Way",
+    "common_disposal_fee": "Burrtec bulky includes e-waste OR HHW 16454 Orange Way Saturdays 8-12",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "Medium",
+    "answer": "In Fontana, printer follows the same verified program pathway as television. Fontana TVs may go on Burrtec bulky pickup (e-waste included) \u2014 909-822-9739 \u2014 OR HHW facility \u2014 16454 Orange Way \u2014 Saturdays 8:00\u201312:00. Wipe data before set-out or drop-off.",
+    "steps": [
+      "Schedule Burrtec bulky \u2014 909-822-9739.",
+      "Or haul to 16454 Orange Way HHW Saturdays 8\u201312.",
+      "Wipe personal data."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as television?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Fontana \u2014 Trash and Recycling Services (Burrtec) (audited)."
+      }
+    ],
+    "source_url": "https://www.tinytots.fontana.org/541/Trash-and-Recycling-Services",
+    "source_name": "City of Fontana \u2014 Trash and Recycling Services (Burrtec)",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "tablet",
+    "state": "CA",
+    "city_slug": "fontana",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Fontana / Burrtec bulky / HHW \u2014 16454 Orange Way",
+    "common_disposal_fee": "Burrtec bulky includes e-waste OR HHW 16454 Orange Way Saturdays 8-12",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "Medium",
+    "answer": "In Fontana, tablet follows the same verified program pathway as television. Fontana TVs may go on Burrtec bulky pickup (e-waste included) \u2014 909-822-9739 \u2014 OR HHW facility \u2014 16454 Orange Way \u2014 Saturdays 8:00\u201312:00. Wipe data before set-out or drop-off.",
+    "steps": [
+      "Schedule Burrtec bulky \u2014 909-822-9739.",
+      "Or haul to 16454 Orange Way HHW Saturdays 8\u201312.",
+      "Wipe personal data."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as television?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Fontana \u2014 Trash and Recycling Services (Burrtec) (audited)."
+      }
+    ],
+    "source_url": "https://www.tinytots.fontana.org/541/Trash-and-Recycling-Services",
+    "source_name": "City of Fontana \u2014 Trash and Recycling Services (Burrtec)",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "microwave",
+    "state": "CA",
+    "city_slug": "fontana",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Fontana / Burrtec bulky / HHW \u2014 16454 Orange Way",
+    "common_disposal_fee": "Burrtec bulky includes e-waste OR HHW 16454 Orange Way Saturdays 8-12",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "Medium",
+    "answer": "In Fontana, microwave follows the same verified program pathway as television. Fontana TVs may go on Burrtec bulky pickup (e-waste included) \u2014 909-822-9739 \u2014 OR HHW facility \u2014 16454 Orange Way \u2014 Saturdays 8:00\u201312:00. Wipe data before set-out or drop-off.",
+    "steps": [
+      "Schedule Burrtec bulky \u2014 909-822-9739.",
+      "Or haul to 16454 Orange Way HHW Saturdays 8\u201312.",
+      "Wipe personal data."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as television?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Fontana \u2014 Trash and Recycling Services (Burrtec) (audited)."
+      }
+    ],
+    "source_url": "https://www.tinytots.fontana.org/541/Trash-and-Recycling-Services",
+    "source_name": "City of Fontana \u2014 Trash and Recycling Services (Burrtec)",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "hard-drive",
+    "state": "CA",
+    "city_slug": "fontana",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Fontana / Burrtec bulky / HHW \u2014 16454 Orange Way",
+    "common_disposal_fee": "Burrtec bulky includes e-waste OR HHW 16454 Orange Way Saturdays 8-12",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "Medium",
+    "answer": "In Fontana, hard drive follows the same verified program pathway as television. Fontana TVs may go on Burrtec bulky pickup (e-waste included) \u2014 909-822-9739 \u2014 OR HHW facility \u2014 16454 Orange Way \u2014 Saturdays 8:00\u201312:00. Wipe data before set-out or drop-off.",
+    "steps": [
+      "Schedule Burrtec bulky \u2014 909-822-9739.",
+      "Or haul to 16454 Orange Way HHW Saturdays 8\u201312.",
+      "Wipe personal data."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as television?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Fontana \u2014 Trash and Recycling Services (Burrtec) (audited)."
+      }
+    ],
+    "source_url": "https://www.tinytots.fontana.org/541/Trash-and-Recycling-Services",
+    "source_name": "City of Fontana \u2014 Trash and Recycling Services (Burrtec)",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "ink-toner",
+    "state": "CA",
+    "city_slug": "fontana",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Fontana / Burrtec bulky / HHW \u2014 16454 Orange Way",
+    "common_disposal_fee": "Burrtec bulky includes e-waste OR HHW 16454 Orange Way Saturdays 8-12",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "Medium",
+    "answer": "In Fontana, ink toner follows the same verified program pathway as e waste mixed. Fontana electronics including mixed e-waste may go on Burrtec bulky (e-waste included) \u2014 909-822-9739 \u2014 OR HHW \u2014 16454 Orange Way \u2014 Saturdays 8:00\u201312:00. Wipe data before drop-off.",
+    "steps": [
+      "Schedule Burrtec bulky \u2014 909-822-9739.",
+      "Or haul to 16454 Orange Way HHW.",
+      "Wipe personal data."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as e waste mixed?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Fontana \u2014 Trash and Recycling Services (Burrtec) (audited)."
+      }
+    ],
+    "source_url": "https://www.tinytots.fontana.org/541/Trash-and-Recycling-Services",
+    "source_name": "City of Fontana \u2014 Trash and Recycling Services (Burrtec)",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "solar-panel",
+    "state": "CA",
+    "city_slug": "fontana",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Fontana / Burrtec bulky / HHW \u2014 16454 Orange Way",
+    "common_disposal_fee": "Burrtec bulky includes e-waste OR HHW 16454 Orange Way Saturdays 8-12",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "Medium",
+    "answer": "In Fontana, solar panel follows the same verified program pathway as e waste mixed. Fontana electronics including mixed e-waste may go on Burrtec bulky (e-waste included) \u2014 909-822-9739 \u2014 OR HHW \u2014 16454 Orange Way \u2014 Saturdays 8:00\u201312:00. Wipe data before drop-off.",
+    "steps": [
+      "Schedule Burrtec bulky \u2014 909-822-9739.",
+      "Or haul to 16454 Orange Way HHW.",
+      "Wipe personal data."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as e waste mixed?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Fontana \u2014 Trash and Recycling Services (Burrtec) (audited)."
+      }
+    ],
+    "source_url": "https://www.tinytots.fontana.org/541/Trash-and-Recycling-Services",
+    "source_name": "City of Fontana \u2014 Trash and Recycling Services (Burrtec)",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "household-batteries",
+    "state": "CA",
+    "city_slug": "fontana",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Fontana HHW \u2014 16454 Orange Way",
+    "common_disposal_fee": "HHW facility 16454 Orange Way Saturdays 8-12",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "In Fontana, household batteries follows the same verified program pathway as car battery. Fontana HHW at 16454 Orange Way accepts household hazardous materials. Lead-acid batteries at HHW Orange Way.",
+    "steps": [
+      "Haul to 16454 Orange Way.",
+      "Saturdays 8:00\u201312:00.",
+      "Tires use bulky path with fee."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as car battery?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Fontana \u2014 Household Hazardous Waste (HHW) (audited)."
+      }
+    ],
+    "source_url": "https://www.nature.fontana.org/589/Household-Hazardous-Waste-HHW",
+    "source_name": "City of Fontana \u2014 Household Hazardous Waste (HHW)",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "antifreeze",
+    "state": "CA",
+    "city_slug": "fontana",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Fontana HHW \u2014 16454 Orange Way",
+    "common_disposal_fee": "HHW facility 16454 Orange Way Saturdays 8-12",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "In Fontana, antifreeze follows the same verified program pathway as car battery. Fontana HHW at 16454 Orange Way accepts household hazardous materials. Lead-acid batteries at HHW Orange Way.",
+    "steps": [
+      "Haul to 16454 Orange Way.",
+      "Saturdays 8:00\u201312:00.",
+      "Tires use bulky path with fee."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as car battery?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Fontana \u2014 Household Hazardous Waste (HHW) (audited)."
+      }
+    ],
+    "source_url": "https://www.nature.fontana.org/589/Household-Hazardous-Waste-HHW",
+    "source_name": "City of Fontana \u2014 Household Hazardous Waste (HHW)",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "helium-tank",
+    "state": "CA",
+    "city_slug": "fontana",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Fontana HHW \u2014 16454 Orange Way",
+    "common_disposal_fee": "HHW facility 16454 Orange Way Saturdays 8-12",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "In Fontana, helium tank follows the same verified program pathway as propane tank. Fontana HHW at 16454 Orange Way accepts household hazardous materials. Propane tanks at HHW Orange Way \u2014 confirm size limits.",
+    "steps": [
+      "Haul to 16454 Orange Way.",
+      "Saturdays 8:00\u201312:00.",
+      "Tires use bulky path with fee."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as propane tank?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Fontana \u2014 Household Hazardous Waste (HHW) (audited)."
+      }
+    ],
+    "source_url": "https://www.nature.fontana.org/589/Household-Hazardous-Waste-HHW",
+    "source_name": "City of Fontana \u2014 Household Hazardous Waste (HHW)",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "fire-extinguisher",
+    "state": "CA",
+    "city_slug": "fontana",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Fontana HHW \u2014 16454 Orange Way",
+    "common_disposal_fee": "HHW facility 16454 Orange Way Saturdays 8-12",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "In Fontana, fire extinguisher follows the same verified program pathway as propane tank. Fontana HHW at 16454 Orange Way accepts household hazardous materials. Propane tanks at HHW Orange Way \u2014 confirm size limits.",
+    "steps": [
+      "Haul to 16454 Orange Way.",
+      "Saturdays 8:00\u201312:00.",
+      "Tires use bulky path with fee."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as propane tank?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Fontana \u2014 Household Hazardous Waste (HHW) (audited)."
+      }
+    ],
+    "source_url": "https://www.nature.fontana.org/589/Household-Hazardous-Waste-HHW",
+    "source_name": "City of Fontana \u2014 Household Hazardous Waste (HHW)",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "smoke-detector",
+    "state": "CA",
+    "city_slug": "fontana",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Fontana HHW \u2014 16454 Orange Way",
+    "common_disposal_fee": "HHW facility 16454 Orange Way Saturdays 8-12",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "In Fontana, smoke detector follows the same verified program pathway as fluorescent bulbs. Fontana HHW at 16454 Orange Way accepts household hazardous materials. Fluorescent bulbs at HHW Orange Way.",
+    "steps": [
+      "Haul to 16454 Orange Way.",
+      "Saturdays 8:00\u201312:00.",
+      "Tires use bulky path with fee."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as fluorescent bulbs?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Fontana \u2014 Household Hazardous Waste (HHW) (audited)."
+      }
+    ],
+    "source_url": "https://www.nature.fontana.org/589/Household-Hazardous-Waste-HHW",
+    "source_name": "City of Fontana \u2014 Household Hazardous Waste (HHW)",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "thermometer-mercury",
+    "state": "CA",
+    "city_slug": "fontana",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Fontana HHW \u2014 16454 Orange Way",
+    "common_disposal_fee": "HHW facility 16454 Orange Way Saturdays 8-12",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "In Fontana, thermometer mercury follows the same verified program pathway as fluorescent bulbs. Fontana HHW at 16454 Orange Way accepts household hazardous materials. Fluorescent bulbs at HHW Orange Way.",
+    "steps": [
+      "Haul to 16454 Orange Way.",
+      "Saturdays 8:00\u201312:00.",
+      "Tires use bulky path with fee."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as fluorescent bulbs?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Fontana \u2014 Household Hazardous Waste (HHW) (audited)."
+      }
+    ],
+    "source_url": "https://www.nature.fontana.org/589/Household-Hazardous-Waste-HHW",
+    "source_name": "City of Fontana \u2014 Household Hazardous Waste (HHW)",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "led-bulbs",
+    "state": "CA",
+    "city_slug": "fontana",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Fontana HHW \u2014 16454 Orange Way",
+    "common_disposal_fee": "HHW facility 16454 Orange Way Saturdays 8-12",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "In Fontana, led bulbs follows the same verified program pathway as fluorescent bulbs. Fontana HHW at 16454 Orange Way accepts household hazardous materials. Fluorescent bulbs at HHW Orange Way.",
+    "steps": [
+      "Haul to 16454 Orange Way.",
+      "Saturdays 8:00\u201312:00.",
+      "Tires use bulky path with fee."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as fluorescent bulbs?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Fontana \u2014 Household Hazardous Waste (HHW) (audited)."
+      }
+    ],
+    "source_url": "https://www.nature.fontana.org/589/Household-Hazardous-Waste-HHW",
+    "source_name": "City of Fontana \u2014 Household Hazardous Waste (HHW)",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "incandescent-bulbs",
+    "state": "CA",
+    "city_slug": "fontana",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Fontana HHW \u2014 16454 Orange Way",
+    "common_disposal_fee": "HHW facility 16454 Orange Way Saturdays 8-12",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "In Fontana, incandescent bulbs follows the same verified program pathway as fluorescent bulbs. Fontana HHW at 16454 Orange Way accepts household hazardous materials. Fluorescent bulbs at HHW Orange Way.",
+    "steps": [
+      "Haul to 16454 Orange Way.",
+      "Saturdays 8:00\u201312:00.",
+      "Tires use bulky path with fee."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as fluorescent bulbs?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Fontana \u2014 Household Hazardous Waste (HHW) (audited)."
+      }
+    ],
+    "source_url": "https://www.nature.fontana.org/589/Household-Hazardous-Waste-HHW",
+    "source_name": "City of Fontana \u2014 Household Hazardous Waste (HHW)",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "needles",
+    "state": "CA",
+    "city_slug": "fontana",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Fontana HHW \u2014 16454 Orange Way",
+    "common_disposal_fee": "Rigid sealed container \u2014 confirm HHW Orange Way sharps acceptance",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "In Fontana, needles follows the same verified program pathway as medical sharps. Place sharps in a rigid sealed container. Confirm acceptance at Fontana HHW \u2014 16454 Orange Way. Do not loose-bag needles.",
+    "steps": [
+      "Use rigid sealed container.",
+      "Confirm sharps at HHW Orange Way.",
+      "Never recycle loose needles."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as medical sharps?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Fontana \u2014 Household Hazardous Waste (HHW) (audited)."
+      }
+    ],
+    "source_url": "https://www.nature.fontana.org/589/Household-Hazardous-Waste-HHW",
+    "source_name": "City of Fontana \u2014 Household Hazardous Waste (HHW)",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "prescription-drugs",
+    "state": "CA",
+    "city_slug": "fontana",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Fontana HHW \u2014 16454 Orange Way",
+    "common_disposal_fee": "Rigid sealed container \u2014 confirm HHW Orange Way sharps acceptance",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "In Fontana, prescription drugs follows the same verified program pathway as medical sharps. Place sharps in a rigid sealed container. Confirm acceptance at Fontana HHW \u2014 16454 Orange Way. Do not loose-bag needles.",
+    "steps": [
+      "Use rigid sealed container.",
+      "Confirm sharps at HHW Orange Way.",
+      "Never recycle loose needles."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as medical sharps?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Fontana \u2014 Household Hazardous Waste (HHW) (audited)."
+      }
+    ],
+    "source_url": "https://www.nature.fontana.org/589/Household-Hazardous-Waste-HHW",
+    "source_name": "City of Fontana \u2014 Household Hazardous Waste (HHW)",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "tire-rims",
+    "state": "CA",
+    "city_slug": "fontana",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Fontana / Burrtec bulky pickup",
+    "common_disposal_fee": "Burrtec bulky max 9 off-rim \u2014 additional fee \u2014 909-822-9739",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Medium",
+    "answer": "In Fontana, tire rims follows the same verified program pathway as tires. Fontana tires may go on Burrtec bulky pickup \u2014 max 9 off-rim tires with additional fee \u2014 call 909-822-9739. Retailer take-back when replacing tires.",
+    "steps": [
+      "Call 909-822-9739 to schedule bulky for tires.",
+      "Max 9 off-rim tires per pickup.",
+      "Additional fee applies."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as tires?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Fontana \u2014 Trash and Recycling Services (Burrtec) (audited)."
+      }
+    ],
+    "source_url": "https://www.tinytots.fontana.org/541/Trash-and-Recycling-Services",
+    "source_name": "City of Fontana \u2014 Trash and Recycling Services (Burrtec)",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "dehumidifier",
+    "state": "CA",
+    "city_slug": "fontana",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Fontana / Burrtec bulky pickup",
+    "common_disposal_fee": "Burrtec bulky ONLY if Freon removed first \u2014 909-822-9739",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "High",
+    "answer": "In Fontana, dehumidifier follows the same verified program pathway as air conditioner. Fontana Freon window AC units may go on Burrtec bulky ONLY if Freon is removed first \u2014 call 909-822-9739. Never vent refrigerant yourself.",
+    "steps": [
+      "Have Freon removed by certified technician first.",
+      "Call 909-822-9739 to schedule bulky.",
+      "Keep sealed until proper Freon handling."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as air conditioner?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Fontana \u2014 Trash and Recycling Services (Burrtec) (audited)."
+      }
+    ],
+    "source_url": "https://www.tinytots.fontana.org/541/Trash-and-Recycling-Services",
+    "source_name": "City of Fontana \u2014 Trash and Recycling Services (Burrtec)",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "christmas-tree",
+    "state": "CA",
+    "city_slug": "fontana",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Fontana yard waste collection",
+    "common_disposal_fee": "Fontana yard waste collection",
+    "badge": "ACCEPTED_IN_BLUE_BIN",
+    "hazard_rating": "Low",
+    "answer": "In Fontana, christmas tree follows the same verified program pathway as yard waste. Fontana handles yard waste through regular collection. Follow set-out rules on fontana.org.",
+    "steps": [
+      "Use yard waste set-out rules.",
+      "Keep yard waste out of HHW and e-waste.",
+      "Check fontana.org for seasonal guidance."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as yard waste?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Fontana \u2014 Trash and Recycling Services (Burrtec) (audited)."
+      }
+    ],
+    "source_url": "https://www.tinytots.fontana.org/541/Trash-and-Recycling-Services",
+    "source_name": "City of Fontana \u2014 Trash and Recycling Services (Burrtec)",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "styrofoam",
+    "state": "CA",
+    "city_slug": "fontana",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Retail bag take-back / trash",
+    "common_disposal_fee": "Not recycling \u2014 store take-back / trash",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Fontana, styrofoam follows the same verified program pathway as plastic bags. Plastic bags are not accepted in curbside recycling. Use store take-back or trash.",
+    "steps": [
+      "Keep bags out of recycling.",
+      "Use grocery take-back.",
+      "Otherwise trash."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as plastic bags?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Fontana \u2014 Trash and Recycling Services (Burrtec) (audited)."
+      }
+    ],
+    "source_url": "https://www.tinytots.fontana.org/541/Trash-and-Recycling-Services",
+    "source_name": "City of Fontana \u2014 Trash and Recycling Services (Burrtec)",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "cardboard",
+    "state": "CA",
+    "city_slug": "fontana",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Retail bag take-back / trash",
+    "common_disposal_fee": "Not recycling \u2014 store take-back / trash",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Fontana, cardboard follows the same verified program pathway as plastic bags. Plastic bags are not accepted in curbside recycling. Use store take-back or trash.",
+    "steps": [
+      "Keep bags out of recycling.",
+      "Use grocery take-back.",
+      "Otherwise trash."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as plastic bags?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Fontana \u2014 Trash and Recycling Services (Burrtec) (audited)."
+      }
+    ],
+    "source_url": "https://www.tinytots.fontana.org/541/Trash-and-Recycling-Services",
+    "source_name": "City of Fontana \u2014 Trash and Recycling Services (Burrtec)",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "glass-bottles",
+    "state": "CA",
+    "city_slug": "fontana",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Retail bag take-back / trash",
+    "common_disposal_fee": "Not recycling \u2014 store take-back / trash",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Fontana, glass bottles follows the same verified program pathway as plastic bags. Plastic bags are not accepted in curbside recycling. Use store take-back or trash.",
+    "steps": [
+      "Keep bags out of recycling.",
+      "Use grocery take-back.",
+      "Otherwise trash."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as plastic bags?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Fontana \u2014 Trash and Recycling Services (Burrtec) (audited)."
+      }
+    ],
+    "source_url": "https://www.tinytots.fontana.org/541/Trash-and-Recycling-Services",
+    "source_name": "City of Fontana \u2014 Trash and Recycling Services (Burrtec)",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "concrete",
+    "state": "CA",
+    "city_slug": "fontana",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Private C&D hauler",
+    "common_disposal_fee": "NOT Burrtec bulky \u2014 private C&D hauler",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Fontana, concrete follows the same verified program pathway as construction debris. Construction debris is not Fontana Burrtec bulky material. Hire a private C&D hauler for remodel loads. Route paint/chemicals to HHW Orange Way separately.",
+    "steps": [
+      "Do not treat remodel debris as Burrtec bulky.",
+      "Hire private C&D for larger projects.",
+      "Route paint to HHW Orange Way."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as construction debris?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Fontana \u2014 Trash and Recycling Services (Burrtec) (audited)."
+      }
+    ],
+    "source_url": "https://www.tinytots.fontana.org/541/Trash-and-Recycling-Services",
+    "source_name": "City of Fontana \u2014 Trash and Recycling Services (Burrtec)",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "drywall",
+    "state": "CA",
+    "city_slug": "fontana",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Private C&D hauler",
+    "common_disposal_fee": "NOT Burrtec bulky \u2014 private C&D hauler",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Fontana, drywall follows the same verified program pathway as construction debris. Construction debris is not Fontana Burrtec bulky material. Hire a private C&D hauler for remodel loads. Route paint/chemicals to HHW Orange Way separately.",
+    "steps": [
+      "Do not treat remodel debris as Burrtec bulky.",
+      "Hire private C&D for larger projects.",
+      "Route paint to HHW Orange Way."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as construction debris?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Fontana \u2014 Trash and Recycling Services (Burrtec) (audited)."
+      }
+    ],
+    "source_url": "https://www.tinytots.fontana.org/541/Trash-and-Recycling-Services",
+    "source_name": "City of Fontana \u2014 Trash and Recycling Services (Burrtec)",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "lumber",
+    "state": "CA",
+    "city_slug": "fontana",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Private C&D hauler",
+    "common_disposal_fee": "NOT Burrtec bulky \u2014 private C&D hauler",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Fontana, lumber follows the same verified program pathway as construction debris. Construction debris is not Fontana Burrtec bulky material. Hire a private C&D hauler for remodel loads. Route paint/chemicals to HHW Orange Way separately.",
+    "steps": [
+      "Do not treat remodel debris as Burrtec bulky.",
+      "Hire private C&D for larger projects.",
+      "Route paint to HHW Orange Way."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as construction debris?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Fontana \u2014 Trash and Recycling Services (Burrtec) (audited)."
+      }
+    ],
+    "source_url": "https://www.tinytots.fontana.org/541/Trash-and-Recycling-Services",
+    "source_name": "City of Fontana \u2014 Trash and Recycling Services (Burrtec)",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "asphalt-shingles",
+    "state": "CA",
+    "city_slug": "fontana",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Private C&D hauler",
+    "common_disposal_fee": "NOT Burrtec bulky \u2014 private C&D hauler",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Fontana, asphalt shingles follows the same verified program pathway as construction debris. Construction debris is not Fontana Burrtec bulky material. Hire a private C&D hauler for remodel loads. Route paint/chemicals to HHW Orange Way separately.",
+    "steps": [
+      "Do not treat remodel debris as Burrtec bulky.",
+      "Hire private C&D for larger projects.",
+      "Route paint to HHW Orange Way."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as construction debris?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Fontana \u2014 Trash and Recycling Services (Burrtec) (audited)."
+      }
+    ],
+    "source_url": "https://www.tinytots.fontana.org/541/Trash-and-Recycling-Services",
+    "source_name": "City of Fontana \u2014 Trash and Recycling Services (Burrtec)",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "car-parts",
+    "state": "CA",
+    "city_slug": "fontana",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Private C&D hauler",
+    "common_disposal_fee": "NOT Burrtec bulky \u2014 private C&D hauler",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Fontana, car parts follows the same verified program pathway as construction debris. Construction debris is not Fontana Burrtec bulky material. Hire a private C&D hauler for remodel loads. Route paint/chemicals to HHW Orange Way separately.",
+    "steps": [
+      "Do not treat remodel debris as Burrtec bulky.",
+      "Hire private C&D for larger projects.",
+      "Route paint to HHW Orange Way."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as construction debris?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Fontana \u2014 Trash and Recycling Services (Burrtec) (audited)."
+      }
+    ],
+    "source_url": "https://www.tinytots.fontana.org/541/Trash-and-Recycling-Services",
+    "source_name": "City of Fontana \u2014 Trash and Recycling Services (Burrtec)",
+    "last_verified_at": "2026-08-11",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
   }
 ]

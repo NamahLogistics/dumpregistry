@@ -1568,5 +1568,285 @@
     "lat": 35.03,
     "lng": -85.28,
     "population": 14000
+  },
+  {
+    "zip": "85251",
+    "city": "Scottsdale",
+    "city_slug": "scottsdale",
+    "state": "AZ",
+    "state_slug": "arizona",
+    "lat": 33.494,
+    "lng": -111.926,
+    "population": 28000
+  },
+  {
+    "zip": "85254",
+    "city": "Scottsdale",
+    "city_slug": "scottsdale",
+    "state": "AZ",
+    "state_slug": "arizona",
+    "lat": 33.615,
+    "lng": -111.92,
+    "population": 35000
+  },
+  {
+    "zip": "75023",
+    "city": "Plano",
+    "city_slug": "plano",
+    "state": "TX",
+    "state_slug": "texas",
+    "lat": 33.06,
+    "lng": -96.73,
+    "population": 42000
+  },
+  {
+    "zip": "75074",
+    "city": "Plano",
+    "city_slug": "plano",
+    "state": "TX",
+    "state_slug": "texas",
+    "lat": 33.02,
+    "lng": -96.66,
+    "population": 38000
+  },
+  {
+    "zip": "27101",
+    "city": "Winston-Salem",
+    "city_slug": "winston-salem",
+    "state": "NC",
+    "state_slug": "north-carolina",
+    "lat": 36.1,
+    "lng": -80.244,
+    "population": 12000
+  },
+  {
+    "zip": "27103",
+    "city": "Winston-Salem",
+    "city_slug": "winston-salem",
+    "state": "NC",
+    "state_slug": "north-carolina",
+    "lat": 36.07,
+    "lng": -80.31,
+    "population": 28000
+  },
+  {
+    "zip": "23320",
+    "city": "Chesapeake",
+    "city_slug": "chesapeake",
+    "state": "VA",
+    "state_slug": "virginia",
+    "lat": 36.768,
+    "lng": -76.287,
+    "population": 45000
+  },
+  {
+    "zip": "23322",
+    "city": "Chesapeake",
+    "city_slug": "chesapeake",
+    "state": "VA",
+    "state_slug": "virginia",
+    "lat": 36.71,
+    "lng": -76.25,
+    "population": 52000
+  },
+  {
+    "zip": "75038",
+    "city": "Irving",
+    "city_slug": "irving",
+    "state": "TX",
+    "state_slug": "texas",
+    "lat": 32.865,
+    "lng": -96.99,
+    "population": 35000
+  },
+  {
+    "zip": "75060",
+    "city": "Irving",
+    "city_slug": "irving",
+    "state": "TX",
+    "state_slug": "texas",
+    "lat": 32.814,
+    "lng": -96.949,
+    "population": 40000
+  },
+  {
+    "zip": "75040",
+    "city": "Garland",
+    "city_slug": "garland",
+    "state": "TX",
+    "state_slug": "texas",
+    "lat": 32.913,
+    "lng": -96.639,
+    "population": 45000
+  },
+  {
+    "zip": "75043",
+    "city": "Garland",
+    "city_slug": "garland",
+    "state": "TX",
+    "state_slug": "texas",
+    "lat": 32.89,
+    "lng": -96.61,
+    "population": 52000
+  },
+  {
+    "zip": "07302",
+    "city": "Jersey City",
+    "city_slug": "jersey-city",
+    "state": "NJ",
+    "state_slug": "new-jersey",
+    "lat": 40.718,
+    "lng": -74.043,
+    "population": 38000
+  },
+  {
+    "zip": "07306",
+    "city": "Jersey City",
+    "city_slug": "jersey-city",
+    "state": "NJ",
+    "state_slug": "new-jersey",
+    "lat": 40.735,
+    "lng": -74.07,
+    "population": 42000
+  },
+  {
+    "zip": "85224",
+    "city": "Chandler",
+    "city_slug": "chandler",
+    "state": "AZ",
+    "state_slug": "arizona",
+    "lat": 33.33,
+    "lng": -111.87,
+    "population": 48000
+  },
+  {
+    "zip": "85286",
+    "city": "Chandler",
+    "city_slug": "chandler",
+    "state": "AZ",
+    "state_slug": "arizona",
+    "lat": 33.28,
+    "lng": -111.82,
+    "population": 55000
+  },
+  {
+    "zip": "89002",
+    "city": "Henderson",
+    "city_slug": "henderson",
+    "state": "NV",
+    "state_slug": "nevada",
+    "lat": 36.04,
+    "lng": -115.03,
+    "population": 62000
+  },
+  {
+    "zip": "89014",
+    "city": "Henderson",
+    "city_slug": "henderson",
+    "state": "NV",
+    "state_slug": "nevada",
+    "lat": 36.055,
+    "lng": -115.07,
+    "population": 58000
+  },
+  {
+    "zip": "94536",
+    "city": "Fremont",
+    "city_slug": "fremont",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 37.57,
+    "lng": -122.01,
+    "population": 72000
+  },
+  {
+    "zip": "94538",
+    "city": "Fremont",
+    "city_slug": "fremont",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 37.53,
+    "lng": -121.97,
+    "population": 68000
+  },
+  {
+    "zip": "33012",
+    "city": "Hialeah",
+    "city_slug": "hialeah",
+    "state": "FL",
+    "state_slug": "florida",
+    "lat": 25.86,
+    "lng": -80.295,
+    "population": 62000
+  },
+  {
+    "zip": "33016",
+    "city": "Hialeah",
+    "city_slug": "hialeah",
+    "state": "FL",
+    "state_slug": "florida",
+    "lat": 25.87,
+    "lng": -80.33,
+    "population": 58000
+  },
+  {
+    "zip": "85301",
+    "city": "Glendale",
+    "city_slug": "glendale",
+    "state": "AZ",
+    "state_slug": "arizona",
+    "lat": 33.54,
+    "lng": -112.185,
+    "population": 48000
+  },
+  {
+    "zip": "85308",
+    "city": "Glendale",
+    "city_slug": "glendale",
+    "state": "AZ",
+    "state_slug": "arizona",
+    "lat": 33.65,
+    "lng": -112.22,
+    "population": 55000
+  },
+  {
+    "zip": "10701",
+    "city": "Yonkers",
+    "city_slug": "yonkers",
+    "state": "NY",
+    "state_slug": "new-york",
+    "lat": 40.93,
+    "lng": -73.895,
+    "population": 42000
+  },
+  {
+    "zip": "10704",
+    "city": "Yonkers",
+    "city_slug": "yonkers",
+    "state": "NY",
+    "state_slug": "new-york",
+    "lat": 40.92,
+    "lng": -73.865,
+    "population": 38000
+  },
+  {
+    "zip": "92335",
+    "city": "Fontana",
+    "city_slug": "fontana",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 34.07,
+    "lng": -117.45,
+    "population": 72000
+  },
+  {
+    "zip": "92336",
+    "city": "Fontana",
+    "city_slug": "fontana",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 34.13,
+    "lng": -117.43,
+    "population": 68000
   }
 ]

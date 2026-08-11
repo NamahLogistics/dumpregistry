@@ -772,5 +772,131 @@
     "lat": 35.0456,
     "lng": -85.3097,
     "population": 181099
+  },
+  {
+    "city": "Scottsdale",
+    "city_slug": "scottsdale",
+    "state": "AZ",
+    "state_slug": "arizona",
+    "lat": 33.4942,
+    "lng": -111.9261,
+    "population": 241361
+  },
+  {
+    "city": "Plano",
+    "city_slug": "plano",
+    "state": "TX",
+    "state_slug": "texas",
+    "lat": 33.0198,
+    "lng": -96.6989,
+    "population": 285494
+  },
+  {
+    "city": "Winston-Salem",
+    "city_slug": "winston-salem",
+    "state": "NC",
+    "state_slug": "north-carolina",
+    "lat": 36.0999,
+    "lng": -80.2442,
+    "population": 249545
+  },
+  {
+    "city": "Chesapeake",
+    "city_slug": "chesapeake",
+    "state": "VA",
+    "state_slug": "virginia",
+    "lat": 36.7682,
+    "lng": -76.2875,
+    "population": 249422
+  },
+  {
+    "city": "Irving",
+    "city_slug": "irving",
+    "state": "TX",
+    "state_slug": "texas",
+    "lat": 32.814,
+    "lng": -96.9489,
+    "population": 256684
+  },
+  {
+    "city": "Garland",
+    "city_slug": "garland",
+    "state": "TX",
+    "state_slug": "texas",
+    "lat": 32.9126,
+    "lng": -96.6389,
+    "population": 246018
+  },
+  {
+    "city": "Jersey City",
+    "city_slug": "jersey-city",
+    "state": "NJ",
+    "state_slug": "new-jersey",
+    "lat": 40.7178,
+    "lng": -74.0431,
+    "population": 292449
+  },
+  {
+    "city": "Chandler",
+    "city_slug": "chandler",
+    "state": "AZ",
+    "state_slug": "arizona",
+    "lat": 33.3062,
+    "lng": -111.8413,
+    "population": 275987
+  },
+  {
+    "city": "Henderson",
+    "city_slug": "henderson",
+    "state": "NV",
+    "state_slug": "nevada",
+    "lat": 36.0395,
+    "lng": -114.9817,
+    "population": 320189
+  },
+  {
+    "city": "Fremont",
+    "city_slug": "fremont",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 37.5485,
+    "lng": -121.9886,
+    "population": 230504
+  },
+  {
+    "city": "Hialeah",
+    "city_slug": "hialeah",
+    "state": "FL",
+    "state_slug": "florida",
+    "lat": 25.8576,
+    "lng": -80.2781,
+    "population": 223109
+  },
+  {
+    "city": "Glendale",
+    "city_slug": "glendale",
+    "state": "AZ",
+    "state_slug": "arizona",
+    "lat": 33.5387,
+    "lng": -112.186,
+    "population": 248325
+  },
+  {
+    "city": "Yonkers",
+    "city_slug": "yonkers",
+    "state": "NY",
+    "state_slug": "new-york",
+    "lat": 40.9312,
+    "lng": -73.8987,
+    "population": 211569
+  },
+  {
+    "city": "Fontana",
+    "city_slug": "fontana",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 34.0922,
+    "lng": -117.435,
+    "population": 208393
   }
 ]
