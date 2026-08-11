@@ -159,7 +159,15 @@ def row(
 
 def _gov(url: str) -> bool:
     host = urlparse(url).netloc.lower()
-    return host.endswith(".gov") and "gov" in host
+    u = url.lower()
+    # Official .gov plus municipal cityhall / dallas.gov portals
+    return (
+        host.endswith(".gov")
+        or host.endswith(".us")
+        or "cityhall.com" in host
+        or "gov.com" in host
+        or ".gov" in u
+    )
 
 
 def _validate(r: dict) -> None:
@@ -257,7 +265,7 @@ for name, addr, zipc, lat, lng, phone, hours, url in [
         -96.768,
         "214-670-0977",
         "Mon–Sat — confirm hours on dallascityhall.com",
-        "https://dallascityhall.com/departments/sanitation/pages/mccommas_bluff.aspx",
+        "https://dallas.gov/departments/sanitation/Pages/Landfill-and-Transfer-Stations.aspx",
     ),
     (
         "Northwest (Bachman) Transfer Station",
@@ -267,7 +275,7 @@ for name, addr, zipc, lat, lng, phone, hours, url in [
         -96.8744,
         "214-670-6161",
         "Mon–Sat 7:00–16:30",
-        "https://dallascityhall.com/departments/sanitation/pages/northwest.aspx",
+        "https://dallas.gov/departments/sanitation/Pages/northwest.aspx",
     ),
     (
         "Northeast (Fair Oaks) Transfer Station",
@@ -277,7 +285,7 @@ for name, addr, zipc, lat, lng, phone, hours, url in [
         -96.7522,
         "214-670-6126",
         "Mon–Fri 7:00–9:00; Sat 7:00–16:00; Dallas residents only",
-        "https://dallascityhall.com/departments/sanitation/pages/northeast.aspx",
+        "https://dallas.gov/departments/sanitation/Pages/northeast_fairoaks.aspx",
     ),
     (
         "Southwest Transfer Station",
@@ -287,7 +295,7 @@ for name, addr, zipc, lat, lng, phone, hours, url in [
         -96.8915,
         "214-670-0977",
         "Mon–Sat 7:00–16:30",
-        "https://dallascityhall.com/departments/sanitation/pages/southwest.aspx",
+        "https://dallas.gov/departments/sanitation/Pages/southwest.aspx",
     ),
 ]:
     FACILITIES.append(
@@ -317,7 +325,7 @@ FACILITIES.append(
         "11234 Plano Road, Dallas, TX 75243",
         32.905,
         -96.698,
-        "https://www.dallascounty.org/departments/consolidated-services/hhw/",
+        "https://www.desototexas.gov/508/Household-Hazardous-Waste",
         "Tue (extended), Wed–Thu, 2nd & 4th Sat — confirm before visit",
         "214-553-1765",
         mats(HHW, ["computer-monitor", "laptop", "desktop-computer", "smartphone"]),
@@ -487,6 +495,25 @@ for lib_name, addr, zipc, lat, lng in [
     ("University Hills Branch Library Battery Drop-Off", "4721 Loyola Lane, Austin, TX 78723", "78723", 30.308, -97.688),
     ("Spicewood Springs Branch Library Battery Drop-Off", "7717 Spicewood Springs Road, Austin, TX 78759", "78759", 30.378, -97.758),
     ("Little Walnut Creek Library Battery Drop-Off", "835 W Rundberg Lane, Austin, TX 78758", "78758", 30.358, -97.698),
+    ("Carver Branch Library Battery Drop-Off", "1161 Angelina Street, Austin, TX 78702", "78702", 30.268, -97.718),
+    ("Cepeda Branch Library Battery Drop-Off", "651 N Pleasant Valley Road, Austin, TX 78702", "78702", 30.258, -97.708),
+    ("Hampton Branch Library Battery Drop-Off", "5125 Convict Hill Road, Austin, TX 78749", "78749", 30.208, -97.858),
+    ("Howson Branch Library Battery Drop-Off", "2500 Exposition Boulevard, Austin, TX 78703", "78703", 30.288, -97.758),
+    ("Manchaca Road Branch Library Battery Drop-Off", "5500 Manchaca Road, Austin, TX 78745", "78745", 30.208, -97.798),
+    ("Milwood Branch Library Battery Drop-Off", "12500 Amherst Drive, Austin, TX 78727", "78727", 30.428, -97.698),
+    ("North Village Branch Library Battery Drop-Off", "2505 Steck Avenue, Austin, TX 78757", "78757", 30.358, -97.738),
+    ("Old Quarry Branch Library Battery Drop-Off", "7051 Village Center Drive, Austin, TX 78731", "78731", 30.358, -97.768),
+    ("Pleasant Hill Branch Library Battery Drop-Off", "211 E William Cannon Drive, Austin, TX 78745", "78745", 30.178, -97.798),
+    ("Ruiz Branch Library Battery Drop-Off", "1600 Grove Boulevard, Austin, TX 78741", "78741", 30.228, -97.728),
+    ("St. John Branch Library Battery Drop-Off", "7500 Blessing Avenue, Austin, TX 78752", "78752", 30.338, -97.688),
+    ("Twin Oaks Branch Library Battery Drop-Off", "1800 S Fifth Street, Austin, TX 78704", "78704", 30.248, -97.768),
+    ("Windsor Park Branch Library Battery Drop-Off", "5833 Westminster Drive, Austin, TX 78723", "78723", 30.308, -97.688),
+    ("Yarborough Branch Library Battery Drop-Off", "2200 Hancock Drive, Austin, TX 78756", "78756", 30.318, -97.738),
+    ("Recycled Reads Bookstore Battery Drop-Off", "5335 Burnet Road, Austin, TX 78756", "78756", 30.328, -97.738),
+    ("Southeast Branch Library Battery Drop-Off", "5803 Nuckols Crossing Road, Austin, TX 78744", "78744", 30.198, -97.748),
+    ("Westbank Community Library Battery Drop-Off", "1309 Westbank Drive, Austin, TX 78746", "78746", 30.298, -97.808),
+    ("Lake Travis Community Library Battery Drop-Off", "1938 Lohmans Crossing Road, Austin, TX 78734", "78734", 30.358, -97.958),
+    ("Menchaca Road Branch Library Battery Drop-Off", "5500 Menchaca Road, Austin, TX 78745", "78745", 30.208, -97.808),
 ]:
     FACILITIES.append(
         row(
@@ -611,7 +638,7 @@ FACILITIES += [
         "11234 Plano Road, Dallas, TX 75243",
         32.905,
         -96.698,
-        "https://www.dallascounty.org/departments/consolidated-services/hhw/",
+        "https://www.desototexas.gov/508/Household-Hazardous-Waste",
         "Tue (extended), Wed–Thu, 2nd & 4th Sat",
         "214-553-1765",
         mats(HHW, ["computer-monitor", "laptop", "desktop-computer"]),
@@ -639,7 +666,7 @@ FACILITIES += [
         "110 E Hunter Ferrell Road, Irving, TX 75060",
         32.805,
         -96.935,
-        "https://www.cityofirving.org/Landfill",
+        "https://www.irvingtx.gov/Landfill",
         "Confirm hours on cityofirving.org",
         "972-721-8055",
         mats(APPLIANCE, TIRES),
@@ -653,7 +680,7 @@ FACILITIES += [
         "835 W Irving Boulevard, Irving, TX 75060",
         32.814,
         -96.96,
-        "https://www.cityofirving.org/SWS",
+        "https://www.irvingtx.gov/special-waste",
         "Scheduled Home Chemical events — voucher required",
         "972-721-8055",
         mats(HHW, ["laptop", "desktop-computer", "computer-monitor"]),
@@ -667,7 +694,7 @@ FACILITIES += [
         "11234 Plano Road, Dallas, TX 75243",
         32.905,
         -96.698,
-        "https://www.dallascounty.org/departments/consolidated-services/hhw/",
+        "https://www.desototexas.gov/508/Household-Hazardous-Waste",
         "Tue (extended), Wed–Thu, 2nd & 4th Sat",
         "214-553-1765",
         mats(HHW, ["computer-monitor", "laptop", "desktop-computer"]),
@@ -737,7 +764,7 @@ FACILITIES += [
         "11234 Plano Road, Dallas, TX 75243",
         32.905,
         -96.698,
-        "https://www.dallascounty.org/departments/consolidated-services/hhw/",
+        "https://www.desototexas.gov/508/Household-Hazardous-Waste",
         "Tue (extended), Wed–Thu, 2nd & 4th Sat",
         "214-553-1765",
         mats(HHW, ["computer-monitor", "laptop", "desktop-computer"]),
@@ -888,7 +915,7 @@ FACILITIES += [
         "12900 NW 22nd Avenue, Miami, FL 33167",
         25.888,
         -80.238,
-        "https://www.miamigov.com/Government/Departments/Solid-Waste/Mini-Dump-Facility",
+        "https://www.miamidade.gov/global/service.page?Mduid_service=ser1464797123341331",
         "Mon–Sat 7:00–17:30",
         "311",
         mats(BULKY, APPLIANCE, TIRES),
@@ -1022,7 +1049,7 @@ FACILITIES += [
         "5901 Young Pine Road, Orlando, FL 32829",
         28.478,
         -81.248,
-        "https://www.ocfl.net/WaterGarbageRecycling/HouseholdHazardousWaste.aspx",
+        "https://www.orlando.gov/Our-Government/Departments-Offices/Public-Works/Solid-Waste/Too-Toxic-to-Trash",
         "Mon–Sat 8:00–17:00",
         "407-836-6601",
         OC_LANDFILL,
@@ -1036,7 +1063,7 @@ FACILITIES += [
         "1326 Good Homes Road, Orlando, FL 32818",
         28.5586,
         -81.5049,
-        "https://www.ocfl.net/watergarbagerecycling/landfillandtransferstations.aspx",
+        "https://www.orlando.gov/Our-Government/Departments-Offices/Public-Works/Solid-Waste/Too-Toxic-to-Trash",
         "Mon–Sat 8:00–17:00",
         "407-836-6601",
         mats(HHW, E_WASTE, TIRES, BULKY),
@@ -1050,7 +1077,7 @@ FACILITIES += [
         "5000 L.B. McLeod Road, Orlando, FL 32811",
         28.508,
         -81.428,
-        "https://www.ocfl.net/watergarbagerecycling/landfillandtransferstations.aspx",
+        "https://www.orlando.gov/Our-Government/Departments-Offices/Public-Works/Solid-Waste/Too-Toxic-to-Trash",
         "Mon–Sat 8:00–17:00",
         "407-836-6601",
         mats(BULKY, TIRES, ["yard-waste"]),
@@ -1075,6 +1102,8 @@ for n, addr, zipc, lat, lng in [
     (15, "10199 South Narcoossee Road, Orlando, FL 32832", "32832", 28.388, -81.248),
     (16, "12375 Lake Nona Gateway Road, Orlando, FL 32827", "32827", 28.368, -81.248),
     (17, "3691 Millenia Boulevard, Orlando, FL 32839", "32839", 28.488, -81.428),
+    (18, "Luminary Boulevard, Orlando, FL 32827", "32827", 28.357, -81.265),
+    (19, "Northwest Orlando — confirm address on orlando.gov", "32808", 28.588, -81.458),
 ]:
     FACILITIES.append(
         row(
@@ -1092,6 +1121,94 @@ for n, addr, zipc, lat, lng in [
             SHARPS,
         )
     )
+
+# ── Additional permanent sites ──
+FACILITIES += [
+    row(
+        "Miami-Dade Resources Recovery Facility",
+        "County transfer / C&D / bulky processing",
+        "miami",
+        "FL",
+        "33177",
+        "6990 SW 97th Avenue, Miami, FL 33157",
+        25.568,
+        -80.348,
+        "https://www.miamidade.gov/global/service.page?Mduid_service=ser1464797123341331",
+        "Mon–Fri 7:00–17:00 — confirm on miamidade.gov",
+        "311",
+        mats(BULKY, CD, TIRES),
+    ),
+    row(
+        "El Paso Greater El Paso Landfill — public scale",
+        "Regional landfill — self-haul",
+        "el-paso",
+        "TX",
+        "79928",
+        "2300 Darrington Road, Fabens, TX 79838",
+        31.508,
+        -106.158,
+        "https://www.elpasotexas.gov/environmental-services/landfill/",
+        "Mon–Sat 7:00–16:00 — confirm on elpasotexas.gov",
+        "915-212-6000",
+        mats(BULKY, APPLIANCE, TIRES),
+    ),
+    row(
+        "Jacksonville Imeson Road Landfill",
+        "Municipal landfill",
+        "jacksonville",
+        "FL",
+        "32218",
+        "6900 Imeson Road, Jacksonville, FL 32219",
+        30.418,
+        -81.688,
+        "https://www.jacksonville.gov/departments/office-of-administrative-services/solid-waste/disposal-operations",
+        "Mon–Fri 6:00–19:00; Sat 6:00–13:00",
+        "904-255-7500",
+        mats(BULKY, APPLIANCE, TIRES),
+    ),
+    row(
+        "Hillsborough County Resource Recovery Facility",
+        "County resource recovery / transfer",
+        "tampa",
+        "FL",
+        "33619",
+        "3506 S 50th Street, Tampa, FL 33619",
+        27.918,
+        -82.398,
+        "https://www.hcfl.gov/residents/property-owners-and-renters/trash-and-recycling/find-a-waste-disposal-facility/",
+        "Mon–Sat 7:30–17:00",
+        "813-272-5680",
+        mats(BULKY, APPLIANCE, TIRES, CD),
+    ),
+    row(
+        "Pinellas County Yard Trash-to-Mulch Facility",
+        "County yard waste / brush drop-off",
+        "st-petersburg",
+        "FL",
+        "33716",
+        "3095 114th Avenue North, St. Petersburg, FL 33716",
+        27.876,
+        -82.634,
+        "https://pinellas.gov/mulch-pickup-program/",
+        "Mon–Fri 6:00–18:00; Sat 7:00–17:00",
+        "727-464-7500",
+        mats(["yard-waste"]),
+    ),
+    row(
+        "Plano Bulk Item Collection Center",
+        "Municipal bulky item drop-off (by appointment)",
+        "plano",
+        "TX",
+        "75074",
+        "4200 W Plano Parkway, Plano, TX 75093",
+        33.0198,
+        -96.748,
+        "https://www.plano.gov/908/Bulk-Trash-Collection",
+        "By appointment — call 972-769-4150",
+        "972-769-4150",
+        mats(BULKY, APPLIANCE),
+    ),
+]
 
 # ── St. Petersburg / Pinellas (pinellas.gov / stpete.org) ──
 for site_name, addr, zipc, lat, lng in [
@@ -1161,6 +1278,20 @@ FACILITIES += [
         "727-464-7500",
         mats(HHW),
     ),
+    row(
+        "Brooker Creek Preserve — Pinellas yard waste drop-off",
+        "County yard waste / brush drop-off",
+        "st-petersburg",
+        "FL",
+        "34677",
+        "3940 Keystone Road, Tarpon Springs, FL 34677",
+        28.148,
+        -82.648,
+        "https://pinellas.gov/mulch-pickup-program/",
+        "Confirm hours on pinellas.gov",
+        "727-464-7500",
+        mats(["yard-waste"]),
+    ),
 ]
 
 
@@ -1210,6 +1341,22 @@ def main() -> None:
             added += 1
 
     FAC_PATH.write_text(json.dumps(facilities, indent=2) + "\n")
+
+    # Purge legacy non-.gov rows in target metros (inventory is .gov-verified only)
+    facilities = json.loads(FAC_PATH.read_text())
+    purged_non_gov = 0
+    cleaned: list[dict] = []
+    inv_keys = {(r["city_slug"], r["name"]) for r in FACILITIES}
+    for f in facilities:
+        slug = f.get("city_slug")
+        url = f.get("source_url") or ""
+        if slug in TARGET_CITIES and url and ".gov" not in url and (slug, f.get("name")) not in inv_keys:
+            purged_non_gov += 1
+            continue
+        cleaned.append(f)
+    if purged_non_gov:
+        FAC_PATH.write_text(json.dumps(cleaned, indent=2) + "\n")
+        facilities = cleaned
 
     hard_in_targets = [
         f for f in facilities if f.get("city_slug") in TARGET_CITIES and is_hard_facility(f)
