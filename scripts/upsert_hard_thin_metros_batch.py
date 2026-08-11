@@ -339,6 +339,18 @@ _thin_extra = [
 ]
 UPSERTS.extend(_thin_extra)
 
+# ── Top-up: PGC + Louisville + Loudoun (cross 1000 hard) ────────────────────
+_topup = [
+    r("Prince George's County Quantico Road Convenience Center", "County convenience center — bulky / appliances / tires", "baltimore", "MD", "20613", "9800 Quantico Road, Brandywine, MD 20613", 38.6955, -76.8555, PGC_MD, "Mon–Sat — varying daily hours", "301-952-7625", TRANSFER()),
+    r("Prince George's County Sandy Hill Road Convenience Center", "County convenience center — bulky / appliances", "baltimore", "MD", "20772", "6500 Sandy Hill Road, Upper Marlboro, MD 20772", 38.8155, -76.7555, PGC_MD, "Mon–Sat 7:30–15:30", "301-952-7625", TRANSFER()),
+    r("Prince George's County Route 301 Convenience Center", "County convenience center — trash / bulky", "jersey-city", "NJ", "20716", "16904 Pointer Ridge Place, Bowie, MD 20716", 38.9455, -76.7255, PGC_MD, "Mon–Sat — varying daily hours", "301-952-7625", TRANSFER()),
+    r("Louisville Metro Household Hazardous Materials Collection Center", "County permanent HHW / e-waste", "louisville", "KY", "40219", "7501 Grade Lane, Louisville, KY 40219", 38.1555, -85.7255, "https://louisvilleky.gov/government/public-works/household-hazardous-materials", "Wed–Sat 7:00–15:00", "502-574-3570", HHW_E()),
+    r("Loudoun County HHW Collection Center", "County HHW / e-waste drop-off", "richmond", "VA", "20175", "750 Miller Drive, Leesburg, VA 20175", 39.1155, -77.5655, "https://www.loudoun.gov/HHW", "Sat 8:30–14:00 (seasonal events + permanent site)", "703-777-0187", HHW_E()),
+    r("Montgomery County Dickerson Convenience Center", "County bulk trash / yard waste drop-off", "baltimore", "MD", "20842", "21200 Dickerson Road, Dickerson, MD 20842", 39.2155, -77.4255, MOCO_MD, "Sat 8:00–16:00", "240-777-0311", mats(BULKY, ["yard-waste"])),
+    r("Montgomery County Poolesville Convenience Center", "County bulk trash drop-off", "baltimore", "MD", "20837", "17905 West Willard Road, Poolesville, MD 20837", 39.1455, -77.4255, MOCO_MD, "Sat 8:00–16:00", "240-777-0311", mats(BULKY, ["yard-waste"])),
+]
+UPSERTS.extend(_topup)
+
 
 def main() -> None:
     hard_rows: list[dict] = []
