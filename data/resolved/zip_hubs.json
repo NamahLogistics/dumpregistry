@@ -21,7 +21,34 @@
         "lng": -118.2437,
         "source_url": "https://lacity.gov/residents/trash-recycling",
         "hours": "Open weekends (confirm location hours before visiting)",
-        "phone": "1-800-773-2489"
+        "phone": "1-800-773-2489",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil",
+          "television",
+          "computer-monitor",
+          "laptop",
+          "desktop-computer",
+          "printer",
+          "tablet",
+          "smartphone",
+          "microwave",
+          "hard-drive",
+          "e-waste-mixed",
+          "ink-toner"
+        ]
       }
     ]
   },
@@ -47,7 +74,34 @@
         "lng": -118.2437,
         "source_url": "https://lacity.gov/residents/trash-recycling",
         "hours": "Open weekends (confirm location hours before visiting)",
-        "phone": "1-800-773-2489"
+        "phone": "1-800-773-2489",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil",
+          "television",
+          "computer-monitor",
+          "laptop",
+          "desktop-computer",
+          "printer",
+          "tablet",
+          "smartphone",
+          "microwave",
+          "hard-drive",
+          "e-waste-mixed",
+          "ink-toner"
+        ]
       }
     ]
   },
@@ -73,7 +127,34 @@
         "lng": -118.2437,
         "source_url": "https://lacity.gov/residents/trash-recycling",
         "hours": "Open weekends (confirm location hours before visiting)",
-        "phone": "1-800-773-2489"
+        "phone": "1-800-773-2489",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil",
+          "television",
+          "computer-monitor",
+          "laptop",
+          "desktop-computer",
+          "printer",
+          "tablet",
+          "smartphone",
+          "microwave",
+          "hard-drive",
+          "e-waste-mixed",
+          "ink-toner"
+        ]
       }
     ]
   },
@@ -99,7 +180,34 @@
         "lng": -117.15,
         "source_url": "https://www.sandiego.gov/environmental-services/ep/hazardous",
         "hours": "Wed & Sat 9:00\u201315:00 by appointment (except holidays)",
-        "phone": "858-694-7000"
+        "phone": "858-694-7000",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil",
+          "television",
+          "computer-monitor",
+          "laptop",
+          "desktop-computer",
+          "printer",
+          "tablet",
+          "smartphone",
+          "microwave",
+          "hard-drive",
+          "e-waste-mixed",
+          "ink-toner"
+        ]
       }
     ]
   },
@@ -125,7 +233,34 @@
         "lng": -117.15,
         "source_url": "https://www.sandiego.gov/environmental-services/ep/hazardous",
         "hours": "Wed & Sat 9:00\u201315:00 by appointment (except holidays)",
-        "phone": "858-694-7000"
+        "phone": "858-694-7000",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil",
+          "television",
+          "computer-monitor",
+          "laptop",
+          "desktop-computer",
+          "printer",
+          "tablet",
+          "smartphone",
+          "microwave",
+          "hard-drive",
+          "e-waste-mixed",
+          "ink-toner"
+        ]
       }
     ]
   },
@@ -151,7 +286,34 @@
         "lng": -121.8863,
         "source_url": "https://hhw.santaclaracounty.gov/drop-household-waste",
         "hours": "Typically Thu\u2013Sat by appointment (see county schedule)",
-        "phone": "(408) 299-7300"
+        "phone": "(408) 299-7300",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil",
+          "television",
+          "computer-monitor",
+          "laptop",
+          "desktop-computer",
+          "printer",
+          "tablet",
+          "smartphone",
+          "microwave",
+          "hard-drive",
+          "e-waste-mixed",
+          "ink-toner"
+        ]
       }
     ]
   },
@@ -177,7 +339,34 @@
         "lng": -121.8863,
         "source_url": "https://hhw.santaclaracounty.gov/drop-household-waste",
         "hours": "Typically Thu\u2013Sat by appointment (see county schedule)",
-        "phone": "(408) 299-7300"
+        "phone": "(408) 299-7300",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil",
+          "television",
+          "computer-monitor",
+          "laptop",
+          "desktop-computer",
+          "printer",
+          "tablet",
+          "smartphone",
+          "microwave",
+          "hard-drive",
+          "e-waste-mixed",
+          "ink-toner"
+        ]
       }
     ]
   },
@@ -203,7 +392,23 @@
         "lng": -122.4019,
         "source_url": "https://www.recology.com/recology-san-francisco/hazardous-waste/",
         "hours": "Thu\u2013Sat 8:00\u201316:00",
-        "phone": "415-330-1400"
+        "phone": "415-330-1400",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil"
+        ]
       }
     ]
   },
@@ -229,7 +434,23 @@
         "lng": -122.4019,
         "source_url": "https://www.recology.com/recology-san-francisco/hazardous-waste/",
         "hours": "Thu\u2013Sat 8:00\u201316:00",
-        "phone": "415-330-1400"
+        "phone": "415-330-1400",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil"
+        ]
       }
     ]
   },
@@ -255,7 +476,34 @@
         "lng": -121.41,
         "source_url": "https://www.cityofsacramento.gov/public-works/recycling-solid-waste/Householdhazardouswaste/HHWfacilities",
         "hours": "Tue\u2013Sat 8:00\u201317:00",
-        "phone": "(916) 379-0500"
+        "phone": "(916) 379-0500",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil",
+          "television",
+          "computer-monitor",
+          "laptop",
+          "desktop-computer",
+          "printer",
+          "tablet",
+          "smartphone",
+          "microwave",
+          "hard-drive",
+          "e-waste-mixed",
+          "ink-toner"
+        ]
       }
     ]
   },
@@ -281,7 +529,34 @@
         "lng": -121.41,
         "source_url": "https://www.cityofsacramento.gov/public-works/recycling-solid-waste/Householdhazardouswaste/HHWfacilities",
         "hours": "Tue\u2013Sat 8:00\u201317:00",
-        "phone": "(916) 379-0500"
+        "phone": "(916) 379-0500",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil",
+          "television",
+          "computer-monitor",
+          "laptop",
+          "desktop-computer",
+          "printer",
+          "tablet",
+          "smartphone",
+          "microwave",
+          "hard-drive",
+          "e-waste-mixed",
+          "ink-toner"
+        ]
       }
     ]
   },
@@ -307,7 +582,34 @@
         "lng": -122.24,
         "source_url": "https://www.stopwaste.org/recycling-disposal/hazardous-waste/household-hazardous-waste",
         "hours": "Wed\u2013Fri 9:00\u201314:30; Sat 9:00\u201316:00",
-        "phone": "1-800-606-6606"
+        "phone": "1-800-606-6606",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil",
+          "television",
+          "computer-monitor",
+          "laptop",
+          "desktop-computer",
+          "printer",
+          "tablet",
+          "smartphone",
+          "microwave",
+          "hard-drive",
+          "e-waste-mixed",
+          "ink-toner"
+        ]
       }
     ]
   },
@@ -333,7 +635,34 @@
         "lng": -122.24,
         "source_url": "https://www.stopwaste.org/recycling-disposal/hazardous-waste/household-hazardous-waste",
         "hours": "Wed\u2013Fri 9:00\u201314:30; Sat 9:00\u201316:00",
-        "phone": "1-800-606-6606"
+        "phone": "1-800-606-6606",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil",
+          "television",
+          "computer-monitor",
+          "laptop",
+          "desktop-computer",
+          "printer",
+          "tablet",
+          "smartphone",
+          "microwave",
+          "hard-drive",
+          "e-waste-mixed",
+          "ink-toner"
+        ]
       }
     ]
   },
@@ -359,7 +688,34 @@
         "lng": -119.81,
         "source_url": "https://cleanupfresnocounty.com/drop-off-locations/",
         "hours": "Confirm Thu\u2013Sat or Fri\u2013Sat 9:00\u201315:00 (call before visit)",
-        "phone": "(559) 600-4259"
+        "phone": "(559) 600-4259",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil",
+          "television",
+          "computer-monitor",
+          "laptop",
+          "desktop-computer",
+          "printer",
+          "tablet",
+          "smartphone",
+          "microwave",
+          "hard-drive",
+          "e-waste-mixed",
+          "ink-toner"
+        ]
       }
     ]
   },
@@ -385,7 +741,34 @@
         "lng": -118.29,
         "source_url": "https://longbeach.gov/lbrecycles/hazardous-waste/household-hazardous-waste/hhw-101/",
         "hours": "Sat\u2013Sun 9:00\u201315:00",
-        "phone": "1-800-988-6942"
+        "phone": "1-800-988-6942",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil",
+          "television",
+          "computer-monitor",
+          "laptop",
+          "desktop-computer",
+          "printer",
+          "tablet",
+          "smartphone",
+          "microwave",
+          "hard-drive",
+          "e-waste-mixed",
+          "ink-toner"
+        ]
       }
     ]
   },
@@ -411,7 +794,34 @@
         "lng": -119.019,
         "source_url": "https://www.kernpublicworks.com/services/solid-waste/hazardous-waste/residential-hazardous-waste",
         "hours": "Mon\u2013Sat 8:00\u201316:00",
-        "phone": "(661) 862-8900"
+        "phone": "(661) 862-8900",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil",
+          "television",
+          "computer-monitor",
+          "laptop",
+          "desktop-computer",
+          "printer",
+          "tablet",
+          "smartphone",
+          "microwave",
+          "hard-drive",
+          "e-waste-mixed",
+          "ink-toner"
+        ]
       }
     ]
   },
@@ -437,7 +847,34 @@
         "lng": -117.85,
         "source_url": "https://oclandfills.com/hhw",
         "hours": "Tue\u2013Sat 9:00\u201315:00",
-        "phone": "714-834-4000"
+        "phone": "714-834-4000",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil",
+          "television",
+          "computer-monitor",
+          "laptop",
+          "desktop-computer",
+          "printer",
+          "tablet",
+          "smartphone",
+          "microwave",
+          "hard-drive",
+          "e-waste-mixed",
+          "ink-toner"
+        ]
       }
     ]
   },
@@ -463,7 +900,34 @@
         "lng": -117.85,
         "source_url": "https://oclandfills.com/hhw",
         "hours": "Tue\u2013Sat 9:00\u201315:00",
-        "phone": "714-834-4000"
+        "phone": "714-834-4000",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil",
+          "television",
+          "computer-monitor",
+          "laptop",
+          "desktop-computer",
+          "printer",
+          "tablet",
+          "smartphone",
+          "microwave",
+          "hard-drive",
+          "e-waste-mixed",
+          "ink-toner"
+        ]
       }
     ]
   },
@@ -489,7 +953,34 @@
         "lng": -117.4,
         "source_url": "https://rcwaste.org/agua-mansa-permanent-hhw-facility",
         "hours": "Non-holiday Saturdays 9:00\u201314:00",
-        "phone": "951-486-3200"
+        "phone": "951-486-3200",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil",
+          "television",
+          "computer-monitor",
+          "laptop",
+          "desktop-computer",
+          "printer",
+          "tablet",
+          "smartphone",
+          "microwave",
+          "hard-drive",
+          "e-waste-mixed",
+          "ink-toner"
+        ]
       }
     ]
   },
@@ -515,7 +1006,34 @@
         "lng": -121.248,
         "source_url": "https://www.stocktonca.gov/services/garbage___recycling/hazardous_waste/index.php",
         "hours": "Thu\u2013Sun 9:00\u201315:00 (major holiday closures)",
-        "phone": "(209) 468-3066"
+        "phone": "(209) 468-3066",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil",
+          "television",
+          "computer-monitor",
+          "laptop",
+          "desktop-computer",
+          "printer",
+          "tablet",
+          "smartphone",
+          "microwave",
+          "hard-drive",
+          "e-waste-mixed",
+          "ink-toner"
+        ]
       }
     ]
   },
@@ -541,7 +1059,34 @@
         "lng": -117.76,
         "source_url": "https://cityofirvine.org/sustainability-division/household-hazardous-waste",
         "hours": "Tue\u2013Sat 9:00\u201315:00",
-        "phone": "714-834-4000"
+        "phone": "714-834-4000",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil",
+          "television",
+          "computer-monitor",
+          "laptop",
+          "desktop-computer",
+          "printer",
+          "tablet",
+          "smartphone",
+          "microwave",
+          "hard-drive",
+          "e-waste-mixed",
+          "ink-toner"
+        ]
       }
     ]
   },
@@ -567,7 +1112,34 @@
         "lng": -117.03,
         "source_url": "https://www.chulavistaca.gov/departments/clean/environmental-services/hazardous-waste",
         "hours": "Wed & Sat 9:00\u201313:00",
-        "phone": "(619) 691-5122"
+        "phone": "(619) 691-5122",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil",
+          "television",
+          "computer-monitor",
+          "laptop",
+          "desktop-computer",
+          "printer",
+          "tablet",
+          "smartphone",
+          "microwave",
+          "hard-drive",
+          "e-waste-mixed",
+          "ink-toner"
+        ]
       }
     ]
   },
@@ -593,7 +1165,34 @@
         "lng": -95.485,
         "source_url": "https://www.houstontx.gov/solidwaste/esc.html",
         "hours": "Tue, Wed, Fri, Sat 8:00\u201317:00",
-        "phone": "713-551-7355"
+        "phone": "713-551-7355",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil",
+          "television",
+          "computer-monitor",
+          "laptop",
+          "desktop-computer",
+          "printer",
+          "tablet",
+          "smartphone",
+          "microwave",
+          "hard-drive",
+          "e-waste-mixed",
+          "ink-toner"
+        ]
       },
       {
         "name": "Houston Environmental Service Center \u2014 North",
@@ -606,7 +1205,34 @@
         "lng": -95.333,
         "source_url": "https://www.houstontx.gov/solidwaste/esc.html",
         "hours": "Second Thursday each month 9:00\u201315:00",
-        "phone": "713-551-7355"
+        "phone": "713-551-7355",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil",
+          "television",
+          "computer-monitor",
+          "laptop",
+          "desktop-computer",
+          "printer",
+          "tablet",
+          "smartphone",
+          "microwave",
+          "hard-drive",
+          "e-waste-mixed",
+          "ink-toner"
+        ]
       }
     ]
   },
@@ -632,7 +1258,34 @@
         "lng": -96.702,
         "source_url": "https://dallascityhall.com/departments/sanitation/Pages/home_chemical.aspx",
         "hours": "Tue extended; Wed\u2013Thu daytime; 2nd & 4th Sat (confirm)",
-        "phone": "214-553-1765"
+        "phone": "214-553-1765",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil",
+          "television",
+          "computer-monitor",
+          "laptop",
+          "desktop-computer",
+          "printer",
+          "tablet",
+          "smartphone",
+          "microwave",
+          "hard-drive",
+          "e-waste-mixed",
+          "ink-toner"
+        ]
       }
     ]
   },
@@ -658,7 +1311,20 @@
         "lng": -73.944,
         "source_url": "https://www.nyc.gov/site/dsny/what-we-do/programs/special-waste-drop-off.page",
         "hours": "Tue\u2013Sat 9:00\u201315:00; NYC residents only",
-        "phone": "311"
+        "phone": "311",
+        "accepted_materials": [
+          "television",
+          "computer-monitor",
+          "laptop",
+          "desktop-computer",
+          "printer",
+          "tablet",
+          "smartphone",
+          "microwave",
+          "hard-drive",
+          "e-waste-mixed",
+          "ink-toner"
+        ]
       }
     ]
   },
@@ -684,7 +1350,26 @@
         "lng": -80.224,
         "source_url": "https://www.miami.gov/My-Home-Neighborhood/Garbage-Recycling/About-Mini-Dump-and-Bulky-Trash",
         "hours": "Mon\u2013Fri 8:00\u201316:00; Sat 8:00\u201312:00",
-        "phone": "311"
+        "phone": "311",
+        "accepted_materials": [
+          "television",
+          "computer-monitor",
+          "laptop",
+          "desktop-computer",
+          "printer",
+          "tablet",
+          "smartphone",
+          "microwave",
+          "hard-drive",
+          "e-waste-mixed",
+          "ink-toner",
+          "mattress",
+          "box-spring",
+          "sofa",
+          "recliner",
+          "carpet",
+          "yard-waste"
+        ]
       },
       {
         "name": "Miami-Dade Home Chemical Collection Center \u2014 West Dade",
@@ -697,7 +1382,34 @@
         "lng": -80.338,
         "source_url": "https://www.miamidade.gov/global/service.page?Mduid_service=ser1464798615648535",
         "hours": "Wed\u2013Sun 9:00\u201317:00",
-        "phone": "311"
+        "phone": "311",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil",
+          "television",
+          "computer-monitor",
+          "laptop",
+          "desktop-computer",
+          "printer",
+          "tablet",
+          "smartphone",
+          "microwave",
+          "hard-drive",
+          "e-waste-mixed",
+          "ink-toner"
+        ]
       }
     ]
   },
@@ -723,7 +1435,34 @@
         "lng": -87.651,
         "source_url": "https://www.recyclebycity.com/chicago/notebook/household-chemicals-computer-recycling-facility",
         "hours": "Tue 7:00\u201312:00; Thu 14:00\u201319:00; first Sat 8:00\u201315:00",
-        "phone": "312-744-3060"
+        "phone": "312-744-3060",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil",
+          "television",
+          "computer-monitor",
+          "laptop",
+          "desktop-computer",
+          "printer",
+          "tablet",
+          "smartphone",
+          "microwave",
+          "hard-drive",
+          "e-waste-mixed",
+          "ink-toner"
+        ]
       }
     ]
   },
@@ -749,7 +1488,23 @@
         "lng": -112.074,
         "source_url": "https://www.phoenix.gov/administration/departments/publicworks/residential-trash-recycling/household-hazardous-waste-collection.html",
         "hours": "By appointment; set out by 7:00; collection 7:00\u201317:00",
-        "phone": "(602) 262-3111"
+        "phone": "(602) 262-3111",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil"
+        ]
       }
     ]
   },
@@ -775,7 +1530,23 @@
         "lng": -122.344,
         "source_url": "https://www.seattle.gov/utilities/your-services/collection-and-disposal/garbage/hazardous-waste-items/where-to-dispose-of-hazardous-waste",
         "hours": "Sun\u2013Tue 9:00\u201317:00",
-        "phone": "(206) 296-4692"
+        "phone": "(206) 296-4692",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil"
+        ]
       },
       {
         "name": "South Seattle Household Hazardous Waste Facility",
@@ -788,7 +1559,23 @@
         "lng": -122.328,
         "source_url": "https://www.seattle.gov/utilities/your-services/collection-and-disposal/garbage/hazardous-waste-items/where-to-dispose-of-hazardous-waste",
         "hours": "Thu\u2013Sat 9:00\u201317:00",
-        "phone": "(206) 296-4692"
+        "phone": "(206) 296-4692",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil"
+        ]
       }
     ]
   },
@@ -814,7 +1601,26 @@
         "lng": -75.2212,
         "source_url": "https://www.phila.gov/services/trash-recycling-city-upkeep/find-a-sanitation-convenience-center-to-drop-off-trash-or-recycling/",
         "hours": "Mon\u2013Sat 8:00\u201318:00",
-        "phone": "311"
+        "phone": "311",
+        "accepted_materials": [
+          "television",
+          "computer-monitor",
+          "laptop",
+          "desktop-computer",
+          "printer",
+          "tablet",
+          "smartphone",
+          "microwave",
+          "hard-drive",
+          "e-waste-mixed",
+          "ink-toner",
+          "mattress",
+          "box-spring",
+          "sofa",
+          "recliner",
+          "carpet",
+          "yard-waste"
+        ]
       }
     ]
   },
@@ -840,7 +1646,26 @@
         "lng": -75.2212,
         "source_url": "https://www.phila.gov/services/trash-recycling-city-upkeep/find-a-sanitation-convenience-center-to-drop-off-trash-or-recycling/",
         "hours": "Mon\u2013Sat 8:00\u201318:00",
-        "phone": "311"
+        "phone": "311",
+        "accepted_materials": [
+          "television",
+          "computer-monitor",
+          "laptop",
+          "desktop-computer",
+          "printer",
+          "tablet",
+          "smartphone",
+          "microwave",
+          "hard-drive",
+          "e-waste-mixed",
+          "ink-toner",
+          "mattress",
+          "box-spring",
+          "sofa",
+          "recliner",
+          "carpet",
+          "yard-waste"
+        ]
       }
     ]
   },
@@ -866,7 +1691,29 @@
         "lng": -98.6271,
         "source_url": "https://www.sa.gov/Directory/Departments/SWMD/HHW",
         "hours": "Tue\u2013Fri 8:00\u201317:00; Sat 8:00\u201312:00",
-        "phone": "210-207-6428"
+        "phone": "210-207-6428",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil",
+          "mattress",
+          "box-spring",
+          "sofa",
+          "recliner",
+          "carpet",
+          "yard-waste"
+        ]
       },
       {
         "name": "Bitters Bulky Waste Collection Center (San Antonio)",
@@ -879,7 +1726,15 @@
         "lng": -98.4948,
         "source_url": "https://www.sa.gov/Directory/Departments/SWMD/Brush-Bulky/Bulky-Drop-Off",
         "hours": "Tue\u2013Fri 8:00\u201317:00; Sat 8:00\u201312:00",
-        "phone": "210-207-6428"
+        "phone": "210-207-6428",
+        "accepted_materials": [
+          "mattress",
+          "box-spring",
+          "sofa",
+          "recliner",
+          "carpet",
+          "yard-waste"
+        ]
       }
     ]
   },
@@ -905,7 +1760,29 @@
         "lng": -98.6271,
         "source_url": "https://www.sa.gov/Directory/Departments/SWMD/HHW",
         "hours": "Tue\u2013Fri 8:00\u201317:00; Sat 8:00\u201312:00",
-        "phone": "210-207-6428"
+        "phone": "210-207-6428",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil",
+          "mattress",
+          "box-spring",
+          "sofa",
+          "recliner",
+          "carpet",
+          "yard-waste"
+        ]
       },
       {
         "name": "Bitters Bulky Waste Collection Center (San Antonio)",
@@ -918,7 +1795,15 @@
         "lng": -98.4948,
         "source_url": "https://www.sa.gov/Directory/Departments/SWMD/Brush-Bulky/Bulky-Drop-Off",
         "hours": "Tue\u2013Fri 8:00\u201317:00; Sat 8:00\u201312:00",
-        "phone": "210-207-6428"
+        "phone": "210-207-6428",
+        "accepted_materials": [
+          "mattress",
+          "box-spring",
+          "sofa",
+          "recliner",
+          "carpet",
+          "yard-waste"
+        ]
       }
     ]
   },
@@ -944,7 +1829,34 @@
         "lng": -97.7118,
         "source_url": "https://www.austintexas.gov/resource-recovery/locations/recycle-and-reuse-drop-center",
         "hours": "By appointment",
-        "phone": "512-974-2000"
+        "phone": "512-974-2000",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil",
+          "television",
+          "computer-monitor",
+          "laptop",
+          "desktop-computer",
+          "printer",
+          "tablet",
+          "smartphone",
+          "microwave",
+          "hard-drive",
+          "e-waste-mixed",
+          "ink-toner"
+        ]
       }
     ]
   },
@@ -970,7 +1882,34 @@
         "lng": -97.7118,
         "source_url": "https://www.austintexas.gov/resource-recovery/locations/recycle-and-reuse-drop-center",
         "hours": "By appointment",
-        "phone": "512-974-2000"
+        "phone": "512-974-2000",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil",
+          "television",
+          "computer-monitor",
+          "laptop",
+          "desktop-computer",
+          "printer",
+          "tablet",
+          "smartphone",
+          "microwave",
+          "hard-drive",
+          "e-waste-mixed",
+          "ink-toner"
+        ]
       }
     ]
   },
@@ -996,7 +1935,23 @@
         "lng": -80.9347,
         "source_url": "https://wipeoutwaste.mecknc.gov/",
         "hours": "Confirm on Wipe Out Waste before visiting",
-        "phone": "704-336-7600"
+        "phone": "704-336-7600",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil"
+        ]
       }
     ]
   },
@@ -1022,7 +1977,23 @@
         "lng": -80.9347,
         "source_url": "https://wipeoutwaste.mecknc.gov/",
         "hours": "Confirm on Wipe Out Waste before visiting",
-        "phone": "704-336-7600"
+        "phone": "704-336-7600",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil"
+        ]
       }
     ]
   },
@@ -1048,7 +2019,29 @@
         "lng": -104.9903,
         "source_url": "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Recycle-Compost-Trash/Large-Item-Pickup",
         "hours": "See Large Item Pickup calendar / HHW appointment",
-        "phone": "720-913-1311"
+        "phone": "720-913-1311",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil",
+          "mattress",
+          "box-spring",
+          "sofa",
+          "recliner",
+          "carpet",
+          "yard-waste"
+        ]
       }
     ]
   },
@@ -1074,7 +2067,29 @@
         "lng": -104.9903,
         "source_url": "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Recycle-Compost-Trash/Large-Item-Pickup",
         "hours": "See Large Item Pickup calendar / HHW appointment",
-        "phone": "720-913-1311"
+        "phone": "720-913-1311",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil",
+          "mattress",
+          "box-spring",
+          "sofa",
+          "recliner",
+          "carpet",
+          "yard-waste"
+        ]
       }
     ]
   },
@@ -1100,7 +2115,23 @@
         "lng": -71.0589,
         "source_url": "https://www.boston.gov/departments/public-works/special-collection-items",
         "hours": "By appointment / event schedule via boston.gov & 311",
-        "phone": "617-635-4500"
+        "phone": "617-635-4500",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil"
+        ]
       }
     ]
   },
@@ -1126,7 +2157,23 @@
         "lng": -71.0589,
         "source_url": "https://www.boston.gov/departments/public-works/special-collection-items",
         "hours": "By appointment / event schedule via boston.gov & 311",
-        "phone": "617-635-4500"
+        "phone": "617-635-4500",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil"
+        ]
       }
     ]
   },
@@ -1152,7 +2199,34 @@
         "lng": -81.7425,
         "source_url": "https://www.jacksonville.gov/departments/office-of-administrative-services/solid-waste/disposal-operations/household-hazardous-wastes-(hhw)",
         "hours": "Tue\u2013Sat 8:00\u201317:00",
-        "phone": "904-387-8847"
+        "phone": "904-387-8847",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil",
+          "television",
+          "computer-monitor",
+          "laptop",
+          "desktop-computer",
+          "printer",
+          "tablet",
+          "smartphone",
+          "microwave",
+          "hard-drive",
+          "e-waste-mixed",
+          "ink-toner"
+        ]
       }
     ]
   },
@@ -1178,7 +2252,34 @@
         "lng": -81.7425,
         "source_url": "https://www.jacksonville.gov/departments/office-of-administrative-services/solid-waste/disposal-operations/household-hazardous-wastes-(hhw)",
         "hours": "Tue\u2013Sat 8:00\u201317:00",
-        "phone": "904-387-8847"
+        "phone": "904-387-8847",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil",
+          "television",
+          "computer-monitor",
+          "laptop",
+          "desktop-computer",
+          "printer",
+          "tablet",
+          "smartphone",
+          "microwave",
+          "hard-drive",
+          "e-waste-mixed",
+          "ink-toner"
+        ]
       }
     ]
   },
@@ -1204,7 +2305,26 @@
         "lng": -82.9538,
         "source_url": "https://www.columbus.gov/Services/Trash-Recycling-Bulk-Collection/Bulk-Collection",
         "hours": "Tue\u2013Sat (confirm hours on city page)",
-        "phone": "614-645-3111"
+        "phone": "614-645-3111",
+        "accepted_materials": [
+          "television",
+          "computer-monitor",
+          "laptop",
+          "desktop-computer",
+          "printer",
+          "tablet",
+          "smartphone",
+          "microwave",
+          "hard-drive",
+          "e-waste-mixed",
+          "ink-toner",
+          "mattress",
+          "box-spring",
+          "sofa",
+          "recliner",
+          "carpet",
+          "yard-waste"
+        ]
       },
       {
         "name": "SWACO Household Hazardous Waste Facility",
@@ -1217,7 +2337,23 @@
         "lng": -82.9865,
         "source_url": "https://www.columbus.gov/Services/Trash-Recycling-Bulk-Collection/Household-Trash-Collection/Household-Hazardous-Waste-Collection",
         "hours": "Mon\u2013Fri 9:00\u201317:00; first Sat 9:00\u201314:00",
-        "phone": "614-871-5100"
+        "phone": "614-871-5100",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil"
+        ]
       }
     ]
   },
@@ -1243,7 +2379,26 @@
         "lng": -82.9538,
         "source_url": "https://www.columbus.gov/Services/Trash-Recycling-Bulk-Collection/Bulk-Collection",
         "hours": "Tue\u2013Sat (confirm hours on city page)",
-        "phone": "614-645-3111"
+        "phone": "614-645-3111",
+        "accepted_materials": [
+          "television",
+          "computer-monitor",
+          "laptop",
+          "desktop-computer",
+          "printer",
+          "tablet",
+          "smartphone",
+          "microwave",
+          "hard-drive",
+          "e-waste-mixed",
+          "ink-toner",
+          "mattress",
+          "box-spring",
+          "sofa",
+          "recliner",
+          "carpet",
+          "yard-waste"
+        ]
       },
       {
         "name": "SWACO Household Hazardous Waste Facility",
@@ -1256,7 +2411,23 @@
         "lng": -82.9865,
         "source_url": "https://www.columbus.gov/Services/Trash-Recycling-Bulk-Collection/Household-Trash-Collection/Household-Hazardous-Waste-Collection",
         "hours": "Mon\u2013Fri 9:00\u201317:00; first Sat 9:00\u201314:00",
-        "phone": "614-871-5100"
+        "phone": "614-871-5100",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil"
+        ]
       }
     ]
   },
@@ -1282,7 +2453,34 @@
         "lng": -97.3482,
         "source_url": "https://www.fortworthtexas.gov/departments/environmental-services/solidwaste/dropoff",
         "hours": "Tue\u2013Fri 8:00\u201317:00; Sat 8:00\u201312:00",
-        "phone": "817-392-EASY"
+        "phone": "817-392-EASY",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil",
+          "television",
+          "computer-monitor",
+          "laptop",
+          "desktop-computer",
+          "printer",
+          "tablet",
+          "smartphone",
+          "microwave",
+          "hard-drive",
+          "e-waste-mixed",
+          "ink-toner"
+        ]
       }
     ]
   },
@@ -1308,7 +2506,34 @@
         "lng": -97.3482,
         "source_url": "https://www.fortworthtexas.gov/departments/environmental-services/solidwaste/dropoff",
         "hours": "Tue\u2013Fri 8:00\u201317:00; Sat 8:00\u201312:00",
-        "phone": "817-392-EASY"
+        "phone": "817-392-EASY",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil",
+          "television",
+          "computer-monitor",
+          "laptop",
+          "desktop-computer",
+          "printer",
+          "tablet",
+          "smartphone",
+          "microwave",
+          "hard-drive",
+          "e-waste-mixed",
+          "ink-toner"
+        ]
       }
     ]
   },
@@ -1334,7 +2559,34 @@
         "lng": -83.0385,
         "source_url": "https://detroitmi.gov/departments/department-public-works/refuse-collection/household-hazardous-waste-information",
         "hours": "Thu 7:30\u201314:00; 4th Sat 8:00\u201314:00",
-        "phone": "313-876-0004"
+        "phone": "313-876-0004",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil",
+          "television",
+          "computer-monitor",
+          "laptop",
+          "desktop-computer",
+          "printer",
+          "tablet",
+          "smartphone",
+          "microwave",
+          "hard-drive",
+          "e-waste-mixed",
+          "ink-toner"
+        ]
       }
     ]
   },
@@ -1360,7 +2612,34 @@
         "lng": -83.0385,
         "source_url": "https://detroitmi.gov/departments/department-public-works/refuse-collection/household-hazardous-waste-information",
         "hours": "Thu 7:30\u201314:00; 4th Sat 8:00\u201314:00",
-        "phone": "313-876-0004"
+        "phone": "313-876-0004",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil",
+          "television",
+          "computer-monitor",
+          "laptop",
+          "desktop-computer",
+          "printer",
+          "tablet",
+          "smartphone",
+          "microwave",
+          "hard-drive",
+          "e-waste-mixed",
+          "ink-toner"
+        ]
       }
     ]
   },
@@ -1386,7 +2665,40 @@
         "lng": -86.7475,
         "source_url": "https://www.nashville.gov/departments/waste-services/convenience-centers/household-hazardous-waste",
         "hours": "Tue\u2013Sat 8:30\u201316:30",
-        "phone": ""
+        "phone": "",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil",
+          "television",
+          "computer-monitor",
+          "laptop",
+          "desktop-computer",
+          "printer",
+          "tablet",
+          "smartphone",
+          "microwave",
+          "hard-drive",
+          "e-waste-mixed",
+          "ink-toner",
+          "mattress",
+          "box-spring",
+          "sofa",
+          "recliner",
+          "carpet",
+          "yard-waste"
+        ]
       },
       {
         "name": "Ezell Convenience Center",
@@ -1399,7 +2711,40 @@
         "lng": -86.7205,
         "source_url": "https://www.nashville.gov/departments/waste-services/convenience-centers/household-hazardous-waste",
         "hours": "Tue\u2013Sat 8:30\u201316:30",
-        "phone": ""
+        "phone": "",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil",
+          "television",
+          "computer-monitor",
+          "laptop",
+          "desktop-computer",
+          "printer",
+          "tablet",
+          "smartphone",
+          "microwave",
+          "hard-drive",
+          "e-waste-mixed",
+          "ink-toner",
+          "mattress",
+          "box-spring",
+          "sofa",
+          "recliner",
+          "carpet",
+          "yard-waste"
+        ]
       }
     ]
   },
@@ -1425,7 +2770,40 @@
         "lng": -86.7475,
         "source_url": "https://www.nashville.gov/departments/waste-services/convenience-centers/household-hazardous-waste",
         "hours": "Tue\u2013Sat 8:30\u201316:30",
-        "phone": ""
+        "phone": "",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil",
+          "television",
+          "computer-monitor",
+          "laptop",
+          "desktop-computer",
+          "printer",
+          "tablet",
+          "smartphone",
+          "microwave",
+          "hard-drive",
+          "e-waste-mixed",
+          "ink-toner",
+          "mattress",
+          "box-spring",
+          "sofa",
+          "recliner",
+          "carpet",
+          "yard-waste"
+        ]
       },
       {
         "name": "Ezell Convenience Center",
@@ -1438,7 +2816,40 @@
         "lng": -86.7205,
         "source_url": "https://www.nashville.gov/departments/waste-services/convenience-centers/household-hazardous-waste",
         "hours": "Tue\u2013Sat 8:30\u201316:30",
-        "phone": ""
+        "phone": "",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil",
+          "television",
+          "computer-monitor",
+          "laptop",
+          "desktop-computer",
+          "printer",
+          "tablet",
+          "smartphone",
+          "microwave",
+          "hard-drive",
+          "e-waste-mixed",
+          "ink-toner",
+          "mattress",
+          "box-spring",
+          "sofa",
+          "recliner",
+          "carpet",
+          "yard-waste"
+        ]
       }
     ]
   },
@@ -1464,7 +2875,29 @@
         "lng": -122.7425,
         "source_url": "https://www.oregonmetro.gov/waste-disposal-and-prevention/need-get-rid-something/household-hazardous-waste/common-hazardous",
         "hours": "By appointment \u2014 call 503-234-3000",
-        "phone": "503-234-3000"
+        "phone": "503-234-3000",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil",
+          "mattress",
+          "box-spring",
+          "sofa",
+          "recliner",
+          "carpet",
+          "yard-waste"
+        ]
       }
     ]
   },
@@ -1490,7 +2923,29 @@
         "lng": -122.7425,
         "source_url": "https://www.oregonmetro.gov/waste-disposal-and-prevention/need-get-rid-something/household-hazardous-waste/common-hazardous",
         "hours": "By appointment \u2014 call 503-234-3000",
-        "phone": "503-234-3000"
+        "phone": "503-234-3000",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil",
+          "mattress",
+          "box-spring",
+          "sofa",
+          "recliner",
+          "carpet",
+          "yard-waste"
+        ]
       }
     ]
   },
@@ -1516,7 +2971,23 @@
         "lng": -76.6285,
         "source_url": "https://www.baltimorecity.gov/publicworks/recycling-services/household-hazardous-waste-recycling",
         "hours": "Seasonal Fri+Sat \u2014 confirm monthly hours on city page",
-        "phone": "410-396-7250"
+        "phone": "410-396-7250",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil"
+        ]
       }
     ]
   },
@@ -1542,7 +3013,23 @@
         "lng": -76.6285,
         "source_url": "https://www.baltimorecity.gov/publicworks/recycling-services/household-hazardous-waste-recycling",
         "hours": "Seasonal Fri+Sat \u2014 confirm monthly hours on city page",
-        "phone": "410-396-7250"
+        "phone": "410-396-7250",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil"
+        ]
       }
     ]
   },
@@ -1568,7 +3055,29 @@
         "lng": -87.9625,
         "source_url": "https://www.mmsd.com/what-you-can-do/home-haz-mat-collection",
         "hours": "Drop Off per city schedule; MMSD HHW Thu\u2013Sat 7:00\u201315:00",
-        "phone": "414-286-CITY"
+        "phone": "414-286-CITY",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil",
+          "mattress",
+          "box-spring",
+          "sofa",
+          "recliner",
+          "carpet",
+          "yard-waste"
+        ]
       }
     ]
   },
@@ -1594,7 +3103,29 @@
         "lng": -87.9625,
         "source_url": "https://www.mmsd.com/what-you-can-do/home-haz-mat-collection",
         "hours": "Drop Off per city schedule; MMSD HHW Thu\u2013Sat 7:00\u201315:00",
-        "phone": "414-286-CITY"
+        "phone": "414-286-CITY",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil",
+          "mattress",
+          "box-spring",
+          "sofa",
+          "recliner",
+          "carpet",
+          "yard-waste"
+        ]
       }
     ]
   },
@@ -1620,7 +3151,23 @@
         "lng": -97.5835,
         "source_url": "https://www.okc.gov/Services/Water-Trash-Recycling/Household-Hazardous-Waste-Collection-Center",
         "hours": "Tue\u2013Fri 9:30\u201318:00; Sat 8:30\u201311:30",
-        "phone": "405-297-2833"
+        "phone": "405-297-2833",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil"
+        ]
       }
     ]
   },
@@ -1646,7 +3193,23 @@
         "lng": -97.5835,
         "source_url": "https://www.okc.gov/Services/Water-Trash-Recycling/Household-Hazardous-Waste-Collection-Center",
         "hours": "Tue\u2013Fri 9:30\u201318:00; Sat 8:30\u201311:30",
-        "phone": "405-297-2833"
+        "phone": "405-297-2833",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil"
+        ]
       }
     ]
   },
@@ -1672,7 +3235,29 @@
         "lng": -106.4555,
         "source_url": "https://www.elpasotexas.gov/environmental-services/collection-stations/",
         "hours": "Tue\u2013Sat 8:00\u201316:00",
-        "phone": "915-212-6000"
+        "phone": "915-212-6000",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil",
+          "mattress",
+          "box-spring",
+          "sofa",
+          "recliner",
+          "carpet",
+          "yard-waste"
+        ]
       }
     ]
   },
@@ -1698,7 +3283,29 @@
         "lng": -106.4555,
         "source_url": "https://www.elpasotexas.gov/environmental-services/collection-stations/",
         "hours": "Tue\u2013Sat 8:00\u201316:00",
-        "phone": "915-212-6000"
+        "phone": "915-212-6000",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil",
+          "mattress",
+          "box-spring",
+          "sofa",
+          "recliner",
+          "carpet",
+          "yard-waste"
+        ]
       }
     ]
   },
@@ -1724,7 +3331,20 @@
         "lng": -85.7455,
         "source_url": "https://louisvilleky.gov/government/public-works/waste-reduction-center",
         "hours": "Confirm on city page \u2014 resident drop-off",
-        "phone": ""
+        "phone": "",
+        "accepted_materials": [
+          "television",
+          "computer-monitor",
+          "laptop",
+          "desktop-computer",
+          "printer",
+          "tablet",
+          "smartphone",
+          "microwave",
+          "hard-drive",
+          "e-waste-mixed",
+          "ink-toner"
+        ]
       },
       {
         "name": "Louisville Haz Bin",
@@ -1737,7 +3357,23 @@
         "lng": -85.6855,
         "source_url": "https://louisvilleky.gov/government/public-works/services/hazardous-materials-disposal-haz-bin",
         "hours": "Tue\u2013Sat 9:30\u201316:00",
-        "phone": ""
+        "phone": "",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil"
+        ]
       }
     ]
   },
@@ -1763,7 +3399,20 @@
         "lng": -85.7455,
         "source_url": "https://louisvilleky.gov/government/public-works/waste-reduction-center",
         "hours": "Confirm on city page \u2014 resident drop-off",
-        "phone": ""
+        "phone": "",
+        "accepted_materials": [
+          "television",
+          "computer-monitor",
+          "laptop",
+          "desktop-computer",
+          "printer",
+          "tablet",
+          "smartphone",
+          "microwave",
+          "hard-drive",
+          "e-waste-mixed",
+          "ink-toner"
+        ]
       },
       {
         "name": "Louisville Haz Bin",
@@ -1776,7 +3425,23 @@
         "lng": -85.6855,
         "source_url": "https://louisvilleky.gov/government/public-works/services/hazardous-materials-disposal-haz-bin",
         "hours": "Tue\u2013Sat 9:30\u201316:00",
-        "phone": ""
+        "phone": "",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil"
+        ]
       }
     ]
   },
@@ -1802,7 +3467,23 @@
         "lng": -89.8555,
         "source_url": "https://www.shelbycountytn.gov/439/Household-Hazardous-Waste",
         "hours": "Tue/Thu/Sat 8:00\u201313:00",
-        "phone": ""
+        "phone": "",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil"
+        ]
       }
     ]
   },
@@ -1828,7 +3509,23 @@
         "lng": -89.8555,
         "source_url": "https://www.shelbycountytn.gov/439/Household-Hazardous-Waste",
         "hours": "Tue/Thu/Sat 8:00\u201313:00",
-        "phone": ""
+        "phone": "",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil"
+        ]
       }
     ]
   },
@@ -1854,7 +3551,23 @@
         "lng": -106.6155,
         "source_url": "https://www.cabq.gov/solidwaste/hazardous-waste",
         "hours": "Mon/Wed/Fri 8:00\u201314:00; Sat 8:00\u201315:00",
-        "phone": "505-768-3925"
+        "phone": "505-768-3925",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil"
+        ]
       }
     ]
   },
@@ -1880,7 +3593,23 @@
         "lng": -106.6155,
         "source_url": "https://www.cabq.gov/solidwaste/hazardous-waste",
         "hours": "Mon/Wed/Fri 8:00\u201314:00; Sat 8:00\u201315:00",
-        "phone": "505-768-3925"
+        "phone": "505-768-3925",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil"
+        ]
       }
     ]
   },
@@ -1906,7 +3635,23 @@
         "lng": -110.9055,
         "source_url": "https://www.tucsonaz.gov/Departments/Environmental-Services/Household-Hazardous-Waste",
         "hours": "Thu\u2013Sat 7:00\u201314:00; closed 2nd Sat/month",
-        "phone": "520-791-3171"
+        "phone": "520-791-3171",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil"
+        ]
       }
     ]
   },
@@ -1932,7 +3677,23 @@
         "lng": -110.9055,
         "source_url": "https://www.tucsonaz.gov/Departments/Environmental-Services/Household-Hazardous-Waste",
         "hours": "Thu\u2013Sat 7:00\u201314:00; closed 2nd Sat/month",
-        "phone": "520-791-3171"
+        "phone": "520-791-3171",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil"
+        ]
       }
     ]
   },
@@ -1958,7 +3719,23 @@
         "lng": -96.0055,
         "source_url": "https://www.cityoftulsa.org/government/departments/public-works/household-pollutant-collection-facility/",
         "hours": "Wed & Sat 8:00\u201311:30 and 12:00\u201316:30",
-        "phone": "918-591-4325"
+        "phone": "918-591-4325",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil"
+        ]
       }
     ]
   },
@@ -1984,7 +3761,23 @@
         "lng": -96.0055,
         "source_url": "https://www.cityoftulsa.org/government/departments/public-works/household-pollutant-collection-facility/",
         "hours": "Wed & Sat 8:00\u201311:30 and 12:00\u201316:30",
-        "phone": "918-591-4325"
+        "phone": "918-591-4325",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil"
+        ]
       }
     ]
   },
@@ -2010,7 +3803,23 @@
         "lng": -86.2655,
         "source_url": "https://www.indy.gov/activity/hazardous-waste-dropoff-sites",
         "hours": "1st Sat 9:00\u201314:00",
-        "phone": "317-327-4622"
+        "phone": "317-327-4622",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil"
+        ]
       },
       {
         "name": "Marion County ToxDrop \u2014 Perry Township",
@@ -2023,7 +3832,23 @@
         "lng": -86.1355,
         "source_url": "https://www.indy.gov/activity/hazardous-waste-dropoff-sites",
         "hours": "2nd & 4th Sat 9:00\u201314:00",
-        "phone": "317-327-4622"
+        "phone": "317-327-4622",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil"
+        ]
       }
     ]
   },
@@ -2049,7 +3874,23 @@
         "lng": -86.2655,
         "source_url": "https://www.indy.gov/activity/hazardous-waste-dropoff-sites",
         "hours": "1st Sat 9:00\u201314:00",
-        "phone": "317-327-4622"
+        "phone": "317-327-4622",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil"
+        ]
       },
       {
         "name": "Marion County ToxDrop \u2014 Perry Township",
@@ -2062,7 +3903,23 @@
         "lng": -86.1355,
         "source_url": "https://www.indy.gov/activity/hazardous-waste-dropoff-sites",
         "hours": "2nd & 4th Sat 9:00\u201314:00",
-        "phone": "317-327-4622"
+        "phone": "317-327-4622",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil"
+        ]
       }
     ]
   },
@@ -2088,7 +3945,20 @@
         "lng": -84.5055,
         "source_url": "https://www.atl311.com/en-us/knowledgearticle/?code=KB0011478",
         "hours": "3rd Sat Feb\u2013Dec 9:00\u201312:00",
-        "phone": "404-546-0311"
+        "phone": "404-546-0311",
+        "accepted_materials": [
+          "television",
+          "computer-monitor",
+          "laptop",
+          "desktop-computer",
+          "printer",
+          "tablet",
+          "smartphone",
+          "microwave",
+          "hard-drive",
+          "e-waste-mixed",
+          "ink-toner"
+        ]
       }
     ]
   },
@@ -2114,7 +3984,20 @@
         "lng": -84.5055,
         "source_url": "https://www.atl311.com/en-us/knowledgearticle/?code=KB0011478",
         "hours": "3rd Sat Feb\u2013Dec 9:00\u201312:00",
-        "phone": "404-546-0311"
+        "phone": "404-546-0311",
+        "accepted_materials": [
+          "television",
+          "computer-monitor",
+          "laptop",
+          "desktop-computer",
+          "printer",
+          "tablet",
+          "smartphone",
+          "microwave",
+          "hard-drive",
+          "e-waste-mixed",
+          "ink-toner"
+        ]
       }
     ]
   },
@@ -2140,7 +4023,23 @@
         "lng": -94.5155,
         "source_url": "https://www.kcwater.us/programs/hhw/",
         "hours": "Thu\u2013Fri 9:00\u201318:00; Sat 9:00\u201316:00",
-        "phone": "816-513-2855"
+        "phone": "816-513-2855",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil"
+        ]
       }
     ]
   },
@@ -2166,7 +4065,283 @@
         "lng": -94.5155,
         "source_url": "https://www.kcwater.us/programs/hhw/",
         "hours": "Thu\u2013Fri 9:00\u201318:00; Sat 9:00\u201316:00",
-        "phone": "816-513-2855"
+        "phone": "816-513-2855",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil"
+        ]
+      }
+    ]
+  },
+  {
+    "state_slug": "nevada",
+    "city_slug": "las-vegas",
+    "zip": "89101",
+    "city": "Las Vegas",
+    "state": "NV",
+    "lat": 36.17,
+    "lng": -115.14,
+    "population": 45000,
+    "indexable": true,
+    "facilities": [
+      {
+        "name": "Clark County HHW \u2014 North Las Vegas",
+        "facility_type": "Household hazardous waste drop-off",
+        "city_slug": "las-vegas",
+        "state": "NV",
+        "zip": "89030",
+        "address": "333 W Gowan Rd, North Las Vegas, NV 89030",
+        "lat": 36.2155,
+        "lng": -115.1255,
+        "source_url": "https://www.clarkcountynv.gov/government/departments/environment_and_sustainability/household_hazardous_waste",
+        "hours": "Wed\u2013Sat 9:00\u201313:00; rotating calendar",
+        "phone": "702-455-4191"
+      }
+    ]
+  },
+  {
+    "state_slug": "nevada",
+    "city_slug": "las-vegas",
+    "zip": "89119",
+    "city": "Las Vegas",
+    "state": "NV",
+    "lat": 36.075,
+    "lng": -115.155,
+    "population": 52000,
+    "indexable": true,
+    "facilities": [
+      {
+        "name": "Clark County HHW \u2014 North Las Vegas",
+        "facility_type": "Household hazardous waste drop-off",
+        "city_slug": "las-vegas",
+        "state": "NV",
+        "zip": "89030",
+        "address": "333 W Gowan Rd, North Las Vegas, NV 89030",
+        "lat": 36.2155,
+        "lng": -115.1255,
+        "source_url": "https://www.clarkcountynv.gov/government/departments/environment_and_sustainability/household_hazardous_waste",
+        "hours": "Wed\u2013Sat 9:00\u201313:00; rotating calendar",
+        "phone": "702-455-4191"
+      }
+    ]
+  },
+  {
+    "state_slug": "north-carolina",
+    "city_slug": "raleigh",
+    "zip": "27601",
+    "city": "Raleigh",
+    "state": "NC",
+    "lat": 35.78,
+    "lng": -78.638,
+    "population": 18000,
+    "indexable": true,
+    "facilities": [
+      {
+        "name": "Wake County HHW \u2014 South Wake",
+        "facility_type": "Household hazardous waste drop-off",
+        "city_slug": "raleigh",
+        "state": "NC",
+        "zip": "27539",
+        "address": "6150 Old Smithfield Rd, Apex, NC 27539",
+        "lat": 35.6555,
+        "lng": -78.7555,
+        "source_url": "https://www.wake.gov/departments/environmental-services/waste-management/household-hazardous-waste",
+        "hours": "Mon\u2013Sat 8:00\u201316:00",
+        "phone": "919-856-7400"
+      }
+    ]
+  },
+  {
+    "state_slug": "north-carolina",
+    "city_slug": "raleigh",
+    "zip": "27609",
+    "city": "Raleigh",
+    "state": "NC",
+    "lat": 35.845,
+    "lng": -78.62,
+    "population": 32000,
+    "indexable": true,
+    "facilities": [
+      {
+        "name": "Wake County HHW \u2014 South Wake",
+        "facility_type": "Household hazardous waste drop-off",
+        "city_slug": "raleigh",
+        "state": "NC",
+        "zip": "27539",
+        "address": "6150 Old Smithfield Rd, Apex, NC 27539",
+        "lat": 35.6555,
+        "lng": -78.7555,
+        "source_url": "https://www.wake.gov/departments/environmental-services/waste-management/household-hazardous-waste",
+        "hours": "Mon\u2013Sat 8:00\u201316:00",
+        "phone": "919-856-7400"
+      }
+    ]
+  },
+  {
+    "state_slug": "minnesota",
+    "city_slug": "minneapolis",
+    "zip": "55401",
+    "city": "Minneapolis",
+    "state": "MN",
+    "lat": 44.978,
+    "lng": -93.265,
+    "population": 12000,
+    "indexable": true,
+    "facilities": [
+      {
+        "name": "Hennepin County HHW \u2014 Bloomington",
+        "facility_type": "Household hazardous waste drop-off",
+        "city_slug": "minneapolis",
+        "state": "MN",
+        "zip": "55431",
+        "address": "1400 W 96th St, Bloomington, MN 55431",
+        "lat": 44.8255,
+        "lng": -93.3055,
+        "source_url": "https://www.hennepin.us/residents/recycling-and-waste/green-disposal-guide",
+        "hours": "Tue\u2013Sat 9:00\u201317:00",
+        "phone": "612-348-3777"
+      }
+    ]
+  },
+  {
+    "state_slug": "minnesota",
+    "city_slug": "minneapolis",
+    "zip": "55408",
+    "city": "Minneapolis",
+    "state": "MN",
+    "lat": 44.948,
+    "lng": -93.29,
+    "population": 28000,
+    "indexable": true,
+    "facilities": [
+      {
+        "name": "Hennepin County HHW \u2014 Bloomington",
+        "facility_type": "Household hazardous waste drop-off",
+        "city_slug": "minneapolis",
+        "state": "MN",
+        "zip": "55431",
+        "address": "1400 W 96th St, Bloomington, MN 55431",
+        "lat": 44.8255,
+        "lng": -93.3055,
+        "source_url": "https://www.hennepin.us/residents/recycling-and-waste/green-disposal-guide",
+        "hours": "Tue\u2013Sat 9:00\u201317:00",
+        "phone": "612-348-3777"
+      }
+    ]
+  },
+  {
+    "state_slug": "nebraska",
+    "city_slug": "omaha",
+    "zip": "68102",
+    "city": "Omaha",
+    "state": "NE",
+    "lat": 41.257,
+    "lng": -95.935,
+    "population": 9000,
+    "indexable": true,
+    "facilities": [
+      {
+        "name": "Under The Sink HHW",
+        "facility_type": "Household hazardous waste drop-off",
+        "city_slug": "omaha",
+        "state": "NE",
+        "zip": "68144",
+        "address": "4001 S 120th St, Omaha, NE 68144",
+        "lat": 41.2255,
+        "lng": -96.1055,
+        "source_url": "https://underthesink.org/",
+        "hours": "Wed/Fri 9:00\u201316:45; Thu 9:00\u201318:15; Sat by appointment",
+        "phone": "402-444-7465"
+      }
+    ]
+  },
+  {
+    "state_slug": "nebraska",
+    "city_slug": "omaha",
+    "zip": "68137",
+    "city": "Omaha",
+    "state": "NE",
+    "lat": 41.205,
+    "lng": -96.105,
+    "population": 35000,
+    "indexable": true,
+    "facilities": [
+      {
+        "name": "Under The Sink HHW",
+        "facility_type": "Household hazardous waste drop-off",
+        "city_slug": "omaha",
+        "state": "NE",
+        "zip": "68144",
+        "address": "4001 S 120th St, Omaha, NE 68144",
+        "lat": 41.2255,
+        "lng": -96.1055,
+        "source_url": "https://underthesink.org/",
+        "hours": "Wed/Fri 9:00\u201316:45; Thu 9:00\u201318:15; Sat by appointment",
+        "phone": "402-444-7465"
+      }
+    ]
+  },
+  {
+    "state_slug": "virginia",
+    "city_slug": "virginia-beach",
+    "zip": "23451",
+    "city": "Virginia Beach",
+    "state": "VA",
+    "lat": 36.853,
+    "lng": -75.978,
+    "population": 22000,
+    "indexable": true,
+    "facilities": [
+      {
+        "name": "Virginia Beach RRC / HHW",
+        "facility_type": "Household hazardous waste drop-off",
+        "city_slug": "virginia-beach",
+        "state": "VA",
+        "zip": "23455",
+        "address": "1989 Jake Sears Rd, Virginia Beach, VA 23455",
+        "lat": 36.8655,
+        "lng": -76.0555,
+        "source_url": "https://www.vbgov.com/government/departments/public-works/waste-management/household-hazardous-waste",
+        "hours": "Tue\u2013Sat 7:00\u201316:30",
+        "phone": "757-385-4650"
+      }
+    ]
+  },
+  {
+    "state_slug": "virginia",
+    "city_slug": "virginia-beach",
+    "zip": "23464",
+    "city": "Virginia Beach",
+    "state": "VA",
+    "lat": 36.815,
+    "lng": -76.095,
+    "population": 48000,
+    "indexable": true,
+    "facilities": [
+      {
+        "name": "Virginia Beach RRC / HHW",
+        "facility_type": "Household hazardous waste drop-off",
+        "city_slug": "virginia-beach",
+        "state": "VA",
+        "zip": "23455",
+        "address": "1989 Jake Sears Rd, Virginia Beach, VA 23455",
+        "lat": 36.8655,
+        "lng": -76.0555,
+        "source_url": "https://www.vbgov.com/government/departments/public-works/waste-management/household-hazardous-waste",
+        "hours": "Tue\u2013Sat 7:00\u201316:30",
+        "phone": "757-385-4650"
       }
     ]
   }

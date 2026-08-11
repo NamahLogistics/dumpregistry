@@ -412,5 +412,50 @@
     "lat": 39.0997,
     "lng": -94.5786,
     "population": 508090
+  },
+  {
+    "city": "Las Vegas",
+    "city_slug": "las-vegas",
+    "state": "NV",
+    "state_slug": "nevada",
+    "lat": 36.1699,
+    "lng": -115.1398,
+    "population": 641903
+  },
+  {
+    "city": "Raleigh",
+    "city_slug": "raleigh",
+    "state": "NC",
+    "state_slug": "north-carolina",
+    "lat": 35.7796,
+    "lng": -78.6382,
+    "population": 474069
+  },
+  {
+    "city": "Minneapolis",
+    "city_slug": "minneapolis",
+    "state": "MN",
+    "state_slug": "minnesota",
+    "lat": 44.9778,
+    "lng": -93.265,
+    "population": 429954
+  },
+  {
+    "city": "Omaha",
+    "city_slug": "omaha",
+    "state": "NE",
+    "state_slug": "nebraska",
+    "lat": 41.2565,
+    "lng": -95.9345,
+    "population": 486051
+  },
+  {
+    "city": "Virginia Beach",
+    "city_slug": "virginia-beach",
+    "state": "VA",
+    "state_slug": "virginia",
+    "lat": 36.8529,
+    "lng": -75.978,
+    "population": 459808
   }
 ]

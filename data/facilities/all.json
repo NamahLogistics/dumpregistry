@@ -1873,5 +1873,70 @@
       "propane-tank",
       "cooking-oil"
     ]
+  },
+  {
+    "name": "Clark County HHW \u2014 North Las Vegas",
+    "facility_type": "Household hazardous waste drop-off",
+    "city_slug": "las-vegas",
+    "state": "NV",
+    "zip": "89030",
+    "address": "333 W Gowan Rd, North Las Vegas, NV 89030",
+    "lat": 36.2155,
+    "lng": -115.1255,
+    "source_url": "https://www.clarkcountynv.gov/government/departments/environment_and_sustainability/household_hazardous_waste",
+    "hours": "Wed\u2013Sat 9:00\u201313:00; rotating calendar",
+    "phone": "702-455-4191"
+  },
+  {
+    "name": "Wake County HHW \u2014 South Wake",
+    "facility_type": "Household hazardous waste drop-off",
+    "city_slug": "raleigh",
+    "state": "NC",
+    "zip": "27539",
+    "address": "6150 Old Smithfield Rd, Apex, NC 27539",
+    "lat": 35.6555,
+    "lng": -78.7555,
+    "source_url": "https://www.wake.gov/departments/environmental-services/waste-management/household-hazardous-waste",
+    "hours": "Mon\u2013Sat 8:00\u201316:00",
+    "phone": "919-856-7400"
+  },
+  {
+    "name": "Hennepin County HHW \u2014 Bloomington",
+    "facility_type": "Household hazardous waste drop-off",
+    "city_slug": "minneapolis",
+    "state": "MN",
+    "zip": "55431",
+    "address": "1400 W 96th St, Bloomington, MN 55431",
+    "lat": 44.8255,
+    "lng": -93.3055,
+    "source_url": "https://www.hennepin.us/residents/recycling-and-waste/green-disposal-guide",
+    "hours": "Tue\u2013Sat 9:00\u201317:00",
+    "phone": "612-348-3777"
+  },
+  {
+    "name": "Under The Sink HHW",
+    "facility_type": "Household hazardous waste drop-off",
+    "city_slug": "omaha",
+    "state": "NE",
+    "zip": "68144",
+    "address": "4001 S 120th St, Omaha, NE 68144",
+    "lat": 41.2255,
+    "lng": -96.1055,
+    "source_url": "https://underthesink.org/",
+    "hours": "Wed/Fri 9:00\u201316:45; Thu 9:00\u201318:15; Sat by appointment",
+    "phone": "402-444-7465"
+  },
+  {
+    "name": "Virginia Beach RRC / HHW",
+    "facility_type": "Household hazardous waste drop-off",
+    "city_slug": "virginia-beach",
+    "state": "VA",
+    "zip": "23455",
+    "address": "1989 Jake Sears Rd, Virginia Beach, VA 23455",
+    "lat": 36.8655,
+    "lng": -76.0555,
+    "source_url": "https://www.vbgov.com/government/departments/public-works/waste-management/household-hazardous-waste",
+    "hours": "Tue\u2013Sat 7:00\u201316:30",
+    "phone": "757-385-4650"
   }
 ]

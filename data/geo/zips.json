@@ -768,5 +768,105 @@
     "lat": 39.125,
     "lng": -94.52,
     "population": 28000
+  },
+  {
+    "zip": "89101",
+    "city": "Las Vegas",
+    "city_slug": "las-vegas",
+    "state": "NV",
+    "state_slug": "nevada",
+    "lat": 36.17,
+    "lng": -115.14,
+    "population": 45000
+  },
+  {
+    "zip": "89119",
+    "city": "Las Vegas",
+    "city_slug": "las-vegas",
+    "state": "NV",
+    "state_slug": "nevada",
+    "lat": 36.075,
+    "lng": -115.155,
+    "population": 52000
+  },
+  {
+    "zip": "27601",
+    "city": "Raleigh",
+    "city_slug": "raleigh",
+    "state": "NC",
+    "state_slug": "north-carolina",
+    "lat": 35.78,
+    "lng": -78.638,
+    "population": 18000
+  },
+  {
+    "zip": "27609",
+    "city": "Raleigh",
+    "city_slug": "raleigh",
+    "state": "NC",
+    "state_slug": "north-carolina",
+    "lat": 35.845,
+    "lng": -78.62,
+    "population": 32000
+  },
+  {
+    "zip": "55401",
+    "city": "Minneapolis",
+    "city_slug": "minneapolis",
+    "state": "MN",
+    "state_slug": "minnesota",
+    "lat": 44.978,
+    "lng": -93.265,
+    "population": 12000
+  },
+  {
+    "zip": "55408",
+    "city": "Minneapolis",
+    "city_slug": "minneapolis",
+    "state": "MN",
+    "state_slug": "minnesota",
+    "lat": 44.948,
+    "lng": -93.29,
+    "population": 28000
+  },
+  {
+    "zip": "68102",
+    "city": "Omaha",
+    "city_slug": "omaha",
+    "state": "NE",
+    "state_slug": "nebraska",
+    "lat": 41.257,
+    "lng": -95.935,
+    "population": 9000
+  },
+  {
+    "zip": "68137",
+    "city": "Omaha",
+    "city_slug": "omaha",
+    "state": "NE",
+    "state_slug": "nebraska",
+    "lat": 41.205,
+    "lng": -96.105,
+    "population": 35000
+  },
+  {
+    "zip": "23451",
+    "city": "Virginia Beach",
+    "city_slug": "virginia-beach",
+    "state": "VA",
+    "state_slug": "virginia",
+    "lat": 36.853,
+    "lng": -75.978,
+    "population": 22000
+  },
+  {
+    "zip": "23464",
+    "city": "Virginia Beach",
+    "city_slug": "virginia-beach",
+    "state": "VA",
+    "state_slug": "virginia",
+    "lat": 36.815,
+    "lng": -76.095,
+    "population": 48000
   }
 ]
