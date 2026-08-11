@@ -1,0 +1,737 @@
+#!/usr/bin/env python3
+"""DumpRegistry wave: full .gov inventory for 23 metros (2026-08-11).
+
+Permanent public drop-offs — transfer stations, HHW, landfill scales,
+convenience centers — sourced from official city/county .gov pages.
+"""
+
+from __future__ import annotations
+
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+FAC_PATH = ROOT / "data" / "facilities" / "all.json"
+ITEMS = {i["slug"] for i in json.loads((ROOT / "data" / "items.json").read_text())}
+
+HHW = [
+    "paint-latex",
+    "paint-oil",
+    "pesticides",
+    "herbicides",
+    "pool-chemicals",
+    "gasoline",
+    "motor-oil",
+    "antifreeze",
+    "car-battery",
+    "household-batteries",
+    "lithium-battery",
+    "fluorescent-bulbs",
+    "propane-tank",
+    "cooking-oil",
+]
+E_WASTE = [
+    "television",
+    "computer-monitor",
+    "laptop",
+    "desktop-computer",
+    "printer",
+    "tablet",
+    "smartphone",
+    "microwave",
+    "hard-drive",
+    "e-waste-mixed",
+    "ink-toner",
+]
+BULKY = ["mattress", "box-spring", "sofa", "recliner", "carpet", "yard-waste"]
+APPLIANCE = [
+    "refrigerator",
+    "freezer",
+    "air-conditioner",
+    "washer",
+    "dryer",
+    "dishwasher",
+    "stove",
+    "water-heater",
+]
+TIRES = ["tires", "tire-rims"]
+RECYCLE = ["cardboard", "glass-bottles", "plastic-bags"]
+
+
+def mats(*groups):
+    out, seen = [], set()
+    for g in groups:
+        for m in g:
+            if m not in ITEMS:
+                raise SystemExit(f"unknown slug {m}")
+            if m not in seen:
+                seen.add(m)
+                out.append(m)
+    return out
+
+
+# Rename/fix incorrect cabq.gov entry (Montaño admin HQ is not a drop-off).
+FIXES = [
+    {
+        "old_name": "Montaño Convenience Center",
+        "name": "Montessa Park Convenience Center",
+        "facility_type": "Municipal convenience center — trash / bulky",
+        "city_slug": "albuquerque",
+        "state": "NM",
+        "zip": "87105",
+        "address": "3512 Los Picaros SE, Albuquerque, NM 87105",
+        "lat": 35.045,
+        "lng": -106.648,
+        "source_url": "https://www.cabq.gov/solidwaste/trash-collection/trash-drop-off",
+        "hours": "Mon–Wed, Sat–Sun 8:00–17:00 (admit until 16:30); closed Thu–Fri",
+        "phone": "505-768-3930",
+        "accepted_materials": mats(BULKY, APPLIANCE, TIRES),
+    },
+]
+
+FACILITIES: list[dict] = [
+    # --- albuquerque ---
+    {
+        "name": "Don Reservoir Convenience Center",
+        "facility_type": "Municipal convenience center — trash / bulky",
+        "city_slug": "albuquerque",
+        "state": "NM",
+        "zip": "87121",
+        "address": "117 114th SW, Albuquerque, NM 87121",
+        "lat": 35.047,
+        "lng": -106.785,
+        "source_url": "https://www.cabq.gov/solidwaste/trash-collection/trash-drop-off",
+        "hours": "Daily 8:00–17:00 (admit until 16:30)",
+        "phone": "505-768-3920",
+        "accepted_materials": mats(BULKY, APPLIANCE, TIRES),
+    },
+    {
+        "name": "Cerro Colorado Landfill — public scale",
+        "facility_type": "County landfill — overflow bulky / tires",
+        "city_slug": "albuquerque",
+        "state": "NM",
+        "zip": "87121",
+        "address": "2800 Cerro Colorado Road SW, Albuquerque, NM 87121",
+        "lat": 35.012,
+        "lng": -106.812,
+        "source_url": "https://www.cabq.gov/solidwaste/trash-collection/trash-drop-off",
+        "hours": "Confirm hours on cabq.gov / Bernalillo County",
+        "phone": "505-761-8100",
+        "accepted_materials": mats(BULKY, TIRES, APPLIANCE),
+    },
+    # --- tucson ---
+    {
+        "name": "Ward 2 Neighborhood Recycling Center",
+        "facility_type": "Neighborhood recycling drop-off",
+        "city_slug": "tucson",
+        "state": "AZ",
+        "zip": "85710",
+        "address": "7820 E Broadway Blvd, Tucson, AZ 85710",
+        "lat": 32.221,
+        "lng": -110.824,
+        "source_url": "https://www.tucsonaz.gov/Departments/Environmental-Services/Residential-Services/Recycling-Services/Neighborhood-Recycling-Centers",
+        "hours": "24/7 when containers on-site",
+        "phone": "520-791-3171",
+        "accepted_materials": mats(RECYCLE),
+    },
+    {
+        "name": "Ward 5 Neighborhood Recycling Center",
+        "facility_type": "Neighborhood recycling drop-off",
+        "city_slug": "tucson",
+        "state": "AZ",
+        "zip": "85714",
+        "address": "4300 S Park Ave, Tucson, AZ 85714",
+        "lat": 32.171,
+        "lng": -110.958,
+        "source_url": "https://www.tucsonaz.gov/Departments/Environmental-Services/Residential-Services/Recycling-Services/Neighborhood-Recycling-Centers",
+        "hours": "24/7 when containers on-site",
+        "phone": "520-791-3171",
+        "accepted_materials": mats(RECYCLE),
+    },
+    {
+        "name": "West Tucson Neighborhood Recycling Center",
+        "facility_type": "Neighborhood recycling drop-off",
+        "city_slug": "tucson",
+        "state": "AZ",
+        "zip": "85713",
+        "address": "1925 S San Antonio Dr, Tucson, AZ 85713",
+        "lat": 32.198,
+        "lng": -110.992,
+        "source_url": "https://www.tucsonaz.gov/Departments/Environmental-Services/Residential-Services/Recycling-Services/Neighborhood-Recycling-Centers",
+        "hours": "24/7 when containers on-site (behind Fire Station 15)",
+        "phone": "520-791-3171",
+        "accepted_materials": mats(RECYCLE),
+    },
+    # --- glendale AZ ---
+    {
+        "name": "Glendale Municipal Landfill — Recycle Drop-Off",
+        "facility_type": "Landfill recycling drop-off (no scale fee for recyclables)",
+        "city_slug": "glendale",
+        "state": "AZ",
+        "zip": "85301",
+        "address": "11480 W Glendale Ave, Glendale, AZ 85307",
+        "lat": 33.538,
+        "lng": -112.302,
+        "source_url": "https://www.glendaleaz.gov/Live/City-Services/Trash-and-Recycling/Landfill",
+        "hours": "Confirm on glendaleaz.gov",
+        "phone": "623-930-2660",
+        "accepted_materials": mats(RECYCLE),
+    },
+    # --- denver ---
+    {
+        "name": "Cherry Creek Transfer Station",
+        "facility_type": "Municipal transfer station — seasonal yard waste",
+        "city_slug": "denver",
+        "state": "CO",
+        "zip": "80231",
+        "address": "7301 E Jewell Ave, Denver, CO 80231",
+        "lat": 39.682,
+        "lng": -104.908,
+        "source_url": "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Recycle-Compost-Trash/Seasonal-Programs/Treecycle",
+        "hours": "Seasonal Treecycle weekdays 8:00–14:00 (Dec–Jan); confirm on denvergov.org",
+        "phone": "311",
+        "accepted_materials": mats(["yard-waste"]),
+    },
+    {
+        "name": "Havana Nursery Drop-off",
+        "facility_type": "Municipal seasonal yard-waste drop-off",
+        "city_slug": "denver",
+        "state": "CO",
+        "zip": "80239",
+        "address": "3685 Havana St, Denver, CO 80239",
+        "lat": 39.768,
+        "lng": -104.865,
+        "source_url": "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Recycle-Compost-Trash/Seasonal-Programs/Treecycle",
+        "hours": "Seasonal Treecycle weekdays 8:00–14:00 (Dec–Jan)",
+        "phone": "311",
+        "accepted_materials": mats(["yard-waste"]),
+    },
+    {
+        "name": "Central Platte Campus Drop-off",
+        "facility_type": "Municipal seasonal yard-waste drop-off",
+        "city_slug": "denver",
+        "state": "CO",
+        "zip": "80223",
+        "address": "1271 W Bayaud Ave, Denver, CO 80223",
+        "lat": 39.715,
+        "lng": -105.018,
+        "source_url": "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Recycle-Compost-Trash/Seasonal-Programs/Treecycle",
+        "hours": "Seasonal Treecycle weekdays 8:00–14:00 (Dec–Jan)",
+        "phone": "311",
+        "accepted_materials": mats(["yard-waste"]),
+    },
+    # --- colorado-springs ---
+    {
+        "name": "El Paso County HHW Facility — Akers Drive",
+        "facility_type": "County HHW facility",
+        "city_slug": "colorado-springs",
+        "state": "CO",
+        "zip": "80922",
+        "address": "3255 Akers Dr, Colorado Springs, CO 80922",
+        "lat": 38.891,
+        "lng": -104.718,
+        "source_url": "https://communityresources.elpasoco.com/environmental-division/household-hazardous-waste/",
+        "hours": "Mon, Tue, Thu, Fri 8:30–12:00 & 13:00–16:00; select Sat 8:30–12:00",
+        "phone": "719-520-7878",
+        "accepted_materials": mats(HHW, E_WASTE),
+    },
+    # --- las-vegas ---
+    {
+        "name": "Republic Services Recycle Center — Gowan Road",
+        "facility_type": "Franchise HHW / recycling drop-off",
+        "city_slug": "las-vegas",
+        "state": "NV",
+        "zip": "89032",
+        "address": "333 W Gowan Rd, North Las Vegas, NV 89032",
+        "lat": 36.218,
+        "lng": -115.148,
+        "source_url": "https://www.clarkcountynv.gov/assets/documents/government/departments/water_quality/household-hazardous-waste-recycling-guide.pdf",
+        "hours": "Confirm on republicservices.com — photo ID + utility bill required",
+        "phone": "702-734-5400",
+        "accepted_materials": mats(HHW, TIRES, ["motor-oil", "car-battery", "antifreeze"]),
+    },
+    {
+        "name": "Republic Services Transfer Station — Cape Horn Drive",
+        "facility_type": "Franchise transfer / HHW drop-off",
+        "city_slug": "las-vegas",
+        "state": "NV",
+        "zip": "89015",
+        "address": "560 Cape Horn Dr, Henderson, NV 89015",
+        "lat": 36.045,
+        "lng": -115.024,
+        "source_url": "https://www.clarkcountynv.gov/assets/documents/government/departments/water_quality/household-hazardous-waste-recycling-guide.pdf",
+        "hours": "Confirm on republicservices.com — photo ID + utility bill required",
+        "phone": "702-599-5766",
+        "accepted_materials": mats(HHW, TIRES, E_WASTE, APPLIANCE),
+    },
+    # --- henderson ---
+    {
+        "name": "Republic Services Transfer Station — Henderson (560 Cape Horn)",
+        "facility_type": "Franchise transfer / HHW — city-referenced",
+        "city_slug": "henderson",
+        "state": "NV",
+        "zip": "89015",
+        "address": "560 Cape Horn Dr, Henderson, NV 89015",
+        "lat": 36.045,
+        "lng": -115.024,
+        "source_url": "https://www.cityofhenderson.com/government/contact-us/contact-henderson",
+        "hours": "Confirm on republicservices.com — Republic residential customers free with bill + ID",
+        "phone": "702-735-5151",
+        "accepted_materials": mats(HHW, ["motor-oil", "car-battery"]),
+    },
+    # --- spokane ---
+    {
+        "name": "Spokane Waste to Energy Facility — Recycling & Disposal",
+        "facility_type": "City transfer / landfill alternative — HHW daily",
+        "city_slug": "spokane",
+        "state": "WA",
+        "zip": "99224",
+        "address": "2900 S Geiger Blvd, Spokane, WA 99224",
+        "lat": 47.628,
+        "lng": -117.456,
+        "source_url": "https://my.spokanecity.org/solidwaste/locations/",
+        "hours": "Daily 7:30–17:00 (closed major holidays)",
+        "phone": "509-625-6580",
+        "accepted_materials": mats(HHW, BULKY, RECYCLE, APPLIANCE),
+    },
+    # --- seattle ---
+    {
+        "name": "North Transfer Station — Recycling & Reuse Building",
+        "facility_type": "Transfer station recycling / reuse annex",
+        "city_slug": "seattle",
+        "state": "WA",
+        "zip": "98103",
+        "address": "1350 N 34th St, Seattle, WA 98103",
+        "lat": 47.649,
+        "lng": -122.342,
+        "source_url": "https://www.seattle.gov/utilities/your-services/collection-and-disposal/transfer-stations/north-station",
+        "hours": "Confirm on seattle.gov — reuse building hours differ from main station",
+        "phone": "(206) 684-3000",
+        "accepted_materials": mats(RECYCLE, E_WASTE),
+    },
+    # --- tacoma / pierce county ---
+    {
+        "name": "Tacoma Recovery and Transfer Center",
+        "facility_type": "City transfer station — HHW Fri–Mon",
+        "city_slug": "tacoma",
+        "state": "WA",
+        "zip": "98409",
+        "address": "3510 S Mullen St, Tacoma, WA 98409",
+        "lat": 47.228,
+        "lng": -122.478,
+        "source_url": "https://www.piercecountywa.gov/1541/Transfer-Stations",
+        "hours": "Daily 8:00–17:30; HHW Fri–Mon 8:00–17:30",
+        "phone": "253-502-2100",
+        "accepted_materials": mats(BULKY, HHW, RECYCLE, E_WASTE),
+    },
+    {
+        "name": "Purdy Transfer Station",
+        "facility_type": "County transfer station — e-waste / motor oil",
+        "city_slug": "tacoma",
+        "state": "WA",
+        "zip": "98332",
+        "address": "14515 54th Ave NW, Gig Harbor, WA 98332",
+        "lat": 47.348,
+        "lng": -122.612,
+        "source_url": "https://www.piercecountywa.gov/1541/Transfer-Stations",
+        "hours": "Daily 9:00–16:45",
+        "phone": "253-847-7555",
+        "accepted_materials": mats(BULKY, RECYCLE, E_WASTE, ["motor-oil"]),
+    },
+    {
+        "name": "Prairie Ridge Drop Box Station",
+        "facility_type": "County drop box — garbage / recycling",
+        "city_slug": "tacoma",
+        "state": "WA",
+        "zip": "98391",
+        "address": "11710 Prairie Ridge Dr E, Bonney Lake, WA 98391",
+        "lat": 47.168,
+        "lng": -122.152,
+        "source_url": "https://www.piercecountywa.gov/1541/Transfer-Stations",
+        "hours": "Daily 9:00–16:45; 1 ton max",
+        "phone": "253-847-7555",
+        "accepted_materials": mats(BULKY, RECYCLE, E_WASTE),
+    },
+    # --- portland / metro ---
+    {
+        "name": "Metro Central HHW Facility",
+        "facility_type": "Regional HHW facility (co-located)",
+        "city_slug": "portland",
+        "state": "OR",
+        "zip": "97210",
+        "address": "6161 NW 61st Ave, Portland, OR 97210",
+        "lat": 45.532,
+        "lng": -122.738,
+        "source_url": "https://www.oregonmetro.gov/waste-disposal-and-prevention/need-get-rid-something/household-hazardous-waste",
+        "hours": "Mon–Sat 9:00–16:00; closed Sun",
+        "phone": "503-234-3000",
+        "accepted_materials": mats(HHW),
+    },
+    {
+        "name": "Metro South HHW Facility",
+        "facility_type": "Regional HHW facility (co-located)",
+        "city_slug": "portland",
+        "state": "OR",
+        "zip": "97045",
+        "address": "2001 Washington St, Oregon City, OR 97045",
+        "lat": 45.357,
+        "lng": -122.608,
+        "source_url": "https://www.oregonmetro.gov/waste-disposal-and-prevention/need-get-rid-something/household-hazardous-waste",
+        "hours": "Daily 9:00–16:00",
+        "phone": "503-234-3000",
+        "accepted_materials": mats(HHW),
+    },
+    # --- salt-lake-city / SLCo ---
+    {
+        "name": "SLCo Household Hazardous Waste Collection Center",
+        "facility_type": "County HHW facility — Sandy",
+        "city_slug": "salt-lake-city",
+        "state": "UT",
+        "zip": "84070",
+        "address": "8805 South 700 West, Sandy, UT 84070",
+        "lat": 40.572,
+        "lng": -111.902,
+        "source_url": "https://slco.org/health/household-hazardous-waste/safe-disposal/",
+        "hours": "Mon–Sat 7:00–17:00",
+        "phone": "385-468-4380",
+        "accepted_materials": mats(HHW, E_WASTE),
+    },
+    {
+        "name": "Trans-Jordan Landfill — HHW collection site",
+        "facility_type": "Regional landfill — HHW drop-off",
+        "city_slug": "salt-lake-city",
+        "state": "UT",
+        "zip": "84009",
+        "address": "10473 South Bacchus Highway, South Jordan, UT 84009",
+        "lat": 40.552,
+        "lng": -111.978,
+        "source_url": "https://slco.org/health/household-hazardous-waste/safe-disposal/",
+        "hours": "Mon–Sat 8:00–17:00",
+        "phone": "801-971-1976",
+        "accepted_materials": mats(HHW, TIRES),
+    },
+    {
+        "name": "Salt Lake Valley Landfill — public scale",
+        "facility_type": "County landfill — self-haul",
+        "city_slug": "salt-lake-city",
+        "state": "UT",
+        "zip": "84104",
+        "address": "6030 W California Ave, Salt Lake City, UT 84104",
+        "lat": 40.742,
+        "lng": -112.025,
+        "source_url": "https://slco.org/landfill/",
+        "hours": "Mon–Sat 7:00–17:00",
+        "phone": "385-468-6370",
+        "accepted_materials": mats(BULKY, TIRES, APPLIANCE),
+    },
+    # --- oklahoma-city ---
+    {
+        "name": "OKC Recycling Drop-Off — NW 4th",
+        "facility_type": "Municipal recycling drop-off (no glass)",
+        "city_slug": "oklahoma-city",
+        "state": "OK",
+        "zip": "73127",
+        "address": "5519 NW 4th St, Oklahoma City, OK 73127",
+        "lat": 35.472,
+        "lng": -97.618,
+        "source_url": "https://www.okc.gov/Services/Water-Trash-Recycling/Recycling/Recycling-Drop-Off-Centers",
+        "hours": "24/7 outdoor dumpsters",
+        "phone": "405-297-2833",
+        "accepted_materials": mats(RECYCLE),
+    },
+    {
+        "name": "Oklahoma City Landfill — Bryant Avenue",
+        "facility_type": "Municipal landfill — public scale / Free Landfill Day",
+        "city_slug": "oklahoma-city",
+        "state": "OK",
+        "zip": "73149",
+        "address": "7001 S Bryant Ave, Oklahoma City, OK 73149",
+        "lat": 35.395,
+        "lng": -97.459,
+        "source_url": "https://www.okc.gov/Services/Water-Trash-Recycling/Free-Landfill-Day",
+        "hours": "Free Landfill Day events May & Sep 7:00–15:00; fees other days",
+        "phone": "405-297-2833",
+        "accepted_materials": mats(BULKY, APPLIANCE, ["yard-waste"]),
+    },
+    {
+        "name": "East Oak Landfill — Mosley Road",
+        "facility_type": "Municipal landfill — public scale",
+        "city_slug": "oklahoma-city",
+        "state": "OK",
+        "zip": "73141",
+        "address": "3201 Mosley Rd, Oklahoma City, OK 73141",
+        "lat": 35.522,
+        "lng": -97.412,
+        "source_url": "https://www.okc.gov/Services/Water-Trash-Recycling/Free-Landfill-Day",
+        "hours": "Free Landfill Day events May & Sep 7:00–15:00",
+        "phone": "405-297-2833",
+        "accepted_materials": mats(BULKY, APPLIANCE),
+    },
+    # --- wichita ---
+    {
+        "name": "Waste Connections Transfer Station — 37th North",
+        "facility_type": "Regional transfer station — self-haul",
+        "city_slug": "wichita",
+        "state": "KS",
+        "zip": "67204",
+        "address": "4300 W 37th St N, Wichita, KS 67204",
+        "lat": 37.752,
+        "lng": -97.392,
+        "source_url": "https://www.sedgwickcounty.org/environment/recycling-guide/",
+        "hours": "Call 316-941-4320 for hours and fees",
+        "phone": "316-941-4320",
+        "accepted_materials": mats(BULKY, APPLIANCE, TIRES, E_WASTE),
+    },
+    # --- omaha ---
+    {
+        "name": "Omaha Full Service Drop-off — West (Elkhorn Drive)",
+        "facility_type": "City recycling drop-off site",
+        "city_slug": "omaha",
+        "state": "NE",
+        "zip": "68022",
+        "address": "20801 Elkhorn Drive, Omaha, NE 68022",
+        "lat": 41.282,
+        "lng": -96.248,
+        "source_url": "https://www.wasteline.org/wp-content/uploads/2022/02/drop-off.pdf",
+        "hours": "Daily 7:00–19:00",
+        "phone": "402-444-5238",
+        "accepted_materials": mats(RECYCLE),
+    },
+    {
+        "name": "Omaha Full Service Drop-off — Central (S 72nd St)",
+        "facility_type": "City recycling drop-off site",
+        "city_slug": "omaha",
+        "state": "NE",
+        "zip": "68106",
+        "address": "333 South 72nd Street, Omaha, NE 68106",
+        "lat": 41.252,
+        "lng": -96.018,
+        "source_url": "https://www.wasteline.org/wp-content/uploads/2022/02/drop-off.pdf",
+        "hours": "Daily 7:00–19:00",
+        "phone": "402-444-5238",
+        "accepted_materials": mats(RECYCLE),
+    },
+    {
+        "name": "Omaha Full Service Drop-off — Northwest (Mulhall's)",
+        "facility_type": "City recycling drop-off site",
+        "city_slug": "omaha",
+        "state": "NE",
+        "zip": "68164",
+        "address": "3615 North 120th Street, Omaha, NE 68164",
+        "lat": 41.322,
+        "lng": -96.102,
+        "source_url": "https://www.wasteline.org/wp-content/uploads/2022/02/drop-off.pdf",
+        "hours": "Daily 7:00–19:00",
+        "phone": "402-444-5238",
+        "accepted_materials": mats(RECYCLE),
+    },
+    {
+        "name": "Omaha Full Service Drop-off — Southwest (First Star)",
+        "facility_type": "City recycling drop-off site",
+        "city_slug": "omaha",
+        "state": "NE",
+        "zip": "68127",
+        "address": "10330 I Street, Omaha, NE 68127",
+        "lat": 41.218,
+        "lng": -96.078,
+        "source_url": "https://www.wasteline.org/wp-content/uploads/2022/02/drop-off.pdf",
+        "hours": "Daily 7:00–19:00",
+        "phone": "402-444-5238",
+        "accepted_materials": mats(RECYCLE),
+    },
+    # --- lincoln ---
+    {
+        "name": "Bluff Road Solid Waste Management Facility",
+        "facility_type": "Municipal landfill / compost — hauler scale",
+        "city_slug": "lincoln",
+        "state": "NE",
+        "zip": "68517",
+        "address": "6001 Bluff Road, Lincoln, NE 68517",
+        "lat": 40.742,
+        "lng": -96.682,
+        "source_url": "https://www.lincoln.ne.gov/City/Departments/LTU/Utilities/Solid-Waste-Management",
+        "hours": "Mon–Sat — confirm on lincoln.ne.gov",
+        "phone": "402-441-8102",
+        "accepted_materials": mats(BULKY, ["yard-waste"]),
+    },
+    # --- kansas-city ---
+    {
+        "name": "Recycling Drop Off Center — Red Bridge (Central)",
+        "facility_type": "Community recycling drop-off center",
+        "city_slug": "kansas-city",
+        "state": "MO",
+        "zip": "64137",
+        "address": "5200 E Red Bridge Road, Kansas City, MO 64137",
+        "lat": 38.921,
+        "lng": -94.534,
+        "source_url": "https://www.kcmo.gov/city-hall/trash/recycling",
+        "hours": "Wed–Sat 9:00–17:00",
+        "phone": "816-561-1087",
+        "accepted_materials": mats(RECYCLE),
+    },
+    {
+        "name": "Recycling Drop Off Center — Environmental Campus (South)",
+        "facility_type": "Community recycling / tire drop-off center",
+        "city_slug": "kansas-city",
+        "state": "MO",
+        "zip": "64132",
+        "address": "4707 Deramus, Kansas City, MO 64132",
+        "lat": 39.045,
+        "lng": -94.512,
+        "source_url": "https://www.kcmo.gov/city-hall/trash/recycling",
+        "hours": "Wed–Sat 9:00–17:00; tire drop-off 1st Sat Mar–Nov 8:00–12:00",
+        "phone": "816-561-1087",
+        "accepted_materials": mats(RECYCLE, TIRES),
+    },
+    {
+        "name": "Leaf & Brush Drop-off — N Main Street",
+        "facility_type": "Yard waste drop-off",
+        "city_slug": "kansas-city",
+        "state": "MO",
+        "zip": "64155",
+        "address": "11660 N Main Street, Kansas City, MO 64155",
+        "lat": 39.302,
+        "lng": -94.578,
+        "source_url": "https://www.kcmo.gov/city-hall/trash/leaf-brush",
+        "hours": "Mon–Fri 8:00–17:00; free Sat for KC MO residents",
+        "phone": "311",
+        "accepted_materials": mats(["yard-waste"]),
+    },
+    {
+        "name": "Leaf & Brush Drop-off — US-40 Highway",
+        "facility_type": "Yard waste drop-off",
+        "city_slug": "kansas-city",
+        "state": "MO",
+        "zip": "64133",
+        "address": "7700 E US-40 Highway, Kansas City, MO 64133",
+        "lat": 39.048,
+        "lng": -94.488,
+        "source_url": "https://www.kcmo.gov/city-hall/trash/leaf-brush",
+        "hours": "Sat only 8:00–17:00; free for KC MO residents",
+        "phone": "311",
+        "accepted_materials": mats(["yard-waste"]),
+    },
+    # --- st-louis ---
+    {
+        "name": "South Transfer Station",
+        "facility_type": "Municipal transfer station — BOAT-E / bulk",
+        "city_slug": "st-louis",
+        "state": "MO",
+        "zip": "63118",
+        "address": "4100 South 1st Street, St. Louis, MO 63118",
+        "lat": 38.588,
+        "lng": -90.212,
+        "source_url": "https://www.stlouis-mo.gov/government/departments/street/refuse/resident-dumping/south-transfer-station.cfm",
+        "hours": "Mon–Fri 8:00–16:00",
+        "phone": "314-622-4800",
+        "accepted_materials": mats(BULKY, APPLIANCE, TIRES, E_WASTE, ["motor-oil", "car-battery"]),
+    },
+    {
+        "name": "St. Louis County HHW — Hanley Road (Berkeley)",
+        "facility_type": "County HHW facility",
+        "city_slug": "st-louis",
+        "state": "MO",
+        "zip": "63134",
+        "address": "6121 N Hanley Rd, Berkeley, MO 63134",
+        "lat": 38.756,
+        "lng": -90.324,
+        "source_url": "https://www.recyclesaintlouis.com/",
+        "hours": "Appointment required — confirm on recyclesaintlouis.com",
+        "phone": "314-615-8989",
+        "accepted_materials": mats(HHW, E_WASTE),
+    },
+    # --- phoenix ---
+    {
+        "name": "27th Avenue Compost Facility",
+        "facility_type": "Municipal green-organics / compost drop-off",
+        "city_slug": "phoenix",
+        "state": "AZ",
+        "zip": "85009",
+        "address": "3060 S 27th Ave, Phoenix, AZ 85009",
+        "lat": 33.416,
+        "lng": -112.088,
+        "source_url": "https://www.phoenix.gov/administration/departments/publicworks/about-us/transfer-stations.html",
+        "hours": "Same as 27th Avenue Transfer Station — Mon–Fri 5:30–17:00; Sat 6:00–15:00",
+        "phone": "(602) 262-7251",
+        "accepted_materials": mats(["yard-waste"]),
+    },
+    # --- reno ---
+    {
+        "name": "Lockwood Landfill — green waste / bulky",
+        "facility_type": "Regional landfill — public scale detail",
+        "city_slug": "reno",
+        "state": "NV",
+        "zip": "89506",
+        "address": "1300 East Lockwood Road, Reno, NV 89506",
+        "lat": 39.648,
+        "lng": -119.812,
+        "source_url": "https://www.reno.gov/community/environmental-services/solid-waste-recycling.php",
+        "hours": "Confirm with Waste Management — one free bulky item per household",
+        "phone": "775-329-8822",
+        "accepted_materials": mats(BULKY, APPLIANCE, ["yard-waste"]),
+    },
+]
+
+
+def main() -> None:
+    for row in FACILITIES:
+        row["accepted_materials"] = mats(row["accepted_materials"])
+
+    facilities = json.loads(FAC_PATH.read_text())
+    by_key = {(f.get("city_slug"), f.get("name")): i for i, f in enumerate(facilities)}
+
+    fixed = added = updated = 0
+    for fix in FIXES:
+        old_key = (fix["city_slug"], fix["old_name"])
+        if old_key in by_key:
+            idx = by_key.pop(old_key)
+            old = facilities[idx]
+            new_row = {**old, **{k: v for k, v in fix.items() if k != "old_name"}}
+            facilities[idx] = new_row
+            by_key[(fix["city_slug"], fix["name"])] = idx
+            fixed += 1
+
+    for row in FACILITIES:
+        key = (row["city_slug"], row["name"])
+        if key in by_key:
+            facilities[by_key[key]] = {**facilities[by_key[key]], **row}
+            updated += 1
+        else:
+            facilities.append(row)
+            by_key[key] = len(facilities) - 1
+            added += 1
+
+    FAC_PATH.write_text(json.dumps(facilities, indent=2) + "\n")
+
+    target = {
+        "phoenix",
+        "tucson",
+        "chandler",
+        "glendale",
+        "denver",
+        "aurora",
+        "colorado-springs",
+        "las-vegas",
+        "henderson",
+        "reno",
+        "seattle",
+        "tacoma",
+        "spokane",
+        "portland",
+        "salt-lake-city",
+        "albuquerque",
+        "oklahoma-city",
+        "tulsa",
+        "wichita",
+        "omaha",
+        "lincoln",
+        "kansas-city",
+        "st-louis",
+    }
+    total = sum(1 for f in facilities if f.get("city_slug") in target)
+    per_city = {c: sum(1 for f in facilities if f.get("city_slug") == c) for c in sorted(target)}
+    print(json.dumps({"added": added, "updated": updated, "fixed": fixed, "total_23_metros": total, "per_city": per_city}, indent=2))
+
+
+if __name__ == "__main__":
+    main()
