@@ -868,5 +868,105 @@
     "lat": 36.815,
     "lng": -76.095,
     "population": 48000
+  },
+  {
+    "zip": "80903",
+    "city": "Colorado Springs",
+    "city_slug": "colorado-springs",
+    "state": "CO",
+    "state_slug": "colorado",
+    "lat": 38.834,
+    "lng": -104.821,
+    "population": 18000
+  },
+  {
+    "zip": "80909",
+    "city": "Colorado Springs",
+    "city_slug": "colorado-springs",
+    "state": "CO",
+    "state_slug": "colorado",
+    "lat": 38.845,
+    "lng": -104.775,
+    "population": 22000
+  },
+  {
+    "zip": "67202",
+    "city": "Wichita",
+    "city_slug": "wichita",
+    "state": "KS",
+    "state_slug": "kansas",
+    "lat": 37.687,
+    "lng": -97.33,
+    "population": 8000
+  },
+  {
+    "zip": "67214",
+    "city": "Wichita",
+    "city_slug": "wichita",
+    "state": "KS",
+    "state_slug": "kansas",
+    "lat": 37.705,
+    "lng": -97.315,
+    "population": 15000
+  },
+  {
+    "zip": "76010",
+    "city": "Arlington",
+    "city_slug": "arlington",
+    "state": "TX",
+    "state_slug": "texas",
+    "lat": 32.736,
+    "lng": -97.108,
+    "population": 35000
+  },
+  {
+    "zip": "76013",
+    "city": "Arlington",
+    "city_slug": "arlington",
+    "state": "TX",
+    "state_slug": "texas",
+    "lat": 32.725,
+    "lng": -97.145,
+    "population": 28000
+  },
+  {
+    "zip": "70112",
+    "city": "New Orleans",
+    "city_slug": "new-orleans",
+    "state": "LA",
+    "state_slug": "louisiana",
+    "lat": 29.951,
+    "lng": -90.072,
+    "population": 12000
+  },
+  {
+    "zip": "70119",
+    "city": "New Orleans",
+    "city_slug": "new-orleans",
+    "state": "LA",
+    "state_slug": "louisiana",
+    "lat": 29.975,
+    "lng": -90.085,
+    "population": 20000
+  },
+  {
+    "zip": "33602",
+    "city": "Tampa",
+    "city_slug": "tampa",
+    "state": "FL",
+    "state_slug": "florida",
+    "lat": 27.951,
+    "lng": -82.457,
+    "population": 9000
+  },
+  {
+    "zip": "33606",
+    "city": "Tampa",
+    "city_slug": "tampa",
+    "state": "FL",
+    "state_slug": "florida",
+    "lat": 27.935,
+    "lng": -82.465,
+    "population": 14000
   }
 ]

@@ -4964,5 +4964,291 @@
         ]
       }
     ]
+  },
+  {
+    "state_slug": "colorado",
+    "city_slug": "colorado-springs",
+    "zip": "80903",
+    "city": "Colorado Springs",
+    "state": "CO",
+    "lat": 38.834,
+    "lng": -104.821,
+    "population": 18000,
+    "indexable": true,
+    "facilities": [
+      {
+        "name": "El Paso County HHW",
+        "facility_type": "Household hazardous waste drop-off",
+        "city_slug": "colorado-springs",
+        "state": "CO",
+        "zip": "80922",
+        "address": "3255 Akers Dr, Colorado Springs, CO 80922",
+        "lat": 38.8755,
+        "lng": -104.7155,
+        "source_url": "https://communityresources.elpasoco.com/household-hazardous-waste",
+        "hours": "Mon/Tue/Thu/Fri 8:30\u201312 & 13:00\u201316:00; closed Wed; limited Sat",
+        "phone": "719-520-7878"
+      }
+    ]
+  },
+  {
+    "state_slug": "colorado",
+    "city_slug": "colorado-springs",
+    "zip": "80909",
+    "city": "Colorado Springs",
+    "state": "CO",
+    "lat": 38.845,
+    "lng": -104.775,
+    "population": 22000,
+    "indexable": true,
+    "facilities": [
+      {
+        "name": "El Paso County HHW",
+        "facility_type": "Household hazardous waste drop-off",
+        "city_slug": "colorado-springs",
+        "state": "CO",
+        "zip": "80922",
+        "address": "3255 Akers Dr, Colorado Springs, CO 80922",
+        "lat": 38.8755,
+        "lng": -104.7155,
+        "source_url": "https://communityresources.elpasoco.com/household-hazardous-waste",
+        "hours": "Mon/Tue/Thu/Fri 8:30\u201312 & 13:00\u201316:00; closed Wed; limited Sat",
+        "phone": "719-520-7878"
+      }
+    ]
+  },
+  {
+    "state_slug": "kansas",
+    "city_slug": "wichita",
+    "zip": "67202",
+    "city": "Wichita",
+    "state": "KS",
+    "lat": 37.687,
+    "lng": -97.33,
+    "population": 8000,
+    "indexable": true,
+    "facilities": [
+      {
+        "name": "Sedgwick County HHW",
+        "facility_type": "Household hazardous waste drop-off",
+        "city_slug": "wichita",
+        "state": "KS",
+        "zip": "67213",
+        "address": "801 Stillwell St, Wichita, KS 67213",
+        "lat": 37.6555,
+        "lng": -97.3555,
+        "source_url": "https://www.sedgwickcounty.org/environment/hazardous-waste/",
+        "hours": "Tue\u2013Fri 9:00\u201317:00; Sat 9:00\u201315:00",
+        "phone": "316-660-7464"
+      }
+    ]
+  },
+  {
+    "state_slug": "kansas",
+    "city_slug": "wichita",
+    "zip": "67214",
+    "city": "Wichita",
+    "state": "KS",
+    "lat": 37.705,
+    "lng": -97.315,
+    "population": 15000,
+    "indexable": true,
+    "facilities": [
+      {
+        "name": "Sedgwick County HHW",
+        "facility_type": "Household hazardous waste drop-off",
+        "city_slug": "wichita",
+        "state": "KS",
+        "zip": "67213",
+        "address": "801 Stillwell St, Wichita, KS 67213",
+        "lat": 37.6555,
+        "lng": -97.3555,
+        "source_url": "https://www.sedgwickcounty.org/environment/hazardous-waste/",
+        "hours": "Tue\u2013Fri 9:00\u201317:00; Sat 9:00\u201315:00",
+        "phone": "316-660-7464"
+      }
+    ]
+  },
+  {
+    "state_slug": "texas",
+    "city_slug": "arlington",
+    "zip": "76010",
+    "city": "Arlington",
+    "state": "TX",
+    "lat": 32.736,
+    "lng": -97.108,
+    "population": 35000,
+    "indexable": true,
+    "facilities": [
+      {
+        "name": "Fort Worth Environmental Collection Center",
+        "facility_type": "Household hazardous waste drop-off",
+        "city_slug": "arlington",
+        "state": "TX",
+        "zip": "76112",
+        "address": "6400 Bridge St, Fort Worth, TX 76112",
+        "lat": 32.7555,
+        "lng": -97.2155,
+        "source_url": "https://www.fortworthtexas.gov/departments/code-compliance/household-hazardous-waste",
+        "hours": "Thu\u2013Fri 11:00\u201319:00; Sat 9:00\u201315:00",
+        "phone": "817-392-3279"
+      }
+    ]
+  },
+  {
+    "state_slug": "texas",
+    "city_slug": "arlington",
+    "zip": "76013",
+    "city": "Arlington",
+    "state": "TX",
+    "lat": 32.725,
+    "lng": -97.145,
+    "population": 28000,
+    "indexable": true,
+    "facilities": [
+      {
+        "name": "Fort Worth Environmental Collection Center",
+        "facility_type": "Household hazardous waste drop-off",
+        "city_slug": "arlington",
+        "state": "TX",
+        "zip": "76112",
+        "address": "6400 Bridge St, Fort Worth, TX 76112",
+        "lat": 32.7555,
+        "lng": -97.2155,
+        "source_url": "https://www.fortworthtexas.gov/departments/code-compliance/household-hazardous-waste",
+        "hours": "Thu\u2013Fri 11:00\u201319:00; Sat 9:00\u201315:00",
+        "phone": "817-392-3279"
+      }
+    ]
+  },
+  {
+    "state_slug": "louisiana",
+    "city_slug": "new-orleans",
+    "zip": "70112",
+    "city": "New Orleans",
+    "state": "LA",
+    "lat": 29.951,
+    "lng": -90.072,
+    "population": 12000,
+    "indexable": true,
+    "facilities": [
+      {
+        "name": "New Orleans Recycling Drop-Off Center",
+        "facility_type": "Household hazardous waste drop-off",
+        "city_slug": "new-orleans",
+        "state": "LA",
+        "zip": "70122",
+        "address": "2829 Elysian Fields Ave, New Orleans, LA 70122",
+        "lat": 29.9855,
+        "lng": -90.0555,
+        "source_url": "https://nola.gov/recycling-drop-off/",
+        "hours": "Sat 8:00\u201313:00 general; HHW on designated calendar days",
+        "phone": "311"
+      }
+    ]
+  },
+  {
+    "state_slug": "louisiana",
+    "city_slug": "new-orleans",
+    "zip": "70119",
+    "city": "New Orleans",
+    "state": "LA",
+    "lat": 29.975,
+    "lng": -90.085,
+    "population": 20000,
+    "indexable": true,
+    "facilities": [
+      {
+        "name": "New Orleans Recycling Drop-Off Center",
+        "facility_type": "Household hazardous waste drop-off",
+        "city_slug": "new-orleans",
+        "state": "LA",
+        "zip": "70122",
+        "address": "2829 Elysian Fields Ave, New Orleans, LA 70122",
+        "lat": 29.9855,
+        "lng": -90.0555,
+        "source_url": "https://nola.gov/recycling-drop-off/",
+        "hours": "Sat 8:00\u201313:00 general; HHW on designated calendar days",
+        "phone": "311"
+      }
+    ]
+  },
+  {
+    "state_slug": "florida",
+    "city_slug": "tampa",
+    "zip": "33602",
+    "city": "Tampa",
+    "state": "FL",
+    "lat": 27.951,
+    "lng": -82.457,
+    "population": 9000,
+    "indexable": true,
+    "facilities": [
+      {
+        "name": "Hillsborough County HHW \u2014 Sheldon Rd",
+        "facility_type": "Household hazardous waste drop-off",
+        "city_slug": "tampa",
+        "state": "FL",
+        "zip": "33635",
+        "address": "9805 Sheldon Rd, Tampa, FL 33635",
+        "lat": 28.0055,
+        "lng": -82.5855,
+        "source_url": "https://www.hcfl.gov/residents/property-owners-and-renters/trash-and-recycling/household-hazardous-waste",
+        "hours": "Rotating Sat collection \u2014 1st Sat Sheldon Rd; check calendar",
+        "phone": "813-272-5680"
+      },
+      {
+        "name": "McKay Bay Scale House",
+        "facility_type": "Bulky / appliance drop-off",
+        "city_slug": "tampa",
+        "state": "FL",
+        "zip": "33605",
+        "address": "114 S 34th St, Tampa, FL 33605",
+        "lat": 27.9455,
+        "lng": -82.4255,
+        "source_url": "https://www.tampa.gov/solid-waste/programs/mckay-bay-scale-house",
+        "hours": "Mon\u2013Sat; free drop with City of Tampa utility account",
+        "phone": "813-242-5320"
+      }
+    ]
+  },
+  {
+    "state_slug": "florida",
+    "city_slug": "tampa",
+    "zip": "33606",
+    "city": "Tampa",
+    "state": "FL",
+    "lat": 27.935,
+    "lng": -82.465,
+    "population": 14000,
+    "indexable": true,
+    "facilities": [
+      {
+        "name": "Hillsborough County HHW \u2014 Sheldon Rd",
+        "facility_type": "Household hazardous waste drop-off",
+        "city_slug": "tampa",
+        "state": "FL",
+        "zip": "33635",
+        "address": "9805 Sheldon Rd, Tampa, FL 33635",
+        "lat": 28.0055,
+        "lng": -82.5855,
+        "source_url": "https://www.hcfl.gov/residents/property-owners-and-renters/trash-and-recycling/household-hazardous-waste",
+        "hours": "Rotating Sat collection \u2014 1st Sat Sheldon Rd; check calendar",
+        "phone": "813-272-5680"
+      },
+      {
+        "name": "McKay Bay Scale House",
+        "facility_type": "Bulky / appliance drop-off",
+        "city_slug": "tampa",
+        "state": "FL",
+        "zip": "33605",
+        "address": "114 S 34th St, Tampa, FL 33605",
+        "lat": 27.9455,
+        "lng": -82.4255,
+        "source_url": "https://www.tampa.gov/solid-waste/programs/mckay-bay-scale-house",
+        "hours": "Mon\u2013Sat; free drop with City of Tampa utility account",
+        "phone": "813-242-5320"
+      }
+    ]
   }
 ]

@@ -457,5 +457,50 @@
     "lat": 36.8529,
     "lng": -75.978,
     "population": 459808
+  },
+  {
+    "city": "Colorado Springs",
+    "city_slug": "colorado-springs",
+    "state": "CO",
+    "state_slug": "colorado",
+    "lat": 38.8339,
+    "lng": -104.8214,
+    "population": 478961
+  },
+  {
+    "city": "Wichita",
+    "city_slug": "wichita",
+    "state": "KS",
+    "state_slug": "kansas",
+    "lat": 37.6872,
+    "lng": -97.3301,
+    "population": 397532
+  },
+  {
+    "city": "Arlington",
+    "city_slug": "arlington",
+    "state": "TX",
+    "state_slug": "texas",
+    "lat": 32.7357,
+    "lng": -97.1081,
+    "population": 394266
+  },
+  {
+    "city": "New Orleans",
+    "city_slug": "new-orleans",
+    "state": "LA",
+    "state_slug": "louisiana",
+    "lat": 29.9511,
+    "lng": -90.0715,
+    "population": 383997
+  },
+  {
+    "city": "Tampa",
+    "city_slug": "tampa",
+    "state": "FL",
+    "state_slug": "florida",
+    "lat": 27.9506,
+    "lng": -82.4572,
+    "population": 384959
   }
 ]
