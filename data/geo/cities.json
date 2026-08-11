@@ -682,5 +682,50 @@
     "lat": 41.6528,
     "lng": -83.5379,
     "population": 270871
+  },
+  {
+    "city": "Lincoln",
+    "city_slug": "lincoln",
+    "state": "NE",
+    "state_slug": "nebraska",
+    "lat": 40.8136,
+    "lng": -96.7026,
+    "population": 291082
+  },
+  {
+    "city": "Fort Wayne",
+    "city_slug": "fort-wayne",
+    "state": "IN",
+    "state_slug": "indiana",
+    "lat": 41.0793,
+    "lng": -85.1394,
+    "population": 264052
+  },
+  {
+    "city": "St. Petersburg",
+    "city_slug": "st-petersburg",
+    "state": "FL",
+    "state_slug": "florida",
+    "lat": 27.7676,
+    "lng": -82.6403,
+    "population": 258308
+  },
+  {
+    "city": "Corpus Christi",
+    "city_slug": "corpus-christi",
+    "state": "TX",
+    "state_slug": "texas",
+    "lat": 27.8006,
+    "lng": -97.3964,
+    "population": 317863
+  },
+  {
+    "city": "Greensboro",
+    "city_slug": "greensboro",
+    "state": "NC",
+    "state_slug": "north-carolina",
+    "lat": 36.0726,
+    "lng": -79.792,
+    "population": 299035
   }
 ]

@@ -1368,5 +1368,105 @@
     "lat": 41.63,
     "lng": -83.555,
     "population": 18000
+  },
+  {
+    "zip": "68508",
+    "city": "Lincoln",
+    "city_slug": "lincoln",
+    "state": "NE",
+    "state_slug": "nebraska",
+    "lat": 40.814,
+    "lng": -96.703,
+    "population": 12000
+  },
+  {
+    "zip": "68502",
+    "city": "Lincoln",
+    "city_slug": "lincoln",
+    "state": "NE",
+    "state_slug": "nebraska",
+    "lat": 40.79,
+    "lng": -96.68,
+    "population": 18000
+  },
+  {
+    "zip": "46802",
+    "city": "Fort Wayne",
+    "city_slug": "fort-wayne",
+    "state": "IN",
+    "state_slug": "indiana",
+    "lat": 41.079,
+    "lng": -85.139,
+    "population": 14000
+  },
+  {
+    "zip": "46805",
+    "city": "Fort Wayne",
+    "city_slug": "fort-wayne",
+    "state": "IN",
+    "state_slug": "indiana",
+    "lat": 41.065,
+    "lng": -85.12,
+    "population": 16000
+  },
+  {
+    "zip": "33701",
+    "city": "St. Petersburg",
+    "city_slug": "st-petersburg",
+    "state": "FL",
+    "state_slug": "florida",
+    "lat": 27.768,
+    "lng": -82.64,
+    "population": 9000
+  },
+  {
+    "zip": "33703",
+    "city": "St. Petersburg",
+    "city_slug": "st-petersburg",
+    "state": "FL",
+    "state_slug": "florida",
+    "lat": 27.785,
+    "lng": -82.625,
+    "population": 15000
+  },
+  {
+    "zip": "78401",
+    "city": "Corpus Christi",
+    "city_slug": "corpus-christi",
+    "state": "TX",
+    "state_slug": "texas",
+    "lat": 27.801,
+    "lng": -97.396,
+    "population": 8000
+  },
+  {
+    "zip": "78404",
+    "city": "Corpus Christi",
+    "city_slug": "corpus-christi",
+    "state": "TX",
+    "state_slug": "texas",
+    "lat": 27.78,
+    "lng": -97.42,
+    "population": 12000
+  },
+  {
+    "zip": "27401",
+    "city": "Greensboro",
+    "city_slug": "greensboro",
+    "state": "NC",
+    "state_slug": "north-carolina",
+    "lat": 36.073,
+    "lng": -79.792,
+    "population": 11000
+  },
+  {
+    "zip": "27403",
+    "city": "Greensboro",
+    "city_slug": "greensboro",
+    "state": "NC",
+    "state_slug": "north-carolina",
+    "lat": 36.055,
+    "lng": -79.82,
+    "population": 17000
   }
 ]
