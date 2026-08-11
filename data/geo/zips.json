@@ -1268,5 +1268,105 @@
     "lat": 33.48,
     "lng": -86.79,
     "population": 20000
+  },
+  {
+    "zip": "49503",
+    "city": "Grand Rapids",
+    "city_slug": "grand-rapids",
+    "state": "MI",
+    "state_slug": "michigan",
+    "lat": 42.963,
+    "lng": -85.668,
+    "population": 18000
+  },
+  {
+    "zip": "49506",
+    "city": "Grand Rapids",
+    "city_slug": "grand-rapids",
+    "state": "MI",
+    "state_slug": "michigan",
+    "lat": 42.948,
+    "lng": -85.62,
+    "population": 22000
+  },
+  {
+    "zip": "14604",
+    "city": "Rochester",
+    "city_slug": "rochester",
+    "state": "NY",
+    "state_slug": "new-york",
+    "lat": 43.157,
+    "lng": -77.609,
+    "population": 8000
+  },
+  {
+    "zip": "14620",
+    "city": "Rochester",
+    "city_slug": "rochester",
+    "state": "NY",
+    "state_slug": "new-york",
+    "lat": 43.128,
+    "lng": -77.595,
+    "population": 20000
+  },
+  {
+    "zip": "23510",
+    "city": "Norfolk",
+    "city_slug": "norfolk",
+    "state": "VA",
+    "state_slug": "virginia",
+    "lat": 36.851,
+    "lng": -76.286,
+    "population": 12000
+  },
+  {
+    "zip": "23517",
+    "city": "Norfolk",
+    "city_slug": "norfolk",
+    "state": "VA",
+    "state_slug": "virginia",
+    "lat": 36.87,
+    "lng": -76.295,
+    "population": 15000
+  },
+  {
+    "zip": "40507",
+    "city": "Lexington",
+    "city_slug": "lexington",
+    "state": "KY",
+    "state_slug": "kentucky",
+    "lat": 38.041,
+    "lng": -84.504,
+    "population": 14000
+  },
+  {
+    "zip": "40508",
+    "city": "Lexington",
+    "city_slug": "lexington",
+    "state": "KY",
+    "state_slug": "kentucky",
+    "lat": 38.035,
+    "lng": -84.49,
+    "population": 16000
+  },
+  {
+    "zip": "43604",
+    "city": "Toledo",
+    "city_slug": "toledo",
+    "state": "OH",
+    "state_slug": "ohio",
+    "lat": 41.653,
+    "lng": -83.538,
+    "population": 9000
+  },
+  {
+    "zip": "43609",
+    "city": "Toledo",
+    "city_slug": "toledo",
+    "state": "OH",
+    "state_slug": "ohio",
+    "lat": 41.63,
+    "lng": -83.555,
+    "population": 18000
   }
 ]

@@ -637,5 +637,50 @@
     "lat": 33.5207,
     "lng": -86.8025,
     "population": 200733
+  },
+  {
+    "city": "Grand Rapids",
+    "city_slug": "grand-rapids",
+    "state": "MI",
+    "state_slug": "michigan",
+    "lat": 42.9634,
+    "lng": -85.6681,
+    "population": 198917
+  },
+  {
+    "city": "Rochester",
+    "city_slug": "rochester",
+    "state": "NY",
+    "state_slug": "new-york",
+    "lat": 43.1566,
+    "lng": -77.6088,
+    "population": 211328
+  },
+  {
+    "city": "Norfolk",
+    "city_slug": "norfolk",
+    "state": "VA",
+    "state_slug": "virginia",
+    "lat": 36.8508,
+    "lng": -76.2859,
+    "population": 238005
+  },
+  {
+    "city": "Lexington",
+    "city_slug": "lexington",
+    "state": "KY",
+    "state_slug": "kentucky",
+    "lat": 38.0406,
+    "lng": -84.5037,
+    "population": 322570
+  },
+  {
+    "city": "Toledo",
+    "city_slug": "toledo",
+    "state": "OH",
+    "state_slug": "ohio",
+    "lat": 41.6528,
+    "lng": -83.5379,
+    "population": 270871
   }
 ]
