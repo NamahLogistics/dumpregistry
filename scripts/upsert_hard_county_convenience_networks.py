@@ -311,6 +311,88 @@ for name, addr, zipc, lat, lng in [
 ]:
     UPSERTS.append(row("Hillsborough County FL", name, "County community collection center", "tampa", "FL", zipc, addr, lat, lng, HCFL, "Mon–Sat — confirm hcfl.gov", "813-272-5680", ccc_m))
 
+# ── BATCH2: verified gaps from dpw.sbcounty.gov, rcwaste.org, jeffco.us, kernpublicworks.com ──
+SBC_DPW = "https://dpw.sbcounty.gov/solid-waste-management/waste-disposal-sites/"
+for name, addr, zipc, lat, lng, hours, mlist in [
+    ("Yucca Valley Transfer Station", "58925 Sunnyslope Drive, Yucca Valley, CA 92284", "92284", 34.1225, -116.4325, "Mon–Sat 8:00–16:30", mats(LANDFILL, TRANSFER)),
+    ("Trona-Argus Transfer Station", "83000 First Street, Trona, CA 93562", "93562", 35.7555, -117.3755, "Tue–Sat 8:00–16:30", mats(LANDFILL, TRANSFER)),
+    ("Newberry Springs Transfer Station", "30550 Poniente Drive, Newberry Springs, CA 92365", "92365", 34.8255, -116.6855, "Thu–Sun 7:30–17:00", mats(LANDFILL, TRANSFER)),
+    ("Joshua Tree Transfer Station", "62499 Twentynine Palms Highway, Joshua Tree, CA 92252", "92252", 34.1355, -116.3155, "Confirm hours on dpw.sbcounty.gov", mats(LANDFILL, TRANSFER)),
+    ("Landers Sanitary Landfill", "61458 Landers Lane, Landers, CA 92285", "92285", 34.3455, -116.4055, "Mon–Sat 8:00–16:30", mats(LANDFILL)),
+    ("Victor Valley MRF and Transfer Station", "17000 Stoddard Wells Road, Victorville, CA 92394", "92394", 34.4855, -117.3855, "Mon–Sat 8:00–16:30", mats(TRANSFER, BULKY, APPLIANCE, TIRES)),
+    ("Inland Regional MRF and Transfer Station", "14100 Etiwanda Avenue, Fontana, CA 92335", "92335", 34.1255, -117.4355, "Mon–Sat 6:00–17:00", mats(TRANSFER, BULKY, APPLIANCE, TIRES, CD)),
+    ("East Valley Recycling and Transfer Station", "1451 E Cooley Drive, Colton, CA 92324", "92324", 34.0655, -117.2855, "Mon–Sat 6:00–17:00", mats(TRANSFER, BULKY, APPLIANCE, TIRES, CD)),
+    ("Clean Mountain Site — Crestline", "40000 Lake Gregory Drive, Crestline, CA 92325", "92325", 34.2455, -117.2855, "Limited-volume transfer — confirm dpw.sbcounty.gov", mats(BULKY, ["yard-waste"], TIRES)),
+    ("Clean Mountain Site — Running Springs", "3200 North Running Springs Road, Running Springs, CA 92382", "92382", 34.2055, -117.1055, "Limited-volume transfer — confirm dpw.sbcounty.gov", mats(BULKY, ["yard-waste"], TIRES)),
+    ("Clean Mountain Site — Lake Arrowhead", "400 North State Highway 173, Lake Arrowhead, CA 92352", "92352", 34.3655, -117.2255, "Limited-volume transfer — confirm dpw.sbcounty.gov", mats(BULKY, ["yard-waste"], TIRES)),
+    ("Clean Mountain Site — Green Valley Lake", "40000 Green Valley Lake Road, Green Valley Lake, CA 92341", "92341", 34.2455, -117.0655, "Limited-volume transfer — confirm dpw.sbcounty.gov", mats(BULKY, ["yard-waste"], TIRES)),
+    ("Joshua Tree HHW Collection Site", "62499 Twentynine Palms Highway, Joshua Tree, CA 92252", "92252", 34.1355, -116.3155, "3rd Sat 9:00–13:00", sbc_hhw),
+    ("Hesperia HHW — County Fire Station", "17443 Lemon Street, Hesperia, CA 92345", "92345", 34.4255, -117.3255, "Tue/Thu 9:00–13:00; Sat 9:00–15:00", sbc_hhw),
+    ("Rancho Cucamonga HHW — Lion Street", "8794 Lion Street, Rancho Cucamonga, CA 91730", "91730", 34.1055, -117.5755, "Sat 8:00–12:00", sbc_hhw),
+    ("Victorville HHW — County Fairgrounds", "East of Desert Knoll Drive on Loves Lane, Victorville, CA 92392", "92392", 34.5355, -117.2855, "Wed/Sun 9:00–16:00", sbc_hhw),
+]:
+    UPSERTS.append(row("San Bernardino County CA", name, "County transfer / landfill / HHW facility", "fontana", "CA", zipc, addr, lat, lng, SBC if "HHW" not in name else SBC, hours, "800-722-8004", mlist))
+
+JSLASH = "https://www.jeffco.us/2493/Slash-Collection"
+for name, addr, zipc, lat, lng, hours in [
+    ("Jefferson County SLASH — Blue Mountain Open Space", "23401 Coal Creek Canyon Road, Arvada, CO 80007", "80007", 39.9055, -105.2855, "Thu–Sun May 23–Jun 2 seasonal; 9:00–16:00"),
+    ("Jefferson County SLASH — Elk Creek Elementary", "13304 US Highway 285, Pine, CO 80470", "80470", 39.6555, -105.3255, "Thu–Sun Jun 6–Jul 21 seasonal; 9:00–16:00"),
+    ("Jefferson County SLASH — Marshdale Property", "26624 N Turkey Creek Road, Evergreen, CO 80439", "80439", 39.6255, -105.3555, "Thu–Sun Jul 25–Sep 8; closes 15:00 daily"),
+]:
+    UPSERTS.append(row("Denver / Arapahoe / Jefferson CO", name, "County seasonal slash / yard-waste drop-off", "denver", "CO", zipc, addr, lat, lng, JSLASH, hours, "303-271-5200", mats(["yard-waste"], BULKY)))
+
+RIV2 = "https://rcwaste.org/sites/g/files/aldnop376/files/2026-02/2026%20HHW%20Flyer_V06_02-25-2026_Links.pdf"
+for name, addr, zipc, lat, lng, hours, mlist in [
+    ("Anza Transfer Station", "40329 Terwilliger Road, Anza, CA 92539", "92539", 33.5555, -116.6755, "2nd Sat monthly — confirm rcwaste.org", mats(TRANSFER, HHW_E)),
+    ("Idyllwild Transfer Station", "28100 Saunders Meadow Road, Idyllwild, CA 92549", "92549", 33.7455, -116.7155, "3rd Sat monthly ABOP — confirm rcwaste.org", mats(TRANSFER, HHW_E)),
+    ("Murrieta ABOP and PaintCare Facility", "25315 Jefferson Avenue, Murrieta, CA 92562", "92562", 33.5655, -117.2155, "Non-holiday Sat 9:00–14:00", mats(HHW_E)),
+    ("Coachella Valley Transfer Station — ABOP", "87011 Landfill Road, Coachella, CA 92236", "92236", 33.6755, -116.1755, "Confirm hours rcwaste.org / 760-863-4094", mats(TRANSFER, HHW_E)),
+    ("Pinyon Flats Transfer Station", "South Pinyon Flats Road, Pinyon Pines, CA 92561", "92561", 33.5855, -116.4555, "Seasonal Sat events — confirm rcwaste.org", mats(TRANSFER, HHW_E)),
+    ("Idyllwild County Road Yard — HHW Collection", "25780 Johnson Road, Idyllwild, CA 92549", "92549", 33.7455, -116.7055, "Apr 25 & Aug 29 2026 events 9:00–14:00", mats(HHW_E)),
+    ("RCDWR Main Office — HHW Collection Event", "14310 Frederick Street, Moreno Valley, CA 92553", "92553", 33.8755, -117.2355, "Apr 11 & Nov 14 2026 9:00–14:00", mats(HHW_E)),
+    ("Corona City Hall — HHW Collection Event", "400 South Vicentia Avenue, Corona, CA 92882", "92882", 33.8755, -117.5655, "Mar 14–15 & Oct 24–25 2026 9:00–14:00", mats(HHW_E)),
+    ("City of Indio Corporate Yard — HHW Event", "83101 Avenue 45, Indio, CA 92201", "92201", 33.7255, -116.2155, "Mar 28 & Oct 31 2026 9:00–14:00", mats(HHW_E)),
+    ("La Quinta South City Hall — HHW Event", "78495 Calle Tampico, La Quinta, CA 92253", "92253", 33.6855, -116.2955, "Feb 14 & Dec 12 2026 9:00–14:00", mats(HHW_E)),
+    ("Mead Valley Community Center — HHW Event", "21091 Rider Street, Perris, CA 92570", "92570", 33.7855, -117.2255, "Jan 31 & Aug 22 2026 9:00–14:00", mats(HHW_E)),
+    ("Murrieta City Hall — HHW Collection Event", "24601 Jefferson Avenue, Murrieta, CA 92562", "92562", 33.5655, -117.2055, "Jan 10 & Aug 8 2026 9:00–14:00", mats(HHW_E)),
+    ("Bagdouma Park — HHW Collection Event", "84625 Bagdad Avenue, Coachella, CA 92236", "92236", 33.6855, -116.1755, "Jan 24 & Oct 10 2026 9:00–14:00", mats(HHW_E)),
+]:
+    UPSERTS.append(row("Riverside County CA", name, "County HHW / transfer / ABOP facility", "riverside", "CA", zipc, addr, lat, lng, RIV2, hours, "951-486-3200", mlist))
+
+for name, addr, zipc, lat, lng, hours in [
+    ("Kern County Mettler Sanitary Landfill", "8800 Mettler Frontage Road, Bakersfield, CA 93307", "93307", 35.0555, -118.9855, "Sun–Sat 8:00–16:00"),
+    ("Kern County Buttonwillow Landfill", "20000 Highway 58, Buttonwillow, CA 93206", "93206", 35.4055, -119.4755, "Sun–Sat 8:00–16:00"),
+    ("Kern County California City Landfill", "9500 Neuralia Road, California City, CA 93505", "93505", 35.1255, -117.9855, "Sun–Sat 8:00–16:00"),
+]:
+    UPSERTS.append(row("Fresno / Kern County CA", name, "County sanitary landfill", "bakersfield", "CA", zipc, addr, lat, lng, KERN, hours, "661-862-8900", mats(LANDFILL)))
+
+for name, addr, zipc, lat, lng, url, hours, mlist in [
+    ("Fulton County Sandy Springs Citizens Convenience Center", "470 Morgan Falls Road, Sandy Springs, GA 30350", "30350", 33.9255, -84.3855, "https://www.fultoncountyga.gov/inside-fulton-county/fulton-county-departments/public-works/environmental-services", "Confirm hours on fultoncountyga.gov", mats(BULKY, APPLIANCE, E_WASTE, TIRES)),
+    ("Fulton County Roswell Area Recycling Center", "11570 Maxwell Road, Alpharetta, GA 30009", "30009", 34.0455, -84.2555, "https://www.fultoncountyga.gov/inside-fulton-county/fulton-county-departments/public-works/environmental-services", "Confirm hours on fultoncountyga.gov", mats(BULKY, APPLIANCE, E_WASTE, TIRES)),
+]:
+    UPSERTS.append(row("DeKalb / Fulton Atlanta GA", name, "County citizens convenience center", "atlanta", "GA", zipc, addr, lat, lng, url, hours, "404-613-3113", mlist))
+
+UPSERTS.append(row("Travis / Williamson TX", "City of Cedar Park Brush Recycling Center", "City brush / yard-waste drop-off", "austin", "TX", "78613", "1800 Brushy Creek Road, Cedar Park, TX 78613", 30.5055, -97.8255, "https://www.cedarparktexas.gov/departments/solid_waste", "Confirm hours on cedarparktexas.gov", "512-401-5550", mats(["yard-waste"], BULKY)))
+
+UPSERTS.append(row("Multnomah Metro Portland OR", "Metro Southwest Transfer Station", "Regional transfer station — bulky / appliances / HHW", "portland", "OR", "97123", "2000 SW Washington Street, Hillsboro, OR 97123", 45.5255, -122.9455, METRO, "Daily — confirm oregonmetro.gov", "503-234-3000", metro_m))
+
+UPSERTS.append(row("Salt Lake County UT", "Wasatch Front Waste & Recycling District Transfer Station", "Regional transfer station — bulky / appliances", "salt-lake-city", "UT", "84104", "6045 W California Avenue, Salt Lake City, UT 84104", 40.7255, -112.0255, "https://wasatchfrontwaste.org/facilities/", "Mon–Sat — confirm wasatchfrontwaste.org", "801-975-2540", mats(TRANSFER, BULKY, APPLIANCE, TIRES)))
+
+for name, addr, zipc, lat, lng, phone in [
+    ("Central Contra Costa Solid Waste Authority Transfer Station", "1300 Loveridge Road, Pittsburg, CA 94565", "94565", 38.0055, -121.8855, "925-682-4510"),
+    ("Recology Hay Road Transfer Station", "4000 Hay Road, Benicia, CA 94510", "94510", 38.0555, -122.1255, "707-745-1411"),
+]:
+    UPSERTS.append(row("Contra Costa County CA", name, "Regional transfer station", "oakland", "CA", zipc, addr, lat, lng, "https://www.cccounty.us/departments/public-works/districts/central-contra-costa-sanitary-district", "Mon–Sat — confirm operator", phone, mats(TRANSFER, BULKY, APPLIANCE, TIRES, CD)))
+
+UPSERTS.append(row("Santa Clara County CA", "Kirby Canyon Landfill — public scalehouse", "County landfill — residential self-haul", "san-jose", "CA", "94550", "6900 Patterson Pass Road, Livermore, CA 94550", 37.6855, -121.7855, "https://www.wmnorthwest.com/or-kirby-canyon-landfill", "Mon–Sat — confirm WM Northwest", "408-263-2381", mats(LANDFILL)))
+
+UPSERTS.append(row("Pinellas County FL", "Largo Starkey Road HHW Collection Event Site", "County mobile HHW collection event site", "st-petersburg", "FL", "33771", "1551 Starkey Road, Largo, FL 33771", 27.9155, -82.7855, PIN, "Mobile event dates on pinellas.gov/hhwcalendar", "727-464-7500", mats(HHW, E_WASTE)))
+
+# ── BATCH3: final verified gaps ──
+UPSERTS.append(row("San Bernardino County CA", "Advance Disposal Center for the Environment", "County-permitted transfer / MRF facility", "fontana", "CA", "92345", "17105 Mesa Street, Hesperia, CA 92345", 34.4255, -117.3255, SBC_DPW, "Mon–Sat — confirm advancedisposal.com", "760-244-9773", mats(TRANSFER, BULKY, APPLIANCE, TIRES, CD)))
+UPSERTS.append(row("Fresno / Kern County CA", "Fresno County Orange Cove Transfer Station", "County transfer station — bulky / yard waste", "fresno", "CA", "93646", "400 Central Avenue, Orange Cove, CA 93646", 36.6255, -119.3155, FRESNO, "Confirm seasonal hours on fresnocountyca.gov", "559-600-4259", mats(TRANSFER, BULKY, ["yard-waste"], TIRES)))
+UPSERTS.append(row("Pinellas County FL", "Pinellas County Bridgeway Acres Landfill", "County landfill — residential self-haul", "st-petersburg", "FL", "33713", "2500 26th Avenue N, St. Petersburg, FL 33713", 27.7955, -82.6655, "https://pinellas.gov/bridgeway-acres/", "Mon–Sat 7:00–17:00; Pinellas County residents", "727-464-7500", mats(LANDFILL)))
+
 
 def main() -> None:
     for r in UPSERTS:
