@@ -547,5 +547,50 @@
     "lat": 42.8864,
     "lng": -78.8784,
     "population": 276807
+  },
+  {
+    "city": "Richmond",
+    "city_slug": "richmond",
+    "state": "VA",
+    "state_slug": "virginia",
+    "lat": 37.5407,
+    "lng": -77.436,
+    "population": 226610
+  },
+  {
+    "city": "Boise",
+    "city_slug": "boise",
+    "state": "ID",
+    "state_slug": "idaho",
+    "lat": 43.615,
+    "lng": -116.2023,
+    "population": 235684
+  },
+  {
+    "city": "Des Moines",
+    "city_slug": "des-moines",
+    "state": "IA",
+    "state_slug": "iowa",
+    "lat": 41.5868,
+    "lng": -93.625,
+    "population": 214133
+  },
+  {
+    "city": "Spokane",
+    "city_slug": "spokane",
+    "state": "WA",
+    "state_slug": "washington",
+    "lat": 47.6588,
+    "lng": -117.426,
+    "population": 228989
+  },
+  {
+    "city": "Honolulu",
+    "city_slug": "honolulu",
+    "state": "HI",
+    "state_slug": "hawaii",
+    "lat": 21.3069,
+    "lng": -157.8583,
+    "population": 350964
   }
 ]

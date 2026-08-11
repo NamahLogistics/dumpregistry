@@ -1068,5 +1068,105 @@
     "lat": 42.855,
     "lng": -78.835,
     "population": 16000
+  },
+  {
+    "zip": "23219",
+    "city": "Richmond",
+    "city_slug": "richmond",
+    "state": "VA",
+    "state_slug": "virginia",
+    "lat": 37.541,
+    "lng": -77.436,
+    "population": 12000
+  },
+  {
+    "zip": "23220",
+    "city": "Richmond",
+    "city_slug": "richmond",
+    "state": "VA",
+    "state_slug": "virginia",
+    "lat": 37.555,
+    "lng": -77.465,
+    "population": 14000
+  },
+  {
+    "zip": "83702",
+    "city": "Boise",
+    "city_slug": "boise",
+    "state": "ID",
+    "state_slug": "idaho",
+    "lat": 43.615,
+    "lng": -116.202,
+    "population": 15000
+  },
+  {
+    "zip": "83706",
+    "city": "Boise",
+    "city_slug": "boise",
+    "state": "ID",
+    "state_slug": "idaho",
+    "lat": 43.595,
+    "lng": -116.185,
+    "population": 22000
+  },
+  {
+    "zip": "50309",
+    "city": "Des Moines",
+    "city_slug": "des-moines",
+    "state": "IA",
+    "state_slug": "iowa",
+    "lat": 41.587,
+    "lng": -93.625,
+    "population": 8000
+  },
+  {
+    "zip": "50314",
+    "city": "Des Moines",
+    "city_slug": "des-moines",
+    "state": "IA",
+    "state_slug": "iowa",
+    "lat": 41.605,
+    "lng": -93.645,
+    "population": 16000
+  },
+  {
+    "zip": "99201",
+    "city": "Spokane",
+    "city_slug": "spokane",
+    "state": "WA",
+    "state_slug": "washington",
+    "lat": 47.659,
+    "lng": -117.426,
+    "population": 9000
+  },
+  {
+    "zip": "99205",
+    "city": "Spokane",
+    "city_slug": "spokane",
+    "state": "WA",
+    "state_slug": "washington",
+    "lat": 47.675,
+    "lng": -117.455,
+    "population": 18000
+  },
+  {
+    "zip": "96813",
+    "city": "Honolulu",
+    "city_slug": "honolulu",
+    "state": "HI",
+    "state_slug": "hawaii",
+    "lat": 21.307,
+    "lng": -157.858,
+    "population": 11000
+  },
+  {
+    "zip": "96815",
+    "city": "Honolulu",
+    "city_slug": "honolulu",
+    "state": "HI",
+    "state_slug": "hawaii",
+    "lat": 21.285,
+    "lng": -157.835,
+    "population": 25000
   }
 ]

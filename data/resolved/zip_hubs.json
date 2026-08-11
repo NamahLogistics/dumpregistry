@@ -6124,5 +6124,395 @@
         ]
       }
     ]
+  },
+  {
+    "state_slug": "virginia",
+    "city_slug": "richmond",
+    "zip": "23219",
+    "city": "Richmond",
+    "state": "VA",
+    "lat": 37.541,
+    "lng": -77.436,
+    "population": 12000,
+    "indexable": true,
+    "facilities": [
+      {
+        "name": "Richmond ERRCC",
+        "facility_type": "Household hazardous waste & tire drop-off",
+        "city_slug": "richmond",
+        "state": "VA",
+        "zip": "23223",
+        "address": "3800 East Richmond Rd, Richmond, VA 23223",
+        "lat": 37.5555,
+        "lng": -77.3855,
+        "source_url": "https://www.rva.gov/public-works/trash-collection",
+        "hours": "Mon\u2013Fri 7:00\u201315:30; Sat 8:30\u201314:00",
+        "phone": "804-646-6434",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil"
+        ]
+      }
+    ]
+  },
+  {
+    "state_slug": "virginia",
+    "city_slug": "richmond",
+    "zip": "23220",
+    "city": "Richmond",
+    "state": "VA",
+    "lat": 37.555,
+    "lng": -77.465,
+    "population": 14000,
+    "indexable": true,
+    "facilities": [
+      {
+        "name": "Richmond ERRCC",
+        "facility_type": "Household hazardous waste & tire drop-off",
+        "city_slug": "richmond",
+        "state": "VA",
+        "zip": "23223",
+        "address": "3800 East Richmond Rd, Richmond, VA 23223",
+        "lat": 37.5555,
+        "lng": -77.3855,
+        "source_url": "https://www.rva.gov/public-works/trash-collection",
+        "hours": "Mon\u2013Fri 7:00\u201315:30; Sat 8:30\u201314:00",
+        "phone": "804-646-6434",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil"
+        ]
+      }
+    ]
+  },
+  {
+    "state_slug": "idaho",
+    "city_slug": "boise",
+    "zip": "83702",
+    "city": "Boise",
+    "state": "ID",
+    "lat": 43.615,
+    "lng": -116.202,
+    "population": 15000,
+    "indexable": true,
+    "facilities": [
+      {
+        "name": "Ada County Landfill HHW",
+        "facility_type": "Household hazardous waste drop-off",
+        "city_slug": "boise",
+        "state": "ID",
+        "zip": "83716",
+        "address": "Ada County Landfill, Boise, ID",
+        "lat": 43.5455,
+        "lng": -116.0855,
+        "source_url": "https://www.cityofboise.org/departments/public-works/trash-and-recycling/household-hazardous-waste/",
+        "hours": "Fri/Sat 8:00\u201318:00",
+        "phone": "208-345-1266",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil"
+        ]
+      }
+    ]
+  },
+  {
+    "state_slug": "idaho",
+    "city_slug": "boise",
+    "zip": "83706",
+    "city": "Boise",
+    "state": "ID",
+    "lat": 43.595,
+    "lng": -116.185,
+    "population": 22000,
+    "indexable": true,
+    "facilities": [
+      {
+        "name": "Ada County Landfill HHW",
+        "facility_type": "Household hazardous waste drop-off",
+        "city_slug": "boise",
+        "state": "ID",
+        "zip": "83716",
+        "address": "Ada County Landfill, Boise, ID",
+        "lat": 43.5455,
+        "lng": -116.0855,
+        "source_url": "https://www.cityofboise.org/departments/public-works/trash-and-recycling/household-hazardous-waste/",
+        "hours": "Fri/Sat 8:00\u201318:00",
+        "phone": "208-345-1266",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil"
+        ]
+      }
+    ]
+  },
+  {
+    "state_slug": "iowa",
+    "city_slug": "des-moines",
+    "zip": "50309",
+    "city": "Des Moines",
+    "state": "IA",
+    "lat": 41.587,
+    "lng": -93.625,
+    "population": 8000,
+    "indexable": true,
+    "facilities": [
+      {
+        "name": "Metro Waste Authority \u2014 Bondurant HHW",
+        "facility_type": "Household hazardous waste drop-off",
+        "city_slug": "des-moines",
+        "state": "IA",
+        "zip": "50035",
+        "address": "1105 Prairie Dr SW, Bondurant, IA 50035",
+        "lat": 41.6855,
+        "lng": -93.4655,
+        "source_url": "https://www.mwatoday.com/household-hazardous-waste",
+        "hours": "Tue\u2013Fri 10:00\u201318:00; Sat 8:00\u201312:00",
+        "phone": "515-967-5512",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil"
+        ]
+      }
+    ]
+  },
+  {
+    "state_slug": "iowa",
+    "city_slug": "des-moines",
+    "zip": "50314",
+    "city": "Des Moines",
+    "state": "IA",
+    "lat": 41.605,
+    "lng": -93.645,
+    "population": 16000,
+    "indexable": true,
+    "facilities": [
+      {
+        "name": "Metro Waste Authority \u2014 Bondurant HHW",
+        "facility_type": "Household hazardous waste drop-off",
+        "city_slug": "des-moines",
+        "state": "IA",
+        "zip": "50035",
+        "address": "1105 Prairie Dr SW, Bondurant, IA 50035",
+        "lat": 41.6855,
+        "lng": -93.4655,
+        "source_url": "https://www.mwatoday.com/household-hazardous-waste",
+        "hours": "Tue\u2013Fri 10:00\u201318:00; Sat 8:00\u201312:00",
+        "phone": "515-967-5512",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil"
+        ]
+      }
+    ]
+  },
+  {
+    "state_slug": "washington",
+    "city_slug": "spokane",
+    "zip": "99201",
+    "city": "Spokane",
+    "state": "WA",
+    "lat": 47.659,
+    "lng": -117.426,
+    "population": 9000,
+    "indexable": true,
+    "facilities": [
+      {
+        "name": "Spokane Waste to Energy HHW",
+        "facility_type": "Household hazardous waste drop-off",
+        "city_slug": "spokane",
+        "state": "WA",
+        "zip": "99224",
+        "address": "2900 S Geiger Blvd, Spokane, WA 99224",
+        "lat": 47.6255,
+        "lng": -117.5855,
+        "source_url": "https://my.spokanecity.org/publicworks/solidwaste/hazardous/",
+        "hours": "Daily 7:30\u201317:00",
+        "phone": "509-625-7960",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil"
+        ]
+      }
+    ]
+  },
+  {
+    "state_slug": "washington",
+    "city_slug": "spokane",
+    "zip": "99205",
+    "city": "Spokane",
+    "state": "WA",
+    "lat": 47.675,
+    "lng": -117.455,
+    "population": 18000,
+    "indexable": true,
+    "facilities": [
+      {
+        "name": "Spokane Waste to Energy HHW",
+        "facility_type": "Household hazardous waste drop-off",
+        "city_slug": "spokane",
+        "state": "WA",
+        "zip": "99224",
+        "address": "2900 S Geiger Blvd, Spokane, WA 99224",
+        "lat": 47.6255,
+        "lng": -117.5855,
+        "source_url": "https://my.spokanecity.org/publicworks/solidwaste/hazardous/",
+        "hours": "Daily 7:30\u201317:00",
+        "phone": "509-625-7960",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil"
+        ]
+      }
+    ]
+  },
+  {
+    "state_slug": "hawaii",
+    "city_slug": "honolulu",
+    "zip": "96813",
+    "city": "Honolulu",
+    "state": "HI",
+    "lat": 21.307,
+    "lng": -157.858,
+    "population": 11000,
+    "indexable": true,
+    "facilities": [
+      {
+        "name": "Kapaa Transfer Station",
+        "facility_type": "Tire drop-off",
+        "city_slug": "honolulu",
+        "state": "HI",
+        "zip": "96734",
+        "address": "Kapaa Transfer Station, Kailua, HI",
+        "lat": 21.3955,
+        "lng": -157.7555,
+        "source_url": "https://www.honolulu.gov/opala/refuse/waste-drop-off.html",
+        "hours": "Check honolulu.gov for transfer station hours",
+        "phone": "808-768-3200",
+        "accepted_materials": []
+      }
+    ]
+  },
+  {
+    "state_slug": "hawaii",
+    "city_slug": "honolulu",
+    "zip": "96815",
+    "city": "Honolulu",
+    "state": "HI",
+    "lat": 21.285,
+    "lng": -157.835,
+    "population": 25000,
+    "indexable": true,
+    "facilities": [
+      {
+        "name": "Kapaa Transfer Station",
+        "facility_type": "Tire drop-off",
+        "city_slug": "honolulu",
+        "state": "HI",
+        "zip": "96734",
+        "address": "Kapaa Transfer Station, Kailua, HI",
+        "lat": 21.3955,
+        "lng": -157.7555,
+        "source_url": "https://www.honolulu.gov/opala/refuse/waste-drop-off.html",
+        "hours": "Check honolulu.gov for transfer station hours",
+        "phone": "808-768-3200",
+        "accepted_materials": []
+      }
+    ]
   }
 ]
