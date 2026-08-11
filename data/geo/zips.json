@@ -1168,5 +1168,105 @@
     "lat": 21.285,
     "lng": -157.835,
     "population": 25000
+  },
+  {
+    "zip": "53703",
+    "city": "Madison",
+    "city_slug": "madison",
+    "state": "WI",
+    "state_slug": "wisconsin",
+    "lat": 43.073,
+    "lng": -89.401,
+    "population": 22000
+  },
+  {
+    "zip": "53711",
+    "city": "Madison",
+    "city_slug": "madison",
+    "state": "WI",
+    "state_slug": "wisconsin",
+    "lat": 43.035,
+    "lng": -89.455,
+    "population": 28000
+  },
+  {
+    "zip": "84101",
+    "city": "Salt Lake City",
+    "city_slug": "salt-lake-city",
+    "state": "UT",
+    "state_slug": "utah",
+    "lat": 40.761,
+    "lng": -111.891,
+    "population": 12000
+  },
+  {
+    "zip": "84111",
+    "city": "Salt Lake City",
+    "city_slug": "salt-lake-city",
+    "state": "UT",
+    "state_slug": "utah",
+    "lat": 40.755,
+    "lng": -111.88,
+    "population": 10000
+  },
+  {
+    "zip": "02903",
+    "city": "Providence",
+    "city_slug": "providence",
+    "state": "RI",
+    "state_slug": "rhode-island",
+    "lat": 41.824,
+    "lng": -71.413,
+    "population": 11000
+  },
+  {
+    "zip": "02908",
+    "city": "Providence",
+    "city_slug": "providence",
+    "state": "RI",
+    "state_slug": "rhode-island",
+    "lat": 41.845,
+    "lng": -71.435,
+    "population": 25000
+  },
+  {
+    "zip": "27701",
+    "city": "Durham",
+    "city_slug": "durham",
+    "state": "NC",
+    "state_slug": "north-carolina",
+    "lat": 35.994,
+    "lng": -78.899,
+    "population": 18000
+  },
+  {
+    "zip": "27704",
+    "city": "Durham",
+    "city_slug": "durham",
+    "state": "NC",
+    "state_slug": "north-carolina",
+    "lat": 36.02,
+    "lng": -78.87,
+    "population": 22000
+  },
+  {
+    "zip": "35203",
+    "city": "Birmingham",
+    "city_slug": "birmingham",
+    "state": "AL",
+    "state_slug": "alabama",
+    "lat": 33.521,
+    "lng": -86.803,
+    "population": 8000
+  },
+  {
+    "zip": "35209",
+    "city": "Birmingham",
+    "city_slug": "birmingham",
+    "state": "AL",
+    "state_slug": "alabama",
+    "lat": 33.48,
+    "lng": -86.79,
+    "population": 20000
   }
 ]

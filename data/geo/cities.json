@@ -592,5 +592,50 @@
     "lat": 21.3069,
     "lng": -157.8583,
     "population": 350964
+  },
+  {
+    "city": "Madison",
+    "city_slug": "madison",
+    "state": "WI",
+    "state_slug": "wisconsin",
+    "lat": 43.0731,
+    "lng": -89.4012,
+    "population": 269840
+  },
+  {
+    "city": "Salt Lake City",
+    "city_slug": "salt-lake-city",
+    "state": "UT",
+    "state_slug": "utah",
+    "lat": 40.7608,
+    "lng": -111.891,
+    "population": 209593
+  },
+  {
+    "city": "Providence",
+    "city_slug": "providence",
+    "state": "RI",
+    "state_slug": "rhode-island",
+    "lat": 41.824,
+    "lng": -71.4128,
+    "population": 190934
+  },
+  {
+    "city": "Durham",
+    "city_slug": "durham",
+    "state": "NC",
+    "state_slug": "north-carolina",
+    "lat": 35.994,
+    "lng": -78.8986,
+    "population": 283506
+  },
+  {
+    "city": "Birmingham",
+    "city_slug": "birmingham",
+    "state": "AL",
+    "state_slug": "alabama",
+    "lat": 33.5207,
+    "lng": -86.8025,
+    "population": 200733
   }
 ]
