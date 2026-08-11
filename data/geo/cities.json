@@ -277,5 +277,50 @@
     "lat": 32.7555,
     "lng": -97.3308,
     "population": 918915
+  },
+  {
+    "city": "Detroit",
+    "city_slug": "detroit",
+    "state": "MI",
+    "state_slug": "michigan",
+    "lat": 42.3314,
+    "lng": -83.0458,
+    "population": 639111
+  },
+  {
+    "city": "Nashville",
+    "city_slug": "nashville",
+    "state": "TN",
+    "state_slug": "tennessee",
+    "lat": 36.1627,
+    "lng": -86.7816,
+    "population": 689447
+  },
+  {
+    "city": "Portland",
+    "city_slug": "portland",
+    "state": "OR",
+    "state_slug": "oregon",
+    "lat": 45.5152,
+    "lng": -122.6784,
+    "population": 652503
+  },
+  {
+    "city": "Baltimore",
+    "city_slug": "baltimore",
+    "state": "MD",
+    "state_slug": "maryland",
+    "lat": 39.2904,
+    "lng": -76.6122,
+    "population": 585708
+  },
+  {
+    "city": "Milwaukee",
+    "city_slug": "milwaukee",
+    "state": "WI",
+    "state_slug": "wisconsin",
+    "lat": 43.0389,
+    "lng": -87.9065,
+    "population": 577222
   }
 ]

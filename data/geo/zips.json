@@ -468,5 +468,105 @@
     "lat": 32.731,
     "lng": -97.321,
     "population": 22000
+  },
+  {
+    "zip": "48201",
+    "city": "Detroit",
+    "city_slug": "detroit",
+    "state": "MI",
+    "state_slug": "michigan",
+    "lat": 42.347,
+    "lng": -83.06,
+    "population": 12000
+  },
+  {
+    "zip": "48226",
+    "city": "Detroit",
+    "city_slug": "detroit",
+    "state": "MI",
+    "state_slug": "michigan",
+    "lat": 42.334,
+    "lng": -83.049,
+    "population": 8000
+  },
+  {
+    "zip": "37203",
+    "city": "Nashville",
+    "city_slug": "nashville",
+    "state": "TN",
+    "state_slug": "tennessee",
+    "lat": 36.152,
+    "lng": -86.79,
+    "population": 15000
+  },
+  {
+    "zip": "37207",
+    "city": "Nashville",
+    "city_slug": "nashville",
+    "state": "TN",
+    "state_slug": "tennessee",
+    "lat": 36.206,
+    "lng": -86.77,
+    "population": 32000
+  },
+  {
+    "zip": "97201",
+    "city": "Portland",
+    "city_slug": "portland",
+    "state": "OR",
+    "state_slug": "oregon",
+    "lat": 45.508,
+    "lng": -122.69,
+    "population": 18000
+  },
+  {
+    "zip": "97209",
+    "city": "Portland",
+    "city_slug": "portland",
+    "state": "OR",
+    "state_slug": "oregon",
+    "lat": 45.53,
+    "lng": -122.685,
+    "population": 16000
+  },
+  {
+    "zip": "21201",
+    "city": "Baltimore",
+    "city_slug": "baltimore",
+    "state": "MD",
+    "state_slug": "maryland",
+    "lat": 39.294,
+    "lng": -76.622,
+    "population": 14000
+  },
+  {
+    "zip": "21202",
+    "city": "Baltimore",
+    "city_slug": "baltimore",
+    "state": "MD",
+    "state_slug": "maryland",
+    "lat": 39.291,
+    "lng": -76.61,
+    "population": 20000
+  },
+  {
+    "zip": "53202",
+    "city": "Milwaukee",
+    "city_slug": "milwaukee",
+    "state": "WI",
+    "state_slug": "wisconsin",
+    "lat": 43.044,
+    "lng": -87.907,
+    "population": 22000
+  },
+  {
+    "zip": "53233",
+    "city": "Milwaukee",
+    "city_slug": "milwaukee",
+    "state": "WI",
+    "state_slug": "wisconsin",
+    "lat": 43.038,
+    "lng": -87.93,
+    "population": 18000
   }
 ]
