@@ -322,5 +322,50 @@
     "lat": 43.0389,
     "lng": -87.9065,
     "population": 577222
+  },
+  {
+    "city": "Oklahoma City",
+    "city_slug": "oklahoma-city",
+    "state": "OK",
+    "state_slug": "oklahoma",
+    "lat": 35.4676,
+    "lng": -97.5164,
+    "population": 681054
+  },
+  {
+    "city": "El Paso",
+    "city_slug": "el-paso",
+    "state": "TX",
+    "state_slug": "texas",
+    "lat": 31.7619,
+    "lng": -106.485,
+    "population": 678815
+  },
+  {
+    "city": "Louisville",
+    "city_slug": "louisville",
+    "state": "KY",
+    "state_slug": "kentucky",
+    "lat": 38.2527,
+    "lng": -85.7585,
+    "population": 633045
+  },
+  {
+    "city": "Memphis",
+    "city_slug": "memphis",
+    "state": "TN",
+    "state_slug": "tennessee",
+    "lat": 35.1495,
+    "lng": -90.049,
+    "population": 633104
+  },
+  {
+    "city": "Albuquerque",
+    "city_slug": "albuquerque",
+    "state": "NM",
+    "state_slug": "new-mexico",
+    "lat": 35.0844,
+    "lng": -106.6504,
+    "population": 564559
   }
 ]

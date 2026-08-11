@@ -568,5 +568,105 @@
     "lat": 43.038,
     "lng": -87.93,
     "population": 18000
+  },
+  {
+    "zip": "73102",
+    "city": "Oklahoma City",
+    "city_slug": "oklahoma-city",
+    "state": "OK",
+    "state_slug": "oklahoma",
+    "lat": 35.47,
+    "lng": -97.52,
+    "population": 8000
+  },
+  {
+    "zip": "73118",
+    "city": "Oklahoma City",
+    "city_slug": "oklahoma-city",
+    "state": "OK",
+    "state_slug": "oklahoma",
+    "lat": 35.51,
+    "lng": -97.53,
+    "population": 22000
+  },
+  {
+    "zip": "79901",
+    "city": "El Paso",
+    "city_slug": "el-paso",
+    "state": "TX",
+    "state_slug": "texas",
+    "lat": 31.76,
+    "lng": -106.49,
+    "population": 12000
+  },
+  {
+    "zip": "79924",
+    "city": "El Paso",
+    "city_slug": "el-paso",
+    "state": "TX",
+    "state_slug": "texas",
+    "lat": 31.87,
+    "lng": -106.41,
+    "population": 45000
+  },
+  {
+    "zip": "40202",
+    "city": "Louisville",
+    "city_slug": "louisville",
+    "state": "KY",
+    "state_slug": "kentucky",
+    "lat": 38.255,
+    "lng": -85.755,
+    "population": 10000
+  },
+  {
+    "zip": "40208",
+    "city": "Louisville",
+    "city_slug": "louisville",
+    "state": "KY",
+    "state_slug": "kentucky",
+    "lat": 38.22,
+    "lng": -85.77,
+    "population": 18000
+  },
+  {
+    "zip": "38103",
+    "city": "Memphis",
+    "city_slug": "memphis",
+    "state": "TN",
+    "state_slug": "tennessee",
+    "lat": 35.145,
+    "lng": -90.05,
+    "population": 9000
+  },
+  {
+    "zip": "38134",
+    "city": "Memphis",
+    "city_slug": "memphis",
+    "state": "TN",
+    "state_slug": "tennessee",
+    "lat": 35.17,
+    "lng": -89.87,
+    "population": 35000
+  },
+  {
+    "zip": "87102",
+    "city": "Albuquerque",
+    "city_slug": "albuquerque",
+    "state": "NM",
+    "state_slug": "new-mexico",
+    "lat": 35.085,
+    "lng": -106.65,
+    "population": 14000
+  },
+  {
+    "zip": "87107",
+    "city": "Albuquerque",
+    "city_slug": "albuquerque",
+    "state": "NM",
+    "state_slug": "new-mexico",
+    "lat": 35.12,
+    "lng": -106.67,
+    "population": 28000
   }
 ]

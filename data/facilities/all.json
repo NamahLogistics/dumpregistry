@@ -544,5 +544,83 @@
     "source_url": "https://www.mmsd.com/what-you-can-do/home-haz-mat-collection",
     "hours": "Drop Off per city schedule; MMSD HHW Thu\u2013Sat 7:00\u201315:00",
     "phone": "414-286-CITY"
+  },
+  {
+    "name": "OKC Household Hazardous Waste Collection Center",
+    "facility_type": "Household hazardous waste drop-off",
+    "city_slug": "oklahoma-city",
+    "state": "OK",
+    "zip": "73108",
+    "address": "1621 S. Portland Ave, Oklahoma City, OK 73108",
+    "lat": 35.4505,
+    "lng": -97.5835,
+    "source_url": "https://www.okc.gov/Services/Water-Trash-Recycling/Household-Hazardous-Waste-Collection-Center",
+    "hours": "Tue\u2013Fri 9:30\u201318:00; Sat 8:30\u201311:30",
+    "phone": "405-297-2833"
+  },
+  {
+    "name": "El Paso Central Citizen Collection Station",
+    "facility_type": "Citizen collection station \u2014 HHW / bulky drop-off",
+    "city_slug": "el-paso",
+    "state": "TX",
+    "zip": "79930",
+    "address": "2492 Harrison Blvd, El Paso, TX 79930",
+    "lat": 31.7855,
+    "lng": -106.4555,
+    "source_url": "https://www.elpasotexas.gov/environmental-services/collection-stations/",
+    "hours": "Tue\u2013Sat 8:00\u201316:00",
+    "phone": "915-212-6000"
+  },
+  {
+    "name": "Louisville Waste Reduction Center",
+    "facility_type": "Drop-off \u2014 appliances / electronics / tires",
+    "city_slug": "louisville",
+    "state": "KY",
+    "zip": "40217",
+    "address": "636 Meriwether Ave, Louisville, KY 40217 (Bland St entrance)",
+    "lat": 38.2155,
+    "lng": -85.7455,
+    "source_url": "https://louisvilleky.gov/government/public-works/waste-reduction-center",
+    "hours": "Confirm on city page \u2014 resident drop-off",
+    "phone": ""
+  },
+  {
+    "name": "Louisville Haz Bin",
+    "facility_type": "Household hazardous waste drop-off",
+    "city_slug": "louisville",
+    "state": "KY",
+    "zip": "40219",
+    "address": "7501 Grade Lane, Louisville, KY 40219",
+    "lat": 38.1255,
+    "lng": -85.6855,
+    "source_url": "https://louisvilleky.gov/government/public-works/services/hazardous-materials-disposal-haz-bin",
+    "hours": "Tue\u2013Sat 9:30\u201316:00",
+    "phone": ""
+  },
+  {
+    "name": "Shelby County Household Hazardous Waste Facility",
+    "facility_type": "Household hazardous waste drop-off",
+    "city_slug": "memphis",
+    "state": "TN",
+    "zip": "38125",
+    "address": "6305 Haley Rd, Memphis, TN 38125",
+    "lat": 35.0455,
+    "lng": -89.8555,
+    "source_url": "https://www.shelbycountytn.gov/439/Household-Hazardous-Waste",
+    "hours": "Tue/Thu/Sat 8:00\u201313:00",
+    "phone": ""
+  },
+  {
+    "name": "Albuquerque HHW Collection Center",
+    "facility_type": "Household hazardous waste drop-off",
+    "city_slug": "albuquerque",
+    "state": "NM",
+    "zip": "87106",
+    "address": "2720 Girard Blvd NE, Albuquerque, NM 87106",
+    "lat": 35.1055,
+    "lng": -106.6155,
+    "source_url": "https://www.cabq.gov/solidwaste/hazardous-waste",
+    "hours": "Mon/Wed/Fri 8:00\u201314:00; Sat 8:00\u201315:00",
+    "phone": "505-768-3925"
   }
 ]
