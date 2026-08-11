@@ -13470,28 +13470,5 @@
       "tires",
       "tire-rims"
     ]
-  },
-  {
-    "name": "East Richmond Road Convenience Center",
-    "facility_type": "Convenience center \u2014 bulk / brush / tires",
-    "city_slug": "richmond",
-    "state": "VA",
-    "zip": "23223",
-    "address": "3800 East Richmond Road, Richmond, VA 23223",
-    "lat": 37.555,
-    "lng": -77.385,
-    "source_url": "https://www.rva.gov/public-works/trash-collection",
-    "hours": "Mon\u2013Fri 7:00\u201315:30; Sat 8:30\u201314:00",
-    "phone": "804-646-6434",
-    "accepted_materials": [
-      "mattress",
-      "box-spring",
-      "sofa",
-      "recliner",
-      "carpet",
-      "yard-waste",
-      "tires",
-      "tire-rims"
-    ]
   }
 ]
