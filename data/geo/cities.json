@@ -727,5 +727,50 @@
     "lat": 36.0726,
     "lng": -79.792,
     "population": 299035
+  },
+  {
+    "city": "Anchorage",
+    "city_slug": "anchorage",
+    "state": "AK",
+    "state_slug": "alaska",
+    "lat": 61.2181,
+    "lng": -149.9003,
+    "population": 291247
+  },
+  {
+    "city": "Reno",
+    "city_slug": "reno",
+    "state": "NV",
+    "state_slug": "nevada",
+    "lat": 39.5296,
+    "lng": -119.8138,
+    "population": 264165
+  },
+  {
+    "city": "Tacoma",
+    "city_slug": "tacoma",
+    "state": "WA",
+    "state_slug": "washington",
+    "lat": 47.2529,
+    "lng": -122.4443,
+    "population": 219346
+  },
+  {
+    "city": "Aurora",
+    "city_slug": "aurora",
+    "state": "CO",
+    "state_slug": "colorado",
+    "lat": 39.7294,
+    "lng": -104.8319,
+    "population": 386261
+  },
+  {
+    "city": "Chattanooga",
+    "city_slug": "chattanooga",
+    "state": "TN",
+    "state_slug": "tennessee",
+    "lat": 35.0456,
+    "lng": -85.3097,
+    "population": 181099
   }
 ]

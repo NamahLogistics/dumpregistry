@@ -1468,5 +1468,105 @@
     "lat": 36.055,
     "lng": -79.82,
     "population": 17000
+  },
+  {
+    "zip": "99501",
+    "city": "Anchorage",
+    "city_slug": "anchorage",
+    "state": "AK",
+    "state_slug": "alaska",
+    "lat": 61.218,
+    "lng": -149.9,
+    "population": 17000
+  },
+  {
+    "zip": "99508",
+    "city": "Anchorage",
+    "city_slug": "anchorage",
+    "state": "AK",
+    "state_slug": "alaska",
+    "lat": 61.195,
+    "lng": -149.78,
+    "population": 32000
+  },
+  {
+    "zip": "89501",
+    "city": "Reno",
+    "city_slug": "reno",
+    "state": "NV",
+    "state_slug": "nevada",
+    "lat": 39.53,
+    "lng": -119.814,
+    "population": 12000
+  },
+  {
+    "zip": "89503",
+    "city": "Reno",
+    "city_slug": "reno",
+    "state": "NV",
+    "state_slug": "nevada",
+    "lat": 39.545,
+    "lng": -119.835,
+    "population": 22000
+  },
+  {
+    "zip": "98402",
+    "city": "Tacoma",
+    "city_slug": "tacoma",
+    "state": "WA",
+    "state_slug": "washington",
+    "lat": 47.253,
+    "lng": -122.444,
+    "population": 9000
+  },
+  {
+    "zip": "98405",
+    "city": "Tacoma",
+    "city_slug": "tacoma",
+    "state": "WA",
+    "state_slug": "washington",
+    "lat": 47.255,
+    "lng": -122.47,
+    "population": 18000
+  },
+  {
+    "zip": "80012",
+    "city": "Aurora",
+    "city_slug": "aurora",
+    "state": "CO",
+    "state_slug": "colorado",
+    "lat": 39.695,
+    "lng": -104.865,
+    "population": 25000
+  },
+  {
+    "zip": "80014",
+    "city": "Aurora",
+    "city_slug": "aurora",
+    "state": "CO",
+    "state_slug": "colorado",
+    "lat": 39.67,
+    "lng": -104.82,
+    "population": 30000
+  },
+  {
+    "zip": "37402",
+    "city": "Chattanooga",
+    "city_slug": "chattanooga",
+    "state": "TN",
+    "state_slug": "tennessee",
+    "lat": 35.046,
+    "lng": -85.31,
+    "population": 8000
+  },
+  {
+    "zip": "37404",
+    "city": "Chattanooga",
+    "city_slug": "chattanooga",
+    "state": "TN",
+    "state_slug": "tennessee",
+    "lat": 35.03,
+    "lng": -85.28,
+    "population": 14000
   }
 ]
