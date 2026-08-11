@@ -46,8 +46,9 @@ export default async function CentersPage({ searchParams }: Props) {
       <header className="prose">
         <h1>Drop-off centers</h1>
         <p>
-          Verified sites from our city research ({getFacilities().length} listed). Filter by ZIP and
-          material — always confirm hours and acceptance on the official source before you go.
+          Authentic finder: {getFacilities().length} verified drop-off sites from official program
+          sources (not scraped directories). Coverage grows city-by-city — filter by ZIP and material,
+          then confirm hours on the linked official page before you go.
         </p>
       </header>
 
