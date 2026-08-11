@@ -1550,17 +1550,12 @@
         "hours": "Mon\u2013Fri 5:30\u201317:00; Sat 6:00\u201315:00",
         "phone": "(602) 262-7251",
         "accepted_materials": [
-          "television",
-          "refrigerator",
-          "freezer",
-          "air-conditioner",
-          "washer",
-          "dryer",
-          "dishwasher",
-          "stove",
-          "water-heater",
-          "tires",
-          "tire-rims"
+          "mattress",
+          "box-spring",
+          "sofa",
+          "recliner",
+          "carpet",
+          "yard-waste"
         ]
       }
     ]
@@ -1692,35 +1687,12 @@
         "hours": "Mon\u2013Sat 8:00\u201318:00",
         "phone": "215-685-4290",
         "accepted_materials": [
-          "television",
-          "computer-monitor",
-          "laptop",
-          "desktop-computer",
-          "printer",
-          "tablet",
-          "smartphone",
-          "microwave",
-          "hard-drive",
-          "e-waste-mixed",
-          "ink-toner",
           "mattress",
           "box-spring",
           "sofa",
           "recliner",
           "carpet",
-          "refrigerator",
-          "freezer",
-          "air-conditioner",
-          "washer",
-          "dryer",
-          "dishwasher",
-          "stove",
-          "water-heater",
-          "tires",
-          "tire-rims",
-          "household-batteries",
-          "fluorescent-bulbs",
-          "paint-latex"
+          "yard-waste"
         ]
       }
     ]
@@ -1781,35 +1753,12 @@
         "hours": "Mon\u2013Sat 8:00\u201318:00",
         "phone": "215-685-4290",
         "accepted_materials": [
-          "television",
-          "computer-monitor",
-          "laptop",
-          "desktop-computer",
-          "printer",
-          "tablet",
-          "smartphone",
-          "microwave",
-          "hard-drive",
-          "e-waste-mixed",
-          "ink-toner",
           "mattress",
           "box-spring",
           "sofa",
           "recliner",
           "carpet",
-          "refrigerator",
-          "freezer",
-          "air-conditioner",
-          "washer",
-          "dryer",
-          "dishwasher",
-          "stove",
-          "water-heater",
-          "tires",
-          "tire-rims",
-          "household-batteries",
-          "fluorescent-bulbs",
-          "paint-latex"
+          "yard-waste"
         ]
       }
     ]
@@ -4118,30 +4067,12 @@
         "hours": "By appointment \u2014 check livethrive.org/charm",
         "phone": "404-600-6386",
         "accepted_materials": [
-          "paint-latex",
-          "paint-oil",
-          "pesticides",
-          "motor-oil",
-          "fluorescent-bulbs",
-          "propane-tank",
           "television",
           "computer-monitor",
           "laptop",
           "desktop-computer",
           "printer",
-          "tablet",
-          "smartphone",
-          "microwave",
-          "hard-drive",
-          "e-waste-mixed",
-          "ink-toner",
-          "mattress",
-          "box-spring",
-          "sofa",
-          "recliner",
-          "carpet",
-          "tires",
-          "tire-rims"
+          "tablet"
         ]
       }
     ]
@@ -4196,30 +4127,12 @@
         "hours": "By appointment \u2014 check livethrive.org/charm",
         "phone": "404-600-6386",
         "accepted_materials": [
-          "paint-latex",
-          "paint-oil",
-          "pesticides",
-          "motor-oil",
-          "fluorescent-bulbs",
-          "propane-tank",
           "television",
           "computer-monitor",
           "laptop",
           "desktop-computer",
           "printer",
-          "tablet",
-          "smartphone",
-          "microwave",
-          "hard-drive",
-          "e-waste-mixed",
-          "ink-toner",
-          "mattress",
-          "box-spring",
-          "sofa",
-          "recliner",
-          "carpet",
-          "tires",
-          "tire-rims"
+          "tablet"
         ]
       }
     ]
@@ -4401,14 +4314,12 @@
           "hard-drive",
           "e-waste-mixed",
           "ink-toner",
-          "refrigerator",
-          "freezer",
-          "air-conditioner",
-          "washer",
-          "dryer",
-          "dishwasher",
-          "stove",
-          "water-heater"
+          "mattress",
+          "box-spring",
+          "sofa",
+          "recliner",
+          "carpet",
+          "yard-waste"
         ]
       }
     ]
@@ -4506,14 +4417,12 @@
           "hard-drive",
           "e-waste-mixed",
           "ink-toner",
-          "refrigerator",
-          "freezer",
-          "air-conditioner",
-          "washer",
-          "dryer",
-          "dishwasher",
-          "stove",
-          "water-heater"
+          "mattress",
+          "box-spring",
+          "sofa",
+          "recliner",
+          "carpet",
+          "yard-waste"
         ]
       }
     ]
@@ -4581,15 +4490,7 @@
           "microwave",
           "hard-drive",
           "e-waste-mixed",
-          "ink-toner",
-          "refrigerator",
-          "freezer",
-          "air-conditioner",
-          "washer",
-          "dryer",
-          "dishwasher",
-          "stove",
-          "water-heater"
+          "ink-toner"
         ]
       },
       {
@@ -4615,17 +4516,7 @@
           "microwave",
           "hard-drive",
           "e-waste-mixed",
-          "ink-toner",
-          "refrigerator",
-          "freezer",
-          "air-conditioner",
-          "washer",
-          "dryer",
-          "dishwasher",
-          "stove",
-          "water-heater",
-          "tires",
-          "tire-rims"
+          "ink-toner"
         ]
       }
     ]
@@ -4693,15 +4584,7 @@
           "microwave",
           "hard-drive",
           "e-waste-mixed",
-          "ink-toner",
-          "refrigerator",
-          "freezer",
-          "air-conditioner",
-          "washer",
-          "dryer",
-          "dishwasher",
-          "stove",
-          "water-heater"
+          "ink-toner"
         ]
       },
       {
@@ -4727,17 +4610,7 @@
           "microwave",
           "hard-drive",
           "e-waste-mixed",
-          "ink-toner",
-          "refrigerator",
-          "freezer",
-          "air-conditioner",
-          "washer",
-          "dryer",
-          "dishwasher",
-          "stove",
-          "water-heater",
-          "tires",
-          "tire-rims"
+          "ink-toner"
         ]
       }
     ]
@@ -4808,18 +4681,7 @@
           "lithium-battery",
           "fluorescent-bulbs",
           "propane-tank",
-          "cooking-oil",
-          "television",
-          "computer-monitor",
-          "laptop",
-          "desktop-computer",
-          "printer",
-          "tablet",
-          "smartphone",
-          "microwave",
-          "hard-drive",
-          "e-waste-mixed",
-          "ink-toner"
+          "cooking-oil"
         ]
       }
     ]
@@ -4890,18 +4752,7 @@
           "lithium-battery",
           "fluorescent-bulbs",
           "propane-tank",
-          "cooking-oil",
-          "television",
-          "computer-monitor",
-          "laptop",
-          "desktop-computer",
-          "printer",
-          "tablet",
-          "smartphone",
-          "microwave",
-          "hard-drive",
-          "e-waste-mixed",
-          "ink-toner"
+          "cooking-oil"
         ]
       }
     ]
@@ -5095,17 +4946,7 @@
           "microwave",
           "hard-drive",
           "e-waste-mixed",
-          "ink-toner",
-          "refrigerator",
-          "freezer",
-          "air-conditioner",
-          "washer",
-          "dryer",
-          "dishwasher",
-          "stove",
-          "water-heater",
-          "tires",
-          "tire-rims"
+          "ink-toner"
         ]
       }
     ]
@@ -5173,17 +5014,7 @@
           "microwave",
           "hard-drive",
           "e-waste-mixed",
-          "ink-toner",
-          "refrigerator",
-          "freezer",
-          "air-conditioner",
-          "washer",
-          "dryer",
-          "dishwasher",
-          "stove",
-          "water-heater",
-          "tires",
-          "tire-rims"
+          "ink-toner"
         ]
       }
     ]
@@ -5225,9 +5056,7 @@
           "lithium-battery",
           "fluorescent-bulbs",
           "propane-tank",
-          "cooking-oil",
-          "television",
-          "e-waste-mixed"
+          "cooking-oil"
         ]
       },
       {
@@ -5248,16 +5077,7 @@
           "sofa",
           "recliner",
           "carpet",
-          "refrigerator",
-          "freezer",
-          "air-conditioner",
-          "washer",
-          "dryer",
-          "dishwasher",
-          "stove",
-          "water-heater",
-          "tires",
-          "tire-rims"
+          "yard-waste"
         ]
       }
     ]
@@ -5299,9 +5119,7 @@
           "lithium-battery",
           "fluorescent-bulbs",
           "propane-tank",
-          "cooking-oil",
-          "television",
-          "e-waste-mixed"
+          "cooking-oil"
         ]
       },
       {
@@ -5322,16 +5140,7 @@
           "sofa",
           "recliner",
           "carpet",
-          "refrigerator",
-          "freezer",
-          "air-conditioner",
-          "washer",
-          "dryer",
-          "dishwasher",
-          "stove",
-          "water-heater",
-          "tires",
-          "tire-rims"
+          "yard-waste"
         ]
       }
     ]
@@ -5389,21 +5198,6 @@
         "hours": "Mar\u2013Oct Mon\u2013Fri 7:30\u201317:00 Sat 8:00\u201312:00; winter hours shorter",
         "phone": "316-350-3225",
         "accepted_materials": [
-          "mattress",
-          "box-spring",
-          "sofa",
-          "recliner",
-          "carpet",
-          "refrigerator",
-          "freezer",
-          "air-conditioner",
-          "washer",
-          "dryer",
-          "dishwasher",
-          "stove",
-          "water-heater",
-          "tires",
-          "tire-rims",
           "television",
           "computer-monitor",
           "laptop",
@@ -5472,21 +5266,6 @@
         "hours": "Mar\u2013Oct Mon\u2013Fri 7:30\u201317:00 Sat 8:00\u201312:00; winter hours shorter",
         "phone": "316-350-3225",
         "accepted_materials": [
-          "mattress",
-          "box-spring",
-          "sofa",
-          "recliner",
-          "carpet",
-          "refrigerator",
-          "freezer",
-          "air-conditioner",
-          "washer",
-          "dryer",
-          "dishwasher",
-          "stove",
-          "water-heater",
-          "tires",
-          "tire-rims",
           "television",
           "computer-monitor",
           "laptop",
@@ -5560,16 +5339,7 @@
           "sofa",
           "recliner",
           "carpet",
-          "refrigerator",
-          "freezer",
-          "air-conditioner",
-          "washer",
-          "dryer",
-          "dishwasher",
-          "stove",
-          "water-heater",
-          "tires",
-          "tire-rims"
+          "yard-waste"
         ]
       }
     ]
@@ -5632,16 +5402,7 @@
           "sofa",
           "recliner",
           "carpet",
-          "refrigerator",
-          "freezer",
-          "air-conditioner",
-          "washer",
-          "dryer",
-          "dishwasher",
-          "stove",
-          "water-heater",
-          "tires",
-          "tire-rims"
+          "yard-waste"
         ]
       }
     ]
@@ -5670,19 +5431,6 @@
         "hours": "Sat 8:00\u201313:00 recycling/e-waste; HHW chemicals on designated event Saturdays only",
         "phone": "311",
         "accepted_materials": [
-          "television",
-          "computer-monitor",
-          "laptop",
-          "desktop-computer",
-          "printer",
-          "tablet",
-          "smartphone",
-          "microwave",
-          "hard-drive",
-          "e-waste-mixed",
-          "ink-toner",
-          "tires",
-          "tire-rims",
           "paint-latex",
           "paint-oil",
           "pesticides",
@@ -5725,19 +5473,6 @@
         "hours": "Sat 8:00\u201313:00 recycling/e-waste; HHW chemicals on designated event Saturdays only",
         "phone": "311",
         "accepted_materials": [
-          "television",
-          "computer-monitor",
-          "laptop",
-          "desktop-computer",
-          "printer",
-          "tablet",
-          "smartphone",
-          "microwave",
-          "hard-drive",
-          "e-waste-mixed",
-          "ink-toner",
-          "tires",
-          "tire-rims",
           "paint-latex",
           "paint-oil",
           "pesticides",
@@ -5814,14 +5549,7 @@
           "sofa",
           "recliner",
           "carpet",
-          "refrigerator",
-          "freezer",
-          "air-conditioner",
-          "washer",
-          "dryer",
-          "dishwasher",
-          "stove",
-          "water-heater"
+          "yard-waste"
         ]
       },
       {
@@ -5914,14 +5642,7 @@
           "sofa",
           "recliner",
           "carpet",
-          "refrigerator",
-          "freezer",
-          "air-conditioner",
-          "washer",
-          "dryer",
-          "dishwasher",
-          "stove",
-          "water-heater"
+          "yard-waste"
         ]
       },
       {
@@ -5952,6 +5673,454 @@
           "paint-oil",
           "tires",
           "tire-rims"
+        ]
+      }
+    ]
+  },
+  {
+    "state_slug": "pennsylvania",
+    "city_slug": "pittsburgh",
+    "zip": "15213",
+    "city": "Pittsburgh",
+    "state": "PA",
+    "lat": 40.441,
+    "lng": -79.956,
+    "population": 14000,
+    "indexable": true,
+    "facilities": [
+      {
+        "name": "Noble Environmental HHW",
+        "facility_type": "Household hazardous waste drop-off",
+        "city_slug": "pittsburgh",
+        "state": "PA",
+        "zip": "15222",
+        "address": "3001 Railroad St, Pittsburgh, PA 15222",
+        "lat": 40.4555,
+        "lng": -79.9755,
+        "source_url": "https://pittsburghpa.gov/City-Government/Finance-Administration/Finance/Refuse-Recycling/Electronic-Waste-and-Household-Hazardous-Waste-Disposal",
+        "hours": "Tue/Thu 14:30\u201318:30 by appointment",
+        "phone": "412-255-2773",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil"
+        ]
+      },
+      {
+        "name": "Pittsburgh DPW Tire Drop-Off \u2014 Hamilton Ave",
+        "facility_type": "Tire drop-off",
+        "city_slug": "pittsburgh",
+        "state": "PA",
+        "zip": "15208",
+        "address": "300 Hamilton Ave, Pittsburgh, PA 15208",
+        "lat": 40.4655,
+        "lng": -79.9155,
+        "source_url": "https://pittsburghpa.gov/City-Government/Finance-Administration/Finance/Refuse-Recycling/Curbside-Refuse",
+        "hours": "Check pittsburghpa.gov for DPW drop-off hours",
+        "phone": "412-255-2773",
+        "accepted_materials": [
+          "tires",
+          "tire-rims"
+        ]
+      }
+    ]
+  },
+  {
+    "state_slug": "pennsylvania",
+    "city_slug": "pittsburgh",
+    "zip": "15222",
+    "city": "Pittsburgh",
+    "state": "PA",
+    "lat": 40.448,
+    "lng": -79.992,
+    "population": 8000,
+    "indexable": true,
+    "facilities": [
+      {
+        "name": "Noble Environmental HHW",
+        "facility_type": "Household hazardous waste drop-off",
+        "city_slug": "pittsburgh",
+        "state": "PA",
+        "zip": "15222",
+        "address": "3001 Railroad St, Pittsburgh, PA 15222",
+        "lat": 40.4555,
+        "lng": -79.9755,
+        "source_url": "https://pittsburghpa.gov/City-Government/Finance-Administration/Finance/Refuse-Recycling/Electronic-Waste-and-Household-Hazardous-Waste-Disposal",
+        "hours": "Tue/Thu 14:30\u201318:30 by appointment",
+        "phone": "412-255-2773",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil"
+        ]
+      },
+      {
+        "name": "Pittsburgh DPW Tire Drop-Off \u2014 Hamilton Ave",
+        "facility_type": "Tire drop-off",
+        "city_slug": "pittsburgh",
+        "state": "PA",
+        "zip": "15208",
+        "address": "300 Hamilton Ave, Pittsburgh, PA 15208",
+        "lat": 40.4655,
+        "lng": -79.9155,
+        "source_url": "https://pittsburghpa.gov/City-Government/Finance-Administration/Finance/Refuse-Recycling/Curbside-Refuse",
+        "hours": "Check pittsburghpa.gov for DPW drop-off hours",
+        "phone": "412-255-2773",
+        "accepted_materials": [
+          "tires",
+          "tire-rims"
+        ]
+      }
+    ]
+  },
+  {
+    "state_slug": "ohio",
+    "city_slug": "cincinnati",
+    "zip": "45202",
+    "city": "Cincinnati",
+    "state": "OH",
+    "lat": 39.103,
+    "lng": -84.512,
+    "population": 9000,
+    "indexable": true,
+    "facilities": [
+      {
+        "name": "Hamilton County R3Source HHW",
+        "facility_type": "Household hazardous waste \u2014 event-based",
+        "city_slug": "cincinnati",
+        "state": "OH",
+        "zip": "45231",
+        "address": "Event locations vary \u2014 search r3source.org",
+        "lat": 39.2155,
+        "lng": -84.4655,
+        "source_url": "https://www.r3source.org/",
+        "hours": "Annual HHW events \u2014 use R3Source search tool",
+        "phone": "513-946-7766",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil"
+        ]
+      }
+    ]
+  },
+  {
+    "state_slug": "ohio",
+    "city_slug": "cincinnati",
+    "zip": "45219",
+    "city": "Cincinnati",
+    "state": "OH",
+    "lat": 39.128,
+    "lng": -84.515,
+    "population": 18000,
+    "indexable": true,
+    "facilities": [
+      {
+        "name": "Hamilton County R3Source HHW",
+        "facility_type": "Household hazardous waste \u2014 event-based",
+        "city_slug": "cincinnati",
+        "state": "OH",
+        "zip": "45231",
+        "address": "Event locations vary \u2014 search r3source.org",
+        "lat": 39.2155,
+        "lng": -84.4655,
+        "source_url": "https://www.r3source.org/",
+        "hours": "Annual HHW events \u2014 use R3Source search tool",
+        "phone": "513-946-7766",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil"
+        ]
+      }
+    ]
+  },
+  {
+    "state_slug": "missouri",
+    "city_slug": "st-louis",
+    "zip": "63101",
+    "city": "St. Louis",
+    "state": "MO",
+    "lat": 38.627,
+    "lng": -90.199,
+    "population": 5000,
+    "indexable": true,
+    "facilities": [
+      {
+        "name": "HHWSTL",
+        "facility_type": "Household hazardous waste drop-off",
+        "city_slug": "st-louis",
+        "state": "MO",
+        "zip": "63125",
+        "address": "291 E Hoffmeister Ave, St. Louis, MO 63125",
+        "lat": 38.5355,
+        "lng": -90.2855,
+        "source_url": "https://www.stlouis-mo.gov/government/departments/refuse/hhw.cfm",
+        "hours": "By appointment \u2014 check stlouis-mo.gov",
+        "phone": "314-622-4800",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil"
+        ]
+      }
+    ]
+  },
+  {
+    "state_slug": "missouri",
+    "city_slug": "st-louis",
+    "zip": "63108",
+    "city": "St. Louis",
+    "state": "MO",
+    "lat": 38.645,
+    "lng": -90.245,
+    "population": 12000,
+    "indexable": true,
+    "facilities": [
+      {
+        "name": "HHWSTL",
+        "facility_type": "Household hazardous waste drop-off",
+        "city_slug": "st-louis",
+        "state": "MO",
+        "zip": "63125",
+        "address": "291 E Hoffmeister Ave, St. Louis, MO 63125",
+        "lat": 38.5355,
+        "lng": -90.2855,
+        "source_url": "https://www.stlouis-mo.gov/government/departments/refuse/hhw.cfm",
+        "hours": "By appointment \u2014 check stlouis-mo.gov",
+        "phone": "314-622-4800",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil"
+        ]
+      }
+    ]
+  },
+  {
+    "state_slug": "florida",
+    "city_slug": "orlando",
+    "zip": "32801",
+    "city": "Orlando",
+    "state": "FL",
+    "lat": 28.538,
+    "lng": -81.379,
+    "population": 8000,
+    "indexable": true,
+    "facilities": [
+      {
+        "name": "Orange County Landfill HHW",
+        "facility_type": "Household hazardous waste drop-off",
+        "city_slug": "orlando",
+        "state": "FL",
+        "zip": "32829",
+        "address": "5901 Young Pine Rd, Orlando, FL 32829",
+        "lat": 28.4255,
+        "lng": -81.2655,
+        "source_url": "https://www.ocfl.net/Trash-and-Recycling/Household-Hazardous-Waste.aspx",
+        "hours": "Check ocfl.net for HHW hours",
+        "phone": "407-836-6601",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil"
+        ]
+      }
+    ]
+  },
+  {
+    "state_slug": "florida",
+    "city_slug": "orlando",
+    "zip": "32803",
+    "city": "Orlando",
+    "state": "FL",
+    "lat": 28.555,
+    "lng": -81.355,
+    "population": 15000,
+    "indexable": true,
+    "facilities": [
+      {
+        "name": "Orange County Landfill HHW",
+        "facility_type": "Household hazardous waste drop-off",
+        "city_slug": "orlando",
+        "state": "FL",
+        "zip": "32829",
+        "address": "5901 Young Pine Rd, Orlando, FL 32829",
+        "lat": 28.4255,
+        "lng": -81.2655,
+        "source_url": "https://www.ocfl.net/Trash-and-Recycling/Household-Hazardous-Waste.aspx",
+        "hours": "Check ocfl.net for HHW hours",
+        "phone": "407-836-6601",
+        "accepted_materials": [
+          "paint-latex",
+          "paint-oil",
+          "pesticides",
+          "herbicides",
+          "pool-chemicals",
+          "gasoline",
+          "motor-oil",
+          "antifreeze",
+          "car-battery",
+          "household-batteries",
+          "lithium-battery",
+          "fluorescent-bulbs",
+          "propane-tank",
+          "cooking-oil"
+        ]
+      }
+    ]
+  },
+  {
+    "state_slug": "new-york",
+    "city_slug": "buffalo",
+    "zip": "14202",
+    "city": "Buffalo",
+    "state": "NY",
+    "lat": 42.886,
+    "lng": -78.878,
+    "population": 6000,
+    "indexable": true,
+    "facilities": [
+      {
+        "name": "Buffalo Engineering Garage \u2014 E-waste",
+        "facility_type": "Electronics drop-off",
+        "city_slug": "buffalo",
+        "state": "NY",
+        "zip": "14210",
+        "address": "1120 Seneca St, Buffalo, NY 14210",
+        "lat": 42.8555,
+        "lng": -78.8255,
+        "source_url": "https://www.buffalony.gov/432/Streets-Sanitation",
+        "hours": "Mon\u2013Fri 8:00\u201315:00; first Sat 8:00\u201314:00",
+        "phone": "716-851-5635",
+        "accepted_materials": [
+          "television",
+          "computer-monitor",
+          "laptop",
+          "desktop-computer",
+          "printer",
+          "tablet",
+          "smartphone",
+          "microwave",
+          "hard-drive",
+          "e-waste-mixed",
+          "ink-toner"
+        ]
+      }
+    ]
+  },
+  {
+    "state_slug": "new-york",
+    "city_slug": "buffalo",
+    "zip": "14210",
+    "city": "Buffalo",
+    "state": "NY",
+    "lat": 42.855,
+    "lng": -78.835,
+    "population": 16000,
+    "indexable": true,
+    "facilities": [
+      {
+        "name": "Buffalo Engineering Garage \u2014 E-waste",
+        "facility_type": "Electronics drop-off",
+        "city_slug": "buffalo",
+        "state": "NY",
+        "zip": "14210",
+        "address": "1120 Seneca St, Buffalo, NY 14210",
+        "lat": 42.8555,
+        "lng": -78.8255,
+        "source_url": "https://www.buffalony.gov/432/Streets-Sanitation",
+        "hours": "Mon\u2013Fri 8:00\u201315:00; first Sat 8:00\u201314:00",
+        "phone": "716-851-5635",
+        "accepted_materials": [
+          "television",
+          "computer-monitor",
+          "laptop",
+          "desktop-computer",
+          "printer",
+          "tablet",
+          "smartphone",
+          "microwave",
+          "hard-drive",
+          "e-waste-mixed",
+          "ink-toner"
         ]
       }
     ]

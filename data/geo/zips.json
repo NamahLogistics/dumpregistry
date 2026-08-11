@@ -968,5 +968,105 @@
     "lat": 27.935,
     "lng": -82.465,
     "population": 14000
+  },
+  {
+    "zip": "15213",
+    "city": "Pittsburgh",
+    "city_slug": "pittsburgh",
+    "state": "PA",
+    "state_slug": "pennsylvania",
+    "lat": 40.441,
+    "lng": -79.956,
+    "population": 14000
+  },
+  {
+    "zip": "15222",
+    "city": "Pittsburgh",
+    "city_slug": "pittsburgh",
+    "state": "PA",
+    "state_slug": "pennsylvania",
+    "lat": 40.448,
+    "lng": -79.992,
+    "population": 8000
+  },
+  {
+    "zip": "45202",
+    "city": "Cincinnati",
+    "city_slug": "cincinnati",
+    "state": "OH",
+    "state_slug": "ohio",
+    "lat": 39.103,
+    "lng": -84.512,
+    "population": 9000
+  },
+  {
+    "zip": "45219",
+    "city": "Cincinnati",
+    "city_slug": "cincinnati",
+    "state": "OH",
+    "state_slug": "ohio",
+    "lat": 39.128,
+    "lng": -84.515,
+    "population": 18000
+  },
+  {
+    "zip": "63101",
+    "city": "St. Louis",
+    "city_slug": "st-louis",
+    "state": "MO",
+    "state_slug": "missouri",
+    "lat": 38.627,
+    "lng": -90.199,
+    "population": 5000
+  },
+  {
+    "zip": "63108",
+    "city": "St. Louis",
+    "city_slug": "st-louis",
+    "state": "MO",
+    "state_slug": "missouri",
+    "lat": 38.645,
+    "lng": -90.245,
+    "population": 12000
+  },
+  {
+    "zip": "32801",
+    "city": "Orlando",
+    "city_slug": "orlando",
+    "state": "FL",
+    "state_slug": "florida",
+    "lat": 28.538,
+    "lng": -81.379,
+    "population": 8000
+  },
+  {
+    "zip": "32803",
+    "city": "Orlando",
+    "city_slug": "orlando",
+    "state": "FL",
+    "state_slug": "florida",
+    "lat": 28.555,
+    "lng": -81.355,
+    "population": 15000
+  },
+  {
+    "zip": "14202",
+    "city": "Buffalo",
+    "city_slug": "buffalo",
+    "state": "NY",
+    "state_slug": "new-york",
+    "lat": 42.886,
+    "lng": -78.878,
+    "population": 6000
+  },
+  {
+    "zip": "14210",
+    "city": "Buffalo",
+    "city_slug": "buffalo",
+    "state": "NY",
+    "state_slug": "new-york",
+    "lat": 42.855,
+    "lng": -78.835,
+    "population": 16000
   }
 ]

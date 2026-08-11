@@ -502,5 +502,50 @@
     "lat": 27.9506,
     "lng": -82.4572,
     "population": 384959
+  },
+  {
+    "city": "Pittsburgh",
+    "city_slug": "pittsburgh",
+    "state": "PA",
+    "state_slug": "pennsylvania",
+    "lat": 40.4406,
+    "lng": -79.9959,
+    "population": 302971
+  },
+  {
+    "city": "Cincinnati",
+    "city_slug": "cincinnati",
+    "state": "OH",
+    "state_slug": "ohio",
+    "lat": 39.1031,
+    "lng": -84.512,
+    "population": 309317
+  },
+  {
+    "city": "St. Louis",
+    "city_slug": "st-louis",
+    "state": "MO",
+    "state_slug": "missouri",
+    "lat": 38.627,
+    "lng": -90.1994,
+    "population": 279457
+  },
+  {
+    "city": "Orlando",
+    "city_slug": "orlando",
+    "state": "FL",
+    "state_slug": "florida",
+    "lat": 28.5383,
+    "lng": -81.3792,
+    "population": 307573
+  },
+  {
+    "city": "Buffalo",
+    "city_slug": "buffalo",
+    "state": "NY",
+    "state_slug": "new-york",
+    "lat": 42.8864,
+    "lng": -78.8784,
+    "population": 276807
   }
 ]
