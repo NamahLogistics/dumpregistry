@@ -622,5 +622,83 @@
     "source_url": "https://www.cabq.gov/solidwaste/hazardous-waste",
     "hours": "Mon/Wed/Fri 8:00\u201314:00; Sat 8:00\u201315:00",
     "phone": "505-768-3925"
+  },
+  {
+    "name": "Los Reales Sustainability Campus HHW",
+    "facility_type": "Household hazardous waste drop-off",
+    "city_slug": "tucson",
+    "state": "AZ",
+    "zip": "85706",
+    "address": "5300 E Los Reales Rd, Tucson, AZ 85706",
+    "lat": 32.1555,
+    "lng": -110.9055,
+    "source_url": "https://www.tucsonaz.gov/Departments/Environmental-Services/Household-Hazardous-Waste",
+    "hours": "Thu\u2013Sat 7:00\u201314:00; closed 2nd Sat/month",
+    "phone": "520-791-3171"
+  },
+  {
+    "name": "Tulsa Household Pollutant Collection Facility",
+    "facility_type": "Household hazardous waste drop-off",
+    "city_slug": "tulsa",
+    "state": "OK",
+    "zip": "74107",
+    "address": "4502 S Galveston Ave, Tulsa, OK 74107",
+    "lat": 36.0955,
+    "lng": -96.0055,
+    "source_url": "https://www.cityoftulsa.org/government/departments/public-works/household-pollutant-collection-facility/",
+    "hours": "Wed & Sat 8:00\u201311:30 and 12:00\u201316:30",
+    "phone": "918-591-4325"
+  },
+  {
+    "name": "Marion County ToxDrop \u2014 Traders Point",
+    "facility_type": "Household hazardous waste drop-off",
+    "city_slug": "indianapolis",
+    "state": "IN",
+    "zip": "46278",
+    "address": "7550 N Lafayette Rd, Indianapolis, IN 46278",
+    "lat": 39.9055,
+    "lng": -86.2655,
+    "source_url": "https://www.indy.gov/activity/hazardous-waste-dropoff-sites",
+    "hours": "1st Sat 9:00\u201314:00",
+    "phone": "317-327-4622"
+  },
+  {
+    "name": "Marion County ToxDrop \u2014 Perry Township",
+    "facility_type": "Household hazardous waste drop-off",
+    "city_slug": "indianapolis",
+    "state": "IN",
+    "zip": "46227",
+    "address": "4925 S Shelby St, Indianapolis, IN 46227",
+    "lat": 39.6855,
+    "lng": -86.1355,
+    "source_url": "https://www.indy.gov/activity/hazardous-waste-dropoff-sites",
+    "hours": "2nd & 4th Sat 9:00\u201314:00",
+    "phone": "317-327-4622"
+  },
+  {
+    "name": "Atlanta Recycles Day \u2014 Greenbriar Mall",
+    "facility_type": "Special collection event \u2014 tires / small electronics",
+    "city_slug": "atlanta",
+    "state": "GA",
+    "zip": "30331",
+    "address": "Greenbriar Mall area, Atlanta, GA 30331",
+    "lat": 33.7055,
+    "lng": -84.5055,
+    "source_url": "https://www.atl311.com/en-us/knowledgearticle/?code=KB0011478",
+    "hours": "3rd Sat Feb\u2013Dec 9:00\u201312:00",
+    "phone": "404-546-0311"
+  },
+  {
+    "name": "KC Water Environmental Campus HHW",
+    "facility_type": "Household hazardous waste drop-off",
+    "city_slug": "kansas-city",
+    "state": "MO",
+    "zip": "64120",
+    "address": "4707 Deramus Ave, Kansas City, MO 64120",
+    "lat": 39.1255,
+    "lng": -94.5155,
+    "source_url": "https://www.kcwater.us/programs/hhw/",
+    "hours": "Thu\u2013Fri 9:00\u201318:00; Sat 9:00\u201316:00",
+    "phone": "816-513-2855"
   }
 ]

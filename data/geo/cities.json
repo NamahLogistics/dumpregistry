@@ -367,5 +367,50 @@
     "lat": 35.0844,
     "lng": -106.6504,
     "population": 564559
+  },
+  {
+    "city": "Tucson",
+    "city_slug": "tucson",
+    "state": "AZ",
+    "state_slug": "arizona",
+    "lat": 32.2226,
+    "lng": -110.9747,
+    "population": 542629
+  },
+  {
+    "city": "Tulsa",
+    "city_slug": "tulsa",
+    "state": "OK",
+    "state_slug": "oklahoma",
+    "lat": 36.154,
+    "lng": -95.9928,
+    "population": 413066
+  },
+  {
+    "city": "Indianapolis",
+    "city_slug": "indianapolis",
+    "state": "IN",
+    "state_slug": "indiana",
+    "lat": 39.7684,
+    "lng": -86.1581,
+    "population": 887642
+  },
+  {
+    "city": "Atlanta",
+    "city_slug": "atlanta",
+    "state": "GA",
+    "state_slug": "georgia",
+    "lat": 33.749,
+    "lng": -84.388,
+    "population": 498715
+  },
+  {
+    "city": "Kansas City",
+    "city_slug": "kansas-city",
+    "state": "MO",
+    "state_slug": "missouri",
+    "lat": 39.0997,
+    "lng": -94.5786,
+    "population": 508090
   }
 ]

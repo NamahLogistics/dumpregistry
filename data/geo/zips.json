@@ -668,5 +668,105 @@
     "lat": 35.12,
     "lng": -106.67,
     "population": 28000
+  },
+  {
+    "zip": "85701",
+    "city": "Tucson",
+    "city_slug": "tucson",
+    "state": "AZ",
+    "state_slug": "arizona",
+    "lat": 32.22,
+    "lng": -110.97,
+    "population": 12000
+  },
+  {
+    "zip": "85716",
+    "city": "Tucson",
+    "city_slug": "tucson",
+    "state": "AZ",
+    "state_slug": "arizona",
+    "lat": 32.23,
+    "lng": -110.935,
+    "population": 35000
+  },
+  {
+    "zip": "74103",
+    "city": "Tulsa",
+    "city_slug": "tulsa",
+    "state": "OK",
+    "state_slug": "oklahoma",
+    "lat": 36.155,
+    "lng": -95.99,
+    "population": 8000
+  },
+  {
+    "zip": "74107",
+    "city": "Tulsa",
+    "city_slug": "tulsa",
+    "state": "OK",
+    "state_slug": "oklahoma",
+    "lat": 36.105,
+    "lng": -96.02,
+    "population": 22000
+  },
+  {
+    "zip": "46204",
+    "city": "Indianapolis",
+    "city_slug": "indianapolis",
+    "state": "IN",
+    "state_slug": "indiana",
+    "lat": 39.77,
+    "lng": -86.155,
+    "population": 14000
+  },
+  {
+    "zip": "46227",
+    "city": "Indianapolis",
+    "city_slug": "indianapolis",
+    "state": "IN",
+    "state_slug": "indiana",
+    "lat": 39.68,
+    "lng": -86.13,
+    "population": 42000
+  },
+  {
+    "zip": "30303",
+    "city": "Atlanta",
+    "city_slug": "atlanta",
+    "state": "GA",
+    "state_slug": "georgia",
+    "lat": 33.75,
+    "lng": -84.39,
+    "population": 9000
+  },
+  {
+    "zip": "30318",
+    "city": "Atlanta",
+    "city_slug": "atlanta",
+    "state": "GA",
+    "state_slug": "georgia",
+    "lat": 33.785,
+    "lng": -84.435,
+    "population": 38000
+  },
+  {
+    "zip": "64106",
+    "city": "Kansas City",
+    "city_slug": "kansas-city",
+    "state": "MO",
+    "state_slug": "missouri",
+    "lat": 39.1,
+    "lng": -94.58,
+    "population": 11000
+  },
+  {
+    "zip": "64120",
+    "city": "Kansas City",
+    "city_slug": "kansas-city",
+    "state": "MO",
+    "state_slug": "missouri",
+    "lat": 39.125,
+    "lng": -94.52,
+    "population": 28000
   }
 ]
