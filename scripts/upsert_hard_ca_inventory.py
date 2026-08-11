@@ -362,13 +362,16 @@ def main() -> None:
     facilities, pruned = prune_target_cities(facilities)
     FAC_PATH.write_text(json.dumps(facilities, indent=2) + "\n")
 
-    ca_hard = [
-        f
-        for f in facilities
-        if f.get("city_slug") in TARGET_CITIES
-        and is_hard_facility(f)
-        and is_gov_url(f.get("source_url", ""))
-    ]
+    ca_hard = sorted(
+        (
+            f
+            for f in facilities
+            if f.get("city_slug") in TARGET_CITIES
+            and is_hard_facility(f)
+            and is_gov_url(f.get("source_url", ""))
+        ),
+        key=lambda f: (f.get("city_slug", ""), f.get("name", "")),
+    )
     per_city = {c: sum(1 for f in ca_hard if f.get("city_slug") == c) for c in sorted(TARGET_CITIES)}
 
     out = {
@@ -379,27 +382,27 @@ def main() -> None:
         "pruned_legacy": pruned,
         "rejected_in_batch": len(rejected),
         "ca_hard_total": len(ca_hard),
+        "batch_size": len(batch),
         "total_hard": sum(1 for f in facilities if is_hard_facility(f)),
         "per_city": per_city,
         "networks": [
-            "Alameda StopWaste HHW (4 sites: Oakland, Hayward, Livermore, Fremont)",
+            "Alameda County HHW (Oakland, Hayward, Livermore, Fremont)",
             "OC Waste HHW (4 centers: Anaheim, Huntington Beach, Irvine, San Juan Capistrano)",
             "LASAN S.A.F.E. Centers + district bulky yards",
             "LA County Sanitation Districts (Calabasas, Scholl Canyon, South Gate, Puente Hills MRF)",
-            "San Diego Miramar HHW / landfill / recycling",
+            "San Diego Miramar HHW / landfill / recycling + satellite HHW",
             "Sacramento County WMR (NARS, Kiefer, SRT HHW)",
             "Santa Clara County HHW (San Jose, San Martin)",
-            "San Bernardino County Fire HHW (Ontario, Central, Rancho Cucamonga, Chino, Apple Valley)",
+            "San Bernardino County HHW (Ontario, Central, Rancho Cucamonga, Chino, Apple Valley)",
             "Riverside County Waste Resources (Agua Mansa, Lamb Canyon, Badlands, transfer stations)",
             "Kern County Public Works (Special Waste, transfer stations, landfills)",
             "Fresno County Environmental Compliance + landfills",
             "San Joaquin County HHW + transfer stations",
             "Long Beach / LA County HHW (Signal Hill ECC, Antelope Valley)",
         ],
-        "facilities": batch,
+        "facilities": ca_hard,
     }
     print(json.dumps(out, indent=2))
-    print(f"\nAdded: {added} | CA hard total: {len(ca_hard)} | All hard: {out['total_hard']}")
 
 
 if __name__ == "__main__":
