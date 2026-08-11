@@ -1185,6 +1185,63 @@ button.facility-action {
   gap: 0.9rem;
 }
 
+.eyebrow {
+  font-size: 0.9rem;
+  color: var(--muted, #5c6b7a);
+  margin: 0;
+}
+
+.centers-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.85rem 1rem;
+  align-items: flex-end;
+  margin: 1.25rem 0 1rem;
+  padding: 1rem 0;
+  border-top: 1px solid var(--border, #d6dde5);
+  border-bottom: 1px solid var(--border, #d6dde5);
+}
+
+.centers-filter label {
+  display: grid;
+  gap: 0.35rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--brand-ink, #1b1b1b);
+}
+
+.centers-filter input,
+.centers-filter select {
+  min-width: 11rem;
+  padding: 0.5rem 0.65rem;
+  border: 1px solid var(--border, #d6dde5);
+  border-radius: 2px;
+  background: #fff;
+  font: inherit;
+}
+
+.facility-result-list {
+  list-style: none;
+  margin: 1rem 0 2rem;
+  padding: 0;
+  display: grid;
+  gap: 1rem;
+}
+
+.facility-result-list li {
+  padding: 0.85rem 0;
+  border-bottom: 1px solid var(--border, #d6dde5);
+  display: grid;
+  gap: 0.25rem;
+}
+
+.facility-result-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.25rem;
+  margin-top: 0.25rem;
+}
+
 .prose h1,
 .page h2 {
   font-family: var(--font-display);

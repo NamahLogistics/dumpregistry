@@ -1,7 +1,7 @@
 import { readFileSync } from "node:fs";
 import path from "node:path";
 import { dataRoot } from "./paths";
-import type { City, DisposalPage, Item, ZipHub } from "./types";
+import type { City, DisposalPage, Facility, Item, ZipHub } from "./types";
 
 function readJson<T>(rel: string): T {
   const full = path.join(dataRoot(), rel);
@@ -13,6 +13,7 @@ let cache: {
   cities?: City[];
   pages?: DisposalPage[];
   zipHubs?: ZipHub[];
+  facilities?: Facility[];
 } = {};
 
 export function getItems(): Item[] {
@@ -56,6 +57,23 @@ export function getPages(): DisposalPage[] {
 export function getZipHubs(): ZipHub[] {
   cache.zipHubs ??= readJson<ZipHub[]>("resolved/zip_hubs.json");
   return cache.zipHubs;
+}
+
+export function getFacilities(): Facility[] {
+  cache.facilities ??= readJson<Facility[]>("facilities/all.json");
+  return cache.facilities;
+}
+
+/** City dispose guides that cover a material — for encyclopedia deep links. */
+export function getMaterialCityGuides(itemSlug: string, limit = 24): DisposalPage[] {
+  return getIndexablePages()
+    .filter((p) => p.item_slug === itemSlug)
+    .sort((a, b) => a.city.localeCompare(b.city))
+    .slice(0, limit);
+}
+
+export function getMaterialGuideCount(itemSlug: string): number {
+  return getIndexablePages().filter((p) => p.item_slug === itemSlug).length;
 }
 
 export function getItem(slug: string) {

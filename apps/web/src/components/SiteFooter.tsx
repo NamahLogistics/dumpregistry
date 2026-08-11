@@ -20,6 +20,9 @@ export function SiteFooter() {
           <div className="footer-links">
             <h2>Explore</h2>
             <Link href="/cities">Verified cities</Link>
+            <Link href="/materials">Materials</Link>
+            <Link href="/centers">Drop-off centers</Link>
+            <Link href="/guides">Guides</Link>
             <Link href="/methodology">Verification method</Link>
             <Link href="/sources">Official sources</Link>
             <Link href="/about">About</Link>

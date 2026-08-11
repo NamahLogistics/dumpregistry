@@ -30,6 +30,10 @@ def main() -> None:
     covered_cities = sorted({(p["state_slug"], p["city_slug"]) for p in pages if p.get("indexable")})
 
     states = sorted({s for s, _ in covered_cities})
+    items = json.loads((ROOT / "data" / "items.json").read_text())
+    guides_dir = ROOT / "content" / "guides"
+    guide_slugs = sorted(p.stem for p in guides_dir.glob("*.md")) if guides_dir.exists() else []
+
     urls: list[tuple[str, str]] = [
         (f"{BASE}/", "1.0"),
         (f"{BASE}/about", "0.5"),
@@ -37,7 +41,16 @@ def main() -> None:
         (f"{BASE}/sources", "0.5"),
         (f"{BASE}/partners", "0.6"),
         (f"{BASE}/cities", "0.8"),
+        (f"{BASE}/materials", "0.85"),
+        (f"{BASE}/centers", "0.85"),
+        (f"{BASE}/guides", "0.8"),
     ]
+    for item in items:
+        slug = item.get("slug")
+        if slug:
+            urls.append((f"{BASE}/materials/{slug}", "0.7"))
+    for slug in guide_slugs:
+        urls.append((f"{BASE}/guides/{slug}", "0.65"))
     for state_slug in states:
         urls.append((f"{BASE}/{state_slug}", "0.75"))
     for state_slug, city_slug in covered_cities:

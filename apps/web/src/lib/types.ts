@@ -34,6 +34,8 @@ export type Facility = {
   source_url?: string | null;
   hours?: string | null;
   phone?: string | null;
+  /** Item slugs this site typically accepts — used by /centers finder. */
+  accepted_materials?: string[];
 };
 
 export type DisposalPage = {
