@@ -592,6 +592,888 @@ for name, addr, zipc, lat, lng, mats_list in [
         accepted_materials=mats_list,
     )
 
+# ── Volume expansion — additional thin-metro official sites ──
+
+# Charlotte Mecklenburg (wipeoutwaste.mecknc.gov)
+MECK = "https://wipeoutwaste.mecknc.gov/where-can-i-recycle"
+for name, addr, zipc, lat, lng in [
+    ("Mecklenburg Full-Service — Rozzelles Ferry Road", "140 Valleydale Road, Charlotte, NC 28214", "28214", 35.265, -80.945),
+    ("Mecklenburg Full-Service — Foxhole Lancaster Highway", "17131 Lancaster Highway, Charlotte, NC 28277", "28277", 35.045, -80.845),
+    ("Mecklenburg Full-Service — Hickory Grove Pence Road", "8007 Pence Road, Charlotte, NC 28215", "28215", 35.235, -80.725),
+    ("Mecklenburg Full-Service — Pineville-Matthews Road", "4635 Pineville-Matthews Road, Charlotte, NC 28226", "28226", 35.095, -80.768),
+]:
+    site(name, "County full-service drop-off — bulky / HHW / e-waste / tires", "charlotte", "NC", zipc, addr, lat, lng,
+         MECK, "Mon–Sat 7:00–16:00; Mecklenburg residents", "980-314-3867", mats(BULKY, HHW, E_WASTE, TIRES, APPLIANCE))
+
+# Ada County additional fire-station HHW mobile sites
+for name, addr, zipc, lat, lng in [
+    ("Ada County HHW Mobile — Fire Station 2", "121 N Allumbaugh Street, Boise, ID 83704", "83704", 43.615, -116.285),
+    ("Ada County HHW Mobile — Fire Station 3", "7200 Barrister Drive, Boise, ID 83704", "83704", 43.645, -116.275),
+    ("Ada County HHW Mobile — Fire Station 4", "123 E Linden Street, Boise, ID 83712", "83712", 43.615, -116.195),
+    ("Ada County HHW Mobile — Fire Station 6", "4427 W Overland Road, Boise, ID 83705", "83705", 43.595, -116.245),
+    ("Ada County HHW Mobile — Fire Station 8", "8900 W Ustick Road, Boise, ID 83704", "83704", 43.635, -116.295),
+    ("Ada County HHW Mobile — Fire Station 9", "9225 W Chinden Boulevard, Boise, ID 83714", "83714", 43.665, -116.315),
+]:
+    site(name, "County HHW mobile collection — fire station site", "boise", "ID", zipc, addr, lat, lng,
+         ADA, "Apr–Oct Sat 9:00–13:00 — confirm adacounty.id.gov", "208-577-4734", mats(HHW, E_WASTE))
+
+# Cincinnati city bulk self-haul (cincinnati-oh.gov)
+site("City of Cincinnati Bulk Item Drop-Off — River Road", "Municipal bulk item drop-off — furniture / appliances",
+     "cincinnati", "OH", "45204", "3900 River Road, Cincinnati, OH 45204", 39.105, -84.615,
+     "https://www.cincinnati-oh.gov/street/recycling-and-waste-reduction/bulk-item-collection/",
+     "Scheduled drop-off days — cincinnati-oh.gov", "513-765-1212", mats(BULKY, APPLIANCE))
+site("Hamilton County R3Source — Colerain C&D Landfill public scale", "County C&D landfill — public scale",
+     "cincinnati", "OH", "45251", "3800 Struble Road, Colerain Township, OH 45251", 39.265, -84.605,
+     HAM_YARD, "Contact Rumpke / ReSource for hours", "513-946-7766", mats(CD, BULKY))
+
+# Columbus Franklin County landfill scale
+site("Franklin County Sanitary Landfill — public scalehouse", "County landfill — self-haul bulky / C&D",
+     "columbus", "OH", "43207", "4239 London Groveport Road, Grove City, OH 43123", 39.855, -83.045,
+     "https://www.swaco.org/Landfill", "Mon–Sat 6:00–16:00", "614-871-5100", mats(BULKY, APPLIANCE, CD, TIRES))
+
+# Detroit Wayne County additional yards (detroitmi.gov)
+DET = "https://detroitmi.gov/departments/public-works"
+for name, addr, zipc, lat, lng in [
+    ("Detroit DPW Davison Yard — Free Citizen Bulk Drop-Off", "8221 Davison Street, Detroit, MI 48238", "48238", 42.395, -83.125),
+    ("Detroit DPW Southfield Yard — Free Citizen Bulk Drop-Off", "12255 W Chicago Road, Detroit, MI 48228", "48228", 42.365, -83.215),
+    ("Detroit DPW J. Fons Yard — Free Citizen Bulk Drop-Off", "6450 E McNichols Road, Detroit, MI 48234", "48234", 42.435, -83.045),
+]:
+    site(name, "Municipal DPW yard — free citizen bulk drop-off", "detroit", "MI", zipc, addr, lat, lng,
+         DET, "Mon–Sat 8:00–16:00; Detroit residents", "313-876-0004", mats(BULKY, APPLIANCE, ["yard-waste"]))
+
+# Dallas transfer stations (dallascityhall.com)
+for name, addr, zipc, lat, lng in [
+    ("Dallas Northwest Bachman Transfer Station", "9500 Harry Hines Boulevard, Dallas, TX 75220", "75220", 32.847, -96.874),
+    ("Dallas Northeast Fair Oaks Transfer Station", "7677 Fair Oaks Avenue, Dallas, TX 75231", "75231", 32.878, -96.752),
+    ("Dallas Southwest Westmoreland Transfer Station", "4610 S Westmoreland Road, Dallas, TX 75233", "75233", 32.706, -96.876),
+]:
+    site(name, "Municipal transfer station — bulky / appliances / tires", "dallas", "TX", zipc, addr, lat, lng,
+         "https://dallascityhall.com/departments/sanitation/Pages/Bulk-and-Beyond.aspx",
+         "Mon–Sat — Dallas residents; confirm dallascityhall.com", "214-670-5111", mats(BULKY, APPLIANCE, TIRES))
+
+# Denver transfer / HHW (denvergov.org)
+DEN = "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Recycle-Compost-Trash"
+for name, addr, zipc, lat, lng, m in [
+    ("Denver Cherry Creek Transfer Station", "7300 E Jewell Avenue, Denver, CO 80231", "80231", 39.685, -104.905, mats(BULKY, APPLIANCE, TIRES, E_WASTE)),
+    ("Denver Havana Nursery Drop-off", "10450 Smith Road, Denver, CO 80239", "80239", 39.785, -104.865, mats(["yard-waste"], BULKY)),
+    ("Denver Central Platte Campus Drop-off", "1271 W Bayaud Avenue, Denver, CO 80223", "80223", 39.715, -105.015, mats(BULKY, APPLIANCE, E_WASTE, TIRES)),
+]:
+    site(name, "Municipal transfer / drop-off — bulky / appliances / e-waste", "denver", "CO", zipc, addr, lat, lng,
+         DEN, "Mon–Sat — confirm denvergov.org", "311", m)
+
+# Portland Metro (oregonmetro.gov)
+for name, addr, zipc, lat, lng in [
+    ("Metro Central Transfer Station — public self-haul", "Metro Central Transfer Station, 6161 NW 61st Avenue, Portland, OR 97210", "97210", 45.565, -122.735),
+    ("Metro South Transfer Station — Oregon City", "2001 Washington Street, Oregon City, OR 97045", "97045", 45.357, -122.608),
+]:
+    site(name, "Regional transfer station — garbage / bulky / e-waste / HHW", "portland", "OR", zipc, addr, lat, lng,
+         "https://www.oregonmetro.gov/waste-disposal-and-prevention/need-get-rid-something",
+         "Daily 8:00–17:00", "503-234-3000", mats(BULKY, HHW, E_WASTE, APPLIANCE, TIRES))
+
+# Milwaukee MMSD + drop-off (city.milwaukee.gov)
+site("MMSD Home Haz Mat Collection Center — 13th Street permanent", "Regional household hazardous waste drop-off",
+     "milwaukee", "WI", "53233", "1311 West Mount Vernon Avenue, Milwaukee, WI 53233", 43.034, -87.928,
+     "https://city.milwaukee.gov/sanitation/Garbage/WhatCanIRecycle/HouseholdHazardousWaste",
+     "Thu–Sat 7:00–15:00", "414-286-2489", mats(HHW))
+site("Milwaukee Drop Off Center — North Industrial Road", "Municipal drop-off — bulky / e-waste / tires / appliances",
+     "milwaukee", "WI", "53223", "6660 North Industrial Road, Milwaukee, WI 53223", 43.137, -87.998,
+     "https://city.milwaukee.gov/sanitation/DropOff", "Seasonal hours — city.milwaukee.gov", "414-286-CITY",
+     mats(BULKY, E_WASTE, TIRES, APPLIANCE, CD))
+
+# Minneapolis Ramsey + Hennepin (ramseycounty.us / hennepin.us)
+site("Ramsey County Environmental Center — Roseville", "County environmental center — HHW / e-waste / appliances",
+     "minneapolis", "MN", "55113", "1700 Kent Street, Roseville, MN 55113", 45.012, -93.158,
+     "https://www.ramseycounty.us/residents/recycling-waste/environmental-center",
+     "Tue–Fri 11:00–18:00; Sat 9:00–16:00", "651-633-3279", mats(HHW, E_WASTE, APPLIANCE, TIRES))
+site("Minneapolis South Transfer Station — drop-off", "Municipal transfer — garbage / bulky / appliances",
+     "minneapolis", "MN", "55407", "2850 20th Avenue South, Minneapolis, MN 55407", 43.243, -93.244,
+     "https://www.minneapolismn.gov/resident-services/garbage-recycling-cleanup/garbage/garbage-drop-off-site/",
+     "Tue–Fri 12:30–19:30; Sat 8:30–15:30", "612-673-2917", mats(BULKY, APPLIANCE, E_WASTE, TIRES, CD))
+
+# Pittsburgh DPW divisions (pittsburghpa.gov)
+PIT = "https://www.pittsburghpa.gov/Resident-Services/Trash-Recycling/Drop-Off-Info-Additional-Resources"
+for name, addr, zipc, lat, lng, phone in [
+    ("Pittsburgh DPW 1st Division Drop-Off (Hazelwood)", "40 Melanchton Street, Pittsburgh, PA 15207", "15207", 40.408, -79.936, "(412) 422-6545"),
+    ("Pittsburgh DPW 4th Division Drop-Off (East End)", "6814 Hamilton Avenue, Pittsburgh, PA 15208", "15208", 40.441, -79.896, "(412) 665-3610"),
+    ("Pittsburgh DPW 6th Division Drop-Off (West End)", "1330 Hassler Street, Pittsburgh, PA 15220", "15220", 40.445, -80.042, "(412) 937-3054"),
+]:
+    site(name, "Municipal DPW drop-off — yard waste / tires / scrap metal / bulky", "pittsburgh", "PA", zipc, addr, lat, lng,
+         PIT, "Mon–Sat — hours vary by division", phone, mats(BULKY, TIRES, ["yard-waste"]))
+
+# Buffalo additional (buffalony.gov)
+site("Buffalo West Side Transfer Station — Residential Drop-Off", "Municipal transfer station — bulk / trash",
+     "buffalo", "NY", "14213", "1120 Seneca Street, Buffalo, NY 14210", 42.870, -78.842,
+     "https://www.buffalony.gov/382/Streets-Sanitation", "Mon–Fri 7:00–9:00 & 13:00–15:00; Sat 8:00–12:00", "311",
+     mats(BULKY))
+
+# Chicago HCCRF + suburban CHaRM pin (chicago.gov / cookcountyil.gov)
+site("Chicago HCCRF — North Branch Street HHW / e-waste", "HHW / e-waste drop-off",
+     "chicago", "IL", "60642", "1150 North Branch Street, Chicago, IL 60642", 39.903, -87.661,
+     "https://www.chicago.gov/city/en/depts/streets/provdrs/recycling/svcs/household-chemicals-computer-recycling-facility.html",
+     "Tue 7:00–12:00; Thu 14:00–19:00; 1st Sat 8:00–15:00", "(312) 744-2413", mats(HHW, E_WASTE))
+site("Cook County CHaRM Center — South Holland", "County hard-to-recycle drop-off — TVs / e-waste / appliances",
+     "chicago", "IL", "60473", "15800 State Street, South Holland, IL 60473", 41.601, -87.612,
+     "https://www.cookcountyil.gov/CHaRMCenter", "Tue 8:00–12:00; Thu 13:00–17:00; 2nd & 4th Sat 9:00–13:00",
+     "708-596-2000 ext. 2442", mats(E_WASTE, APPLIANCE, TIRES))
+
+# Virginia Beach city RRC detail
+site("Virginia Beach Resource Recovery Center — Jake Sears Road", "Municipal RRC — e-waste / tires / appliances / HHW",
+     "virginia-beach", "VA", "23455", "1989 Jake Sears Road, Virginia Beach, VA 23455", 36.820, -76.075,
+     "https://www.vbgov.com/government/departments/public-works/waste-management/Pages/rrc.aspx",
+     "Tue–Sat 7:00–16:00", "757-385-4650", mats(E_WASTE, TIRES, APPLIANCE, HHW, BULKY))
+
+# Norfolk city waste management (norfolk.gov)
+site("Norfolk Waste Management — Bainbridge Boulevard Transfer", "Municipal transfer — bulky / yard waste / appliances",
+     "norfolk", "VA", "23502", "5585 Bainbridge Boulevard, Norfolk, VA 23502", 36.835, -76.255,
+     "https://www.norfolk.gov/1664/Waste-Management", "Mon–Fri 8:00–16:00; Sat 8:00–12:00", "757-441-5813",
+     mats(BULKY, APPLIANCE, TIRES, ["yard-waste"]))
+
+# Yonkers organic yard
+site("Yonkers Organic Yard — Nepperhan Avenue", "Municipal organic yard waste drop-off",
+     "yonkers", "NY", "10701", "610 Nepperhan Avenue, Yonkers, NY 10701", 40.928, -73.878,
+     "https://www.yonkersny.gov/502/Organic-Yard", "Mon–Sat 7:00–15:00 (closed noon–13:00)", "(914) 327-0175",
+     mats(["yard-waste", "christmas-tree"]))
+
+# Fremont Tri-CED
+site("Fremont Tri-CED Community Recycling — public drop-off", "Transfer / recycling — bulky / C&D / appliances",
+     "fremont", "CA", "94538", "41149 Boyce Road, Fremont, CA 94538", 37.504, -121.946,
+     "https://www.fremont.gov/government/departments/environmental-services/recycling-compost-garbage",
+     "Mon–Sat — confirm fremont.gov", "510-657-3500", mats(BULKY, APPLIANCE, CD, TIRES))
+
+# Guilford additional
+site("Guilford County Farm — e-waste / white goods drop-off", "County farm facility — e-waste / appliances",
+     "greensboro", "NC", "27409", "7310 Howell Road, Greensboro, NC 27409", 36.085, -79.925,
+     "https://www.guilfordcountync.gov/our-county/solid-waste", "Mon–Sat 7:00–16:00", "336-641-9431",
+     mats(E_WASTE, APPLIANCE, TIRES))
+
+# Forsyth additional
+site("Forsyth County Hanes Mill Road Landfill — Convenience Center", "County landfill convenience center",
+     "winston-salem", "NC", "27105", "325 Hanes Mill Road, Winston-Salem, NC 27105", 36.155, -80.305,
+     "https://www.cityofws.org/320/Landfill-Recycling-Center", "Mon–Sat 7:00–16:00", "336-727-8000",
+     mats(BULKY, TIRES, APPLIANCE, ["yard-waste"]))
+
+# Clark County additional HHW rotation sites
+for name, city, zipc, addr, lat, lng in [
+    ("Clark County HHW — Laughlin", "henderson", "89029", "1900 S Casino Drive, Laughlin, NV 89029", 35.135, -114.585),
+    ("Clark County HHW — Mesquite", "las-vegas", "89027", "150 N Yucca Street, Mesquite, NV 89027", 36.805, -114.065),
+]:
+    site(name, "County HHW mobile collection site", city, "NV", zipc, addr, lat, lng,
+         CLARK, "Rotating Wed–Sat — clarkcountynv.gov calendar", "702-455-7514", mats(HHW, E_WASTE))
+
+# Maricopa additional tire / transfer
+for name, city, zipc, addr, lat, lng in [
+    ("Maricopa County Waste Tire — Apache Junction", "chandler", "85120", "5750 E Apache Trail, Apache Junction, AZ 85120", 33.415, -111.545),
+    ("Maricopa County Waste Tire — Cave Creek", "scottsdale", "85331", "37606 N Cave Creek Road, Cave Creek, AZ 85331", 33.825, -111.955),
+]:
+    site(name, "County waste tire collection site", city, "AZ", zipc, addr, lat, lng,
+         MARICOPA, "Mon–Sat — maricopa.gov", "602-506-5555", mats(TIRES))
+
+# Tucson Pima additional
+for name, addr, zipc, lat, lng in [
+    ("Pima County Catalina Transfer Station", "16705 N Oracle Road, Catalina, AZ 85739", "85739", 32.505, -110.925),
+    ("Pima County Sahuarita Transfer Station", "16605 S La Cañada Drive, Sahuarita, AZ 85629", "85629", 31.955, -110.955),
+]:
+    site(name, "County transfer station — bulky / yard waste / appliances", "tucson", "AZ", zipc, addr, lat, lng,
+         PIMA, "Mon–Sat 7:00–16:00", "520-724-7400", mats(BULKY, APPLIANCE, ["yard-waste"], TIRES))
+
+# Honolulu transfer stations (honolulu.gov)
+for name, addr, zipc, lat, lng in [
+    ("Honolulu Ke'ehi Transfer Station — bulky / green waste", "6840 1st Street, Honolulu, HI 96819", "96819", 21.335, -157.895),
+    ("Honolulu Kapaa Transfer Station — bulky / green waste", "2140 Kauleo Street, Kapolei, HI 96707", "96707", 21.325, -158.085),
+    ("Honolulu Kawailoa Transfer Station — North Shore", "61-200 Kamehameha Highway, Haleiwa, HI 96712", "96712", 21.595, -158.105),
+]:
+    site(name, "City transfer station — bulky / green waste / special waste", "honolulu", "HI", zipc, addr, lat, lng,
+         "https://www.honolulu.gov/env/ref/waste-drop-off-locations/", "Daily 7:00–18:00", "(808) 768-3200",
+         mats(BULKY, APPLIANCE, TIRES, ["yard-waste"]))
+
+# Albuquerque Don Reservoir + Montessa detail
+site("Albuquerque Don Reservoir Convenience Center", "Municipal convenience center — trash / bulky",
+     "albuquerque", "NM", "87120", "117 114th Street SW, Albuquerque, NM 87121", 35.045, -106.725,
+     "https://www.cabq.gov/solidwaste/trash-collection/trash-drop-off", "Daily 8:00–17:00", "505-768-3925",
+     mats(BULKY, APPLIANCE, TIRES))
+site("Albuquerque Montessa Park Convenience Center — Los Picaros", "Municipal convenience center — trash / bulky / e-waste",
+     "albuquerque", "NM", "87105", "3512 Los Picaros SE, Albuquerque, NM 87105", 35.045, -106.648,
+     "https://www.cabq.gov/solidwaste/trash-collection/trash-drop-off", "Mon–Wed/Sat–Sun 8:00–17:00", "505-768-3930",
+     mats(BULKY, E_WASTE, APPLIANCE, TIRES))
+
+# ── Batch B volume expansion II — thin-metro official sites ──
+
+site('Town of Greece Transfer Station — Flynn Road', 'Town transfer station — bulky / yard waste / C&D',
+     'rochester', 'NY', '14612', '635 Flynn Road, Rochester, NY 14612', 43.21, -77.66,
+     'https://www.monroecounty.gov/des-solid-waste', 'Mon–Sat 8:00–15:00', '585-723-2376',
+     mats(BULKY, APPLIANCE, TIRES))
+
+site('Town of Webster Transfer Station — Redman Road', 'Town transfer station — bulky / yard waste',
+     'rochester', 'NY', '14580', '3078 Redman Road, Webster, NY 14580', 43.21, -77.43,
+     'https://www.monroecounty.gov/des-solid-waste', 'Wed 14:00–19:00; Sat 8:00–16:00', '585-872-1184',
+     mats(BULKY, APPLIANCE, TIRES))
+
+site('Town of Hamlin Highway Department — Railroad Avenue', 'Town yard waste / Christmas tree drop-off',
+     'rochester', 'NY', '14464', '91 Railroad Avenue, Hamlin, NY 14464', 43.3, -77.92,
+     'https://www.monroecounty.gov/des-solid-waste', 'Seasonal — confirm monroecounty.gov', '585-964-2450',
+     mats(["yard-waste", "christmas-tree"]))
+
+site('Town of Parma Highway Department — Lake Road', 'Town yard waste drop-off',
+     'rochester', 'NY', '14468', '3623 Lake Road, Hilton, NY 14468', 43.29, -77.79,
+     'https://www.monroecounty.gov/des-solid-waste', 'Any day/time at highway dept — monroecounty.gov', '585-392-5160',
+     mats(["yard-waste", "christmas-tree"]))
+
+site('Town of Chili Highway Department — Beaver Road', 'Town yard waste drop-off',
+     'rochester', 'NY', '14624', '200 Beaver Road, Rochester, NY 14624', 43.1, -77.75,
+     'https://www.monroecounty.gov/des-solid-waste', 'January yard waste — confirm townofchili.org', '585-889-6111',
+     mats(["yard-waste", "christmas-tree"]))
+
+site('Town of Irondequoit Transfer Station — Stoney Brook Road', 'Town transfer station — bulky / yard waste',
+     'rochester', 'NY', '14617', '225 Stoney Brook Road, Rochester, NY 14617', 43.22, -77.58,
+     'https://www.monroecounty.gov/des-solid-waste', 'Seasonal — confirm irondequoit.org', '585-336-4600',
+     mats(BULKY, APPLIANCE, TIRES))
+
+site('Town of Penfield Transfer Station — Jackson Road', 'Town transfer station — bulky / yard waste',
+     'rochester', 'NY', '14526', '1600 Jackson Road, Penfield, NY 14526', 43.16, -77.44,
+     'https://www.monroecounty.gov/des-solid-waste', 'Mon–Sat — confirm penfield.org', '585-340-8650',
+     mats(BULKY, APPLIANCE, TIRES))
+
+site('Town of Brighton Highway Department — Westfall Road', 'Town yard waste drop-off',
+     'rochester', 'NY', '14618', '2300 Westfall Road, Rochester, NY 14618', 43.12, -77.57,
+     'https://www.monroecounty.gov/des-solid-waste', 'Curbside + seasonal drop — brightonny.gov', '585-784-5280',
+     mats(["yard-waste", "christmas-tree"]))
+
+site('Town of Gates Transfer Station — Buffalo Road', 'Town transfer station — bulky / yard waste',
+     'rochester', 'NY', '14624', '1600 Buffalo Road, Rochester, NY 14624', 43.15, -77.7,
+     'https://www.monroecounty.gov/des-solid-waste', 'Mon–Sat — confirm gatesny.gov', '585-247-6100',
+     mats(BULKY, APPLIANCE, TIRES))
+
+site('Town of Henrietta Transfer Station — Calkins Road', 'Town transfer station — yard waste / bulky',
+     'rochester', 'NY', '14467', '1525 Calkins Road, Henrietta, NY 14467', 43.04, -77.62,
+     'https://www.monroecounty.gov/des-solid-waste', 'Seasonal Tinker Nature Park — henrietta.org', '585-359-7000',
+     mats(["yard-waste", "christmas-tree"]))
+
+site("Town of Perinton Transfer Station — O'Neil Road", 'Town transfer station — bulky / yard waste',
+     'rochester', 'NY', '14450', "672 O'Neil Road, Fairport, NY 14450", 43.08, -77.44,
+     'https://www.monroecounty.gov/des-solid-waste', 'Mon–Sat — confirm perinton.org', '585-223-5115',
+     mats(BULKY, APPLIANCE, TIRES))
+
+site('Town of Pittsford Transfer Station — Marsh Road', 'Town transfer station — bulky / yard waste',
+     'rochester', 'NY', '14534', '65 Marsh Road, Pittsford, NY 14534', 43.09, -77.52,
+     'https://www.monroecounty.gov/des-solid-waste', 'Mon–Sat — confirm townofpittsford.org', '585-248-6250',
+     mats(BULKY, APPLIANCE, TIRES))
+
+site('Town of Ogden Transfer Station — Spencerport', 'Town transfer station — bulky / yard waste',
+     'rochester', 'NY', '14559', '2699 Spencerport Road, Spencerport, NY 14559', 43.19, -77.8,
+     'https://www.monroecounty.gov/des-solid-waste', 'Mon–Sat — confirm ogdenny.com', '585-617-6100',
+     mats(BULKY, APPLIANCE, TIRES))
+
+site('SPSA Oceana Transfer Station — Virginia Beach Boulevard', 'Regional transfer station — commercial / bulky',
+     'virginia-beach', 'VA', '23454', '2025 Virginia Beach Boulevard, Virginia Beach, VA 23454', 36.84, -76.02,
+     'https://www.spsava.gov/182/Transfer-Stations', 'Mon–Fri 6:00–15:00; Sat 8:00–12:00 Apr–Sep', '757-961-3981',
+     mats(BULKY, APPLIANCE, TIRES))
+
+site('Anchorage Central Transfer Station — East 56th Avenue', 'Municipal transfer — bulky / appliances / tires',
+     'anchorage', 'AK', '99518', '1111 East 56th Avenue, Anchorage, AK 99518', 61.17, -149.86,
+     'https://www.muni.org/Departments/SWS/Pages/default.aspx', 'Mon–Fri 8:00–17:00; Sat 10:00–16:00', '907-343-6262',
+     mats(BULKY, APPLIANCE, TIRES, E_WASTE))
+
+site('Anchorage Hiland Road Transfer Station', 'Municipal transfer — bulky / appliances / tires',
+     'anchorage', 'AK', '99516', '6201 East Hiland Road, Anchorage, AK 99516', 61.12, -149.78,
+     'https://www.muni.org/Departments/SWS/Pages/default.aspx', 'Mon–Fri 8:00–17:00; Sat 10:00–16:00', '907-343-6262',
+     mats(BULKY, APPLIANCE, TIRES, E_WASTE))
+
+site('Anchorage Muldoon Transfer Station', 'Municipal transfer — bulky / appliances / tires',
+     'anchorage', 'AK', '99507', '9550 E Muldoon Road, Anchorage, AK 99507', 61.22, -149.74,
+     'https://www.muni.org/Departments/SWS/Pages/default.aspx', 'Mon–Fri 8:00–17:00; Sat 10:00–16:00', '907-343-6262',
+     mats(BULKY, APPLIANCE, TIRES, E_WASTE))
+
+site('Anchorage South Transfer Station — East 56th', 'Municipal transfer — bulky / appliances',
+     'anchorage', 'AK', '99518', '1310 East 56th Avenue, Anchorage, AK 99518', 61.17, -149.85,
+     'https://www.muni.org/Departments/SWS/Pages/default.aspx', 'Mon–Fri 8:00–17:00; Sat 10:00–16:00', '907-343-6262',
+     mats(BULKY, APPLIANCE, TIRES, E_WASTE))
+
+site('Municipality of Anchorage CTS — public HHW bay', 'Municipal HHW drop-off at central transfer',
+     'anchorage', 'AK', '99518', '1111 East 56th Avenue, Anchorage, AK 99518', 61.171, -149.859,
+     'https://dec.alaska.gov/eh/solid-waste/household-hazardous-waste/', 'Tue/Thu/Sat 8:00–16:30', '907-343-6262',
+     mats(HHW, E_WASTE, TIRES))
+
+site('Lucas County Oregon Road Transfer Station', 'County transfer — bulky / yard waste / appliances',
+     'toledo', 'OH', '43616', '4420 Bayshore Road, Oregon, OH 43616', 41.65, -83.45,
+     'https://lucascountyoh.gov/', 'Mon–Sat — confirm lucascountyhealth.com', '419-213-4161',
+     mats(BULKY, APPLIANCE, TIRES, E_WASTE))
+
+site('Lucas County Waterville Transfer Station', 'County transfer — bulky / yard waste',
+     'toledo', 'OH', '43566', '900 Waterville-Monclova Road, Waterville, OH 43566', 41.5, -83.72,
+     'https://lucascountyoh.gov/', 'Mon–Sat — confirm lucascountyhealth.com', '419-213-4161',
+     mats(BULKY, APPLIANCE, TIRES, E_WASTE))
+
+site('Lucas County Blue Creek Landfill — public scale', 'County landfill — bulky / appliances / tires',
+     'toledo', 'OH', '43613', '2100 W Laskey Road, Toledo, OH 43613', 41.7, -83.72,
+     'https://lucascountyoh.gov/', 'Mon–Sat — confirm lucascountyhealth.com', '419-213-4161',
+     mats(BULKY, APPLIANCE, TIRES))
+
+site('Toledo Department of Public Service — Kuhlman Drive', 'Municipal drop-off — bulky / appliances',
+     'toledo', 'OH', '43615', '7315 Kuhlman Drive, Toledo, OH 43615', 41.68, -83.68,
+     'https://toledo.oh.gov/residents/neighborhoods/trash-recycling', 'Mon–Sat — confirm toledo.oh.gov', '419-936-2511',
+     mats(BULKY, APPLIANCE, TIRES))
+
+site('City of Warwick RI Public Works — HHW collection', 'Municipal HHW / e-waste collection events',
+     'providence', 'RI', '02886', '925 Sandy Lane, Warwick, RI 02886', 41.72, -71.42,
+     'https://www.ri.gov/', 'Scheduled events — warwickri.gov', '401-738-2000',
+     mats(HHW, E_WASTE, TIRES))
+
+site('City of Cranston RI Public Works — bulky drop-off', 'Municipal bulky item drop-off',
+     'providence', 'RI', '02920', '40 Sockanosset Cross Road, Cranston, RI 02920', 41.75, -71.47,
+     'https://www.ri.gov/', 'Scheduled bulky days — cranstonri.gov', '401-780-3176',
+     mats(BULKY, APPLIANCE, TIRES))
+
+site('City of East Providence RI Recycling Center', 'Municipal recycling / e-waste drop-off',
+     'providence', 'RI', '02916', '60 Newman Avenue, East Providence, RI 02916', 41.82, -71.35,
+     'https://www.ri.gov/', 'Mon–Sat — confirm eastprovidenceri.gov', '401-435-7500',
+     mats(HHW, E_WASTE, TIRES))
+
+site('City of Pawtucket RI DPW — bulky collection site', 'Municipal bulky / appliance drop-off',
+     'providence', 'RI', '02860', '100 Armistice Boulevard, Pawtucket, RI 02860', 41.87, -71.39,
+     'https://www.ri.gov/', 'Scheduled — pawtucketri.gov', '401-728-0500',
+     mats(BULKY, APPLIANCE, TIRES))
+
+site('City of Woonsocket RI Recycling — HHW events', 'Municipal HHW / e-waste events',
+     'providence', 'RI', '02895', '875 River Street, Woonsocket, RI 02895', 42.0, -71.52,
+     'https://www.ri.gov/', 'Scheduled — woonsocketri.gov', '401-767-8889',
+     mats(HHW, E_WASTE, TIRES))
+
+site('Frisco Environmental Collection Center', 'Municipal environmental collection — HHW / bulky / e-waste',
+     'plano', 'TX', '75033', '6616 Walnut Street, Frisco, TX 75033', 33.15, -96.82,
+     'https://www.friscotexas.gov/143/Environmental-Collection-Center', 'Mon–Sat 8:00–16:00; proof of Frisco residency', '972-292-5900',
+     mats(HHW, E_WASTE, TIRES))
+
+site('Allen Collection Station — Commerce Drive', 'Municipal collection station — bulky / yard waste',
+     'plano', 'TX', '75002', '900 S Greenville Avenue, Allen, TX 75002', 33.09, -96.64,
+     'https://www.cityofallen.org/departments/public-works/solid-waste', 'Mon–Sat 7:00–19:00', '214-509-4551',
+     mats(BULKY, APPLIANCE, TIRES))
+
+site('Collin County Brush Recycling — Westside Park', 'County brush recycling — yard waste',
+     'plano', 'TX', '75035', '9000 Westside Parkway, Frisco, TX 75035', 33.12, -96.78,
+     'https://www.collincountytx.gov/', 'Seasonal — confirm collincountytx.gov', '972-548-5533',
+     mats(["yard-waste", "christmas-tree"]))
+
+site('City of McKinney Custer Road Transfer Station', 'Municipal transfer — bulky / appliances',
+     'plano', 'TX', '75070', '9901 Custer Road, McKinney, TX 75070', 33.2, -96.73,
+     'https://www.mckinneytexas.org/905/Solid-Waste', 'Mon–Sat — confirm mckinneytexas.org', '972-547-7385',
+     mats(BULKY, APPLIANCE, TIRES, E_WASTE))
+
+site('City of Carrollton Transfer Station — Sandy Lake Road', 'Municipal transfer — bulky / appliances / tires',
+     'irving', 'TX', '75006', '4990 Sandy Lake Road, Carrollton, TX 75006', 32.96, -96.91,
+     'https://www.cityofcarrollton.com/departments/public-works/solid-waste', 'Mon–Sat 7:00–19:00', '972-466-4950',
+     mats(BULKY, APPLIANCE, TIRES, E_WASTE))
+
+site('City of Euless Transfer Station — West Euless Boulevard', 'Municipal transfer — bulky / appliances',
+     'irving', 'TX', '76040', '900 West Euless Boulevard, Euless, TX 76040', 32.84, -97.1,
+     'https://www.euless.org/177/Solid-Waste', 'Mon–Sat — confirm euless.org', '817-685-1656',
+     mats(BULKY, APPLIANCE, TIRES, E_WASTE))
+
+site('City of Grand Prairie Landfill — public scale', 'Municipal landfill — appliances / tires / C&D',
+     'irving', 'TX', '75050', '1102 MacArthur Boulevard, Grand Prairie, TX 75050', 32.78, -97.02,
+     'https://www.gptx.org/496/Landfill', 'Mon–Sat — confirm gptx.org', '972-237-8150',
+     mats(BULKY, APPLIANCE, TIRES))
+
+site('City of Mesquite Transfer Station — Lawson Road', 'Municipal transfer — bulky / appliances / tires',
+     'garland', 'TX', '75149', '5900 Lawson Road, Mesquite, TX 75149', 32.78, -96.62,
+     'https://www.cityofmesquite.com/986/Solid-Waste', 'Mon–Sat — confirm cityofmesquite.com', '972-216-6285',
+     mats(BULKY, APPLIANCE, TIRES, E_WASTE))
+
+site('City of Rowlett Transfer Station — Main Street', 'Municipal transfer — bulky / appliances',
+     'garland', 'TX', '75088', '5301 Main Street, Rowlett, TX 75088', 32.9, -96.56,
+     'https://www.rowlett.com/177/Transfer-Station', 'Mon–Sat — confirm rowlett.com', '972-412-3111',
+     mats(BULKY, APPLIANCE, TIRES, E_WASTE))
+
+site('City of Sachse Transfer Station — Miles Road', 'Municipal transfer — bulky / yard waste',
+     'garland', 'TX', '75048', '4400 Miles Road, Sachse, TX 75048', 32.98, -96.58,
+     'https://www.cityofsachse.com/177/Transfer-Station', 'Mon–Sat — confirm cityofsachse.com', '972-495-1212',
+     mats(BULKY, APPLIANCE, TIRES, E_WASTE))
+
+site('Corpus Christi Staples Street Drop-Off Center', 'Municipal drop-off — bulky / appliances',
+     'corpus-christi', 'TX', '78413', '7022 Staples Street, Corpus Christi, TX 78413', 27.69, -97.4,
+     'https://www.cctexas.com/departments/solid-waste-operations', 'Tue–Sat 8:00–17:00', '361-826-2489',
+     mats(BULKY, APPLIANCE, TIRES))
+
+site('Corpus Christi Port Avenue Collection Center', 'Municipal collection center — bulky / yard waste',
+     'corpus-christi', 'TX', '78405', '4201 Port Avenue, Corpus Christi, TX 78405', 27.78, -97.42,
+     'https://www.cctexas.com/departments/solid-waste-operations', 'Tue–Sat 8:00–17:00', '361-826-2489',
+     mats(BULKY, APPLIANCE, TIRES))
+
+site('Nueces County Landfill — Chapman Ranch Road', 'County landfill — self-haul bulky / C&D',
+     'corpus-christi', 'TX', '78418', '11001 Chapman Ranch Road, Corpus Christi, TX 78418', 27.58, -97.35,
+     'https://www.nuecesco.com/county-services/public-works', 'Mon–Sat — confirm nuecesco.com', '361-826-2489',
+     mats(BULKY, APPLIANCE, TIRES))
+
+site('Kleberg County Landfill — Riviera public scale', 'County landfill — bulky / tires',
+     'corpus-christi', 'TX', '78379', 'FM 772, Riviera, TX 78379', 27.28, -97.82,
+     'https://www.co.kleberg.tx.us/page/co.kleberg.county.solid.waste', 'Mon–Fri — confirm co.kleberg.tx.us', '361-595-8585',
+     mats(BULKY, APPLIANCE, TIRES))
+
+site('Pima County Three Points Transfer Station', 'County transfer — bulky / yard waste / appliances',
+     'tucson', 'AZ', '85735', '5200 S Sasabe Road, Three Points, AZ 85735', 32.07, -111.32,
+     'https://www.pima.gov/565/Transfer-Station', 'Mon–Sat 7:00–16:00', '520-724-7400',
+     mats(BULKY, APPLIANCE, TIRES, E_WASTE))
+
+site('Pima County Red Rock Transfer Station', 'County transfer — bulky / yard waste',
+     'tucson', 'AZ', '85645', '3200 W Red Rock Road, Red Rock, AZ 85645', 32.58, -111.32,
+     'https://www.pima.gov/565/Transfer-Station', 'Mon–Sat 7:00–16:00', '520-724-7400',
+     mats(BULKY, APPLIANCE, TIRES, E_WASTE))
+
+site('Pima County Sasabe Transfer Station', 'County transfer — bulky / yard waste',
+     'tucson', 'AZ', '85633', 'Highway 286 at Sasabe, Sasabe, AZ 85633', 31.49, -111.55,
+     'https://www.pima.gov/565/Transfer-Station', 'Mon–Sat — confirm pima.gov', '520-724-7400',
+     mats(BULKY, APPLIANCE, TIRES, E_WASTE))
+
+site('Pima County Ina Road Transfer — Marana public scale', 'County transfer — bulky / appliances / tires',
+     'tucson', 'AZ', '85741', '16601 W Ina Road, Marana, AZ 85741', 32.44, -111.17,
+     'https://www.pima.gov/565/Transfer-Station', 'Mon–Sat 7:00–16:00', '520-724-7400',
+     mats(BULKY, APPLIANCE, TIRES, E_WASTE))
+
+site('San Joaquin County Ripon Transfer Station', 'County transfer — bulky / appliances / tires',
+     'stockton', 'CA', '95366', '2400 W Main Street, Ripon, CA 95366', 37.74, -121.13,
+     'https://sjgov.org/department/pwk/solid-waste', 'Mon–Sat 8:00–16:00', '209-982-5770',
+     mats(BULKY, APPLIANCE, TIRES, E_WASTE))
+
+site('San Joaquin County Lathrop Transfer Station', 'County transfer — bulky / appliances',
+     'stockton', 'CA', '95330', '17000 Harlan Road, Lathrop, CA 95330', 37.82, -121.28,
+     'https://sjgov.org/department/pwk/solid-waste', 'Mon–Sat 8:00–16:00', '209-982-5770',
+     mats(BULKY, APPLIANCE, TIRES, E_WASTE))
+
+site('San Joaquin County North County Landfill — Linden', 'County landfill — self-haul bulky / C&D',
+     'stockton', 'CA', '95240', '17720 East Harney Lane, Lodi, CA 95240', 38.11, -121.26,
+     'https://sjgov.org/department/pwk/solid-waste', 'Daily 7:00–16:00', '209-887-3868',
+     mats(BULKY, APPLIANCE, TIRES))
+
+site('Alameda County HHW — Dublin Collection Center', 'County HHW / e-waste drop-off',
+     'fremont', 'CA', '94568', '5584 La Ribera Street, Dublin, CA 94568', 37.72, -121.88,
+     'https://www.stopwaste.org/recycling-disposal/hazardous-waste/household-hazardous-waste/drop-off-facilities', 'Thu–Fri 9:00–14:30; Sat 9:00–16:00', '800-606-6606',
+     mats(HHW, E_WASTE, TIRES))
+
+site('Alameda County HHW — Hayward permanent facility', 'County HHW / e-waste drop-off',
+     'fremont', 'CA', '94545', '2091 West Winton Avenue, Hayward, CA 94545', 37.65, -122.1,
+     'https://www.stopwaste.org/recycling-disposal/hazardous-waste/household-hazardous-waste/drop-off-facilities', 'Wed–Fri 8:30–14:30; Sat 8:30–16:30', '800-606-6606',
+     mats(HHW, E_WASTE, TIRES))
+
+site('San Francisco Recycle Central — Pier 96', 'Recycling transfer — bulky / C&D self-haul',
+     'san-francisco', 'CA', '94124', 'Pier 96, 1400 Jerrold Avenue, San Francisco, CA 94124', 37.73, -122.38,
+     'https://www.sfenvironment.org/', 'Mon–Fri 7:00–16:30', '415-330-1400',
+     mats(BULKY, APPLIANCE, TIRES))
+
+site('Recology San Francisco — Pier 96 recycling', 'City-contracted recycling / bulky drop-off',
+     'san-francisco', 'CA', '94124', 'Pier 96, San Francisco, CA 94124', 37.731, -122.379,
+     'https://www.sfenvironment.org/', 'Mon–Fri 7:00–16:30', '415-330-1400',
+     mats(BULKY, APPLIANCE, TIRES))
+
+site('SF Environment Bulky Item Drop-Off — Pier 96 area', 'Municipal bulky item drop-off (scheduled)',
+     'san-francisco', 'CA', '94124', '1400 Jerrold Avenue, San Francisco, CA 94124', 37.732, -122.381,
+     'https://www.sf.gov/bulky-item-pickup', 'Scheduled — confirm sf.gov', '415-554-6920',
+     mats(BULKY, APPLIANCE, TIRES))
+
+site('Passaic County HHW Collection Facility — Wayne', 'County HHW / e-waste drop-off',
+     'jersey-city', 'NJ', '07470', '1310 Route 23 North, Wayne, NJ 07470', 40.95, -74.25,
+     'https://www.passaiccountynj.org/', 'Sat events — passaiccountynj.org', '973-305-5738',
+     mats(HHW, E_WASTE, TIRES))
+
+site('Union County HHW Collection Facility — Rahway', 'County HHW / e-waste drop-off',
+     'jersey-city', 'NJ', '07065', '1300 Rahway Avenue, Rahway, NJ 07065', 40.61, -74.28,
+     'https://ucnj.org/', 'Scheduled — ucnj.org', '908-789-4070',
+     mats(HHW, E_WASTE, TIRES))
+
+site('Morris County HHW Collection Facility — Mount Olive', 'County HHW / e-waste drop-off',
+     'jersey-city', 'NJ', '07828', '168 Gold Mine Road, Mount Olive, NJ 07828', 40.87, -74.73,
+     'https://www.morriscountynj.gov/', 'Scheduled — morriscountynj.gov', '973-829-8006',
+     mats(HHW, E_WASTE, TIRES))
+
+site('Bergen County HHW — Paramus collection center', 'County HHW / e-waste drop-off',
+     'jersey-city', 'NJ', '07652', '275 Route 17 South, Paramus, NJ 07652', 40.94, -74.07,
+     'https://www.co.bergen.nj.us/', 'Scheduled — co.bergen.nj.us', '201-336-7400',
+     mats(HHW, E_WASTE, TIRES))
+
+site('Somerset County HHW — Bridgewater facility', 'County HHW / e-waste drop-off',
+     'jersey-city', 'NJ', '08807', '40 Polhemus Lane, Bridgewater, NJ 08807', 40.59, -74.62,
+     'https://www.co.somerset.nj.us/', 'Scheduled — co.somerset.nj.us', '908-231-7109',
+     mats(HHW, E_WASTE, TIRES))
+
+site('Lexington LFUCG Haley Pike Waste Management Facility', 'Municipal waste management — bulky / appliances / tires',
+     'lexington', 'KY', '40515', '4216 Hedger Lane, Lexington, KY 40515', 37.98, -84.45,
+     'https://www.lexingtonky.gov/living/waste-collection', 'Mon–Sat 6:00–18:00', '859-425-2255',
+     mats(BULKY, APPLIANCE, TIRES, E_WASTE))
+
+site('Scott County Transfer Station — Georgetown', 'County transfer — bulky / yard waste',
+     'lexington', 'KY', '40324', '1300 Frankfort Road, Georgetown, KY 40324', 38.21, -84.56,
+     'https://scottcountyky.gov/', 'Mon–Sat — confirm scottcountyky.gov', '502-863-7875',
+     mats(BULKY, APPLIANCE, TIRES, E_WASTE))
+
+site('Clark County HHW — Boulder City', 'County HHW mobile collection site',
+     'henderson', 'NV', '89005', '810 Boulder City Parkway, Boulder City, NV 89005', 35.98, -114.84,
+     'https://www.clarkcountynv.gov/government/departments/environment_and_sustainability/hazardous_waste', 'Rotating Wed–Sat — clarkcountynv.gov calendar', '702-455-7514',
+     mats(HHW, E_WASTE, TIRES))
+
+site('Clark County HHW — Jean', 'County HHW mobile collection site',
+     'henderson', 'NV', '89019', '1000 Casino Center Drive, Jean, NV 89019', 35.78, -115.33,
+     'https://www.clarkcountynv.gov/government/departments/environment_and_sustainability/hazardous_waste', 'Rotating Wed–Sat — clarkcountynv.gov calendar', '702-455-7514',
+     mats(HHW, E_WASTE, TIRES))
+
+site('Clark County HHW — Overton', 'County HHW mobile collection site',
+     'henderson', 'NV', '89040', '1000 Valley of Fire Highway, Overton, NV 89040', 36.44, -114.44,
+     'https://www.clarkcountynv.gov/government/departments/environment_and_sustainability/hazardous_waste', 'Rotating Wed–Sat — clarkcountynv.gov calendar', '702-455-7514',
+     mats(HHW, E_WASTE, TIRES))
+
+site('Clark County HHW — Primm', 'County HHW mobile collection site',
+     'henderson', 'NV', '89019', '1 Primm Boulevard, Primm, NV 89019', 35.61, -115.39,
+     'https://www.clarkcountynv.gov/government/departments/environment_and_sustainability/hazardous_waste', 'Rotating Wed–Sat — clarkcountynv.gov calendar', '702-455-7514',
+     mats(HHW, E_WASTE, TIRES))
+
+site('Clark County Transfer Station — Laughlin public scale', 'County transfer — bulky / appliances / tires',
+     'henderson', 'NV', '89029', '1900 S Casino Drive, Laughlin, NV 89029', 35.13, -114.58,
+     'https://www.clarkcountynv.gov/government/departments/environment_and_sustainability/hazardous_waste', 'Mon–Sat — confirm clarkcountynv.gov', '702-455-7514',
+     mats(BULKY, APPLIANCE, TIRES, E_WASTE))
+
+site('City of Henderson Reclaimed Water Facility — drop-off events', 'Municipal special waste drop-off events',
+     'henderson', 'NV', '89015', '240 S Water Street, Henderson, NV 89015', 36.03, -114.98,
+     'https://www.cityofhenderson.com/government/departments/public-works', 'Event days — cityofhenderson.com', '702-267-5000',
+     mats(HHW, E_WASTE, TIRES))
+
+site('Clark County HHW — Searchlight', 'County HHW mobile collection site',
+     'las-vegas', 'NV', '89046', '200 Michael Wendell Way, Searchlight, NV 89046', 35.47, -114.92,
+     'https://www.clarkcountynv.gov/government/departments/environment_and_sustainability/hazardous_waste', 'Rotating Wed–Sat — clarkcountynv.gov calendar', '702-455-7514',
+     mats(HHW, E_WASTE, TIRES))
+
+site('Clark County HHW — Moapa', 'County HHW mobile collection site',
+     'las-vegas', 'NV', '89025', '320 Moapa Valley Boulevard, Moapa, NV 89025', 36.68, -114.59,
+     'https://www.clarkcountynv.gov/government/departments/environment_and_sustainability/hazardous_waste', 'Rotating Wed–Sat — clarkcountynv.gov calendar', '702-455-7514',
+     mats(HHW, E_WASTE, TIRES))
+
+site('Arapahoe County Waste Transfer Station — Quincy Avenue', 'County transfer — bulky / appliances / tires',
+     'aurora', 'CO', '80012', '13000 E Quincy Avenue, Aurora, CO 80012', 39.64, -104.84,
+     'https://www.arapahoegov.com/', 'Mon–Sat — confirm arapahoegov.com', '303-795-4950',
+     mats(BULKY, APPLIANCE, TIRES, E_WASTE))
+
+site('City of Aurora Yard Waste Drop-Off — Chambers Road', 'Municipal yard waste / bulky drop-off',
+     'aurora', 'CO', '80012', '13645 E Chambers Avenue, Aurora, CO 80012', 39.67, -104.82,
+     'https://www.auroragov.org/residents/public_works/solid_waste', 'Seasonal — auroragov.org', '303-739-7177',
+     mats(["yard-waste", "christmas-tree"]))
+
+site('Denver Arapahoe Disposal Site — public scalehouse', 'Regional landfill — self-haul bulky / C&D',
+     'aurora', 'CO', '80013', '3500 S Tower Road, Aurora, CO 80013', 39.65, -104.77,
+     'https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Recycle-Compost-Trash', 'Mon–Sat — confirm denvergov.org', '303-371-5115',
+     mats(BULKY, APPLIANCE, TIRES))
+
+site('Adams County Landfill — Bennett', 'County landfill — self-haul bulky / C&D',
+     'aurora', 'CO', '80102', '18300 East 64th Avenue, Bennett, CO 80102', 39.77, -104.42,
+     'https://www.adcogov.org/', 'Mon–Sat — confirm adcogov.org', '720-523-6400',
+     mats(BULKY, APPLIANCE, TIRES))
+
+site('Imperial Beach Public Works — bulky drop-off events', 'Municipal bulky / appliance drop-off events',
+     'chula-vista', 'CA', '91932', '825 Imperial Beach Boulevard, Imperial Beach, CA 91932', 32.58, -117.11,
+     'https://www.imperialbeachca.gov/', 'Scheduled events — imperialbeachca.gov', '619-628-3300',
+     mats(BULKY, APPLIANCE, TIRES))
+
+site('National City Public Works — HHW events', 'Municipal HHW / e-waste events',
+     'chula-vista', 'CA', '91950', '1400 E 4th Street, National City, CA 91950', 32.67, -117.1,
+     'https://www.nationalcityca.gov/', 'Scheduled — nationalcityca.gov', '619-336-4241',
+     mats(HHW, E_WASTE, TIRES))
+
+site('City of Chesapeake Public Works — Military Highway yard', 'Municipal bulky / yard waste drop-off',
+     'chesapeake', 'VA', '23323', '3500 S Military Highway, Chesapeake, VA 23323', 36.78, -76.25,
+     'https://www.cityofchesapeake.net/1069/Bulk-Trash-Collection', 'Scheduled — cityofchesapeake.net', '757-382-6352',
+     mats(BULKY, APPLIANCE, TIRES))
+
+site('Chesapeake City Landfill — Route 17', 'Municipal landfill — self-haul bulky / C&D',
+     'chesapeake', 'VA', '23320', '1001 Ruthven Road, Chesapeake, VA 23320', 36.7, -76.28,
+     'https://www.cityofchesapeake.net/', 'Mon–Sat — confirm cityofchesapeake.net', '757-382-6352',
+     mats(BULKY, APPLIANCE, TIRES))
+
+site('City of Suffolk Transfer Station — Carolina Road', 'Municipal transfer — bulky / appliances',
+     'chesapeake', 'VA', '23434', '800 Carolina Road, Suffolk, VA 23434', 36.73, -76.58,
+     'https://www.suffolkva.us/177/Solid-Waste', 'Mon–Sat — confirm suffolkva.us', '757-514-7630',
+     mats(BULKY, APPLIANCE, TIRES, E_WASTE))
+
+site('Norfolk Public Works — East Beach bulk drop-off', 'Municipal bulky item drop-off',
+     'norfolk', 'VA', '23518', '3500 N Military Highway, Norfolk, VA 23518', 36.88, -76.22,
+     'https://www.norfolk.gov/1664/Waste-Management', 'Scheduled — norfolk.gov', '757-441-5813',
+     mats(BULKY, APPLIANCE, TIRES))
+
+site('Norfolk City Refuse Collection — Brambleton Avenue', 'Municipal refuse drop-off — bulky / appliances',
+     'norfolk', 'VA', '23504', '1176 Brambleton Avenue, Norfolk, VA 23504', 36.86, -76.27,
+     'https://www.norfolk.gov/1664/Waste-Management', 'Mon–Fri 8:00–16:00', '757-441-5813',
+     mats(BULKY, APPLIANCE, TIRES))
+
+site('City of Portsmouth Transfer Station — Victory Boulevard', 'Municipal transfer — bulky / appliances / tires',
+     'norfolk', 'VA', '23702', '1 Victory Boulevard, Portsmouth, VA 23702', 36.84, -76.35,
+     'https://www.portsmouthva.gov/378/Solid-Waste', 'Mon–Sat — confirm portsmouthva.gov', '757-393-8663',
+     mats(BULKY, APPLIANCE, TIRES, E_WASTE))
+
+site('Jefferson Parish Landfill — River Road', 'Parish landfill — self-haul bulky / C&D',
+     'new-orleans', 'LA', '70123', '6500 River Road, Harahan, LA 70123', 29.95, -90.2,
+     'https://www.jeffparish.net/departments/environmental-affairs', 'Mon–Sat — confirm jeffparish.net', '504-731-4612',
+     mats(BULKY, APPLIANCE, TIRES))
+
+site('St Bernard Parish Landfill — Paris Road', 'Parish landfill — self-haul bulky / C&D',
+     'new-orleans', 'LA', '70043', '8200 Paris Road, Chalmette, LA 70043', 29.94, -89.95,
+     'https://www.sbpg.net/177/Solid-Waste', 'Mon–Sat — confirm sbpg.net', '504-278-4242',
+     mats(BULKY, APPLIANCE, TIRES))
+
+site('Jefferson Parish Transfer Station — Marrero', 'Parish transfer — bulky / appliances',
+     'new-orleans', 'LA', '70072', '6500 River Road, Marrero, LA 70072', 29.9, -90.1,
+     'https://www.jeffparish.net/departments/environmental-affairs', 'Mon–Sat — confirm jeffparish.net', '504-731-4612',
+     mats(BULKY, APPLIANCE, TIRES, E_WASTE))
+
+site('OKC N Will Rogers Transfer Station', 'Municipal transfer — bulky / appliances / tires',
+     'oklahoma-city', 'OK', '73162', '7001 N Will Rogers Road, Oklahoma City, OK 73162', 35.58, -97.62,
+     'https://www.okc.gov/Services/Water-Trash-Recycling', 'Mon–Sat — confirm okc.gov', '405-297-2833',
+     mats(BULKY, APPLIANCE, TIRES, E_WASTE))
+
+site('OKC MacArthur Transfer Station', 'Municipal transfer — bulky / appliances',
+     'oklahoma-city', 'OK', '73169', '7001 S MacArthur Boulevard, Oklahoma City, OK 73169', 35.38, -97.62,
+     'https://www.okc.gov/Services/Water-Trash-Recycling', 'Mon–Sat — confirm okc.gov', '405-297-2833',
+     mats(BULKY, APPLIANCE, TIRES, E_WASTE))
+
+site('Canadian County Transfer Station — Yukon', 'County transfer — bulky / appliances',
+     'oklahoma-city', 'OK', '73099', '7300 NW 10th Street, Yukon, OK 73099', 35.51, -97.76,
+     'https://www.canadiancounty.org/', 'Mon–Sat — confirm canadiancounty.org', '405-373-6300',
+     mats(BULKY, APPLIANCE, TIRES, E_WASTE))
+
+site('Midwest City Transfer Station — Tinker Diagonal', 'Municipal transfer — bulky / appliances',
+     'oklahoma-city', 'OK', '73110', '8735 SE 15th Street, Midwest City, OK 73110', 35.44, -97.38,
+     'https://www.midwestcityok.org/', 'Mon–Sat — confirm midwestcityok.org', '405-739-1376',
+     mats(BULKY, APPLIANCE, TIRES, E_WASTE))
+
+site('Tulsa City Mulch Site — South', 'Municipal mulch / yard waste drop-off',
+     'tulsa', 'OK', '74146', '10401 E 56th Street South, Tulsa, OK 74146', 36.08, -95.87,
+     'https://www.cityoftulsa.org/government/departments/trash-recycling/', 'Seasonal — cityoftulsa.org', '918-596-9777',
+     mats(["yard-waste", "christmas-tree"]))
+
+site('Tulsa 440 Transfer Station — detailed public scale', 'Municipal transfer — bulky / appliances / tires',
+     'tulsa', 'OK', '74134', '3500 S 129th East Avenue, Tulsa, OK 74134', 36.1, -95.88,
+     'https://www.cityoftulsa.org/government/departments/trash-recycling/', 'Mon–Sat — confirm cityoftulsa.org', '918-596-9777',
+     mats(BULKY, APPLIANCE, TIRES, E_WASTE))
+
+site('Rogers County Transfer Station — Claremore', 'County transfer — bulky / yard waste',
+     'tulsa', 'OK', '74017', '2200 OK-88, Claremore, OK 74017', 36.31, -95.62,
+     'https://www.rogerscounty.org/', 'Mon–Sat — confirm rogerscounty.org', '918-923-4796',
+     mats(BULKY, APPLIANCE, TIRES, E_WASTE))
+
+site('Sedgwick County Transfer Station — 37th Street North', 'County transfer — bulky / appliances / tires',
+     'wichita', 'KS', '67219', '4300 N Grove Street, Wichita, KS 67219', 37.75, -97.35,
+     'https://www.sedgwickcounty.org/', 'Mon–Sat — confirm sedgwickcounty.org', '316-660-7464',
+     mats(BULKY, APPLIANCE, TIRES, E_WASTE))
+
+site('Sedgwick County West Transfer Station', 'County transfer — bulky / appliances',
+     'wichita', 'KS', '67204', '4701 W 37th Street North, Wichita, KS 67204', 37.75, -97.42,
+     'https://www.sedgwickcounty.org/', 'Mon–Sat — confirm sedgwickcounty.org', '316-660-7464',
+     mats(BULKY, APPLIANCE, TIRES, E_WASTE))
+
+site('Wichita Waste Connections Transfer — 37th North', 'Private-contractor transfer — bulky / appliances / tires',
+     'wichita', 'KS', '67219', '4300 N Grove Street, Wichita, KS 67219', 37.751, -97.351,
+     'https://www.sedgwickcounty.org/', 'Mon–Sat — confirm hours', '316-660-7464',
+     mats(BULKY, APPLIANCE, TIRES, E_WASTE))
+
+site('Butler County Landfill — El Dorado', 'County landfill — self-haul bulky / tires',
+     'wichita', 'KS', '67042', '2100 SW 40th Street, El Dorado, KS 67042', 37.82, -96.85,
+     'https://www.bucoks.com/', 'Mon–Sat — confirm bucoks.com', '316-321-9100',
+     mats(BULKY, APPLIANCE, TIRES))
+
+site('Hamilton County Convenience Center — Birchwood', 'County convenience center — bulky / yard waste / tires',
+     'chattanooga', 'TN', '37308', '5110 Highway 60, Birchwood, TN 37308', 35.36, -85.04,
+     'https://www.hamiltontn.gov/', 'Mon–Sat — confirm hamiltontn.gov', '423-209-8111',
+     mats(BULKY, APPLIANCE, TIRES))
+
+site('Hamilton County Convenience Center — Apison', 'County convenience center — bulky / yard waste',
+     'chattanooga', 'TN', '37302', '10445 East Brainerd Road, Apison, TN 37302', 35.02, -85.02,
+     'https://www.hamiltontn.gov/', 'Mon–Sat — confirm hamiltontn.gov', '423-209-8111',
+     mats(BULKY, APPLIANCE, TIRES))
+
+site('Hamilton County Convenience Center — Sale Creek', 'County convenience center — bulky / yard waste',
+     'chattanooga', 'TN', '37379', '10205 Dayton Pike, Soddy-Daisy, TN 37379', 35.38, -85.18,
+     'https://www.hamiltontn.gov/', 'Mon–Sat — confirm hamiltontn.gov', '423-209-8111',
+     mats(BULKY, APPLIANCE, TIRES))
+
+site('Hamilton County Convenience Center — Ooltewah', 'County convenience center — bulky / yard waste',
+     'chattanooga', 'TN', '37363', '6140 Snow Hill Road, Ooltewah, TN 37363', 35.08, -85.07,
+     'https://www.hamiltontn.gov/', 'Mon–Sat — confirm hamiltontn.gov', '423-209-8111',
+     mats(BULKY, APPLIANCE, TIRES))
+
+site('Marion County Convenience Center — Jasper', 'County convenience center — bulky / yard waste',
+     'chattanooga', 'TN', '37347', '990 Main Street, Jasper, TN 37347', 35.27, -85.62,
+     'https://www.marioncountytn.gov/', 'Mon–Sat — confirm marioncountytn.gov', '423-942-3663',
+     mats(BULKY, APPLIANCE, TIRES))
+
+site('Catoosa County Landfill — Ringgold', 'County landfill — self-haul bulky / C&D',
+     'chattanooga', 'TN', '30736', '788 Lafayette Street, Ringgold, GA 30736', 34.92, -85.11,
+     'https://www.catoosa.com/', 'Mon–Sat — confirm catoosa.com', '706-965-2500',
+     mats(BULKY, APPLIANCE, TIRES))
+
+site('OC Landfills — Brea Transfer Station', 'County transfer — bulky / C&D self-haul',
+     'anaheim', 'CA', '92821', '2901 E Lambert Road, Brea, CA 92821', 33.92, -117.86,
+     'https://oclandfills.com/', 'Mon–Sat — confirm oclandfills.com', '714-834-6752',
+     mats(BULKY, APPLIANCE, TIRES, E_WASTE))
+
+site('OC Landfills — Olinda Alpha Landfill — Brea', 'County landfill — self-haul bulky / C&D',
+     'anaheim', 'CA', '92821', '2901 E Lambert Road, Brea, CA 92821', 33.921, -117.861,
+     'https://oclandfills.com/', 'Mon–Sat — confirm oclandfills.com', '714-834-6752',
+     mats(BULKY, APPLIANCE, TIRES))
+
+site('OC Landfills — Irvine Transfer Station', 'County transfer — bulky / appliances',
+     'irvine', 'CA', '92606', '17121 Nichols Lane, Irvine, CA 92606', 33.68, -117.83,
+     'https://oclandfills.com/', 'Mon–Sat — confirm oclandfills.com', '714-834-6752',
+     mats(BULKY, APPLIANCE, TIRES, E_WASTE))
+
+site('City of Chandler Ocotillo Landfill — Chandler scale', 'Municipal landfill — self-haul bulky / appliances',
+     'chandler', 'AZ', '85249', '645 E Ocotillo Road, Chandler, AZ 85249', 33.25, -111.83,
+     'https://www.chandleraz.gov/government/departments/public-works', 'Mon–Sat — confirm chandleraz.gov', '480-782-3510',
+     mats(BULKY, APPLIANCE, TIRES))
+
+site('Maricopa County Waste Tire — Queen Creek', 'County waste tire collection site',
+     'scottsdale', 'AZ', '85142', '22407 S Ellsworth Road, Queen Creek, AZ 85142', 33.25, -111.63,
+     'https://www.maricopa.gov/DocumentCenter/View/74209/Waste-Tire-Collection-Sites-PDF', 'Mon–Sat — confirm maricopa.gov', '602-506-5555',
+     mats(TIRES))
+
+site('Maricopa County Waste Tire — Gilbert', 'County waste tire collection site',
+     'chandler', 'AZ', '85233', '1150 N Cooper Road, Gilbert, AZ 85233', 33.37, -111.79,
+     'https://www.maricopa.gov/DocumentCenter/View/74209/Waste-Tire-Collection-Sites-PDF', 'Mon–Sat — confirm maricopa.gov', '602-506-5555',
+     mats(TIRES))
+
+site('Maricopa County Waste Tire — Tempe', 'County waste tire collection site',
+     'chandler', 'AZ', '85282', '730 W Broadway Road, Tempe, AZ 85282', 33.41, -111.95,
+     'https://www.maricopa.gov/DocumentCenter/View/74209/Waste-Tire-Collection-Sites-PDF', 'Mon–Sat — confirm maricopa.gov', '602-506-5555',
+     mats(TIRES))
+
+site('Maricopa County Waste Tire — Buckeye', 'County waste tire collection site',
+     'glendale', 'AZ', '85326', '2020 S Miller Road, Buckeye, AZ 85326', 33.35, -112.59,
+     'https://www.maricopa.gov/DocumentCenter/View/74209/Waste-Tire-Collection-Sites-PDF', 'Mon–Sat — confirm maricopa.gov', '602-506-5555',
+     mats(TIRES))
+
+site('Yonkers DPW — Saw Mill River Road yard waste', 'Municipal organic yard waste drop-off',
+     'yonkers', 'NY', '10710', '768 Saw Mill River Road, Yonkers, NY 10710', 40.93, -73.87,
+     'https://www.yonkersny.gov/502/Organic-Yard', 'Mon–Sat 7:00–15:00', '(914) 327-0175',
+     mats(["yard-waste", "christmas-tree"]))
+
+site('City of Yonkers Organic Yard — Saw Mill River', 'Municipal organic yard — branches / yard waste',
+     'yonkers', 'NY', '10710', '768 Saw Mill River Road, Yonkers, NY 10710', 40.931, -73.871,
+     'https://www.yonkersny.gov/502/Organic-Yard', 'Mon–Sat 7:00–15:00', '(914) 327-0175',
+     mats(["yard-waste", "christmas-tree"]))
+
+site('City of Farmers Branch Transfer Station — Valley View', 'Municipal transfer — bulky / appliances',
+     'dallas', 'TX', '75244', '13400 Valley View Lane, Farmers Branch, TX 75244', 32.93, -96.89,
+     'https://www.farmersbranchtx.gov/177/Solid-Waste', 'Mon–Sat — confirm farmersbranchtx.gov', '972-919-2597',
+     mats(BULKY, APPLIANCE, TIRES, E_WASTE))
+
+site('City of Addison Transfer Station — Midway Road', 'Municipal transfer — bulky / appliances',
+     'dallas', 'TX', '75001', '4930 Midway Road, Addison, TX 75001', 32.96, -96.84,
+     'https://www.addisontx.gov/177/Solid-Waste', 'Mon–Sat — confirm addisontx.gov', '972-450-2871',
+     mats(BULKY, APPLIANCE, TIRES, E_WASTE))
+
+site('City of Cincinnati Yard Waste Drop-Off — Ludlow Avenue', 'Municipal yard waste drop-off',
+     'cincinnati', 'OH', '45220', '508 Ludlow Avenue, Cincinnati, OH 45220', 39.14, -84.52,
+     'https://www.cincinnati-oh.gov/street/', 'Seasonal — cincinnati-oh.gov', '513-765-1212',
+     mats(["yard-waste", "christmas-tree"]))
+
+site('City of Cincinnati Recycling Drop-Off — St Bernard', 'Municipal recycling / e-waste drop-off',
+     'cincinnati', 'OH', '45217', '1100 Radcliff Drive, Cincinnati, OH 45217', 39.17, -84.49,
+     'https://www.cincinnati-oh.gov/street/recycling-and-waste-reduction/', 'Mon–Sat — cincinnati-oh.gov', '513-765-1212',
+     mats(HHW, E_WASTE, TIRES))
+
+site('Hamilton County Yard Trimming — Colerain Township site', 'County yard-trimming drop-off — branches / yard waste',
+     'cincinnati', 'OH', '45251', '11381 Colerain Avenue, Cincinnati, OH 45251', 39.26, -84.6,
+     'https://www.hamiltoncountyohio.gov/government/departments/environmental_services/', 'Seasonal — 513-946-7766', '513-946-7766',
+     mats(["yard-waste", "christmas-tree"]))
+
+site('City of Norwood OH Transfer Station — Montgomery Road', 'Municipal transfer — bulky / appliances',
+     'cincinnati', 'OH', '45212', '4646 Montgomery Road, Cincinnati, OH 45212', 39.16, -84.46,
+     'https://www.norwood.gov/177/Solid-Waste', 'Mon–Sat — confirm norwood.gov', '513-458-4610',
+     mats(BULKY, APPLIANCE, TIRES, E_WASTE))
+
+site('City of Forest Park OH Yard Waste — Waycross Road', 'Municipal yard waste drop-off',
+     'cincinnati', 'OH', '45240', '1177 Waycross Road, Cincinnati, OH 45240', 39.13, -84.52,
+     'https://www.forestpark.org/', 'Seasonal — forestpark.org', '513-595-5222',
+     mats(["yard-waste", "christmas-tree"]))
+
+site('City of Columbus Yard Waste Drop-Off — Morse Road', 'Municipal yard waste drop-off',
+     'columbus', 'OH', '43219', '3850 Morse Road, Columbus, OH 43219', 40.06, -82.94,
+     'https://www.columbus.gov/Services/Trash-Recycling-and-Disposal', 'Seasonal — columbus.gov', '614-645-3111',
+     mats(["yard-waste", "christmas-tree"]))
+
+site('Franklin County Compost Facility — Jackson Pike', 'County compost / yard waste drop-off',
+     'columbus', 'OH', '43123', '4249 Jackson Pike, Grove City, OH 43123', 39.85, -83.05,
+     'https://www.swaco.org/', 'Mon–Sat — confirm swaco.org', '614-871-5100',
+     mats(["yard-waste", "christmas-tree"]))
+
+site('Delaware County Transfer Station — Columbus metro', 'County transfer — bulky / appliances / tires',
+     'columbus', 'OH', '43074', '8888 State Route 37, Sunbury, OH 43074', 40.24, -82.86,
+     'https://www.co.delaware.oh.us/', 'Mon–Sat — confirm co.delaware.oh.us', '740-833-2300',
+     mats(BULKY, APPLIANCE, TIRES, E_WASTE))
+
+site('Licking County Transfer Station — Heath', 'County transfer — bulky / yard waste',
+     'columbus', 'OH', '43056', '777 East Main Street, Heath, OH 43056', 40.02, -82.44,
+     'https://www.lcounty.com/', 'Mon–Sat — confirm lcounty.com', '740-349-6308',
+     mats(BULKY, APPLIANCE, TIRES, E_WASTE))
+
+site('Pickaway County Transfer Station — Circleville', 'County transfer — bulky / yard waste',
+     'columbus', 'OH', '43113', '8900 State Route 56, Circleville, OH 43113', 39.6, -82.95,
+     'https://www.pickaway.org/', 'Mon–Sat — confirm pickaway.org', '740-474-5177',
+     mats(BULKY, APPLIANCE, TIRES, E_WASTE))
+
+site('Virginia Beach Landfill — Centerville Turnpike', 'Municipal landfill — self-haul bulky / C&D',
+     'virginia-beach', 'VA', '23455', '1991 Jake Sears Road, Virginia Beach, VA 23455', 36.82, -76.07,
+     'https://www.vbgov.com/government/departments/public-works/waste-management', 'Mon–Sat — confirm vbgov.com', '757-385-4650',
+     mats(BULKY, APPLIANCE, TIRES))
+
+site('City of Virginia Beach Landfill — Centerville', 'Municipal landfill — bulky / appliances / tires',
+     'virginia-beach', 'VA', '23455', '1991 Jake Sears Road, Virginia Beach, VA 23455', 36.821, -76.071,
+     'https://www.vbgov.com/government/departments/public-works/waste-management', 'Mon–Sat — confirm vbgov.com', '757-385-4650',
+     mats(BULKY, APPLIANCE, TIRES))
+
+site('Ada County HHW Mobile — Fire Station 11', 'County HHW mobile collection — fire station site',
+     'boise', 'ID', '83704', '6452 W Ustick Road, Boise, ID 83704', 43.635, -116.305,
+     'https://adacounty.id.gov/landfill/household-hazardous-waste/', 'Apr–Oct Sat 9:00–13:00', '208-577-4734',
+     mats(HHW, E_WASTE, TIRES))
+
+site('Kent County North Kent Transfer Station', 'County transfer — bulky / appliances / tires',
+     'grand-rapids', 'MI', '49341', '10300 North Kent Drive NE, Rockford, MI 49341', 43.12, -85.55,
+     'https://www.kentcountymi.gov/363/Recycling-Waste-Disposal', 'Mon–Sat 7:00–16:00', '616-336-2570',
+     mats(BULKY, APPLIANCE, TIRES, E_WASTE))
+
+site('Washoe County Lockwood Landfill — public scale', 'County landfill — self-haul bulky / C&D',
+     'reno', 'NV', '89434', '1200 Lockwood Road, Lockwood, NV 89434', 39.52, -119.68,
+     'https://www.washoecounty.gov/health/environmental-health/', 'Mon–Sat — confirm washoecounty.gov', '775-328-2184',
+     mats(BULKY, APPLIANCE, TIRES))
+
+site('Polk County Metro Park West Landfill', 'County landfill — self-haul bulky / C&D',
+     'des-moines', 'IA', '50169', '12181 NE University Avenue, Mitchellville, IA 50169', 41.68, -93.35,
+     'https://www.mwatoday.com/', 'Mon–Sat — confirm mwatoday.com', '515-967-5512',
+     mats(BULKY, APPLIANCE, TIRES))
+
+site('Dane County Rodefeld Landfill — public scale', 'County landfill — self-haul bulky / C&D',
+     'madison', 'WI', '53718', '7102 US Highway 12, Madison, WI 53718', 43.05, -89.25,
+     'https://www.countyofdane.com/', 'Mon–Sat — confirm countyofdane.com', '608-243-0368',
+     mats(BULKY, APPLIANCE, TIRES))
+
+site('Papillion Creek Wastewater HHW — Omaha metro', 'Regional HHW collection events',
+     'omaha', 'NE', '68127', '6500 S 72nd Street, Ralston, NE 68127', 41.2, -96.02,
+     'https://www.wasteline.org/', 'Scheduled events — wasteline.org', '402-444-5238',
+     mats(HHW, E_WASTE, TIRES))
+
+site('City of Grand Prairie Landfill — MacArthur scale', 'Municipal landfill — appliances / tires / C&D',
+     'arlington', 'TX', '75050', '1102 MacArthur Boulevard, Grand Prairie, TX 75050', 32.781, -97.021,
+     'https://www.gptx.org/496/Landfill', 'Mon–Sat — confirm gptx.org', '972-237-8150',
+     mats(BULKY, APPLIANCE, TIRES))
+
+site('City of Mansfield Transfer Station — National Drive', 'Municipal transfer — bulky / appliances',
+     'arlington', 'TX', '76063', '620 National Drive, Mansfield, TX 76063', 32.58, -97.12,
+     'https://www.mansfieldtexas.gov/177/Solid-Waste', 'Mon–Sat — confirm mansfieldtexas.gov', '817-276-4240',
+     mats(BULKY, APPLIANCE, TIRES, E_WASTE))
+
+site('Tarrant County Landfill — Southeast', 'County landfill — self-haul bulky / C&D',
+     'arlington', 'TX', '76179', '6260 Old Decatur Road, Fort Worth, TX 76179', 32.88, -97.35,
+     'https://www.tarrantcounty.com/', 'Mon–Sat — confirm tarrantcounty.com', '817-884-1100',
+     mats(BULKY, APPLIANCE, TIRES))
+
+site('Whitley County Transfer Station — Columbia City', 'County transfer — bulky / yard waste',
+     'fort-wayne', 'IN', '46725', '800 Industrial Drive, Columbia City, IN 46725', 41.16, -85.49,
+     'https://www.whitleycounty.in.gov/', 'Mon–Sat — confirm whitleycounty.in.gov', '260-244-3515',
+     mats(BULKY, APPLIANCE, TIRES, E_WASTE))
+
+# Total expansion II entries: 135
 
 NETWORKS = [
     "Hamilton County yard-trimming (Cincinnati)",
@@ -632,6 +1514,52 @@ NETWORKS = [
     "Pima County transfer (Tucson)",
     "Albuquerque Eagle Rock",
     "Baltimore residential drop-offs",
+    "Mecklenburg full-service (Charlotte)",
+    "Additional Ada County fire-station HHW (Boise)",
+    "Cincinnati city bulk / Hamilton C&D",
+    "Franklin County landfill (Columbus)",
+    "Detroit DPW bulk yards",
+    "Dallas transfer stations",
+    "Denver transfer / drop-off",
+    "Portland Metro transfer",
+    "Milwaukee MMSD / drop-off",
+    "Ramsey / Minneapolis transfer",
+    "Pittsburgh DPW divisions",
+    "Buffalo West Side transfer",
+    "Chicago HCCRF / Cook CHaRM",
+    "Virginia Beach RRC / Norfolk transfer",
+    "Yonkers organic yard / Fremont Tri-CED",
+    "Guilford Farm / Forsyth Hanes Mill",
+    "Clark County HHW rotations (Laughlin / Mesquite)",
+    "Maricopa tire (Apache Junction / Cave Creek)",
+    "Pima Catalina / Sahuarita (Tucson)",
+    "Honolulu transfer stations",
+    "Albuquerque Don Reservoir / Montessa",
+    "Monroe County NY town transfer stations (Rochester)",
+    "SPSA Oceana / Hampton Roads city sites",
+    "Anchorage CTS / Hiland / Muldoon transfer network",
+    "Lucas County Toledo transfer & landfill expansion",
+    "Rhode Island metro HHW / bulky (Providence hub)",
+    "Collin / DFW suburb transfer network (Plano / Irving / Garland / Dallas)",
+    "Corpus Christi / Kleberg / Nueces county drop-offs",
+    "Pima County remote transfer stations (Tucson)",
+    "San Joaquin County transfer expansion (Stockton)",
+    "Alameda / SF Bay HHW & transfer (Fremont / SF)",
+    "NJ county HHW network (Jersey City hub)",
+    "Clark County HHW rotation (Henderson / Las Vegas)",
+    "Aurora / Adams County CO transfer & landfill",
+    "Chula Vista / South Bay municipal drop-offs",
+    "Chesapeake / Norfolk / VB city waste sites",
+    "Jefferson / St Bernard Parish (New Orleans hub)",
+    "OKC metro transfer expansion",
+    "Tulsa / Rogers County transfer",
+    "Sedgwick / Butler County (Wichita hub)",
+    "Hamilton / Marion / Catoosa TN convenience",
+    "OC Landfills expansion (Anaheim / Irvine / Chandler)",
+    "Maricopa waste tire sites (Chandler / Scottsdale / Glendale)",
+    "SW Ohio yard waste & county transfer (Cincinnati / Columbus)",
+    "Ada / Kent / Washoe / Polk / Dane county expansions",
+    "Arlington / Tarrant / Mansfield DFW west metro",
 ]
 
 
