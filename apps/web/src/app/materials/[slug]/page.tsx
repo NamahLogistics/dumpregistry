@@ -7,6 +7,7 @@ import {
   getItems,
   getMaterialCityGuides,
   getMaterialGuideCount,
+  getMaterialOverview,
 } from "@/lib/data";
 
 type Props = { params: Promise<{ slug: string }> };
@@ -19,9 +20,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const item = getItem(slug);
   if (!item) return { title: "Material" };
+  const overview = getMaterialOverview(slug);
   return {
     title: `How to dispose of ${item.name}`,
-    description: `${item.summary_default} See city-sourced program guides across the U.S.`,
+    description: overview?.overview ?? `${item.summary_default} See city-sourced program guides across the U.S.`,
   };
 }
 
@@ -32,6 +34,7 @@ export default async function MaterialPage({ params }: Props) {
 
   const cities = getMaterialCityGuides(slug, 48);
   const count = getMaterialGuideCount(slug);
+  const overview = getMaterialOverview(slug);
 
   return (
     <article className="shell page prose">
@@ -39,7 +42,7 @@ export default async function MaterialPage({ params }: Props) {
         <Link href="/materials">Materials</Link> · {item.category}
       </p>
       <h1>How to dispose of {item.name}</h1>
-      <p>{item.summary_default}</p>
+      <p>{overview?.overview ?? item.summary_default}</p>
 
       <section>
         <h2>What usually applies</h2>
@@ -57,7 +60,8 @@ export default async function MaterialPage({ params }: Props) {
             <strong>Usual channel:</strong> {item.facility_type_default}
           </li>
           <li>
-            <strong>Curbside by default?</strong> {item.curbside_default ? "Sometimes" : "Usually not in the regular cart"}
+            <strong>Curbside by default?</strong>{" "}
+            {item.curbside_default ? "Sometimes" : "Usually not in the regular cart"}
           </li>
         </ul>
         <p>
@@ -65,6 +69,27 @@ export default async function MaterialPage({ params }: Props) {
           <Link href={`/centers?material=${item.slug}`}>Centers near you</Link>.
         </p>
       </section>
+
+      {overview ? (
+        <>
+          <section>
+            <h2>Prep before you go</h2>
+            <ul>
+              {overview.prep_steps.map((s) => (
+                <li key={s}>{s}</li>
+              ))}
+            </ul>
+          </section>
+          <section>
+            <h2>Common mistakes</h2>
+            <ul>
+              {overview.common_mistakes.map((s) => (
+                <li key={s}>{s}</li>
+              ))}
+            </ul>
+          </section>
+        </>
+      ) : null}
 
       <section>
         <h2>City-sourced guides ({count})</h2>
@@ -79,7 +104,9 @@ export default async function MaterialPage({ params }: Props) {
           ))}
         </ul>
         {count > cities.length ? (
-          <p className="muted">Showing {cities.length} of {count} — open Cities for the full list.</p>
+          <p className="muted">
+            Showing {cities.length} of {count} — open Cities for the full list.
+          </p>
         ) : null}
       </section>
     </article>

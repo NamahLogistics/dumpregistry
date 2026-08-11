@@ -1,0 +1,132 @@
+{
+  "mattress": {
+    "overview": "In most U.S. cities a mattress is bulky waste — not regular trash. The usual paths are scheduled curbside bulky/large-item pickup, a citizen drop-off station, or a paid hauler if you cannot wait for the city window.",
+    "prep_steps": [
+      "Check whether your city uses a zone day, an appointment, or drop-off only.",
+      "Keep the mattress dry and clear of the cart path; wrap only if your city requires it for bed bugs.",
+      "Do not stuff a mattress into a standard trash cart — crews will leave it."
+    ],
+    "common_mistakes": [
+      "Leaving it out on a non-bulky day (ticket or missed pickup).",
+      "Assuming every city picks up mattresses free every week — many cap volume or charge.",
+      "Mixing Freon appliances into the same pile when rules differ."
+    ]
+  },
+  "refrigerator": {
+    "overview": "Refrigerators contain refrigerant that cannot be vented. Cities either collect them on special bulky/appliance routes, require Freon removal and labeling first, or send you to a transfer station / licensed recycler.",
+    "prep_steps": [
+      "Empty food and secure or remove doors for child safety where required.",
+      "Read your city guide for Freon rules before setting the unit at the curb.",
+      "Never cut lines or release refrigerant yourself."
+    ],
+    "common_mistakes": [
+      "Taking a Freon appliance to an HHW site that rejects appliances.",
+      "Putting a fridge out with ordinary furniture bulk when Freon needs a separate call.",
+      "Assuming retailer haul-away is automatic — ask when you buy a replacement."
+    ]
+  },
+  "television": {
+    "overview": "TVs are usually e-waste, not garbage. Many cities ban them from landfill carts and offer free curbside e-waste days, transfer-station drop-off, or HHW/electronics events. CRT sets are the most restricted.",
+    "prep_steps": [
+      "Confirm whether your city allows TVs on bulky day or only at an electronics site.",
+      "Wipe personal data from smart TVs when possible.",
+      "Check CRT rules — some resource centers refuse cathode-ray tubes."
+    ],
+    "common_mistakes": [
+      "Putting a TV in the blue recycling cart.",
+      "Hauling a large TV to an HHW gate that only takes small electronics.",
+      "Ignoring appointment or item-count limits on free e-waste days."
+    ]
+  },
+  "paint-latex": {
+    "overview": "Latex (water-based) paint is often treated differently from oil-based paint. Many cities tell residents to dry latex solid for trash, while oil-based paint must go to HHW.",
+    "prep_steps": [
+      "Identify the label — latex/acrylic vs oil-based/alkyd.",
+      "For latex: mix with cat litter or paint hardener until solid, then trash if your city allows.",
+      "For oil-based: keep the lid on and take it to HHW within local volume limits."
+    ],
+    "common_mistakes": [
+      "Pouring paint down a drain or storm sewer.",
+      "Taking liquid latex to an HHW site that only wants oil-based products.",
+      "Leaving open cans at the curb as if they were bulky waste."
+    ]
+  },
+  "tires": {
+    "overview": "Passenger tires are rarely accepted in ordinary trash carts. Typical paths are a tire shop take-back, a county MMRF/transfer station limit (often rimless), or a city tire event.",
+    "prep_steps": [
+      "Remove rims if your drop-off requires it.",
+      "Count your tires — many sites cap 4–5 per visit.",
+      "Skip curbside bulky unless your city explicitly lists tires."
+    ],
+    "common_mistakes": [
+      "Leaving tires in an alley or vacant lot (illegal dumping).",
+      "Bringing commercial or agricultural tires to a residential-only event.",
+      "Assuming HHW accepts tires — most do not."
+    ]
+  },
+  "air-conditioner": {
+    "overview": "Window and portable AC units are Freon appliances. Treat them like refrigerators: city appliance routes, labeled Freon removal, or a transfer-station/recycler path — not a regular trash cart.",
+    "prep_steps": [
+      "Keep the sealed system intact until a certified handler deals with refrigerant.",
+      "Follow your city Freon curb rules (doors/label/call-ahead).",
+      "Ask whether the unit counts toward bulky item limits."
+    ],
+    "common_mistakes": [
+      "Venting refrigerant to make the unit ‘trash legal.’",
+      "Dropping an AC at HHW when appliances are banned there.",
+      "Setting it out on furniture-only bulk day."
+    ]
+  },
+  "lithium-battery": {
+    "overview": "Lithium-ion batteries are a fire hazard in garbage trucks and should never go in household trash or recycling carts. Use HHW, retailer take-back, or a battery drop program.",
+    "prep_steps": [
+      "Tape the terminals or bag each battery separately.",
+      "Do not crush, charge, or store damaged batteries in a hot car.",
+      "Use your city HHW site or a listed battery collection partner."
+    ],
+    "common_mistakes": [
+      "Tossing vape batteries or tool packs in the trash.",
+      "Mixing damaged lithium cells with alkaline household batteries unmarked.",
+      "Leaving a swollen battery in a device in the e-waste pile without flagging staff."
+    ]
+  },
+  "sofa": {
+    "overview": "Sofas and large upholstered furniture follow the same bulky channel as mattresses in most cities — scheduled pickup or drop-off, sometimes with cubic-yard caps.",
+    "prep_steps": [
+      "Break down only if your city requires sections; many want items intact.",
+      "Keep the set-out clear of mailboxes, meters, and low wires.",
+      "Donate first if the piece is still usable and pest-free."
+    ],
+    "common_mistakes": [
+      "Blocking the sidewalk or setting out days early.",
+      "Including contractor remodeling debris in a residential bulky pile.",
+      "Assuming a sleeper sofa with a metal frame is always recycling-week metal."
+    ]
+  },
+  "propane-tank": {
+    "overview": "Propane cylinders are hazardous and usually banned from trash carts and ordinary bulky piles. Grill-size tanks often go to HHW, exchange cages at retailers, or special collection events.",
+    "prep_steps": [
+      "Do not puncture or put tanks in a garbage truck.",
+      "Check whether your HHW site takes 20 lb grill cylinders.",
+      "Use a retailer exchange for refillable tanks when available."
+    ],
+    "common_mistakes": [
+      "Leaving a tank with furniture on bulky day.",
+      "Bringing large ASME/home tanks to a residential HHW that only takes small cylinders.",
+      "Throwing empty-looking cylinders in scrap metal without staff approval."
+    ]
+  },
+  "computer-monitor": {
+    "overview": "Monitors are e-waste. CRTs are heavier and more restricted than flat panels. Prefer city e-waste collection, transfer-station electronics hours, or a certified recycler.",
+    "prep_steps": [
+      "Wipe personal data from attached computers when recycling a full setup.",
+      "Confirm CRT acceptance before driving to a drop-off.",
+      "Keep glass screens from ordinary recycling carts."
+    ],
+    "common_mistakes": [
+      "Putting monitors in curbside recycling bins.",
+      "Exceeding free e-waste item caps without checking fees.",
+      "Assuming HHW always takes large TVs/monitors — many only take small electronics."
+    ]
+  }
+}

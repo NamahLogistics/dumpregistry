@@ -76,6 +76,21 @@ export function getMaterialGuideCount(itemSlug: string): number {
   return getIndexablePages().filter((p) => p.item_slug === itemSlug).length;
 }
 
+export type MaterialOverview = {
+  overview: string;
+  prep_steps: string[];
+  common_mistakes: string[];
+};
+
+export function getMaterialOverview(itemSlug: string): MaterialOverview | null {
+  try {
+    const all = readJson<Record<string, MaterialOverview>>("materials/overviews.json");
+    return all[itemSlug] ?? null;
+  } catch {
+    return null;
+  }
+}
+
 export function getItem(slug: string) {
   return getItems().find((i) => i.slug === slug);
 }
