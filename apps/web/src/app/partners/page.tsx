@@ -3,6 +3,7 @@
 import { FormEvent, Suspense, useMemo, useState } from "react";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
+import { trackEvent } from "@/lib/analytics";
 
 function PartnersForm() {
   const params = useSearchParams();
@@ -35,7 +36,13 @@ function PartnersForm() {
       }),
     });
     setStatus(res.ok ? "ok" : "err");
-    if (res.ok) e.currentTarget.reset();
+    if (res.ok) {
+      trackEvent("generate_lead", {
+        lead_type: "partner",
+        plan: String(fd.get("plan") ?? ""),
+      });
+      e.currentTarget.reset();
+    }
   }
 
   return (

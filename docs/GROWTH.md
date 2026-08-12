@@ -4,20 +4,30 @@ Operational checklist for measurement and indexation. Code hooks ship with env v
 
 ## 1. Google Analytics 4
 
-1. Create a GA4 property for `www.dumpregistry.org`.
-2. Copy the Measurement ID (`G-XXXXXXXX`).
-3. Set Vercel env: `NEXT_PUBLIC_GA_ID=G-XXXXXXXX`
-4. Redeploy. Events load via `apps/web/src/components/Analytics.tsx`.
+**Live property (created 2026-08-12):**
+
+| Field | Value |
+|-------|--------|
+| Account | DumpRegistry (`404390361`) |
+| Property | DumpRegistry (`549559344`) |
+| Web stream | DumpRegistry Web (`15422956726`) |
+| Measurement ID | `G-KCR1N0X09L` |
+
+- Vercel env: `NEXT_PUBLIC_GA_ID=G-KCR1N0X09L` (Production / Preview / Development)
+- Tag loads via `apps/web/src/components/Analytics.tsx`
+- Key events: `generate_lead` (custom, $1), plus lead-objective defaults `qualify_lead`, `close_convert_lead`, `purchase`
+- Client fires `generate_lead` (pickup + partner forms) and `wizard_complete` via `apps/web/src/lib/analytics.ts`
+- Default audiences: All Users, Purchasers
 
 Vercel Analytics is enabled by default (no env required).
 
 ## 2. Google Search Console
 
-1. Add property `https://www.dumpregistry.org`.
-2. Choose HTML tag verification; copy the `content=` token.
-3. Set Vercel env: `NEXT_PUBLIC_GSC_VERIFICATION=<token>`
-4. Redeploy, complete verification in GSC.
-5. Submit sitemap: `https://www.dumpregistry.org/sitemap.xml`
+**Live (2026-08-12):** URL-prefix property `https://www.dumpregistry.org/` — ownership auto-verified.
+
+- Sitemap submitted: `https://www.dumpregistry.org/sitemap.xml` (Success; also `/sitemaps/sitemap-001.xml`)
+- Optional: set `NEXT_PUBLIC_GSC_VERIFICATION` if you want an HTML meta tag as a second verification method
+- Optional: GA4 Admin → Product links → Search Console links (link this property)
 
 ## 3. IndexNow (Bing / Yandex)
 

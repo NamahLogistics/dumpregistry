@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { trackEvent } from "@/lib/analytics";
 
 export function LeadModule({
   city,
@@ -30,7 +31,15 @@ export function LeadModule({
       }),
     });
     setStatus(res.ok ? "ok" : "err");
-    if (res.ok) e.currentTarget.reset();
+    if (res.ok) {
+      trackEvent("generate_lead", {
+        lead_type: "pickup",
+        city,
+        state,
+        item_slug: itemSlug,
+      });
+      e.currentTarget.reset();
+    }
   }
 
   return (

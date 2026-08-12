@@ -2,6 +2,7 @@
 
 import { useEffect, useId, useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
+import { trackEvent } from "@/lib/analytics";
 
 type ItemOpt = { slug: string; name: string; category: string };
 type CityOpt = {
@@ -220,6 +221,11 @@ export function DisposalWizard({
       matches[0];
     if (!item) return;
     commitItem(item);
+    trackEvent("wizard_complete", {
+      city: city.city,
+      state: city.state,
+      item_slug: item.slug,
+    });
     router.push(`/${city.state_slug}/${city.city_slug}/dispose/${item.slug}`);
   }
 
