@@ -412,8 +412,8 @@ def main() -> int:
     ap.add_argument("--json", type=Path, default=DEFAULT_REPORT, help="Write JSON report path")
     ap.add_argument("--no-json", action="store_true", help="Skip writing JSON report")
     ap.add_argument("--fail-on", choices=("error", "warning", "info", "never"), default="error")
-    ap.add_argument("--max-distance-warn", type=float, default=120.0)
-    ap.add_argument("--max-distance-error", type=float, default=250.0)
+    ap.add_argument("--max-distance-warn", type=float, default=100.0)
+    ap.add_argument("--max-distance-error", type=float, default=180.0)
     ap.add_argument("--limit", type=int, default=40, help="Max findings to print")
     args = ap.parse_args()
 
