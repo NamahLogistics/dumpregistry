@@ -348,6 +348,23 @@ SOURCE_ALLOWLIST = frozenset({
     "ecuanj.com",
     "cityofmobile.org",
     "mcohio.org",
+    # Wave-23b metro portals
+    "accgov.com",
+    "athensclarkecounty.com",
+    "centralsan.org",
+    "cityofconcord.org",
+    "cityofvallejo.net",
+    "cleanupfresnocounty.com",
+    "evansvillegov.org",
+    "ewsu.com",
+    "a2gov.org",
+    "meridiancity.org",
+    "recycleannarbor.org",
+    "transjordan.org",
+    "wpb.org",
+    "myclearwater.com",
+    "cityofclovis.com",
+    "palmbayflorida.org",
 })
 
 US_STATE_ABBR = frozenset({
