@@ -29,7 +29,7 @@ from scripts.facility_quality import is_hard_facility  # noqa: E402
 
 FAC_PATH = ROOT / "data" / "facilities" / "all.json"
 CITIES_PATH = ROOT / "data" / "geo" / "cities.json"
-MAX_DISTANCE_ERROR = 250.0
+MAX_DISTANCE_ERROR = 180.0
 
 
 def main() -> None:
