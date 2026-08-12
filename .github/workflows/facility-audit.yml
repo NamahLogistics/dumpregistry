@@ -1,0 +1,38 @@
+name: Facility inventory audit
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "data/facilities/all.json"
+      - "data/geo/cities.json"
+      - "scripts/facility_quality.py"
+      - "scripts/audit_facilities.py"
+      - "scripts/purge_facility_audit_errors.py"
+      - ".github/workflows/facility-audit.yml"
+  pull_request:
+    paths:
+      - "data/facilities/all.json"
+      - "data/geo/cities.json"
+      - "scripts/facility_quality.py"
+      - "scripts/audit_facilities.py"
+      - "scripts/purge_facility_audit_errors.py"
+      - ".github/workflows/facility-audit.yml"
+  workflow_dispatch:
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Audit facilities (fail on errors)
+        run: python3 scripts/audit_facilities.py --fail-on error --json data/ops/facility_audit.json
+      - name: Upload audit report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: facility-audit
+          path: data/ops/facility_audit.json

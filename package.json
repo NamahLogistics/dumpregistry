@@ -16,6 +16,7 @@
     "data:sitemaps": "python3 scripts/generate_sitemaps.py",
     "data:indexnow": "python3 scripts/ping_indexnow.py",
     "data:scrape": "python3 scripts/scrape_city_portals.py",
+    "data:audit-facilities": "python3 scripts/audit_facilities.py",
     "smoke": "python3 scripts/smoke_check.py"
   }
 }
