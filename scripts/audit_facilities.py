@@ -342,6 +342,12 @@ SOURCE_ALLOWLIST = frozenset({
     "sunnyvale.ca.gov",
     "tempe.gov",
     "zerowastesonoma.gov",
+    # Wave-23a thin-city portals
+    "ocrra.org",
+    "summitreworks.com",
+    "ecuanj.com",
+    "cityofmobile.org",
+    "mcohio.org",
 })
 
 US_STATE_ABBR = frozenset({
