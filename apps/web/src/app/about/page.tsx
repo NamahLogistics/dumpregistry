@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
+import { canonicalMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: "About",
   description: "Why DumpRegistry exists and who it is for.",
+  ...canonicalMetadata("/about"),
 };
 
 export default function AboutPage() {

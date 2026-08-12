@@ -47,6 +47,16 @@ The web app reads resolved JSON by default so local demos work without Postgres.
 
 Only pages with sourced state/city rules are `indexable` and included in sitemaps. Thin defaults remain usable via the wizard with `noindex,follow`.
 
+## Growth / measurement
+
+See [docs/GROWTH.md](docs/GROWTH.md) for GA4, Google Search Console, and IndexNow setup (`NEXT_PUBLIC_GA_ID`, `NEXT_PUBLIC_GSC_VERIFICATION`, `INDEXNOW_KEY`).
+
+```bash
+pnpm data:sitemaps
+pnpm data:indexnow        # dry-run
+pnpm data:indexnow:live   # production ping
+```
+
 ## Monetization
 
 Set `NEXT_PUBLIC_ADS_PROVIDER` to `adsense`, `journey`, or `mediavine`. Lead pickup forms post to `/api/leads`.

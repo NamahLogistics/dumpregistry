@@ -23,6 +23,7 @@ import {
   getSiblingCities,
   getZipHubs,
 } from "@/lib/data";
+import { breadcrumbJsonLd, canonicalMetadata } from "@/lib/seo";
 
 type Props = {
   params: Promise<{ state: string; city: string; item: string }>;
@@ -40,10 +41,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { state, city, item } = await params;
   const page = getPage(state, city, item);
   if (!page) return { robots: { index: false, follow: false } };
+  const path = `/${page.state_slug}/${page.city_slug}/dispose/${page.item_slug}`;
   return {
     title: `How to Dispose of ${page.item_name} in ${page.city}, ${page.state}`,
     description: page.answer.slice(0, 155),
     robots: { index: true, follow: true },
+    ...canonicalMetadata(path),
   };
 }
 
@@ -77,6 +80,22 @@ export default async function DisposeItemPage({ params }: Props) {
               page.answer,
               page.steps,
             ),
+          ),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(
+            breadcrumbJsonLd([
+              { name: "Cities", path: "/cities" },
+              { name: page.state, path: `/${page.state_slug}` },
+              { name: page.city, path: `/${page.state_slug}/${page.city_slug}` },
+              {
+                name: page.item_name,
+                path: `/${page.state_slug}/${page.city_slug}/dispose/${page.item_slug}`,
+              },
+            ]),
           ),
         }}
       />

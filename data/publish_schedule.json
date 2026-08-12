@@ -1,8 +1,9 @@
 {
-  "policy": "Only verified city-sourced URLs",
-  "current_url_count": 7404,
+  "policy": "Only verified city-sourced URLs + hard facility detail pages",
+  "current_url_count": 9720,
   "files_written": [
     "sitemap-001.xml"
   ],
-  "covered_city_count": 100
+  "covered_city_count": 115,
+  "facility_page_count": 2143
 }

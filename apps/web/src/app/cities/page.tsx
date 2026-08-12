@@ -8,7 +8,10 @@ import {
   getStates,
 } from "@/lib/data";
 
+import { canonicalMetadata } from "@/lib/seo";
+
 export const metadata: Metadata = {
+  ...canonicalMetadata("/cities"),
   title: "Cities with verified guides",
   description: "Browse DumpRegistry cities that have city-sourced disposal guides — no statewide filler.",
 };

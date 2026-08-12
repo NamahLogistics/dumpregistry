@@ -128,5 +128,785 @@
       "Exceeding free e-waste item caps without checking fees.",
       "Assuming HHW always takes large TVs/monitors — many only take small electronics."
     ]
+  },
+  "box-spring": {
+    "overview": "Box springs are bulky waste; schedule a special pickup or drop-off. In most U.S. cities this is bulky / large-item waste — not a regular trash-cart load. Paths are usually scheduled curbside bulky pickup, a citizen drop-off station, or a paid hauler.",
+    "prep_steps": [
+      "Check whether your city uses a zone day, an appointment, or drop-off only.",
+      "Confirm item limits, fees, and set-out rules on the official program page.",
+      "Do not force oversized items into a standard trash cart."
+    ],
+    "common_mistakes": [
+      "Leaving it out on a non-bulky day (ticket or missed pickup).",
+      "Assuming every city picks it up free every week — many cap volume or charge.",
+      "Mixing Freon appliances or tires into a furniture-only pile when rules differ."
+    ]
+  },
+  "recliner": {
+    "overview": "Recliners are bulky items — do not leave in the alley without a scheduled pickup. In most U.S. cities this is bulky / large-item waste — not a regular trash-cart load. Paths are usually scheduled curbside bulky pickup, a citizen drop-off station, or a paid hauler.",
+    "prep_steps": [
+      "Check whether your city uses a zone day, an appointment, or drop-off only.",
+      "Confirm item limits, fees, and set-out rules on the official program page.",
+      "Do not force oversized items into a standard trash cart."
+    ],
+    "common_mistakes": [
+      "Leaving it out on a non-bulky day (ticket or missed pickup).",
+      "Assuming every city picks it up free every week — many cap volume or charge.",
+      "Mixing Freon appliances or tires into a furniture-only pile when rules differ."
+    ]
+  },
+  "dining-table": {
+    "overview": "Wood furniture can often be donated; otherwise bulky pickup. In most U.S. cities this is bulky / large-item waste — not a regular trash-cart load. Paths are usually scheduled curbside bulky pickup, a citizen drop-off station, or a paid hauler.",
+    "prep_steps": [
+      "Check whether your city uses a zone day, an appointment, or drop-off only.",
+      "Confirm item limits, fees, and set-out rules on the official program page.",
+      "Do not force oversized items into a standard trash cart."
+    ],
+    "common_mistakes": [
+      "Leaving it out on a non-bulky day (ticket or missed pickup).",
+      "Assuming every city picks it up free every week — many cap volume or charge.",
+      "Mixing Freon appliances or tires into a furniture-only pile when rules differ."
+    ]
+  },
+  "desk": {
+    "overview": "Desks are bulky waste or reuse candidates. In most U.S. cities this is bulky / large-item waste — not a regular trash-cart load. Paths are usually scheduled curbside bulky pickup, a citizen drop-off station, or a paid hauler.",
+    "prep_steps": [
+      "Check whether your city uses a zone day, an appointment, or drop-off only.",
+      "Confirm item limits, fees, and set-out rules on the official program page.",
+      "Do not force oversized items into a standard trash cart."
+    ],
+    "common_mistakes": [
+      "Leaving it out on a non-bulky day (ticket or missed pickup).",
+      "Assuming every city picks it up free every week — many cap volume or charge.",
+      "Mixing Freon appliances or tires into a furniture-only pile when rules differ."
+    ]
+  },
+  "bookshelf": {
+    "overview": "Bookshelves are typically reuse or bulky collection. In most U.S. cities this is bulky / large-item waste — not a regular trash-cart load. Paths are usually scheduled curbside bulky pickup, a citizen drop-off station, or a paid hauler.",
+    "prep_steps": [
+      "Check whether your city uses a zone day, an appointment, or drop-off only.",
+      "Confirm item limits, fees, and set-out rules on the official program page.",
+      "Do not force oversized items into a standard trash cart."
+    ],
+    "common_mistakes": [
+      "Leaving it out on a non-bulky day (ticket or missed pickup).",
+      "Assuming every city picks it up free every week — many cap volume or charge.",
+      "Mixing Freon appliances or tires into a furniture-only pile when rules differ."
+    ]
+  },
+  "carpet": {
+    "overview": "Rolled carpet often requires transfer station drop-off or bulky service. In most U.S. cities this is bulky / large-item waste — not a regular trash-cart load. Paths are usually scheduled curbside bulky pickup, a citizen drop-off station, or a paid hauler.",
+    "prep_steps": [
+      "Check whether your city uses a zone day, an appointment, or drop-off only.",
+      "Confirm item limits, fees, and set-out rules on the official program page.",
+      "Do not force oversized items into a standard trash cart."
+    ],
+    "common_mistakes": [
+      "Leaving it out on a non-bulky day (ticket or missed pickup).",
+      "Assuming every city picks it up free every week — many cap volume or charge.",
+      "Mixing Freon appliances or tires into a furniture-only pile when rules differ."
+    ]
+  },
+  "car-battery": {
+    "overview": "Lead-acid car batteries are banned from landfill trash — return to a retailer or recycler. Household hazardous waste (HHW) rules apply. Do not pour, burn, or trash liquids and chemicals unless your city explicitly allows a dried/solid path.",
+    "prep_steps": [
+      "Keep products in original containers with labels when possible.",
+      "Check HHW site hours, ID requirements, and volume limits.",
+      "Transport upright and sealed — never mix unknown chemicals."
+    ],
+    "common_mistakes": [
+      "Pouring leftovers down a drain or storm sewer.",
+      "Putting liquid HHW in the trash cart.",
+      "Bringing commercial quantities to a residential-only HHW event."
+    ]
+  },
+  "household-batteries": {
+    "overview": "Many household batteries need HHW or retail take-back, not curbside trash. Household hazardous waste (HHW) rules apply. Do not pour, burn, or trash liquids and chemicals unless your city explicitly allows a dried/solid path.",
+    "prep_steps": [
+      "Keep products in original containers with labels when possible.",
+      "Check HHW site hours, ID requirements, and volume limits.",
+      "Transport upright and sealed — never mix unknown chemicals."
+    ],
+    "common_mistakes": [
+      "Pouring leftovers down a drain or storm sewer.",
+      "Putting liquid HHW in the trash cart.",
+      "Bringing commercial quantities to a residential-only HHW event."
+    ]
+  },
+  "paint-oil": {
+    "overview": "Oil-based paint is hazardous waste — take to an HHW facility. Household hazardous waste (HHW) rules apply. Do not pour, burn, or trash liquids and chemicals unless your city explicitly allows a dried/solid path.",
+    "prep_steps": [
+      "Keep products in original containers with labels when possible.",
+      "Check HHW site hours, ID requirements, and volume limits.",
+      "Transport upright and sealed — never mix unknown chemicals."
+    ],
+    "common_mistakes": [
+      "Pouring leftovers down a drain or storm sewer.",
+      "Putting liquid HHW in the trash cart.",
+      "Bringing commercial quantities to a residential-only HHW event."
+    ]
+  },
+  "motor-oil": {
+    "overview": "Used motor oil belongs at a certified collection center, not down a drain or in trash. Household hazardous waste (HHW) rules apply. Do not pour, burn, or trash liquids and chemicals unless your city explicitly allows a dried/solid path.",
+    "prep_steps": [
+      "Keep products in original containers with labels when possible.",
+      "Check HHW site hours, ID requirements, and volume limits.",
+      "Transport upright and sealed — never mix unknown chemicals."
+    ],
+    "common_mistakes": [
+      "Pouring leftovers down a drain or storm sewer.",
+      "Putting liquid HHW in the trash cart.",
+      "Bringing commercial quantities to a residential-only HHW event."
+    ]
+  },
+  "antifreeze": {
+    "overview": "Antifreeze is toxic — use an HHW or auto take-back site. Household hazardous waste (HHW) rules apply. Do not pour, burn, or trash liquids and chemicals unless your city explicitly allows a dried/solid path.",
+    "prep_steps": [
+      "Keep products in original containers with labels when possible.",
+      "Check HHW site hours, ID requirements, and volume limits.",
+      "Transport upright and sealed — never mix unknown chemicals."
+    ],
+    "common_mistakes": [
+      "Pouring leftovers down a drain or storm sewer.",
+      "Putting liquid HHW in the trash cart.",
+      "Bringing commercial quantities to a residential-only HHW event."
+    ]
+  },
+  "helium-tank": {
+    "overview": "Metal helium tanks often need deflation guidance and scrap/metal recycling rules. Household hazardous waste (HHW) rules apply. Do not pour, burn, or trash liquids and chemicals unless your city explicitly allows a dried/solid path.",
+    "prep_steps": [
+      "Keep products in original containers with labels when possible.",
+      "Check HHW site hours, ID requirements, and volume limits.",
+      "Transport upright and sealed — never mix unknown chemicals."
+    ],
+    "common_mistakes": [
+      "Pouring leftovers down a drain or storm sewer.",
+      "Putting liquid HHW in the trash cart.",
+      "Bringing commercial quantities to a residential-only HHW event."
+    ]
+  },
+  "fire-extinguisher": {
+    "overview": "Fire extinguishers may be pressurized — check HHW or fire department guidance. Household hazardous waste (HHW) rules apply. Do not pour, burn, or trash liquids and chemicals unless your city explicitly allows a dried/solid path.",
+    "prep_steps": [
+      "Keep products in original containers with labels when possible.",
+      "Check HHW site hours, ID requirements, and volume limits.",
+      "Transport upright and sealed — never mix unknown chemicals."
+    ],
+    "common_mistakes": [
+      "Pouring leftovers down a drain or storm sewer.",
+      "Putting liquid HHW in the trash cart.",
+      "Bringing commercial quantities to a residential-only HHW event."
+    ]
+  },
+  "laptop": {
+    "overview": "Wipe data, then use e-waste or retailer take-back — not landfill trash. This is usually e-waste, not garbage. Many cities ban electronics from landfill carts and offer free curbside e-waste days, transfer-station drop-off, or HHW/electronics events.",
+    "prep_steps": [
+      "Confirm whether your city allows laptop on bulky day or only at an electronics site.",
+      "Wipe personal data when the device stores accounts or files.",
+      "Check CRT / battery rules — some sites refuse certain electronics."
+    ],
+    "common_mistakes": [
+      "Putting electronics in the blue recycling cart.",
+      "Hauling a large unit to an HHW gate that only takes small devices.",
+      "Ignoring appointment or item-count limits on free e-waste days."
+    ]
+  },
+  "desktop-computer": {
+    "overview": "Computers require e-waste recycling and data destruction best practices. This is usually e-waste, not garbage. Many cities ban electronics from landfill carts and offer free curbside e-waste days, transfer-station drop-off, or HHW/electronics events.",
+    "prep_steps": [
+      "Confirm whether your city allows desktop computer on bulky day or only at an electronics site.",
+      "Wipe personal data when the device stores accounts or files.",
+      "Check CRT / battery rules — some sites refuse certain electronics."
+    ],
+    "common_mistakes": [
+      "Putting electronics in the blue recycling cart.",
+      "Hauling a large unit to an HHW gate that only takes small devices.",
+      "Ignoring appointment or item-count limits on free e-waste days."
+    ]
+  },
+  "printer": {
+    "overview": "Printers are typically e-waste; ink/toner may have separate rules. This is usually e-waste, not garbage. Many cities ban electronics from landfill carts and offer free curbside e-waste days, transfer-station drop-off, or HHW/electronics events.",
+    "prep_steps": [
+      "Confirm whether your city allows printer on bulky day or only at an electronics site.",
+      "Wipe personal data when the device stores accounts or files.",
+      "Check CRT / battery rules — some sites refuse certain electronics."
+    ],
+    "common_mistakes": [
+      "Putting electronics in the blue recycling cart.",
+      "Hauling a large unit to an HHW gate that only takes small devices.",
+      "Ignoring appointment or item-count limits on free e-waste days."
+    ]
+  },
+  "tablet": {
+    "overview": "Tablets are e-waste — use certified recycling. This is usually e-waste, not garbage. Many cities ban electronics from landfill carts and offer free curbside e-waste days, transfer-station drop-off, or HHW/electronics events.",
+    "prep_steps": [
+      "Confirm whether your city allows tablet on bulky day or only at an electronics site.",
+      "Wipe personal data when the device stores accounts or files.",
+      "Check CRT / battery rules — some sites refuse certain electronics."
+    ],
+    "common_mistakes": [
+      "Putting electronics in the blue recycling cart.",
+      "Hauling a large unit to an HHW gate that only takes small devices.",
+      "Ignoring appointment or item-count limits on free e-waste days."
+    ]
+  },
+  "smartphone": {
+    "overview": "Phones should be wiped and recycled through retail or e-waste programs. This is usually e-waste, not garbage. Many cities ban electronics from landfill carts and offer free curbside e-waste days, transfer-station drop-off, or HHW/electronics events.",
+    "prep_steps": [
+      "Confirm whether your city allows smartphone on bulky day or only at an electronics site.",
+      "Wipe personal data when the device stores accounts or files.",
+      "Check CRT / battery rules — some sites refuse certain electronics."
+    ],
+    "common_mistakes": [
+      "Putting electronics in the blue recycling cart.",
+      "Hauling a large unit to an HHW gate that only takes small devices.",
+      "Ignoring appointment or item-count limits on free e-waste days."
+    ]
+  },
+  "microwave": {
+    "overview": "Microwaves are often bulky or e-waste depending on the city. This is usually e-waste, not garbage. Many cities ban electronics from landfill carts and offer free curbside e-waste days, transfer-station drop-off, or HHW/electronics events.",
+    "prep_steps": [
+      "Confirm whether your city allows microwave on bulky day or only at an electronics site.",
+      "Wipe personal data when the device stores accounts or files.",
+      "Check CRT / battery rules — some sites refuse certain electronics."
+    ],
+    "common_mistakes": [
+      "Putting electronics in the blue recycling cart.",
+      "Hauling a large unit to an HHW gate that only takes small devices.",
+      "Ignoring appointment or item-count limits on free e-waste days."
+    ]
+  },
+  "freezer": {
+    "overview": "Freezers require certified appliance recycling for refrigerant. In most U.S. cities this is bulky / large-item waste — not a regular trash-cart load. Paths are usually scheduled curbside bulky pickup, a citizen drop-off station, or a paid hauler.",
+    "prep_steps": [
+      "Check whether your city uses a zone day, an appointment, or drop-off only.",
+      "Confirm item limits, fees, and set-out rules on the official program page.",
+      "Do not force oversized items into a standard trash cart."
+    ],
+    "common_mistakes": [
+      "Leaving it out on a non-bulky day (ticket or missed pickup).",
+      "Assuming every city picks it up free every week — many cap volume or charge.",
+      "Mixing Freon appliances or tires into a furniture-only pile when rules differ."
+    ]
+  },
+  "washer": {
+    "overview": "Washers are bulky appliances — retailer haul-away or municipal bulky service. In most U.S. cities this is bulky / large-item waste — not a regular trash-cart load. Paths are usually scheduled curbside bulky pickup, a citizen drop-off station, or a paid hauler.",
+    "prep_steps": [
+      "Check whether your city uses a zone day, an appointment, or drop-off only.",
+      "Confirm item limits, fees, and set-out rules on the official program page.",
+      "Do not force oversized items into a standard trash cart."
+    ],
+    "common_mistakes": [
+      "Leaving it out on a non-bulky day (ticket or missed pickup).",
+      "Assuming every city picks it up free every week — many cap volume or charge.",
+      "Mixing Freon appliances or tires into a furniture-only pile when rules differ."
+    ]
+  },
+  "dryer": {
+    "overview": "Dryers need bulky/appliance pickup, not regular trash. In most U.S. cities this is bulky / large-item waste — not a regular trash-cart load. Paths are usually scheduled curbside bulky pickup, a citizen drop-off station, or a paid hauler.",
+    "prep_steps": [
+      "Check whether your city uses a zone day, an appointment, or drop-off only.",
+      "Confirm item limits, fees, and set-out rules on the official program page.",
+      "Do not force oversized items into a standard trash cart."
+    ],
+    "common_mistakes": [
+      "Leaving it out on a non-bulky day (ticket or missed pickup).",
+      "Assuming every city picks it up free every week — many cap volume or charge.",
+      "Mixing Freon appliances or tires into a furniture-only pile when rules differ."
+    ]
+  },
+  "dishwasher": {
+    "overview": "Dishwashers are bulky appliances requiring special collection. In most U.S. cities this is bulky / large-item waste — not a regular trash-cart load. Paths are usually scheduled curbside bulky pickup, a citizen drop-off station, or a paid hauler.",
+    "prep_steps": [
+      "Check whether your city uses a zone day, an appointment, or drop-off only.",
+      "Confirm item limits, fees, and set-out rules on the official program page.",
+      "Do not force oversized items into a standard trash cart."
+    ],
+    "common_mistakes": [
+      "Leaving it out on a non-bulky day (ticket or missed pickup).",
+      "Assuming every city picks it up free every week — many cap volume or charge.",
+      "Mixing Freon appliances or tires into a furniture-only pile when rules differ."
+    ]
+  },
+  "stove": {
+    "overview": "Stoves/ovens need appliance or bulky pickup. In most U.S. cities this is bulky / large-item waste — not a regular trash-cart load. Paths are usually scheduled curbside bulky pickup, a citizen drop-off station, or a paid hauler.",
+    "prep_steps": [
+      "Check whether your city uses a zone day, an appointment, or drop-off only.",
+      "Confirm item limits, fees, and set-out rules on the official program page.",
+      "Do not force oversized items into a standard trash cart."
+    ],
+    "common_mistakes": [
+      "Leaving it out on a non-bulky day (ticket or missed pickup).",
+      "Assuming every city picks it up free every week — many cap volume or charge.",
+      "Mixing Freon appliances or tires into a furniture-only pile when rules differ."
+    ]
+  },
+  "water-heater": {
+    "overview": "Water heaters are bulky/metal scrap — not curbside trash. In most U.S. cities this is bulky / large-item waste — not a regular trash-cart load. Paths are usually scheduled curbside bulky pickup, a citizen drop-off station, or a paid hauler.",
+    "prep_steps": [
+      "Check whether your city uses a zone day, an appointment, or drop-off only.",
+      "Confirm item limits, fees, and set-out rules on the official program page.",
+      "Do not force oversized items into a standard trash cart."
+    ],
+    "common_mistakes": [
+      "Leaving it out on a non-bulky day (ticket or missed pickup).",
+      "Assuming every city picks it up free every week — many cap volume or charge.",
+      "Mixing Freon appliances or tires into a furniture-only pile when rules differ."
+    ]
+  },
+  "dehumidifier": {
+    "overview": "Dehumidifiers may contain refrigerant — check local appliance rules. In most U.S. cities this is bulky / large-item waste — not a regular trash-cart load. Paths are usually scheduled curbside bulky pickup, a citizen drop-off station, or a paid hauler.",
+    "prep_steps": [
+      "Check whether your city uses a zone day, an appointment, or drop-off only.",
+      "Confirm item limits, fees, and set-out rules on the official program page.",
+      "Do not force oversized items into a standard trash cart."
+    ],
+    "common_mistakes": [
+      "Leaving it out on a non-bulky day (ticket or missed pickup).",
+      "Assuming every city picks it up free every week — many cap volume or charge.",
+      "Mixing Freon appliances or tires into a furniture-only pile when rules differ."
+    ]
+  },
+  "tire-rims": {
+    "overview": "Metal rims usually go to scrap metal, not household trash. Automotive fluids, batteries, and tires rarely belong in the trash cart. Typical paths are retailer take-back, a transfer station, or a county HHW/MMRF program.",
+    "prep_steps": [
+      "Confirm whether the site wants materials drained, boxed, or rimless.",
+      "Count items — many sites cap tires or batteries per visit.",
+      "Skip curbside bulky unless your city explicitly lists the item."
+    ],
+    "common_mistakes": [
+      "Dumping oil or antifreeze on the ground or into a storm drain.",
+      "Leaving tires or batteries in an alley (illegal dumping).",
+      "Assuming every HHW site takes tires or car parts."
+    ]
+  },
+  "car-parts": {
+    "overview": "Auto parts may be hazardous or scrap — use an auto recycler. Automotive fluids, batteries, and tires rarely belong in the trash cart. Typical paths are retailer take-back, a transfer station, or a county HHW/MMRF program.",
+    "prep_steps": [
+      "Confirm whether the site wants materials drained, boxed, or rimless.",
+      "Count items — many sites cap tires or batteries per visit.",
+      "Skip curbside bulky unless your city explicitly lists the item."
+    ],
+    "common_mistakes": [
+      "Dumping oil or antifreeze on the ground or into a storm drain.",
+      "Leaving tires or batteries in an alley (illegal dumping).",
+      "Assuming every HHW site takes tires or car parts."
+    ]
+  },
+  "gasoline": {
+    "overview": "Gasoline is hazardous — never pour out or trash it. Household hazardous waste (HHW) rules apply. Do not pour, burn, or trash liquids and chemicals unless your city explicitly allows a dried/solid path.",
+    "prep_steps": [
+      "Keep products in original containers with labels when possible.",
+      "Check HHW site hours, ID requirements, and volume limits.",
+      "Transport upright and sealed — never mix unknown chemicals."
+    ],
+    "common_mistakes": [
+      "Pouring leftovers down a drain or storm sewer.",
+      "Putting liquid HHW in the trash cart.",
+      "Bringing commercial quantities to a residential-only HHW event."
+    ]
+  },
+  "pesticides": {
+    "overview": "Pesticides are HHW and banned from regular trash. Household hazardous waste (HHW) rules apply. Do not pour, burn, or trash liquids and chemicals unless your city explicitly allows a dried/solid path.",
+    "prep_steps": [
+      "Keep products in original containers with labels when possible.",
+      "Check HHW site hours, ID requirements, and volume limits.",
+      "Transport upright and sealed — never mix unknown chemicals."
+    ],
+    "common_mistakes": [
+      "Pouring leftovers down a drain or storm sewer.",
+      "Putting liquid HHW in the trash cart.",
+      "Bringing commercial quantities to a residential-only HHW event."
+    ]
+  },
+  "herbicides": {
+    "overview": "Herbicides require household hazardous waste disposal. Household hazardous waste (HHW) rules apply. Do not pour, burn, or trash liquids and chemicals unless your city explicitly allows a dried/solid path.",
+    "prep_steps": [
+      "Keep products in original containers with labels when possible.",
+      "Check HHW site hours, ID requirements, and volume limits.",
+      "Transport upright and sealed — never mix unknown chemicals."
+    ],
+    "common_mistakes": [
+      "Pouring leftovers down a drain or storm sewer.",
+      "Putting liquid HHW in the trash cart.",
+      "Bringing commercial quantities to a residential-only HHW event."
+    ]
+  },
+  "pool-chemicals": {
+    "overview": "Pool chemicals are hazardous — HHW only. Household hazardous waste (HHW) rules apply. Do not pour, burn, or trash liquids and chemicals unless your city explicitly allows a dried/solid path.",
+    "prep_steps": [
+      "Keep products in original containers with labels when possible.",
+      "Check HHW site hours, ID requirements, and volume limits.",
+      "Transport upright and sealed — never mix unknown chemicals."
+    ],
+    "common_mistakes": [
+      "Pouring leftovers down a drain or storm sewer.",
+      "Putting liquid HHW in the trash cart.",
+      "Bringing commercial quantities to a residential-only HHW event."
+    ]
+  },
+  "fluorescent-bulbs": {
+    "overview": "CFLs contain mercury — use HHW or retail take-back. Household hazardous waste (HHW) rules apply. Do not pour, burn, or trash liquids and chemicals unless your city explicitly allows a dried/solid path.",
+    "prep_steps": [
+      "Keep products in original containers with labels when possible.",
+      "Check HHW site hours, ID requirements, and volume limits.",
+      "Transport upright and sealed — never mix unknown chemicals."
+    ],
+    "common_mistakes": [
+      "Pouring leftovers down a drain or storm sewer.",
+      "Putting liquid HHW in the trash cart.",
+      "Bringing commercial quantities to a residential-only HHW event."
+    ]
+  },
+  "led-bulbs": {
+    "overview": "LED bulbs are often not blue-bin; check local recycling guidance. This is usually e-waste, not garbage. Many cities ban electronics from landfill carts and offer free curbside e-waste days, transfer-station drop-off, or HHW/electronics events.",
+    "prep_steps": [
+      "Confirm whether your city allows led bulbs on bulky day or only at an electronics site.",
+      "Wipe personal data when the device stores accounts or files.",
+      "Check CRT / battery rules — some sites refuse certain electronics."
+    ],
+    "common_mistakes": [
+      "Putting electronics in the blue recycling cart.",
+      "Hauling a large unit to an HHW gate that only takes small devices.",
+      "Ignoring appointment or item-count limits on free e-waste days."
+    ]
+  },
+  "incandescent-bulbs": {
+    "overview": "Incandescent bulbs are often trash where unbroken — confirm locally. In most U.S. cities this is bulky / large-item waste — not a regular trash-cart load. Paths are usually scheduled curbside bulky pickup, a citizen drop-off station, or a paid hauler.",
+    "prep_steps": [
+      "Check whether your city uses a zone day, an appointment, or drop-off only.",
+      "Confirm item limits, fees, and set-out rules on the official program page.",
+      "Do not force oversized items into a standard trash cart."
+    ],
+    "common_mistakes": [
+      "Leaving it out on a non-bulky day (ticket or missed pickup).",
+      "Assuming every city picks it up free every week — many cap volume or charge.",
+      "Mixing Freon appliances or tires into a furniture-only pile when rules differ."
+    ]
+  },
+  "smoke-detector": {
+    "overview": "Ionization smoke detectors may need manufacturer mail-back. This is usually e-waste, not garbage. Many cities ban electronics from landfill carts and offer free curbside e-waste days, transfer-station drop-off, or HHW/electronics events.",
+    "prep_steps": [
+      "Confirm whether your city allows smoke detector on bulky day or only at an electronics site.",
+      "Wipe personal data when the device stores accounts or files.",
+      "Check CRT / battery rules — some sites refuse certain electronics."
+    ],
+    "common_mistakes": [
+      "Putting electronics in the blue recycling cart.",
+      "Hauling a large unit to an HHW gate that only takes small devices.",
+      "Ignoring appointment or item-count limits on free e-waste days."
+    ]
+  },
+  "thermometer-mercury": {
+    "overview": "Mercury thermometers are HHW — do not trash. Household hazardous waste (HHW) rules apply. Do not pour, burn, or trash liquids and chemicals unless your city explicitly allows a dried/solid path.",
+    "prep_steps": [
+      "Keep products in original containers with labels when possible.",
+      "Check HHW site hours, ID requirements, and volume limits.",
+      "Transport upright and sealed — never mix unknown chemicals."
+    ],
+    "common_mistakes": [
+      "Pouring leftovers down a drain or storm sewer.",
+      "Putting liquid HHW in the trash cart.",
+      "Bringing commercial quantities to a residential-only HHW event."
+    ]
+  },
+  "medical-sharps": {
+    "overview": "Sharps need approved containers — never loose in trash or recycling. Household hazardous waste (HHW) rules apply. Do not pour, burn, or trash liquids and chemicals unless your city explicitly allows a dried/solid path.",
+    "prep_steps": [
+      "Keep products in original containers with labels when possible.",
+      "Check HHW site hours, ID requirements, and volume limits.",
+      "Transport upright and sealed — never mix unknown chemicals."
+    ],
+    "common_mistakes": [
+      "Pouring leftovers down a drain or storm sewer.",
+      "Putting liquid HHW in the trash cart.",
+      "Bringing commercial quantities to a residential-only HHW event."
+    ]
+  },
+  "prescription-drugs": {
+    "overview": "Use pharmacy or DEA take-back — do not flush unless labeled. Household hazardous waste (HHW) rules apply. Do not pour, burn, or trash liquids and chemicals unless your city explicitly allows a dried/solid path.",
+    "prep_steps": [
+      "Keep products in original containers with labels when possible.",
+      "Check HHW site hours, ID requirements, and volume limits.",
+      "Transport upright and sealed — never mix unknown chemicals."
+    ],
+    "common_mistakes": [
+      "Pouring leftovers down a drain or storm sewer.",
+      "Putting liquid HHW in the trash cart.",
+      "Bringing commercial quantities to a residential-only HHW event."
+    ]
+  },
+  "needles": {
+    "overview": "Needles require sharps containers and approved drop-off. Household hazardous waste (HHW) rules apply. Do not pour, burn, or trash liquids and chemicals unless your city explicitly allows a dried/solid path.",
+    "prep_steps": [
+      "Keep products in original containers with labels when possible.",
+      "Check HHW site hours, ID requirements, and volume limits.",
+      "Transport upright and sealed — never mix unknown chemicals."
+    ],
+    "common_mistakes": [
+      "Pouring leftovers down a drain or storm sewer.",
+      "Putting liquid HHW in the trash cart.",
+      "Bringing commercial quantities to a residential-only HHW event."
+    ]
+  },
+  "construction-debris": {
+    "overview": "C&D debris usually needs a transfer station, not residential carts. In most U.S. cities this is bulky / large-item waste — not a regular trash-cart load. Paths are usually scheduled curbside bulky pickup, a citizen drop-off station, or a paid hauler.",
+    "prep_steps": [
+      "Check whether your city uses a zone day, an appointment, or drop-off only.",
+      "Confirm item limits, fees, and set-out rules on the official program page.",
+      "Do not force oversized items into a standard trash cart."
+    ],
+    "common_mistakes": [
+      "Leaving it out on a non-bulky day (ticket or missed pickup).",
+      "Assuming every city picks it up free every week — many cap volume or charge.",
+      "Mixing Freon appliances or tires into a furniture-only pile when rules differ."
+    ]
+  },
+  "concrete": {
+    "overview": "Concrete goes to C&D recycling or transfer, not curbside. In most U.S. cities this is bulky / large-item waste — not a regular trash-cart load. Paths are usually scheduled curbside bulky pickup, a citizen drop-off station, or a paid hauler.",
+    "prep_steps": [
+      "Check whether your city uses a zone day, an appointment, or drop-off only.",
+      "Confirm item limits, fees, and set-out rules on the official program page.",
+      "Do not force oversized items into a standard trash cart."
+    ],
+    "common_mistakes": [
+      "Leaving it out on a non-bulky day (ticket or missed pickup).",
+      "Assuming every city picks it up free every week — many cap volume or charge.",
+      "Mixing Freon appliances or tires into a furniture-only pile when rules differ."
+    ]
+  },
+  "drywall": {
+    "overview": "Drywall is construction waste — transfer/C&D only. In most U.S. cities this is bulky / large-item waste — not a regular trash-cart load. Paths are usually scheduled curbside bulky pickup, a citizen drop-off station, or a paid hauler.",
+    "prep_steps": [
+      "Check whether your city uses a zone day, an appointment, or drop-off only.",
+      "Confirm item limits, fees, and set-out rules on the official program page.",
+      "Do not force oversized items into a standard trash cart."
+    ],
+    "common_mistakes": [
+      "Leaving it out on a non-bulky day (ticket or missed pickup).",
+      "Assuming every city picks it up free every week — many cap volume or charge.",
+      "Mixing Freon appliances or tires into a furniture-only pile when rules differ."
+    ]
+  },
+  "lumber": {
+    "overview": "Lumber often needs transfer station drop-off. In most U.S. cities this is bulky / large-item waste — not a regular trash-cart load. Paths are usually scheduled curbside bulky pickup, a citizen drop-off station, or a paid hauler.",
+    "prep_steps": [
+      "Check whether your city uses a zone day, an appointment, or drop-off only.",
+      "Confirm item limits, fees, and set-out rules on the official program page.",
+      "Do not force oversized items into a standard trash cart."
+    ],
+    "common_mistakes": [
+      "Leaving it out on a non-bulky day (ticket or missed pickup).",
+      "Assuming every city picks it up free every week — many cap volume or charge.",
+      "Mixing Freon appliances or tires into a furniture-only pile when rules differ."
+    ]
+  },
+  "asphalt-shingles": {
+    "overview": "Shingles are C&D waste requiring specialty disposal. In most U.S. cities this is bulky / large-item waste — not a regular trash-cart load. Paths are usually scheduled curbside bulky pickup, a citizen drop-off station, or a paid hauler.",
+    "prep_steps": [
+      "Check whether your city uses a zone day, an appointment, or drop-off only.",
+      "Confirm item limits, fees, and set-out rules on the official program page.",
+      "Do not force oversized items into a standard trash cart."
+    ],
+    "common_mistakes": [
+      "Leaving it out on a non-bulky day (ticket or missed pickup).",
+      "Assuming every city picks it up free every week — many cap volume or charge.",
+      "Mixing Freon appliances or tires into a furniture-only pile when rules differ."
+    ]
+  },
+  "yard-waste": {
+    "overview": "Yard waste usually belongs in the organics/green cart where offered. In most U.S. cities this is bulky / large-item waste — not a regular trash-cart load. Paths are usually scheduled curbside bulky pickup, a citizen drop-off station, or a paid hauler.",
+    "prep_steps": [
+      "Check whether your city uses a zone day, an appointment, or drop-off only.",
+      "Confirm item limits, fees, and set-out rules on the official program page.",
+      "Do not force oversized items into a standard trash cart."
+    ],
+    "common_mistakes": [
+      "Leaving it out on a non-bulky day (ticket or missed pickup).",
+      "Assuming every city picks it up free every week — many cap volume or charge.",
+      "Mixing Freon appliances or tires into a furniture-only pile when rules differ."
+    ]
+  },
+  "food-scraps": {
+    "overview": "Food scraps go in organics where available — not recycling. In most U.S. cities this is bulky / large-item waste — not a regular trash-cart load. Paths are usually scheduled curbside bulky pickup, a citizen drop-off station, or a paid hauler.",
+    "prep_steps": [
+      "Check whether your city uses a zone day, an appointment, or drop-off only.",
+      "Confirm item limits, fees, and set-out rules on the official program page.",
+      "Do not force oversized items into a standard trash cart."
+    ],
+    "common_mistakes": [
+      "Leaving it out on a non-bulky day (ticket or missed pickup).",
+      "Assuming every city picks it up free every week — many cap volume or charge.",
+      "Mixing Freon appliances or tires into a furniture-only pile when rules differ."
+    ]
+  },
+  "cooking-oil": {
+    "overview": "Large amounts of cooking oil need grease recycling — do not pour down drains. Household hazardous waste (HHW) rules apply. Do not pour, burn, or trash liquids and chemicals unless your city explicitly allows a dried/solid path.",
+    "prep_steps": [
+      "Keep products in original containers with labels when possible.",
+      "Check HHW site hours, ID requirements, and volume limits.",
+      "Transport upright and sealed — never mix unknown chemicals."
+    ],
+    "common_mistakes": [
+      "Pouring leftovers down a drain or storm sewer.",
+      "Putting liquid HHW in the trash cart.",
+      "Bringing commercial quantities to a residential-only HHW event."
+    ]
+  },
+  "cardboard": {
+    "overview": "Flatten clean cardboard for recycling carts. In most U.S. cities this is bulky / large-item waste — not a regular trash-cart load. Paths are usually scheduled curbside bulky pickup, a citizen drop-off station, or a paid hauler.",
+    "prep_steps": [
+      "Check whether your city uses a zone day, an appointment, or drop-off only.",
+      "Confirm item limits, fees, and set-out rules on the official program page.",
+      "Do not force oversized items into a standard trash cart."
+    ],
+    "common_mistakes": [
+      "Leaving it out on a non-bulky day (ticket or missed pickup).",
+      "Assuming every city picks it up free every week — many cap volume or charge.",
+      "Mixing Freon appliances or tires into a furniture-only pile when rules differ."
+    ]
+  },
+  "glass-bottles": {
+    "overview": "Empty glass bottles usually go in recycling where accepted. In most U.S. cities this is bulky / large-item waste — not a regular trash-cart load. Paths are usually scheduled curbside bulky pickup, a citizen drop-off station, or a paid hauler.",
+    "prep_steps": [
+      "Check whether your city uses a zone day, an appointment, or drop-off only.",
+      "Confirm item limits, fees, and set-out rules on the official program page.",
+      "Do not force oversized items into a standard trash cart."
+    ],
+    "common_mistakes": [
+      "Leaving it out on a non-bulky day (ticket or missed pickup).",
+      "Assuming every city picks it up free every week — many cap volume or charge.",
+      "Mixing Freon appliances or tires into a furniture-only pile when rules differ."
+    ]
+  },
+  "plastic-bags": {
+    "overview": "Plastic bags jam sorting equipment — use store take-back, not blue bins. In most U.S. cities this is bulky / large-item waste — not a regular trash-cart load. Paths are usually scheduled curbside bulky pickup, a citizen drop-off station, or a paid hauler.",
+    "prep_steps": [
+      "Check whether your city uses a zone day, an appointment, or drop-off only.",
+      "Confirm item limits, fees, and set-out rules on the official program page.",
+      "Do not force oversized items into a standard trash cart."
+    ],
+    "common_mistakes": [
+      "Leaving it out on a non-bulky day (ticket or missed pickup).",
+      "Assuming every city picks it up free every week — many cap volume or charge.",
+      "Mixing Freon appliances or tires into a furniture-only pile when rules differ."
+    ]
+  },
+  "styrofoam": {
+    "overview": "Foam is rarely curbside-recyclable; look for drop-off. In most U.S. cities this is bulky / large-item waste — not a regular trash-cart load. Paths are usually scheduled curbside bulky pickup, a citizen drop-off station, or a paid hauler.",
+    "prep_steps": [
+      "Check whether your city uses a zone day, an appointment, or drop-off only.",
+      "Confirm item limits, fees, and set-out rules on the official program page.",
+      "Do not force oversized items into a standard trash cart."
+    ],
+    "common_mistakes": [
+      "Leaving it out on a non-bulky day (ticket or missed pickup).",
+      "Assuming every city picks it up free every week — many cap volume or charge.",
+      "Mixing Freon appliances or tires into a furniture-only pile when rules differ."
+    ]
+  },
+  "e-waste-mixed": {
+    "overview": "Mixed electronics need certified e-waste recycling. This is usually e-waste, not garbage. Many cities ban electronics from landfill carts and offer free curbside e-waste days, transfer-station drop-off, or HHW/electronics events.",
+    "prep_steps": [
+      "Confirm whether your city allows mixed e-waste on bulky day or only at an electronics site.",
+      "Wipe personal data when the device stores accounts or files.",
+      "Check CRT / battery rules — some sites refuse certain electronics."
+    ],
+    "common_mistakes": [
+      "Putting electronics in the blue recycling cart.",
+      "Hauling a large unit to an HHW gate that only takes small devices.",
+      "Ignoring appointment or item-count limits on free e-waste days."
+    ]
+  },
+  "hard-drive": {
+    "overview": "Destroy data, then recycle through e-waste channels. This is usually e-waste, not garbage. Many cities ban electronics from landfill carts and offer free curbside e-waste days, transfer-station drop-off, or HHW/electronics events.",
+    "prep_steps": [
+      "Confirm whether your city allows hard drive on bulky day or only at an electronics site.",
+      "Wipe personal data when the device stores accounts or files.",
+      "Check CRT / battery rules — some sites refuse certain electronics."
+    ],
+    "common_mistakes": [
+      "Putting electronics in the blue recycling cart.",
+      "Hauling a large unit to an HHW gate that only takes small devices.",
+      "Ignoring appointment or item-count limits on free e-waste days."
+    ]
+  },
+  "ink-toner": {
+    "overview": "Cartridges often have free retailer mail-back/take-back. This is usually e-waste, not garbage. Many cities ban electronics from landfill carts and offer free curbside e-waste days, transfer-station drop-off, or HHW/electronics events.",
+    "prep_steps": [
+      "Confirm whether your city allows ink / toner cartridges on bulky day or only at an electronics site.",
+      "Wipe personal data when the device stores accounts or files.",
+      "Check CRT / battery rules — some sites refuse certain electronics."
+    ],
+    "common_mistakes": [
+      "Putting electronics in the blue recycling cart.",
+      "Hauling a large unit to an HHW gate that only takes small devices.",
+      "Ignoring appointment or item-count limits on free e-waste days."
+    ]
+  },
+  "solar-panel": {
+    "overview": "Solar panels need specialty recyclers — not curbside. This is usually e-waste, not garbage. Many cities ban electronics from landfill carts and offer free curbside e-waste days, transfer-station drop-off, or HHW/electronics events.",
+    "prep_steps": [
+      "Confirm whether your city allows solar panel on bulky day or only at an electronics site.",
+      "Wipe personal data when the device stores accounts or files.",
+      "Check CRT / battery rules — some sites refuse certain electronics."
+    ],
+    "common_mistakes": [
+      "Putting electronics in the blue recycling cart.",
+      "Hauling a large unit to an HHW gate that only takes small devices.",
+      "Ignoring appointment or item-count limits on free e-waste days."
+    ]
+  },
+  "hot-tub": {
+    "overview": "Hot tubs require dismantling and hauling — not municipal carts. In most U.S. cities this is bulky / large-item waste — not a regular trash-cart load. Paths are usually scheduled curbside bulky pickup, a citizen drop-off station, or a paid hauler.",
+    "prep_steps": [
+      "Check whether your city uses a zone day, an appointment, or drop-off only.",
+      "Confirm item limits, fees, and set-out rules on the official program page.",
+      "Do not force oversized items into a standard trash cart."
+    ],
+    "common_mistakes": [
+      "Leaving it out on a non-bulky day (ticket or missed pickup).",
+      "Assuming every city picks it up free every week — many cap volume or charge.",
+      "Mixing Freon appliances or tires into a furniture-only pile when rules differ."
+    ]
+  },
+  "piano": {
+    "overview": "Pianos need specialty movers or junk haulers. In most U.S. cities this is bulky / large-item waste — not a regular trash-cart load. Paths are usually scheduled curbside bulky pickup, a citizen drop-off station, or a paid hauler.",
+    "prep_steps": [
+      "Check whether your city uses a zone day, an appointment, or drop-off only.",
+      "Confirm item limits, fees, and set-out rules on the official program page.",
+      "Do not force oversized items into a standard trash cart."
+    ],
+    "common_mistakes": [
+      "Leaving it out on a non-bulky day (ticket or missed pickup).",
+      "Assuming every city picks it up free every week — many cap volume or charge.",
+      "Mixing Freon appliances or tires into a furniture-only pile when rules differ."
+    ]
+  },
+  "exercise-equipment": {
+    "overview": "Treadmills and weights are bulky items or donation candidates. In most U.S. cities this is bulky / large-item waste — not a regular trash-cart load. Paths are usually scheduled curbside bulky pickup, a citizen drop-off station, or a paid hauler.",
+    "prep_steps": [
+      "Check whether your city uses a zone day, an appointment, or drop-off only.",
+      "Confirm item limits, fees, and set-out rules on the official program page.",
+      "Do not force oversized items into a standard trash cart."
+    ],
+    "common_mistakes": [
+      "Leaving it out on a non-bulky day (ticket or missed pickup).",
+      "Assuming every city picks it up free every week — many cap volume or charge.",
+      "Mixing Freon appliances or tires into a furniture-only pile when rules differ."
+    ]
+  },
+  "christmas-tree": {
+    "overview": "Holiday trees usually have seasonal curbside or drop-off programs. In most U.S. cities this is bulky / large-item waste — not a regular trash-cart load. Paths are usually scheduled curbside bulky pickup, a citizen drop-off station, or a paid hauler.",
+    "prep_steps": [
+      "Check whether your city uses a zone day, an appointment, or drop-off only.",
+      "Confirm item limits, fees, and set-out rules on the official program page.",
+      "Do not force oversized items into a standard trash cart."
+    ],
+    "common_mistakes": [
+      "Leaving it out on a non-bulky day (ticket or missed pickup).",
+      "Assuming every city picks it up free every week — many cap volume or charge.",
+      "Mixing Freon appliances or tires into a furniture-only pile when rules differ."
+    ]
   }
 }

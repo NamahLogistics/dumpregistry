@@ -3,11 +3,13 @@ import Link from "next/link";
 import { CentersFilter } from "@/components/CentersFilter";
 import { getCities, getFacilities, getItems, getZipHubs } from "@/lib/data";
 import { formatMiles, sortByDistance } from "@/lib/geo";
+import { canonicalMetadata, facilitySlug } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: "Drop-off centers near you",
   description:
     "Find verified household hazardous waste, e-waste, and bulky drop-off sites tied to DumpRegistry city research.",
+  ...canonicalMetadata("/centers"),
 };
 
 type Props = {
@@ -83,6 +85,7 @@ export default async function CentersPage({ searchParams }: Props) {
                 {f.distanceMi != null ? ` · ${formatMiles(f.distanceMi)}` : ""}
               </div>
               <div className="facility-result-links">
+                <Link href={`/centers/${facilitySlug(f)}`}>Facility page</Link>
                 {f.source_url ? (
                   <a href={f.source_url} target="_blank" rel="noopener noreferrer">
                     Official source

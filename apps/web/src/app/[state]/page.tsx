@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ContinueReading } from "@/components/ContinueReading";
 import { getCities, getCityHighIntentGuides, getIndexablePages, getStates } from "@/lib/data";
+import { canonicalMetadata } from "@/lib/seo";
 
 type Props = { params: Promise<{ state: string }> };
 
@@ -18,6 +19,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${label} disposal guides`,
     description: `Verified city-program disposal guides in ${label}.`,
+    ...canonicalMetadata(`/${match.state_slug}`),
   };
 }
 

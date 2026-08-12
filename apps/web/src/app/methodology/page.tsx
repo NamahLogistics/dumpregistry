@@ -3,9 +3,12 @@ import { readFileSync } from "node:fs";
 import path from "node:path";
 import { contentRoot } from "@/lib/paths";
 
+import { canonicalMetadata } from "@/lib/seo";
+
 export const metadata: Metadata = {
   title: "Methodology",
   description: "How DumpRegistry verifies disposal rules and decides what to index.",
+  ...canonicalMetadata("/methodology"),
 };
 
 export default function MethodologyPage() {

@@ -2,7 +2,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { listGuides } from "@/lib/markdown";
 
+import { canonicalMetadata } from "@/lib/seo";
+
 export const metadata: Metadata = {
+  ...canonicalMetadata("/guides"),
   title: "Guides",
   description: "Researched DumpRegistry guides on city disposal programs, HHW, and hard-to-trash items.",
 };

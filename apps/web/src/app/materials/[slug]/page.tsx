@@ -9,6 +9,7 @@ import {
   getMaterialGuideCount,
   getMaterialOverview,
 } from "@/lib/data";
+import { canonicalMetadata } from "@/lib/seo";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -24,6 +25,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `How to dispose of ${item.name}`,
     description: overview?.overview ?? `${item.summary_default} See city-sourced program guides across the U.S.`,
+    ...canonicalMetadata(`/materials/${item.slug}`),
   };
 }
 

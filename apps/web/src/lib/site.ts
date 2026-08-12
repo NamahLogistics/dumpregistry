@@ -5,4 +5,5 @@ export const site = {
   tagline: "City-sourced answers for what you can dispose of — and how.",
   description:
     "DumpRegistry publishes verified, city-program disposal guidance for hard-to-trash items, with official sources, verification dates, and clear next steps.",
+  ogImage: "/og-default.png",
 };

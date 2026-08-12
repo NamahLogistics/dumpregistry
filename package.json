@@ -15,8 +15,10 @@
     "data:zips": "python3 scripts/download_zips.py",
     "data:sitemaps": "python3 scripts/generate_sitemaps.py",
     "data:indexnow": "python3 scripts/ping_indexnow.py",
+    "data:indexnow:live": "INDEXNOW_DRY_RUN=0 python3 scripts/ping_indexnow.py",
     "data:scrape": "python3 scripts/scrape_city_portals.py",
     "data:audit-facilities": "python3 scripts/audit_facilities.py",
+    "data:merge-metros": "python3 scripts/merge_next_metros.py",
     "smoke": "python3 scripts/smoke_check.py"
   }
 }

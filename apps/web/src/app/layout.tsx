@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Merriweather, Source_Sans_3 } from "next/font/google";
+import { Analytics } from "@/components/Analytics";
 import { OfficialViewerProvider } from "@/components/OfficialViewer";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
@@ -18,6 +19,8 @@ const body = Source_Sans_3({
   weight: ["400", "600", "700"],
 });
 
+const gscVerification = process.env.NEXT_PUBLIC_GSC_VERIFICATION?.trim();
+
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: {
@@ -25,13 +28,28 @@ export const metadata: Metadata = {
     template: `%s · ${site.name}`,
   },
   description: site.description,
+  alternates: {
+    canonical: site.url,
+  },
   openGraph: {
     title: site.name,
     description: site.description,
     url: site.url,
     siteName: site.name,
     type: "website",
+    images: [{ url: site.ogImage, width: 1200, height: 630, alt: site.name }],
   },
+  twitter: {
+    card: "summary_large_image",
+    title: site.name,
+    description: site.description,
+    images: [site.ogImage],
+  },
+  verification: gscVerification
+    ? {
+        google: gscVerification,
+      }
+    : undefined,
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
@@ -49,7 +67,10 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     url: site.url,
     potentialAction: {
       "@type": "SearchAction",
-      target: `${site.url}/california?q={search_term_string}`,
+      target: {
+        "@type": "EntryPoint",
+        urlTemplate: `${site.url}/centers?material={search_term_string}`,
+      },
       "query-input": "required name=search_term_string",
     },
   };
@@ -70,6 +91,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           <main className="flex-1">{children}</main>
           <SiteFooter />
         </OfficialViewerProvider>
+        <Analytics />
       </body>
     </html>
   );

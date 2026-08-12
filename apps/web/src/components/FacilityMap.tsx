@@ -1,10 +1,12 @@
 "use client";
 
 import dynamic from "next/dynamic";
+import Link from "next/link";
 import { useMemo, useState } from "react";
 import { NearMeBar } from "@/components/NearMeBar";
 import { OfficialLink } from "@/components/OfficialViewer";
 import { formatMiles, sortByDistance, type LatLng } from "@/lib/geo";
+import { facilitySlug } from "@/lib/seo";
 import type { Facility } from "@/lib/types";
 
 const LeafletMap = dynamic(
@@ -161,6 +163,9 @@ export function FacilityMap({
                   </button>
 
                   <div className="facility-actions">
+                    <Link className="facility-action" href={`/centers/${facilitySlug(f)}`}>
+                      Facility page
+                    </Link>
                     {call ? (
                       <a className="facility-action" href={call}>
                         Call

@@ -1227,6 +1227,19 @@ button.facility-action {
   min-width: 16rem;
 }
 
+.facility-detail-specs {
+  display: grid;
+  gap: 0.35rem;
+  margin: 1rem 0 1.5rem;
+  padding: 1rem 0;
+  border-top: 1px solid var(--border, #d6dde5);
+  border-bottom: 1px solid var(--border, #d6dde5);
+}
+
+.facility-detail-specs p {
+  margin: 0;
+}
+
 .facility-result-list {
   list-style: none;
   margin: 1rem 0 2rem;

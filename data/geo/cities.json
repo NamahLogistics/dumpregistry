@@ -1,158 +1,5 @@
 [
   {
-    "city": "Los Angeles",
-    "city_slug": "los-angeles",
-    "state": "CA",
-    "state_slug": "california",
-    "lat": 34.0522,
-    "lng": -118.2437,
-    "population": 3898747
-  },
-  {
-    "city": "San Diego",
-    "city_slug": "san-diego",
-    "state": "CA",
-    "state_slug": "california",
-    "lat": 32.7157,
-    "lng": -117.1611,
-    "population": 1386932
-  },
-  {
-    "city": "San Jose",
-    "city_slug": "san-jose",
-    "state": "CA",
-    "state_slug": "california",
-    "lat": 37.3382,
-    "lng": -121.8863,
-    "population": 1013240
-  },
-  {
-    "city": "San Francisco",
-    "city_slug": "san-francisco",
-    "state": "CA",
-    "state_slug": "california",
-    "lat": 37.7749,
-    "lng": -122.4194,
-    "population": 873965
-  },
-  {
-    "city": "Sacramento",
-    "city_slug": "sacramento",
-    "state": "CA",
-    "state_slug": "california",
-    "lat": 38.5816,
-    "lng": -121.4944,
-    "population": 524943
-  },
-  {
-    "city": "Oakland",
-    "city_slug": "oakland",
-    "state": "CA",
-    "state_slug": "california",
-    "lat": 37.8044,
-    "lng": -122.2712,
-    "population": 440646
-  },
-  {
-    "city": "Fresno",
-    "city_slug": "fresno",
-    "state": "CA",
-    "state_slug": "california",
-    "lat": 36.7378,
-    "lng": -119.7871,
-    "population": 542107
-  },
-  {
-    "city": "Long Beach",
-    "city_slug": "long-beach",
-    "state": "CA",
-    "state_slug": "california",
-    "lat": 33.7701,
-    "lng": -118.1937,
-    "population": 466742
-  },
-  {
-    "city": "Bakersfield",
-    "city_slug": "bakersfield",
-    "state": "CA",
-    "state_slug": "california",
-    "lat": 35.3733,
-    "lng": -119.0187,
-    "population": 403455
-  },
-  {
-    "city": "Anaheim",
-    "city_slug": "anaheim",
-    "state": "CA",
-    "state_slug": "california",
-    "lat": 33.8366,
-    "lng": -117.9143,
-    "population": 346824
-  },
-  {
-    "city": "Santa Ana",
-    "city_slug": "santa-ana",
-    "state": "CA",
-    "state_slug": "california",
-    "lat": 33.7455,
-    "lng": -117.8677,
-    "population": 310227
-  },
-  {
-    "city": "Riverside",
-    "city_slug": "riverside",
-    "state": "CA",
-    "state_slug": "california",
-    "lat": 33.9806,
-    "lng": -117.3755,
-    "population": 314998
-  },
-  {
-    "city": "Stockton",
-    "city_slug": "stockton",
-    "state": "CA",
-    "state_slug": "california",
-    "lat": 37.9577,
-    "lng": -121.2908,
-    "population": 320804
-  },
-  {
-    "city": "Irvine",
-    "city_slug": "irvine",
-    "state": "CA",
-    "state_slug": "california",
-    "lat": 33.6846,
-    "lng": -117.8265,
-    "population": 307670
-  },
-  {
-    "city": "Chula Vista",
-    "city_slug": "chula-vista",
-    "state": "CA",
-    "state_slug": "california",
-    "lat": 32.6401,
-    "lng": -117.0842,
-    "population": 275487
-  },
-  {
-    "city": "Houston",
-    "city_slug": "houston",
-    "state": "TX",
-    "state_slug": "texas",
-    "lat": 29.7604,
-    "lng": -95.3698,
-    "population": 2304580
-  },
-  {
-    "city": "Dallas",
-    "city_slug": "dallas",
-    "state": "TX",
-    "state_slug": "texas",
-    "lat": 32.7767,
-    "lng": -96.797,
-    "population": 1304379
-  },
-  {
     "city": "New York",
     "city_slug": "new-york",
     "state": "NY",
@@ -162,13 +9,13 @@
     "population": 8336817
   },
   {
-    "city": "Miami",
-    "city_slug": "miami",
-    "state": "FL",
-    "state_slug": "florida",
-    "lat": 25.7617,
-    "lng": -80.1918,
-    "population": 442241
+    "city": "Los Angeles",
+    "city_slug": "los-angeles",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 34.0522,
+    "lng": -118.2437,
+    "population": 3898747
   },
   {
     "city": "Chicago",
@@ -180,6 +27,15 @@
     "population": 2746388
   },
   {
+    "city": "Houston",
+    "city_slug": "houston",
+    "state": "TX",
+    "state_slug": "texas",
+    "lat": 29.7604,
+    "lng": -95.3698,
+    "population": 2304580
+  },
+  {
     "city": "Phoenix",
     "city_slug": "phoenix",
     "state": "AZ",
@@ -187,15 +43,6 @@
     "lat": 33.4484,
     "lng": -112.074,
     "population": 1608139
-  },
-  {
-    "city": "Seattle",
-    "city_slug": "seattle",
-    "state": "WA",
-    "state_slug": "washington",
-    "lat": 47.6062,
-    "lng": -122.3321,
-    "population": 737015
   },
   {
     "city": "Philadelphia",
@@ -216,6 +63,33 @@
     "population": 1434625
   },
   {
+    "city": "San Diego",
+    "city_slug": "san-diego",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 32.7157,
+    "lng": -117.1611,
+    "population": 1386932
+  },
+  {
+    "city": "Dallas",
+    "city_slug": "dallas",
+    "state": "TX",
+    "state_slug": "texas",
+    "lat": 32.7767,
+    "lng": -96.797,
+    "population": 1304379
+  },
+  {
+    "city": "San Jose",
+    "city_slug": "san-jose",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 37.3382,
+    "lng": -121.8863,
+    "population": 1013240
+  },
+  {
     "city": "Austin",
     "city_slug": "austin",
     "state": "TX",
@@ -223,33 +97,6 @@
     "lat": 30.2672,
     "lng": -97.7431,
     "population": 961855
-  },
-  {
-    "city": "Charlotte",
-    "city_slug": "charlotte",
-    "state": "NC",
-    "state_slug": "north-carolina",
-    "lat": 35.2271,
-    "lng": -80.8431,
-    "population": 874579
-  },
-  {
-    "city": "Denver",
-    "city_slug": "denver",
-    "state": "CO",
-    "state_slug": "colorado",
-    "lat": 39.7392,
-    "lng": -104.9903,
-    "population": 715522
-  },
-  {
-    "city": "Boston",
-    "city_slug": "boston",
-    "state": "MA",
-    "state_slug": "massachusetts",
-    "lat": 42.3601,
-    "lng": -71.0589,
-    "population": 675647
   },
   {
     "city": "Jacksonville",
@@ -261,15 +108,6 @@
     "population": 949611
   },
   {
-    "city": "Columbus",
-    "city_slug": "columbus",
-    "state": "OH",
-    "state_slug": "ohio",
-    "lat": 39.9612,
-    "lng": -82.9988,
-    "population": 905748
-  },
-  {
     "city": "Fort Worth",
     "city_slug": "fort-worth",
     "state": "TX",
@@ -279,13 +117,67 @@
     "population": 918915
   },
   {
-    "city": "Detroit",
-    "city_slug": "detroit",
-    "state": "MI",
-    "state_slug": "michigan",
-    "lat": 42.3314,
-    "lng": -83.0458,
-    "population": 639111
+    "city": "Columbus",
+    "city_slug": "columbus",
+    "state": "OH",
+    "state_slug": "ohio",
+    "lat": 39.9612,
+    "lng": -82.9988,
+    "population": 905748
+  },
+  {
+    "city": "Indianapolis",
+    "city_slug": "indianapolis",
+    "state": "IN",
+    "state_slug": "indiana",
+    "lat": 39.7684,
+    "lng": -86.1581,
+    "population": 887642
+  },
+  {
+    "city": "Charlotte",
+    "city_slug": "charlotte",
+    "state": "NC",
+    "state_slug": "north-carolina",
+    "lat": 35.2271,
+    "lng": -80.8431,
+    "population": 874579
+  },
+  {
+    "city": "San Francisco",
+    "city_slug": "san-francisco",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 37.7749,
+    "lng": -122.4194,
+    "population": 873965
+  },
+  {
+    "city": "Seattle",
+    "city_slug": "seattle",
+    "state": "WA",
+    "state_slug": "washington",
+    "lat": 47.6062,
+    "lng": -122.3321,
+    "population": 737015
+  },
+  {
+    "city": "Denver",
+    "city_slug": "denver",
+    "state": "CO",
+    "state_slug": "colorado",
+    "lat": 39.7392,
+    "lng": -104.9903,
+    "population": 715522
+  },
+  {
+    "city": "Washington",
+    "city_slug": "washington",
+    "state": "DC",
+    "state_slug": "district-of-columbia",
+    "lat": 38.9072,
+    "lng": -77.0369,
+    "population": 689545
   },
   {
     "city": "Nashville",
@@ -295,33 +187,6 @@
     "lat": 36.1627,
     "lng": -86.7816,
     "population": 689447
-  },
-  {
-    "city": "Portland",
-    "city_slug": "portland",
-    "state": "OR",
-    "state_slug": "oregon",
-    "lat": 45.5152,
-    "lng": -122.6784,
-    "population": 652503
-  },
-  {
-    "city": "Baltimore",
-    "city_slug": "baltimore",
-    "state": "MD",
-    "state_slug": "maryland",
-    "lat": 39.2904,
-    "lng": -76.6122,
-    "population": 585708
-  },
-  {
-    "city": "Milwaukee",
-    "city_slug": "milwaukee",
-    "state": "WI",
-    "state_slug": "wisconsin",
-    "lat": 43.0389,
-    "lng": -87.9065,
-    "population": 577222
   },
   {
     "city": "Oklahoma City",
@@ -342,13 +207,40 @@
     "population": 678815
   },
   {
-    "city": "Louisville",
-    "city_slug": "louisville",
-    "state": "KY",
-    "state_slug": "kentucky",
-    "lat": 38.2527,
-    "lng": -85.7585,
-    "population": 633045
+    "city": "Boston",
+    "city_slug": "boston",
+    "state": "MA",
+    "state_slug": "massachusetts",
+    "lat": 42.3601,
+    "lng": -71.0589,
+    "population": 675647
+  },
+  {
+    "city": "Portland",
+    "city_slug": "portland",
+    "state": "OR",
+    "state_slug": "oregon",
+    "lat": 45.5152,
+    "lng": -122.6784,
+    "population": 652503
+  },
+  {
+    "city": "Las Vegas",
+    "city_slug": "las-vegas",
+    "state": "NV",
+    "state_slug": "nevada",
+    "lat": 36.1699,
+    "lng": -115.1398,
+    "population": 641903
+  },
+  {
+    "city": "Detroit",
+    "city_slug": "detroit",
+    "state": "MI",
+    "state_slug": "michigan",
+    "lat": 42.3314,
+    "lng": -83.0458,
+    "population": 639111
   },
   {
     "city": "Memphis",
@@ -358,6 +250,33 @@
     "lat": 35.1495,
     "lng": -90.049,
     "population": 633104
+  },
+  {
+    "city": "Louisville",
+    "city_slug": "louisville",
+    "state": "KY",
+    "state_slug": "kentucky",
+    "lat": 38.2527,
+    "lng": -85.7585,
+    "population": 633045
+  },
+  {
+    "city": "Baltimore",
+    "city_slug": "baltimore",
+    "state": "MD",
+    "state_slug": "maryland",
+    "lat": 39.2904,
+    "lng": -76.6122,
+    "population": 585708
+  },
+  {
+    "city": "Milwaukee",
+    "city_slug": "milwaukee",
+    "state": "WI",
+    "state_slug": "wisconsin",
+    "lat": 43.0389,
+    "lng": -87.9065,
+    "population": 577222
   },
   {
     "city": "Albuquerque",
@@ -378,31 +297,22 @@
     "population": 542629
   },
   {
-    "city": "Tulsa",
-    "city_slug": "tulsa",
-    "state": "OK",
-    "state_slug": "oklahoma",
-    "lat": 36.154,
-    "lng": -95.9928,
-    "population": 413066
+    "city": "Fresno",
+    "city_slug": "fresno",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 36.7378,
+    "lng": -119.7871,
+    "population": 542107
   },
   {
-    "city": "Indianapolis",
-    "city_slug": "indianapolis",
-    "state": "IN",
-    "state_slug": "indiana",
-    "lat": 39.7684,
-    "lng": -86.1581,
-    "population": 887642
-  },
-  {
-    "city": "Atlanta",
-    "city_slug": "atlanta",
-    "state": "GA",
-    "state_slug": "georgia",
-    "lat": 33.749,
-    "lng": -84.388,
-    "population": 498715
+    "city": "Sacramento",
+    "city_slug": "sacramento",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 38.5816,
+    "lng": -121.4944,
+    "population": 524943
   },
   {
     "city": "Kansas City",
@@ -414,31 +324,13 @@
     "population": 508090
   },
   {
-    "city": "Las Vegas",
-    "city_slug": "las-vegas",
-    "state": "NV",
-    "state_slug": "nevada",
-    "lat": 36.1699,
-    "lng": -115.1398,
-    "population": 641903
-  },
-  {
-    "city": "Raleigh",
-    "city_slug": "raleigh",
-    "state": "NC",
-    "state_slug": "north-carolina",
-    "lat": 35.7796,
-    "lng": -78.6382,
-    "population": 474069
-  },
-  {
-    "city": "Minneapolis",
-    "city_slug": "minneapolis",
-    "state": "MN",
-    "state_slug": "minnesota",
-    "lat": 44.9778,
-    "lng": -93.265,
-    "population": 429954
+    "city": "Atlanta",
+    "city_slug": "atlanta",
+    "state": "GA",
+    "state_slug": "georgia",
+    "lat": 33.749,
+    "lng": -84.388,
+    "population": 498715
   },
   {
     "city": "Omaha",
@@ -450,6 +342,33 @@
     "population": 486051
   },
   {
+    "city": "Colorado Springs",
+    "city_slug": "colorado-springs",
+    "state": "CO",
+    "state_slug": "colorado",
+    "lat": 38.8339,
+    "lng": -104.8214,
+    "population": 478961
+  },
+  {
+    "city": "Raleigh",
+    "city_slug": "raleigh",
+    "state": "NC",
+    "state_slug": "north-carolina",
+    "lat": 35.7796,
+    "lng": -78.6382,
+    "population": 474069
+  },
+  {
+    "city": "Long Beach",
+    "city_slug": "long-beach",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 33.7701,
+    "lng": -118.1937,
+    "population": 466742
+  },
+  {
     "city": "Virginia Beach",
     "city_slug": "virginia-beach",
     "state": "VA",
@@ -459,13 +378,49 @@
     "population": 459808
   },
   {
-    "city": "Colorado Springs",
-    "city_slug": "colorado-springs",
-    "state": "CO",
-    "state_slug": "colorado",
-    "lat": 38.8339,
-    "lng": -104.8214,
-    "population": 478961
+    "city": "Miami",
+    "city_slug": "miami",
+    "state": "FL",
+    "state_slug": "florida",
+    "lat": 25.7617,
+    "lng": -80.1918,
+    "population": 442241
+  },
+  {
+    "city": "Oakland",
+    "city_slug": "oakland",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 37.8044,
+    "lng": -122.2712,
+    "population": 440646
+  },
+  {
+    "city": "Minneapolis",
+    "city_slug": "minneapolis",
+    "state": "MN",
+    "state_slug": "minnesota",
+    "lat": 44.9778,
+    "lng": -93.265,
+    "population": 429954
+  },
+  {
+    "city": "Tulsa",
+    "city_slug": "tulsa",
+    "state": "OK",
+    "state_slug": "oklahoma",
+    "lat": 36.154,
+    "lng": -95.9928,
+    "population": 413066
+  },
+  {
+    "city": "Bakersfield",
+    "city_slug": "bakersfield",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 35.3733,
+    "lng": -119.0187,
+    "population": 403455
   },
   {
     "city": "Wichita",
@@ -486,13 +441,13 @@
     "population": 394266
   },
   {
-    "city": "New Orleans",
-    "city_slug": "new-orleans",
-    "state": "LA",
-    "state_slug": "louisiana",
-    "lat": 29.9511,
-    "lng": -90.0715,
-    "population": 383997
+    "city": "Aurora",
+    "city_slug": "aurora",
+    "state": "CO",
+    "state_slug": "colorado",
+    "lat": 39.7294,
+    "lng": -104.8319,
+    "population": 386261
   },
   {
     "city": "Tampa",
@@ -504,85 +459,22 @@
     "population": 384959
   },
   {
-    "city": "Pittsburgh",
-    "city_slug": "pittsburgh",
-    "state": "PA",
-    "state_slug": "pennsylvania",
-    "lat": 40.4406,
-    "lng": -79.9959,
-    "population": 302971
+    "city": "New Orleans",
+    "city_slug": "new-orleans",
+    "state": "LA",
+    "state_slug": "louisiana",
+    "lat": 29.9511,
+    "lng": -90.0715,
+    "population": 383997
   },
   {
-    "city": "Cincinnati",
-    "city_slug": "cincinnati",
+    "city": "Cleveland",
+    "city_slug": "cleveland",
     "state": "OH",
     "state_slug": "ohio",
-    "lat": 39.1031,
-    "lng": -84.512,
-    "population": 309317
-  },
-  {
-    "city": "St. Louis",
-    "city_slug": "st-louis",
-    "state": "MO",
-    "state_slug": "missouri",
-    "lat": 38.627,
-    "lng": -90.1994,
-    "population": 279457
-  },
-  {
-    "city": "Orlando",
-    "city_slug": "orlando",
-    "state": "FL",
-    "state_slug": "florida",
-    "lat": 28.5383,
-    "lng": -81.3792,
-    "population": 307573
-  },
-  {
-    "city": "Buffalo",
-    "city_slug": "buffalo",
-    "state": "NY",
-    "state_slug": "new-york",
-    "lat": 42.8864,
-    "lng": -78.8784,
-    "population": 276807
-  },
-  {
-    "city": "Richmond",
-    "city_slug": "richmond",
-    "state": "VA",
-    "state_slug": "virginia",
-    "lat": 37.5407,
-    "lng": -77.436,
-    "population": 226610
-  },
-  {
-    "city": "Boise",
-    "city_slug": "boise",
-    "state": "ID",
-    "state_slug": "idaho",
-    "lat": 43.615,
-    "lng": -116.2023,
-    "population": 235684
-  },
-  {
-    "city": "Des Moines",
-    "city_slug": "des-moines",
-    "state": "IA",
-    "state_slug": "iowa",
-    "lat": 41.5868,
-    "lng": -93.625,
-    "population": 214133
-  },
-  {
-    "city": "Spokane",
-    "city_slug": "spokane",
-    "state": "WA",
-    "state_slug": "washington",
-    "lat": 47.6588,
-    "lng": -117.426,
-    "population": 228989
+    "lat": 41.4993,
+    "lng": -81.6944,
+    "population": 372624
   },
   {
     "city": "Honolulu",
@@ -594,76 +486,13 @@
     "population": 350964
   },
   {
-    "city": "Madison",
-    "city_slug": "madison",
-    "state": "WI",
-    "state_slug": "wisconsin",
-    "lat": 43.0731,
-    "lng": -89.4012,
-    "population": 269840
-  },
-  {
-    "city": "Salt Lake City",
-    "city_slug": "salt-lake-city",
-    "state": "UT",
-    "state_slug": "utah",
-    "lat": 40.7608,
-    "lng": -111.891,
-    "population": 209593
-  },
-  {
-    "city": "Providence",
-    "city_slug": "providence",
-    "state": "RI",
-    "state_slug": "rhode-island",
-    "lat": 41.824,
-    "lng": -71.4128,
-    "population": 190934
-  },
-  {
-    "city": "Durham",
-    "city_slug": "durham",
-    "state": "NC",
-    "state_slug": "north-carolina",
-    "lat": 35.994,
-    "lng": -78.8986,
-    "population": 283506
-  },
-  {
-    "city": "Birmingham",
-    "city_slug": "birmingham",
-    "state": "AL",
-    "state_slug": "alabama",
-    "lat": 33.5207,
-    "lng": -86.8025,
-    "population": 200733
-  },
-  {
-    "city": "Grand Rapids",
-    "city_slug": "grand-rapids",
-    "state": "MI",
-    "state_slug": "michigan",
-    "lat": 42.9634,
-    "lng": -85.6681,
-    "population": 198917
-  },
-  {
-    "city": "Rochester",
-    "city_slug": "rochester",
-    "state": "NY",
-    "state_slug": "new-york",
-    "lat": 43.1566,
-    "lng": -77.6088,
-    "population": 211328
-  },
-  {
-    "city": "Norfolk",
-    "city_slug": "norfolk",
-    "state": "VA",
-    "state_slug": "virginia",
-    "lat": 36.8508,
-    "lng": -76.2859,
-    "population": 238005
+    "city": "Anaheim",
+    "city_slug": "anaheim",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 33.8366,
+    "lng": -117.9143,
+    "population": 346824
   },
   {
     "city": "Lexington",
@@ -675,40 +504,22 @@
     "population": 322570
   },
   {
-    "city": "Toledo",
-    "city_slug": "toledo",
-    "state": "OH",
-    "state_slug": "ohio",
-    "lat": 41.6528,
-    "lng": -83.5379,
-    "population": 270871
+    "city": "Stockton",
+    "city_slug": "stockton",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 37.9577,
+    "lng": -121.2908,
+    "population": 320804
   },
   {
-    "city": "Lincoln",
-    "city_slug": "lincoln",
-    "state": "NE",
-    "state_slug": "nebraska",
-    "lat": 40.8136,
-    "lng": -96.7026,
-    "population": 291082
-  },
-  {
-    "city": "Fort Wayne",
-    "city_slug": "fort-wayne",
-    "state": "IN",
-    "state_slug": "indiana",
-    "lat": 41.0793,
-    "lng": -85.1394,
-    "population": 264052
-  },
-  {
-    "city": "St. Petersburg",
-    "city_slug": "st-petersburg",
-    "state": "FL",
-    "state_slug": "florida",
-    "lat": 27.7676,
-    "lng": -82.6403,
-    "population": 258308
+    "city": "Henderson",
+    "city_slug": "henderson",
+    "state": "NV",
+    "state_slug": "nevada",
+    "lat": 36.0395,
+    "lng": -114.9817,
+    "population": 320189
   },
   {
     "city": "Corpus Christi",
@@ -720,6 +531,78 @@
     "population": 317863
   },
   {
+    "city": "Riverside",
+    "city_slug": "riverside",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 33.9806,
+    "lng": -117.3755,
+    "population": 314998
+  },
+  {
+    "city": "Newark",
+    "city_slug": "newark",
+    "state": "NJ",
+    "state_slug": "new-jersey",
+    "lat": 40.7357,
+    "lng": -74.1724,
+    "population": 311549
+  },
+  {
+    "city": "St. Paul",
+    "city_slug": "st-paul",
+    "state": "MN",
+    "state_slug": "minnesota",
+    "lat": 44.9537,
+    "lng": -93.09,
+    "population": 311527
+  },
+  {
+    "city": "Santa Ana",
+    "city_slug": "santa-ana",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 33.7455,
+    "lng": -117.8677,
+    "population": 310227
+  },
+  {
+    "city": "Cincinnati",
+    "city_slug": "cincinnati",
+    "state": "OH",
+    "state_slug": "ohio",
+    "lat": 39.1031,
+    "lng": -84.512,
+    "population": 309317
+  },
+  {
+    "city": "Irvine",
+    "city_slug": "irvine",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 33.6846,
+    "lng": -117.8265,
+    "population": 307670
+  },
+  {
+    "city": "Orlando",
+    "city_slug": "orlando",
+    "state": "FL",
+    "state_slug": "florida",
+    "lat": 28.5383,
+    "lng": -81.3792,
+    "population": 307573
+  },
+  {
+    "city": "Pittsburgh",
+    "city_slug": "pittsburgh",
+    "state": "PA",
+    "state_slug": "pennsylvania",
+    "lat": 40.4406,
+    "lng": -79.9959,
+    "population": 302971
+  },
+  {
     "city": "Greensboro",
     "city_slug": "greensboro",
     "state": "NC",
@@ -727,6 +610,15 @@
     "lat": 36.0726,
     "lng": -79.792,
     "population": 299035
+  },
+  {
+    "city": "Jersey City",
+    "city_slug": "jersey-city",
+    "state": "NJ",
+    "state_slug": "new-jersey",
+    "lat": 40.7178,
+    "lng": -74.0431,
+    "population": 292449
   },
   {
     "city": "Anchorage",
@@ -738,49 +630,13 @@
     "population": 291247
   },
   {
-    "city": "Reno",
-    "city_slug": "reno",
-    "state": "NV",
-    "state_slug": "nevada",
-    "lat": 39.5296,
-    "lng": -119.8138,
-    "population": 264165
-  },
-  {
-    "city": "Tacoma",
-    "city_slug": "tacoma",
-    "state": "WA",
-    "state_slug": "washington",
-    "lat": 47.2529,
-    "lng": -122.4443,
-    "population": 219346
-  },
-  {
-    "city": "Aurora",
-    "city_slug": "aurora",
-    "state": "CO",
-    "state_slug": "colorado",
-    "lat": 39.7294,
-    "lng": -104.8319,
-    "population": 386261
-  },
-  {
-    "city": "Chattanooga",
-    "city_slug": "chattanooga",
-    "state": "TN",
-    "state_slug": "tennessee",
-    "lat": 35.0456,
-    "lng": -85.3097,
-    "population": 181099
-  },
-  {
-    "city": "Scottsdale",
-    "city_slug": "scottsdale",
-    "state": "AZ",
-    "state_slug": "arizona",
-    "lat": 33.4942,
-    "lng": -111.9261,
-    "population": 241361
+    "city": "Lincoln",
+    "city_slug": "lincoln",
+    "state": "NE",
+    "state_slug": "nebraska",
+    "lat": 40.8136,
+    "lng": -96.7026,
+    "population": 291082
   },
   {
     "city": "Plano",
@@ -790,6 +646,132 @@
     "lat": 33.0198,
     "lng": -96.6989,
     "population": 285494
+  },
+  {
+    "city": "Durham",
+    "city_slug": "durham",
+    "state": "NC",
+    "state_slug": "north-carolina",
+    "lat": 35.994,
+    "lng": -78.8986,
+    "population": 283506
+  },
+  {
+    "city": "St. Louis",
+    "city_slug": "st-louis",
+    "state": "MO",
+    "state_slug": "missouri",
+    "lat": 38.627,
+    "lng": -90.1994,
+    "population": 279457
+  },
+  {
+    "city": "Buffalo",
+    "city_slug": "buffalo",
+    "state": "NY",
+    "state_slug": "new-york",
+    "lat": 42.8864,
+    "lng": -78.8784,
+    "population": 276807
+  },
+  {
+    "city": "Chandler",
+    "city_slug": "chandler",
+    "state": "AZ",
+    "state_slug": "arizona",
+    "lat": 33.3062,
+    "lng": -111.8413,
+    "population": 275987
+  },
+  {
+    "city": "Chula Vista",
+    "city_slug": "chula-vista",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 32.6401,
+    "lng": -117.0842,
+    "population": 275487
+  },
+  {
+    "city": "Toledo",
+    "city_slug": "toledo",
+    "state": "OH",
+    "state_slug": "ohio",
+    "lat": 41.6528,
+    "lng": -83.5379,
+    "population": 270871
+  },
+  {
+    "city": "Madison",
+    "city_slug": "madison",
+    "state": "WI",
+    "state_slug": "wisconsin",
+    "lat": 43.0731,
+    "lng": -89.4012,
+    "population": 269840
+  },
+  {
+    "city": "Reno",
+    "city_slug": "reno",
+    "state": "NV",
+    "state_slug": "nevada",
+    "lat": 39.5296,
+    "lng": -119.8138,
+    "population": 264165
+  },
+  {
+    "city": "Fort Wayne",
+    "city_slug": "fort-wayne",
+    "state": "IN",
+    "state_slug": "indiana",
+    "lat": 41.0793,
+    "lng": -85.1394,
+    "population": 264052
+  },
+  {
+    "city": "Lubbock",
+    "city_slug": "lubbock",
+    "state": "TX",
+    "state_slug": "texas",
+    "lat": 33.5779,
+    "lng": -101.8552,
+    "population": 263930
+  },
+  {
+    "city": "North Las Vegas",
+    "city_slug": "north-las-vegas",
+    "state": "NV",
+    "state_slug": "nevada",
+    "lat": 36.1989,
+    "lng": -115.1175,
+    "population": 262527
+  },
+  {
+    "city": "St. Petersburg",
+    "city_slug": "st-petersburg",
+    "state": "FL",
+    "state_slug": "florida",
+    "lat": 27.7676,
+    "lng": -82.6403,
+    "population": 258308
+  },
+  {
+    "city": "Irving",
+    "city_slug": "irving",
+    "state": "TX",
+    "state_slug": "texas",
+    "lat": 32.814,
+    "lng": -96.9489,
+    "population": 256684
+  },
+  {
+    "city": "Laredo",
+    "city_slug": "laredo",
+    "state": "TX",
+    "state_slug": "texas",
+    "lat": 27.5306,
+    "lng": -99.4803,
+    "population": 255205
   },
   {
     "city": "Winston-Salem",
@@ -810,13 +792,13 @@
     "population": 249422
   },
   {
-    "city": "Irving",
-    "city_slug": "irving",
-    "state": "TX",
-    "state_slug": "texas",
-    "lat": 32.814,
-    "lng": -96.9489,
-    "population": 256684
+    "city": "Glendale",
+    "city_slug": "glendale",
+    "state": "AZ",
+    "state_slug": "arizona",
+    "lat": 33.5387,
+    "lng": -112.186,
+    "population": 248325
   },
   {
     "city": "Garland",
@@ -828,31 +810,31 @@
     "population": 246018
   },
   {
-    "city": "Jersey City",
-    "city_slug": "jersey-city",
-    "state": "NJ",
-    "state_slug": "new-jersey",
-    "lat": 40.7178,
-    "lng": -74.0431,
-    "population": 292449
-  },
-  {
-    "city": "Chandler",
-    "city_slug": "chandler",
+    "city": "Scottsdale",
+    "city_slug": "scottsdale",
     "state": "AZ",
     "state_slug": "arizona",
-    "lat": 33.3062,
-    "lng": -111.8413,
-    "population": 275987
+    "lat": 33.4942,
+    "lng": -111.9261,
+    "population": 241361
   },
   {
-    "city": "Henderson",
-    "city_slug": "henderson",
-    "state": "NV",
-    "state_slug": "nevada",
-    "lat": 36.0395,
-    "lng": -114.9817,
-    "population": 320189
+    "city": "Norfolk",
+    "city_slug": "norfolk",
+    "state": "VA",
+    "state_slug": "virginia",
+    "lat": 36.8508,
+    "lng": -76.2859,
+    "population": 238005
+  },
+  {
+    "city": "Boise",
+    "city_slug": "boise",
+    "state": "ID",
+    "state_slug": "idaho",
+    "lat": 43.615,
+    "lng": -116.2023,
+    "population": 235684
   },
   {
     "city": "Fremont",
@@ -864,6 +846,51 @@
     "population": 230504
   },
   {
+    "city": "Spokane",
+    "city_slug": "spokane",
+    "state": "WA",
+    "state_slug": "washington",
+    "lat": 47.6588,
+    "lng": -117.426,
+    "population": 228989
+  },
+  {
+    "city": "Santa Clarita",
+    "city_slug": "santa-clarita",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 34.3917,
+    "lng": -118.5426,
+    "population": 228673
+  },
+  {
+    "city": "Baton Rouge",
+    "city_slug": "baton-rouge",
+    "state": "LA",
+    "state_slug": "louisiana",
+    "lat": 30.4515,
+    "lng": -91.1871,
+    "population": 227470
+  },
+  {
+    "city": "Richmond",
+    "city_slug": "richmond",
+    "state": "VA",
+    "state_slug": "virginia",
+    "lat": 37.5407,
+    "lng": -77.436,
+    "population": 226610
+  },
+  {
+    "city": "Cape Coral",
+    "city_slug": "cape-coral",
+    "state": "FL",
+    "state_slug": "florida",
+    "lat": 26.5629,
+    "lng": -81.9495,
+    "population": 224455
+  },
+  {
     "city": "Hialeah",
     "city_slug": "hialeah",
     "state": "FL",
@@ -873,13 +900,40 @@
     "population": 223109
   },
   {
-    "city": "Glendale",
-    "city_slug": "glendale",
-    "state": "AZ",
-    "state_slug": "arizona",
-    "lat": 33.5387,
-    "lng": -112.186,
-    "population": 248325
+    "city": "Tacoma",
+    "city_slug": "tacoma",
+    "state": "WA",
+    "state_slug": "washington",
+    "lat": 47.2529,
+    "lng": -122.4443,
+    "population": 219346
+  },
+  {
+    "city": "Modesto",
+    "city_slug": "modesto",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 37.6391,
+    "lng": -120.9969,
+    "population": 218464
+  },
+  {
+    "city": "Huntsville",
+    "city_slug": "huntsville",
+    "state": "AL",
+    "state_slug": "alabama",
+    "lat": 34.7304,
+    "lng": -86.5861,
+    "population": 215006
+  },
+  {
+    "city": "Des Moines",
+    "city_slug": "des-moines",
+    "state": "IA",
+    "state_slug": "iowa",
+    "lat": 41.5868,
+    "lng": -93.625,
+    "population": 214133
   },
   {
     "city": "Yonkers",
@@ -891,6 +945,33 @@
     "population": 211569
   },
   {
+    "city": "Rochester",
+    "city_slug": "rochester",
+    "state": "NY",
+    "state_slug": "new-york",
+    "lat": 43.1566,
+    "lng": -77.6088,
+    "population": 211328
+  },
+  {
+    "city": "Salt Lake City",
+    "city_slug": "salt-lake-city",
+    "state": "UT",
+    "state_slug": "utah",
+    "lat": 40.7608,
+    "lng": -111.891,
+    "population": 209593
+  },
+  {
+    "city": "Moreno Valley",
+    "city_slug": "moreno-valley",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 33.9425,
+    "lng": -117.2297,
+    "population": 208634
+  },
+  {
     "city": "Fontana",
     "city_slug": "fontana",
     "state": "CA",
@@ -898,5 +979,608 @@
     "lat": 34.0922,
     "lng": -117.435,
     "population": 208393
+  },
+  {
+    "city": "Columbus",
+    "city_slug": "columbus-ga",
+    "state": "GA",
+    "state_slug": "georgia",
+    "lat": 32.461,
+    "lng": -84.9877,
+    "population": 206922
+  },
+  {
+    "city": "Worcester",
+    "city_slug": "worcester",
+    "state": "MA",
+    "state_slug": "massachusetts",
+    "lat": 42.2626,
+    "lng": -71.8023,
+    "population": 206518
+  },
+  {
+    "city": "Port St. Lucie",
+    "city_slug": "port-st-lucie",
+    "state": "FL",
+    "state_slug": "florida",
+    "lat": 27.273,
+    "lng": -80.3582,
+    "population": 204851
+  },
+  {
+    "city": "Little Rock",
+    "city_slug": "little-rock",
+    "state": "AR",
+    "state_slug": "arkansas",
+    "lat": 34.7465,
+    "lng": -92.2896,
+    "population": 202591
+  },
+  {
+    "city": "Augusta",
+    "city_slug": "augusta",
+    "state": "GA",
+    "state_slug": "georgia",
+    "lat": 33.4735,
+    "lng": -82.0105,
+    "population": 202081
+  },
+  {
+    "city": "Oxnard",
+    "city_slug": "oxnard",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 34.1975,
+    "lng": -119.1771,
+    "population": 202063
+  },
+  {
+    "city": "Birmingham",
+    "city_slug": "birmingham",
+    "state": "AL",
+    "state_slug": "alabama",
+    "lat": 33.5207,
+    "lng": -86.8025,
+    "population": 200733
+  },
+  {
+    "city": "Montgomery",
+    "city_slug": "montgomery",
+    "state": "AL",
+    "state_slug": "alabama",
+    "lat": 32.3792,
+    "lng": -86.3077,
+    "population": 200603
+  },
+  {
+    "city": "Frisco",
+    "city_slug": "frisco",
+    "state": "TX",
+    "state_slug": "texas",
+    "lat": 33.1507,
+    "lng": -96.8236,
+    "population": 200509
+  },
+  {
+    "city": "Amarillo",
+    "city_slug": "amarillo",
+    "state": "TX",
+    "state_slug": "texas",
+    "lat": 35.222,
+    "lng": -101.8313,
+    "population": 200393
+  },
+  {
+    "city": "Grand Rapids",
+    "city_slug": "grand-rapids",
+    "state": "MI",
+    "state_slug": "michigan",
+    "lat": 42.9634,
+    "lng": -85.6681,
+    "population": 198917
+  },
+  {
+    "city": "Huntington Beach",
+    "city_slug": "huntington-beach",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 33.6595,
+    "lng": -117.9988,
+    "population": 198711
+  },
+  {
+    "city": "Overland Park",
+    "city_slug": "overland-park",
+    "state": "KS",
+    "state_slug": "kansas",
+    "lat": 38.9822,
+    "lng": -94.6708,
+    "population": 197238
+  },
+  {
+    "city": "Glendale",
+    "city_slug": "glendale-ca",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 34.1425,
+    "lng": -118.2551,
+    "population": 196543
+  },
+  {
+    "city": "Tallahassee",
+    "city_slug": "tallahassee",
+    "state": "FL",
+    "state_slug": "florida",
+    "lat": 30.4383,
+    "lng": -84.2807,
+    "population": 196169
+  },
+  {
+    "city": "McKinney",
+    "city_slug": "mckinney",
+    "state": "TX",
+    "state_slug": "texas",
+    "lat": 33.1972,
+    "lng": -96.6397,
+    "population": 195308
+  },
+  {
+    "city": "Sioux Falls",
+    "city_slug": "sioux-falls",
+    "state": "SD",
+    "state_slug": "south-dakota",
+    "lat": 43.5446,
+    "lng": -96.7311,
+    "population": 192517
+  },
+  {
+    "city": "Peoria",
+    "city_slug": "peoria",
+    "state": "AZ",
+    "state_slug": "arizona",
+    "lat": 33.5806,
+    "lng": -112.2374,
+    "population": 190985
+  },
+  {
+    "city": "Providence",
+    "city_slug": "providence",
+    "state": "RI",
+    "state_slug": "rhode-island",
+    "lat": 41.824,
+    "lng": -71.4128,
+    "population": 190934
+  },
+  {
+    "city": "Vancouver",
+    "city_slug": "vancouver",
+    "state": "WA",
+    "state_slug": "washington",
+    "lat": 45.6257,
+    "lng": -122.6761,
+    "population": 190915
+  },
+  {
+    "city": "Knoxville",
+    "city_slug": "knoxville",
+    "state": "TN",
+    "state_slug": "tennessee",
+    "lat": 35.9606,
+    "lng": -83.9207,
+    "population": 190740
+  },
+  {
+    "city": "Akron",
+    "city_slug": "akron",
+    "state": "OH",
+    "state_slug": "ohio",
+    "lat": 41.0814,
+    "lng": -81.519,
+    "population": 190469
+  },
+  {
+    "city": "Shreveport",
+    "city_slug": "shreveport",
+    "state": "LA",
+    "state_slug": "louisiana",
+    "lat": 32.5252,
+    "lng": -93.7502,
+    "population": 187112
+  },
+  {
+    "city": "Mobile",
+    "city_slug": "mobile",
+    "state": "AL",
+    "state_slug": "alabama",
+    "lat": 30.6954,
+    "lng": -88.0399,
+    "population": 187041
+  },
+  {
+    "city": "Brownsville",
+    "city_slug": "brownsville",
+    "state": "TX",
+    "state_slug": "texas",
+    "lat": 25.9017,
+    "lng": -97.4975,
+    "population": 186738
+  },
+  {
+    "city": "Newport News",
+    "city_slug": "newport-news",
+    "state": "VA",
+    "state_slug": "virginia",
+    "lat": 37.0871,
+    "lng": -76.473,
+    "population": 186247
+  },
+  {
+    "city": "Fort Lauderdale",
+    "city_slug": "fort-lauderdale",
+    "state": "FL",
+    "state_slug": "florida",
+    "lat": 26.1224,
+    "lng": -80.1373,
+    "population": 182760
+  },
+  {
+    "city": "Chattanooga",
+    "city_slug": "chattanooga",
+    "state": "TN",
+    "state_slug": "tennessee",
+    "lat": 35.0456,
+    "lng": -85.3097,
+    "population": 181099
+  },
+  {
+    "city": "Tempe",
+    "city_slug": "tempe",
+    "state": "AZ",
+    "state_slug": "arizona",
+    "lat": 33.4255,
+    "lng": -111.94,
+    "population": 180587
+  },
+  {
+    "city": "Aurora",
+    "city_slug": "aurora-il",
+    "state": "IL",
+    "state_slug": "illinois",
+    "lat": 41.7606,
+    "lng": -88.3201,
+    "population": 180542
+  },
+  {
+    "city": "Santa Rosa",
+    "city_slug": "santa-rosa",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 38.4404,
+    "lng": -122.7141,
+    "population": 178127
+  },
+  {
+    "city": "Santa Rosa",
+    "city_slug": "santa-rosa-ca",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 38.4404,
+    "lng": -122.7141,
+    "population": 178127
+  },
+  {
+    "city": "Eugene",
+    "city_slug": "eugene",
+    "state": "OR",
+    "state_slug": "oregon",
+    "lat": 44.0521,
+    "lng": -123.0868,
+    "population": 176654
+  },
+  {
+    "city": "Elk Grove",
+    "city_slug": "elk-grove",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 38.4088,
+    "lng": -121.3716,
+    "population": 176124
+  },
+  {
+    "city": "Salem",
+    "city_slug": "salem",
+    "state": "OR",
+    "state_slug": "oregon",
+    "lat": 44.9429,
+    "lng": -123.0351,
+    "population": 175535
+  },
+  {
+    "city": "Ontario",
+    "city_slug": "ontario",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 34.0633,
+    "lng": -117.6509,
+    "population": 175265
+  },
+  {
+    "city": "Cary",
+    "city_slug": "cary",
+    "state": "NC",
+    "state_slug": "north-carolina",
+    "lat": 35.7915,
+    "lng": -78.7811,
+    "population": 174721
+  },
+  {
+    "city": "Rancho Cucamonga",
+    "city_slug": "rancho-cucamonga",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 34.1064,
+    "lng": -117.5931,
+    "population": 174453
+  },
+  {
+    "city": "Oceanside",
+    "city_slug": "oceanside",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 33.1959,
+    "lng": -117.3795,
+    "population": 174068
+  },
+  {
+    "city": "Lancaster",
+    "city_slug": "lancaster",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 34.6868,
+    "lng": -118.1542,
+    "population": 173516
+  },
+  {
+    "city": "Garden Grove",
+    "city_slug": "garden-grove",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 33.7743,
+    "lng": -117.938,
+    "population": 171949
+  },
+  {
+    "city": "Pembroke Pines",
+    "city_slug": "pembroke-pines",
+    "state": "FL",
+    "state_slug": "florida",
+    "lat": 26.0078,
+    "lng": -80.2962,
+    "population": 171178
+  },
+  {
+    "city": "Fort Collins",
+    "city_slug": "fort-collins",
+    "state": "CO",
+    "state_slug": "colorado",
+    "lat": 40.5853,
+    "lng": -105.0844,
+    "population": 169810
+  },
+  {
+    "city": "Palmdale",
+    "city_slug": "palmdale",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 34.5794,
+    "lng": -118.1165,
+    "population": 169450
+  },
+  {
+    "city": "Springfield",
+    "city_slug": "springfield-mo",
+    "state": "MO",
+    "state_slug": "missouri",
+    "lat": 37.209,
+    "lng": -93.2923,
+    "population": 169176
+  },
+  {
+    "city": "Clarksville",
+    "city_slug": "clarksville",
+    "state": "TN",
+    "state_slug": "tennessee",
+    "lat": 36.5298,
+    "lng": -87.3595,
+    "population": 166722
+  },
+  {
+    "city": "Paterson",
+    "city_slug": "paterson",
+    "state": "NJ",
+    "state_slug": "new-jersey",
+    "lat": 40.9168,
+    "lng": -74.1718,
+    "population": 159732
+  },
+  {
+    "city": "Macon",
+    "city_slug": "macon",
+    "state": "GA",
+    "state_slug": "georgia",
+    "lat": 32.8407,
+    "lng": -83.6324,
+    "population": 157346
+  },
+  {
+    "city": "Kansas City",
+    "city_slug": "kansas-city-ks",
+    "state": "KS",
+    "state_slug": "kansas",
+    "lat": 39.1141,
+    "lng": -94.6275,
+    "population": 156607
+  },
+  {
+    "city": "Springfield",
+    "city_slug": "springfield",
+    "state": "MA",
+    "state_slug": "massachusetts",
+    "lat": 42.1015,
+    "lng": -72.5898,
+    "population": 155929
+  },
+  {
+    "city": "Sunnyvale",
+    "city_slug": "sunnyvale",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 37.3688,
+    "lng": -122.0363,
+    "population": 155805
+  },
+  {
+    "city": "Jackson",
+    "city_slug": "jackson",
+    "state": "MS",
+    "state_slug": "mississippi",
+    "lat": 32.2988,
+    "lng": -90.1848,
+    "population": 153701
+  },
+  {
+    "city": "Killeen",
+    "city_slug": "killeen",
+    "state": "TX",
+    "state_slug": "texas",
+    "lat": 31.1171,
+    "lng": -97.7278,
+    "population": 153095
+  },
+  {
+    "city": "Hollywood",
+    "city_slug": "hollywood",
+    "state": "FL",
+    "state_slug": "florida",
+    "lat": 26.0112,
+    "lng": -80.1495,
+    "population": 153067
+  },
+  {
+    "city": "Murfreesboro",
+    "city_slug": "murfreesboro",
+    "state": "TN",
+    "state_slug": "tennessee",
+    "lat": 35.8456,
+    "lng": -86.3903,
+    "population": 152769
+  },
+  {
+    "city": "Pasadena",
+    "city_slug": "pasadena",
+    "state": "TX",
+    "state_slug": "texas",
+    "lat": 29.6911,
+    "lng": -95.2091,
+    "population": 151950
+  },
+  {
+    "city": "Bellevue",
+    "city_slug": "bellevue",
+    "state": "WA",
+    "state_slug": "washington",
+    "lat": 47.6101,
+    "lng": -122.2015,
+    "population": 151854
+  },
+  {
+    "city": "Pomona",
+    "city_slug": "pomona",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 34.0551,
+    "lng": -117.75,
+    "population": 151830
+  },
+  {
+    "city": "Escondido",
+    "city_slug": "escondido",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 33.1192,
+    "lng": -117.0864,
+    "population": 151038
+  },
+  {
+    "city": "Joliet",
+    "city_slug": "joliet",
+    "state": "IL",
+    "state_slug": "illinois",
+    "lat": 41.525,
+    "lng": -88.0817,
+    "population": 150362
+  },
+  {
+    "city": "Charleston",
+    "city_slug": "charleston",
+    "state": "SC",
+    "state_slug": "south-carolina",
+    "lat": 32.7765,
+    "lng": -79.9311,
+    "population": 150227
+  },
+  {
+    "city": "Mesquite",
+    "city_slug": "mesquite",
+    "state": "TX",
+    "state_slug": "texas",
+    "lat": 32.7668,
+    "lng": -96.5992,
+    "population": 150108
+  },
+  {
+    "city": "Naperville",
+    "city_slug": "naperville",
+    "state": "IL",
+    "state_slug": "illinois",
+    "lat": 41.7508,
+    "lng": -88.1535,
+    "population": 149540
+  },
+  {
+    "city": "Rockford",
+    "city_slug": "rockford",
+    "state": "IL",
+    "state_slug": "illinois",
+    "lat": 42.2711,
+    "lng": -89.094,
+    "population": 148655
+  },
+  {
+    "city": "Bridgeport",
+    "city_slug": "bridgeport",
+    "state": "CT",
+    "state_slug": "connecticut",
+    "lat": 41.1865,
+    "lng": -73.1952,
+    "population": 148654
+  },
+  {
+    "city": "Syracuse",
+    "city_slug": "syracuse",
+    "state": "NY",
+    "state_slug": "new-york",
+    "lat": 43.0481,
+    "lng": -76.1474,
+    "population": 148620
+  },
+  {
+    "city": "Dayton",
+    "city_slug": "dayton",
+    "state": "OH",
+    "state_slug": "ohio",
+    "lat": 39.7589,
+    "lng": -84.1916,
+    "population": 137644
   }
 ]

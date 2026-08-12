@@ -2,7 +2,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { getItems, getMaterialGuideCount } from "@/lib/data";
 
+import { canonicalMetadata } from "@/lib/seo";
+
 export const metadata: Metadata = {
+  ...canonicalMetadata("/materials"),
   title: "Materials encyclopedia",
   description:
     "Browse disposal materials — national overview plus city-sourced program guides where we have verified local rules.",

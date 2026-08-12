@@ -14,6 +14,7 @@ import {
   getSiblingCities,
   getZipHubs,
 } from "@/lib/data";
+import { breadcrumbJsonLd, canonicalMetadata } from "@/lib/seo";
 
 type Props = { params: Promise<{ state: string; city: string }> };
 
@@ -42,16 +43,19 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const place = getCity(state, city);
   if (!place) return {};
   const guides = getCityPages(state, city);
+  const path = `/${place.state_slug}/${place.city_slug}`;
   if (!guides.length) {
     return {
       title: `${place.city}, ${place.state} — research pending`,
       description: `We have not published verified disposal guides for ${place.city} yet.`,
       robots: { index: false, follow: true },
+      ...canonicalMetadata(path),
     };
   }
   return {
     title: `Dispose of hard items in ${place.city}, ${place.state}`,
     description: `Verified local disposal guides for ${place.city}, ${place.state}.`,
+    ...canonicalMetadata(path),
   };
 }
 
@@ -68,6 +72,18 @@ export default async function CityHubPage({ params }: Props) {
 
   return (
     <div className="shell page">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(
+            breadcrumbJsonLd([
+              { name: "Cities", path: "/cities" },
+              { name: place.state, path: `/${place.state_slug}` },
+              { name: place.city, path: `/${place.state_slug}/${place.city_slug}` },
+            ]),
+          ),
+        }}
+      />
       <nav className="crumb-row" aria-label="Breadcrumb">
         <Link href="/cities">Cities</Link>
         <span>/</span>

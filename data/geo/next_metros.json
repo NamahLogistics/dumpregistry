@@ -1,0 +1,1812 @@
+[
+  {
+    "city": "Washington",
+    "city_slug": "washington",
+    "state": "DC",
+    "state_slug": "district-of-columbia",
+    "lat": 38.9072,
+    "lng": -77.0369,
+    "population": 689545,
+    "priority": 1
+  },
+  {
+    "city": "Cleveland",
+    "city_slug": "cleveland",
+    "state": "OH",
+    "state_slug": "ohio",
+    "lat": 41.4993,
+    "lng": -81.6944,
+    "population": 372624,
+    "priority": 1
+  },
+  {
+    "city": "Newark",
+    "city_slug": "newark",
+    "state": "NJ",
+    "state_slug": "new-jersey",
+    "lat": 40.7357,
+    "lng": -74.1724,
+    "population": 311549,
+    "priority": 1
+  },
+  {
+    "city": "St. Paul",
+    "city_slug": "st-paul",
+    "state": "MN",
+    "state_slug": "minnesota",
+    "lat": 44.9537,
+    "lng": -93.09,
+    "population": 311527,
+    "priority": 1
+  },
+  {
+    "city": "Baton Rouge",
+    "city_slug": "baton-rouge",
+    "state": "LA",
+    "state_slug": "louisiana",
+    "lat": 30.4515,
+    "lng": -91.1871,
+    "population": 227470,
+    "priority": 2
+  },
+  {
+    "city": "Worcester",
+    "city_slug": "worcester",
+    "state": "MA",
+    "state_slug": "massachusetts",
+    "lat": 42.2626,
+    "lng": -71.8023,
+    "population": 206518,
+    "priority": 2
+  },
+  {
+    "city": "Little Rock",
+    "city_slug": "little-rock",
+    "state": "AR",
+    "state_slug": "arkansas",
+    "lat": 34.7465,
+    "lng": -92.2896,
+    "population": 202591,
+    "priority": 2
+  },
+  {
+    "city": "Tallahassee",
+    "city_slug": "tallahassee",
+    "state": "FL",
+    "state_slug": "florida",
+    "lat": 30.4383,
+    "lng": -84.2807,
+    "population": 196169,
+    "priority": 2
+  },
+  {
+    "city": "Knoxville",
+    "city_slug": "knoxville",
+    "state": "TN",
+    "state_slug": "tennessee",
+    "lat": 35.9606,
+    "lng": -83.9207,
+    "population": 190740,
+    "priority": 2
+  },
+  {
+    "city": "Akron",
+    "city_slug": "akron",
+    "state": "OH",
+    "state_slug": "ohio",
+    "lat": 41.0814,
+    "lng": -81.519,
+    "population": 190469,
+    "priority": 2
+  },
+  {
+    "city": "Fort Lauderdale",
+    "city_slug": "fort-lauderdale",
+    "state": "FL",
+    "state_slug": "florida",
+    "lat": 26.1224,
+    "lng": -80.1373,
+    "population": 182760,
+    "priority": 2
+  },
+  {
+    "city": "Dayton",
+    "city_slug": "dayton",
+    "state": "OH",
+    "state_slug": "ohio",
+    "lat": 39.7589,
+    "lng": -84.1916,
+    "population": 137644,
+    "priority": 2
+  },
+  {
+    "city": "Lubbock",
+    "city_slug": "lubbock",
+    "state": "TX",
+    "state_slug": "texas",
+    "lat": 33.5779,
+    "lng": -101.8552,
+    "population": 263930,
+    "priority": 3
+  },
+  {
+    "city": "North Las Vegas",
+    "city_slug": "north-las-vegas",
+    "state": "NV",
+    "state_slug": "nevada",
+    "lat": 36.1989,
+    "lng": -115.1175,
+    "population": 262527,
+    "priority": 3
+  },
+  {
+    "city": "Laredo",
+    "city_slug": "laredo",
+    "state": "TX",
+    "state_slug": "texas",
+    "lat": 27.5306,
+    "lng": -99.4803,
+    "population": 255205,
+    "priority": 3
+  },
+  {
+    "city": "Santa Clarita",
+    "city_slug": "santa-clarita",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 34.3917,
+    "lng": -118.5426,
+    "population": 228673,
+    "priority": 3
+  },
+  {
+    "city": "Cape Coral",
+    "city_slug": "cape-coral",
+    "state": "FL",
+    "state_slug": "florida",
+    "lat": 26.5629,
+    "lng": -81.9495,
+    "population": 224455,
+    "priority": 3
+  },
+  {
+    "city": "Modesto",
+    "city_slug": "modesto",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 37.6391,
+    "lng": -120.9969,
+    "population": 218464,
+    "priority": 3
+  },
+  {
+    "city": "Huntsville",
+    "city_slug": "huntsville",
+    "state": "AL",
+    "state_slug": "alabama",
+    "lat": 34.7304,
+    "lng": -86.5861,
+    "population": 215006,
+    "priority": 3
+  },
+  {
+    "city": "Moreno Valley",
+    "city_slug": "moreno-valley",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 33.9425,
+    "lng": -117.2297,
+    "population": 208634,
+    "priority": 3
+  },
+  {
+    "city": "Columbus",
+    "city_slug": "columbus-ga",
+    "state": "GA",
+    "state_slug": "georgia",
+    "lat": 32.461,
+    "lng": -84.9877,
+    "population": 206922,
+    "priority": 3
+  },
+  {
+    "city": "Port St. Lucie",
+    "city_slug": "port-st-lucie",
+    "state": "FL",
+    "state_slug": "florida",
+    "lat": 27.273,
+    "lng": -80.3582,
+    "population": 204851,
+    "priority": 3
+  },
+  {
+    "city": "Augusta",
+    "city_slug": "augusta",
+    "state": "GA",
+    "state_slug": "georgia",
+    "lat": 33.4735,
+    "lng": -82.0105,
+    "population": 202081,
+    "priority": 3
+  },
+  {
+    "city": "Oxnard",
+    "city_slug": "oxnard",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 34.1975,
+    "lng": -119.1771,
+    "population": 202063,
+    "priority": 3
+  },
+  {
+    "city": "Montgomery",
+    "city_slug": "montgomery",
+    "state": "AL",
+    "state_slug": "alabama",
+    "lat": 32.3792,
+    "lng": -86.3077,
+    "population": 200603,
+    "priority": 3
+  },
+  {
+    "city": "Frisco",
+    "city_slug": "frisco",
+    "state": "TX",
+    "state_slug": "texas",
+    "lat": 33.1507,
+    "lng": -96.8236,
+    "population": 200509,
+    "priority": 3
+  },
+  {
+    "city": "Amarillo",
+    "city_slug": "amarillo",
+    "state": "TX",
+    "state_slug": "texas",
+    "lat": 35.222,
+    "lng": -101.8313,
+    "population": 200393,
+    "priority": 3
+  },
+  {
+    "city": "Huntington Beach",
+    "city_slug": "huntington-beach",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 33.6595,
+    "lng": -117.9988,
+    "population": 198711,
+    "priority": 3
+  },
+  {
+    "city": "Overland Park",
+    "city_slug": "overland-park",
+    "state": "KS",
+    "state_slug": "kansas",
+    "lat": 38.9822,
+    "lng": -94.6708,
+    "population": 197238,
+    "priority": 3
+  },
+  {
+    "city": "Glendale",
+    "city_slug": "glendale-ca",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 34.1425,
+    "lng": -118.2551,
+    "population": 196543,
+    "priority": 3
+  },
+  {
+    "city": "McKinney",
+    "city_slug": "mckinney",
+    "state": "TX",
+    "state_slug": "texas",
+    "lat": 33.1972,
+    "lng": -96.6397,
+    "population": 195308,
+    "priority": 3
+  },
+  {
+    "city": "Sioux Falls",
+    "city_slug": "sioux-falls",
+    "state": "SD",
+    "state_slug": "south-dakota",
+    "lat": 43.5446,
+    "lng": -96.7311,
+    "population": 192517,
+    "priority": 3
+  },
+  {
+    "city": "Peoria",
+    "city_slug": "peoria",
+    "state": "AZ",
+    "state_slug": "arizona",
+    "lat": 33.5806,
+    "lng": -112.2374,
+    "population": 190985,
+    "priority": 3
+  },
+  {
+    "city": "Vancouver",
+    "city_slug": "vancouver",
+    "state": "WA",
+    "state_slug": "washington",
+    "lat": 45.6257,
+    "lng": -122.6761,
+    "population": 190915,
+    "priority": 3
+  },
+  {
+    "city": "Shreveport",
+    "city_slug": "shreveport",
+    "state": "LA",
+    "state_slug": "louisiana",
+    "lat": 32.5252,
+    "lng": -93.7502,
+    "population": 187112,
+    "priority": 3
+  },
+  {
+    "city": "Mobile",
+    "city_slug": "mobile",
+    "state": "AL",
+    "state_slug": "alabama",
+    "lat": 30.6954,
+    "lng": -88.0399,
+    "population": 187041,
+    "priority": 3
+  },
+  {
+    "city": "Brownsville",
+    "city_slug": "brownsville",
+    "state": "TX",
+    "state_slug": "texas",
+    "lat": 25.9017,
+    "lng": -97.4975,
+    "population": 186738,
+    "priority": 3
+  },
+  {
+    "city": "Newport News",
+    "city_slug": "newport-news",
+    "state": "VA",
+    "state_slug": "virginia",
+    "lat": 37.0871,
+    "lng": -76.473,
+    "population": 186247,
+    "priority": 3
+  },
+  {
+    "city": "Tempe",
+    "city_slug": "tempe",
+    "state": "AZ",
+    "state_slug": "arizona",
+    "lat": 33.4255,
+    "lng": -111.94,
+    "population": 180587,
+    "priority": 3
+  },
+  {
+    "city": "Aurora",
+    "city_slug": "aurora-il",
+    "state": "IL",
+    "state_slug": "illinois",
+    "lat": 41.7606,
+    "lng": -88.3201,
+    "population": 180542,
+    "priority": 3
+  },
+  {
+    "city": "Santa Rosa",
+    "city_slug": "santa-rosa",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 38.4404,
+    "lng": -122.7141,
+    "population": 178127,
+    "priority": 3
+  },
+  {
+    "city": "Santa Rosa",
+    "city_slug": "santa-rosa-ca",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 38.4404,
+    "lng": -122.7141,
+    "population": 178127,
+    "priority": 3
+  },
+  {
+    "city": "Eugene",
+    "city_slug": "eugene",
+    "state": "OR",
+    "state_slug": "oregon",
+    "lat": 44.0521,
+    "lng": -123.0868,
+    "population": 176654,
+    "priority": 3
+  },
+  {
+    "city": "Elk Grove",
+    "city_slug": "elk-grove",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 38.4088,
+    "lng": -121.3716,
+    "population": 176124,
+    "priority": 3
+  },
+  {
+    "city": "Salem",
+    "city_slug": "salem",
+    "state": "OR",
+    "state_slug": "oregon",
+    "lat": 44.9429,
+    "lng": -123.0351,
+    "population": 175535,
+    "priority": 3
+  },
+  {
+    "city": "Ontario",
+    "city_slug": "ontario",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 34.0633,
+    "lng": -117.6509,
+    "population": 175265,
+    "priority": 3
+  },
+  {
+    "city": "Cary",
+    "city_slug": "cary",
+    "state": "NC",
+    "state_slug": "north-carolina",
+    "lat": 35.7915,
+    "lng": -78.7811,
+    "population": 174721,
+    "priority": 3
+  },
+  {
+    "city": "Rancho Cucamonga",
+    "city_slug": "rancho-cucamonga",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 34.1064,
+    "lng": -117.5931,
+    "population": 174453,
+    "priority": 3
+  },
+  {
+    "city": "Oceanside",
+    "city_slug": "oceanside",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 33.1959,
+    "lng": -117.3795,
+    "population": 174068,
+    "priority": 3
+  },
+  {
+    "city": "Lancaster",
+    "city_slug": "lancaster",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 34.6868,
+    "lng": -118.1542,
+    "population": 173516,
+    "priority": 3
+  },
+  {
+    "city": "Garden Grove",
+    "city_slug": "garden-grove",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 33.7743,
+    "lng": -117.938,
+    "population": 171949,
+    "priority": 3
+  },
+  {
+    "city": "Pembroke Pines",
+    "city_slug": "pembroke-pines",
+    "state": "FL",
+    "state_slug": "florida",
+    "lat": 26.0078,
+    "lng": -80.2962,
+    "population": 171178,
+    "priority": 3
+  },
+  {
+    "city": "Fort Collins",
+    "city_slug": "fort-collins",
+    "state": "CO",
+    "state_slug": "colorado",
+    "lat": 40.5853,
+    "lng": -105.0844,
+    "population": 169810,
+    "priority": 3
+  },
+  {
+    "city": "Palmdale",
+    "city_slug": "palmdale",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 34.5794,
+    "lng": -118.1165,
+    "population": 169450,
+    "priority": 3
+  },
+  {
+    "city": "Springfield",
+    "city_slug": "springfield-mo",
+    "state": "MO",
+    "state_slug": "missouri",
+    "lat": 37.209,
+    "lng": -93.2923,
+    "population": 169176,
+    "priority": 3
+  },
+  {
+    "city": "Clarksville",
+    "city_slug": "clarksville",
+    "state": "TN",
+    "state_slug": "tennessee",
+    "lat": 36.5298,
+    "lng": -87.3595,
+    "population": 166722,
+    "priority": 3
+  },
+  {
+    "city": "Paterson",
+    "city_slug": "paterson",
+    "state": "NJ",
+    "state_slug": "new-jersey",
+    "lat": 40.9168,
+    "lng": -74.1718,
+    "population": 159732,
+    "priority": 3
+  },
+  {
+    "city": "Macon",
+    "city_slug": "macon",
+    "state": "GA",
+    "state_slug": "georgia",
+    "lat": 32.8407,
+    "lng": -83.6324,
+    "population": 157346,
+    "priority": 3
+  },
+  {
+    "city": "Kansas City",
+    "city_slug": "kansas-city-ks",
+    "state": "KS",
+    "state_slug": "kansas",
+    "lat": 39.1141,
+    "lng": -94.6275,
+    "population": 156607,
+    "priority": 3
+  },
+  {
+    "city": "Springfield",
+    "city_slug": "springfield",
+    "state": "MA",
+    "state_slug": "massachusetts",
+    "lat": 42.1015,
+    "lng": -72.5898,
+    "population": 155929,
+    "priority": 3
+  },
+  {
+    "city": "Sunnyvale",
+    "city_slug": "sunnyvale",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 37.3688,
+    "lng": -122.0363,
+    "population": 155805,
+    "priority": 3
+  },
+  {
+    "city": "Jackson",
+    "city_slug": "jackson",
+    "state": "MS",
+    "state_slug": "mississippi",
+    "lat": 32.2988,
+    "lng": -90.1848,
+    "population": 153701,
+    "priority": 3
+  },
+  {
+    "city": "Killeen",
+    "city_slug": "killeen",
+    "state": "TX",
+    "state_slug": "texas",
+    "lat": 31.1171,
+    "lng": -97.7278,
+    "population": 153095,
+    "priority": 3
+  },
+  {
+    "city": "Hollywood",
+    "city_slug": "hollywood",
+    "state": "FL",
+    "state_slug": "florida",
+    "lat": 26.0112,
+    "lng": -80.1495,
+    "population": 153067,
+    "priority": 3
+  },
+  {
+    "city": "Murfreesboro",
+    "city_slug": "murfreesboro",
+    "state": "TN",
+    "state_slug": "tennessee",
+    "lat": 35.8456,
+    "lng": -86.3903,
+    "population": 152769,
+    "priority": 3
+  },
+  {
+    "city": "Pasadena",
+    "city_slug": "pasadena",
+    "state": "TX",
+    "state_slug": "texas",
+    "lat": 29.6911,
+    "lng": -95.2091,
+    "population": 151950,
+    "priority": 3
+  },
+  {
+    "city": "Bellevue",
+    "city_slug": "bellevue",
+    "state": "WA",
+    "state_slug": "washington",
+    "lat": 47.6101,
+    "lng": -122.2015,
+    "population": 151854,
+    "priority": 3
+  },
+  {
+    "city": "Pomona",
+    "city_slug": "pomona",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 34.0551,
+    "lng": -117.75,
+    "population": 151830,
+    "priority": 3
+  },
+  {
+    "city": "Escondido",
+    "city_slug": "escondido",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 33.1192,
+    "lng": -117.0864,
+    "population": 151038,
+    "priority": 3
+  },
+  {
+    "city": "Joliet",
+    "city_slug": "joliet",
+    "state": "IL",
+    "state_slug": "illinois",
+    "lat": 41.525,
+    "lng": -88.0817,
+    "population": 150362,
+    "priority": 3
+  },
+  {
+    "city": "Charleston",
+    "city_slug": "charleston",
+    "state": "SC",
+    "state_slug": "south-carolina",
+    "lat": 32.7765,
+    "lng": -79.9311,
+    "population": 150227,
+    "priority": 3
+  },
+  {
+    "city": "Mesquite",
+    "city_slug": "mesquite",
+    "state": "TX",
+    "state_slug": "texas",
+    "lat": 32.7668,
+    "lng": -96.5992,
+    "population": 150108,
+    "priority": 3
+  },
+  {
+    "city": "Naperville",
+    "city_slug": "naperville",
+    "state": "IL",
+    "state_slug": "illinois",
+    "lat": 41.7508,
+    "lng": -88.1535,
+    "population": 149540,
+    "priority": 3
+  },
+  {
+    "city": "Rockford",
+    "city_slug": "rockford",
+    "state": "IL",
+    "state_slug": "illinois",
+    "lat": 42.2711,
+    "lng": -89.094,
+    "population": 148655,
+    "priority": 3
+  },
+  {
+    "city": "Bridgeport",
+    "city_slug": "bridgeport",
+    "state": "CT",
+    "state_slug": "connecticut",
+    "lat": 41.1865,
+    "lng": -73.1952,
+    "population": 148654,
+    "priority": 3
+  },
+  {
+    "city": "Syracuse",
+    "city_slug": "syracuse",
+    "state": "NY",
+    "state_slug": "new-york",
+    "lat": 43.0481,
+    "lng": -76.1474,
+    "population": 148620,
+    "priority": 3
+  },
+  {
+    "city": "Denton",
+    "city_slug": "denton",
+    "state": "TX",
+    "state_slug": "texas",
+    "lat": 33.2148,
+    "lng": -97.1331,
+    "population": 148146,
+    "priority": 3
+  },
+  {
+    "city": "Savannah",
+    "city_slug": "savannah",
+    "state": "GA",
+    "state_slug": "georgia",
+    "lat": 32.0809,
+    "lng": -81.0912,
+    "population": 147780,
+    "priority": 3
+  },
+  {
+    "city": "Roseville",
+    "city_slug": "roseville",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 38.7521,
+    "lng": -121.288,
+    "population": 147773,
+    "priority": 3
+  },
+  {
+    "city": "Torrance",
+    "city_slug": "torrance",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 33.8358,
+    "lng": -118.3406,
+    "population": 147067,
+    "priority": 3
+  },
+  {
+    "city": "McAllen",
+    "city_slug": "mcallen",
+    "state": "TX",
+    "state_slug": "texas",
+    "lat": 26.2034,
+    "lng": -98.23,
+    "population": 143920,
+    "priority": 3
+  },
+  {
+    "city": "Fullerton",
+    "city_slug": "fullerton",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 33.8704,
+    "lng": -117.9242,
+    "population": 143617,
+    "priority": 3
+  },
+  {
+    "city": "Gainesville",
+    "city_slug": "gainesville",
+    "state": "FL",
+    "state_slug": "florida",
+    "lat": 29.6516,
+    "lng": -82.3248,
+    "population": 141085,
+    "priority": 3
+  },
+  {
+    "city": "Warren",
+    "city_slug": "warren",
+    "state": "MI",
+    "state_slug": "michigan",
+    "lat": 42.5145,
+    "lng": -83.0147,
+    "population": 139387,
+    "priority": 3
+  },
+  {
+    "city": "Pasadena",
+    "city_slug": "pasadena-ca",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 34.1478,
+    "lng": -118.1445,
+    "population": 138699,
+    "priority": 3
+  },
+  {
+    "city": "Waco",
+    "city_slug": "waco",
+    "state": "TX",
+    "state_slug": "texas",
+    "lat": 31.5493,
+    "lng": -97.1467,
+    "population": 138486,
+    "priority": 3
+  },
+  {
+    "city": "Elizabeth",
+    "city_slug": "elizabeth",
+    "state": "NJ",
+    "state_slug": "new-jersey",
+    "lat": 40.664,
+    "lng": -74.2107,
+    "population": 137298,
+    "priority": 3
+  },
+  {
+    "city": "Hampton",
+    "city_slug": "hampton",
+    "state": "VA",
+    "state_slug": "virginia",
+    "lat": 37.0299,
+    "lng": -76.3452,
+    "population": 137148,
+    "priority": 3
+  },
+  {
+    "city": "Columbia",
+    "city_slug": "columbia",
+    "state": "SC",
+    "state_slug": "south-carolina",
+    "lat": 34.0007,
+    "lng": -81.0348,
+    "population": 136632,
+    "priority": 3
+  },
+  {
+    "city": "New Haven",
+    "city_slug": "new-haven",
+    "state": "CT",
+    "state_slug": "connecticut",
+    "lat": 41.3083,
+    "lng": -72.9279,
+    "population": 134023,
+    "priority": 3
+  },
+  {
+    "city": "Fargo",
+    "city_slug": "fargo",
+    "state": "ND",
+    "state_slug": "north-dakota",
+    "lat": 46.8772,
+    "lng": -96.7898,
+    "population": 125990,
+    "priority": 3
+  },
+  {
+    "city": "Allentown",
+    "city_slug": "allentown",
+    "state": "PA",
+    "state_slug": "pennsylvania",
+    "lat": 40.6084,
+    "lng": -75.4902,
+    "population": 125845,
+    "priority": 3
+  },
+  {
+    "city": "Hartford",
+    "city_slug": "hartford",
+    "state": "CT",
+    "state_slug": "connecticut",
+    "lat": 41.7658,
+    "lng": -72.6734,
+    "population": 121054,
+    "priority": 3
+  },
+  {
+    "city": "Surprise",
+    "city_slug": "surprise",
+    "state": "AZ",
+    "state_slug": "arizona",
+    "lat": 33.6292,
+    "lng": -112.3679,
+    "population": 143148,
+    "priority": 4
+  },
+  {
+    "city": "Thornton",
+    "city_slug": "thornton",
+    "state": "CO",
+    "state_slug": "colorado",
+    "lat": 39.868,
+    "lng": -104.9719,
+    "population": 141867,
+    "priority": 4
+  },
+  {
+    "city": "Visalia",
+    "city_slug": "visalia",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 36.3302,
+    "lng": -119.2921,
+    "population": 141384,
+    "priority": 4
+  },
+  {
+    "city": "West Valley City",
+    "city_slug": "west-valley-city",
+    "state": "UT",
+    "state_slug": "utah",
+    "lat": 40.6916,
+    "lng": -112.0011,
+    "population": 140230,
+    "priority": 4
+  },
+  {
+    "city": "Orange",
+    "city_slug": "orange",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 33.7878,
+    "lng": -117.8531,
+    "population": 139911,
+    "priority": 4
+  },
+  {
+    "city": "Cedar Rapids",
+    "city_slug": "cedar-rapids",
+    "state": "IA",
+    "state_slug": "iowa",
+    "lat": 41.9778,
+    "lng": -91.6656,
+    "population": 137710,
+    "priority": 4
+  },
+  {
+    "city": "Kent",
+    "city_slug": "kent",
+    "state": "WA",
+    "state_slug": "washington",
+    "lat": 47.3809,
+    "lng": -122.2348,
+    "population": 136588,
+    "priority": 4
+  },
+  {
+    "city": "Miramar",
+    "city_slug": "miramar",
+    "state": "FL",
+    "state_slug": "florida",
+    "lat": 25.9861,
+    "lng": -80.3036,
+    "population": 134721,
+    "priority": 4
+  },
+  {
+    "city": "Coral Springs",
+    "city_slug": "coral-springs",
+    "state": "FL",
+    "state_slug": "florida",
+    "lat": 26.2712,
+    "lng": -80.2706,
+    "population": 134394,
+    "priority": 4
+  },
+  {
+    "city": "Sterling Heights",
+    "city_slug": "sterling-heights",
+    "state": "MI",
+    "state_slug": "michigan",
+    "lat": 42.5803,
+    "lng": -83.0302,
+    "population": 134346,
+    "priority": 4
+  },
+  {
+    "city": "Round Rock",
+    "city_slug": "round-rock",
+    "state": "TX",
+    "state_slug": "texas",
+    "lat": 30.5083,
+    "lng": -97.6789,
+    "population": 133372,
+    "priority": 4
+  },
+  {
+    "city": "Midland",
+    "city_slug": "midland",
+    "state": "TX",
+    "state_slug": "texas",
+    "lat": 31.9973,
+    "lng": -102.0779,
+    "population": 132524,
+    "priority": 4
+  },
+  {
+    "city": "Norman",
+    "city_slug": "norman",
+    "state": "OK",
+    "state_slug": "oklahoma",
+    "lat": 35.2226,
+    "lng": -97.4395,
+    "population": 128097,
+    "priority": 4
+  },
+  {
+    "city": "Santa Clara",
+    "city_slug": "santa-clara",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 37.3541,
+    "lng": -121.9552,
+    "population": 127647,
+    "priority": 4
+  },
+  {
+    "city": "Athens",
+    "city_slug": "athens",
+    "state": "GA",
+    "state_slug": "georgia",
+    "lat": 33.9519,
+    "lng": -83.3576,
+    "population": 127315,
+    "priority": 4
+  },
+  {
+    "city": "Columbia",
+    "city_slug": "columbia-mo",
+    "state": "MO",
+    "state_slug": "missouri",
+    "lat": 38.9517,
+    "lng": -92.3341,
+    "population": 126254,
+    "priority": 4
+  },
+  {
+    "city": "Vallejo",
+    "city_slug": "vallejo",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 38.1041,
+    "lng": -122.2566,
+    "population": 126090,
+    "priority": 4
+  },
+  {
+    "city": "Concord",
+    "city_slug": "concord",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 37.978,
+    "lng": -122.0311,
+    "population": 125410,
+    "priority": 4
+  },
+  {
+    "city": "Abilene",
+    "city_slug": "abilene",
+    "state": "TX",
+    "state_slug": "texas",
+    "lat": 32.4487,
+    "lng": -99.7331,
+    "population": 125182,
+    "priority": 4
+  },
+  {
+    "city": "Arvada",
+    "city_slug": "arvada",
+    "state": "CO",
+    "state_slug": "colorado",
+    "lat": 39.8028,
+    "lng": -105.0875,
+    "population": 124402,
+    "priority": 4
+  },
+  {
+    "city": "Berkeley",
+    "city_slug": "berkeley",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 37.8715,
+    "lng": -122.273,
+    "population": 124321,
+    "priority": 4
+  },
+  {
+    "city": "Ann Arbor",
+    "city_slug": "ann-arbor",
+    "state": "MI",
+    "state_slug": "michigan",
+    "lat": 42.2808,
+    "lng": -83.743,
+    "population": 123851,
+    "priority": 4
+  },
+  {
+    "city": "Independence",
+    "city_slug": "independence",
+    "state": "MO",
+    "state_slug": "missouri",
+    "lat": 39.0911,
+    "lng": -94.4155,
+    "population": 123011,
+    "priority": 4
+  },
+  {
+    "city": "Rochester",
+    "city_slug": "rochester-mn",
+    "state": "MN",
+    "state_slug": "minnesota",
+    "lat": 44.0121,
+    "lng": -92.4802,
+    "population": 121395,
+    "priority": 4
+  },
+  {
+    "city": "Clovis",
+    "city_slug": "clovis",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 36.8252,
+    "lng": -119.7029,
+    "population": 120124,
+    "priority": 4
+  },
+  {
+    "city": "Fairfield",
+    "city_slug": "fairfield",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 38.2494,
+    "lng": -122.04,
+    "population": 119881,
+    "priority": 4
+  },
+  {
+    "city": "Palm Bay",
+    "city_slug": "palm-bay",
+    "state": "FL",
+    "state_slug": "florida",
+    "lat": 28.0345,
+    "lng": -80.5887,
+    "population": 119760,
+    "priority": 4
+  },
+  {
+    "city": "Meridian",
+    "city_slug": "meridian",
+    "state": "ID",
+    "state_slug": "idaho",
+    "lat": 43.6121,
+    "lng": -116.3915,
+    "population": 117635,
+    "priority": 4
+  },
+  {
+    "city": "West Palm Beach",
+    "city_slug": "west-palm-beach",
+    "state": "FL",
+    "state_slug": "florida",
+    "lat": 26.7153,
+    "lng": -80.0534,
+    "population": 117415,
+    "priority": 4
+  },
+  {
+    "city": "Evansville",
+    "city_slug": "evansville",
+    "state": "IN",
+    "state_slug": "indiana",
+    "lat": 37.9716,
+    "lng": -87.5711,
+    "population": 117298,
+    "priority": 4
+  },
+  {
+    "city": "Clearwater",
+    "city_slug": "clearwater",
+    "state": "FL",
+    "state_slug": "florida",
+    "lat": 27.9659,
+    "lng": -82.8001,
+    "population": 117292,
+    "priority": 4
+  },
+  {
+    "city": "Billings",
+    "city_slug": "billings",
+    "state": "MT",
+    "state_slug": "montana",
+    "lat": 45.7833,
+    "lng": -108.5007,
+    "population": 117116,
+    "priority": 4
+  },
+  {
+    "city": "West Jordan",
+    "city_slug": "west-jordan",
+    "state": "UT",
+    "state_slug": "utah",
+    "lat": 40.6097,
+    "lng": -111.9391,
+    "population": 116961,
+    "priority": 4
+  },
+  {
+    "city": "Richmond",
+    "city_slug": "richmond-ca",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 37.9358,
+    "lng": -122.3477,
+    "population": 116448,
+    "priority": 4
+  },
+  {
+    "city": "Westminster",
+    "city_slug": "westminster",
+    "state": "CO",
+    "state_slug": "colorado",
+    "lat": 39.8367,
+    "lng": -105.0372,
+    "population": 116317,
+    "priority": 4
+  },
+  {
+    "city": "Manchester",
+    "city_slug": "manchester",
+    "state": "NH",
+    "state_slug": "new-hampshire",
+    "lat": 42.9956,
+    "lng": -71.4548,
+    "population": 115644,
+    "priority": 4
+  },
+  {
+    "city": "Wilmington",
+    "city_slug": "wilmington-nc",
+    "state": "NC",
+    "state_slug": "north-carolina",
+    "lat": 34.2257,
+    "lng": -77.9447,
+    "population": 115451,
+    "priority": 4
+  },
+  {
+    "city": "Antioch",
+    "city_slug": "antioch",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 38.0049,
+    "lng": -121.8058,
+    "population": 115291,
+    "priority": 4
+  },
+  {
+    "city": "Beaumont",
+    "city_slug": "beaumont",
+    "state": "TX",
+    "state_slug": "texas",
+    "lat": 30.0802,
+    "lng": -94.1266,
+    "population": 115282,
+    "priority": 4
+  },
+  {
+    "city": "Provo",
+    "city_slug": "provo",
+    "state": "UT",
+    "state_slug": "utah",
+    "lat": 40.2338,
+    "lng": -111.6585,
+    "population": 115162,
+    "priority": 4
+  },
+  {
+    "city": "Carlsbad",
+    "city_slug": "carlsbad",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 33.1581,
+    "lng": -117.3506,
+    "population": 114746,
+    "priority": 4
+  },
+  {
+    "city": "Murrieta",
+    "city_slug": "murrieta",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 33.5539,
+    "lng": -117.2139,
+    "population": 114496,
+    "priority": 4
+  },
+  {
+    "city": "Springfield",
+    "city_slug": "springfield-il",
+    "state": "IL",
+    "state_slug": "illinois",
+    "lat": 39.7817,
+    "lng": -89.6501,
+    "population": 114394,
+    "priority": 4
+  },
+  {
+    "city": "Gresham",
+    "city_slug": "gresham",
+    "state": "OR",
+    "state_slug": "oregon",
+    "lat": 45.5001,
+    "lng": -122.4302,
+    "population": 114247,
+    "priority": 4
+  },
+  {
+    "city": "High Point",
+    "city_slug": "high-point",
+    "state": "NC",
+    "state_slug": "north-carolina",
+    "lat": 35.9557,
+    "lng": -80.0053,
+    "population": 114059,
+    "priority": 4
+  },
+  {
+    "city": "Broken Arrow",
+    "city_slug": "broken-arrow",
+    "state": "OK",
+    "state_slug": "oklahoma",
+    "lat": 36.0526,
+    "lng": -95.7908,
+    "population": 113540,
+    "priority": 4
+  },
+  {
+    "city": "Peoria",
+    "city_slug": "peoria-il",
+    "state": "IL",
+    "state_slug": "illinois",
+    "lat": 40.6936,
+    "lng": -89.589,
+    "population": 113150,
+    "priority": 4
+  },
+  {
+    "city": "Lansing",
+    "city_slug": "lansing",
+    "state": "MI",
+    "state_slug": "michigan",
+    "lat": 42.7325,
+    "lng": -84.5555,
+    "population": 112644,
+    "priority": 4
+  },
+  {
+    "city": "Lakeland",
+    "city_slug": "lakeland",
+    "state": "FL",
+    "state_slug": "florida",
+    "lat": 28.0395,
+    "lng": -81.9498,
+    "population": 112641,
+    "priority": 4
+  },
+  {
+    "city": "Pompano Beach",
+    "city_slug": "pompano-beach",
+    "state": "FL",
+    "state_slug": "florida",
+    "lat": 26.2379,
+    "lng": -80.1248,
+    "population": 112046,
+    "priority": 4
+  },
+  {
+    "city": "Pueblo",
+    "city_slug": "pueblo",
+    "state": "CO",
+    "state_slug": "colorado",
+    "lat": 38.2544,
+    "lng": -104.6091,
+    "population": 111876,
+    "priority": 4
+  },
+  {
+    "city": "Las Cruces",
+    "city_slug": "las-cruces",
+    "state": "NM",
+    "state_slug": "new-mexico",
+    "lat": 32.3199,
+    "lng": -106.7637,
+    "population": 111385,
+    "priority": 4
+  },
+  {
+    "city": "Everett",
+    "city_slug": "everett",
+    "state": "WA",
+    "state_slug": "washington",
+    "lat": 47.9789,
+    "lng": -122.2021,
+    "population": 110629,
+    "priority": 4
+  },
+  {
+    "city": "Temecula",
+    "city_slug": "temecula",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 33.4936,
+    "lng": -117.1484,
+    "population": 110003,
+    "priority": 4
+  },
+  {
+    "city": "Dearborn",
+    "city_slug": "dearborn",
+    "state": "MI",
+    "state_slug": "michigan",
+    "lat": 42.3223,
+    "lng": -83.1763,
+    "population": 109976,
+    "priority": 4
+  },
+  {
+    "city": "Greeley",
+    "city_slug": "greeley",
+    "state": "CO",
+    "state_slug": "colorado",
+    "lat": 40.4233,
+    "lng": -104.7091,
+    "population": 108795,
+    "priority": 4
+  },
+  {
+    "city": "Sparks",
+    "city_slug": "sparks",
+    "state": "NV",
+    "state_slug": "nevada",
+    "lat": 39.5349,
+    "lng": -119.7527,
+    "population": 108445,
+    "priority": 4
+  },
+  {
+    "city": "Boulder",
+    "city_slug": "boulder",
+    "state": "CO",
+    "state_slug": "colorado",
+    "lat": 40.015,
+    "lng": -105.2705,
+    "population": 108090,
+    "priority": 4
+  },
+  {
+    "city": "Sandy Springs",
+    "city_slug": "sandy-springs",
+    "state": "GA",
+    "state_slug": "georgia",
+    "lat": 33.9304,
+    "lng": -84.3733,
+    "population": 108080,
+    "priority": 4
+  },
+  {
+    "city": "Edison",
+    "city_slug": "edison",
+    "state": "NJ",
+    "state_slug": "new-jersey",
+    "lat": 40.5187,
+    "lng": -74.4121,
+    "population": 107588,
+    "priority": 4
+  },
+  {
+    "city": "South Fulton",
+    "city_slug": "south-fulton",
+    "state": "GA",
+    "state_slug": "georgia",
+    "lat": 33.6565,
+    "lng": -84.6122,
+    "population": 107436,
+    "priority": 4
+  },
+  {
+    "city": "Green Bay",
+    "city_slug": "green-bay",
+    "state": "WI",
+    "state_slug": "wisconsin",
+    "lat": 44.5192,
+    "lng": -88.0198,
+    "population": 107395,
+    "priority": 4
+  },
+  {
+    "city": "Hillsboro",
+    "city_slug": "hillsboro",
+    "state": "OR",
+    "state_slug": "oregon",
+    "lat": 45.5229,
+    "lng": -122.9898,
+    "population": 106894,
+    "priority": 4
+  },
+  {
+    "city": "Renton",
+    "city_slug": "renton",
+    "state": "WA",
+    "state_slug": "washington",
+    "lat": 47.4829,
+    "lng": -122.2171,
+    "population": 106785,
+    "priority": 4
+  },
+  {
+    "city": "San Mateo",
+    "city_slug": "san-mateo",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 37.5629,
+    "lng": -122.3255,
+    "population": 105661,
+    "priority": 4
+  },
+  {
+    "city": "Spokane Valley",
+    "city_slug": "spokane-valley",
+    "state": "WA",
+    "state_slug": "washington",
+    "lat": 47.6733,
+    "lng": -117.2394,
+    "population": 105376,
+    "priority": 4
+  },
+  {
+    "city": "Concord",
+    "city_slug": "concord-nc",
+    "state": "NC",
+    "state_slug": "north-carolina",
+    "lat": 35.4088,
+    "lng": -80.5795,
+    "population": 105240,
+    "priority": 4
+  },
+  {
+    "city": "Daly City",
+    "city_slug": "daly-city",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 37.6879,
+    "lng": -122.4702,
+    "population": 104901,
+    "priority": 4
+  },
+  {
+    "city": "Rio Rancho",
+    "city_slug": "rio-rancho",
+    "state": "NM",
+    "state_slug": "new-mexico",
+    "lat": 35.2328,
+    "lng": -106.663,
+    "population": 104026,
+    "priority": 4
+  },
+  {
+    "city": "Woodbridge",
+    "city_slug": "woodbridge",
+    "state": "NJ",
+    "state_slug": "new-jersey",
+    "lat": 40.5576,
+    "lng": -74.2846,
+    "population": 103639,
+    "priority": 4
+  },
+  {
+    "city": "South Bend",
+    "city_slug": "south-bend",
+    "state": "IN",
+    "state_slug": "indiana",
+    "lat": 41.6764,
+    "lng": -86.252,
+    "population": 103453,
+    "priority": 4
+  },
+  {
+    "city": "Albany",
+    "city_slug": "albany",
+    "state": "NY",
+    "state_slug": "new-york",
+    "lat": 42.6526,
+    "lng": -73.7562,
+    "population": 99224,
+    "priority": 4
+  },
+  {
+    "city": "Reading",
+    "city_slug": "reading",
+    "state": "PA",
+    "state_slug": "pennsylvania",
+    "lat": 40.3356,
+    "lng": -75.9269,
+    "population": 95112,
+    "priority": 4
+  },
+  {
+    "city": "Erie",
+    "city_slug": "erie",
+    "state": "PA",
+    "state_slug": "pennsylvania",
+    "lat": 42.1292,
+    "lng": -80.0851,
+    "population": 94831,
+    "priority": 4
+  },
+  {
+    "city": "Wilmington",
+    "city_slug": "wilmington",
+    "state": "DE",
+    "state_slug": "delaware",
+    "lat": 39.7391,
+    "lng": -75.5398,
+    "population": 70851,
+    "priority": 4
+  },
+  {
+    "city": "Portland",
+    "city_slug": "portland-me",
+    "state": "ME",
+    "state_slug": "maine",
+    "lat": 43.6591,
+    "lng": -70.2568,
+    "population": 68408,
+    "priority": 4
+  },
+  {
+    "city": "Nampa",
+    "city_slug": "nampa",
+    "state": "ID",
+    "state_slug": "idaho",
+    "lat": 43.5407,
+    "lng": -116.5635,
+    "population": 100200,
+    "priority": 5
+  },
+  {
+    "city": "Kenosha",
+    "city_slug": "kenosha",
+    "state": "WI",
+    "state_slug": "wisconsin",
+    "lat": 42.5847,
+    "lng": -87.8212,
+    "population": 99986,
+    "priority": 5
+  },
+  {
+    "city": "Orem",
+    "city_slug": "orem",
+    "state": "UT",
+    "state_slug": "utah",
+    "lat": 40.2969,
+    "lng": -111.6946,
+    "population": 98129,
+    "priority": 5
+  },
+  {
+    "city": "Sandy",
+    "city_slug": "sandy",
+    "state": "UT",
+    "state_slug": "utah",
+    "lat": 40.5649,
+    "lng": -111.8389,
+    "population": 96904,
+    "priority": 5
+  },
+  {
+    "city": "Livonia",
+    "city_slug": "livonia",
+    "state": "MI",
+    "state_slug": "michigan",
+    "lat": 42.3684,
+    "lng": -83.3527,
+    "population": 95535,
+    "priority": 5
+  },
+  {
+    "city": "Asheville",
+    "city_slug": "asheville",
+    "state": "NC",
+    "state_slug": "north-carolina",
+    "lat": 35.5951,
+    "lng": -82.5515,
+    "population": 94589,
+    "priority": 5
+  },
+  {
+    "city": "Duluth",
+    "city_slug": "duluth",
+    "state": "MN",
+    "state_slug": "minnesota",
+    "lat": 46.7867,
+    "lng": -92.1005,
+    "population": 86697,
+    "priority": 5
+  },
+  {
+    "city": "Franklin",
+    "city_slug": "franklin",
+    "state": "TN",
+    "state_slug": "tennessee",
+    "lat": 35.9251,
+    "lng": -86.8689,
+    "population": 83454,
+    "priority": 5
+  },
+  {
+    "city": "Flint",
+    "city_slug": "flint",
+    "state": "MI",
+    "state_slug": "michigan",
+    "lat": 43.0125,
+    "lng": -83.6875,
+    "population": 81252,
+    "priority": 5
+  },
+  {
+    "city": "Racine",
+    "city_slug": "racine",
+    "state": "WI",
+    "state_slug": "wisconsin",
+    "lat": 42.7261,
+    "lng": -87.7829,
+    "population": 77816,
+    "priority": 5
+  },
+  {
+    "city": "Charleston",
+    "city_slug": "charleston-wv",
+    "state": "WV",
+    "state_slug": "west-virginia",
+    "lat": 38.3498,
+    "lng": -81.6326,
+    "population": 48864,
+    "priority": 5
+  },
+  {
+    "city": "Burlington",
+    "city_slug": "burlington",
+    "state": "VT",
+    "state_slug": "vermont",
+    "lat": 44.4759,
+    "lng": -73.2121,
+    "population": 44743,
+    "priority": 5
+  }
+]

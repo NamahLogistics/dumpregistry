@@ -4,9 +4,12 @@ import path from "node:path";
 import { SourceLink } from "@/components/SourceLink";
 import { dataRoot } from "@/lib/paths";
 
+import { canonicalMetadata } from "@/lib/seo";
+
 export const metadata: Metadata = {
   title: "Sources",
   description: "Primary sources used for city disposal guidance on DumpRegistry.",
+  ...canonicalMetadata("/sources"),
 };
 
 type Rule = {
