@@ -410,6 +410,90 @@ row("SPSA Hampton Roads VA", "SPSA Landstown Transfer Station — Concert Drive"
     "1825 Concert Drive, Virginia Beach, VA 23453", 36.785, -76.075, SPSA,
     "Mon–Fri 8:00–17:00; Sat 8:00–12:00", "757-961-3981", TRANSFER())
 
+# ── SWACO 2026 mobile HHW + Shred events → columbus ──
+# Sources: swaco.org events; columbus.gov HHW; auditor.franklincountyohio.gov
+SWACO_EVT = "https://www.swaco.org/diversion/residents/household-hazardous-waste-collection-events/"
+COL_HHW = "https://www.columbus.gov/Services/Trash-Recycling-Bulk-Collection/Household-Trash-Collection/Household-Hazardous-Waste-Collection"
+AUD_SHRED = "https://auditor.franklincountyohio.gov/Events/20260509-Shred-Hunger"
+WEST_HHW = "https://www.westerville.org/HHW"
+for name, addr, zipc, lat, lng, hours, src, mlist in [
+    ("SWACO mobile HHW — Grove City Kingston Center", "3226 Kingston Avenue, Grove City, OH 43123", "43123", 39.885, -83.065,
+     "Sep 26 2026 8:00–13:00; Franklin County residents", SWACO_EVT, HHW_E()),
+    ("SWACO mobile HHW — Westerville Public Service Complex fall", "350 Park Meadow Road, Westerville, OH 43081", "43081", 40.125, -82.925,
+     "Oct 3 2026 8:00–14:00; enter from Schrock Road", WEST_HHW, HHW_E()),
+    ("SWACO mobile HHW — Westerville Public Service Complex spring", "350 Park Meadow Road, Westerville, OH 43081", "43081", 40.125, -82.925,
+     "May 30 2026 8:00–14:00; enter from Schrock Road", WEST_HHW, HHW_E()),
+    ("Franklin County Shred Hunger — Douglas Community Center", "1250 Windsor Avenue, Columbus, OH 43211", "43211", 40.015, -82.985,
+     "May 9 2026 10:00–13:00; shred + e-waste free", AUD_SHRED, HHW_E() + E_WASTE),
+    ("Franklin County Shred Hunger — Valleyview Elementary", "2989 Valleyview Drive, Columbus, OH 43204", "43204", 39.955, -83.085,
+     "Nov 7 2026 10:00–13:00; shred + e-waste free", SWACO_EVT, HHW_E() + E_WASTE),
+]:
+    row("SWACO Franklin County OH 2026 events", name,
+        "Regional mobile HHW / shred / e-waste collection event", "columbus", "OH", zipc, addr, lat, lng,
+        src, hours, "614-871-5100", mlist)
+
+# ── Louisville Metro Pop-Up Drop-Off 2026 → louisville ──
+# Source: https://louisvilleky.gov/government/public-works/pop-drop-waste-disposal-events
+POPUP = "https://louisvilleky.gov/government/public-works/pop-drop-waste-disposal-events"
+for name, addr, zipc, lat, lng, hours in [
+    ("Louisville Pop-Up Drop-Off — Doss High School", "7601 St. Andrews Church Road, Louisville, KY 40214", "40214", 38.155, -85.785, "Jun 13 2026 10:00–14:00; bulky plastic recycling"),
+    ("Louisville Pop-Up Drop-Off — Metro Fleet Services", "3515 Newburg Road, Louisville, KY 40218", "40218", 38.195, -85.685, "Jul 18 & Oct 17 2026 10:00–14:00"),
+    ("Louisville Pop-Up Drop-Off — Fern Creek schools", "8815 Ferndale Road, Louisville, KY 40291", "40291", 38.145, -85.585, "Aug 15 2026 10:00–14:00"),
+    ("Louisville Pop-Up Drop-Off — Sun Valley Park / Ashby Lane Baptist", "10401 Lower River Road, Louisville, KY 40272", "40272", 38.085, -85.865, "Sep 19 2026 10:00–14:00; shoes / meds / e-waste / shredding"),
+    ("Louisville Pop-Up Drop-Off — UofL Shelby Campus", "440 North Whittington Parkway, Louisville, KY 40222", "40222", 38.225, -85.615, "Nov 21 2026 10:00–14:00; shredding left lane"),
+]:
+    row("Louisville Metro KY Pop-Up network", name,
+        "Metro mobile bulky / e-waste / tire drop-off event", "louisville", "KY", zipc, addr, lat, lng,
+        POPUP, hours, "502-574-3290", mats(BULKY, E_WASTE, TIRES))
+
+# ── Rockland County NY SWMA facility → yonkers ──
+# Source: https://rocklandgov.com/ (flow control / SWMA contract CF 5)
+ROCKLAND = "https://rocklandgov.com/PC/RCNYGov-viewContracts.php"
+row("Rockland County NY SWMA network", "Rockland County Solid Waste Management Facility — Torne Valley",
+    "County transfer / landfill — self-haul bulky / C&D", "yonkers", "NY", "10931",
+    "420 Torne Valley Road, Hillburn, NY 10931", 41.125, -74.165, ROCKLAND,
+    "Mon–Sat 7:00–16:30; arrive by 15:30 recommended", "845-364-3820", LANDFILL())
+
+# ── Allen County Monroeville drop-off → fort-wayne ──
+# Source: https://www.allencounty.in.gov/468/Community-Recycling-Drop-off-Sites
+row("Allen County IN ACDEM network", "ACDEM Monroeville community recycling — Whippy Dip site",
+    "Township recycling drop-off — single-stream bins", "fort-wayne", "IN", "46773",
+    "103 South Water Street, Monroeville, IN 46773", 40.975, -84.869, ACDEM,
+    "24/7 drop-off bins behind Whippy Dip / EMS building", "260-449-7878", mats(E_WASTE, BULKY))
+
+# ── McHenry County IL 2026 HHW mobile events → chicago ──
+# Source: https://www.mchenrycountyil.gov/departments/health-department/environmental-health/solid-waste-program
+MCHENRY = "https://www.mchenrycountyil.gov/Home/Components/News/News/18641/17"
+for name, addr, zipc, lat, lng, hours in [
+    ("McHenry County HHW — Huntley Reed Road Campus", "10910 Reed Road, Lake in the Hills, IL 60156", "60156", 42.185, -88.345, "Jun 6 2026 8:00–15:00; pre-registration required"),
+    ("McHenry County HHW — Prairie Ridge High School Crystal Lake", "6000 Dvorak Drive, Crystal Lake, IL 60012", "60012", 42.245, -88.285, "Jun 7 2026 8:00–15:00; enter Walkup Road"),
+]:
+    row("McHenry County IL HHW network", name,
+        "County / IEPA household hazardous waste collection event", "chicago", "IL", zipc, addr, lat, lng,
+        MCHENRY, hours, "815-334-4585", HHW_E())
+
+# ── Kent County MI main SafeChem permanent → grand-rapids ──
+# Source: https://www.kentcountymi.gov/371/Locations-and-Hours
+row("Kent County MI SafeChem network", "Kent County SafeChem — Scribner Avenue NW permanent facility",
+    "County permanent HHW / e-waste facility", "grand-rapids", "MI", "49504",
+    "1500 Scribner Avenue NW, Grand Rapids, MI 49504", 42.985, -85.695, KENT,
+    "Mon–Sat 8:00–16:00; Kent County residents", "616-632-7100", HHW_E())
+
+# ── Shelby County HHW facility detail → memphis ──
+# Source: https://www.shelbycountytn.gov/439/Household-Hazardous-Waste
+SHELBY_HHW = "https://www.shelbycountytn.gov/439/Household-Hazardous-Waste"
+row("Shelby County TN solid waste network", "Memphis and Shelby County Household Hazardous Waste Facility",
+    "County permanent HHW / limited e-waste drop-off", "memphis", "TN", "38134",
+    "6305 Haley Road, Memphis, TN 38134", 35.045, -89.865, SHELBY_HHW,
+    "Tue Thu Sat 8:00–13:00; Shelby County residents only", "901-222-7729", HHW_E())
+
+# ── Erie County northern HHW event → buffalo ──
+# Source: https://www3.erie.gov/recycling/household-hazardous-waste-hhw-collection-programs
+row("Erie County NY HHW network", "Erie County HHW Collection — northern Erie County event",
+    "County free HHW collection event (appointment)", "buffalo", "NY", "14221",
+    "Northern Erie County collection site, Williamsville, NY 14221", 42.965, -78.745, ERIE,
+    "Spring 2026; registration via erie.gov/recycling; call 716-858-6800", "716-858-6800", HHW_E())
+
 
 def main() -> None:
     valid_cities = {c["city_slug"] for c in json.loads(CITIES_PATH.read_text())}
