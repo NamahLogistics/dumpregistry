@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { CentersFilter } from "@/components/CentersFilter";
 import { getCities, getFacilities, getItems, getZipHubs } from "@/lib/data";
 import { formatMiles, sortByDistance } from "@/lib/geo";
 
@@ -52,26 +53,11 @@ export default async function CentersPage({ searchParams }: Props) {
         </p>
       </header>
 
-      <form className="centers-filter" method="get" action="/centers">
-        <label>
-          ZIP
-          <input name="zip" type="text" inputMode="numeric" defaultValue={zip} placeholder="e.g. 78701" maxLength={10} />
-        </label>
-        <label>
-          Material
-          <select name="material" defaultValue={material}>
-            <option value="">Any</option>
-            {items.map((i) => (
-              <option key={i.slug} value={i.slug}>
-                {i.name}
-              </option>
-            ))}
-          </select>
-        </label>
-        <button type="submit" className="btn-primary">
-          Find centers
-        </button>
-      </form>
+      <CentersFilter
+        initialZip={zip}
+        initialMaterial={material}
+        items={items.map((i) => ({ slug: i.slug, name: i.name }))}
+      />
 
       <p className="muted">
         {hub
