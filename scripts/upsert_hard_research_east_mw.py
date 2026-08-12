@@ -494,6 +494,64 @@ row("Erie County NY HHW network", "Erie County HHW Collection — northern Erie 
     "Northern Erie County collection site, Williamsville, NY 14221", 42.965, -78.745, ERIE,
     "Spring 2026; registration via erie.gov/recycling; call 716-858-6800", "716-858-6800", HHW_E())
 
+# ── Boone County KY solid waste network → louisville ──
+# Sources: boonecountyky.org solid waste / recycling center / voucher
+BOONE = "https://www.boonecountyky.org/services/solid_waste/recycling_center.php"
+BOONE_V = "https://www.boonecountyky.org/services/solid_waste/voucher_program/index.php"
+for name, addr, zipc, lat, lng, hours, src, mlist in [
+    ("Boone County Recycling Center — Maplewood Drive", "3275 Maplewood Drive, Burlington, KY 41005", "41005", 39.025, -84.725,
+     "Mon–Fri 8:00–15:30; appliances Fri only", BOONE, mats(APPLIANCE, E_WASTE, ["car-battery"], ["motor-oil"], TIRES)),
+    ("Bavarian Waste Landfill — Boone County voucher drop-off", "12764 McCoys Fork Road, Walton, KY 41094", "41094", 38.875, -84.625,
+     "Mon–Sat; one voucher/month for Boone County households", BOONE_V, LANDFILL()),
+    ("Boone County Transfer Station — Best Way Disposal", "1505 Resource Drive, Burlington, KY 41005", "41005", 39.025, -84.785,
+     "Mon–Sat 6:00–16:00; bulky / C&D", "https://www.boonecountyky.org/departments/solid_waste/", TRANSFER()),
+]:
+    row("Boone County KY solid waste network", name,
+        "County recycling / landfill / transfer network", "louisville", "KY", zipc, addr, lat, lng,
+        src, hours, "859-334-3629", mlist)
+
+# ── St. Clair County IL landfills → chicago ──
+# Source: https://www.co.st-clair.il.us/WebDocuments/Departments/Health/pollution/St.%20Clair%20County%20landfill%20information.pdf
+STCLAIR = "https://www.co.st-clair.il.us/WebDocuments/Departments/Health/pollution/St.%20Clair%20County%20landfill%20information.pdf"
+for name, addr, zipc, lat, lng, hours in [
+    ("Milam Recycling and Disposal Facility — East St. Louis", "601 Madison Road, East St. Louis, IL 62201", "62201", 38.625, -90.125, "Mon–Fri 3:00–17:00; Sat 5:00–12:00"),
+    ("Cottonwood Hills Recycling and Disposal Facility — Marissa", "10400 Hillstown Road, Marissa, IL 62257", "62257", 38.315, -89.785, "Mon–Fri 5:00–16:00"),
+]:
+    row("St. Clair County IL landfill network", name,
+        "Regional landfill — residential self-haul bulky / MSW", "chicago", "IL", zipc, addr, lat, lng,
+        STCLAIR, hours, "618-271-6788", LANDFILL())
+
+# ── Montgomery County PA + SE PA regional HHW 2026 → philadelphia ──
+# Source: https://www.montgomerycountypa.gov/.../household-hazardous-waste-collection-program
+MONTCO = "https://www.montgomerycountypa.gov/your-government/additional-county-information/recycling-information/recycling-programs/household-hazardous-waste-collection-program"
+SEPA = "https://www.montgomerycountypa.gov/DocumentCenter/View/27044/SoutheasternRegionalHHWFlyer2025_Web-Low-Resolution"
+for name, addr, zipc, lat, lng, hours in [
+    ("Montgomery County HHW — Harleysville Indian Valley Middle School", "130 Maple Avenue, Harleysville, PA 19438", "19438", 40.275, -75.385, "Apr 25 2026 9:00–15:00; registration required"),
+    ("Montgomery County HHW — Ambler Temple University campus", "1431 East Butler Pike, Ambler, PA 19002", "19002", 40.155, -75.205, "Jun 6 2026 9:00–15:00; registration required"),
+    ("Montgomery County HHW — Norristown Area High School", "1900 Eagle Drive, Norristown, PA 19403", "19403", 40.125, -75.345, "Jun 20 2026 9:00–15:00; registration required"),
+    ("Montgomery County HHW — Abington Middle School", "2056 Susquehanna Road, Abington, PA 19001", "19001", 40.125, -75.125, "Jun 27 2026 9:00–15:00; registration required"),
+    ("Montgomery County HHW — Royersford Spring-Ford 9th Grade Center", "400 South Lewis Road, Royersford, PA 19468", "19468", 40.185, -75.545, "Sep 26 2026 9:00–15:00; registration required"),
+    ("Montgomery County HHW — Penn Valley Lower Merion Transfer Station", "1300 North Woodbine Avenue, Penn Valley, PA 19072", "19072", 40.005, -75.265, "Oct 11 2026 9:00–15:00; registration required"),
+    ("SE PA Regional HHW — Bucks County Community College Newtown", "275 Swamp Road, Newtown, PA 18940", "18940", 40.225, -74.925, "Apr 4 2026 9:00–15:00; Bucks/Chester/Delco/Montco/Philly residents"),
+]:
+    row("Montgomery County PA HHW network", name,
+        "County / regional household hazardous waste collection event", "philadelphia", "PA", zipc, addr, lat, lng,
+        MONTCO, hours, "610-278-3618", HHW_E())
+
+# ── Dane County Clean Sweep — correct Maahic Way address (update) ──
+DANE_CS = "https://landfill.danecounty.gov/services/clean-sweep"
+row("Dane County WI Clean Sweep", "Dane County Clean Sweep — Maahic Way permanent facility",
+    "County permanent HHW / e-waste facility", "madison", "WI", "53718",
+    "7020 Maahic Way, Madison, WI 53718", 43.035, -89.285, DANE_CS,
+    "Mon–Fri 7:15–15:15; Sat 8:00–10:45", "608-838-3212", HHW_E())
+
+# ── Dane County Landfill self-haul → madison ──
+DANE_LF = "https://landfill.danecounty.gov/services/landfill"
+row("Dane County WI landfill network", "Dane County Landfill — Maahic Way scalehouse",
+    "County landfill — bulky / C&D / tires / yard waste", "madison", "WI", "53718",
+    "7102 Maahic Way, Madison, WI 53718", 43.035, -89.285, DANE_LF,
+    "Mon–Fri 6:30–15:15; Sat 8:00–10:45", "608-838-9555", LANDFILL())
+
 
 def main() -> None:
     valid_cities = {c["city_slug"] for c in json.loads(CITIES_PATH.read_text())}
