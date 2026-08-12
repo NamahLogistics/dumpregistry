@@ -37726,5 +37726,4517 @@
     "last_verified_at": "2026-08-11",
     "reviewed_by": "editorial-audit",
     "needs_review": false
+  },
+  {
+    "item_slug": "mattress",
+    "state": "CA",
+    "city_slug": "santa-clarita",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Santa Clarita / Burrtec bulky collection",
+    "common_disposal_fee": "Burrtec bulky \u2014 up to 4\u00d7/year, 3 items \u2014 schedule 661-222-2249",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "Santa Clarita mattresss go on Burrtec bulky collection \u2014 up to 4 times per year, 3 items each \u2014 schedule 661-222-2249. Tires are OK on bulky. Paint, propane, batteries, and e-waste are NOT bulky.",
+    "steps": [
+      "Call Burrtec 661-222-2249 to schedule bulky (up to 4\u00d7/year, 3 items).",
+      "Set out per greensantaclarita.com rules.",
+      "Keep paint, propane, batteries, and e-waste off bulky piles."
+    ],
+    "faqs": [
+      {
+        "q": "How often?",
+        "a": "Up to 4 collections/year, 3 items each."
+      },
+      {
+        "q": "Tires on bulky?",
+        "a": "Yes."
+      },
+      {
+        "q": "E-waste on bulky?",
+        "a": "No \u2014 Burrtec Springbrook drop-off."
+      }
+    ],
+    "source_url": "https://greensantaclarita.com/trash-and-recycling/residential-trash-and-recycling/bulky-item-illegal-dumping/",
+    "source_name": "Green Santa Clarita \u2014 Bulky Item / Illegal Dumping",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "refrigerator",
+    "state": "CA",
+    "city_slug": "santa-clarita",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Santa Clarita / Burrtec bulky collection",
+    "common_disposal_fee": "Burrtec bulky \u2014 up to 4\u00d7/year, 3 items \u2014 schedule 661-222-2249",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "Santa Clarita refrigerators go on Burrtec bulky collection \u2014 up to 4 times per year, 3 items each \u2014 schedule 661-222-2249. Tires are OK on bulky. Paint, propane, batteries, and e-waste are NOT bulky.",
+    "steps": [
+      "Call Burrtec 661-222-2249 to schedule bulky (up to 4\u00d7/year, 3 items).",
+      "Set out per greensantaclarita.com rules.",
+      "Keep paint, propane, batteries, and e-waste off bulky piles."
+    ],
+    "faqs": [
+      {
+        "q": "How often?",
+        "a": "Up to 4 collections/year, 3 items each."
+      },
+      {
+        "q": "Tires on bulky?",
+        "a": "Yes."
+      },
+      {
+        "q": "E-waste on bulky?",
+        "a": "No \u2014 Burrtec Springbrook drop-off."
+      }
+    ],
+    "source_url": "https://greensantaclarita.com/trash-and-recycling/residential-trash-and-recycling/bulky-item-illegal-dumping/",
+    "source_name": "Green Santa Clarita \u2014 Bulky Item / Illegal Dumping",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "air-conditioner",
+    "state": "CA",
+    "city_slug": "santa-clarita",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Santa Clarita / Burrtec bulky collection",
+    "common_disposal_fee": "Burrtec bulky \u2014 up to 4\u00d7/year, 3 items \u2014 schedule 661-222-2249",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "Santa Clarita air conditioners go on Burrtec bulky collection \u2014 up to 4 times per year, 3 items each \u2014 schedule 661-222-2249. Tires are OK on bulky. Paint, propane, batteries, and e-waste are NOT bulky.",
+    "steps": [
+      "Call Burrtec 661-222-2249 to schedule bulky (up to 4\u00d7/year, 3 items).",
+      "Set out per greensantaclarita.com rules.",
+      "Keep paint, propane, batteries, and e-waste off bulky piles."
+    ],
+    "faqs": [
+      {
+        "q": "How often?",
+        "a": "Up to 4 collections/year, 3 items each."
+      },
+      {
+        "q": "Tires on bulky?",
+        "a": "Yes."
+      },
+      {
+        "q": "E-waste on bulky?",
+        "a": "No \u2014 Burrtec Springbrook drop-off."
+      }
+    ],
+    "source_url": "https://greensantaclarita.com/trash-and-recycling/residential-trash-and-recycling/bulky-item-illegal-dumping/",
+    "source_name": "Green Santa Clarita \u2014 Bulky Item / Illegal Dumping",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "tires",
+    "state": "CA",
+    "city_slug": "santa-clarita",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Santa Clarita / Burrtec bulky collection",
+    "common_disposal_fee": "Burrtec bulky \u2014 up to 4\u00d7/year, 3 items \u2014 schedule 661-222-2249",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "Santa Clarita tiress go on Burrtec bulky collection \u2014 up to 4 times per year, 3 items each \u2014 schedule 661-222-2249. Tires are OK on bulky. Paint, propane, batteries, and e-waste are NOT bulky.",
+    "steps": [
+      "Call Burrtec 661-222-2249 to schedule bulky (up to 4\u00d7/year, 3 items).",
+      "Set out per greensantaclarita.com rules.",
+      "Keep paint, propane, batteries, and e-waste off bulky piles."
+    ],
+    "faqs": [
+      {
+        "q": "How often?",
+        "a": "Up to 4 collections/year, 3 items each."
+      },
+      {
+        "q": "Tires on bulky?",
+        "a": "Yes."
+      },
+      {
+        "q": "E-waste on bulky?",
+        "a": "No \u2014 Burrtec Springbrook drop-off."
+      }
+    ],
+    "source_url": "https://greensantaclarita.com/trash-and-recycling/residential-trash-and-recycling/bulky-item-illegal-dumping/",
+    "source_name": "Green Santa Clarita \u2014 Bulky Item / Illegal Dumping",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "television",
+    "state": "CA",
+    "city_slug": "santa-clarita",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Burrtec e-waste drop-off \u2014 Springbrook Ave, Santa Clarita",
+    "common_disposal_fee": "NOT curb bulky \u2014 Burrtec e-waste drop-off 25950/26000 Springbrook Ave",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "Medium",
+    "answer": "Santa Clarita electronics including television are NOT accepted on curb bulky. Drop off at Burrtec \u2014 25950/26000 Springbrook Ave. Wipe data before drop-off.",
+    "steps": [
+      "Do not set e-waste on curb bulky.",
+      "Haul to Burrtec 25950/26000 Springbrook Ave.",
+      "Wipe personal data."
+    ],
+    "faqs": [
+      {
+        "q": "Bulky for TVs?",
+        "a": "No \u2014 Springbrook e-waste drop-off."
+      },
+      {
+        "q": "Address?",
+        "a": "25950/26000 Springbrook Ave."
+      }
+    ],
+    "source_url": "https://greensantaclarita.com/trash-and-recycling/residential-trash-and-recycling/bulky-item-illegal-dumping/",
+    "source_name": "Green Santa Clarita \u2014 Bulky Item / Illegal Dumping",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "computer-monitor",
+    "state": "CA",
+    "city_slug": "santa-clarita",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Burrtec e-waste drop-off \u2014 Springbrook Ave, Santa Clarita",
+    "common_disposal_fee": "NOT curb bulky \u2014 Burrtec e-waste drop-off 25950/26000 Springbrook Ave",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "Medium",
+    "answer": "Santa Clarita electronics including computer monitor are NOT accepted on curb bulky. Drop off at Burrtec \u2014 25950/26000 Springbrook Ave. Wipe data before drop-off.",
+    "steps": [
+      "Do not set e-waste on curb bulky.",
+      "Haul to Burrtec 25950/26000 Springbrook Ave.",
+      "Wipe personal data."
+    ],
+    "faqs": [
+      {
+        "q": "Bulky for TVs?",
+        "a": "No \u2014 Springbrook e-waste drop-off."
+      },
+      {
+        "q": "Address?",
+        "a": "25950/26000 Springbrook Ave."
+      }
+    ],
+    "source_url": "https://greensantaclarita.com/trash-and-recycling/residential-trash-and-recycling/bulky-item-illegal-dumping/",
+    "source_name": "Green Santa Clarita \u2014 Bulky Item / Illegal Dumping",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "smartphone",
+    "state": "CA",
+    "city_slug": "santa-clarita",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Burrtec e-waste drop-off \u2014 Springbrook Ave, Santa Clarita",
+    "common_disposal_fee": "NOT curb bulky \u2014 Burrtec e-waste drop-off 25950/26000 Springbrook Ave",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "Medium",
+    "answer": "Santa Clarita electronics including smartphone are NOT accepted on curb bulky. Drop off at Burrtec \u2014 25950/26000 Springbrook Ave. Wipe data before drop-off.",
+    "steps": [
+      "Do not set e-waste on curb bulky.",
+      "Haul to Burrtec 25950/26000 Springbrook Ave.",
+      "Wipe personal data."
+    ],
+    "faqs": [
+      {
+        "q": "Bulky for TVs?",
+        "a": "No \u2014 Springbrook e-waste drop-off."
+      },
+      {
+        "q": "Address?",
+        "a": "25950/26000 Springbrook Ave."
+      }
+    ],
+    "source_url": "https://greensantaclarita.com/trash-and-recycling/residential-trash-and-recycling/bulky-item-illegal-dumping/",
+    "source_name": "Green Santa Clarita \u2014 Bulky Item / Illegal Dumping",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "e-waste-mixed",
+    "state": "CA",
+    "city_slug": "santa-clarita",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Burrtec e-waste drop-off \u2014 Springbrook Ave, Santa Clarita",
+    "common_disposal_fee": "NOT curb bulky \u2014 Burrtec e-waste drop-off 25950/26000 Springbrook Ave",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "Medium",
+    "answer": "Santa Clarita electronics including e waste mixed are NOT accepted on curb bulky. Drop off at Burrtec \u2014 25950/26000 Springbrook Ave. Wipe data before drop-off.",
+    "steps": [
+      "Do not set e-waste on curb bulky.",
+      "Haul to Burrtec 25950/26000 Springbrook Ave.",
+      "Wipe personal data."
+    ],
+    "faqs": [
+      {
+        "q": "Bulky for TVs?",
+        "a": "No \u2014 Springbrook e-waste drop-off."
+      },
+      {
+        "q": "Address?",
+        "a": "25950/26000 Springbrook Ave."
+      }
+    ],
+    "source_url": "https://greensantaclarita.com/trash-and-recycling/residential-trash-and-recycling/bulky-item-illegal-dumping/",
+    "source_name": "Green Santa Clarita \u2014 Bulky Item / Illegal Dumping",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "paint-latex",
+    "state": "CA",
+    "city_slug": "santa-clarita",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "LA County CleanLA / S.A.F.E. collection centers",
+    "common_disposal_fee": "NOT bulky \u2014 LA County CleanLA / S.A.F.E. HHW centers",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "Take paint latex to LA County CleanLA / S.A.F.E. household hazardous waste collection centers \u2014 paint, propane, and batteries are NOT Burrtec bulky. Confirm center hours on cleanla.lacounty.gov.",
+    "steps": [
+      "Do not set paint/propane/batteries on bulky.",
+      "Use CleanLA / S.A.F.E. collection centers.",
+      "Confirm hours before visiting."
+    ],
+    "faqs": [
+      {
+        "q": "Bulky for paint?",
+        "a": "No."
+      },
+      {
+        "q": "Where?",
+        "a": "CleanLA / S.A.F.E. centers \u2014 cleanla.lacounty.gov."
+      }
+    ],
+    "source_url": "https://cleanla.lacounty.gov/hhw/collection-centers/",
+    "source_name": "LA County CleanLA \u2014 HHW Collection Centers",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "paint-oil",
+    "state": "CA",
+    "city_slug": "santa-clarita",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "LA County CleanLA / S.A.F.E. collection centers",
+    "common_disposal_fee": "NOT bulky \u2014 LA County CleanLA / S.A.F.E. HHW centers",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "Take paint oil to LA County CleanLA / S.A.F.E. household hazardous waste collection centers \u2014 paint, propane, and batteries are NOT Burrtec bulky. Confirm center hours on cleanla.lacounty.gov.",
+    "steps": [
+      "Do not set paint/propane/batteries on bulky.",
+      "Use CleanLA / S.A.F.E. collection centers.",
+      "Confirm hours before visiting."
+    ],
+    "faqs": [
+      {
+        "q": "Bulky for paint?",
+        "a": "No."
+      },
+      {
+        "q": "Where?",
+        "a": "CleanLA / S.A.F.E. centers \u2014 cleanla.lacounty.gov."
+      }
+    ],
+    "source_url": "https://cleanla.lacounty.gov/hhw/collection-centers/",
+    "source_name": "LA County CleanLA \u2014 HHW Collection Centers",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "car-battery",
+    "state": "CA",
+    "city_slug": "santa-clarita",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "LA County CleanLA / S.A.F.E. collection centers",
+    "common_disposal_fee": "NOT bulky \u2014 LA County CleanLA / S.A.F.E. HHW centers",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "Take car battery to LA County CleanLA / S.A.F.E. household hazardous waste collection centers \u2014 paint, propane, and batteries are NOT Burrtec bulky. Confirm center hours on cleanla.lacounty.gov.",
+    "steps": [
+      "Do not set paint/propane/batteries on bulky.",
+      "Use CleanLA / S.A.F.E. collection centers.",
+      "Confirm hours before visiting."
+    ],
+    "faqs": [
+      {
+        "q": "Bulky for paint?",
+        "a": "No."
+      },
+      {
+        "q": "Where?",
+        "a": "CleanLA / S.A.F.E. centers \u2014 cleanla.lacounty.gov."
+      }
+    ],
+    "source_url": "https://cleanla.lacounty.gov/hhw/collection-centers/",
+    "source_name": "LA County CleanLA \u2014 HHW Collection Centers",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "lithium-battery",
+    "state": "CA",
+    "city_slug": "santa-clarita",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "LA County CleanLA / S.A.F.E. collection centers",
+    "common_disposal_fee": "NOT bulky \u2014 LA County CleanLA / S.A.F.E. HHW centers",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "Take lithium battery to LA County CleanLA / S.A.F.E. household hazardous waste collection centers \u2014 paint, propane, and batteries are NOT Burrtec bulky. Confirm center hours on cleanla.lacounty.gov.",
+    "steps": [
+      "Do not set paint/propane/batteries on bulky.",
+      "Use CleanLA / S.A.F.E. collection centers.",
+      "Confirm hours before visiting."
+    ],
+    "faqs": [
+      {
+        "q": "Bulky for paint?",
+        "a": "No."
+      },
+      {
+        "q": "Where?",
+        "a": "CleanLA / S.A.F.E. centers \u2014 cleanla.lacounty.gov."
+      }
+    ],
+    "source_url": "https://cleanla.lacounty.gov/hhw/collection-centers/",
+    "source_name": "LA County CleanLA \u2014 HHW Collection Centers",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "motor-oil",
+    "state": "CA",
+    "city_slug": "santa-clarita",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "LA County CleanLA / S.A.F.E. collection centers",
+    "common_disposal_fee": "NOT bulky \u2014 LA County CleanLA / S.A.F.E. HHW centers",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "Take motor oil to LA County CleanLA / S.A.F.E. household hazardous waste collection centers \u2014 paint, propane, and batteries are NOT Burrtec bulky. Confirm center hours on cleanla.lacounty.gov.",
+    "steps": [
+      "Do not set paint/propane/batteries on bulky.",
+      "Use CleanLA / S.A.F.E. collection centers.",
+      "Confirm hours before visiting."
+    ],
+    "faqs": [
+      {
+        "q": "Bulky for paint?",
+        "a": "No."
+      },
+      {
+        "q": "Where?",
+        "a": "CleanLA / S.A.F.E. centers \u2014 cleanla.lacounty.gov."
+      }
+    ],
+    "source_url": "https://cleanla.lacounty.gov/hhw/collection-centers/",
+    "source_name": "LA County CleanLA \u2014 HHW Collection Centers",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "propane-tank",
+    "state": "CA",
+    "city_slug": "santa-clarita",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "LA County CleanLA / S.A.F.E. collection centers",
+    "common_disposal_fee": "NOT bulky \u2014 LA County CleanLA / S.A.F.E. HHW centers",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "Take propane tank to LA County CleanLA / S.A.F.E. household hazardous waste collection centers \u2014 paint, propane, and batteries are NOT Burrtec bulky. Confirm center hours on cleanla.lacounty.gov.",
+    "steps": [
+      "Do not set paint/propane/batteries on bulky.",
+      "Use CleanLA / S.A.F.E. collection centers.",
+      "Confirm hours before visiting."
+    ],
+    "faqs": [
+      {
+        "q": "Bulky for paint?",
+        "a": "No."
+      },
+      {
+        "q": "Where?",
+        "a": "CleanLA / S.A.F.E. centers \u2014 cleanla.lacounty.gov."
+      }
+    ],
+    "source_url": "https://cleanla.lacounty.gov/hhw/collection-centers/",
+    "source_name": "LA County CleanLA \u2014 HHW Collection Centers",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "fluorescent-bulbs",
+    "state": "CA",
+    "city_slug": "santa-clarita",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "LA County CleanLA / S.A.F.E. collection centers",
+    "common_disposal_fee": "NOT bulky \u2014 LA County CleanLA / S.A.F.E. HHW centers",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "Take fluorescent bulbs to LA County CleanLA / S.A.F.E. household hazardous waste collection centers \u2014 paint, propane, and batteries are NOT Burrtec bulky. Confirm center hours on cleanla.lacounty.gov.",
+    "steps": [
+      "Do not set paint/propane/batteries on bulky.",
+      "Use CleanLA / S.A.F.E. collection centers.",
+      "Confirm hours before visiting."
+    ],
+    "faqs": [
+      {
+        "q": "Bulky for paint?",
+        "a": "No."
+      },
+      {
+        "q": "Where?",
+        "a": "CleanLA / S.A.F.E. centers \u2014 cleanla.lacounty.gov."
+      }
+    ],
+    "source_url": "https://cleanla.lacounty.gov/hhw/collection-centers/",
+    "source_name": "LA County CleanLA \u2014 HHW Collection Centers",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "cooking-oil",
+    "state": "CA",
+    "city_slug": "santa-clarita",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "LA County CleanLA / S.A.F.E. collection centers",
+    "common_disposal_fee": "NOT bulky \u2014 LA County CleanLA / S.A.F.E. HHW centers",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "Take cooking oil to LA County CleanLA / S.A.F.E. household hazardous waste collection centers \u2014 paint, propane, and batteries are NOT Burrtec bulky. Confirm center hours on cleanla.lacounty.gov.",
+    "steps": [
+      "Do not set paint/propane/batteries on bulky.",
+      "Use CleanLA / S.A.F.E. collection centers.",
+      "Confirm hours before visiting."
+    ],
+    "faqs": [
+      {
+        "q": "Bulky for paint?",
+        "a": "No."
+      },
+      {
+        "q": "Where?",
+        "a": "CleanLA / S.A.F.E. centers \u2014 cleanla.lacounty.gov."
+      }
+    ],
+    "source_url": "https://cleanla.lacounty.gov/hhw/collection-centers/",
+    "source_name": "LA County CleanLA \u2014 HHW Collection Centers",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "medical-sharps",
+    "state": "CA",
+    "city_slug": "santa-clarita",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "LA County CleanLA / S.A.F.E. collection centers",
+    "common_disposal_fee": "NOT bulky \u2014 LA County CleanLA / S.A.F.E. HHW centers",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "Take medical sharps to LA County CleanLA / S.A.F.E. household hazardous waste collection centers \u2014 paint, propane, and batteries are NOT Burrtec bulky. Confirm center hours on cleanla.lacounty.gov.",
+    "steps": [
+      "Do not set paint/propane/batteries on bulky.",
+      "Use CleanLA / S.A.F.E. collection centers.",
+      "Confirm hours before visiting."
+    ],
+    "faqs": [
+      {
+        "q": "Bulky for paint?",
+        "a": "No."
+      },
+      {
+        "q": "Where?",
+        "a": "CleanLA / S.A.F.E. centers \u2014 cleanla.lacounty.gov."
+      }
+    ],
+    "source_url": "https://cleanla.lacounty.gov/hhw/collection-centers/",
+    "source_name": "LA County CleanLA \u2014 HHW Collection Centers",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "yard-waste",
+    "state": "CA",
+    "city_slug": "santa-clarita",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Santa Clarita residential trash and recycling",
+    "common_disposal_fee": "Santa Clarita organics / yard-waste cart",
+    "badge": "ACCEPTED_IN_BLUE_BIN",
+    "hazard_rating": "Low",
+    "answer": "Santa Clarita yard waste follows residential organics/yard-waste collection. Follow greensantaclarita.com set-out rules.",
+    "steps": [
+      "Use organics/yard-waste set-out rules.",
+      "Keep yard waste out of HHW and e-waste.",
+      "Check greensantaclarita.com for seasonal guidance."
+    ],
+    "faqs": [
+      {
+        "q": "Christmas trees?",
+        "a": "Follow city seasonal yard-waste guidance."
+      }
+    ],
+    "source_url": "https://greensantaclarita.com/trash-and-recycling/residential-trash-and-recycling/hazardous-waste/",
+    "source_name": "Green Santa Clarita \u2014 Hazardous Waste",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "food-scraps",
+    "state": "CA",
+    "city_slug": "santa-clarita",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Santa Clarita organics / garbage",
+    "common_disposal_fee": "Organics cart / garbage unless private compost",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "Bag food scraps in organics or garbage unless you compost. Keep food out of recycling and HHW.",
+    "steps": [
+      "Use organics/garbage pathways.",
+      "Keep organics out of recycling.",
+      "Yard trimmings use yard-waste pathways."
+    ],
+    "faqs": [
+      {
+        "q": "HHW for food?",
+        "a": "No."
+      }
+    ],
+    "source_url": "https://greensantaclarita.com/trash-and-recycling/residential-trash-and-recycling/hazardous-waste/",
+    "source_name": "Green Santa Clarita \u2014 Hazardous Waste",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "plastic-bags",
+    "state": "CA",
+    "city_slug": "santa-clarita",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Retail bag take-back / trash",
+    "common_disposal_fee": "Not recycling \u2014 store take-back / trash",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "Plastic bags are not accepted in curbside recycling. Use store take-back or trash.",
+    "steps": [
+      "Keep bags out of recycling.",
+      "Use grocery take-back.",
+      "Otherwise trash."
+    ],
+    "faqs": [
+      {
+        "q": "Bulk for bags?",
+        "a": "No."
+      }
+    ],
+    "source_url": "https://greensantaclarita.com/trash-and-recycling/residential-trash-and-recycling/bulky-item-illegal-dumping/",
+    "source_name": "Green Santa Clarita \u2014 Bulky Item / Illegal Dumping",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "construction-debris",
+    "state": "CA",
+    "city_slug": "santa-clarita",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Private C&D hauler / LA County disposal",
+    "common_disposal_fee": "NOT bulky \u2014 private C&D hauler",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "Construction debris is not Burrtec bulky material. Hire a private C&D hauler. Route paint/chemicals to CleanLA / S.A.F.E. separately.",
+    "steps": [
+      "Do not treat remodel debris as bulky.",
+      "Hire private C&D for larger projects.",
+      "Route paint to CleanLA HHW."
+    ],
+    "faqs": [
+      {
+        "q": "HHW for C&D?",
+        "a": "No \u2014 separate paint/chemicals."
+      }
+    ],
+    "source_url": "https://greensantaclarita.com/trash-and-recycling/residential-trash-and-recycling/bulky-item-illegal-dumping/",
+    "source_name": "Green Santa Clarita \u2014 Bulky Item / Illegal Dumping",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "box-spring",
+    "state": "CA",
+    "city_slug": "santa-clarita",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Santa Clarita / Burrtec bulky collection",
+    "common_disposal_fee": "Burrtec bulky \u2014 up to 4\u00d7/year, 3 items \u2014 schedule 661-222-2249",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Santa Clarita, box spring follows the same verified program pathway as mattress. Santa Clarita mattresss go on Burrtec bulky collection \u2014 up to 4 times per year, 3 items each \u2014 schedule 661-222-2249. Tires are OK on bulky. Paint, propane, batteries, and e-waste are NOT bulky.",
+    "steps": [
+      "Call Burrtec 661-222-2249 to schedule bulky (up to 4\u00d7/year, 3 items).",
+      "Set out per greensantaclarita.com rules.",
+      "Keep paint, propane, batteries, and e-waste off bulky piles."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as mattress?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on Green Santa Clarita \u2014 Bulky Item / Illegal Dumping (audited)."
+      }
+    ],
+    "source_url": "https://greensantaclarita.com/trash-and-recycling/residential-trash-and-recycling/bulky-item-illegal-dumping/",
+    "source_name": "Green Santa Clarita \u2014 Bulky Item / Illegal Dumping",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "sofa",
+    "state": "CA",
+    "city_slug": "santa-clarita",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Santa Clarita / Burrtec bulky collection",
+    "common_disposal_fee": "Burrtec bulky \u2014 up to 4\u00d7/year, 3 items \u2014 schedule 661-222-2249",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Santa Clarita, sofa follows the same verified program pathway as mattress. Santa Clarita mattresss go on Burrtec bulky collection \u2014 up to 4 times per year, 3 items each \u2014 schedule 661-222-2249. Tires are OK on bulky. Paint, propane, batteries, and e-waste are NOT bulky.",
+    "steps": [
+      "Call Burrtec 661-222-2249 to schedule bulky (up to 4\u00d7/year, 3 items).",
+      "Set out per greensantaclarita.com rules.",
+      "Keep paint, propane, batteries, and e-waste off bulky piles."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as mattress?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on Green Santa Clarita \u2014 Bulky Item / Illegal Dumping (audited)."
+      }
+    ],
+    "source_url": "https://greensantaclarita.com/trash-and-recycling/residential-trash-and-recycling/bulky-item-illegal-dumping/",
+    "source_name": "Green Santa Clarita \u2014 Bulky Item / Illegal Dumping",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "recliner",
+    "state": "CA",
+    "city_slug": "santa-clarita",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Santa Clarita / Burrtec bulky collection",
+    "common_disposal_fee": "Burrtec bulky \u2014 up to 4\u00d7/year, 3 items \u2014 schedule 661-222-2249",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Santa Clarita, recliner follows the same verified program pathway as mattress. Santa Clarita mattresss go on Burrtec bulky collection \u2014 up to 4 times per year, 3 items each \u2014 schedule 661-222-2249. Tires are OK on bulky. Paint, propane, batteries, and e-waste are NOT bulky.",
+    "steps": [
+      "Call Burrtec 661-222-2249 to schedule bulky (up to 4\u00d7/year, 3 items).",
+      "Set out per greensantaclarita.com rules.",
+      "Keep paint, propane, batteries, and e-waste off bulky piles."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as mattress?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on Green Santa Clarita \u2014 Bulky Item / Illegal Dumping (audited)."
+      }
+    ],
+    "source_url": "https://greensantaclarita.com/trash-and-recycling/residential-trash-and-recycling/bulky-item-illegal-dumping/",
+    "source_name": "Green Santa Clarita \u2014 Bulky Item / Illegal Dumping",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "carpet",
+    "state": "CA",
+    "city_slug": "santa-clarita",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Santa Clarita / Burrtec bulky collection",
+    "common_disposal_fee": "Burrtec bulky \u2014 up to 4\u00d7/year, 3 items \u2014 schedule 661-222-2249",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Santa Clarita, carpet follows the same verified program pathway as mattress. Santa Clarita mattresss go on Burrtec bulky collection \u2014 up to 4 times per year, 3 items each \u2014 schedule 661-222-2249. Tires are OK on bulky. Paint, propane, batteries, and e-waste are NOT bulky.",
+    "steps": [
+      "Call Burrtec 661-222-2249 to schedule bulky (up to 4\u00d7/year, 3 items).",
+      "Set out per greensantaclarita.com rules.",
+      "Keep paint, propane, batteries, and e-waste off bulky piles."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as mattress?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on Green Santa Clarita \u2014 Bulky Item / Illegal Dumping (audited)."
+      }
+    ],
+    "source_url": "https://greensantaclarita.com/trash-and-recycling/residential-trash-and-recycling/bulky-item-illegal-dumping/",
+    "source_name": "Green Santa Clarita \u2014 Bulky Item / Illegal Dumping",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "exercise-equipment",
+    "state": "CA",
+    "city_slug": "santa-clarita",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Santa Clarita / Burrtec bulky collection",
+    "common_disposal_fee": "Burrtec bulky \u2014 up to 4\u00d7/year, 3 items \u2014 schedule 661-222-2249",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Santa Clarita, exercise equipment follows the same verified program pathway as mattress. Santa Clarita mattresss go on Burrtec bulky collection \u2014 up to 4 times per year, 3 items each \u2014 schedule 661-222-2249. Tires are OK on bulky. Paint, propane, batteries, and e-waste are NOT bulky.",
+    "steps": [
+      "Call Burrtec 661-222-2249 to schedule bulky (up to 4\u00d7/year, 3 items).",
+      "Set out per greensantaclarita.com rules.",
+      "Keep paint, propane, batteries, and e-waste off bulky piles."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as mattress?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on Green Santa Clarita \u2014 Bulky Item / Illegal Dumping (audited)."
+      }
+    ],
+    "source_url": "https://greensantaclarita.com/trash-and-recycling/residential-trash-and-recycling/bulky-item-illegal-dumping/",
+    "source_name": "Green Santa Clarita \u2014 Bulky Item / Illegal Dumping",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "dining-table",
+    "state": "CA",
+    "city_slug": "santa-clarita",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Santa Clarita / Burrtec bulky collection",
+    "common_disposal_fee": "Burrtec bulky \u2014 up to 4\u00d7/year, 3 items \u2014 schedule 661-222-2249",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Santa Clarita, dining table follows the same verified program pathway as mattress. Santa Clarita mattresss go on Burrtec bulky collection \u2014 up to 4 times per year, 3 items each \u2014 schedule 661-222-2249. Tires are OK on bulky. Paint, propane, batteries, and e-waste are NOT bulky.",
+    "steps": [
+      "Call Burrtec 661-222-2249 to schedule bulky (up to 4\u00d7/year, 3 items).",
+      "Set out per greensantaclarita.com rules.",
+      "Keep paint, propane, batteries, and e-waste off bulky piles."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as mattress?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on Green Santa Clarita \u2014 Bulky Item / Illegal Dumping (audited)."
+      }
+    ],
+    "source_url": "https://greensantaclarita.com/trash-and-recycling/residential-trash-and-recycling/bulky-item-illegal-dumping/",
+    "source_name": "Green Santa Clarita \u2014 Bulky Item / Illegal Dumping",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "desk",
+    "state": "CA",
+    "city_slug": "santa-clarita",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Santa Clarita / Burrtec bulky collection",
+    "common_disposal_fee": "Burrtec bulky \u2014 up to 4\u00d7/year, 3 items \u2014 schedule 661-222-2249",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Santa Clarita, desk follows the same verified program pathway as mattress. Santa Clarita mattresss go on Burrtec bulky collection \u2014 up to 4 times per year, 3 items each \u2014 schedule 661-222-2249. Tires are OK on bulky. Paint, propane, batteries, and e-waste are NOT bulky.",
+    "steps": [
+      "Call Burrtec 661-222-2249 to schedule bulky (up to 4\u00d7/year, 3 items).",
+      "Set out per greensantaclarita.com rules.",
+      "Keep paint, propane, batteries, and e-waste off bulky piles."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as mattress?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on Green Santa Clarita \u2014 Bulky Item / Illegal Dumping (audited)."
+      }
+    ],
+    "source_url": "https://greensantaclarita.com/trash-and-recycling/residential-trash-and-recycling/bulky-item-illegal-dumping/",
+    "source_name": "Green Santa Clarita \u2014 Bulky Item / Illegal Dumping",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "bookshelf",
+    "state": "CA",
+    "city_slug": "santa-clarita",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Santa Clarita / Burrtec bulky collection",
+    "common_disposal_fee": "Burrtec bulky \u2014 up to 4\u00d7/year, 3 items \u2014 schedule 661-222-2249",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Santa Clarita, bookshelf follows the same verified program pathway as mattress. Santa Clarita mattresss go on Burrtec bulky collection \u2014 up to 4 times per year, 3 items each \u2014 schedule 661-222-2249. Tires are OK on bulky. Paint, propane, batteries, and e-waste are NOT bulky.",
+    "steps": [
+      "Call Burrtec 661-222-2249 to schedule bulky (up to 4\u00d7/year, 3 items).",
+      "Set out per greensantaclarita.com rules.",
+      "Keep paint, propane, batteries, and e-waste off bulky piles."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as mattress?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on Green Santa Clarita \u2014 Bulky Item / Illegal Dumping (audited)."
+      }
+    ],
+    "source_url": "https://greensantaclarita.com/trash-and-recycling/residential-trash-and-recycling/bulky-item-illegal-dumping/",
+    "source_name": "Green Santa Clarita \u2014 Bulky Item / Illegal Dumping",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "hot-tub",
+    "state": "CA",
+    "city_slug": "santa-clarita",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Santa Clarita / Burrtec bulky collection",
+    "common_disposal_fee": "Burrtec bulky \u2014 up to 4\u00d7/year, 3 items \u2014 schedule 661-222-2249",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Santa Clarita, hot tub follows the same verified program pathway as mattress. Santa Clarita mattresss go on Burrtec bulky collection \u2014 up to 4 times per year, 3 items each \u2014 schedule 661-222-2249. Tires are OK on bulky. Paint, propane, batteries, and e-waste are NOT bulky.",
+    "steps": [
+      "Call Burrtec 661-222-2249 to schedule bulky (up to 4\u00d7/year, 3 items).",
+      "Set out per greensantaclarita.com rules.",
+      "Keep paint, propane, batteries, and e-waste off bulky piles."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as mattress?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on Green Santa Clarita \u2014 Bulky Item / Illegal Dumping (audited)."
+      }
+    ],
+    "source_url": "https://greensantaclarita.com/trash-and-recycling/residential-trash-and-recycling/bulky-item-illegal-dumping/",
+    "source_name": "Green Santa Clarita \u2014 Bulky Item / Illegal Dumping",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "piano",
+    "state": "CA",
+    "city_slug": "santa-clarita",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Santa Clarita / Burrtec bulky collection",
+    "common_disposal_fee": "Burrtec bulky \u2014 up to 4\u00d7/year, 3 items \u2014 schedule 661-222-2249",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Santa Clarita, piano follows the same verified program pathway as mattress. Santa Clarita mattresss go on Burrtec bulky collection \u2014 up to 4 times per year, 3 items each \u2014 schedule 661-222-2249. Tires are OK on bulky. Paint, propane, batteries, and e-waste are NOT bulky.",
+    "steps": [
+      "Call Burrtec 661-222-2249 to schedule bulky (up to 4\u00d7/year, 3 items).",
+      "Set out per greensantaclarita.com rules.",
+      "Keep paint, propane, batteries, and e-waste off bulky piles."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as mattress?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on Green Santa Clarita \u2014 Bulky Item / Illegal Dumping (audited)."
+      }
+    ],
+    "source_url": "https://greensantaclarita.com/trash-and-recycling/residential-trash-and-recycling/bulky-item-illegal-dumping/",
+    "source_name": "Green Santa Clarita \u2014 Bulky Item / Illegal Dumping",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "freezer",
+    "state": "CA",
+    "city_slug": "santa-clarita",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Santa Clarita / Burrtec bulky collection",
+    "common_disposal_fee": "Burrtec bulky \u2014 up to 4\u00d7/year, 3 items \u2014 schedule 661-222-2249",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Santa Clarita, freezer follows the same verified program pathway as refrigerator. Santa Clarita refrigerators go on Burrtec bulky collection \u2014 up to 4 times per year, 3 items each \u2014 schedule 661-222-2249. Tires are OK on bulky. Paint, propane, batteries, and e-waste are NOT bulky.",
+    "steps": [
+      "Call Burrtec 661-222-2249 to schedule bulky (up to 4\u00d7/year, 3 items).",
+      "Set out per greensantaclarita.com rules.",
+      "Keep paint, propane, batteries, and e-waste off bulky piles."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as refrigerator?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on Green Santa Clarita \u2014 Bulky Item / Illegal Dumping (audited)."
+      }
+    ],
+    "source_url": "https://greensantaclarita.com/trash-and-recycling/residential-trash-and-recycling/bulky-item-illegal-dumping/",
+    "source_name": "Green Santa Clarita \u2014 Bulky Item / Illegal Dumping",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "washer",
+    "state": "CA",
+    "city_slug": "santa-clarita",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Santa Clarita / Burrtec bulky collection",
+    "common_disposal_fee": "Burrtec bulky \u2014 up to 4\u00d7/year, 3 items \u2014 schedule 661-222-2249",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Santa Clarita, washer follows the same verified program pathway as refrigerator. Santa Clarita refrigerators go on Burrtec bulky collection \u2014 up to 4 times per year, 3 items each \u2014 schedule 661-222-2249. Tires are OK on bulky. Paint, propane, batteries, and e-waste are NOT bulky.",
+    "steps": [
+      "Call Burrtec 661-222-2249 to schedule bulky (up to 4\u00d7/year, 3 items).",
+      "Set out per greensantaclarita.com rules.",
+      "Keep paint, propane, batteries, and e-waste off bulky piles."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as refrigerator?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on Green Santa Clarita \u2014 Bulky Item / Illegal Dumping (audited)."
+      }
+    ],
+    "source_url": "https://greensantaclarita.com/trash-and-recycling/residential-trash-and-recycling/bulky-item-illegal-dumping/",
+    "source_name": "Green Santa Clarita \u2014 Bulky Item / Illegal Dumping",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "dryer",
+    "state": "CA",
+    "city_slug": "santa-clarita",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Santa Clarita / Burrtec bulky collection",
+    "common_disposal_fee": "Burrtec bulky \u2014 up to 4\u00d7/year, 3 items \u2014 schedule 661-222-2249",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Santa Clarita, dryer follows the same verified program pathway as refrigerator. Santa Clarita refrigerators go on Burrtec bulky collection \u2014 up to 4 times per year, 3 items each \u2014 schedule 661-222-2249. Tires are OK on bulky. Paint, propane, batteries, and e-waste are NOT bulky.",
+    "steps": [
+      "Call Burrtec 661-222-2249 to schedule bulky (up to 4\u00d7/year, 3 items).",
+      "Set out per greensantaclarita.com rules.",
+      "Keep paint, propane, batteries, and e-waste off bulky piles."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as refrigerator?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on Green Santa Clarita \u2014 Bulky Item / Illegal Dumping (audited)."
+      }
+    ],
+    "source_url": "https://greensantaclarita.com/trash-and-recycling/residential-trash-and-recycling/bulky-item-illegal-dumping/",
+    "source_name": "Green Santa Clarita \u2014 Bulky Item / Illegal Dumping",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "dishwasher",
+    "state": "CA",
+    "city_slug": "santa-clarita",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Santa Clarita / Burrtec bulky collection",
+    "common_disposal_fee": "Burrtec bulky \u2014 up to 4\u00d7/year, 3 items \u2014 schedule 661-222-2249",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Santa Clarita, dishwasher follows the same verified program pathway as refrigerator. Santa Clarita refrigerators go on Burrtec bulky collection \u2014 up to 4 times per year, 3 items each \u2014 schedule 661-222-2249. Tires are OK on bulky. Paint, propane, batteries, and e-waste are NOT bulky.",
+    "steps": [
+      "Call Burrtec 661-222-2249 to schedule bulky (up to 4\u00d7/year, 3 items).",
+      "Set out per greensantaclarita.com rules.",
+      "Keep paint, propane, batteries, and e-waste off bulky piles."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as refrigerator?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on Green Santa Clarita \u2014 Bulky Item / Illegal Dumping (audited)."
+      }
+    ],
+    "source_url": "https://greensantaclarita.com/trash-and-recycling/residential-trash-and-recycling/bulky-item-illegal-dumping/",
+    "source_name": "Green Santa Clarita \u2014 Bulky Item / Illegal Dumping",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "stove",
+    "state": "CA",
+    "city_slug": "santa-clarita",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Santa Clarita / Burrtec bulky collection",
+    "common_disposal_fee": "Burrtec bulky \u2014 up to 4\u00d7/year, 3 items \u2014 schedule 661-222-2249",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Santa Clarita, stove follows the same verified program pathway as refrigerator. Santa Clarita refrigerators go on Burrtec bulky collection \u2014 up to 4 times per year, 3 items each \u2014 schedule 661-222-2249. Tires are OK on bulky. Paint, propane, batteries, and e-waste are NOT bulky.",
+    "steps": [
+      "Call Burrtec 661-222-2249 to schedule bulky (up to 4\u00d7/year, 3 items).",
+      "Set out per greensantaclarita.com rules.",
+      "Keep paint, propane, batteries, and e-waste off bulky piles."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as refrigerator?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on Green Santa Clarita \u2014 Bulky Item / Illegal Dumping (audited)."
+      }
+    ],
+    "source_url": "https://greensantaclarita.com/trash-and-recycling/residential-trash-and-recycling/bulky-item-illegal-dumping/",
+    "source_name": "Green Santa Clarita \u2014 Bulky Item / Illegal Dumping",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "water-heater",
+    "state": "CA",
+    "city_slug": "santa-clarita",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Santa Clarita / Burrtec bulky collection",
+    "common_disposal_fee": "Burrtec bulky \u2014 up to 4\u00d7/year, 3 items \u2014 schedule 661-222-2249",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Santa Clarita, water heater follows the same verified program pathway as refrigerator. Santa Clarita refrigerators go on Burrtec bulky collection \u2014 up to 4 times per year, 3 items each \u2014 schedule 661-222-2249. Tires are OK on bulky. Paint, propane, batteries, and e-waste are NOT bulky.",
+    "steps": [
+      "Call Burrtec 661-222-2249 to schedule bulky (up to 4\u00d7/year, 3 items).",
+      "Set out per greensantaclarita.com rules.",
+      "Keep paint, propane, batteries, and e-waste off bulky piles."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as refrigerator?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on Green Santa Clarita \u2014 Bulky Item / Illegal Dumping (audited)."
+      }
+    ],
+    "source_url": "https://greensantaclarita.com/trash-and-recycling/residential-trash-and-recycling/bulky-item-illegal-dumping/",
+    "source_name": "Green Santa Clarita \u2014 Bulky Item / Illegal Dumping",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "laptop",
+    "state": "CA",
+    "city_slug": "santa-clarita",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Burrtec e-waste drop-off \u2014 Springbrook Ave, Santa Clarita",
+    "common_disposal_fee": "NOT curb bulky \u2014 Burrtec e-waste drop-off 25950/26000 Springbrook Ave",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "Medium",
+    "answer": "In Santa Clarita, laptop follows the same verified program pathway as television. Santa Clarita electronics including television are NOT accepted on curb bulky. Drop off at Burrtec \u2014 25950/26000 Springbrook Ave. Wipe data before drop-off.",
+    "steps": [
+      "Do not set e-waste on curb bulky.",
+      "Haul to Burrtec 25950/26000 Springbrook Ave.",
+      "Wipe personal data."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as television?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on Green Santa Clarita \u2014 Bulky Item / Illegal Dumping (audited)."
+      }
+    ],
+    "source_url": "https://greensantaclarita.com/trash-and-recycling/residential-trash-and-recycling/bulky-item-illegal-dumping/",
+    "source_name": "Green Santa Clarita \u2014 Bulky Item / Illegal Dumping",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "desktop-computer",
+    "state": "CA",
+    "city_slug": "santa-clarita",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Burrtec e-waste drop-off \u2014 Springbrook Ave, Santa Clarita",
+    "common_disposal_fee": "NOT curb bulky \u2014 Burrtec e-waste drop-off 25950/26000 Springbrook Ave",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "Medium",
+    "answer": "In Santa Clarita, desktop computer follows the same verified program pathway as television. Santa Clarita electronics including television are NOT accepted on curb bulky. Drop off at Burrtec \u2014 25950/26000 Springbrook Ave. Wipe data before drop-off.",
+    "steps": [
+      "Do not set e-waste on curb bulky.",
+      "Haul to Burrtec 25950/26000 Springbrook Ave.",
+      "Wipe personal data."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as television?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on Green Santa Clarita \u2014 Bulky Item / Illegal Dumping (audited)."
+      }
+    ],
+    "source_url": "https://greensantaclarita.com/trash-and-recycling/residential-trash-and-recycling/bulky-item-illegal-dumping/",
+    "source_name": "Green Santa Clarita \u2014 Bulky Item / Illegal Dumping",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "printer",
+    "state": "CA",
+    "city_slug": "santa-clarita",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Burrtec e-waste drop-off \u2014 Springbrook Ave, Santa Clarita",
+    "common_disposal_fee": "NOT curb bulky \u2014 Burrtec e-waste drop-off 25950/26000 Springbrook Ave",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "Medium",
+    "answer": "In Santa Clarita, printer follows the same verified program pathway as television. Santa Clarita electronics including television are NOT accepted on curb bulky. Drop off at Burrtec \u2014 25950/26000 Springbrook Ave. Wipe data before drop-off.",
+    "steps": [
+      "Do not set e-waste on curb bulky.",
+      "Haul to Burrtec 25950/26000 Springbrook Ave.",
+      "Wipe personal data."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as television?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on Green Santa Clarita \u2014 Bulky Item / Illegal Dumping (audited)."
+      }
+    ],
+    "source_url": "https://greensantaclarita.com/trash-and-recycling/residential-trash-and-recycling/bulky-item-illegal-dumping/",
+    "source_name": "Green Santa Clarita \u2014 Bulky Item / Illegal Dumping",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "tablet",
+    "state": "CA",
+    "city_slug": "santa-clarita",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Burrtec e-waste drop-off \u2014 Springbrook Ave, Santa Clarita",
+    "common_disposal_fee": "NOT curb bulky \u2014 Burrtec e-waste drop-off 25950/26000 Springbrook Ave",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "Medium",
+    "answer": "In Santa Clarita, tablet follows the same verified program pathway as television. Santa Clarita electronics including television are NOT accepted on curb bulky. Drop off at Burrtec \u2014 25950/26000 Springbrook Ave. Wipe data before drop-off.",
+    "steps": [
+      "Do not set e-waste on curb bulky.",
+      "Haul to Burrtec 25950/26000 Springbrook Ave.",
+      "Wipe personal data."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as television?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on Green Santa Clarita \u2014 Bulky Item / Illegal Dumping (audited)."
+      }
+    ],
+    "source_url": "https://greensantaclarita.com/trash-and-recycling/residential-trash-and-recycling/bulky-item-illegal-dumping/",
+    "source_name": "Green Santa Clarita \u2014 Bulky Item / Illegal Dumping",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "microwave",
+    "state": "CA",
+    "city_slug": "santa-clarita",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Burrtec e-waste drop-off \u2014 Springbrook Ave, Santa Clarita",
+    "common_disposal_fee": "NOT curb bulky \u2014 Burrtec e-waste drop-off 25950/26000 Springbrook Ave",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "Medium",
+    "answer": "In Santa Clarita, microwave follows the same verified program pathway as television. Santa Clarita electronics including television are NOT accepted on curb bulky. Drop off at Burrtec \u2014 25950/26000 Springbrook Ave. Wipe data before drop-off.",
+    "steps": [
+      "Do not set e-waste on curb bulky.",
+      "Haul to Burrtec 25950/26000 Springbrook Ave.",
+      "Wipe personal data."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as television?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on Green Santa Clarita \u2014 Bulky Item / Illegal Dumping (audited)."
+      }
+    ],
+    "source_url": "https://greensantaclarita.com/trash-and-recycling/residential-trash-and-recycling/bulky-item-illegal-dumping/",
+    "source_name": "Green Santa Clarita \u2014 Bulky Item / Illegal Dumping",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "hard-drive",
+    "state": "CA",
+    "city_slug": "santa-clarita",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Burrtec e-waste drop-off \u2014 Springbrook Ave, Santa Clarita",
+    "common_disposal_fee": "NOT curb bulky \u2014 Burrtec e-waste drop-off 25950/26000 Springbrook Ave",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "Medium",
+    "answer": "In Santa Clarita, hard drive follows the same verified program pathway as television. Santa Clarita electronics including television are NOT accepted on curb bulky. Drop off at Burrtec \u2014 25950/26000 Springbrook Ave. Wipe data before drop-off.",
+    "steps": [
+      "Do not set e-waste on curb bulky.",
+      "Haul to Burrtec 25950/26000 Springbrook Ave.",
+      "Wipe personal data."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as television?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on Green Santa Clarita \u2014 Bulky Item / Illegal Dumping (audited)."
+      }
+    ],
+    "source_url": "https://greensantaclarita.com/trash-and-recycling/residential-trash-and-recycling/bulky-item-illegal-dumping/",
+    "source_name": "Green Santa Clarita \u2014 Bulky Item / Illegal Dumping",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "ink-toner",
+    "state": "CA",
+    "city_slug": "santa-clarita",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Burrtec e-waste drop-off \u2014 Springbrook Ave, Santa Clarita",
+    "common_disposal_fee": "NOT curb bulky \u2014 Burrtec e-waste drop-off 25950/26000 Springbrook Ave",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "Medium",
+    "answer": "In Santa Clarita, ink toner follows the same verified program pathway as e waste mixed. Santa Clarita electronics including e waste mixed are NOT accepted on curb bulky. Drop off at Burrtec \u2014 25950/26000 Springbrook Ave. Wipe data before drop-off.",
+    "steps": [
+      "Do not set e-waste on curb bulky.",
+      "Haul to Burrtec 25950/26000 Springbrook Ave.",
+      "Wipe personal data."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as e waste mixed?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on Green Santa Clarita \u2014 Bulky Item / Illegal Dumping (audited)."
+      }
+    ],
+    "source_url": "https://greensantaclarita.com/trash-and-recycling/residential-trash-and-recycling/bulky-item-illegal-dumping/",
+    "source_name": "Green Santa Clarita \u2014 Bulky Item / Illegal Dumping",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "solar-panel",
+    "state": "CA",
+    "city_slug": "santa-clarita",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Burrtec e-waste drop-off \u2014 Springbrook Ave, Santa Clarita",
+    "common_disposal_fee": "NOT curb bulky \u2014 Burrtec e-waste drop-off 25950/26000 Springbrook Ave",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "Medium",
+    "answer": "In Santa Clarita, solar panel follows the same verified program pathway as e waste mixed. Santa Clarita electronics including e waste mixed are NOT accepted on curb bulky. Drop off at Burrtec \u2014 25950/26000 Springbrook Ave. Wipe data before drop-off.",
+    "steps": [
+      "Do not set e-waste on curb bulky.",
+      "Haul to Burrtec 25950/26000 Springbrook Ave.",
+      "Wipe personal data."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as e waste mixed?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on Green Santa Clarita \u2014 Bulky Item / Illegal Dumping (audited)."
+      }
+    ],
+    "source_url": "https://greensantaclarita.com/trash-and-recycling/residential-trash-and-recycling/bulky-item-illegal-dumping/",
+    "source_name": "Green Santa Clarita \u2014 Bulky Item / Illegal Dumping",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "household-batteries",
+    "state": "CA",
+    "city_slug": "santa-clarita",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "LA County CleanLA / S.A.F.E. collection centers",
+    "common_disposal_fee": "NOT bulky \u2014 LA County CleanLA / S.A.F.E. HHW centers",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "In Santa Clarita, household batteries follows the same verified program pathway as car battery. Take car battery to LA County CleanLA / S.A.F.E. household hazardous waste collection centers \u2014 paint, propane, and batteries are NOT Burrtec bulky. Confirm center hours on cleanla.lacounty.gov.",
+    "steps": [
+      "Do not set paint/propane/batteries on bulky.",
+      "Use CleanLA / S.A.F.E. collection centers.",
+      "Confirm hours before visiting."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as car battery?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on LA County CleanLA \u2014 HHW Collection Centers (audited)."
+      }
+    ],
+    "source_url": "https://cleanla.lacounty.gov/hhw/collection-centers/",
+    "source_name": "LA County CleanLA \u2014 HHW Collection Centers",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "antifreeze",
+    "state": "CA",
+    "city_slug": "santa-clarita",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "LA County CleanLA / S.A.F.E. collection centers",
+    "common_disposal_fee": "NOT bulky \u2014 LA County CleanLA / S.A.F.E. HHW centers",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "In Santa Clarita, antifreeze follows the same verified program pathway as car battery. Take car battery to LA County CleanLA / S.A.F.E. household hazardous waste collection centers \u2014 paint, propane, and batteries are NOT Burrtec bulky. Confirm center hours on cleanla.lacounty.gov.",
+    "steps": [
+      "Do not set paint/propane/batteries on bulky.",
+      "Use CleanLA / S.A.F.E. collection centers.",
+      "Confirm hours before visiting."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as car battery?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on LA County CleanLA \u2014 HHW Collection Centers (audited)."
+      }
+    ],
+    "source_url": "https://cleanla.lacounty.gov/hhw/collection-centers/",
+    "source_name": "LA County CleanLA \u2014 HHW Collection Centers",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "pesticides",
+    "state": "CA",
+    "city_slug": "santa-clarita",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "LA County CleanLA / S.A.F.E. collection centers",
+    "common_disposal_fee": "NOT bulky \u2014 LA County CleanLA / S.A.F.E. HHW centers",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "In Santa Clarita, pesticides follows the same verified program pathway as paint latex. Take paint latex to LA County CleanLA / S.A.F.E. household hazardous waste collection centers \u2014 paint, propane, and batteries are NOT Burrtec bulky. Confirm center hours on cleanla.lacounty.gov.",
+    "steps": [
+      "Do not set paint/propane/batteries on bulky.",
+      "Use CleanLA / S.A.F.E. collection centers.",
+      "Confirm hours before visiting."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as paint latex?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on LA County CleanLA \u2014 HHW Collection Centers (audited)."
+      }
+    ],
+    "source_url": "https://cleanla.lacounty.gov/hhw/collection-centers/",
+    "source_name": "LA County CleanLA \u2014 HHW Collection Centers",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "herbicides",
+    "state": "CA",
+    "city_slug": "santa-clarita",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "LA County CleanLA / S.A.F.E. collection centers",
+    "common_disposal_fee": "NOT bulky \u2014 LA County CleanLA / S.A.F.E. HHW centers",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "In Santa Clarita, herbicides follows the same verified program pathway as paint latex. Take paint latex to LA County CleanLA / S.A.F.E. household hazardous waste collection centers \u2014 paint, propane, and batteries are NOT Burrtec bulky. Confirm center hours on cleanla.lacounty.gov.",
+    "steps": [
+      "Do not set paint/propane/batteries on bulky.",
+      "Use CleanLA / S.A.F.E. collection centers.",
+      "Confirm hours before visiting."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as paint latex?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on LA County CleanLA \u2014 HHW Collection Centers (audited)."
+      }
+    ],
+    "source_url": "https://cleanla.lacounty.gov/hhw/collection-centers/",
+    "source_name": "LA County CleanLA \u2014 HHW Collection Centers",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "pool-chemicals",
+    "state": "CA",
+    "city_slug": "santa-clarita",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "LA County CleanLA / S.A.F.E. collection centers",
+    "common_disposal_fee": "NOT bulky \u2014 LA County CleanLA / S.A.F.E. HHW centers",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "In Santa Clarita, pool chemicals follows the same verified program pathway as paint latex. Take paint latex to LA County CleanLA / S.A.F.E. household hazardous waste collection centers \u2014 paint, propane, and batteries are NOT Burrtec bulky. Confirm center hours on cleanla.lacounty.gov.",
+    "steps": [
+      "Do not set paint/propane/batteries on bulky.",
+      "Use CleanLA / S.A.F.E. collection centers.",
+      "Confirm hours before visiting."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as paint latex?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on LA County CleanLA \u2014 HHW Collection Centers (audited)."
+      }
+    ],
+    "source_url": "https://cleanla.lacounty.gov/hhw/collection-centers/",
+    "source_name": "LA County CleanLA \u2014 HHW Collection Centers",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "gasoline",
+    "state": "CA",
+    "city_slug": "santa-clarita",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "LA County CleanLA / S.A.F.E. collection centers",
+    "common_disposal_fee": "NOT bulky \u2014 LA County CleanLA / S.A.F.E. HHW centers",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "In Santa Clarita, gasoline follows the same verified program pathway as paint latex. Take paint latex to LA County CleanLA / S.A.F.E. household hazardous waste collection centers \u2014 paint, propane, and batteries are NOT Burrtec bulky. Confirm center hours on cleanla.lacounty.gov.",
+    "steps": [
+      "Do not set paint/propane/batteries on bulky.",
+      "Use CleanLA / S.A.F.E. collection centers.",
+      "Confirm hours before visiting."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as paint latex?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on LA County CleanLA \u2014 HHW Collection Centers (audited)."
+      }
+    ],
+    "source_url": "https://cleanla.lacounty.gov/hhw/collection-centers/",
+    "source_name": "LA County CleanLA \u2014 HHW Collection Centers",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "helium-tank",
+    "state": "CA",
+    "city_slug": "santa-clarita",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "LA County CleanLA / S.A.F.E. collection centers",
+    "common_disposal_fee": "NOT bulky \u2014 LA County CleanLA / S.A.F.E. HHW centers",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "In Santa Clarita, helium tank follows the same verified program pathway as propane tank. Take propane tank to LA County CleanLA / S.A.F.E. household hazardous waste collection centers \u2014 paint, propane, and batteries are NOT Burrtec bulky. Confirm center hours on cleanla.lacounty.gov.",
+    "steps": [
+      "Do not set paint/propane/batteries on bulky.",
+      "Use CleanLA / S.A.F.E. collection centers.",
+      "Confirm hours before visiting."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as propane tank?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on LA County CleanLA \u2014 HHW Collection Centers (audited)."
+      }
+    ],
+    "source_url": "https://cleanla.lacounty.gov/hhw/collection-centers/",
+    "source_name": "LA County CleanLA \u2014 HHW Collection Centers",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "fire-extinguisher",
+    "state": "CA",
+    "city_slug": "santa-clarita",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "LA County CleanLA / S.A.F.E. collection centers",
+    "common_disposal_fee": "NOT bulky \u2014 LA County CleanLA / S.A.F.E. HHW centers",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "In Santa Clarita, fire extinguisher follows the same verified program pathway as propane tank. Take propane tank to LA County CleanLA / S.A.F.E. household hazardous waste collection centers \u2014 paint, propane, and batteries are NOT Burrtec bulky. Confirm center hours on cleanla.lacounty.gov.",
+    "steps": [
+      "Do not set paint/propane/batteries on bulky.",
+      "Use CleanLA / S.A.F.E. collection centers.",
+      "Confirm hours before visiting."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as propane tank?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on LA County CleanLA \u2014 HHW Collection Centers (audited)."
+      }
+    ],
+    "source_url": "https://cleanla.lacounty.gov/hhw/collection-centers/",
+    "source_name": "LA County CleanLA \u2014 HHW Collection Centers",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "smoke-detector",
+    "state": "CA",
+    "city_slug": "santa-clarita",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "LA County CleanLA / S.A.F.E. collection centers",
+    "common_disposal_fee": "NOT bulky \u2014 LA County CleanLA / S.A.F.E. HHW centers",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "In Santa Clarita, smoke detector follows the same verified program pathway as fluorescent bulbs. Take fluorescent bulbs to LA County CleanLA / S.A.F.E. household hazardous waste collection centers \u2014 paint, propane, and batteries are NOT Burrtec bulky. Confirm center hours on cleanla.lacounty.gov.",
+    "steps": [
+      "Do not set paint/propane/batteries on bulky.",
+      "Use CleanLA / S.A.F.E. collection centers.",
+      "Confirm hours before visiting."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as fluorescent bulbs?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on LA County CleanLA \u2014 HHW Collection Centers (audited)."
+      }
+    ],
+    "source_url": "https://cleanla.lacounty.gov/hhw/collection-centers/",
+    "source_name": "LA County CleanLA \u2014 HHW Collection Centers",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "thermometer-mercury",
+    "state": "CA",
+    "city_slug": "santa-clarita",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "LA County CleanLA / S.A.F.E. collection centers",
+    "common_disposal_fee": "NOT bulky \u2014 LA County CleanLA / S.A.F.E. HHW centers",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "In Santa Clarita, thermometer mercury follows the same verified program pathway as fluorescent bulbs. Take fluorescent bulbs to LA County CleanLA / S.A.F.E. household hazardous waste collection centers \u2014 paint, propane, and batteries are NOT Burrtec bulky. Confirm center hours on cleanla.lacounty.gov.",
+    "steps": [
+      "Do not set paint/propane/batteries on bulky.",
+      "Use CleanLA / S.A.F.E. collection centers.",
+      "Confirm hours before visiting."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as fluorescent bulbs?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on LA County CleanLA \u2014 HHW Collection Centers (audited)."
+      }
+    ],
+    "source_url": "https://cleanla.lacounty.gov/hhw/collection-centers/",
+    "source_name": "LA County CleanLA \u2014 HHW Collection Centers",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "led-bulbs",
+    "state": "CA",
+    "city_slug": "santa-clarita",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "LA County CleanLA / S.A.F.E. collection centers",
+    "common_disposal_fee": "NOT bulky \u2014 LA County CleanLA / S.A.F.E. HHW centers",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "In Santa Clarita, led bulbs follows the same verified program pathway as fluorescent bulbs. Take fluorescent bulbs to LA County CleanLA / S.A.F.E. household hazardous waste collection centers \u2014 paint, propane, and batteries are NOT Burrtec bulky. Confirm center hours on cleanla.lacounty.gov.",
+    "steps": [
+      "Do not set paint/propane/batteries on bulky.",
+      "Use CleanLA / S.A.F.E. collection centers.",
+      "Confirm hours before visiting."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as fluorescent bulbs?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on LA County CleanLA \u2014 HHW Collection Centers (audited)."
+      }
+    ],
+    "source_url": "https://cleanla.lacounty.gov/hhw/collection-centers/",
+    "source_name": "LA County CleanLA \u2014 HHW Collection Centers",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "incandescent-bulbs",
+    "state": "CA",
+    "city_slug": "santa-clarita",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "LA County CleanLA / S.A.F.E. collection centers",
+    "common_disposal_fee": "NOT bulky \u2014 LA County CleanLA / S.A.F.E. HHW centers",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "In Santa Clarita, incandescent bulbs follows the same verified program pathway as fluorescent bulbs. Take fluorescent bulbs to LA County CleanLA / S.A.F.E. household hazardous waste collection centers \u2014 paint, propane, and batteries are NOT Burrtec bulky. Confirm center hours on cleanla.lacounty.gov.",
+    "steps": [
+      "Do not set paint/propane/batteries on bulky.",
+      "Use CleanLA / S.A.F.E. collection centers.",
+      "Confirm hours before visiting."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as fluorescent bulbs?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on LA County CleanLA \u2014 HHW Collection Centers (audited)."
+      }
+    ],
+    "source_url": "https://cleanla.lacounty.gov/hhw/collection-centers/",
+    "source_name": "LA County CleanLA \u2014 HHW Collection Centers",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "needles",
+    "state": "CA",
+    "city_slug": "santa-clarita",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "LA County CleanLA / S.A.F.E. collection centers",
+    "common_disposal_fee": "NOT bulky \u2014 LA County CleanLA / S.A.F.E. HHW centers",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "In Santa Clarita, needles follows the same verified program pathway as medical sharps. Take medical sharps to LA County CleanLA / S.A.F.E. household hazardous waste collection centers \u2014 paint, propane, and batteries are NOT Burrtec bulky. Confirm center hours on cleanla.lacounty.gov.",
+    "steps": [
+      "Do not set paint/propane/batteries on bulky.",
+      "Use CleanLA / S.A.F.E. collection centers.",
+      "Confirm hours before visiting."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as medical sharps?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on LA County CleanLA \u2014 HHW Collection Centers (audited)."
+      }
+    ],
+    "source_url": "https://cleanla.lacounty.gov/hhw/collection-centers/",
+    "source_name": "LA County CleanLA \u2014 HHW Collection Centers",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "prescription-drugs",
+    "state": "CA",
+    "city_slug": "santa-clarita",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "LA County CleanLA / S.A.F.E. collection centers",
+    "common_disposal_fee": "NOT bulky \u2014 LA County CleanLA / S.A.F.E. HHW centers",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "In Santa Clarita, prescription drugs follows the same verified program pathway as medical sharps. Take medical sharps to LA County CleanLA / S.A.F.E. household hazardous waste collection centers \u2014 paint, propane, and batteries are NOT Burrtec bulky. Confirm center hours on cleanla.lacounty.gov.",
+    "steps": [
+      "Do not set paint/propane/batteries on bulky.",
+      "Use CleanLA / S.A.F.E. collection centers.",
+      "Confirm hours before visiting."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as medical sharps?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on LA County CleanLA \u2014 HHW Collection Centers (audited)."
+      }
+    ],
+    "source_url": "https://cleanla.lacounty.gov/hhw/collection-centers/",
+    "source_name": "LA County CleanLA \u2014 HHW Collection Centers",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "tire-rims",
+    "state": "CA",
+    "city_slug": "santa-clarita",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Santa Clarita / Burrtec bulky collection",
+    "common_disposal_fee": "Burrtec bulky \u2014 up to 4\u00d7/year, 3 items \u2014 schedule 661-222-2249",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Santa Clarita, tire rims follows the same verified program pathway as tires. Santa Clarita tiress go on Burrtec bulky collection \u2014 up to 4 times per year, 3 items each \u2014 schedule 661-222-2249. Tires are OK on bulky. Paint, propane, batteries, and e-waste are NOT bulky.",
+    "steps": [
+      "Call Burrtec 661-222-2249 to schedule bulky (up to 4\u00d7/year, 3 items).",
+      "Set out per greensantaclarita.com rules.",
+      "Keep paint, propane, batteries, and e-waste off bulky piles."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as tires?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on Green Santa Clarita \u2014 Bulky Item / Illegal Dumping (audited)."
+      }
+    ],
+    "source_url": "https://greensantaclarita.com/trash-and-recycling/residential-trash-and-recycling/bulky-item-illegal-dumping/",
+    "source_name": "Green Santa Clarita \u2014 Bulky Item / Illegal Dumping",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "dehumidifier",
+    "state": "CA",
+    "city_slug": "santa-clarita",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Santa Clarita / Burrtec bulky collection",
+    "common_disposal_fee": "Burrtec bulky \u2014 up to 4\u00d7/year, 3 items \u2014 schedule 661-222-2249",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Santa Clarita, dehumidifier follows the same verified program pathway as air conditioner. Santa Clarita air conditioners go on Burrtec bulky collection \u2014 up to 4 times per year, 3 items each \u2014 schedule 661-222-2249. Tires are OK on bulky. Paint, propane, batteries, and e-waste are NOT bulky.",
+    "steps": [
+      "Call Burrtec 661-222-2249 to schedule bulky (up to 4\u00d7/year, 3 items).",
+      "Set out per greensantaclarita.com rules.",
+      "Keep paint, propane, batteries, and e-waste off bulky piles."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as air conditioner?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on Green Santa Clarita \u2014 Bulky Item / Illegal Dumping (audited)."
+      }
+    ],
+    "source_url": "https://greensantaclarita.com/trash-and-recycling/residential-trash-and-recycling/bulky-item-illegal-dumping/",
+    "source_name": "Green Santa Clarita \u2014 Bulky Item / Illegal Dumping",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "christmas-tree",
+    "state": "CA",
+    "city_slug": "santa-clarita",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Santa Clarita residential trash and recycling",
+    "common_disposal_fee": "Santa Clarita organics / yard-waste cart",
+    "badge": "ACCEPTED_IN_BLUE_BIN",
+    "hazard_rating": "Low",
+    "answer": "In Santa Clarita, christmas tree follows the same verified program pathway as yard waste. Santa Clarita yard waste follows residential organics/yard-waste collection. Follow greensantaclarita.com set-out rules.",
+    "steps": [
+      "Use organics/yard-waste set-out rules.",
+      "Keep yard waste out of HHW and e-waste.",
+      "Check greensantaclarita.com for seasonal guidance."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as yard waste?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on Green Santa Clarita \u2014 Hazardous Waste (audited)."
+      }
+    ],
+    "source_url": "https://greensantaclarita.com/trash-and-recycling/residential-trash-and-recycling/hazardous-waste/",
+    "source_name": "Green Santa Clarita \u2014 Hazardous Waste",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "styrofoam",
+    "state": "CA",
+    "city_slug": "santa-clarita",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Retail bag take-back / trash",
+    "common_disposal_fee": "Not recycling \u2014 store take-back / trash",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Santa Clarita, styrofoam follows the same verified program pathway as plastic bags. Plastic bags are not accepted in curbside recycling. Use store take-back or trash.",
+    "steps": [
+      "Keep bags out of recycling.",
+      "Use grocery take-back.",
+      "Otherwise trash."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as plastic bags?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on Green Santa Clarita \u2014 Bulky Item / Illegal Dumping (audited)."
+      }
+    ],
+    "source_url": "https://greensantaclarita.com/trash-and-recycling/residential-trash-and-recycling/bulky-item-illegal-dumping/",
+    "source_name": "Green Santa Clarita \u2014 Bulky Item / Illegal Dumping",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "cardboard",
+    "state": "CA",
+    "city_slug": "santa-clarita",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Retail bag take-back / trash",
+    "common_disposal_fee": "Not recycling \u2014 store take-back / trash",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Santa Clarita, cardboard follows the same verified program pathway as plastic bags. Plastic bags are not accepted in curbside recycling. Use store take-back or trash.",
+    "steps": [
+      "Keep bags out of recycling.",
+      "Use grocery take-back.",
+      "Otherwise trash."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as plastic bags?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on Green Santa Clarita \u2014 Bulky Item / Illegal Dumping (audited)."
+      }
+    ],
+    "source_url": "https://greensantaclarita.com/trash-and-recycling/residential-trash-and-recycling/bulky-item-illegal-dumping/",
+    "source_name": "Green Santa Clarita \u2014 Bulky Item / Illegal Dumping",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "glass-bottles",
+    "state": "CA",
+    "city_slug": "santa-clarita",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Retail bag take-back / trash",
+    "common_disposal_fee": "Not recycling \u2014 store take-back / trash",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Santa Clarita, glass bottles follows the same verified program pathway as plastic bags. Plastic bags are not accepted in curbside recycling. Use store take-back or trash.",
+    "steps": [
+      "Keep bags out of recycling.",
+      "Use grocery take-back.",
+      "Otherwise trash."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as plastic bags?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on Green Santa Clarita \u2014 Bulky Item / Illegal Dumping (audited)."
+      }
+    ],
+    "source_url": "https://greensantaclarita.com/trash-and-recycling/residential-trash-and-recycling/bulky-item-illegal-dumping/",
+    "source_name": "Green Santa Clarita \u2014 Bulky Item / Illegal Dumping",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "concrete",
+    "state": "CA",
+    "city_slug": "santa-clarita",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Private C&D hauler / LA County disposal",
+    "common_disposal_fee": "NOT bulky \u2014 private C&D hauler",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Santa Clarita, concrete follows the same verified program pathway as construction debris. Construction debris is not Burrtec bulky material. Hire a private C&D hauler. Route paint/chemicals to CleanLA / S.A.F.E. separately.",
+    "steps": [
+      "Do not treat remodel debris as bulky.",
+      "Hire private C&D for larger projects.",
+      "Route paint to CleanLA HHW."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as construction debris?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on Green Santa Clarita \u2014 Bulky Item / Illegal Dumping (audited)."
+      }
+    ],
+    "source_url": "https://greensantaclarita.com/trash-and-recycling/residential-trash-and-recycling/bulky-item-illegal-dumping/",
+    "source_name": "Green Santa Clarita \u2014 Bulky Item / Illegal Dumping",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "drywall",
+    "state": "CA",
+    "city_slug": "santa-clarita",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Private C&D hauler / LA County disposal",
+    "common_disposal_fee": "NOT bulky \u2014 private C&D hauler",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Santa Clarita, drywall follows the same verified program pathway as construction debris. Construction debris is not Burrtec bulky material. Hire a private C&D hauler. Route paint/chemicals to CleanLA / S.A.F.E. separately.",
+    "steps": [
+      "Do not treat remodel debris as bulky.",
+      "Hire private C&D for larger projects.",
+      "Route paint to CleanLA HHW."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as construction debris?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on Green Santa Clarita \u2014 Bulky Item / Illegal Dumping (audited)."
+      }
+    ],
+    "source_url": "https://greensantaclarita.com/trash-and-recycling/residential-trash-and-recycling/bulky-item-illegal-dumping/",
+    "source_name": "Green Santa Clarita \u2014 Bulky Item / Illegal Dumping",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "lumber",
+    "state": "CA",
+    "city_slug": "santa-clarita",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Private C&D hauler / LA County disposal",
+    "common_disposal_fee": "NOT bulky \u2014 private C&D hauler",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Santa Clarita, lumber follows the same verified program pathway as construction debris. Construction debris is not Burrtec bulky material. Hire a private C&D hauler. Route paint/chemicals to CleanLA / S.A.F.E. separately.",
+    "steps": [
+      "Do not treat remodel debris as bulky.",
+      "Hire private C&D for larger projects.",
+      "Route paint to CleanLA HHW."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as construction debris?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on Green Santa Clarita \u2014 Bulky Item / Illegal Dumping (audited)."
+      }
+    ],
+    "source_url": "https://greensantaclarita.com/trash-and-recycling/residential-trash-and-recycling/bulky-item-illegal-dumping/",
+    "source_name": "Green Santa Clarita \u2014 Bulky Item / Illegal Dumping",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "asphalt-shingles",
+    "state": "CA",
+    "city_slug": "santa-clarita",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Private C&D hauler / LA County disposal",
+    "common_disposal_fee": "NOT bulky \u2014 private C&D hauler",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Santa Clarita, asphalt shingles follows the same verified program pathway as construction debris. Construction debris is not Burrtec bulky material. Hire a private C&D hauler. Route paint/chemicals to CleanLA / S.A.F.E. separately.",
+    "steps": [
+      "Do not treat remodel debris as bulky.",
+      "Hire private C&D for larger projects.",
+      "Route paint to CleanLA HHW."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as construction debris?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on Green Santa Clarita \u2014 Bulky Item / Illegal Dumping (audited)."
+      }
+    ],
+    "source_url": "https://greensantaclarita.com/trash-and-recycling/residential-trash-and-recycling/bulky-item-illegal-dumping/",
+    "source_name": "Green Santa Clarita \u2014 Bulky Item / Illegal Dumping",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "car-parts",
+    "state": "CA",
+    "city_slug": "santa-clarita",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Private C&D hauler / LA County disposal",
+    "common_disposal_fee": "NOT bulky \u2014 private C&D hauler",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Santa Clarita, car parts follows the same verified program pathway as construction debris. Construction debris is not Burrtec bulky material. Hire a private C&D hauler. Route paint/chemicals to CleanLA / S.A.F.E. separately.",
+    "steps": [
+      "Do not treat remodel debris as bulky.",
+      "Hire private C&D for larger projects.",
+      "Route paint to CleanLA HHW."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as construction debris?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on Green Santa Clarita \u2014 Bulky Item / Illegal Dumping (audited)."
+      }
+    ],
+    "source_url": "https://greensantaclarita.com/trash-and-recycling/residential-trash-and-recycling/bulky-item-illegal-dumping/",
+    "source_name": "Green Santa Clarita \u2014 Bulky Item / Illegal Dumping",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "mattress",
+    "state": "CA",
+    "city_slug": "modesto",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Modesto bulky item collection \u2014 Gilton / Bertolotti",
+    "common_disposal_fee": "Bulky 2\u00d7/year via Gilton or Bertolotti",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "Modesto mattresss go on bulky item collection \u2014 2 times per year via Gilton or Bertolotti. Schedule per modestogov.com/373. Keep HHW and e-waste off bulky piles. Never vent Freon yourself.",
+    "steps": [
+      "Schedule bulky via your hauler (Gilton or Bertolotti) \u2014 2\u00d7/year.",
+      "Follow modestogov.com/373 set-out rules.",
+      "Route paint/e-waste to Stanislaus County HHW."
+    ],
+    "faqs": [
+      {
+        "q": "How often?",
+        "a": "2 bulky collections per year."
+      },
+      {
+        "q": "Who hauls?",
+        "a": "Gilton or Bertolotti."
+      }
+    ],
+    "source_url": "https://www.modestogov.com/373/Bulky-Item-Collection/",
+    "source_name": "City of Modesto \u2014 Bulky Item Collection",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "refrigerator",
+    "state": "CA",
+    "city_slug": "modesto",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Modesto bulky item collection \u2014 Gilton / Bertolotti",
+    "common_disposal_fee": "Bulky 2\u00d7/year via Gilton or Bertolotti",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "Modesto refrigerators go on bulky item collection \u2014 2 times per year via Gilton or Bertolotti. Schedule per modestogov.com/373. Keep HHW and e-waste off bulky piles. Never vent Freon yourself.",
+    "steps": [
+      "Schedule bulky via your hauler (Gilton or Bertolotti) \u2014 2\u00d7/year.",
+      "Follow modestogov.com/373 set-out rules.",
+      "Route paint/e-waste to Stanislaus County HHW."
+    ],
+    "faqs": [
+      {
+        "q": "How often?",
+        "a": "2 bulky collections per year."
+      },
+      {
+        "q": "Who hauls?",
+        "a": "Gilton or Bertolotti."
+      }
+    ],
+    "source_url": "https://www.modestogov.com/373/Bulky-Item-Collection/",
+    "source_name": "City of Modesto \u2014 Bulky Item Collection",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "air-conditioner",
+    "state": "CA",
+    "city_slug": "modesto",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Modesto bulky item collection \u2014 Gilton / Bertolotti",
+    "common_disposal_fee": "Bulky 2\u00d7/year via Gilton or Bertolotti",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "Modesto air conditioners go on bulky item collection \u2014 2 times per year via Gilton or Bertolotti. Schedule per modestogov.com/373. Keep HHW and e-waste off bulky piles. Never vent Freon yourself.",
+    "steps": [
+      "Schedule bulky via your hauler (Gilton or Bertolotti) \u2014 2\u00d7/year.",
+      "Follow modestogov.com/373 set-out rules.",
+      "Route paint/e-waste to Stanislaus County HHW."
+    ],
+    "faqs": [
+      {
+        "q": "How often?",
+        "a": "2 bulky collections per year."
+      },
+      {
+        "q": "Who hauls?",
+        "a": "Gilton or Bertolotti."
+      }
+    ],
+    "source_url": "https://www.modestogov.com/373/Bulky-Item-Collection/",
+    "source_name": "City of Modesto \u2014 Bulky Item Collection",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "television",
+    "state": "CA",
+    "city_slug": "modesto",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Stanislaus County HHW \u2014 1710 Morgan Road",
+    "common_disposal_fee": "Stanislaus County HHW \u2014 1710 Morgan Road \u2014 Fri\u2013Sat 8am\u2013noon \u2014 free",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "Modesto residents take television to Stanislaus County HHW \u2014 1710 Morgan Road \u2014 free \u2014 Fri\u2013Sat 8:00 a.m.\u2013noon \u2014 phone 209-525-6789. Not bulky. Wipe data on electronics before drop-off.",
+    "steps": [
+      "Haul to 1710 Morgan Road (Fri\u2013Sat 8:00\u201312:00).",
+      "Call 209-525-6789 with questions.",
+      "Keep HHW/e-waste off bulky piles."
+    ],
+    "faqs": [
+      {
+        "q": "Free?",
+        "a": "Yes \u2014 residential HHW/e-waste."
+      },
+      {
+        "q": "Hours?",
+        "a": "Fri\u2013Sat 8 a.m.\u2013noon."
+      },
+      {
+        "q": "Phone?",
+        "a": "209-525-6789."
+      }
+    ],
+    "source_url": "https://www.stancounty.com/",
+    "source_name": "Stanislaus County \u2014 Household Hazardous Waste",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "computer-monitor",
+    "state": "CA",
+    "city_slug": "modesto",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Stanislaus County HHW \u2014 1710 Morgan Road",
+    "common_disposal_fee": "Stanislaus County HHW \u2014 1710 Morgan Road \u2014 Fri\u2013Sat 8am\u2013noon \u2014 free",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "Modesto residents take computer monitor to Stanislaus County HHW \u2014 1710 Morgan Road \u2014 free \u2014 Fri\u2013Sat 8:00 a.m.\u2013noon \u2014 phone 209-525-6789. Not bulky. Wipe data on electronics before drop-off.",
+    "steps": [
+      "Haul to 1710 Morgan Road (Fri\u2013Sat 8:00\u201312:00).",
+      "Call 209-525-6789 with questions.",
+      "Keep HHW/e-waste off bulky piles."
+    ],
+    "faqs": [
+      {
+        "q": "Free?",
+        "a": "Yes \u2014 residential HHW/e-waste."
+      },
+      {
+        "q": "Hours?",
+        "a": "Fri\u2013Sat 8 a.m.\u2013noon."
+      },
+      {
+        "q": "Phone?",
+        "a": "209-525-6789."
+      }
+    ],
+    "source_url": "https://www.stancounty.com/",
+    "source_name": "Stanislaus County \u2014 Household Hazardous Waste",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "smartphone",
+    "state": "CA",
+    "city_slug": "modesto",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Stanislaus County HHW \u2014 1710 Morgan Road",
+    "common_disposal_fee": "Stanislaus County HHW \u2014 1710 Morgan Road \u2014 Fri\u2013Sat 8am\u2013noon \u2014 free",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "Modesto residents take smartphone to Stanislaus County HHW \u2014 1710 Morgan Road \u2014 free \u2014 Fri\u2013Sat 8:00 a.m.\u2013noon \u2014 phone 209-525-6789. Not bulky. Wipe data on electronics before drop-off.",
+    "steps": [
+      "Haul to 1710 Morgan Road (Fri\u2013Sat 8:00\u201312:00).",
+      "Call 209-525-6789 with questions.",
+      "Keep HHW/e-waste off bulky piles."
+    ],
+    "faqs": [
+      {
+        "q": "Free?",
+        "a": "Yes \u2014 residential HHW/e-waste."
+      },
+      {
+        "q": "Hours?",
+        "a": "Fri\u2013Sat 8 a.m.\u2013noon."
+      },
+      {
+        "q": "Phone?",
+        "a": "209-525-6789."
+      }
+    ],
+    "source_url": "https://www.stancounty.com/",
+    "source_name": "Stanislaus County \u2014 Household Hazardous Waste",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "e-waste-mixed",
+    "state": "CA",
+    "city_slug": "modesto",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Stanislaus County HHW \u2014 1710 Morgan Road",
+    "common_disposal_fee": "Stanislaus County HHW \u2014 1710 Morgan Road \u2014 Fri\u2013Sat 8am\u2013noon \u2014 free",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "Modesto residents take e waste mixed to Stanislaus County HHW \u2014 1710 Morgan Road \u2014 free \u2014 Fri\u2013Sat 8:00 a.m.\u2013noon \u2014 phone 209-525-6789. Not bulky. Wipe data on electronics before drop-off.",
+    "steps": [
+      "Haul to 1710 Morgan Road (Fri\u2013Sat 8:00\u201312:00).",
+      "Call 209-525-6789 with questions.",
+      "Keep HHW/e-waste off bulky piles."
+    ],
+    "faqs": [
+      {
+        "q": "Free?",
+        "a": "Yes \u2014 residential HHW/e-waste."
+      },
+      {
+        "q": "Hours?",
+        "a": "Fri\u2013Sat 8 a.m.\u2013noon."
+      },
+      {
+        "q": "Phone?",
+        "a": "209-525-6789."
+      }
+    ],
+    "source_url": "https://www.stancounty.com/",
+    "source_name": "Stanislaus County \u2014 Household Hazardous Waste",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "paint-latex",
+    "state": "CA",
+    "city_slug": "modesto",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Stanislaus County HHW \u2014 1710 Morgan Road",
+    "common_disposal_fee": "Stanislaus County HHW \u2014 1710 Morgan Road \u2014 Fri\u2013Sat 8am\u2013noon \u2014 free",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "Modesto residents take paint latex to Stanislaus County HHW \u2014 1710 Morgan Road \u2014 free \u2014 Fri\u2013Sat 8:00 a.m.\u2013noon \u2014 phone 209-525-6789. Not bulky. Wipe data on electronics before drop-off.",
+    "steps": [
+      "Haul to 1710 Morgan Road (Fri\u2013Sat 8:00\u201312:00).",
+      "Call 209-525-6789 with questions.",
+      "Keep HHW/e-waste off bulky piles."
+    ],
+    "faqs": [
+      {
+        "q": "Free?",
+        "a": "Yes \u2014 residential HHW/e-waste."
+      },
+      {
+        "q": "Hours?",
+        "a": "Fri\u2013Sat 8 a.m.\u2013noon."
+      },
+      {
+        "q": "Phone?",
+        "a": "209-525-6789."
+      }
+    ],
+    "source_url": "https://www.stancounty.com/",
+    "source_name": "Stanislaus County \u2014 Household Hazardous Waste",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "paint-oil",
+    "state": "CA",
+    "city_slug": "modesto",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Stanislaus County HHW \u2014 1710 Morgan Road",
+    "common_disposal_fee": "Stanislaus County HHW \u2014 1710 Morgan Road \u2014 Fri\u2013Sat 8am\u2013noon \u2014 free",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "Modesto residents take paint oil to Stanislaus County HHW \u2014 1710 Morgan Road \u2014 free \u2014 Fri\u2013Sat 8:00 a.m.\u2013noon \u2014 phone 209-525-6789. Not bulky. Wipe data on electronics before drop-off.",
+    "steps": [
+      "Haul to 1710 Morgan Road (Fri\u2013Sat 8:00\u201312:00).",
+      "Call 209-525-6789 with questions.",
+      "Keep HHW/e-waste off bulky piles."
+    ],
+    "faqs": [
+      {
+        "q": "Free?",
+        "a": "Yes \u2014 residential HHW/e-waste."
+      },
+      {
+        "q": "Hours?",
+        "a": "Fri\u2013Sat 8 a.m.\u2013noon."
+      },
+      {
+        "q": "Phone?",
+        "a": "209-525-6789."
+      }
+    ],
+    "source_url": "https://www.stancounty.com/",
+    "source_name": "Stanislaus County \u2014 Household Hazardous Waste",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "car-battery",
+    "state": "CA",
+    "city_slug": "modesto",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Stanislaus County HHW \u2014 1710 Morgan Road",
+    "common_disposal_fee": "Stanislaus County HHW \u2014 1710 Morgan Road \u2014 Fri\u2013Sat 8am\u2013noon \u2014 free",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "Modesto residents take car battery to Stanislaus County HHW \u2014 1710 Morgan Road \u2014 free \u2014 Fri\u2013Sat 8:00 a.m.\u2013noon \u2014 phone 209-525-6789. Not bulky. Wipe data on electronics before drop-off.",
+    "steps": [
+      "Haul to 1710 Morgan Road (Fri\u2013Sat 8:00\u201312:00).",
+      "Call 209-525-6789 with questions.",
+      "Keep HHW/e-waste off bulky piles."
+    ],
+    "faqs": [
+      {
+        "q": "Free?",
+        "a": "Yes \u2014 residential HHW/e-waste."
+      },
+      {
+        "q": "Hours?",
+        "a": "Fri\u2013Sat 8 a.m.\u2013noon."
+      },
+      {
+        "q": "Phone?",
+        "a": "209-525-6789."
+      }
+    ],
+    "source_url": "https://www.stancounty.com/",
+    "source_name": "Stanislaus County \u2014 Household Hazardous Waste",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "lithium-battery",
+    "state": "CA",
+    "city_slug": "modesto",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Stanislaus County HHW \u2014 1710 Morgan Road",
+    "common_disposal_fee": "Stanislaus County HHW \u2014 1710 Morgan Road \u2014 Fri\u2013Sat 8am\u2013noon \u2014 free",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "Modesto residents take lithium battery to Stanislaus County HHW \u2014 1710 Morgan Road \u2014 free \u2014 Fri\u2013Sat 8:00 a.m.\u2013noon \u2014 phone 209-525-6789. Not bulky. Wipe data on electronics before drop-off.",
+    "steps": [
+      "Haul to 1710 Morgan Road (Fri\u2013Sat 8:00\u201312:00).",
+      "Call 209-525-6789 with questions.",
+      "Keep HHW/e-waste off bulky piles."
+    ],
+    "faqs": [
+      {
+        "q": "Free?",
+        "a": "Yes \u2014 residential HHW/e-waste."
+      },
+      {
+        "q": "Hours?",
+        "a": "Fri\u2013Sat 8 a.m.\u2013noon."
+      },
+      {
+        "q": "Phone?",
+        "a": "209-525-6789."
+      }
+    ],
+    "source_url": "https://www.stancounty.com/",
+    "source_name": "Stanislaus County \u2014 Household Hazardous Waste",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "motor-oil",
+    "state": "CA",
+    "city_slug": "modesto",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Stanislaus County HHW \u2014 1710 Morgan Road",
+    "common_disposal_fee": "Stanislaus County HHW \u2014 1710 Morgan Road \u2014 Fri\u2013Sat 8am\u2013noon \u2014 free",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "Modesto residents take motor oil to Stanislaus County HHW \u2014 1710 Morgan Road \u2014 free \u2014 Fri\u2013Sat 8:00 a.m.\u2013noon \u2014 phone 209-525-6789. Not bulky. Wipe data on electronics before drop-off.",
+    "steps": [
+      "Haul to 1710 Morgan Road (Fri\u2013Sat 8:00\u201312:00).",
+      "Call 209-525-6789 with questions.",
+      "Keep HHW/e-waste off bulky piles."
+    ],
+    "faqs": [
+      {
+        "q": "Free?",
+        "a": "Yes \u2014 residential HHW/e-waste."
+      },
+      {
+        "q": "Hours?",
+        "a": "Fri\u2013Sat 8 a.m.\u2013noon."
+      },
+      {
+        "q": "Phone?",
+        "a": "209-525-6789."
+      }
+    ],
+    "source_url": "https://www.stancounty.com/",
+    "source_name": "Stanislaus County \u2014 Household Hazardous Waste",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "propane-tank",
+    "state": "CA",
+    "city_slug": "modesto",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Stanislaus County HHW \u2014 1710 Morgan Road",
+    "common_disposal_fee": "Stanislaus County HHW \u2014 1710 Morgan Road \u2014 Fri\u2013Sat 8am\u2013noon \u2014 free",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "Modesto residents take propane tank to Stanislaus County HHW \u2014 1710 Morgan Road \u2014 free \u2014 Fri\u2013Sat 8:00 a.m.\u2013noon \u2014 phone 209-525-6789. Not bulky. Wipe data on electronics before drop-off.",
+    "steps": [
+      "Haul to 1710 Morgan Road (Fri\u2013Sat 8:00\u201312:00).",
+      "Call 209-525-6789 with questions.",
+      "Keep HHW/e-waste off bulky piles."
+    ],
+    "faqs": [
+      {
+        "q": "Free?",
+        "a": "Yes \u2014 residential HHW/e-waste."
+      },
+      {
+        "q": "Hours?",
+        "a": "Fri\u2013Sat 8 a.m.\u2013noon."
+      },
+      {
+        "q": "Phone?",
+        "a": "209-525-6789."
+      }
+    ],
+    "source_url": "https://www.stancounty.com/",
+    "source_name": "Stanislaus County \u2014 Household Hazardous Waste",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "fluorescent-bulbs",
+    "state": "CA",
+    "city_slug": "modesto",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Stanislaus County HHW \u2014 1710 Morgan Road",
+    "common_disposal_fee": "Stanislaus County HHW \u2014 1710 Morgan Road \u2014 Fri\u2013Sat 8am\u2013noon \u2014 free",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "Modesto residents take fluorescent bulbs to Stanislaus County HHW \u2014 1710 Morgan Road \u2014 free \u2014 Fri\u2013Sat 8:00 a.m.\u2013noon \u2014 phone 209-525-6789. Not bulky. Wipe data on electronics before drop-off.",
+    "steps": [
+      "Haul to 1710 Morgan Road (Fri\u2013Sat 8:00\u201312:00).",
+      "Call 209-525-6789 with questions.",
+      "Keep HHW/e-waste off bulky piles."
+    ],
+    "faqs": [
+      {
+        "q": "Free?",
+        "a": "Yes \u2014 residential HHW/e-waste."
+      },
+      {
+        "q": "Hours?",
+        "a": "Fri\u2013Sat 8 a.m.\u2013noon."
+      },
+      {
+        "q": "Phone?",
+        "a": "209-525-6789."
+      }
+    ],
+    "source_url": "https://www.stancounty.com/",
+    "source_name": "Stanislaus County \u2014 Household Hazardous Waste",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "cooking-oil",
+    "state": "CA",
+    "city_slug": "modesto",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Stanislaus County HHW \u2014 1710 Morgan Road",
+    "common_disposal_fee": "Stanislaus County HHW \u2014 1710 Morgan Road \u2014 Fri\u2013Sat 8am\u2013noon \u2014 free",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "Modesto residents take cooking oil to Stanislaus County HHW \u2014 1710 Morgan Road \u2014 free \u2014 Fri\u2013Sat 8:00 a.m.\u2013noon \u2014 phone 209-525-6789. Not bulky. Wipe data on electronics before drop-off.",
+    "steps": [
+      "Haul to 1710 Morgan Road (Fri\u2013Sat 8:00\u201312:00).",
+      "Call 209-525-6789 with questions.",
+      "Keep HHW/e-waste off bulky piles."
+    ],
+    "faqs": [
+      {
+        "q": "Free?",
+        "a": "Yes \u2014 residential HHW/e-waste."
+      },
+      {
+        "q": "Hours?",
+        "a": "Fri\u2013Sat 8 a.m.\u2013noon."
+      },
+      {
+        "q": "Phone?",
+        "a": "209-525-6789."
+      }
+    ],
+    "source_url": "https://www.stancounty.com/",
+    "source_name": "Stanislaus County \u2014 Household Hazardous Waste",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "medical-sharps",
+    "state": "CA",
+    "city_slug": "modesto",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Stanislaus County HHW \u2014 1710 Morgan Road",
+    "common_disposal_fee": "Stanislaus County HHW \u2014 1710 Morgan Road \u2014 Fri\u2013Sat 8am\u2013noon \u2014 free",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "Modesto residents take medical sharps to Stanislaus County HHW \u2014 1710 Morgan Road \u2014 free \u2014 Fri\u2013Sat 8:00 a.m.\u2013noon \u2014 phone 209-525-6789. Not bulky. Wipe data on electronics before drop-off.",
+    "steps": [
+      "Haul to 1710 Morgan Road (Fri\u2013Sat 8:00\u201312:00).",
+      "Call 209-525-6789 with questions.",
+      "Keep HHW/e-waste off bulky piles."
+    ],
+    "faqs": [
+      {
+        "q": "Free?",
+        "a": "Yes \u2014 residential HHW/e-waste."
+      },
+      {
+        "q": "Hours?",
+        "a": "Fri\u2013Sat 8 a.m.\u2013noon."
+      },
+      {
+        "q": "Phone?",
+        "a": "209-525-6789."
+      }
+    ],
+    "source_url": "https://www.stancounty.com/",
+    "source_name": "Stanislaus County \u2014 Household Hazardous Waste",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "tires",
+    "state": "CA",
+    "city_slug": "modesto",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Retailer take-back / Stanislaus disposal",
+    "common_disposal_fee": "Confirm hauler/county tire acceptance \u2014 not typical HHW",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Medium",
+    "answer": "Modesto tires are not a typical Stanislaus HHW drop-off item. Use retailer take-back when replacing tires or confirm hauler/county tire programs. Keep tires off HHW loads.",
+    "steps": [
+      "Do not assume tires are accepted at Morgan Road HHW.",
+      "Use retailer take-back when replacing tires.",
+      "Confirm county/hauler tire rules."
+    ],
+    "faqs": [
+      {
+        "q": "HHW for tires?",
+        "a": "Usually no \u2014 confirm before hauling."
+      }
+    ],
+    "source_url": "https://www.modestogov.com/FAQ.aspx?QID=204",
+    "source_name": "City of Modesto \u2014 HHW FAQ",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "yard-waste",
+    "state": "CA",
+    "city_slug": "modesto",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Modesto residential collection",
+    "common_disposal_fee": "Modesto organics / yard-waste collection",
+    "badge": "ACCEPTED_IN_BLUE_BIN",
+    "hazard_rating": "Low",
+    "answer": "Modesto yard waste follows residential organics/yard-waste collection. Follow modestogov.com set-out rules.",
+    "steps": [
+      "Use organics/yard-waste set-out rules.",
+      "Keep yard waste out of HHW.",
+      "Check modestogov.com for seasonal guidance."
+    ],
+    "faqs": [
+      {
+        "q": "Christmas trees?",
+        "a": "Follow city seasonal yard-waste guidance."
+      }
+    ],
+    "source_url": "https://www.modestogov.com/373/Bulky-Item-Collection/",
+    "source_name": "City of Modesto \u2014 Bulky Item Collection",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "food-scraps",
+    "state": "CA",
+    "city_slug": "modesto",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Modesto organics / garbage",
+    "common_disposal_fee": "Organics cart / garbage unless private compost",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "Bag food scraps in organics or garbage unless you compost. Keep food out of recycling and HHW.",
+    "steps": [
+      "Use organics/garbage pathways.",
+      "Keep organics out of recycling.",
+      "Yard trimmings use yard-waste pathways."
+    ],
+    "faqs": [
+      {
+        "q": "HHW for food?",
+        "a": "No."
+      }
+    ],
+    "source_url": "https://www.modestogov.com/373/Bulky-Item-Collection/",
+    "source_name": "City of Modesto \u2014 Bulky Item Collection",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "plastic-bags",
+    "state": "CA",
+    "city_slug": "modesto",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Retail bag take-back / trash",
+    "common_disposal_fee": "Not recycling \u2014 store take-back / trash",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "Plastic bags are not accepted in curbside recycling. Use store take-back or trash.",
+    "steps": [
+      "Keep bags out of recycling.",
+      "Use grocery take-back.",
+      "Otherwise trash."
+    ],
+    "faqs": [
+      {
+        "q": "Bulk for bags?",
+        "a": "No."
+      }
+    ],
+    "source_url": "https://www.modestogov.com/373/Bulky-Item-Collection/",
+    "source_name": "City of Modesto \u2014 Bulky Item Collection",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "construction-debris",
+    "state": "CA",
+    "city_slug": "modesto",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Private C&D hauler",
+    "common_disposal_fee": "NOT bulky \u2014 private C&D hauler",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "Construction debris is not Modesto bulky material. Hire a private C&D hauler. Route paint/chemicals to Stanislaus County HHW separately.",
+    "steps": [
+      "Do not treat remodel debris as bulky.",
+      "Hire private C&D for larger projects.",
+      "Route paint to 1710 Morgan Road."
+    ],
+    "faqs": [
+      {
+        "q": "HHW for C&D?",
+        "a": "No \u2014 separate paint/chemicals."
+      }
+    ],
+    "source_url": "https://www.modestogov.com/373/Bulky-Item-Collection/",
+    "source_name": "City of Modesto \u2014 Bulky Item Collection",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "box-spring",
+    "state": "CA",
+    "city_slug": "modesto",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Modesto bulky item collection \u2014 Gilton / Bertolotti",
+    "common_disposal_fee": "Bulky 2\u00d7/year via Gilton or Bertolotti",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Modesto, box spring follows the same verified program pathway as mattress. Modesto mattresss go on bulky item collection \u2014 2 times per year via Gilton or Bertolotti. Schedule per modestogov.com/373. Keep HHW and e-waste off bulky piles. Never vent Freon yourself.",
+    "steps": [
+      "Schedule bulky via your hauler (Gilton or Bertolotti) \u2014 2\u00d7/year.",
+      "Follow modestogov.com/373 set-out rules.",
+      "Route paint/e-waste to Stanislaus County HHW."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as mattress?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Modesto \u2014 Bulky Item Collection (audited)."
+      }
+    ],
+    "source_url": "https://www.modestogov.com/373/Bulky-Item-Collection/",
+    "source_name": "City of Modesto \u2014 Bulky Item Collection",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "sofa",
+    "state": "CA",
+    "city_slug": "modesto",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Modesto bulky item collection \u2014 Gilton / Bertolotti",
+    "common_disposal_fee": "Bulky 2\u00d7/year via Gilton or Bertolotti",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Modesto, sofa follows the same verified program pathway as mattress. Modesto mattresss go on bulky item collection \u2014 2 times per year via Gilton or Bertolotti. Schedule per modestogov.com/373. Keep HHW and e-waste off bulky piles. Never vent Freon yourself.",
+    "steps": [
+      "Schedule bulky via your hauler (Gilton or Bertolotti) \u2014 2\u00d7/year.",
+      "Follow modestogov.com/373 set-out rules.",
+      "Route paint/e-waste to Stanislaus County HHW."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as mattress?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Modesto \u2014 Bulky Item Collection (audited)."
+      }
+    ],
+    "source_url": "https://www.modestogov.com/373/Bulky-Item-Collection/",
+    "source_name": "City of Modesto \u2014 Bulky Item Collection",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "recliner",
+    "state": "CA",
+    "city_slug": "modesto",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Modesto bulky item collection \u2014 Gilton / Bertolotti",
+    "common_disposal_fee": "Bulky 2\u00d7/year via Gilton or Bertolotti",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Modesto, recliner follows the same verified program pathway as mattress. Modesto mattresss go on bulky item collection \u2014 2 times per year via Gilton or Bertolotti. Schedule per modestogov.com/373. Keep HHW and e-waste off bulky piles. Never vent Freon yourself.",
+    "steps": [
+      "Schedule bulky via your hauler (Gilton or Bertolotti) \u2014 2\u00d7/year.",
+      "Follow modestogov.com/373 set-out rules.",
+      "Route paint/e-waste to Stanislaus County HHW."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as mattress?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Modesto \u2014 Bulky Item Collection (audited)."
+      }
+    ],
+    "source_url": "https://www.modestogov.com/373/Bulky-Item-Collection/",
+    "source_name": "City of Modesto \u2014 Bulky Item Collection",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "carpet",
+    "state": "CA",
+    "city_slug": "modesto",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Modesto bulky item collection \u2014 Gilton / Bertolotti",
+    "common_disposal_fee": "Bulky 2\u00d7/year via Gilton or Bertolotti",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Modesto, carpet follows the same verified program pathway as mattress. Modesto mattresss go on bulky item collection \u2014 2 times per year via Gilton or Bertolotti. Schedule per modestogov.com/373. Keep HHW and e-waste off bulky piles. Never vent Freon yourself.",
+    "steps": [
+      "Schedule bulky via your hauler (Gilton or Bertolotti) \u2014 2\u00d7/year.",
+      "Follow modestogov.com/373 set-out rules.",
+      "Route paint/e-waste to Stanislaus County HHW."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as mattress?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Modesto \u2014 Bulky Item Collection (audited)."
+      }
+    ],
+    "source_url": "https://www.modestogov.com/373/Bulky-Item-Collection/",
+    "source_name": "City of Modesto \u2014 Bulky Item Collection",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "exercise-equipment",
+    "state": "CA",
+    "city_slug": "modesto",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Modesto bulky item collection \u2014 Gilton / Bertolotti",
+    "common_disposal_fee": "Bulky 2\u00d7/year via Gilton or Bertolotti",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Modesto, exercise equipment follows the same verified program pathway as mattress. Modesto mattresss go on bulky item collection \u2014 2 times per year via Gilton or Bertolotti. Schedule per modestogov.com/373. Keep HHW and e-waste off bulky piles. Never vent Freon yourself.",
+    "steps": [
+      "Schedule bulky via your hauler (Gilton or Bertolotti) \u2014 2\u00d7/year.",
+      "Follow modestogov.com/373 set-out rules.",
+      "Route paint/e-waste to Stanislaus County HHW."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as mattress?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Modesto \u2014 Bulky Item Collection (audited)."
+      }
+    ],
+    "source_url": "https://www.modestogov.com/373/Bulky-Item-Collection/",
+    "source_name": "City of Modesto \u2014 Bulky Item Collection",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "dining-table",
+    "state": "CA",
+    "city_slug": "modesto",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Modesto bulky item collection \u2014 Gilton / Bertolotti",
+    "common_disposal_fee": "Bulky 2\u00d7/year via Gilton or Bertolotti",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Modesto, dining table follows the same verified program pathway as mattress. Modesto mattresss go on bulky item collection \u2014 2 times per year via Gilton or Bertolotti. Schedule per modestogov.com/373. Keep HHW and e-waste off bulky piles. Never vent Freon yourself.",
+    "steps": [
+      "Schedule bulky via your hauler (Gilton or Bertolotti) \u2014 2\u00d7/year.",
+      "Follow modestogov.com/373 set-out rules.",
+      "Route paint/e-waste to Stanislaus County HHW."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as mattress?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Modesto \u2014 Bulky Item Collection (audited)."
+      }
+    ],
+    "source_url": "https://www.modestogov.com/373/Bulky-Item-Collection/",
+    "source_name": "City of Modesto \u2014 Bulky Item Collection",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "desk",
+    "state": "CA",
+    "city_slug": "modesto",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Modesto bulky item collection \u2014 Gilton / Bertolotti",
+    "common_disposal_fee": "Bulky 2\u00d7/year via Gilton or Bertolotti",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Modesto, desk follows the same verified program pathway as mattress. Modesto mattresss go on bulky item collection \u2014 2 times per year via Gilton or Bertolotti. Schedule per modestogov.com/373. Keep HHW and e-waste off bulky piles. Never vent Freon yourself.",
+    "steps": [
+      "Schedule bulky via your hauler (Gilton or Bertolotti) \u2014 2\u00d7/year.",
+      "Follow modestogov.com/373 set-out rules.",
+      "Route paint/e-waste to Stanislaus County HHW."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as mattress?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Modesto \u2014 Bulky Item Collection (audited)."
+      }
+    ],
+    "source_url": "https://www.modestogov.com/373/Bulky-Item-Collection/",
+    "source_name": "City of Modesto \u2014 Bulky Item Collection",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "bookshelf",
+    "state": "CA",
+    "city_slug": "modesto",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Modesto bulky item collection \u2014 Gilton / Bertolotti",
+    "common_disposal_fee": "Bulky 2\u00d7/year via Gilton or Bertolotti",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Modesto, bookshelf follows the same verified program pathway as mattress. Modesto mattresss go on bulky item collection \u2014 2 times per year via Gilton or Bertolotti. Schedule per modestogov.com/373. Keep HHW and e-waste off bulky piles. Never vent Freon yourself.",
+    "steps": [
+      "Schedule bulky via your hauler (Gilton or Bertolotti) \u2014 2\u00d7/year.",
+      "Follow modestogov.com/373 set-out rules.",
+      "Route paint/e-waste to Stanislaus County HHW."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as mattress?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Modesto \u2014 Bulky Item Collection (audited)."
+      }
+    ],
+    "source_url": "https://www.modestogov.com/373/Bulky-Item-Collection/",
+    "source_name": "City of Modesto \u2014 Bulky Item Collection",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "hot-tub",
+    "state": "CA",
+    "city_slug": "modesto",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Modesto bulky item collection \u2014 Gilton / Bertolotti",
+    "common_disposal_fee": "Bulky 2\u00d7/year via Gilton or Bertolotti",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Modesto, hot tub follows the same verified program pathway as mattress. Modesto mattresss go on bulky item collection \u2014 2 times per year via Gilton or Bertolotti. Schedule per modestogov.com/373. Keep HHW and e-waste off bulky piles. Never vent Freon yourself.",
+    "steps": [
+      "Schedule bulky via your hauler (Gilton or Bertolotti) \u2014 2\u00d7/year.",
+      "Follow modestogov.com/373 set-out rules.",
+      "Route paint/e-waste to Stanislaus County HHW."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as mattress?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Modesto \u2014 Bulky Item Collection (audited)."
+      }
+    ],
+    "source_url": "https://www.modestogov.com/373/Bulky-Item-Collection/",
+    "source_name": "City of Modesto \u2014 Bulky Item Collection",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "piano",
+    "state": "CA",
+    "city_slug": "modesto",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Modesto bulky item collection \u2014 Gilton / Bertolotti",
+    "common_disposal_fee": "Bulky 2\u00d7/year via Gilton or Bertolotti",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Modesto, piano follows the same verified program pathway as mattress. Modesto mattresss go on bulky item collection \u2014 2 times per year via Gilton or Bertolotti. Schedule per modestogov.com/373. Keep HHW and e-waste off bulky piles. Never vent Freon yourself.",
+    "steps": [
+      "Schedule bulky via your hauler (Gilton or Bertolotti) \u2014 2\u00d7/year.",
+      "Follow modestogov.com/373 set-out rules.",
+      "Route paint/e-waste to Stanislaus County HHW."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as mattress?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Modesto \u2014 Bulky Item Collection (audited)."
+      }
+    ],
+    "source_url": "https://www.modestogov.com/373/Bulky-Item-Collection/",
+    "source_name": "City of Modesto \u2014 Bulky Item Collection",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "freezer",
+    "state": "CA",
+    "city_slug": "modesto",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Modesto bulky item collection \u2014 Gilton / Bertolotti",
+    "common_disposal_fee": "Bulky 2\u00d7/year via Gilton or Bertolotti",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Modesto, freezer follows the same verified program pathway as refrigerator. Modesto refrigerators go on bulky item collection \u2014 2 times per year via Gilton or Bertolotti. Schedule per modestogov.com/373. Keep HHW and e-waste off bulky piles. Never vent Freon yourself.",
+    "steps": [
+      "Schedule bulky via your hauler (Gilton or Bertolotti) \u2014 2\u00d7/year.",
+      "Follow modestogov.com/373 set-out rules.",
+      "Route paint/e-waste to Stanislaus County HHW."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as refrigerator?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Modesto \u2014 Bulky Item Collection (audited)."
+      }
+    ],
+    "source_url": "https://www.modestogov.com/373/Bulky-Item-Collection/",
+    "source_name": "City of Modesto \u2014 Bulky Item Collection",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "washer",
+    "state": "CA",
+    "city_slug": "modesto",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Modesto bulky item collection \u2014 Gilton / Bertolotti",
+    "common_disposal_fee": "Bulky 2\u00d7/year via Gilton or Bertolotti",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Modesto, washer follows the same verified program pathway as refrigerator. Modesto refrigerators go on bulky item collection \u2014 2 times per year via Gilton or Bertolotti. Schedule per modestogov.com/373. Keep HHW and e-waste off bulky piles. Never vent Freon yourself.",
+    "steps": [
+      "Schedule bulky via your hauler (Gilton or Bertolotti) \u2014 2\u00d7/year.",
+      "Follow modestogov.com/373 set-out rules.",
+      "Route paint/e-waste to Stanislaus County HHW."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as refrigerator?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Modesto \u2014 Bulky Item Collection (audited)."
+      }
+    ],
+    "source_url": "https://www.modestogov.com/373/Bulky-Item-Collection/",
+    "source_name": "City of Modesto \u2014 Bulky Item Collection",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "dryer",
+    "state": "CA",
+    "city_slug": "modesto",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Modesto bulky item collection \u2014 Gilton / Bertolotti",
+    "common_disposal_fee": "Bulky 2\u00d7/year via Gilton or Bertolotti",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Modesto, dryer follows the same verified program pathway as refrigerator. Modesto refrigerators go on bulky item collection \u2014 2 times per year via Gilton or Bertolotti. Schedule per modestogov.com/373. Keep HHW and e-waste off bulky piles. Never vent Freon yourself.",
+    "steps": [
+      "Schedule bulky via your hauler (Gilton or Bertolotti) \u2014 2\u00d7/year.",
+      "Follow modestogov.com/373 set-out rules.",
+      "Route paint/e-waste to Stanislaus County HHW."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as refrigerator?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Modesto \u2014 Bulky Item Collection (audited)."
+      }
+    ],
+    "source_url": "https://www.modestogov.com/373/Bulky-Item-Collection/",
+    "source_name": "City of Modesto \u2014 Bulky Item Collection",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "dishwasher",
+    "state": "CA",
+    "city_slug": "modesto",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Modesto bulky item collection \u2014 Gilton / Bertolotti",
+    "common_disposal_fee": "Bulky 2\u00d7/year via Gilton or Bertolotti",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Modesto, dishwasher follows the same verified program pathway as refrigerator. Modesto refrigerators go on bulky item collection \u2014 2 times per year via Gilton or Bertolotti. Schedule per modestogov.com/373. Keep HHW and e-waste off bulky piles. Never vent Freon yourself.",
+    "steps": [
+      "Schedule bulky via your hauler (Gilton or Bertolotti) \u2014 2\u00d7/year.",
+      "Follow modestogov.com/373 set-out rules.",
+      "Route paint/e-waste to Stanislaus County HHW."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as refrigerator?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Modesto \u2014 Bulky Item Collection (audited)."
+      }
+    ],
+    "source_url": "https://www.modestogov.com/373/Bulky-Item-Collection/",
+    "source_name": "City of Modesto \u2014 Bulky Item Collection",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "stove",
+    "state": "CA",
+    "city_slug": "modesto",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Modesto bulky item collection \u2014 Gilton / Bertolotti",
+    "common_disposal_fee": "Bulky 2\u00d7/year via Gilton or Bertolotti",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Modesto, stove follows the same verified program pathway as refrigerator. Modesto refrigerators go on bulky item collection \u2014 2 times per year via Gilton or Bertolotti. Schedule per modestogov.com/373. Keep HHW and e-waste off bulky piles. Never vent Freon yourself.",
+    "steps": [
+      "Schedule bulky via your hauler (Gilton or Bertolotti) \u2014 2\u00d7/year.",
+      "Follow modestogov.com/373 set-out rules.",
+      "Route paint/e-waste to Stanislaus County HHW."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as refrigerator?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Modesto \u2014 Bulky Item Collection (audited)."
+      }
+    ],
+    "source_url": "https://www.modestogov.com/373/Bulky-Item-Collection/",
+    "source_name": "City of Modesto \u2014 Bulky Item Collection",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "water-heater",
+    "state": "CA",
+    "city_slug": "modesto",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Modesto bulky item collection \u2014 Gilton / Bertolotti",
+    "common_disposal_fee": "Bulky 2\u00d7/year via Gilton or Bertolotti",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Modesto, water heater follows the same verified program pathway as refrigerator. Modesto refrigerators go on bulky item collection \u2014 2 times per year via Gilton or Bertolotti. Schedule per modestogov.com/373. Keep HHW and e-waste off bulky piles. Never vent Freon yourself.",
+    "steps": [
+      "Schedule bulky via your hauler (Gilton or Bertolotti) \u2014 2\u00d7/year.",
+      "Follow modestogov.com/373 set-out rules.",
+      "Route paint/e-waste to Stanislaus County HHW."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as refrigerator?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Modesto \u2014 Bulky Item Collection (audited)."
+      }
+    ],
+    "source_url": "https://www.modestogov.com/373/Bulky-Item-Collection/",
+    "source_name": "City of Modesto \u2014 Bulky Item Collection",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "laptop",
+    "state": "CA",
+    "city_slug": "modesto",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Stanislaus County HHW \u2014 1710 Morgan Road",
+    "common_disposal_fee": "Stanislaus County HHW \u2014 1710 Morgan Road \u2014 Fri\u2013Sat 8am\u2013noon \u2014 free",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "In Modesto, laptop follows the same verified program pathway as television. Modesto residents take television to Stanislaus County HHW \u2014 1710 Morgan Road \u2014 free \u2014 Fri\u2013Sat 8:00 a.m.\u2013noon \u2014 phone 209-525-6789. Not bulky. Wipe data on electronics before drop-off.",
+    "steps": [
+      "Haul to 1710 Morgan Road (Fri\u2013Sat 8:00\u201312:00).",
+      "Call 209-525-6789 with questions.",
+      "Keep HHW/e-waste off bulky piles."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as television?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on Stanislaus County \u2014 Household Hazardous Waste (audited)."
+      }
+    ],
+    "source_url": "https://www.stancounty.com/",
+    "source_name": "Stanislaus County \u2014 Household Hazardous Waste",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "desktop-computer",
+    "state": "CA",
+    "city_slug": "modesto",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Stanislaus County HHW \u2014 1710 Morgan Road",
+    "common_disposal_fee": "Stanislaus County HHW \u2014 1710 Morgan Road \u2014 Fri\u2013Sat 8am\u2013noon \u2014 free",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "In Modesto, desktop computer follows the same verified program pathway as television. Modesto residents take television to Stanislaus County HHW \u2014 1710 Morgan Road \u2014 free \u2014 Fri\u2013Sat 8:00 a.m.\u2013noon \u2014 phone 209-525-6789. Not bulky. Wipe data on electronics before drop-off.",
+    "steps": [
+      "Haul to 1710 Morgan Road (Fri\u2013Sat 8:00\u201312:00).",
+      "Call 209-525-6789 with questions.",
+      "Keep HHW/e-waste off bulky piles."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as television?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on Stanislaus County \u2014 Household Hazardous Waste (audited)."
+      }
+    ],
+    "source_url": "https://www.stancounty.com/",
+    "source_name": "Stanislaus County \u2014 Household Hazardous Waste",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "printer",
+    "state": "CA",
+    "city_slug": "modesto",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Stanislaus County HHW \u2014 1710 Morgan Road",
+    "common_disposal_fee": "Stanislaus County HHW \u2014 1710 Morgan Road \u2014 Fri\u2013Sat 8am\u2013noon \u2014 free",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "In Modesto, printer follows the same verified program pathway as television. Modesto residents take television to Stanislaus County HHW \u2014 1710 Morgan Road \u2014 free \u2014 Fri\u2013Sat 8:00 a.m.\u2013noon \u2014 phone 209-525-6789. Not bulky. Wipe data on electronics before drop-off.",
+    "steps": [
+      "Haul to 1710 Morgan Road (Fri\u2013Sat 8:00\u201312:00).",
+      "Call 209-525-6789 with questions.",
+      "Keep HHW/e-waste off bulky piles."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as television?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on Stanislaus County \u2014 Household Hazardous Waste (audited)."
+      }
+    ],
+    "source_url": "https://www.stancounty.com/",
+    "source_name": "Stanislaus County \u2014 Household Hazardous Waste",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "tablet",
+    "state": "CA",
+    "city_slug": "modesto",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Stanislaus County HHW \u2014 1710 Morgan Road",
+    "common_disposal_fee": "Stanislaus County HHW \u2014 1710 Morgan Road \u2014 Fri\u2013Sat 8am\u2013noon \u2014 free",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "In Modesto, tablet follows the same verified program pathway as television. Modesto residents take television to Stanislaus County HHW \u2014 1710 Morgan Road \u2014 free \u2014 Fri\u2013Sat 8:00 a.m.\u2013noon \u2014 phone 209-525-6789. Not bulky. Wipe data on electronics before drop-off.",
+    "steps": [
+      "Haul to 1710 Morgan Road (Fri\u2013Sat 8:00\u201312:00).",
+      "Call 209-525-6789 with questions.",
+      "Keep HHW/e-waste off bulky piles."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as television?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on Stanislaus County \u2014 Household Hazardous Waste (audited)."
+      }
+    ],
+    "source_url": "https://www.stancounty.com/",
+    "source_name": "Stanislaus County \u2014 Household Hazardous Waste",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "microwave",
+    "state": "CA",
+    "city_slug": "modesto",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Stanislaus County HHW \u2014 1710 Morgan Road",
+    "common_disposal_fee": "Stanislaus County HHW \u2014 1710 Morgan Road \u2014 Fri\u2013Sat 8am\u2013noon \u2014 free",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "In Modesto, microwave follows the same verified program pathway as television. Modesto residents take television to Stanislaus County HHW \u2014 1710 Morgan Road \u2014 free \u2014 Fri\u2013Sat 8:00 a.m.\u2013noon \u2014 phone 209-525-6789. Not bulky. Wipe data on electronics before drop-off.",
+    "steps": [
+      "Haul to 1710 Morgan Road (Fri\u2013Sat 8:00\u201312:00).",
+      "Call 209-525-6789 with questions.",
+      "Keep HHW/e-waste off bulky piles."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as television?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on Stanislaus County \u2014 Household Hazardous Waste (audited)."
+      }
+    ],
+    "source_url": "https://www.stancounty.com/",
+    "source_name": "Stanislaus County \u2014 Household Hazardous Waste",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "hard-drive",
+    "state": "CA",
+    "city_slug": "modesto",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Stanislaus County HHW \u2014 1710 Morgan Road",
+    "common_disposal_fee": "Stanislaus County HHW \u2014 1710 Morgan Road \u2014 Fri\u2013Sat 8am\u2013noon \u2014 free",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "In Modesto, hard drive follows the same verified program pathway as television. Modesto residents take television to Stanislaus County HHW \u2014 1710 Morgan Road \u2014 free \u2014 Fri\u2013Sat 8:00 a.m.\u2013noon \u2014 phone 209-525-6789. Not bulky. Wipe data on electronics before drop-off.",
+    "steps": [
+      "Haul to 1710 Morgan Road (Fri\u2013Sat 8:00\u201312:00).",
+      "Call 209-525-6789 with questions.",
+      "Keep HHW/e-waste off bulky piles."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as television?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on Stanislaus County \u2014 Household Hazardous Waste (audited)."
+      }
+    ],
+    "source_url": "https://www.stancounty.com/",
+    "source_name": "Stanislaus County \u2014 Household Hazardous Waste",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "ink-toner",
+    "state": "CA",
+    "city_slug": "modesto",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Stanislaus County HHW \u2014 1710 Morgan Road",
+    "common_disposal_fee": "Stanislaus County HHW \u2014 1710 Morgan Road \u2014 Fri\u2013Sat 8am\u2013noon \u2014 free",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "In Modesto, ink toner follows the same verified program pathway as e waste mixed. Modesto residents take e waste mixed to Stanislaus County HHW \u2014 1710 Morgan Road \u2014 free \u2014 Fri\u2013Sat 8:00 a.m.\u2013noon \u2014 phone 209-525-6789. Not bulky. Wipe data on electronics before drop-off.",
+    "steps": [
+      "Haul to 1710 Morgan Road (Fri\u2013Sat 8:00\u201312:00).",
+      "Call 209-525-6789 with questions.",
+      "Keep HHW/e-waste off bulky piles."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as e waste mixed?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on Stanislaus County \u2014 Household Hazardous Waste (audited)."
+      }
+    ],
+    "source_url": "https://www.stancounty.com/",
+    "source_name": "Stanislaus County \u2014 Household Hazardous Waste",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "solar-panel",
+    "state": "CA",
+    "city_slug": "modesto",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Stanislaus County HHW \u2014 1710 Morgan Road",
+    "common_disposal_fee": "Stanislaus County HHW \u2014 1710 Morgan Road \u2014 Fri\u2013Sat 8am\u2013noon \u2014 free",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "In Modesto, solar panel follows the same verified program pathway as e waste mixed. Modesto residents take e waste mixed to Stanislaus County HHW \u2014 1710 Morgan Road \u2014 free \u2014 Fri\u2013Sat 8:00 a.m.\u2013noon \u2014 phone 209-525-6789. Not bulky. Wipe data on electronics before drop-off.",
+    "steps": [
+      "Haul to 1710 Morgan Road (Fri\u2013Sat 8:00\u201312:00).",
+      "Call 209-525-6789 with questions.",
+      "Keep HHW/e-waste off bulky piles."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as e waste mixed?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on Stanislaus County \u2014 Household Hazardous Waste (audited)."
+      }
+    ],
+    "source_url": "https://www.stancounty.com/",
+    "source_name": "Stanislaus County \u2014 Household Hazardous Waste",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "household-batteries",
+    "state": "CA",
+    "city_slug": "modesto",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Stanislaus County HHW \u2014 1710 Morgan Road",
+    "common_disposal_fee": "Stanislaus County HHW \u2014 1710 Morgan Road \u2014 Fri\u2013Sat 8am\u2013noon \u2014 free",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "In Modesto, household batteries follows the same verified program pathway as car battery. Modesto residents take car battery to Stanislaus County HHW \u2014 1710 Morgan Road \u2014 free \u2014 Fri\u2013Sat 8:00 a.m.\u2013noon \u2014 phone 209-525-6789. Not bulky. Wipe data on electronics before drop-off.",
+    "steps": [
+      "Haul to 1710 Morgan Road (Fri\u2013Sat 8:00\u201312:00).",
+      "Call 209-525-6789 with questions.",
+      "Keep HHW/e-waste off bulky piles."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as car battery?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on Stanislaus County \u2014 Household Hazardous Waste (audited)."
+      }
+    ],
+    "source_url": "https://www.stancounty.com/",
+    "source_name": "Stanislaus County \u2014 Household Hazardous Waste",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "antifreeze",
+    "state": "CA",
+    "city_slug": "modesto",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Stanislaus County HHW \u2014 1710 Morgan Road",
+    "common_disposal_fee": "Stanislaus County HHW \u2014 1710 Morgan Road \u2014 Fri\u2013Sat 8am\u2013noon \u2014 free",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "In Modesto, antifreeze follows the same verified program pathway as car battery. Modesto residents take car battery to Stanislaus County HHW \u2014 1710 Morgan Road \u2014 free \u2014 Fri\u2013Sat 8:00 a.m.\u2013noon \u2014 phone 209-525-6789. Not bulky. Wipe data on electronics before drop-off.",
+    "steps": [
+      "Haul to 1710 Morgan Road (Fri\u2013Sat 8:00\u201312:00).",
+      "Call 209-525-6789 with questions.",
+      "Keep HHW/e-waste off bulky piles."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as car battery?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on Stanislaus County \u2014 Household Hazardous Waste (audited)."
+      }
+    ],
+    "source_url": "https://www.stancounty.com/",
+    "source_name": "Stanislaus County \u2014 Household Hazardous Waste",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "pesticides",
+    "state": "CA",
+    "city_slug": "modesto",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Stanislaus County HHW \u2014 1710 Morgan Road",
+    "common_disposal_fee": "Stanislaus County HHW \u2014 1710 Morgan Road \u2014 Fri\u2013Sat 8am\u2013noon \u2014 free",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "In Modesto, pesticides follows the same verified program pathway as paint latex. Modesto residents take paint latex to Stanislaus County HHW \u2014 1710 Morgan Road \u2014 free \u2014 Fri\u2013Sat 8:00 a.m.\u2013noon \u2014 phone 209-525-6789. Not bulky. Wipe data on electronics before drop-off.",
+    "steps": [
+      "Haul to 1710 Morgan Road (Fri\u2013Sat 8:00\u201312:00).",
+      "Call 209-525-6789 with questions.",
+      "Keep HHW/e-waste off bulky piles."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as paint latex?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on Stanislaus County \u2014 Household Hazardous Waste (audited)."
+      }
+    ],
+    "source_url": "https://www.stancounty.com/",
+    "source_name": "Stanislaus County \u2014 Household Hazardous Waste",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "herbicides",
+    "state": "CA",
+    "city_slug": "modesto",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Stanislaus County HHW \u2014 1710 Morgan Road",
+    "common_disposal_fee": "Stanislaus County HHW \u2014 1710 Morgan Road \u2014 Fri\u2013Sat 8am\u2013noon \u2014 free",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "In Modesto, herbicides follows the same verified program pathway as paint latex. Modesto residents take paint latex to Stanislaus County HHW \u2014 1710 Morgan Road \u2014 free \u2014 Fri\u2013Sat 8:00 a.m.\u2013noon \u2014 phone 209-525-6789. Not bulky. Wipe data on electronics before drop-off.",
+    "steps": [
+      "Haul to 1710 Morgan Road (Fri\u2013Sat 8:00\u201312:00).",
+      "Call 209-525-6789 with questions.",
+      "Keep HHW/e-waste off bulky piles."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as paint latex?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on Stanislaus County \u2014 Household Hazardous Waste (audited)."
+      }
+    ],
+    "source_url": "https://www.stancounty.com/",
+    "source_name": "Stanislaus County \u2014 Household Hazardous Waste",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "pool-chemicals",
+    "state": "CA",
+    "city_slug": "modesto",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Stanislaus County HHW \u2014 1710 Morgan Road",
+    "common_disposal_fee": "Stanislaus County HHW \u2014 1710 Morgan Road \u2014 Fri\u2013Sat 8am\u2013noon \u2014 free",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "In Modesto, pool chemicals follows the same verified program pathway as paint latex. Modesto residents take paint latex to Stanislaus County HHW \u2014 1710 Morgan Road \u2014 free \u2014 Fri\u2013Sat 8:00 a.m.\u2013noon \u2014 phone 209-525-6789. Not bulky. Wipe data on electronics before drop-off.",
+    "steps": [
+      "Haul to 1710 Morgan Road (Fri\u2013Sat 8:00\u201312:00).",
+      "Call 209-525-6789 with questions.",
+      "Keep HHW/e-waste off bulky piles."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as paint latex?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on Stanislaus County \u2014 Household Hazardous Waste (audited)."
+      }
+    ],
+    "source_url": "https://www.stancounty.com/",
+    "source_name": "Stanislaus County \u2014 Household Hazardous Waste",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "gasoline",
+    "state": "CA",
+    "city_slug": "modesto",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Stanislaus County HHW \u2014 1710 Morgan Road",
+    "common_disposal_fee": "Stanislaus County HHW \u2014 1710 Morgan Road \u2014 Fri\u2013Sat 8am\u2013noon \u2014 free",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "In Modesto, gasoline follows the same verified program pathway as paint latex. Modesto residents take paint latex to Stanislaus County HHW \u2014 1710 Morgan Road \u2014 free \u2014 Fri\u2013Sat 8:00 a.m.\u2013noon \u2014 phone 209-525-6789. Not bulky. Wipe data on electronics before drop-off.",
+    "steps": [
+      "Haul to 1710 Morgan Road (Fri\u2013Sat 8:00\u201312:00).",
+      "Call 209-525-6789 with questions.",
+      "Keep HHW/e-waste off bulky piles."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as paint latex?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on Stanislaus County \u2014 Household Hazardous Waste (audited)."
+      }
+    ],
+    "source_url": "https://www.stancounty.com/",
+    "source_name": "Stanislaus County \u2014 Household Hazardous Waste",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "helium-tank",
+    "state": "CA",
+    "city_slug": "modesto",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Stanislaus County HHW \u2014 1710 Morgan Road",
+    "common_disposal_fee": "Stanislaus County HHW \u2014 1710 Morgan Road \u2014 Fri\u2013Sat 8am\u2013noon \u2014 free",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "In Modesto, helium tank follows the same verified program pathway as propane tank. Modesto residents take propane tank to Stanislaus County HHW \u2014 1710 Morgan Road \u2014 free \u2014 Fri\u2013Sat 8:00 a.m.\u2013noon \u2014 phone 209-525-6789. Not bulky. Wipe data on electronics before drop-off.",
+    "steps": [
+      "Haul to 1710 Morgan Road (Fri\u2013Sat 8:00\u201312:00).",
+      "Call 209-525-6789 with questions.",
+      "Keep HHW/e-waste off bulky piles."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as propane tank?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on Stanislaus County \u2014 Household Hazardous Waste (audited)."
+      }
+    ],
+    "source_url": "https://www.stancounty.com/",
+    "source_name": "Stanislaus County \u2014 Household Hazardous Waste",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "fire-extinguisher",
+    "state": "CA",
+    "city_slug": "modesto",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Stanislaus County HHW \u2014 1710 Morgan Road",
+    "common_disposal_fee": "Stanislaus County HHW \u2014 1710 Morgan Road \u2014 Fri\u2013Sat 8am\u2013noon \u2014 free",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "In Modesto, fire extinguisher follows the same verified program pathway as propane tank. Modesto residents take propane tank to Stanislaus County HHW \u2014 1710 Morgan Road \u2014 free \u2014 Fri\u2013Sat 8:00 a.m.\u2013noon \u2014 phone 209-525-6789. Not bulky. Wipe data on electronics before drop-off.",
+    "steps": [
+      "Haul to 1710 Morgan Road (Fri\u2013Sat 8:00\u201312:00).",
+      "Call 209-525-6789 with questions.",
+      "Keep HHW/e-waste off bulky piles."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as propane tank?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on Stanislaus County \u2014 Household Hazardous Waste (audited)."
+      }
+    ],
+    "source_url": "https://www.stancounty.com/",
+    "source_name": "Stanislaus County \u2014 Household Hazardous Waste",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "smoke-detector",
+    "state": "CA",
+    "city_slug": "modesto",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Stanislaus County HHW \u2014 1710 Morgan Road",
+    "common_disposal_fee": "Stanislaus County HHW \u2014 1710 Morgan Road \u2014 Fri\u2013Sat 8am\u2013noon \u2014 free",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "In Modesto, smoke detector follows the same verified program pathway as fluorescent bulbs. Modesto residents take fluorescent bulbs to Stanislaus County HHW \u2014 1710 Morgan Road \u2014 free \u2014 Fri\u2013Sat 8:00 a.m.\u2013noon \u2014 phone 209-525-6789. Not bulky. Wipe data on electronics before drop-off.",
+    "steps": [
+      "Haul to 1710 Morgan Road (Fri\u2013Sat 8:00\u201312:00).",
+      "Call 209-525-6789 with questions.",
+      "Keep HHW/e-waste off bulky piles."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as fluorescent bulbs?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on Stanislaus County \u2014 Household Hazardous Waste (audited)."
+      }
+    ],
+    "source_url": "https://www.stancounty.com/",
+    "source_name": "Stanislaus County \u2014 Household Hazardous Waste",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "thermometer-mercury",
+    "state": "CA",
+    "city_slug": "modesto",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Stanislaus County HHW \u2014 1710 Morgan Road",
+    "common_disposal_fee": "Stanislaus County HHW \u2014 1710 Morgan Road \u2014 Fri\u2013Sat 8am\u2013noon \u2014 free",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "In Modesto, thermometer mercury follows the same verified program pathway as fluorescent bulbs. Modesto residents take fluorescent bulbs to Stanislaus County HHW \u2014 1710 Morgan Road \u2014 free \u2014 Fri\u2013Sat 8:00 a.m.\u2013noon \u2014 phone 209-525-6789. Not bulky. Wipe data on electronics before drop-off.",
+    "steps": [
+      "Haul to 1710 Morgan Road (Fri\u2013Sat 8:00\u201312:00).",
+      "Call 209-525-6789 with questions.",
+      "Keep HHW/e-waste off bulky piles."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as fluorescent bulbs?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on Stanislaus County \u2014 Household Hazardous Waste (audited)."
+      }
+    ],
+    "source_url": "https://www.stancounty.com/",
+    "source_name": "Stanislaus County \u2014 Household Hazardous Waste",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "led-bulbs",
+    "state": "CA",
+    "city_slug": "modesto",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Stanislaus County HHW \u2014 1710 Morgan Road",
+    "common_disposal_fee": "Stanislaus County HHW \u2014 1710 Morgan Road \u2014 Fri\u2013Sat 8am\u2013noon \u2014 free",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "In Modesto, led bulbs follows the same verified program pathway as fluorescent bulbs. Modesto residents take fluorescent bulbs to Stanislaus County HHW \u2014 1710 Morgan Road \u2014 free \u2014 Fri\u2013Sat 8:00 a.m.\u2013noon \u2014 phone 209-525-6789. Not bulky. Wipe data on electronics before drop-off.",
+    "steps": [
+      "Haul to 1710 Morgan Road (Fri\u2013Sat 8:00\u201312:00).",
+      "Call 209-525-6789 with questions.",
+      "Keep HHW/e-waste off bulky piles."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as fluorescent bulbs?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on Stanislaus County \u2014 Household Hazardous Waste (audited)."
+      }
+    ],
+    "source_url": "https://www.stancounty.com/",
+    "source_name": "Stanislaus County \u2014 Household Hazardous Waste",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "incandescent-bulbs",
+    "state": "CA",
+    "city_slug": "modesto",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Stanislaus County HHW \u2014 1710 Morgan Road",
+    "common_disposal_fee": "Stanislaus County HHW \u2014 1710 Morgan Road \u2014 Fri\u2013Sat 8am\u2013noon \u2014 free",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "In Modesto, incandescent bulbs follows the same verified program pathway as fluorescent bulbs. Modesto residents take fluorescent bulbs to Stanislaus County HHW \u2014 1710 Morgan Road \u2014 free \u2014 Fri\u2013Sat 8:00 a.m.\u2013noon \u2014 phone 209-525-6789. Not bulky. Wipe data on electronics before drop-off.",
+    "steps": [
+      "Haul to 1710 Morgan Road (Fri\u2013Sat 8:00\u201312:00).",
+      "Call 209-525-6789 with questions.",
+      "Keep HHW/e-waste off bulky piles."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as fluorescent bulbs?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on Stanislaus County \u2014 Household Hazardous Waste (audited)."
+      }
+    ],
+    "source_url": "https://www.stancounty.com/",
+    "source_name": "Stanislaus County \u2014 Household Hazardous Waste",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "needles",
+    "state": "CA",
+    "city_slug": "modesto",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Stanislaus County HHW \u2014 1710 Morgan Road",
+    "common_disposal_fee": "Stanislaus County HHW \u2014 1710 Morgan Road \u2014 Fri\u2013Sat 8am\u2013noon \u2014 free",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "In Modesto, needles follows the same verified program pathway as medical sharps. Modesto residents take medical sharps to Stanislaus County HHW \u2014 1710 Morgan Road \u2014 free \u2014 Fri\u2013Sat 8:00 a.m.\u2013noon \u2014 phone 209-525-6789. Not bulky. Wipe data on electronics before drop-off.",
+    "steps": [
+      "Haul to 1710 Morgan Road (Fri\u2013Sat 8:00\u201312:00).",
+      "Call 209-525-6789 with questions.",
+      "Keep HHW/e-waste off bulky piles."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as medical sharps?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on Stanislaus County \u2014 Household Hazardous Waste (audited)."
+      }
+    ],
+    "source_url": "https://www.stancounty.com/",
+    "source_name": "Stanislaus County \u2014 Household Hazardous Waste",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "prescription-drugs",
+    "state": "CA",
+    "city_slug": "modesto",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Stanislaus County HHW \u2014 1710 Morgan Road",
+    "common_disposal_fee": "Stanislaus County HHW \u2014 1710 Morgan Road \u2014 Fri\u2013Sat 8am\u2013noon \u2014 free",
+    "badge": "BANNED_FROM_LANDFILLS",
+    "hazard_rating": "High",
+    "answer": "In Modesto, prescription drugs follows the same verified program pathway as medical sharps. Modesto residents take medical sharps to Stanislaus County HHW \u2014 1710 Morgan Road \u2014 free \u2014 Fri\u2013Sat 8:00 a.m.\u2013noon \u2014 phone 209-525-6789. Not bulky. Wipe data on electronics before drop-off.",
+    "steps": [
+      "Haul to 1710 Morgan Road (Fri\u2013Sat 8:00\u201312:00).",
+      "Call 209-525-6789 with questions.",
+      "Keep HHW/e-waste off bulky piles."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as medical sharps?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on Stanislaus County \u2014 Household Hazardous Waste (audited)."
+      }
+    ],
+    "source_url": "https://www.stancounty.com/",
+    "source_name": "Stanislaus County \u2014 Household Hazardous Waste",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "tire-rims",
+    "state": "CA",
+    "city_slug": "modesto",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Retailer take-back / Stanislaus disposal",
+    "common_disposal_fee": "Confirm hauler/county tire acceptance \u2014 not typical HHW",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Medium",
+    "answer": "In Modesto, tire rims follows the same verified program pathway as tires. Modesto tires are not a typical Stanislaus HHW drop-off item. Use retailer take-back when replacing tires or confirm hauler/county tire programs. Keep tires off HHW loads.",
+    "steps": [
+      "Do not assume tires are accepted at Morgan Road HHW.",
+      "Use retailer take-back when replacing tires.",
+      "Confirm county/hauler tire rules."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as tires?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Modesto \u2014 HHW FAQ (audited)."
+      }
+    ],
+    "source_url": "https://www.modestogov.com/FAQ.aspx?QID=204",
+    "source_name": "City of Modesto \u2014 HHW FAQ",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "dehumidifier",
+    "state": "CA",
+    "city_slug": "modesto",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Modesto bulky item collection \u2014 Gilton / Bertolotti",
+    "common_disposal_fee": "Bulky 2\u00d7/year via Gilton or Bertolotti",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Modesto, dehumidifier follows the same verified program pathway as air conditioner. Modesto air conditioners go on bulky item collection \u2014 2 times per year via Gilton or Bertolotti. Schedule per modestogov.com/373. Keep HHW and e-waste off bulky piles. Never vent Freon yourself.",
+    "steps": [
+      "Schedule bulky via your hauler (Gilton or Bertolotti) \u2014 2\u00d7/year.",
+      "Follow modestogov.com/373 set-out rules.",
+      "Route paint/e-waste to Stanislaus County HHW."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as air conditioner?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Modesto \u2014 Bulky Item Collection (audited)."
+      }
+    ],
+    "source_url": "https://www.modestogov.com/373/Bulky-Item-Collection/",
+    "source_name": "City of Modesto \u2014 Bulky Item Collection",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "christmas-tree",
+    "state": "CA",
+    "city_slug": "modesto",
+    "zip": null,
+    "is_curbside_allowed": true,
+    "nearest_facility_type": "Modesto residential collection",
+    "common_disposal_fee": "Modesto organics / yard-waste collection",
+    "badge": "ACCEPTED_IN_BLUE_BIN",
+    "hazard_rating": "Low",
+    "answer": "In Modesto, christmas tree follows the same verified program pathway as yard waste. Modesto yard waste follows residential organics/yard-waste collection. Follow modestogov.com set-out rules.",
+    "steps": [
+      "Use organics/yard-waste set-out rules.",
+      "Keep yard waste out of HHW.",
+      "Check modestogov.com for seasonal guidance."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as yard waste?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Modesto \u2014 Bulky Item Collection (audited)."
+      }
+    ],
+    "source_url": "https://www.modestogov.com/373/Bulky-Item-Collection/",
+    "source_name": "City of Modesto \u2014 Bulky Item Collection",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "styrofoam",
+    "state": "CA",
+    "city_slug": "modesto",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Retail bag take-back / trash",
+    "common_disposal_fee": "Not recycling \u2014 store take-back / trash",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Modesto, styrofoam follows the same verified program pathway as plastic bags. Plastic bags are not accepted in curbside recycling. Use store take-back or trash.",
+    "steps": [
+      "Keep bags out of recycling.",
+      "Use grocery take-back.",
+      "Otherwise trash."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as plastic bags?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Modesto \u2014 Bulky Item Collection (audited)."
+      }
+    ],
+    "source_url": "https://www.modestogov.com/373/Bulky-Item-Collection/",
+    "source_name": "City of Modesto \u2014 Bulky Item Collection",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "cardboard",
+    "state": "CA",
+    "city_slug": "modesto",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Retail bag take-back / trash",
+    "common_disposal_fee": "Not recycling \u2014 store take-back / trash",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Modesto, cardboard follows the same verified program pathway as plastic bags. Plastic bags are not accepted in curbside recycling. Use store take-back or trash.",
+    "steps": [
+      "Keep bags out of recycling.",
+      "Use grocery take-back.",
+      "Otherwise trash."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as plastic bags?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Modesto \u2014 Bulky Item Collection (audited)."
+      }
+    ],
+    "source_url": "https://www.modestogov.com/373/Bulky-Item-Collection/",
+    "source_name": "City of Modesto \u2014 Bulky Item Collection",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "glass-bottles",
+    "state": "CA",
+    "city_slug": "modesto",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Retail bag take-back / trash",
+    "common_disposal_fee": "Not recycling \u2014 store take-back / trash",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Modesto, glass bottles follows the same verified program pathway as plastic bags. Plastic bags are not accepted in curbside recycling. Use store take-back or trash.",
+    "steps": [
+      "Keep bags out of recycling.",
+      "Use grocery take-back.",
+      "Otherwise trash."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as plastic bags?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Modesto \u2014 Bulky Item Collection (audited)."
+      }
+    ],
+    "source_url": "https://www.modestogov.com/373/Bulky-Item-Collection/",
+    "source_name": "City of Modesto \u2014 Bulky Item Collection",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "concrete",
+    "state": "CA",
+    "city_slug": "modesto",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Private C&D hauler",
+    "common_disposal_fee": "NOT bulky \u2014 private C&D hauler",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Modesto, concrete follows the same verified program pathway as construction debris. Construction debris is not Modesto bulky material. Hire a private C&D hauler. Route paint/chemicals to Stanislaus County HHW separately.",
+    "steps": [
+      "Do not treat remodel debris as bulky.",
+      "Hire private C&D for larger projects.",
+      "Route paint to 1710 Morgan Road."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as construction debris?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Modesto \u2014 Bulky Item Collection (audited)."
+      }
+    ],
+    "source_url": "https://www.modestogov.com/373/Bulky-Item-Collection/",
+    "source_name": "City of Modesto \u2014 Bulky Item Collection",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "drywall",
+    "state": "CA",
+    "city_slug": "modesto",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Private C&D hauler",
+    "common_disposal_fee": "NOT bulky \u2014 private C&D hauler",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Modesto, drywall follows the same verified program pathway as construction debris. Construction debris is not Modesto bulky material. Hire a private C&D hauler. Route paint/chemicals to Stanislaus County HHW separately.",
+    "steps": [
+      "Do not treat remodel debris as bulky.",
+      "Hire private C&D for larger projects.",
+      "Route paint to 1710 Morgan Road."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as construction debris?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Modesto \u2014 Bulky Item Collection (audited)."
+      }
+    ],
+    "source_url": "https://www.modestogov.com/373/Bulky-Item-Collection/",
+    "source_name": "City of Modesto \u2014 Bulky Item Collection",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "lumber",
+    "state": "CA",
+    "city_slug": "modesto",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Private C&D hauler",
+    "common_disposal_fee": "NOT bulky \u2014 private C&D hauler",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Modesto, lumber follows the same verified program pathway as construction debris. Construction debris is not Modesto bulky material. Hire a private C&D hauler. Route paint/chemicals to Stanislaus County HHW separately.",
+    "steps": [
+      "Do not treat remodel debris as bulky.",
+      "Hire private C&D for larger projects.",
+      "Route paint to 1710 Morgan Road."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as construction debris?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Modesto \u2014 Bulky Item Collection (audited)."
+      }
+    ],
+    "source_url": "https://www.modestogov.com/373/Bulky-Item-Collection/",
+    "source_name": "City of Modesto \u2014 Bulky Item Collection",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "asphalt-shingles",
+    "state": "CA",
+    "city_slug": "modesto",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Private C&D hauler",
+    "common_disposal_fee": "NOT bulky \u2014 private C&D hauler",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Modesto, asphalt shingles follows the same verified program pathway as construction debris. Construction debris is not Modesto bulky material. Hire a private C&D hauler. Route paint/chemicals to Stanislaus County HHW separately.",
+    "steps": [
+      "Do not treat remodel debris as bulky.",
+      "Hire private C&D for larger projects.",
+      "Route paint to 1710 Morgan Road."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as construction debris?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Modesto \u2014 Bulky Item Collection (audited)."
+      }
+    ],
+    "source_url": "https://www.modestogov.com/373/Bulky-Item-Collection/",
+    "source_name": "City of Modesto \u2014 Bulky Item Collection",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
+  },
+  {
+    "item_slug": "car-parts",
+    "state": "CA",
+    "city_slug": "modesto",
+    "zip": null,
+    "is_curbside_allowed": false,
+    "nearest_facility_type": "Private C&D hauler",
+    "common_disposal_fee": "NOT bulky \u2014 private C&D hauler",
+    "badge": "SPECIAL_HANDLING",
+    "hazard_rating": "Low",
+    "answer": "In Modesto, car parts follows the same verified program pathway as construction debris. Construction debris is not Modesto bulky material. Hire a private C&D hauler. Route paint/chemicals to Stanislaus County HHW separately.",
+    "steps": [
+      "Do not treat remodel debris as bulky.",
+      "Hire private C&D for larger projects.",
+      "Route paint to 1710 Morgan Road."
+    ],
+    "faqs": [
+      {
+        "q": "Same channel as construction debris?",
+        "a": "Yes \u2014 same city/county program; confirm acceptance for unusual sizes or commercial loads."
+      },
+      {
+        "q": "Source?",
+        "a": "Based on City of Modesto \u2014 Bulky Item Collection (audited)."
+      }
+    ],
+    "source_url": "https://www.modestogov.com/373/Bulky-Item-Collection/",
+    "source_name": "City of Modesto \u2014 Bulky Item Collection",
+    "last_verified_at": "2026-08-12",
+    "reviewed_by": "editorial-audit",
+    "needs_review": false
   }
 ]
