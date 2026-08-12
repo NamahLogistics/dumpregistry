@@ -70,6 +70,23 @@ BORDER_OK: dict[str, frozenset[str]] = {
 # Known solid-waste / city-county portals that are not *.gov but are official enough.
 # Keep commercial haulers (wm.com, republicservices.com, etc.) out of this set.
 SOURCE_ALLOWLIST = frozenset({
+    "alachuacountyrecycles.com",
+    "cedar-rapids.org",
+    "cityoffullerton.com",
+    "cityoforange.org",
+    "cityofpasadena.net",
+    "cityofwarren.org",
+    "crrwasteservices.com",
+    "elizabethnj.org",
+    "hhwdisposal.com",
+    "lehighcounty.org",
+    "macombgov.org",
+    "mcallenpublicworks.net",
+    "mcallenrecycles.com",
+    "nhswra.com",
+    "solidwasteagency.org",
+    "vppsa.org",
+    "waco-texas.com",
     "rcwaste.org",
     "oclandfills.com",
     "mwatoday.com",

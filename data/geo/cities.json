@@ -1575,6 +1575,150 @@
     "population": 148620
   },
   {
+    "city": "Denton",
+    "city_slug": "denton",
+    "state": "TX",
+    "state_slug": "texas",
+    "lat": 33.2148,
+    "lng": -97.1331,
+    "population": 148146
+  },
+  {
+    "city": "Savannah",
+    "city_slug": "savannah",
+    "state": "GA",
+    "state_slug": "georgia",
+    "lat": 32.0809,
+    "lng": -81.0912,
+    "population": 147780
+  },
+  {
+    "city": "Roseville",
+    "city_slug": "roseville",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 38.7521,
+    "lng": -121.288,
+    "population": 147773
+  },
+  {
+    "city": "Torrance",
+    "city_slug": "torrance",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 33.8358,
+    "lng": -118.3406,
+    "population": 147067
+  },
+  {
+    "city": "McAllen",
+    "city_slug": "mcallen",
+    "state": "TX",
+    "state_slug": "texas",
+    "lat": 26.2034,
+    "lng": -98.23,
+    "population": 143920
+  },
+  {
+    "city": "Fullerton",
+    "city_slug": "fullerton",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 33.8704,
+    "lng": -117.9242,
+    "population": 143617
+  },
+  {
+    "city": "Surprise",
+    "city_slug": "surprise",
+    "state": "AZ",
+    "state_slug": "arizona",
+    "lat": 33.6292,
+    "lng": -112.3679,
+    "population": 143148
+  },
+  {
+    "city": "Thornton",
+    "city_slug": "thornton",
+    "state": "CO",
+    "state_slug": "colorado",
+    "lat": 39.868,
+    "lng": -104.9719,
+    "population": 141867
+  },
+  {
+    "city": "Visalia",
+    "city_slug": "visalia",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 36.3302,
+    "lng": -119.2921,
+    "population": 141384
+  },
+  {
+    "city": "Gainesville",
+    "city_slug": "gainesville",
+    "state": "FL",
+    "state_slug": "florida",
+    "lat": 29.6516,
+    "lng": -82.3248,
+    "population": 141085
+  },
+  {
+    "city": "West Valley City",
+    "city_slug": "west-valley-city",
+    "state": "UT",
+    "state_slug": "utah",
+    "lat": 40.6916,
+    "lng": -112.0011,
+    "population": 140230
+  },
+  {
+    "city": "Orange",
+    "city_slug": "orange",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 33.7878,
+    "lng": -117.8531,
+    "population": 139911
+  },
+  {
+    "city": "Warren",
+    "city_slug": "warren",
+    "state": "MI",
+    "state_slug": "michigan",
+    "lat": 42.5145,
+    "lng": -83.0147,
+    "population": 139387
+  },
+  {
+    "city": "Pasadena",
+    "city_slug": "pasadena-ca",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 34.1478,
+    "lng": -118.1445,
+    "population": 138699
+  },
+  {
+    "city": "Waco",
+    "city_slug": "waco",
+    "state": "TX",
+    "state_slug": "texas",
+    "lat": 31.5493,
+    "lng": -97.1467,
+    "population": 138486
+  },
+  {
+    "city": "Cedar Rapids",
+    "city_slug": "cedar-rapids",
+    "state": "IA",
+    "state_slug": "iowa",
+    "lat": 41.9778,
+    "lng": -91.6656,
+    "population": 137710
+  },
+  {
     "city": "Dayton",
     "city_slug": "dayton",
     "state": "OH",
@@ -1582,5 +1726,86 @@
     "lat": 39.7589,
     "lng": -84.1916,
     "population": 137644
+  },
+  {
+    "city": "Elizabeth",
+    "city_slug": "elizabeth",
+    "state": "NJ",
+    "state_slug": "new-jersey",
+    "lat": 40.664,
+    "lng": -74.2107,
+    "population": 137298
+  },
+  {
+    "city": "Hampton",
+    "city_slug": "hampton",
+    "state": "VA",
+    "state_slug": "virginia",
+    "lat": 37.0299,
+    "lng": -76.3452,
+    "population": 137148
+  },
+  {
+    "city": "Columbia",
+    "city_slug": "columbia",
+    "state": "SC",
+    "state_slug": "south-carolina",
+    "lat": 34.0007,
+    "lng": -81.0348,
+    "population": 136632
+  },
+  {
+    "city": "Kent",
+    "city_slug": "kent",
+    "state": "WA",
+    "state_slug": "washington",
+    "lat": 47.3809,
+    "lng": -122.2348,
+    "population": 136588
+  },
+  {
+    "city": "Miramar",
+    "city_slug": "miramar",
+    "state": "FL",
+    "state_slug": "florida",
+    "lat": 25.9861,
+    "lng": -80.3036,
+    "population": 134721
+  },
+  {
+    "city": "New Haven",
+    "city_slug": "new-haven",
+    "state": "CT",
+    "state_slug": "connecticut",
+    "lat": 41.3083,
+    "lng": -72.9279,
+    "population": 134023
+  },
+  {
+    "city": "Fargo",
+    "city_slug": "fargo",
+    "state": "ND",
+    "state_slug": "north-dakota",
+    "lat": 46.8772,
+    "lng": -96.7898,
+    "population": 125990
+  },
+  {
+    "city": "Allentown",
+    "city_slug": "allentown",
+    "state": "PA",
+    "state_slug": "pennsylvania",
+    "lat": 40.6084,
+    "lng": -75.4902,
+    "population": 125845
+  },
+  {
+    "city": "Hartford",
+    "city_slug": "hartford",
+    "state": "CT",
+    "state_slug": "connecticut",
+    "lat": 41.7658,
+    "lng": -72.6734,
+    "population": 121054
   }
 ]
