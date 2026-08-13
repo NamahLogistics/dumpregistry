@@ -972,6 +972,15 @@
     "population": 208634
   },
   {
+    "city": "Fayetteville",
+    "city_slug": "fayetteville",
+    "state": "NC",
+    "state_slug": "north-carolina",
+    "lat": 35.0527,
+    "lng": -78.8784,
+    "population": 208501
+  },
+  {
     "city": "Fontana",
     "city_slug": "fontana",
     "state": "CA",
@@ -1114,6 +1123,15 @@
     "lat": 30.4383,
     "lng": -84.2807,
     "population": 196169
+  },
+  {
+    "city": "Grand Prairie",
+    "city_slug": "grand-prairie",
+    "state": "TX",
+    "state_slug": "texas",
+    "lat": 32.746,
+    "lng": -96.9978,
+    "population": 196100
   },
   {
     "city": "McKinney",
@@ -1656,6 +1674,15 @@
     "population": 141384
   },
   {
+    "city": "Olathe",
+    "city_slug": "olathe",
+    "state": "KS",
+    "state_slug": "kansas",
+    "lat": 38.8814,
+    "lng": -94.8191,
+    "population": 141290
+  },
+  {
     "city": "Gainesville",
     "city_slug": "gainesville",
     "state": "FL",
@@ -1800,6 +1827,15 @@
     "population": 134023
   },
   {
+    "city": "Carrollton",
+    "city_slug": "carrollton",
+    "state": "TX",
+    "state_slug": "texas",
+    "lat": 32.9756,
+    "lng": -96.8899,
+    "population": 133434
+  },
+  {
     "city": "Round Rock",
     "city_slug": "round-rock",
     "state": "TX",
@@ -1881,6 +1917,15 @@
     "population": 125845
   },
   {
+    "city": "Pearland",
+    "city_slug": "pearland",
+    "state": "TX",
+    "state_slug": "texas",
+    "lat": 29.5636,
+    "lng": -95.286,
+    "population": 125626
+  },
+  {
     "city": "Concord",
     "city_slug": "concord",
     "state": "CA",
@@ -1944,6 +1989,15 @@
     "population": 121395
   },
   {
+    "city": "Lafayette",
+    "city_slug": "lafayette",
+    "state": "LA",
+    "state_slug": "louisiana",
+    "lat": 30.2241,
+    "lng": -92.0198,
+    "population": 121374
+  },
+  {
     "city": "Hartford",
     "city_slug": "hartford",
     "state": "CT",
@@ -1978,6 +2032,15 @@
     "lat": 28.0345,
     "lng": -80.5887,
     "population": 119760
+  },
+  {
+    "city": "Richardson",
+    "city_slug": "richardson",
+    "state": "TX",
+    "state_slug": "texas",
+    "lat": 32.9483,
+    "lng": -96.7299,
+    "population": 119469
   },
   {
     "city": "Meridian",
@@ -2061,6 +2124,15 @@
     "population": 115644
   },
   {
+    "city": "Lowell",
+    "city_slug": "lowell",
+    "state": "MA",
+    "state_slug": "massachusetts",
+    "lat": 42.6334,
+    "lng": -71.3162,
+    "population": 115554
+  },
+  {
     "city": "Wilmington",
     "city_slug": "wilmington-nc",
     "state": "NC",
@@ -2097,6 +2169,24 @@
     "population": 115162
   },
   {
+    "city": "North Charleston",
+    "city_slug": "north-charleston",
+    "state": "SC",
+    "state_slug": "south-carolina",
+    "lat": 32.8546,
+    "lng": -79.9748,
+    "population": 114852
+  },
+  {
+    "city": "Elgin",
+    "city_slug": "elgin",
+    "state": "IL",
+    "state_slug": "illinois",
+    "lat": 42.0354,
+    "lng": -88.2826,
+    "population": 114797
+  },
+  {
     "city": "Carlsbad",
     "city_slug": "carlsbad",
     "state": "CA",
@@ -2113,6 +2203,15 @@
     "lat": 33.5539,
     "lng": -117.2139,
     "population": 114496
+  },
+  {
+    "city": "Odessa",
+    "city_slug": "odessa",
+    "state": "TX",
+    "state_slug": "texas",
+    "lat": 31.8457,
+    "lng": -102.3676,
+    "population": 114428
   },
   {
     "city": "Springfield",
@@ -2205,6 +2304,15 @@
     "population": 111385
   },
   {
+    "city": "Lewisville",
+    "city_slug": "lewisville",
+    "state": "TX",
+    "state_slug": "texas",
+    "lat": 33.0462,
+    "lng": -97.0067,
+    "population": 111119
+  },
+  {
     "city": "Everett",
     "city_slug": "everett",
     "state": "WA",
@@ -2257,5 +2365,338 @@
     "lat": 40.015,
     "lng": -105.2705,
     "population": 108090
+  },
+  {
+    "city": "Sandy Springs",
+    "city_slug": "sandy-springs",
+    "state": "GA",
+    "state_slug": "georgia",
+    "lat": 33.9304,
+    "lng": -84.3733,
+    "population": 108080
+  },
+  {
+    "city": "Edison",
+    "city_slug": "edison",
+    "state": "NJ",
+    "state_slug": "new-jersey",
+    "lat": 40.5187,
+    "lng": -74.4121,
+    "population": 107588
+  },
+  {
+    "city": "South Fulton",
+    "city_slug": "south-fulton",
+    "state": "GA",
+    "state_slug": "georgia",
+    "lat": 33.6565,
+    "lng": -84.6122,
+    "population": 107436
+  },
+  {
+    "city": "Green Bay",
+    "city_slug": "green-bay",
+    "state": "WI",
+    "state_slug": "wisconsin",
+    "lat": 44.5192,
+    "lng": -88.0198,
+    "population": 107395
+  },
+  {
+    "city": "Burbank",
+    "city_slug": "burbank",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 34.1808,
+    "lng": -118.309,
+    "population": 107337
+  },
+  {
+    "city": "Hillsboro",
+    "city_slug": "hillsboro",
+    "state": "OR",
+    "state_slug": "oregon",
+    "lat": 45.5229,
+    "lng": -122.9898,
+    "population": 106894
+  },
+  {
+    "city": "Renton",
+    "city_slug": "renton",
+    "state": "WA",
+    "state_slug": "washington",
+    "lat": 47.4829,
+    "lng": -122.2171,
+    "population": 106785
+  },
+  {
+    "city": "El Cajon",
+    "city_slug": "el-cajon",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 32.7948,
+    "lng": -116.9625,
+    "population": 106215
+  },
+  {
+    "city": "Tyler",
+    "city_slug": "tyler",
+    "state": "TX",
+    "state_slug": "texas",
+    "lat": 32.3513,
+    "lng": -95.3011,
+    "population": 105995
+  },
+  {
+    "city": "San Mateo",
+    "city_slug": "san-mateo",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 37.5629,
+    "lng": -122.3255,
+    "population": 105661
+  },
+  {
+    "city": "Spokane Valley",
+    "city_slug": "spokane-valley",
+    "state": "WA",
+    "state_slug": "washington",
+    "lat": 47.6733,
+    "lng": -117.2394,
+    "population": 105376
+  },
+  {
+    "city": "Concord",
+    "city_slug": "concord-nc",
+    "state": "NC",
+    "state_slug": "north-carolina",
+    "lat": 35.4088,
+    "lng": -80.5795,
+    "population": 105240
+  },
+  {
+    "city": "Daly City",
+    "city_slug": "daly-city",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 37.6879,
+    "lng": -122.4702,
+    "population": 104901
+  },
+  {
+    "city": "Rio Rancho",
+    "city_slug": "rio-rancho",
+    "state": "NM",
+    "state_slug": "new-mexico",
+    "lat": 35.2328,
+    "lng": -106.663,
+    "population": 104026
+  },
+  {
+    "city": "Woodbridge",
+    "city_slug": "woodbridge",
+    "state": "NJ",
+    "state_slug": "new-jersey",
+    "lat": 40.5576,
+    "lng": -74.2846,
+    "population": 103639
+  },
+  {
+    "city": "South Bend",
+    "city_slug": "south-bend",
+    "state": "IN",
+    "state_slug": "indiana",
+    "lat": 41.6764,
+    "lng": -86.252,
+    "population": 103453
+  },
+  {
+    "city": "Davenport",
+    "city_slug": "davenport",
+    "state": "IA",
+    "state_slug": "iowa",
+    "lat": 41.5236,
+    "lng": -90.5776,
+    "population": 101724
+  },
+  {
+    "city": "Vista",
+    "city_slug": "vista",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 33.2,
+    "lng": -117.2425,
+    "population": 101659
+  },
+  {
+    "city": "Federal Way",
+    "city_slug": "federal-way",
+    "state": "WA",
+    "state_slug": "washington",
+    "lat": 47.3223,
+    "lng": -122.3126,
+    "population": 101030
+  },
+  {
+    "city": "Nampa",
+    "city_slug": "nampa",
+    "state": "ID",
+    "state_slug": "idaho",
+    "lat": 43.5407,
+    "lng": -116.5635,
+    "population": 100200
+  },
+  {
+    "city": "Kenosha",
+    "city_slug": "kenosha",
+    "state": "WI",
+    "state_slug": "wisconsin",
+    "lat": 42.5847,
+    "lng": -87.8212,
+    "population": 99986
+  },
+  {
+    "city": "Albany",
+    "city_slug": "albany",
+    "state": "NY",
+    "state_slug": "new-york",
+    "lat": 42.6526,
+    "lng": -73.7562,
+    "population": 99224
+  },
+  {
+    "city": "Orem",
+    "city_slug": "orem",
+    "state": "UT",
+    "state_slug": "utah",
+    "lat": 40.2969,
+    "lng": -111.6946,
+    "population": 98129
+  },
+  {
+    "city": "Beaverton",
+    "city_slug": "beaverton",
+    "state": "OR",
+    "state_slug": "oregon",
+    "lat": 45.4871,
+    "lng": -122.8037,
+    "population": 97494
+  },
+  {
+    "city": "Sandy",
+    "city_slug": "sandy",
+    "state": "UT",
+    "state_slug": "utah",
+    "lat": 40.5649,
+    "lng": -111.8389,
+    "population": 96904
+  },
+  {
+    "city": "Livonia",
+    "city_slug": "livonia",
+    "state": "MI",
+    "state_slug": "michigan",
+    "lat": 42.3684,
+    "lng": -83.3527,
+    "population": 95535
+  },
+  {
+    "city": "Reading",
+    "city_slug": "reading",
+    "state": "PA",
+    "state_slug": "pennsylvania",
+    "lat": 40.3356,
+    "lng": -75.9269,
+    "population": 95112
+  },
+  {
+    "city": "Erie",
+    "city_slug": "erie",
+    "state": "PA",
+    "state_slug": "pennsylvania",
+    "lat": 42.1292,
+    "lng": -80.0851,
+    "population": 94831
+  },
+  {
+    "city": "Asheville",
+    "city_slug": "asheville",
+    "state": "NC",
+    "state_slug": "north-carolina",
+    "lat": 35.5951,
+    "lng": -82.5515,
+    "population": 94589
+  },
+  {
+    "city": "Duluth",
+    "city_slug": "duluth",
+    "state": "MN",
+    "state_slug": "minnesota",
+    "lat": 46.7867,
+    "lng": -92.1005,
+    "population": 86697
+  },
+  {
+    "city": "Franklin",
+    "city_slug": "franklin",
+    "state": "TN",
+    "state_slug": "tennessee",
+    "lat": 35.9251,
+    "lng": -86.8689,
+    "population": 83454
+  },
+  {
+    "city": "Flint",
+    "city_slug": "flint",
+    "state": "MI",
+    "state_slug": "michigan",
+    "lat": 43.0125,
+    "lng": -83.6875,
+    "population": 81252
+  },
+  {
+    "city": "Racine",
+    "city_slug": "racine",
+    "state": "WI",
+    "state_slug": "wisconsin",
+    "lat": 42.7261,
+    "lng": -87.7829,
+    "population": 77816
+  },
+  {
+    "city": "Wilmington",
+    "city_slug": "wilmington",
+    "state": "DE",
+    "state_slug": "delaware",
+    "lat": 39.7391,
+    "lng": -75.5398,
+    "population": 70851
+  },
+  {
+    "city": "Portland",
+    "city_slug": "portland-me",
+    "state": "ME",
+    "state_slug": "maine",
+    "lat": 43.6591,
+    "lng": -70.2568,
+    "population": 68408
+  },
+  {
+    "city": "Charleston",
+    "city_slug": "charleston-wv",
+    "state": "WV",
+    "state_slug": "west-virginia",
+    "lat": 38.3498,
+    "lng": -81.6326,
+    "population": 48864
+  },
+  {
+    "city": "Burlington",
+    "city_slug": "burlington",
+    "state": "VT",
+    "state_slug": "vermont",
+    "lat": 44.4759,
+    "lng": -73.2121,
+    "population": 44743
   }
 ]

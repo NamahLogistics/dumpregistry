@@ -386,6 +386,24 @@ SOURCE_ALLOWLIST = frozenset({
     "suvswd.org",
     "ingham.org",
     "pueblo.us",
+    # Wave-25 metro portals (JPAs, solid-waste authorities, city brands)
+    "rethinkwaste.org",
+    "wastecom.com",
+    "wlssd.com",
+    "cityofelgin.org",
+    "gcmpc.org",
+    "kenosha.org",
+    "pearlandrecycles.com",
+    "ecomaine.org",
+    "cityoftyler.org",
+    "dswa.com",
+    "cswd.net",
+    "albanynyrecycles.com",
+    "kanawharecycles.org",
+    "dalycity.org",
+    "cityofsanmateo.org",
+    "smchealth.org",
+    "livonia.gov",
 })
 
 US_STATE_ABBR = frozenset({
