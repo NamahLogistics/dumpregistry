@@ -235,11 +235,12 @@ export const HIGH_INTENT_ITEMS = [
   "construction-debris",
   "concrete",
   "helium-tank",
+  "styrofoam",
+  "solar-panel",
   "lithium-battery",
   "propane-tank",
   "tires",
   "refrigerator",
-  "car-parts",
   "paint-latex",
 ] as const;
 

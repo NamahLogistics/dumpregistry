@@ -63,6 +63,14 @@
     "title": "Helium tank disposal near me",
     "description": "Disposable party tanks are not recycling-cart metal. HHW vs empty-and-puncture vs return-to-supplier — follow the city program."
   },
+  "/guides/how-to-dispose-of-solar-panels": {
+    "title": "Solar panel disposal near me",
+    "description": "Rooftop PV is not mixed e-waste. Installer take-back and specialty recyclers — city TV drop-off usually refuses a panel."
+  },
+  "/materials/solar-panel": {
+    "title": "Solar panel recycling near me",
+    "description": "Confirm PV on the official city program. Household e-waste sites are for TVs and computers, not rooftop modules."
+  },
   "/guides/how-to-dispose-of-styrofoam": {
     "title": "Styrofoam disposal near me",
     "description": "EPS foam is almost never curbside recycling. Blocks, peanuts, and food trays are different — densifier or trash, not the blue cart."

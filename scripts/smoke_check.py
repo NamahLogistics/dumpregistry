@@ -26,7 +26,15 @@ def main() -> None:
     mattress = next(p for p in pages if p["city_slug"] == "houston" and p["item_slug"] == "mattress")
     assert mattress["indexable"] is True
     helium = next(p for p in pages if p["city_slug"] == "houston" and p["item_slug"] == "helium-tank")
-    assert helium["indexable"] is True, "false aliases stay indexable until rewritten"
+    assert helium["indexable"] is True
+    assert "same verified program pathway" not in (helium.get("answer") or "").lower()
+    assert "propane exchange" in (helium.get("answer") or "").lower()
+    foam = next(p for p in pages if p["city_slug"] == "new-york" and p["item_slug"] == "styrofoam")
+    assert "same verified program pathway" not in (foam.get("answer") or "").lower()
+    assert "dual-stream" in (foam.get("answer") or "").lower() or "garbage" in (foam.get("answer") or "").lower()
+    solar = next(p for p in pages if p["city_slug"] == "houston" and p["item_slug"] == "solar-panel")
+    assert "same verified program pathway" not in (solar.get("answer") or "").lower()
+    assert "e-waste" in (solar.get("answer") or "").lower() or "PV" in (solar.get("answer") or "")
     assert not any("statewide guidance only" in (p.get("answer") or "").lower() for p in pages)
 
     sample = next(p for p in pages if p["city_slug"] == "los-angeles" and p["item_slug"] == "mattress")

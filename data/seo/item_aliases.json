@@ -41,11 +41,8 @@
     "gasoline": "paint-latex"
   },
   "false_aliases": {
-    "styrofoam": "plastic-bags",
     "cardboard": "plastic-bags",
     "glass-bottles": "plastic-bags",
-    "solar-panel": "e-waste-mixed",
-    "helium-tank": "propane-tank",
     "fire-extinguisher": "propane-tank",
     "prescription-drugs": "medical-sharps",
     "household-batteries": "car-battery",

@@ -24,6 +24,7 @@ export const GUIDE_DISPOSE_ITEM: Record<string, string> = {
   "how-to-dispose-of-motor-oil": "motor-oil",
   "how-to-dispose-of-helium-tanks": "helium-tank",
   "how-to-dispose-of-styrofoam": "styrofoam",
+  "how-to-dispose-of-solar-panels": "solar-panel",
 };
 
 /** Channel explainers — link city hubs, not one item. */
