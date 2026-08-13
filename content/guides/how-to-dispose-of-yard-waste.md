@@ -63,7 +63,7 @@ Backyard composting is great for leaves and non-meat scraps when you can manage 
 ## How to use DumpRegistry
 
 - Read [yard waste](/materials/yard-waste) for the national overview
-- Open your [city](/cities) dispose guide for set-out days and bag rules
+- City guides: [Seattle](/washington/seattle/dispose/yard-waste), [Houston](/texas/houston/dispose/yard-waste), [New York](/new-york/new-york/dispose/yard-waste), [Phoenix](/arizona/phoenix/dispose/yard-waste)
 - Use [Centers](/centers?material=yard-waste) when self-hauling to a compost or yard facility
 
 If you also have leftover soil and concrete from a landscaping project, that is often [construction debris](/guides/how-to-dispose-of-construction-debris), not organics — keep the piles separate at the curb.

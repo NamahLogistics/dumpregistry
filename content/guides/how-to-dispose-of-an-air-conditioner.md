@@ -66,7 +66,7 @@ If a quote seems too cheap, ask whether refrigerant recovery is included.
 
 - Open the [air conditioner material hub](/materials/air-conditioner)
 - Compare with [refrigerator](/materials/refrigerator) if your city groups white goods
-- Use [city guides](/cities) for the official Freon / appliance booking link
+- City guides: [Los Angeles](/california/los-angeles/dispose/air-conditioner), [Boston](/massachusetts/boston/dispose/air-conditioner), [New York](/new-york/new-york/dispose/air-conditioner), [Phoenix](/arizona/phoenix/dispose/air-conditioner)
 - Filter [Centers](/centers?material=air-conditioner) for drop-off facilities
 
 Bring the model notes if a rebate program needs proof. City-sourced pages on DumpRegistry show the program we verified and when — that beats generic “call 311” advice with no source.

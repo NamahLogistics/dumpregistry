@@ -55,7 +55,7 @@ Cathode-ray tubes are leaded glass. Many “free e-waste” events exclude them 
 ## How to use DumpRegistry
 
 - Start at [mixed e-waste](/materials/e-waste-mixed) or the specific device hub
-- Open your [city](/cities) electronics / bulky rules
+- City electronics guides: [New York](/new-york/new-york/dispose/e-waste-mixed), [Houston](/texas/houston/dispose/e-waste-mixed), [Sacramento](/california/sacramento/dispose/e-waste-mixed), [Los Angeles](/california/los-angeles/dispose/e-waste-mixed)
 - Filter [Centers](/centers?material=e-waste-mixed)
 
 Pair e-waste day with [lithium batteries](/guides/how-to-dispose-of-lithium-batteries) and [fluorescent bulbs](/guides/how-to-dispose-of-fluorescent-bulbs) if those are sitting in the same closet.

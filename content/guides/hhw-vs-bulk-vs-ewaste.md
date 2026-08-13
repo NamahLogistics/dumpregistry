@@ -14,11 +14,11 @@ Municipal websites often split the same household mess across three programs. Mi
 
 **Not usually for:** wet paint, pesticides, automotive fluids, loose trash bags, construction debris from contractors.
 
-Start here: [Materials · Bulky](/materials) and your [city hub](/cities).
+Start here: [Materials · Bulky](/materials) and city hubs such as [New York](/new-york/new-york), [Los Angeles](/california/los-angeles), [Chicago](/illinois/chicago), or [Houston](/texas/houston).
 
 ## Household hazardous waste (HHW)
 
-**For:** oil-based paint, solvents, pesticides, pool chemicals, gasoline, antifreeze, many batteries, propane cylinders (rules vary).
+**For:** oil-based paint, solvents, pesticides, pool chemicals, gasoline, antifreeze, many batteries, propane cylinders (rules vary), used [motor oil](/guides/how-to-dispose-of-motor-oil).
 
 **Often not for:** latex paint (many cities say dry it out for trash), Freon appliances, large TVs, tires, business waste.
 

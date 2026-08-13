@@ -81,7 +81,7 @@ If stairs are involved, ask the city or hauler about access fees before you book
 ## How to use DumpRegistry for a sofa
 
 - Start at the [sofa / couch material hub](/materials/sofa) for the national overview and city list
-- Open your [city’s verified guides](/cities) and follow the official bulky program link on the dispose page
+- City bulky guides: [Chicago](/illinois/chicago/dispose/sofa), [San Antonio](/texas/san-antonio/dispose/sofa), [Boston](/massachusetts/boston/dispose/sofa), [Dallas](/texas/dallas/dispose/sofa)
 - Compare nearby options for a [recliner](/materials/recliner) if that is what you actually have
 - If drop-off is the answer, use [Centers](/centers) to find a hard facility near your ZIP
 

@@ -27,7 +27,7 @@ HHW facilities usually **reject** Freon appliances even when they take paint and
 ## Use DumpRegistry the short way
 
 1. Open [refrigerator](/materials/refrigerator) or [air conditioner](/materials/air-conditioner).
-2. Jump into your [city guide](/cities).
+2. Jump into a city guide such as [Los Angeles](/california/los-angeles/dispose/refrigerator), [New York](/new-york/new-york/dispose/refrigerator), or [San Francisco](/california/san-francisco/dispose/refrigerator).
 3. If the answer is a drop-off site, filter [Centers](/centers?material=refrigerator).
 
 City rules change; every dispose page links the official program we verified.

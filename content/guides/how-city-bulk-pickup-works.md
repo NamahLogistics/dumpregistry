@@ -32,7 +32,7 @@ Even when furniture rides with bulk, **refrigerators, TVs, paint, and batteries*
 
 ## Use a city guide, then a center
 
-1. Open your [verified city](/cities) and the item you need (start with [mattress](/materials/mattress) or [refrigerator](/materials/refrigerator)).
+1. Open a city hub such as [New York](/new-york/new-york), [Los Angeles](/california/los-angeles), [Chicago](/illinois/chicago), or [Houston](/texas/houston), then the item (start with [mattress](/materials/mattress) or [refrigerator](/materials/refrigerator)).
 2. Follow the official program link on that page.
 3. If the answer is drop-off, use [Centers](/centers) to find a verified site near your ZIP.
 

@@ -43,6 +43,7 @@ Do not charge them. Keep them cool and isolated in a non-flammable container and
 ## How to use DumpRegistry
 
 - [Lithium-ion](/materials/lithium-battery) · [Household batteries](/materials/household-batteries) · [Car battery](/materials/car-battery)
-- [Centers](/centers?material=lithium-battery) and your [city](/cities) HHW dispose page
+- City HHW guides: [Irvine](/california/irvine/dispose/lithium-battery), [Los Angeles](/california/los-angeles/dispose/lithium-battery), [Dallas](/texas/dallas/dispose/lithium-battery), [Houston](/texas/houston/dispose/lithium-battery)
+- [Centers](/centers?material=lithium-battery)
 
 Bring the device or pack-label photo if staff need to classify chemistry at the gate. Odd model searches almost always resolve to one of the chemistries above.

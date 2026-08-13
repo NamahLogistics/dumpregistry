@@ -48,11 +48,12 @@ Home users rarely need a commercial “fat recycling service”; a municipal dro
 
 - [Food scraps](/materials/food-scraps)
 - [Yard waste](/guides/how-to-dispose-of-yard-waste)
+- Used engine oil is not cooking oil — [motor oil](/guides/how-to-dispose-of-motor-oil)
 
 ## How to use DumpRegistry
 
 - [Cooking oil material hub](/materials/cooking-oil)
-- Your [city guide](/cities) for organics vs trash vs drop-off rules
+- City guides: [Chicago](/illinois/chicago/dispose/cooking-oil), [Phoenix](/arizona/phoenix/dispose/cooking-oil), [Seattle](/washington/seattle/dispose/cooking-oil), [Los Angeles](/california/los-angeles/dispose/cooking-oil)
 - [Centers](/centers?material=cooking-oil) when a facility accepts grease
 
 If your city page is silent on oil, call the sanitation number on that page before you assume green-cart acceptance — contamination tags are common for grease in the wrong bin.

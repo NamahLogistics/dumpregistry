@@ -7,6 +7,10 @@
     "title": "Bulk trash drop-off near me",
     "description": "How U.S. transfer stations and citizen drop-off sites work — residency, fees, and what curb bulky day will not take."
   },
+  "/guides/how-city-bulk-pickup-works": {
+    "title": "Bulky item drop-off and pickup",
+    "description": "How city bulky pickup works versus transfer-station drop-off — mattresses, furniture, and what the trash cart will not take."
+  },
   "/guides/how-to-dispose-of-construction-debris": {
     "title": "How to dump construction debris",
     "description": "Concrete, drywall, and lumber are C&D — not household trash. Roll-off vs transfer station, plus city dump rules."
@@ -30,6 +34,46 @@
   "/guides/how-to-dispose-of-a-refrigerator": {
     "title": "Fridge and freezer disposal near me",
     "description": "Freon recovery, utility haul-away, and city appliance drop-off — a freezer is not ordinary bulky trash."
+  },
+  "/guides/how-to-dispose-of-ewaste": {
+    "title": "Electronics recycling near me",
+    "description": "TVs, computers, and phones — landfill bans, data wipe, retailer take-back, and municipal e-waste drop-off in U.S. cities."
+  },
+  "/guides/how-to-dispose-of-a-hard-drive": {
+    "title": "Hard drive disposal near me",
+    "description": "Wipe or destroy a drive, then use city e-waste drop-off. Hard drives are not household trash or blue-bin recycling."
+  },
+  "/guides/how-to-dispose-of-yard-waste": {
+    "title": "Yard waste drop-off near me",
+    "description": "Green cart, seasonal set-out, and yard-waste drop-off for leaves and brush — what contaminates organics in U.S. cities."
+  },
+  "/guides/how-to-dispose-of-a-dishwasher": {
+    "title": "How to dispose of a dishwasher",
+    "description": "Disconnect and haul a dishwasher via city bulky, scrap, or retailer take-back — not the regular trash cart."
+  },
+  "/guides/how-to-recycle-cooking-oil": {
+    "title": "Cooking oil disposal near me",
+    "description": "Do not pour grease down the drain. Household cooking-oil drop-off and city organics rules, with official program links."
+  },
+  "/guides/how-to-dispose-of-motor-oil": {
+    "title": "Used motor oil drop-off near me",
+    "description": "Auto-parts take-back and city HHW for used oil and filters. Do not mix antifreeze or dump it in a drain. Official city rules linked."
+  },
+  "/guides/how-to-dispose-of-helium-tanks": {
+    "title": "Helium tank disposal near me",
+    "description": "Disposable party tanks are not recycling-cart metal. HHW vs empty-and-puncture vs return-to-supplier — follow the city program."
+  },
+  "/guides/how-to-dispose-of-styrofoam": {
+    "title": "Styrofoam disposal near me",
+    "description": "EPS foam is almost never curbside recycling. Blocks, peanuts, and food trays are different — densifier or trash, not the blue cart."
+  },
+  "/guides/how-to-dispose-of-medical-sharps": {
+    "title": "Sharps and medical waste disposal",
+    "description": "Needle containers, pharmacy take-back, and mail-back — loose sharps never go in trash or recycling. City rules linked."
+  },
+  "/guides/how-to-dispose-of-a-car-battery": {
+    "title": "Car battery disposal near me",
+    "description": "Auto-parts take-back and HHW for lead-acid car batteries. Keep them out of the trash cart — city guides with sources."
   },
   "/materials/helium-tank": {
     "title": "Helium tank disposal near me",
@@ -67,6 +111,50 @@
     "title": "Where can I dump a freezer",
     "description": "Fridge and freezer disposal — Freon recovery, utility pickup, and city appliance drop-off with official sources."
   },
+  "/materials/e-waste-mixed": {
+    "title": "Electronics recycling near me",
+    "description": "TVs, computers, and mixed e-waste drop-off by city — landfill bans, data wipe, and official program sources."
+  },
+  "/materials/motor-oil": {
+    "title": "Motor oil drop-off near me",
+    "description": "Used motor oil goes to HHW or auto-parts take-back, not the drain or trash. City-sourced drop-off guides."
+  },
+  "/materials/styrofoam": {
+    "title": "Styrofoam disposal near me",
+    "description": "Most cities reject foam in recycling carts. City drop-off and trash rules for packing foam, with official sources."
+  },
+  "/materials/medical-sharps": {
+    "title": "Sharps disposal near me",
+    "description": "Needle containers, pharmacy take-back, and mail-back programs. Loose sharps never go in household trash."
+  },
+  "/materials/hard-drive": {
+    "title": "Hard drive disposal near me",
+    "description": "Wipe or destroy the drive, then use city e-waste drop-off. Hard drives are not curbside trash or recycling."
+  },
+  "/materials/yard-waste": {
+    "title": "Yard waste drop-off near me",
+    "description": "Green cart and yard-waste drop-off for leaves, grass, and brush — city set-out rules with official sources."
+  },
+  "/materials/dishwasher": {
+    "title": "Dishwasher disposal near me",
+    "description": "City bulky pickup, scrap, or retailer haul-away for dishwashers — not the regular trash cart. Official sources."
+  },
+  "/materials/cooking-oil": {
+    "title": "Cooking oil disposal near me",
+    "description": "Do not pour grease down the drain. Household cooking-oil drop-off and city organics rules, official sources cited."
+  },
+  "/materials/car-battery": {
+    "title": "Car battery recycling near me",
+    "description": "Auto-parts take-back and HHW for lead-acid batteries. Keep them out of the trash — city guides with sources."
+  },
+  "/materials/water-heater": {
+    "title": "Water heater disposal near me",
+    "description": "Drain the tank, then city bulky or scrap drop-off. Water heaters are not household trash. Official program links."
+  },
+  "/materials/paint-oil": {
+    "title": "Oil-based paint disposal near me",
+    "description": "Oil-based paint is HHW in most cities — not trash or recycling. City drop-off rules with official program sources."
+  },
   "/california/san-diego/dispose/helium-tank": {
     "title": "Helium tank disposal in San Diego, CA",
     "description": "San Diego drop-off rules for helium tanks — official program source, hours path, and what not to put in trash."
@@ -95,6 +183,98 @@
     "title": "Where to dispose of car parts in Chicago",
     "description": "Chicago auto-parts and scrap drop-off — keep fluids and batteries out of trash. Official program source cited."
   },
+  "/illinois/chicago/dispose/motor-oil": {
+    "title": "Motor oil drop-off in Chicago, IL",
+    "description": "Chicago used-oil take-back and HHW rules — not the drain or trash. Official city program source cited."
+  },
+  "/new-york/new-york/dispose/e-waste-mixed": {
+    "title": "Electronics recycling in New York, NY",
+    "description": "NYC e-waste drop-off for TVs, computers, and mixed electronics — landfill bans and the official program source."
+  },
+  "/california/sacramento/dispose/e-waste-mixed": {
+    "title": "Electronics recycling in Sacramento, CA",
+    "description": "Sacramento e-waste drop-off for TVs and computers — city electronics rules with the official program source."
+  },
+  "/new-york/new-york/dispose/styrofoam": {
+    "title": "Styrofoam disposal in New York, NY",
+    "description": "NYC foam rules — packing peanuts and blocks are usually not curbside recycling. Official program source cited."
+  },
+  "/texas/houston/dispose/e-waste-mixed": {
+    "title": "Electronics recycling in Houston, TX",
+    "description": "Houston e-waste drop-off for TVs, computers, and mixed electronics. Official city program source we verified."
+  },
+  "/illinois/chicago/dispose/mattress": {
+    "title": "Mattress disposal in Chicago, IL",
+    "description": "Chicago bulky pickup and drop-off for mattresses — cart rules, prep, and the official program source."
+  },
+  "/washington/seattle/dispose/mattress": {
+    "title": "Mattress disposal in Seattle, WA",
+    "description": "Seattle bulky pickup and drop-off for mattresses — what the trash cart rejects, with the official program source."
+  },
+  "/california/los-angeles/dispose/medical-sharps": {
+    "title": "Medical waste disposal in Los Angeles",
+    "description": "LA sharps drop-off — containers, pharmacy take-back, and why loose needles never go in trash. Official source cited."
+  },
+  "/new-york/new-york/dispose/propane-tank": {
+    "title": "Propane tank disposal in New York, NY",
+    "description": "NYC exchange and HHW rules for BBQ and camping cylinders — never trash a pressurized tank. Official source."
+  },
+  "/new-york/new-york/dispose/car-battery": {
+    "title": "Car battery recycling in New York, NY",
+    "description": "NYC take-back for lead-acid car batteries — auto parts and HHW, not the trash cart. Official program source."
+  },
+  "/new-york/new-york/dispose/medical-sharps": {
+    "title": "Sharps disposal in New York, NY",
+    "description": "NYC needle containers and take-back — loose sharps never go in trash or recycling. Official program source."
+  },
+  "/california/los-angeles/dispose/hard-drive": {
+    "title": "Hard drive disposal in Los Angeles, CA",
+    "description": "Wipe the drive, then LA e-waste drop-off. Hard drives are not household trash. Official program source cited."
+  },
+  "/illinois/chicago/dispose/cooking-oil": {
+    "title": "Cooking oil drop-off in Chicago, IL",
+    "description": "Chicago household grease rules — do not pour oil down the drain. Official city program source we verified."
+  },
+  "/texas/dallas/dispose/tire-rims": {
+    "title": "Tire and rim drop-off in Dallas, TX",
+    "description": "Dallas scrap rules for tires and rims — not household trash. Official program source we verified."
+  },
+  "/illinois/chicago/dispose/paint-oil": {
+    "title": "Oil-based paint drop-off in Chicago",
+    "description": "Chicago HHW rules for oil-based paint — not trash or recycling. Official city program source cited."
+  },
+  "/texas/san-antonio/dispose/water-heater": {
+    "title": "Water heater disposal in San Antonio",
+    "description": "San Antonio bulky or scrap drop-off for water heaters — drain first. Official city program source cited."
+  },
+  "/washington/seattle/dispose/yard-waste": {
+    "title": "Yard waste drop-off in Seattle, WA",
+    "description": "Seattle green-cart and yard-waste drop-off for leaves and brush. Official program source we verified."
+  },
+  "/new-york/new-york/dispose/concrete": {
+    "title": "Concrete dump in New York, NY",
+    "description": "NYC C&D rules for concrete and block — not household trash. Transfer vs bulky, official program source cited."
+  },
+  "/california/san-diego/dispose/styrofoam": {
+    "title": "Styrofoam disposal in San Diego, CA",
+    "description": "San Diego foam rules — packing foam is usually not recycling. Official Environmental Services source cited."
+  },
+  "/california/los-angeles/dispose/e-waste-mixed": {
+    "title": "Electronics recycling in Los Angeles",
+    "description": "LA e-waste drop-off for TVs, computers, and mixed electronics. Official sanitation program source we verified."
+  },
+  "/california/los-angeles/dispose/propane-tank": {
+    "title": "Propane tank disposal in Los Angeles",
+    "description": "LA exchange and HHW rules for grill and camping cylinders — never trash a pressurized tank. Official source."
+  },
+  "/washington/seattle/dispose/dishwasher": {
+    "title": "Dishwasher disposal in Seattle, WA",
+    "description": "Seattle bulky and appliance rules for dishwashers — not the regular trash cart. Official program source cited."
+  },
+  "/texas/houston/dispose/dishwasher": {
+    "title": "Dishwasher disposal in Houston, TX",
+    "description": "Houston bulky and scrap rules for dishwashers — disconnect first. Official city program source we verified."
+  },
   "/california/san-diego": {
     "title": "San Diego dump, bulky pickup & HHW",
     "description": "Verified San Diego drop-off and bulky rules — dump/transfer, HHW, e-waste, and mattresses with official sources."
@@ -114,5 +294,25 @@
   "/texas/san-antonio": {
     "title": "San Antonio dump sites & bulky pickup",
     "description": "Verified San Antonio dump, C&D, and bulky guides — concrete, construction debris, and HHW with official sources."
+  },
+  "/california/los-angeles": {
+    "title": "Los Angeles dump, bulky pickup & HHW",
+    "description": "Verified LA drop-off and bulky rules — e-waste, sharps, HHW, and appliances with official sanitation sources."
+  },
+  "/new-york/new-york": {
+    "title": "New York City dump, bulky & e-waste",
+    "description": "Verified NYC disposal guides — electronics recycling, bulky pickup, HHW, and dump/transfer with official sources."
+  },
+  "/illinois/chicago": {
+    "title": "Chicago dump, bulky pickup & HHW",
+    "description": "Verified Chicago drop-off and bulky rules — motor oil, mattresses, e-waste, and HHW with official program sources."
+  },
+  "/texas/houston": {
+    "title": "Houston dump, bulky pickup & e-waste",
+    "description": "Verified Houston drop-off and bulky guides — electronics recycling, appliances, and HHW with official sources."
+  },
+  "/california/sacramento": {
+    "title": "Sacramento dump, bulky pickup & HHW",
+    "description": "Verified Sacramento electronics recycling, bulky, and HHW guides — city-sourced with official program links."
   }
 }

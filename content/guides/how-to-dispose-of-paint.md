@@ -55,7 +55,7 @@ Leaving usable paint for a neighbor is fine if you arrange pickup. Abandoning op
 ## How to use DumpRegistry
 
 - Start at [latex paint](/materials/paint-latex) or [oil-based paint](/materials/paint-oil)
-- Open your [city guide](/cities) for HHW hours and PaintCare-style options we verified
+- City HHW guides: [Chicago oil-based paint](/illinois/chicago/dispose/paint-oil), [New York](/new-york/new-york/dispose/paint-oil), [San Diego latex](/california/san-diego/dispose/paint-latex), [Phoenix](/arizona/phoenix/dispose/paint-oil)
 - Filter [Centers](/centers?material=paint-latex) when you need a drop-off map
 
 If your city page says dry-out is allowed, follow that source’s steps exactly — drying rules are local, not universal.

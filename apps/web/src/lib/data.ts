@@ -305,6 +305,15 @@ export function getDisposeStaticParams() {
     }));
 }
 
+/** Largest metros that already have city-sourced guides — for national guide footers. */
+export function getTopCoveredCities(limit = 12) {
+  const covered = getPagesIndex().byCity;
+  return getCities()
+    .filter((c) => (covered.get(cityKey(c.state_slug, c.city_slug))?.length ?? 0) > 0)
+    .sort((a, b) => (b.population ?? 0) - (a.population ?? 0))
+    .slice(0, limit);
+}
+
 export function getCityHighIntentGuides(stateSlug: string, citySlug: string, limit = 10) {
   const bySlug = new Map(getCityPages(stateSlug, citySlug).map((p) => [p.item_slug, p]));
   const pinned = HIGH_INTENT_ITEMS.map((slug) => bySlug.get(slug)).filter(Boolean) as DisposalPage[];

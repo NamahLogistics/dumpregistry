@@ -52,6 +52,6 @@ These are high-energy packs. Do not curb them. Use manufacturer take-back, speci
 ## How to use DumpRegistry
 
 - Open [lithium-ion battery](/materials/lithium-battery) or search [lithium battery drop-off](/centers?material=lithium-battery)
-- Check your [city HHW guide](/cities)
+- City HHW guides: [Irvine](/california/irvine/dispose/lithium-battery), [Los Angeles](/california/los-angeles/dispose/lithium-battery), [Houston](/texas/houston/dispose/lithium-battery), [Dallas](/texas/dallas/dispose/lithium-battery)
 
 If a pack is actively smoking or hot, treat it as an emergency — outdoors on non-flammable ground and call local emergency guidance — not as a recycling errand.

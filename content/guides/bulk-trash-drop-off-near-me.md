@@ -39,7 +39,7 @@ People also search specific sites — for example “mira mar landfill” near S
 
 ## How to use DumpRegistry
 
-- Browse [cities](/cities) and open your metro’s bulky / transfer notes
+- Browse [cities](/cities) and open your metro’s bulky / transfer notes — start with [New York](/new-york/new-york), [Los Angeles](/california/los-angeles), [Chicago](/illinois/chicago), [Houston](/texas/houston), or [San Diego](/california/san-diego)
 - Use [Centers](/centers) for hard facilities near your ZIP
 - For remodel debris, see [construction debris](/guides/how-to-dispose-of-construction-debris)
 - For mattresses and other curb items, use the [mattress hub](/materials/mattress) then your city dispose page

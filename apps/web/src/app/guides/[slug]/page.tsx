@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { ContinueReading, pagesToContinueLinks } from "@/components/ContinueReading";
+import { GUIDE_CITY_HUBS, GUIDE_DISPOSE_ITEM } from "@/lib/guide-links";
 import { getGuide, listGuides, markdownBlocks } from "@/lib/markdown";
-import { getCtrOverride } from "@/lib/data";
+import { getCtrOverride, getMaterialCityGuides, getTopCoveredCities } from "@/lib/data";
 import { pageMetadata } from "@/lib/seo";
 
 type Props = { params: Promise<{ slug: string }> };
@@ -51,6 +53,26 @@ export default async function GuidePage({ params }: Props) {
         if (b.type === "h3") return <h3 key={i}>{b.text}</h3>;
         return <p key={i}>{renderInline(b.text)}</p>;
       })}
+      {GUIDE_CITY_HUBS.has(guide.slug) ? (
+        <ContinueReading
+          heading="City dump, bulky & HHW hubs"
+          lead="Verified local rules — not a generic /cities index."
+          links={getTopCoveredCities(12).map((c) => ({
+            href: `/${c.state_slug}/${c.city_slug}`,
+            title: `${c.city}, ${c.state}`,
+            meta: "Dump, bulky & HHW",
+          }))}
+        />
+      ) : GUIDE_DISPOSE_ITEM[guide.slug] ? (
+        <ContinueReading
+          heading="City-sourced guides"
+          lead="Official program links we verified — pick the metro you are actually in."
+          links={pagesToContinueLinks(
+            getMaterialCityGuides(GUIDE_DISPOSE_ITEM[guide.slug], 12),
+            "city",
+          )}
+        />
+      ) : null}
       <p>
         <Link href="/cities">Browse verified cities</Link>
         {" · "}

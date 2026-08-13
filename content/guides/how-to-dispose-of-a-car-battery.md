@@ -69,7 +69,7 @@ This guide is about standard **12V lead-acid** car batteries. Hybrid and EV high
 ## How to finish this on DumpRegistry
 
 - Read the [car battery material hub](/materials/car-battery)
-- Open your [city guide](/cities) if your metro publishes HHW rules we verified
+- City guides: [New York](/new-york/new-york/dispose/car-battery), [Houston](/texas/houston/dispose/car-battery), [Los Angeles](/california/los-angeles/dispose/car-battery), [Dallas](/texas/dallas/dispose/car-battery)
 - Filter [Centers](/centers?material=car-battery) when you need a drop-off facility
 
 If a page lists an auto-parts style channel, call the location before you drive with a leaking unit. City-sourced DumpRegistry guides always link the official program we last checked.

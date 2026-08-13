@@ -65,7 +65,7 @@ Livestock and pet injection sharps follow the same puncture-container logic. Rur
 ## How to use DumpRegistry
 
 - Start with [medical sharps](/materials/medical-sharps) or [needles / syringes](/materials/needles)
-- Open your [city’s verified guide](/cities) when we publish local take-back details
+- City guides: [Los Angeles](/california/los-angeles/dispose/medical-sharps), [New York](/new-york/new-york/dispose/medical-sharps), [Seattle](/washington/seattle/dispose/medical-sharps), [Virginia Beach](/virginia/virginia-beach/dispose/medical-sharps)
 - Use [Centers](/centers) only for facilities that explicitly accept sharps — many HHW sites do not
 
 If you find a needle in a public place, contact local non-emergency sanitation or public works rather than picking it up unprotected. Household disposal is for sharps you generated and contained correctly.

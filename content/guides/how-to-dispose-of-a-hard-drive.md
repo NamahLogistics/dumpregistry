@@ -45,7 +45,7 @@ If the PC still runs, wiping the drive in place and recycling the [desktop](/mat
 ## How to use DumpRegistry
 
 - [Hard drive material hub](/materials/hard-drive)
-- [Mixed e-waste](/materials/e-waste-mixed) for event-style drop-off
-- [Centers](/centers?material=hard-drive) and your [city](/cities) electronics rules
+- City e-waste guides: [Los Angeles](/california/los-angeles/dispose/hard-drive), [Sacramento](/california/sacramento/dispose/hard-drive), [San Diego](/california/san-diego/dispose/hard-drive), [Chicago](/illinois/chicago/dispose/hard-drive)
+- [Centers](/centers?material=hard-drive)
 
 Search interest in hard drive disposal is showing up in our Search Console impressions — wipe first, then use a verified e-waste path.

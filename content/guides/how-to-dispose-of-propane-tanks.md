@@ -49,7 +49,7 @@ Only follow manufacturer or program instructions for any venting step. If a site
 Pressurized containers share the “not in the cart” rule, but programs differ:
 
 - [Fire extinguishers](/materials/fire-extinguisher) — often HHW or fire-department guidance
-- [Helium tanks](/materials/helium-tank) — disposable party tanks may need specialty scrap rules printed on the label
+- [Helium tanks](/guides/how-to-dispose-of-helium-tanks) — disposable party tanks may need specialty scrap or HHW; the label is not always the city rule
 
 Do not assume a propane exchange cage will take extinguishers or helium.
 
@@ -68,8 +68,8 @@ Many multifamily dumpsters explicitly ban propane. Leaving a tank beside the dum
 ## How to use DumpRegistry
 
 - Open the [propane tank material hub](/materials/propane-tank)
-- Helium party tanks are a different stream — [helium tank disposal](/materials/helium-tank)
-- Check your [city’s HHW / specialty rules](/cities) when we have a verified guide
+- Helium party tanks are a different stream — [helium tank disposal](/guides/how-to-dispose-of-helium-tanks)
+- City guides: [New York](/new-york/new-york/dispose/propane-tank), [Los Angeles](/california/los-angeles/dispose/propane-tank), [Chicago](/illinois/chicago/dispose/propane-tank), [Houston](/texas/houston/dispose/propane-tank)
 - Use [Centers](/centers?material=propane-tank) to find facilities that accept cylinders when exchange is not enough
 
 For grill owners, exchange is usually faster than HHW. For camping cylinders and damaged tanks, the city HHW page is the rule that matters.

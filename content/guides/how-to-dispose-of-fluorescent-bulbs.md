@@ -68,7 +68,7 @@ Old magnetic ballasts may contain PCBs. Do not smash them open. Ask HHW or a lam
 ## How to use DumpRegistry
 
 - Start at [fluorescent bulbs / CFLs](/materials/fluorescent-bulbs)
-- Open your [city HHW guide](/cities) when we have verified local acceptance
+- City HHW guides: [Charlotte](/north-carolina/charlotte/dispose/fluorescent-bulbs), [New York](/new-york/new-york/dispose/fluorescent-bulbs), [Los Angeles](/california/los-angeles/dispose/fluorescent-bulbs), [Atlanta](/georgia/atlanta/dispose/fluorescent-bulbs)
 - Use [Centers](/centers?material=fluorescent-bulbs) for drop-off sites
 - For the bigger “which building do I drive to?” question, read [HHW vs bulk vs e-waste](/guides/hhw-vs-bulk-vs-ewaste)
 

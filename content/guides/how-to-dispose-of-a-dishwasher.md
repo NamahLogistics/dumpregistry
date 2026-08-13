@@ -63,4 +63,4 @@ Related: [washing machine](/materials/washer), [clothes dryer](/materials/dryer)
 
 - [Dishwasher material hub](/materials/dishwasher)
 - [Centers](/centers?material=dishwasher) when drop-off is the answer
-- City dispose pages for the official bulky/appliance rules we verified
+- City guides: [Seattle](/washington/seattle/dispose/dishwasher), [Houston](/texas/houston/dispose/dishwasher), [Los Angeles](/california/los-angeles/dispose/dishwasher), [Sacramento](/california/sacramento/dispose/dishwasher)

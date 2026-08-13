@@ -60,7 +60,7 @@ Paint-and-battery HHW buildings typically **reject** refrigerators. Start with a
 
 - Open [refrigerator](/materials/refrigerator)
 - Compare [air conditioner](/guides/how-to-dispose-of-an-air-conditioner) if you are clearing multiple sealed units
-- Use [city guides](/cities) for booking links we verified
+- City guides: [Los Angeles](/california/los-angeles/dispose/refrigerator), [New York](/new-york/new-york/dispose/refrigerator), [San Francisco](/california/san-francisco/dispose/refrigerator), [Boston](/massachusetts/boston/dispose/refrigerator)
 - Filter [Centers](/centers?material=refrigerator)
 
 City-sourced pages list the official program and verification date — use that over generic “call scrap yard” advice.
