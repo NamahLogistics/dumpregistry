@@ -3,14 +3,14 @@ import Link from "next/link";
 import { CentersFilter } from "@/components/CentersFilter";
 import { getCities, getFacilities, getItems, getZipHubs } from "@/lib/data";
 import { formatMiles, sortByDistance } from "@/lib/geo";
-import { canonicalMetadata, facilitySlug } from "@/lib/seo";
+import { facilitySlug, pageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
   title: "Drop-off centers near you",
   description:
-    "Find verified household hazardous waste, e-waste, and bulky drop-off sites tied to DumpRegistry city research.",
-  ...canonicalMetadata("/centers"),
-};
+    "Find verified HHW, e-waste, and bulky drop-off sites from DumpRegistry city research — filter by ZIP or material.",
+  path: "/centers",
+});
 
 type Props = {
   searchParams: Promise<{ zip?: string; material?: string }>;

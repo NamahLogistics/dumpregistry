@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getCities, getFacilities, getItem, getItems } from "@/lib/data";
-import { absoluteUrl, breadcrumbJsonLd, canonicalMetadata, facilitySlug } from "@/lib/seo";
+import { absoluteUrl, breadcrumbJsonLd, facilitySlug, pageMetadata } from "@/lib/seo";
+import { clipAtWord } from "@/lib/snippets";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -32,11 +33,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const row = indexedFacilities().find((r) => r.slug === slug);
   if (!row) return { robots: { index: false, follow: false } };
   const { f, city } = row;
-  return {
-    title: `${f.name} — drop-off in ${city.city}, ${city.state}`,
-    description: `${f.facility_type} at ${f.address || city.city}. Verified DumpRegistry center with official program source.`,
-    ...canonicalMetadata(`/centers/${slug}`),
-  };
+  return pageMetadata({
+    title: clipAtWord(`${f.name} — ${city.city}, ${city.state}`, 60),
+    description: `${f.facility_type} at ${f.address || city.city}. Hours, accepted materials, and the official program source.`,
+    path: `/centers/${slug}`,
+  });
 }
 
 export default async function FacilityDetailPage({ params }: Props) {

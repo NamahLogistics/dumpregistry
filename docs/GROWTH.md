@@ -45,6 +45,7 @@ Default without env is dry-run (safe for local).
 
 ## 4. Weekly GSC loop (Phase 4)
 
-- Queries with impressions + low CTR → rewrite titles/descriptions
+- Queries with impressions + low CTR → rewrite titles/descriptions in `data/seo/ctr_overrides.json` (pathname → `{ title, description }`). Dispose pages pick these up at build time.
+- Default snippets are generated in `apps/web/src/lib/snippets.ts` from verified city/item fields (no invented fees).
 - Pages on page 2 → expand internal links from materials/hubs
 - Soft-duplicate ZIP hubs → `noindex` if they cannibalize city pages

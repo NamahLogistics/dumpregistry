@@ -4,13 +4,14 @@ import path from "node:path";
 import { SourceLink } from "@/components/SourceLink";
 import { dataRoot } from "@/lib/paths";
 
-import { canonicalMetadata } from "@/lib/seo";
+import { pageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "Sources",
-  description: "Primary sources used for city disposal guidance on DumpRegistry.",
-  ...canonicalMetadata("/sources"),
-};
+export const metadata: Metadata = pageMetadata({
+  title: "Official sources for DumpRegistry guides",
+  description:
+    "City and county program pages used for DumpRegistry disposal guides — primary sources, not aggregator copies.",
+  path: "/sources",
+});
 
 type Rule = {
   source_name: string;

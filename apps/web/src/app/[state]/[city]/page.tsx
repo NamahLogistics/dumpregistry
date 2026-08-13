@@ -14,7 +14,8 @@ import {
   getSiblingCities,
   getZipHubs,
 } from "@/lib/data";
-import { breadcrumbJsonLd, canonicalMetadata } from "@/lib/seo";
+import { breadcrumbJsonLd, pageMetadata } from "@/lib/seo";
+import { cityHubDescription, cityHubTitle } from "@/lib/snippets";
 
 type Props = { params: Promise<{ state: string; city: string }> };
 
@@ -45,18 +46,18 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const guides = getCityPages(state, city);
   const path = `/${place.state_slug}/${place.city_slug}`;
   if (!guides.length) {
-    return {
+    return pageMetadata({
       title: `${place.city}, ${place.state} — research pending`,
       description: `We have not published verified disposal guides for ${place.city} yet.`,
-      robots: { index: false, follow: true },
-      ...canonicalMetadata(path),
-    };
+      path,
+      index: false,
+    });
   }
-  return {
-    title: `Dispose of hard items in ${place.city}, ${place.state}`,
-    description: `Verified local disposal guides for ${place.city}, ${place.state}.`,
-    ...canonicalMetadata(path),
-  };
+  return pageMetadata({
+    title: cityHubTitle(place.city, place.state),
+    description: cityHubDescription(place.city, place.state, guides.length),
+    path,
+  });
 }
 
 export default async function CityHubPage({ params }: Props) {

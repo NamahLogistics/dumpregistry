@@ -16,6 +16,7 @@ import { StatusBadge } from "@/components/StatusBadge";
 import {
   badgeLabel,
   getCityPages,
+  getCtrOverride,
   getIndexablePages,
   getPage,
   getRelatedInCity,
@@ -23,7 +24,8 @@ import {
   getSiblingCities,
   getZipHubs,
 } from "@/lib/data";
-import { breadcrumbJsonLd, canonicalMetadata } from "@/lib/seo";
+import { breadcrumbJsonLd, pageMetadata } from "@/lib/seo";
+import { disposeDescription, disposeTitle } from "@/lib/snippets";
 
 type Props = {
   params: Promise<{ state: string; city: string; item: string }>;
@@ -42,12 +44,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const page = getPage(state, city, item);
   if (!page) return { robots: { index: false, follow: false } };
   const path = `/${page.state_slug}/${page.city_slug}/dispose/${page.item_slug}`;
-  return {
-    title: `How to Dispose of ${page.item_name} in ${page.city}, ${page.state}`,
-    description: page.answer.slice(0, 155),
-    robots: { index: true, follow: true },
-    ...canonicalMetadata(path),
-  };
+  const override = getCtrOverride(path);
+  return pageMetadata({
+    title: disposeTitle(page, override?.title),
+    description: disposeDescription(page, override?.description),
+    path,
+  });
 }
 
 export default async function DisposeItemPage({ params }: Props) {

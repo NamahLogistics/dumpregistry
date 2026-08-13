@@ -3,7 +3,8 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ContinueReading } from "@/components/ContinueReading";
 import { getCities, getCityHighIntentGuides, getIndexablePages, getStates } from "@/lib/data";
-import { canonicalMetadata } from "@/lib/seo";
+import { pageMetadata } from "@/lib/seo";
+import { stateHubDescription, stateHubTitle } from "@/lib/snippets";
 
 type Props = { params: Promise<{ state: string }> };
 
@@ -15,12 +16,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { state } = await params;
   const match = getStates().find((s) => s.state_slug === state);
   if (!match) return { robots: { index: false, follow: false } };
-  const label = match.state_slug.replaceAll("-", " ");
-  return {
-    title: `${label} disposal guides`,
-    description: `Verified city-program disposal guides in ${label}.`,
-    ...canonicalMetadata(`/${match.state_slug}`),
-  };
+  const cityCount = new Set(
+    getIndexablePages()
+      .filter((p) => p.state_slug === match.state_slug)
+      .map((p) => p.city_slug),
+  ).size;
+  return pageMetadata({
+    title: stateHubTitle(match.state_slug),
+    description: stateHubDescription(match.state_slug, cityCount),
+    path: `/${match.state_slug}`,
+  });
 }
 
 export default async function StateHubPage({ params }: Props) {

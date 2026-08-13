@@ -2,13 +2,14 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { listGuides } from "@/lib/markdown";
 
-import { canonicalMetadata } from "@/lib/seo";
+import { pageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  ...canonicalMetadata("/guides"),
-  title: "Guides",
-  description: "Researched DumpRegistry guides on city disposal programs, HHW, and hard-to-trash items.",
-};
+export const metadata: Metadata = pageMetadata({
+  title: "Guides to bulky pickup, HHW, and e-waste",
+  description:
+    "Plain-language DumpRegistry guides on mattresses, paint, lithium batteries, and city disposal programs.",
+  path: "/guides",
+});
 
 export default function GuidesIndexPage() {
   const guides = listGuides();

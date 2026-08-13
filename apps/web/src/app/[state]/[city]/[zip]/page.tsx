@@ -5,7 +5,7 @@ import { CityItemFinder } from "@/components/CityItemFinder";
 import { ContinueReading } from "@/components/ContinueReading";
 import { FacilityMap } from "@/components/FacilityMap";
 import { getCityHighIntentGuides, getCityPages, getZipHub, getZipHubs } from "@/lib/data";
-import { canonicalMetadata } from "@/lib/seo";
+import { pageMetadata } from "@/lib/seo";
 
 type Props = { params: Promise<{ state: string; city: string; zip: string }> };
 
@@ -23,11 +23,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { state, city, zip } = await params;
   const hub = getZipHub(state, city, zip);
   if (!hub) return { robots: { index: false, follow: false } };
-  return {
-    title: `ZIP ${hub.zip} disposal context — ${hub.city}, ${hub.state}`,
-    description: `Verified facilities and item guides near ZIP ${hub.zip} in ${hub.city}.`,
-    ...canonicalMetadata(`/${hub.state_slug}/${hub.city_slug}/${hub.zip}`),
-  };
+  return pageMetadata({
+    title: `${hub.city} ZIP ${hub.zip} drop-off`,
+    description: `Verified drop-off sites and item guides near ZIP ${hub.zip} in ${hub.city}, ${hub.state}.`,
+    path: `/${hub.state_slug}/${hub.city_slug}/${hub.zip}`,
+  });
 }
 
 export default async function ZipHubPage({ params }: Props) {

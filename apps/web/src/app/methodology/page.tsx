@@ -3,13 +3,14 @@ import { readFileSync } from "node:fs";
 import path from "node:path";
 import { contentRoot } from "@/lib/paths";
 
-import { canonicalMetadata } from "@/lib/seo";
+import { pageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "Methodology",
-  description: "How DumpRegistry verifies disposal rules and decides what to index.",
-  ...canonicalMetadata("/methodology"),
-};
+export const metadata: Metadata = pageMetadata({
+  title: "How DumpRegistry verifies disposal rules",
+  description:
+    "City-sourced only: official program pages, hard facilities, verification dates, and what we refuse to publish.",
+  path: "/methodology",
+});
 
 export default function MethodologyPage() {
   const mdPath = path.join(contentRoot(), "methodology.md");

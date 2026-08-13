@@ -2,14 +2,14 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { getItems, getMaterialGuideCount } from "@/lib/data";
 
-import { canonicalMetadata } from "@/lib/seo";
+import { pageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  ...canonicalMetadata("/materials"),
-  title: "Materials encyclopedia",
+export const metadata: Metadata = pageMetadata({
+  title: "How to dispose of hard-to-trash materials",
   description:
-    "Browse disposal materials — national overview plus city-sourced program guides where we have verified local rules.",
-};
+    "National overviews plus city-sourced guides for mattresses, paint, TVs, batteries, and 70 disposal materials.",
+  path: "/materials",
+});
 
 export default function MaterialsIndexPage() {
   const items = getItems();

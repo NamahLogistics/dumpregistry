@@ -1,6 +1,7 @@
 import { readFileSync } from "node:fs";
 import path from "node:path";
 import { dataRoot } from "./paths";
+import type { SnippetOverride } from "./snippets";
 import type { City, DisposalPage, Facility, Item, ZipHub } from "./types";
 
 function readJson<T>(rel: string): T {
@@ -14,6 +15,7 @@ let cache: {
   pages?: DisposalPage[];
   zipHubs?: ZipHub[];
   facilities?: Facility[];
+  ctrOverrides?: Record<string, SnippetOverride>;
 } = {};
 
 export function getItems(): Item[] {
@@ -93,6 +95,18 @@ export function getMaterialOverview(itemSlug: string): MaterialOverview | null {
 
 export function getItem(slug: string) {
   return getItems().find((i) => i.slug === slug);
+}
+
+/** GSC CTR rewrites keyed by pathname, e.g. `/texas/austin/dispose/mattress`. */
+export function getCtrOverride(pathname: string): SnippetOverride | undefined {
+  if (!cache.ctrOverrides) {
+    try {
+      cache.ctrOverrides = readJson<Record<string, SnippetOverride>>("seo/ctr_overrides.json");
+    } catch {
+      cache.ctrOverrides = {};
+    }
+  }
+  return cache.ctrOverrides[pathname];
 }
 
 export function getCity(stateSlug: string, citySlug: string) {

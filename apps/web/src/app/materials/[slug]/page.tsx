@@ -9,7 +9,8 @@ import {
   getMaterialGuideCount,
   getMaterialOverview,
 } from "@/lib/data";
-import { canonicalMetadata } from "@/lib/seo";
+import { pageMetadata } from "@/lib/seo";
+import { clipMetaDescription } from "@/lib/snippets";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -22,11 +23,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const item = getItem(slug);
   if (!item) return { title: "Material" };
   const overview = getMaterialOverview(slug);
-  return {
-    title: `How to dispose of ${item.name}`,
-    description: overview?.overview ?? `${item.summary_default} See city-sourced program guides across the U.S.`,
-    ...canonicalMetadata(`/materials/${item.slug}`),
-  };
+  const desc =
+    overview?.overview ??
+    `${item.summary_default} See city-sourced program guides across the U.S.`;
+  return pageMetadata({
+    title: `How to dispose of ${item.name.toLowerCase()}`,
+    description: clipMetaDescription(
+      `${desc} City-by-city drop-off and bulky rules with official sources.`,
+    ),
+    path: `/materials/${item.slug}`,
+  });
 }
 
 export default async function MaterialPage({ params }: Props) {

@@ -7,7 +7,15 @@ import {
   getWizardOptions,
   HIGH_INTENT_ITEMS,
 } from "@/lib/data";
+import { pageMetadata } from "@/lib/seo";
 import { site } from "@/lib/site";
+
+export const metadata = pageMetadata({
+  title: "DumpRegistry — dispose of bulky items, HHW & e-waste by city",
+  description:
+    "Verified drop-off and bulky pickup rules for mattresses, paint, TVs, and more — city-sourced, with official links.",
+  path: "/",
+});
 
 export default function HomePage() {
   const { cities, items, itemsByCity } = getWizardOptions();
