@@ -2,20 +2,21 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { CityItemFinder } from "@/components/CityItemFinder";
+import { CityProgramBoard } from "@/components/CityProgramBoard";
 import { ContinueReading } from "@/components/ContinueReading";
 import { CorrectionWidget } from "@/components/CorrectionWidget";
 import { HaulerCta } from "@/components/HaulerCta";
 import { ZipNearList } from "@/components/ZipNearList";
 import {
   getCity,
-  getCityHighIntentGuides,
   getCityPages,
+  getCityProgramGroups,
   getCtrOverride,
   getIndexablePages,
   getSiblingCities,
   getZipHubs,
 } from "@/lib/data";
-import { breadcrumbJsonLd, pageMetadata } from "@/lib/seo";
+import { absoluteUrl, breadcrumbJsonLd, pageMetadata } from "@/lib/seo";
 import { cityHubDescription, cityHubTitle } from "@/lib/snippets";
 
 type Props = { params: Promise<{ state: string; city: string }> };
@@ -67,11 +68,23 @@ export default async function CityHubPage({ params }: Props) {
   const place = getCity(state, city);
   if (!place) notFound();
   const indexable = getCityPages(state, city);
-  const starters = getCityHighIntentGuides(state, city, 10);
+  const programs = getCityProgramGroups(state, city);
   const siblingCities = getSiblingCities(state, city, 8);
   const zips = getZipHubs().filter(
     (z) => z.city_slug === city && z.state_slug === state && z.indexable,
   );
+
+  const programListLd = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: `${place.city}, ${place.state} disposal programs`,
+    itemListElement: programs.map((g, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      name: `${g.label} in ${place.city}`,
+      url: absoluteUrl(`/${place.state_slug}/${place.city_slug}#${g.key}`),
+    })),
+  };
 
   return (
     <div className="shell page">
@@ -87,6 +100,10 @@ export default async function CityHubPage({ params }: Props) {
           ),
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(programListLd) }}
+      />
       <nav className="crumb-row" aria-label="Breadcrumb">
         <Link href="/cities">Cities</Link>
         <span>/</span>
@@ -101,8 +118,8 @@ export default async function CityHubPage({ params }: Props) {
         </h1>
         {indexable.length ? (
           <p>
-            {indexable.length} verified guides for dump and transfer drop-off, bulky pickup, HHW, and e-waste
-            in {place.city}. Start with a common item, or search everything below.{" "}
+            Verified dump, bulky pickup, HHW, and e-waste programs in {place.city} — {indexable.length}{" "}
+            item guides that share a handful of official city or county sources.{" "}
             <Link href="/cities">All verified cities</Link>
           </p>
         ) : (
@@ -114,18 +131,7 @@ export default async function CityHubPage({ params }: Props) {
         )}
       </header>
 
-      {indexable.length ? (
-        <ContinueReading
-          id="popular-in-city"
-          heading={`Popular in ${place.city}`}
-          lead="Most-searched hard-to-trash items — tap through for the local answer."
-          links={starters.map((p) => ({
-            href: `/${p.state_slug}/${p.city_slug}/dispose/${p.item_slug}`,
-            title: p.item_name,
-            meta: p.category,
-          }))}
-        />
-      ) : null}
+      {indexable.length ? <CityProgramBoard city={place.city} groups={programs} /> : null}
 
       {indexable.length ? <HaulerCta city={place.city} stateSlug={place.state_slug} /> : null}
 

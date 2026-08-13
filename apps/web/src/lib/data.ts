@@ -323,3 +323,122 @@ export function getCityHighIntentGuides(stateSlug: string, citySlug: string, lim
   );
   return [...pinned, ...rest].slice(0, limit);
 }
+
+export const CITY_PROGRAMS = [
+  {
+    key: "bulky",
+    label: "Bulky pickup",
+    blurb: "Mattresses, furniture, and many appliances — city bulk or drop-off, not the regular cart.",
+    pin: ["mattress", "refrigerator", "sofa"],
+  },
+  {
+    key: "hhw",
+    label: "HHW",
+    blurb: "Household hazardous waste — used oil, paint, propane, batteries, and chemicals.",
+    pin: ["motor-oil", "paint-latex", "propane-tank", "lithium-battery", "helium-tank"],
+  },
+  {
+    key: "ewaste",
+    label: "E-waste",
+    blurb: "TVs, computers, and electronics. Usually banned from trash and the blue bin.",
+    pin: ["e-waste-mixed", "television", "hard-drive"],
+  },
+  {
+    key: "dump",
+    label: "Dump / C&D",
+    blurb: "Construction debris, concrete, and remodel waste — transfer station or roll-off.",
+    pin: ["construction-debris", "concrete"],
+  },
+  {
+    key: "organics",
+    label: "Yard & organics",
+    blurb: "Yard waste, food scraps, and cooking oil where the city has a separate stream.",
+    pin: ["yard-waste", "cooking-oil"],
+  },
+  {
+    key: "recycling",
+    label: "Recycling & film",
+    blurb: "Cart recycling, store film take-back, and foam rules — not a second bulky program.",
+    pin: ["styrofoam", "plastic-bags", "cardboard"],
+  },
+] as const;
+
+export type CityProgramKey = (typeof CITY_PROGRAMS)[number]["key"];
+
+export function cityProgramKey(category: string): CityProgramKey {
+  switch (category) {
+    case "Bulky":
+    case "Appliances":
+      return "bulky";
+    case "Electronics":
+      return "ewaste";
+    case "C&D":
+      return "dump";
+    case "Organics":
+      return "organics";
+    case "Recycling":
+      return "recycling";
+    default:
+      return "hhw";
+  }
+}
+
+export type CityProgramGroup = {
+  key: CityProgramKey;
+  label: string;
+  blurb: string;
+  pages: DisposalPage[];
+  lead: DisposalPage;
+  sourceName: string | null;
+  sourceUrl: string | null;
+};
+
+function pickProgramLead(pages: DisposalPage[], pin: readonly string[]): DisposalPage {
+  const bySlug = new Map(pages.map((p) => [p.item_slug, p]));
+  for (const slug of pin) {
+    const hit = bySlug.get(slug);
+    if (hit) return hit;
+  }
+  const original = pages.find((p) => !/follows the same verified program pathway/i.test(p.answer || ""));
+  return original ?? pages[0];
+}
+
+export function getCityProgramGroups(stateSlug: string, citySlug: string): CityProgramGroup[] {
+  const pages = getCityPages(stateSlug, citySlug);
+  const buckets = new Map<CityProgramKey, DisposalPage[]>();
+  for (const page of pages) {
+    const key = cityProgramKey(page.category);
+    const list = buckets.get(key);
+    if (list) list.push(page);
+    else buckets.set(key, [page]);
+  }
+  const out: CityProgramGroup[] = [];
+  for (const spec of CITY_PROGRAMS) {
+    const group = buckets.get(spec.key);
+    if (!group?.length) continue;
+    const lead = pickProgramLead(group, spec.pin);
+    const srcCounts = new Map<string, number>();
+    for (const p of group) {
+      if (!p.source_url) continue;
+      srcCounts.set(p.source_url, (srcCounts.get(p.source_url) ?? 0) + 1);
+    }
+    const topUrl = [...srcCounts.entries()].sort((a, b) => b[1] - a[1])[0]?.[0] ?? lead.source_url;
+    const named = group.find((p) => p.source_url === topUrl);
+    const pinSet = new Set<string>(spec.pin);
+    const sorted = [...group].sort((a, b) => {
+      const ap = pinSet.has(a.item_slug) ? 0 : 1;
+      const bp = pinSet.has(b.item_slug) ? 0 : 1;
+      return ap - bp || a.item_name.localeCompare(b.item_name);
+    });
+    out.push({
+      key: spec.key,
+      label: spec.label,
+      blurb: spec.blurb,
+      pages: sorted,
+      lead,
+      sourceName: named?.source_name ?? lead.source_name,
+      sourceUrl: topUrl,
+    });
+  }
+  return out;
+}

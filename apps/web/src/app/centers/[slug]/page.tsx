@@ -168,9 +168,14 @@ export default async function FacilityDetailPage({ params }: Props) {
             {materials.map((item) =>
               item ? (
                 <li key={item.slug} style={{ listStyle: "none" }}>
-                  <Link className="hub-link" href={`/materials/${item.slug}`}>
+                  <Link
+                    className="hub-link"
+                    href={`/${city.state_slug}/${city.city_slug}/dispose/${item.slug}`}
+                  >
                     {item.name}
-                    <span className="hub-link-meta">{item.category}</span>
+                    <span className="hub-link-meta">
+                      {item.category} · {city.city} guide
+                    </span>
                   </Link>
                 </li>
               ) : null,
@@ -188,7 +193,7 @@ export default async function FacilityDetailPage({ params }: Props) {
         <Link href="/centers">← All centers</Link>
         {" · "}
         <Link href={`/${city.state_slug}/${city.city_slug}`}>
-          {city.city} guides
+          {city.city} dump, bulky & HHW
         </Link>
       </p>
     </div>

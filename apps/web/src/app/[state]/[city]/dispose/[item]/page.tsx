@@ -15,6 +15,8 @@ import { SpecsTable } from "@/components/SpecsTable";
 import { StatusBadge } from "@/components/StatusBadge";
 import {
   badgeLabel,
+  CITY_PROGRAMS,
+  cityProgramKey,
   getCityPages,
   getCtrOverride,
   getDisposeStaticParams,
@@ -64,6 +66,8 @@ export default async function DisposeItemPage({ params }: Props) {
   );
   const primaryPhone = page.facilities?.find((f) => f.phone)?.phone ?? null;
   const zipRefs = zips.map((z) => ({ zip: z.zip, lat: z.lat, lng: z.lng }));
+  const programKey = cityProgramKey(page.category);
+  const programLabel = CITY_PROGRAMS.find((p) => p.key === programKey)?.label ?? "city program";
 
   return (
     <div className="shell page">
@@ -118,6 +122,11 @@ export default async function DisposeItemPage({ params }: Props) {
         <p className="direct-answer">{page.answer}</p>
         <div className="meta-row">
           <span>Category: {page.category}</span>
+          <span>
+            <Link href={`/${page.state_slug}/${page.city_slug}#${programKey}`}>
+              {page.city} {programLabel}
+            </Link>
+          </span>
           <span>
             City program
             {page.source_name ? ` · ${page.source_name}` : ""}
