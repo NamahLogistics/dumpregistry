@@ -51,9 +51,54 @@ export function getStates() {
   return [...bySlug.values()].sort((a, b) => b.population - a.population);
 }
 
+type PagesIndex = {
+  all: DisposalPage[];
+  indexable: DisposalPage[];
+  byKey: Map<string, DisposalPage>;
+  byCity: Map<string, DisposalPage[]>;
+  byItem: Map<string, DisposalPage[]>;
+};
+
+let pagesIndex: PagesIndex | null = null;
+
+export function cityKey(stateSlug: string, citySlug: string) {
+  return `${stateSlug}/${citySlug}`;
+}
+
+function pageLookupKey(stateSlug: string, citySlug: string, itemSlug: string) {
+  return `${stateSlug}/${citySlug}/${itemSlug}`;
+}
+
+function isCityGuide(page: DisposalPage) {
+  return page.indexable && page.rule_source_level === "city";
+}
+
+function getPagesIndex(): PagesIndex {
+  if (pagesIndex) return pagesIndex;
+  const all = readJson<DisposalPage[]>("resolved/pages.json");
+  const byKey = new Map<string, DisposalPage>();
+  const byCity = new Map<string, DisposalPage[]>();
+  const byItem = new Map<string, DisposalPage[]>();
+  const indexable: DisposalPage[] = [];
+  for (const page of all) {
+    byKey.set(pageLookupKey(page.state_slug, page.city_slug, page.item_slug), page);
+    if (!isCityGuide(page)) continue;
+    indexable.push(page);
+    const ck = cityKey(page.state_slug, page.city_slug);
+    const cityList = byCity.get(ck);
+    if (cityList) cityList.push(page);
+    else byCity.set(ck, [page]);
+    const itemList = byItem.get(page.item_slug);
+    if (itemList) itemList.push(page);
+    else byItem.set(page.item_slug, [page]);
+  }
+  pagesIndex = { all, indexable, byKey, byCity, byItem };
+  cache.pages = all;
+  return pagesIndex;
+}
+
 export function getPages(): DisposalPage[] {
-  cache.pages ??= readJson<DisposalPage[]>("resolved/pages.json");
-  return cache.pages;
+  return getPagesIndex().all;
 }
 
 export function getZipHubs(): ZipHub[] {
@@ -69,8 +114,7 @@ export function getFacilities(): Facility[] {
 /** City dispose guides that cover a material — for encyclopedia deep links. */
 export function getMaterialCityGuides(itemSlug: string, limit = 24): DisposalPage[] {
   const pop = new Map(getCities().map((c) => [c.city_slug, c.population ?? 0]));
-  return getIndexablePages()
-    .filter((p) => p.item_slug === itemSlug)
+  return [...(getPagesIndex().byItem.get(itemSlug) ?? [])]
     .sort(
       (a, b) =>
         (pop.get(b.city_slug) ?? 0) - (pop.get(a.city_slug) ?? 0) || a.city.localeCompare(b.city),
@@ -79,7 +123,7 @@ export function getMaterialCityGuides(itemSlug: string, limit = 24): DisposalPag
 }
 
 export function getMaterialGuideCount(itemSlug: string): number {
-  return getIndexablePages().filter((p) => p.item_slug === itemSlug).length;
+  return getPagesIndex().byItem.get(itemSlug)?.length ?? 0;
 }
 
 export type MaterialOverview = {
@@ -118,22 +162,17 @@ export function getCity(stateSlug: string, citySlug: string) {
 }
 
 export function getPage(stateSlug: string, citySlug: string, itemSlug: string) {
-  return getPages().find(
-    (p) =>
-      p.state_slug === stateSlug &&
-      p.city_slug === citySlug &&
-      p.item_slug === itemSlug &&
-      p.indexable &&
-      p.rule_source_level === "city",
-  );
+  const page = getPagesIndex().byKey.get(pageLookupKey(stateSlug, citySlug, itemSlug));
+  if (!page || !isCityGuide(page)) return undefined;
+  return page;
 }
 
 export function getIndexablePages() {
-  return getPages().filter((p) => p.indexable && p.rule_source_level === "city");
+  return getPagesIndex().indexable;
 }
 
 export function getCityPages(stateSlug: string, citySlug: string) {
-  return getIndexablePages().filter((p) => p.state_slug === stateSlug && p.city_slug === citySlug);
+  return getPagesIndex().byCity.get(cityKey(stateSlug, citySlug)) ?? [];
 }
 
 export function getZipHub(stateSlug: string, citySlug: string, zip: string) {
@@ -147,10 +186,6 @@ export function getZipHub(stateSlug: string, citySlug: string, zip: string) {
 }
 
 /** Cities/items that have at least one verified city guide — for the wizard. */
-export function cityKey(stateSlug: string, citySlug: string) {
-  return `${stateSlug}/${citySlug}`;
-}
-
 export function getWizardOptions() {
   const pages = getIndexablePages();
   const covered = new Set(pages.map((p) => cityKey(p.state_slug, p.city_slug)));
@@ -224,26 +259,50 @@ export function getRelatedInCity(page: DisposalPage, limit = 6): DisposalPage[] 
 }
 
 export function getSameItemOtherCities(page: DisposalPage, limit = 6): DisposalPage[] {
-  return getIndexablePages()
-    .filter(
-      (p) =>
-        p.item_slug === page.item_slug &&
-        !(p.state_slug === page.state_slug && p.city_slug === page.city_slug),
-    )
+  return (getPagesIndex().byItem.get(page.item_slug) ?? [])
+    .filter((p) => !(p.state_slug === page.state_slug && p.city_slug === page.city_slug))
     .sort((a, b) => a.city.localeCompare(b.city))
     .slice(0, limit);
 }
 
 export function getSiblingCities(stateSlug: string, citySlug: string, limit = 8) {
-  const covered = new Set(
-    getIndexablePages()
-      .filter((p) => p.state_slug === stateSlug)
-      .map((p) => p.city_slug),
-  );
+  const idx = getPagesIndex();
   return getCities()
-    .filter((c) => c.state_slug === stateSlug && covered.has(c.city_slug) && c.city_slug !== citySlug)
+    .filter(
+      (c) =>
+        c.state_slug === stateSlug &&
+        c.city_slug !== citySlug &&
+        (idx.byCity.get(cityKey(c.state_slug, c.city_slug))?.length ?? 0) > 0,
+    )
     .sort((a, b) => (b.population ?? 0) - (a.population ?? 0))
     .slice(0, limit);
+}
+
+/**
+ * Build-time dispose paths only. Prerendering all ~21k city×item pages overflows
+ * V8's call stack during Next static generation. Remaining URLs still resolve
+ * on first request (`dynamicParams = true`) from the same JSON.
+ */
+const PRERENDER_FULL_CITY_COUNT = 80;
+
+export function getDisposeStaticParams() {
+  const highIntent = new Set<string>(HIGH_INTENT_ITEMS);
+  const pages = getIndexablePages();
+  const pop = new Map(getCities().map((c) => [cityKey(c.state_slug, c.city_slug), c.population ?? 0]));
+  const rankedCities = [
+    ...new Set(pages.map((p) => cityKey(p.state_slug, p.city_slug))),
+  ].sort((a, b) => (pop.get(b) ?? 0) - (pop.get(a) ?? 0));
+  const fullCities = new Set(rankedCities.slice(0, PRERENDER_FULL_CITY_COUNT));
+  return pages
+    .filter(
+      (p) =>
+        fullCities.has(cityKey(p.state_slug, p.city_slug)) || highIntent.has(p.item_slug),
+    )
+    .map((p) => ({
+      state: p.state_slug,
+      city: p.city_slug,
+      item: p.item_slug,
+    }));
 }
 
 export function getCityHighIntentGuides(stateSlug: string, citySlug: string, limit = 10) {

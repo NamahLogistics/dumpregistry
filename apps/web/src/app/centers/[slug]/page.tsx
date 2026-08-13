@@ -7,30 +7,47 @@ import { clipAtWord } from "@/lib/snippets";
 
 type Props = { params: Promise<{ slug: string }> };
 
+type IndexedFacility = {
+  f: ReturnType<typeof getFacilities>[number];
+  city: ReturnType<typeof getCities>[number];
+  slug: string;
+};
+
+let indexedFacilityRows: IndexedFacility[] | null = null;
+let indexedFacilityBySlug: Map<string, IndexedFacility> | null = null;
+
 function indexedFacilities() {
+  if (indexedFacilityRows) return indexedFacilityRows;
   const cities = new Map(getCities().map((c) => [c.city_slug, c]));
-  return getFacilities()
-    .filter((f) => f.lat != null && f.lng != null && cities.has(f.city_slug))
-    .map((f) => {
-      const city = cities.get(f.city_slug)!;
-      return { f, city, slug: facilitySlug(f) };
-    });
+  const seen = new Set<string>();
+  const rows: IndexedFacility[] = [];
+  for (const f of getFacilities()) {
+    if (f.lat == null || f.lng == null) continue;
+    const city = cities.get(f.city_slug);
+    if (!city) continue;
+    const slug = facilitySlug(f);
+    if (seen.has(slug)) continue;
+    seen.add(slug);
+    rows.push({ f, city, slug });
+  }
+  indexedFacilityRows = rows;
+  return rows;
+}
+
+function facilityBySlug(slug: string) {
+  if (!indexedFacilityBySlug) {
+    indexedFacilityBySlug = new Map(indexedFacilities().map((row) => [row.slug, row]));
+  }
+  return indexedFacilityBySlug.get(slug);
 }
 
 export async function generateStaticParams() {
-  const seen = new Set<string>();
-  const out: { slug: string }[] = [];
-  for (const row of indexedFacilities()) {
-    if (seen.has(row.slug)) continue;
-    seen.add(row.slug);
-    out.push({ slug: row.slug });
-  }
-  return out;
+  return indexedFacilities().map((row) => ({ slug: row.slug }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
-  const row = indexedFacilities().find((r) => r.slug === slug);
+  const row = facilityBySlug(slug);
   if (!row) return { robots: { index: false, follow: false } };
   const { f, city } = row;
   return pageMetadata({
@@ -42,7 +59,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function FacilityDetailPage({ params }: Props) {
   const { slug } = await params;
-  const row = indexedFacilities().find((r) => r.slug === slug);
+  const row = facilityBySlug(slug);
   if (!row) notFound();
   const { f, city } = row;
   const materials = (f.accepted_materials || [])

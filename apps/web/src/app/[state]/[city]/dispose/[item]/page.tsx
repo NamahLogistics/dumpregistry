@@ -17,7 +17,7 @@ import {
   badgeLabel,
   getCityPages,
   getCtrOverride,
-  getIndexablePages,
+  getDisposeStaticParams,
   getPage,
   getRelatedInCity,
   getSameItemOtherCities,
@@ -31,12 +31,10 @@ type Props = {
   params: Promise<{ state: string; city: string; item: string }>;
 };
 
+export const dynamicParams = true;
+
 export async function generateStaticParams() {
-  return getIndexablePages().map((p) => ({
-    state: p.state_slug,
-    city: p.city_slug,
-    item: p.item_slug,
-  }));
+  return getDisposeStaticParams();
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
