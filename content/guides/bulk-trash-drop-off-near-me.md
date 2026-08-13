@@ -42,6 +42,7 @@ People also search specific sites — for example “mira mar landfill” near S
 - Browse [cities](/cities) and open your metro’s bulky / transfer notes
 - Use [Centers](/centers) for hard facilities near your ZIP
 - For remodel debris, see [construction debris](/guides/how-to-dispose-of-construction-debris)
-- For mattresses and other curb items, use the material hub then your city dispose page
+- For mattresses and other curb items, use the [mattress hub](/materials/mattress) then your city dispose page
+- Irvine example: [mattress disposal in Irvine](/california/irvine/dispose/mattress)
 
 If the gate rejects the load, ask which lane or which HHW/e-waste site they recommend — do not leave the pile on the shoulder.

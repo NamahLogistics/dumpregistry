@@ -68,6 +68,7 @@ Many multifamily dumpsters explicitly ban propane. Leaving a tank beside the dum
 ## How to use DumpRegistry
 
 - Open the [propane tank material hub](/materials/propane-tank)
+- Helium party tanks are a different stream — [helium tank disposal](/materials/helium-tank)
 - Check your [city’s HHW / specialty rules](/cities) when we have a verified guide
 - Use [Centers](/centers?material=propane-tank) to find facilities that accept cylinders when exchange is not enough
 

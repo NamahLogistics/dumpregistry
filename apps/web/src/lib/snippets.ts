@@ -101,6 +101,7 @@ export function titleHook(
     return "HHW drop-off";
   }
   if (page.category === "Electronics") return "e-waste drop-off";
+  if (page.category === "C&D") return "dump / drop-off";
   return null;
 }
 
@@ -145,15 +146,16 @@ export function disposeDescription(
 }
 
 export function cityHubTitle(city: string, state: string): string {
+  const hooked = `${city}, ${state} dump, bulky pickup & HHW`;
+  if (hooked.length <= TITLE_MAX) return hooked;
   const core = `${city}, ${state} disposal guides`;
-  const hooked = `${core} — bulky, HHW & e-waste`;
-  return hooked.length <= TITLE_MAX ? hooked : core;
+  return core.length <= TITLE_MAX ? core : clipAtWord(core, TITLE_MAX);
 }
 
 export function cityHubDescription(city: string, state: string, guideCount: number): string {
   const n = guideCount > 0 ? `${guideCount} verified` : "Verified";
   return clipMetaDescription(
-    `${n} item guides for ${city}, ${state} — bulky pickup, HHW, e-waste, and appliances, with official sources.`,
+    `${n} guides for ${city}, ${state} — dump and transfer drop-off, bulky pickup, HHW, and e-waste, with official sources.`,
   );
 }
 

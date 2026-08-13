@@ -56,6 +56,6 @@ Fluids and batteries should never be stuffed inside a tire for “convenient” 
 
 - Open the [tires material hub](/materials/tires)
 - Check your [city guide](/cities) for transfer fees or amnesty events we verified
-- Use [Centers](/centers?material=tires) to find accepting facilities
+- Use [Centers](/centers?material=tires) — that is the “dump tires near me” list from city research
 
 If you only need rim scrap after the rubber is gone, say so at the gate — pricing changes when the load is metal-only.

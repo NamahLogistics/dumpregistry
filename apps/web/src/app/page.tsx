@@ -11,9 +11,9 @@ import { pageMetadata } from "@/lib/seo";
 import { site } from "@/lib/site";
 
 export const metadata = pageMetadata({
-  title: "DumpRegistry — dispose of bulky items, HHW & e-waste by city",
+  title: "DumpRegistry — dump, bulky pickup & HHW by city",
   description:
-    "Verified drop-off and bulky pickup rules for mattresses, paint, TVs, and more — city-sourced, with official links.",
+    "Find dump and transfer drop-off, bulky pickup, and HHW rules for mattresses, construction debris, tanks, and more — city-sourced, with official links.",
   path: "/",
 });
 
@@ -59,6 +59,44 @@ export default function HomePage() {
           heading="Common disposal questions"
           lead="Open a verified guide, then continue to related items in the same city."
           links={starterLinks}
+        />
+
+        <ContinueReading
+          id="home-near-me"
+          heading="Drop-off near you"
+          lead="National how-tos Google is already testing — then open your city page for the local rule."
+          links={[
+            {
+              href: "/guides/bulk-trash-drop-off-near-me",
+              title: "Bulk trash drop-off",
+              meta: "Transfer stations",
+            },
+            {
+              href: "/guides/how-to-dispose-of-construction-debris",
+              title: "Construction debris",
+              meta: "Concrete, drywall, lumber",
+            },
+            {
+              href: "/centers",
+              title: "Dump & HHW centers",
+              meta: "Filter by ZIP",
+            },
+            {
+              href: "/guides/how-to-dispose-of-propane-tanks",
+              title: "Propane tanks",
+              meta: "Exchange vs HHW",
+            },
+            {
+              href: "/guides/how-to-dispose-of-lithium-batteries",
+              title: "Lithium batteries",
+              meta: "Drop-off, not trash",
+            },
+            {
+              href: "/guides/how-to-dispose-of-tires",
+              title: "Dump tires",
+              meta: "Retailer or transfer",
+            },
+          ]}
         />
 
         <ContinueReading

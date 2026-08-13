@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import {
   badgeLabel,
+  getCtrOverride,
   getItem,
   getItems,
   getMaterialCityGuides,
@@ -26,12 +27,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const desc =
     overview?.overview ??
     `${item.summary_default} See city-sourced program guides across the U.S.`;
+  const path = `/materials/${item.slug}`;
+  const override = getCtrOverride(path);
   return pageMetadata({
-    title: `How to dispose of ${item.name.toLowerCase()}`,
+    title: override?.title ?? `How to dispose of ${item.name.toLowerCase()}`,
     description: clipMetaDescription(
-      `${desc} City-by-city drop-off and bulky rules with official sources.`,
+      override?.description ?? `${desc} City-by-city drop-off and bulky rules with official sources.`,
     ),
-    path: `/materials/${item.slug}`,
+    path,
   });
 }
 

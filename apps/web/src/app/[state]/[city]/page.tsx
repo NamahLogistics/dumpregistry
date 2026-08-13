@@ -10,6 +10,7 @@ import {
   getCity,
   getCityHighIntentGuides,
   getCityPages,
+  getCtrOverride,
   getIndexablePages,
   getSiblingCities,
   getZipHubs,
@@ -53,9 +54,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       index: false,
     });
   }
+  const override = getCtrOverride(path);
   return pageMetadata({
-    title: cityHubTitle(place.city, place.state),
-    description: cityHubDescription(place.city, place.state, guides.length),
+    title: override?.title ?? cityHubTitle(place.city, place.state),
+    description: override?.description ?? cityHubDescription(place.city, place.state, guides.length),
     path,
   });
 }
@@ -99,7 +101,8 @@ export default async function CityHubPage({ params }: Props) {
         </h1>
         {indexable.length ? (
           <p>
-            {indexable.length} verified disposal guides. Start with a common item, or search everything below.{" "}
+            {indexable.length} verified guides for dump and transfer drop-off, bulky pickup, HHW, and e-waste
+            in {place.city}. Start with a common item, or search everything below.{" "}
             <Link href="/cities">All verified cities</Link>
           </p>
         ) : (

@@ -1,1 +1,118 @@
-{}
+{
+  "/centers": {
+    "title": "Dump, HHW & bulky drop-off near you",
+    "description": "Find verified dump, transfer, HHW, and e-waste drop-off sites by ZIP or material — city-researched, with official program links."
+  },
+  "/guides/bulk-trash-drop-off-near-me": {
+    "title": "Bulk trash drop-off near me",
+    "description": "How U.S. transfer stations and citizen drop-off sites work — residency, fees, and what curb bulky day will not take."
+  },
+  "/guides/how-to-dispose-of-construction-debris": {
+    "title": "How to dump construction debris",
+    "description": "Concrete, drywall, and lumber are C&D — not household trash. Roll-off vs transfer station, plus city dump rules."
+  },
+  "/guides/how-to-dispose-of-a-mattress": {
+    "title": "How to dispose of a mattress",
+    "description": "Bulky pickup vs drop-off for mattresses in U.S. cities — bag rules, fees, and why the trash cart will not take it."
+  },
+  "/guides/how-to-dispose-of-propane-tanks": {
+    "title": "Propane tank disposal near me",
+    "description": "Exchange, HHW, and specialty drop-off for BBQ and camping cylinders — never put a pressurized tank in the trash."
+  },
+  "/guides/how-to-dispose-of-lithium-batteries": {
+    "title": "Lithium battery drop-off near me",
+    "description": "Tape terminals and take lithium packs to HHW or retailer drop-off. Trash and recycling carts start truck fires."
+  },
+  "/guides/how-to-dispose-of-tires": {
+    "title": "Dump tires near me",
+    "description": "Retailer take-back, transfer-station fees, and rim rules — scrap tires are banned from household trash in most states."
+  },
+  "/guides/how-to-dispose-of-a-refrigerator": {
+    "title": "Fridge and freezer disposal near me",
+    "description": "Freon recovery, utility haul-away, and city appliance drop-off — a freezer is not ordinary bulky trash."
+  },
+  "/materials/helium-tank": {
+    "title": "Helium tank disposal near me",
+    "description": "Party tanks and refillable helium cylinders — city drop-off and scrap rules, with official program links."
+  },
+  "/materials/construction-debris": {
+    "title": "Construction debris dump-off near me",
+    "description": "DIY C&D goes to a transfer station or roll-off, not the trash cart. City-by-city dump rules with official sources."
+  },
+  "/materials/concrete": {
+    "title": "Concrete dump sites near me",
+    "description": "Where to dump concrete, brick, and block — transfer and C&D sites by city, with fees and official sources."
+  },
+  "/materials/propane-tank": {
+    "title": "Where to take propane tanks near me",
+    "description": "Exchange vs HHW for 20 lb grill tanks and camping cylinders. City guides with official drop-off rules."
+  },
+  "/materials/lithium-battery": {
+    "title": "Lithium battery drop-off near me",
+    "description": "HHW and retailer drop-off for lithium-ion packs. Do not put them in trash or recycling — city rules linked."
+  },
+  "/materials/tires": {
+    "title": "Dump tires near me",
+    "description": "Take scrap tires to a retailer or transfer station. City fees, rim rules, and official program links."
+  },
+  "/materials/mattress": {
+    "title": "Mattress disposal near me",
+    "description": "City bulky pickup and drop-off for mattresses — bag rules, fees, and why the regular trash cart rejects them."
+  },
+  "/materials/car-parts": {
+    "title": "Where to dispose of car parts",
+    "description": "Auto recyclers and scrap for car parts — fluids and batteries stay out of the trash. City-sourced drop-off guides."
+  },
+  "/materials/refrigerator": {
+    "title": "Where can I dump a freezer",
+    "description": "Fridge and freezer disposal — Freon recovery, utility pickup, and city appliance drop-off with official sources."
+  },
+  "/california/san-diego/dispose/helium-tank": {
+    "title": "Helium tank disposal in San Diego, CA",
+    "description": "San Diego drop-off rules for helium tanks — official program source, hours path, and what not to put in trash."
+  },
+  "/california/san-jose/dispose/construction-debris": {
+    "title": "Construction debris dump in San Jose, CA",
+    "description": "San Jose C&D drop-off for remodel waste — transfer vs bulky, with the official program source we verified."
+  },
+  "/texas/san-antonio/dispose/concrete": {
+    "title": "Concrete dump sites in San Antonio, TX",
+    "description": "Where San Antonio residents dump concrete and block — transfer / C&D rules from the official city program."
+  },
+  "/texas/san-antonio/dispose/construction-debris": {
+    "title": "Dump construction debris in San Antonio, TX",
+    "description": "San Antonio C&D and dump rules for remodel waste — not the household trash cart. Official program source cited."
+  },
+  "/california/irvine/dispose/mattress": {
+    "title": "Mattress disposal in Irvine, CA",
+    "description": "Irvine bulky pickup and drop-off for mattresses — city program rules, prep, and the official source we verified."
+  },
+  "/washington/seattle/dispose/medical-sharps": {
+    "title": "Medical waste disposal in Seattle, WA",
+    "description": "Seattle sharps and medical waste drop-off — containers, approved sites, and the official program source."
+  },
+  "/illinois/chicago/dispose/car-parts": {
+    "title": "Where to dispose of car parts in Chicago",
+    "description": "Chicago auto-parts and scrap drop-off — keep fluids and batteries out of trash. Official program source cited."
+  },
+  "/california/san-diego": {
+    "title": "San Diego dump, bulky pickup & HHW",
+    "description": "Verified San Diego drop-off and bulky rules — dump/transfer, HHW, e-waste, and mattresses with official sources."
+  },
+  "/california/san-jose": {
+    "title": "San Jose dump, bulky pickup & HHW",
+    "description": "Verified San Jose dump and bulky guides — construction debris, HHW, and e-waste with official program links."
+  },
+  "/california/irvine": {
+    "title": "Irvine dump, bulky pickup & HHW",
+    "description": "Verified Irvine bulky pickup and drop-off — mattresses, HHW, and e-waste with official Orange County sources."
+  },
+  "/washington/seattle": {
+    "title": "Seattle dump, bulky pickup & HHW",
+    "description": "Verified Seattle drop-off and bulky rules — medical waste, yard waste, dump/transfer, with official sources."
+  },
+  "/texas/san-antonio": {
+    "title": "San Antonio dump sites & bulky pickup",
+    "description": "Verified San Antonio dump, C&D, and bulky guides — concrete, construction debris, and HHW with official sources."
+  }
+}

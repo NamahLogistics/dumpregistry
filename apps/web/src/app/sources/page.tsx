@@ -7,10 +7,11 @@ import { dataRoot } from "@/lib/paths";
 import { pageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = pageMetadata({
-  title: "Official sources for DumpRegistry guides",
+  title: "Citation list for DumpRegistry editors",
   description:
-    "City and county program pages used for DumpRegistry disposal guides — primary sources, not aggregator copies.",
+    "Named city and county program URLs cited on DumpRegistry pages. Not a disposal how-to — confirm rules on the originating site.",
   path: "/sources",
+  index: false,
 });
 
 type Rule = {
@@ -41,10 +42,10 @@ export default function SourcesPage() {
 
   return (
     <article className="shell page prose">
-      <h1>Sources</h1>
+      <h1>Citation list</h1>
       <p>
-        Indexable answers cite the city/county sources below. Always confirm hours, fees, and appointment rules
-        on the originating site before you haul an item.
+        These are the city and county URLs cited on DumpRegistry pages — a bibliography, not a how-to. Always
+        confirm hours, fees, and appointment rules on the originating site before you haul an item.
       </p>
       <ul>
         {[...unique.values()].map((r) => (

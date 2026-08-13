@@ -68,9 +68,13 @@ export function getFacilities(): Facility[] {
 
 /** City dispose guides that cover a material — for encyclopedia deep links. */
 export function getMaterialCityGuides(itemSlug: string, limit = 24): DisposalPage[] {
+  const pop = new Map(getCities().map((c) => [c.city_slug, c.population ?? 0]));
   return getIndexablePages()
     .filter((p) => p.item_slug === itemSlug)
-    .sort((a, b) => a.city.localeCompare(b.city))
+    .sort(
+      (a, b) =>
+        (pop.get(b.city_slug) ?? 0) - (pop.get(a.city_slug) ?? 0) || a.city.localeCompare(b.city),
+    )
     .slice(0, limit);
 }
 
@@ -189,15 +193,15 @@ export function badgeLabel(badge: string) {
 /** High-intent items — good first clicks for hubs and continue-reading. */
 export const HIGH_INTENT_ITEMS = [
   "mattress",
-  "refrigerator",
-  "television",
-  "paint-latex",
+  "construction-debris",
+  "concrete",
+  "helium-tank",
   "lithium-battery",
-  "sofa",
-  "tires",
-  "air-conditioner",
-  "computer-monitor",
   "propane-tank",
+  "tires",
+  "refrigerator",
+  "car-parts",
+  "paint-latex",
 ] as const;
 
 export function getRelatedInCity(page: DisposalPage, limit = 6): DisposalPage[] {

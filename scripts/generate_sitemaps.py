@@ -63,7 +63,6 @@ def main() -> None:
         (f"{BASE}/", "1.0", None),
         (f"{BASE}/about", "0.5", None),
         (f"{BASE}/methodology", "0.5", None),
-        (f"{BASE}/sources", "0.5", None),
         (f"{BASE}/partners", "0.6", None),
         (f"{BASE}/cities", "0.8", None),
         (f"{BASE}/materials", "0.85", None),

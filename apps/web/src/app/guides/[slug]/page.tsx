@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getGuide, listGuides, markdownBlocks } from "@/lib/markdown";
+import { getCtrOverride } from "@/lib/data";
 import { pageMetadata } from "@/lib/seo";
 
 type Props = { params: Promise<{ slug: string }> };
@@ -14,10 +15,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const guide = getGuide(slug);
   if (!guide) return { title: "Guide" };
+  const path = `/guides/${guide.slug}`;
+  const override = getCtrOverride(path);
   return pageMetadata({
-    title: guide.title,
-    description: guide.description,
-    path: `/guides/${guide.slug}`,
+    title: override?.title ?? guide.title,
+    description: override?.description ?? guide.description,
+    path,
   });
 }
 

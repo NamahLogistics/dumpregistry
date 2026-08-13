@@ -70,7 +70,7 @@ Queries like “alameda county residential mattress pickup” are local-program 
 ## How to use DumpRegistry
 
 - Open the [mattress material hub](/materials/mattress) for the national overview and city list
-- Pick your [city](/cities) and follow the official bulky link on the dispose page
+- Example city pages: [Irvine mattress](/california/irvine/dispose/mattress), then pick your [city](/cities)
 - If the answer is drop-off, filter [Centers](/centers?material=mattress)
 
 Every DumpRegistry dispose page is city-sourced with a named program source and last-verified date. National advice orients you; the city guide is the rule.

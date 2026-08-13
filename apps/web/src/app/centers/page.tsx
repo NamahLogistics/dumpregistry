@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { CentersFilter } from "@/components/CentersFilter";
-import { getCities, getFacilities, getItems, getZipHubs } from "@/lib/data";
+import { getCities, getCtrOverride, getFacilities, getItems, getZipHubs } from "@/lib/data";
 import { formatMiles, sortByDistance } from "@/lib/geo";
 import { facilitySlug, pageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = pageMetadata({
-  title: "Drop-off centers near you",
+  title: "Dump, HHW & bulky drop-off near you",
   description:
-    "Find verified HHW, e-waste, and bulky drop-off sites from DumpRegistry city research — filter by ZIP or material.",
+    "Find verified dump, transfer, HHW, and e-waste drop-off sites by ZIP or material — city-researched, with official program links.",
   path: "/centers",
 });
 

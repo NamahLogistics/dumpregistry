@@ -89,8 +89,9 @@ Mixed hazardous waste in a C&D load can get the entire container rejected.
 
 ## How to use DumpRegistry
 
-- Start at [construction debris](/materials/construction-debris) and the specific material hubs above
+- Start at [construction debris](/materials/construction-debris) or [concrete dump sites](/materials/concrete)
+- City examples we already have: [San Jose C&D](/california/san-jose/dispose/construction-debris), [San Antonio concrete](/texas/san-antonio/dispose/concrete), [San Antonio debris](/texas/san-antonio/dispose/construction-debris)
 - Open your [city guides](/cities) for bulky limits and transfer options we verified
-- Use [Centers](/centers) to find transfer / C&D facilities when self-hauling
+- Use [Centers](/centers?material=construction-debris) to find transfer / C&D facilities when self-hauling
 
 For anything beyond a trunk-load, get a tip-fee quote before you demolish. The disposal line item is part of the remodel budget, not an afterthought.
