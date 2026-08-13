@@ -15,8 +15,18 @@ ROOT = Path(__file__).resolve().parents[1]
 def main() -> None:
     pages = json.loads((ROOT / "data" / "resolved" / "pages.json").read_text())
     assert pages, "No pages"
-    assert all(p["indexable"] and p["rule_source_level"] == "city" for p in pages)
+    assert all(p["rule_source_level"] == "city" for p in pages)
     assert all(p.get("source_url") and p.get("last_verified_at") for p in pages)
+    indexable = [p for p in pages if p.get("indexable")]
+    noindex = [p for p in pages if not p.get("indexable")]
+    assert indexable, "No indexable pages"
+    assert noindex, "True-alias noindex set is empty"
+    sofa = next(p for p in pages if p["city_slug"] == "houston" and p["item_slug"] == "sofa")
+    assert sofa["indexable"] is False
+    mattress = next(p for p in pages if p["city_slug"] == "houston" and p["item_slug"] == "mattress")
+    assert mattress["indexable"] is True
+    helium = next(p for p in pages if p["city_slug"] == "houston" and p["item_slug"] == "helium-tank")
+    assert helium["indexable"] is True, "false aliases stay indexable until rewritten"
     assert not any("statewide guidance only" in (p.get("answer") or "").lower() for p in pages)
 
     sample = next(p for p in pages if p["city_slug"] == "los-angeles" and p["item_slug"] == "mattress")
@@ -25,6 +35,10 @@ def main() -> None:
     sitemap = ROOT / "apps" / "web" / "public" / "sitemap.xml"
     robots = ROOT / "apps" / "web" / "public" / "robots.txt"
     assert sitemap.exists() and robots.exists()
+    chunk = (ROOT / "apps" / "web" / "public" / "sitemaps" / "sitemap-001.xml").read_text()
+    assert "/texas/houston/dispose/mattress" in chunk
+    assert "/texas/houston/dispose/sofa" not in chunk
+    assert "/texas/houston/dispose/helium-tank" in chunk
 
     base = os.environ.get("SMOKE_BASE_URL")
     if base:
@@ -65,7 +79,10 @@ def main() -> None:
         assert any(p["city_slug"] == "houston" and p["item_slug"] == "mattress" for p in pages)
 
     print("SMOKE OK")
-    print(f"  pages={len(pages)} cities={len(cities)} states={sorted(states)}")
+    print(
+        f"  pages={len(pages)} indexable={len(indexable)} noindex={len(noindex)} "
+        f"cities={len(cities)} states={sorted(states)}"
+    )
 
 
 if __name__ == "__main__":

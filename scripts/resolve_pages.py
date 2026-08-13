@@ -41,6 +41,8 @@ def main() -> None:
         DATA / "facilities" / "all.json",
         DATA / "facilities" / "ca.json",
     )
+    aliases = load(DATA / "seo" / "item_aliases.json")
+    true_aliases = set(aliases.get("true_aliases") or {})
 
     fac_by_city: dict[str, list] = {}
     for f in facilities:
@@ -93,7 +95,7 @@ def main() -> None:
                 "last_verified_at": r["last_verified_at"],
                 "lat": city.get("lat"),
                 "lng": city.get("lng"),
-                "indexable": True,
+                "indexable": item["slug"] not in true_aliases,
                 "needs_review": bool(r.get("needs_review")),
                 "facilities": city_facilities[:5],
                 "nearby_zips": [z["zip"] for z in zip_by_city.get(city_slug, [])[:5]],

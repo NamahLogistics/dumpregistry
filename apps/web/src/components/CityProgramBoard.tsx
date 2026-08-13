@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { SourceLink } from "@/components/SourceLink";
-import type { CityProgramGroup } from "@/lib/data";
+import { cityItemHref, type CityProgramGroup } from "@/lib/data";
 
 export function CityProgramBoard({
   city,
@@ -15,8 +15,8 @@ export function CityProgramBoard({
       <div className="continue-head">
         <h2 id="city-programs">{city} disposal programs</h2>
         <p>
-          Items that share the same official city or county source are grouped here. Each name is still
-          its own sourced guide.
+          Items that share the same official city or county source are grouped here. Alias items open
+          this program section; core guides stay on their own page.
         </p>
       </div>
       <nav className="program-jump" aria-label={`${city} program sections`}>
@@ -50,9 +50,7 @@ export function CityProgramBoard({
           <ul className="program-items">
             {g.pages.map((p) => (
               <li key={p.item_slug}>
-                <Link href={`/${p.state_slug}/${p.city_slug}/dispose/${p.item_slug}`}>
-                  {p.item_name}
-                </Link>
+                <Link href={cityItemHref(p)}>{p.item_name}</Link>
               </li>
             ))}
           </ul>

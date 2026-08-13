@@ -1,6 +1,6 @@
 {
-  "policy": "Only verified city-sourced URLs + hard facility detail pages",
-  "current_url_count": 24045,
+  "policy": "Indexable city-sourced URLs + hard facility detail pages (true aliases omitted)",
+  "current_url_count": 12648,
   "files_written": [
     "sitemap-001.xml"
   ],

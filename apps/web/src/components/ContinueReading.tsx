@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { cityItemHref } from "@/lib/data";
 import type { DisposalPage } from "@/lib/types";
 
 type LinkItem = {
@@ -40,7 +41,7 @@ export function ContinueReading({
 
 export function pagesToContinueLinks(pages: DisposalPage[], mode: "item" | "city" = "item"): LinkItem[] {
   return pages.map((p) => ({
-    href: `/${p.state_slug}/${p.city_slug}/dispose/${p.item_slug}`,
+    href: cityItemHref(p),
     title: mode === "city" ? `${p.item_name} in ${p.city}` : p.item_name,
     meta: mode === "city" ? p.category : `in ${p.city} · ${p.category}`,
   }));

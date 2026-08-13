@@ -8,6 +8,7 @@ import { CorrectionWidget } from "@/components/CorrectionWidget";
 import { HaulerCta } from "@/components/HaulerCta";
 import { ZipNearList } from "@/components/ZipNearList";
 import {
+  cityItemHref,
   getCity,
   getCityPages,
   getCityProgramGroups,
@@ -45,7 +46,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { state, city } = await params;
   const place = getCity(state, city);
   if (!place) return {};
-  const guides = getCityPages(state, city);
+  const guides = getCityPages(state, city).filter((p) => p.indexable);
   const path = `/${place.state_slug}/${place.city_slug}`;
   if (!guides.length) {
     return pageMetadata({
@@ -67,7 +68,8 @@ export default async function CityHubPage({ params }: Props) {
   const { state, city } = await params;
   const place = getCity(state, city);
   if (!place) notFound();
-  const indexable = getCityPages(state, city);
+  const guides = getCityPages(state, city);
+  const indexable = guides.filter((p) => p.indexable);
   const programs = getCityProgramGroups(state, city);
   const siblingCities = getSiblingCities(state, city, 8);
   const zips = getZipHubs().filter(
@@ -116,10 +118,10 @@ export default async function CityHubPage({ params }: Props) {
         <h1>
           {place.city}, {place.state}
         </h1>
-        {indexable.length ? (
+        {guides.length ? (
           <p>
             Verified dump, bulky pickup, HHW, and e-waste programs in {place.city} — {indexable.length}{" "}
-            item guides that share a handful of official city or county sources.{" "}
+            indexable city guides, with related items grouped on the program board.{" "}
             <Link href="/cities">All verified cities</Link>
           </p>
         ) : (
@@ -131,20 +133,21 @@ export default async function CityHubPage({ params }: Props) {
         )}
       </header>
 
-      {indexable.length ? <CityProgramBoard city={place.city} groups={programs} /> : null}
+      {guides.length ? <CityProgramBoard city={place.city} groups={programs} /> : null}
 
-      {indexable.length ? <HaulerCta city={place.city} stateSlug={place.state_slug} /> : null}
+      {guides.length ? <HaulerCta city={place.city} stateSlug={place.state_slug} /> : null}
 
-      {indexable.length ? (
+      {guides.length ? (
         <CityItemFinder
           city={place.city}
-          guides={indexable.map((p) => ({
+          guides={guides.map((p) => ({
             item_slug: p.item_slug,
             item_name: p.item_name,
             category: p.category,
             state_slug: p.state_slug,
             city_slug: p.city_slug,
             badge: p.badge,
+            href: cityItemHref(p),
           }))}
         />
       ) : (

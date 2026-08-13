@@ -16,6 +16,7 @@ import { StatusBadge } from "@/components/StatusBadge";
 import {
   badgeLabel,
   CITY_PROGRAMS,
+  cityItemHref,
   cityProgramKey,
   getCityPages,
   getCtrOverride,
@@ -49,6 +50,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: disposeTitle(page, override?.title),
     description: disposeDescription(page, override?.description),
     path,
+    index: page.indexable,
+    follow: true,
   });
 }
 
@@ -71,22 +74,26 @@ export default async function DisposeItemPage({ params }: Props) {
 
   return (
     <div className="shell page">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd(page.faqs)) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(
-            howToJsonLd(
-              `How to dispose of ${page.item_name} in ${page.city}`,
-              page.answer,
-              page.steps,
+      {page.indexable ? (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd(page.faqs)) }}
+        />
+      ) : null}
+      {page.indexable ? (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(
+              howToJsonLd(
+                `How to dispose of ${page.item_name} in ${page.city}`,
+                page.answer,
+                page.steps,
+              ),
             ),
-          ),
-        }}
-      />
+          }}
+        />
+      ) : null}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -120,6 +127,15 @@ export default async function DisposeItemPage({ params }: Props) {
           How to Dispose of {page.item_name} in {page.city}, {page.state}
         </h1>
         <p className="direct-answer">{page.answer}</p>
+        {!page.indexable ? (
+          <p>
+            {page.item_name} is listed on the{" "}
+            <Link href={`/${page.state_slug}/${page.city_slug}#${programKey}`}>
+              {page.city} {programLabel} program
+            </Link>
+            . Same official source as the city {programLabel.toLowerCase()} rules.
+          </p>
+        ) : null}
         <div className="meta-row">
           <span>Category: {page.category}</span>
           <span>
@@ -232,6 +248,7 @@ export default async function DisposeItemPage({ params }: Props) {
           state_slug: p.state_slug,
           city_slug: p.city_slug,
           badge: p.badge,
+          href: cityItemHref(p),
         }))}
       />
 

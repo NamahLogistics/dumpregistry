@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { getCities, getFacilities, getItem, getItems } from "@/lib/data";
+import { cityItemHref, getCities, getFacilities, getItem, getItems } from "@/lib/data";
 import { absoluteUrl, breadcrumbJsonLd, facilitySlug, pageMetadata } from "@/lib/seo";
 import { clipAtWord } from "@/lib/snippets";
 
@@ -170,7 +170,12 @@ export default async function FacilityDetailPage({ params }: Props) {
                 <li key={item.slug} style={{ listStyle: "none" }}>
                   <Link
                     className="hub-link"
-                    href={`/${city.state_slug}/${city.city_slug}/dispose/${item.slug}`}
+                    href={cityItemHref({
+                      state_slug: city.state_slug,
+                      city_slug: city.city_slug,
+                      item_slug: item.slug,
+                      category: item.category,
+                    })}
                   >
                     {item.name}
                     <span className="hub-link-meta">

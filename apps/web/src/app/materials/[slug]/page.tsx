@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import {
   badgeLabel,
+  cityItemHref,
   getCtrOverride,
   getItem,
   getItems,
@@ -108,7 +109,7 @@ export default async function MaterialPage({ params }: Props) {
         <ul className="city-guide-list">
           {cities.map((p) => (
             <li key={`${p.state_slug}-${p.city_slug}`}>
-              <Link href={`/${p.state_slug}/${p.city_slug}/dispose/${p.item_slug}`}>
+              <Link href={cityItemHref(p)}>
                 {p.city}, {p.state}
               </Link>
             </li>

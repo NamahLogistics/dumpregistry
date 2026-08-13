@@ -133,7 +133,7 @@ def main() -> None:
     (SITE / "sitemap.xml").write_text(index)
 
     schedule = {
-        "policy": "Only verified city-sourced URLs + hard facility detail pages",
+        "policy": "Indexable city-sourced URLs + hard facility detail pages (true aliases omitted)",
         "current_url_count": len(urls),
         "files_written": sitemap_names,
         "covered_city_count": len(covered_cities),

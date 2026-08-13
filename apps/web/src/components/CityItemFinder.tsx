@@ -10,6 +10,7 @@ type Guide = {
   state_slug: string;
   city_slug: string;
   badge: string;
+  href?: string;
 };
 
 export function CityItemFinder({
@@ -103,7 +104,7 @@ export function CityItemFinder({
           <Link
             key={g.item_slug}
             className="hub-link"
-            href={`/${g.state_slug}/${g.city_slug}/dispose/${g.item_slug}`}
+            href={g.href ?? `/${g.state_slug}/${g.city_slug}/dispose/${g.item_slug}`}
           >
             {g.item_name}
             <span className="hub-link-meta">{g.category}</span>

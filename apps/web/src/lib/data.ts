@@ -1,5 +1,6 @@
 import { readFileSync } from "node:fs";
 import path from "node:path";
+import { isTrueAlias } from "./aliases";
 import { dataRoot } from "./paths";
 import type { SnippetOverride } from "./snippets";
 import type { City, DisposalPage, Facility, Item, ZipHub } from "./types";
@@ -53,6 +54,7 @@ export function getStates() {
 
 type PagesIndex = {
   all: DisposalPage[];
+  citySourced: DisposalPage[];
   indexable: DisposalPage[];
   byKey: Map<string, DisposalPage>;
   byCity: Map<string, DisposalPage[]>;
@@ -69,8 +71,8 @@ function pageLookupKey(stateSlug: string, citySlug: string, itemSlug: string) {
   return `${stateSlug}/${citySlug}/${itemSlug}`;
 }
 
-function isCityGuide(page: DisposalPage) {
-  return page.indexable && page.rule_source_level === "city";
+function isCitySourced(page: DisposalPage) {
+  return page.rule_source_level === "city";
 }
 
 function getPagesIndex(): PagesIndex {
@@ -79,11 +81,13 @@ function getPagesIndex(): PagesIndex {
   const byKey = new Map<string, DisposalPage>();
   const byCity = new Map<string, DisposalPage[]>();
   const byItem = new Map<string, DisposalPage[]>();
+  const citySourced: DisposalPage[] = [];
   const indexable: DisposalPage[] = [];
   for (const page of all) {
     byKey.set(pageLookupKey(page.state_slug, page.city_slug, page.item_slug), page);
-    if (!isCityGuide(page)) continue;
-    indexable.push(page);
+    if (!isCitySourced(page)) continue;
+    citySourced.push(page);
+    if (page.indexable) indexable.push(page);
     const ck = cityKey(page.state_slug, page.city_slug);
     const cityList = byCity.get(ck);
     if (cityList) cityList.push(page);
@@ -92,7 +96,7 @@ function getPagesIndex(): PagesIndex {
     if (itemList) itemList.push(page);
     else byItem.set(page.item_slug, [page]);
   }
-  pagesIndex = { all, indexable, byKey, byCity, byItem };
+  pagesIndex = { all, citySourced, indexable, byKey, byCity, byItem };
   cache.pages = all;
   return pagesIndex;
 }
@@ -163,7 +167,7 @@ export function getCity(stateSlug: string, citySlug: string) {
 
 export function getPage(stateSlug: string, citySlug: string, itemSlug: string) {
   const page = getPagesIndex().byKey.get(pageLookupKey(stateSlug, citySlug, itemSlug));
-  if (!page || !isCityGuide(page)) return undefined;
+  if (!page || !isCitySourced(page)) return undefined;
   return page;
 }
 
@@ -187,7 +191,7 @@ export function getZipHub(stateSlug: string, citySlug: string, zip: string) {
 
 /** Cities/items that have at least one verified city guide — for the wizard. */
 export function getWizardOptions() {
-  const pages = getIndexablePages();
+  const pages = getPagesIndex().citySourced;
   const covered = new Set(pages.map((p) => cityKey(p.state_slug, p.city_slug)));
   const itemSlugs = new Set(pages.map((p) => p.item_slug));
   const cities = getCities()
@@ -287,7 +291,7 @@ const PRERENDER_FULL_CITY_COUNT = 80;
 
 export function getDisposeStaticParams() {
   const highIntent = new Set<string>(HIGH_INTENT_ITEMS);
-  const pages = getIndexablePages();
+  const pages = getPagesIndex().citySourced;
   const pop = new Map(getCities().map((c) => [cityKey(c.state_slug, c.city_slug), c.population ?? 0]));
   const rankedCities = [
     ...new Set(pages.map((p) => cityKey(p.state_slug, p.city_slug))),
@@ -296,7 +300,8 @@ export function getDisposeStaticParams() {
   return pages
     .filter(
       (p) =>
-        fullCities.has(cityKey(p.state_slug, p.city_slug)) || highIntent.has(p.item_slug),
+        !isTrueAlias(p.item_slug) &&
+        (fullCities.has(cityKey(p.state_slug, p.city_slug)) || highIntent.has(p.item_slug)),
     )
     .map((p) => ({
       state: p.state_slug,
@@ -364,6 +369,19 @@ export const CITY_PROGRAMS = [
 ] as const;
 
 export type CityProgramKey = (typeof CITY_PROGRAMS)[number]["key"];
+
+/** Promo / board chips fold true aliases onto the city program section. Human /dispose URLs stay. */
+export function cityItemHref(page: {
+  state_slug: string;
+  city_slug: string;
+  item_slug: string;
+  category: string;
+}): string {
+  if (isTrueAlias(page.item_slug)) {
+    return `/${page.state_slug}/${page.city_slug}#${cityProgramKey(page.category)}`;
+  }
+  return `/${page.state_slug}/${page.city_slug}/dispose/${page.item_slug}`;
+}
 
 export function cityProgramKey(category: string): CityProgramKey {
   switch (category) {
