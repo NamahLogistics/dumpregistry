@@ -365,6 +365,27 @@ SOURCE_ALLOWLIST = frozenset({
     "myclearwater.com",
     "cityofclovis.com",
     "palmbayflorida.org",
+    # Wave-24 metro portals (JPAs, authorities, county/city solid-waste brands)
+    "recyclemore.com",
+    "cccrecycle.org",
+    "deltadiablo.org",
+    "nhcgov.com",
+    "recycling.nhcgov.com",
+    "springfield.il.us",
+    "lakelandgov.net",
+    "scswa.net",
+    "las-cruces.org",
+    "cityofdearborn.org",
+    "greeleygov.com",
+    "washoecounty.us",
+    "cityofsparks.us",
+    "ktmb.org",
+    "bouldercounty.org",
+    "ecocycle.org",
+    "cityofvista.com",
+    "suvswd.org",
+    "ingham.org",
+    "pueblo.us",
 })
 
 US_STATE_ABBR = frozenset({

@@ -5,6 +5,8 @@ from __future__ import annotations
 
 import json
 import os
+import time
+import urllib.error
 import urllib.request
 from pathlib import Path
 
@@ -68,22 +70,41 @@ def main() -> None:
         print("Set INDEXNOW_DRY_RUN=0 to send.")
         return
 
+    total_batches = (len(urls) + batch_size - 1) // batch_size
+    failed: list[int] = []
     for i in range(0, len(urls), batch_size):
         batch = urls[i : i + batch_size]
+        n = i // batch_size + 1
         payload = {
             "host": "www.dumpregistry.org",
             "key": KEY,
             "keyLocation": f"{BASE}/{KEY}.txt",
             "urlList": batch,
         }
-        req = urllib.request.Request(
-            "https://api.indexnow.org/indexnow",
-            data=json.dumps(payload).encode("utf-8"),
-            headers={"Content-Type": "application/json; charset=utf-8"},
-            method="POST",
-        )
-        with urllib.request.urlopen(req, timeout=30) as resp:
-            print(f"IndexNow batch {i // batch_size + 1}: status {resp.status} ({len(batch)} URLs)")
+        body = json.dumps(payload).encode("utf-8")
+        ok = False
+        for attempt in range(1, 4):
+            req = urllib.request.Request(
+                "https://api.indexnow.org/indexnow",
+                data=body,
+                headers={"Content-Type": "application/json; charset=utf-8"},
+                method="POST",
+            )
+            try:
+                with urllib.request.urlopen(req, timeout=60) as resp:
+                    print(f"IndexNow batch {n}/{total_batches}: status {resp.status} ({len(batch)} URLs)")
+                    ok = True
+                    break
+            except (TimeoutError, urllib.error.URLError, OSError) as err:
+                print(f"IndexNow batch {n}/{total_batches}: attempt {attempt}/3 failed ({err})")
+                time.sleep(2 * attempt)
+        if not ok:
+            failed.append(n)
+        time.sleep(0.15)
+
+    if failed:
+        raise SystemExit(f"IndexNow incomplete — failed batches: {failed}")
+    print(f"IndexNow complete: {total_batches} batches, {len(urls)} URLs")
 
 
 if __name__ == "__main__":

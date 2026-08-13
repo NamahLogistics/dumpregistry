@@ -2032,5 +2032,230 @@
     "lat": 40.6097,
     "lng": -111.9391,
     "population": 116961
+  },
+  {
+    "city": "Richmond",
+    "city_slug": "richmond-ca",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 37.9358,
+    "lng": -122.3477,
+    "population": 116448
+  },
+  {
+    "city": "Westminster",
+    "city_slug": "westminster",
+    "state": "CO",
+    "state_slug": "colorado",
+    "lat": 39.8367,
+    "lng": -105.0372,
+    "population": 116317
+  },
+  {
+    "city": "Manchester",
+    "city_slug": "manchester",
+    "state": "NH",
+    "state_slug": "new-hampshire",
+    "lat": 42.9956,
+    "lng": -71.4548,
+    "population": 115644
+  },
+  {
+    "city": "Wilmington",
+    "city_slug": "wilmington-nc",
+    "state": "NC",
+    "state_slug": "north-carolina",
+    "lat": 34.2257,
+    "lng": -77.9447,
+    "population": 115451
+  },
+  {
+    "city": "Antioch",
+    "city_slug": "antioch",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 38.0049,
+    "lng": -121.8058,
+    "population": 115291
+  },
+  {
+    "city": "Beaumont",
+    "city_slug": "beaumont",
+    "state": "TX",
+    "state_slug": "texas",
+    "lat": 30.0802,
+    "lng": -94.1266,
+    "population": 115282
+  },
+  {
+    "city": "Provo",
+    "city_slug": "provo",
+    "state": "UT",
+    "state_slug": "utah",
+    "lat": 40.2338,
+    "lng": -111.6585,
+    "population": 115162
+  },
+  {
+    "city": "Carlsbad",
+    "city_slug": "carlsbad",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 33.1581,
+    "lng": -117.3506,
+    "population": 114746
+  },
+  {
+    "city": "Murrieta",
+    "city_slug": "murrieta",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 33.5539,
+    "lng": -117.2139,
+    "population": 114496
+  },
+  {
+    "city": "Springfield",
+    "city_slug": "springfield-il",
+    "state": "IL",
+    "state_slug": "illinois",
+    "lat": 39.7817,
+    "lng": -89.6501,
+    "population": 114394
+  },
+  {
+    "city": "Gresham",
+    "city_slug": "gresham",
+    "state": "OR",
+    "state_slug": "oregon",
+    "lat": 45.5001,
+    "lng": -122.4302,
+    "population": 114247
+  },
+  {
+    "city": "High Point",
+    "city_slug": "high-point",
+    "state": "NC",
+    "state_slug": "north-carolina",
+    "lat": 35.9557,
+    "lng": -80.0053,
+    "population": 114059
+  },
+  {
+    "city": "Broken Arrow",
+    "city_slug": "broken-arrow",
+    "state": "OK",
+    "state_slug": "oklahoma",
+    "lat": 36.0526,
+    "lng": -95.7908,
+    "population": 113540
+  },
+  {
+    "city": "Peoria",
+    "city_slug": "peoria-il",
+    "state": "IL",
+    "state_slug": "illinois",
+    "lat": 40.6936,
+    "lng": -89.589,
+    "population": 113150
+  },
+  {
+    "city": "Lansing",
+    "city_slug": "lansing",
+    "state": "MI",
+    "state_slug": "michigan",
+    "lat": 42.7325,
+    "lng": -84.5555,
+    "population": 112644
+  },
+  {
+    "city": "Lakeland",
+    "city_slug": "lakeland",
+    "state": "FL",
+    "state_slug": "florida",
+    "lat": 28.0395,
+    "lng": -81.9498,
+    "population": 112641
+  },
+  {
+    "city": "Pompano Beach",
+    "city_slug": "pompano-beach",
+    "state": "FL",
+    "state_slug": "florida",
+    "lat": 26.2379,
+    "lng": -80.1248,
+    "population": 112046
+  },
+  {
+    "city": "Pueblo",
+    "city_slug": "pueblo",
+    "state": "CO",
+    "state_slug": "colorado",
+    "lat": 38.2544,
+    "lng": -104.6091,
+    "population": 111876
+  },
+  {
+    "city": "Las Cruces",
+    "city_slug": "las-cruces",
+    "state": "NM",
+    "state_slug": "new-mexico",
+    "lat": 32.3199,
+    "lng": -106.7637,
+    "population": 111385
+  },
+  {
+    "city": "Everett",
+    "city_slug": "everett",
+    "state": "WA",
+    "state_slug": "washington",
+    "lat": 47.9789,
+    "lng": -122.2021,
+    "population": 110629
+  },
+  {
+    "city": "Temecula",
+    "city_slug": "temecula",
+    "state": "CA",
+    "state_slug": "california",
+    "lat": 33.4936,
+    "lng": -117.1484,
+    "population": 110003
+  },
+  {
+    "city": "Dearborn",
+    "city_slug": "dearborn",
+    "state": "MI",
+    "state_slug": "michigan",
+    "lat": 42.3223,
+    "lng": -83.1763,
+    "population": 109976
+  },
+  {
+    "city": "Greeley",
+    "city_slug": "greeley",
+    "state": "CO",
+    "state_slug": "colorado",
+    "lat": 40.4233,
+    "lng": -104.7091,
+    "population": 108795
+  },
+  {
+    "city": "Sparks",
+    "city_slug": "sparks",
+    "state": "NV",
+    "state_slug": "nevada",
+    "lat": 39.5349,
+    "lng": -119.7527,
+    "population": 108445
+  },
+  {
+    "city": "Boulder",
+    "city_slug": "boulder",
+    "state": "CO",
+    "state_slug": "colorado",
+    "lat": 40.015,
+    "lng": -105.2705,
+    "population": 108090
   }
 ]
