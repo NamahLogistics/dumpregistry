@@ -35,6 +35,28 @@ def main() -> None:
     solar = next(p for p in pages if p["city_slug"] == "houston" and p["item_slug"] == "solar-panel")
     assert "same verified program pathway" not in (solar.get("answer") or "").lower()
     assert "e-waste" in (solar.get("answer") or "").lower() or "PV" in (solar.get("answer") or "")
+    cardboard = next(p for p in pages if p["city_slug"] == "new-york" and p["item_slug"] == "cardboard")
+    assert "same verified program pathway" not in (cardboard.get("answer") or "").lower()
+    assert "dual-stream" in (cardboard.get("answer") or "").lower()
+    rx_kept = next(p for p in pages if p["city_slug"] == "nashville" and p["item_slug"] == "prescription-drugs")
+    assert "not accepted" in (rx_kept.get("answer") or "").lower()
+    remaining_clones = [
+        p
+        for p in pages
+        if p["item_slug"]
+        in {
+            "cardboard",
+            "glass-bottles",
+            "fire-extinguisher",
+            "prescription-drugs",
+            "household-batteries",
+            "antifreeze",
+            "ink-toner",
+            "car-parts",
+        }
+        and "same verified program pathway" in (p.get("answer") or "").lower()
+    ]
+    assert not remaining_clones, f"false-alias clones remain: {len(remaining_clones)}"
     assert not any("statewide guidance only" in (p.get("answer") or "").lower() for p in pages)
 
     sample = next(p for p in pages if p["city_slug"] == "los-angeles" and p["item_slug"] == "mattress")
