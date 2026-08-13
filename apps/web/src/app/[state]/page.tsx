@@ -2,7 +2,14 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ContinueReading } from "@/components/ContinueReading";
-import { getCities, getCityHighIntentGuides, getIndexablePages, getStates } from "@/lib/data";
+import {
+  countyHhwHref,
+  getCities,
+  getCityHighIntentGuides,
+  getCountyHhwHubs,
+  getIndexablePages,
+  getStates,
+} from "@/lib/data";
 import { pageMetadata } from "@/lib/seo";
 import { stateHubDescription, stateHubTitle } from "@/lib/snippets";
 
@@ -41,6 +48,7 @@ export default async function StateHubPage({ params }: Props) {
   const ready = cities.filter((c) => covered.has(c.city_slug));
   const pending = cities.filter((c) => !covered.has(c.city_slug));
   const label = state.replaceAll("-", " ");
+  const countyHubs = getCountyHhwHubs().filter((h) => h.state_slug === state);
 
   return (
     <div className="shell page">
@@ -95,6 +103,21 @@ export default async function StateHubPage({ params }: Props) {
           })}
         </div>
       </section>
+
+      {countyHubs.length ? (
+        <section>
+          <h2>County HHW in {label}</h2>
+          <p>Suburban and consolidated city-county hazardous-waste programs for the largest metros.</p>
+          <div className="hub-grid">
+            {countyHubs.map((h) => (
+              <Link key={h.county_slug} className="hub-link" href={countyHhwHref(h)}>
+                <strong>{h.county}</strong>
+                <div>{h.cities.map((c) => c.city).join(", ")}</div>
+              </Link>
+            ))}
+          </div>
+        </section>
+      ) : null}
 
       {pending.length ? (
         <section>

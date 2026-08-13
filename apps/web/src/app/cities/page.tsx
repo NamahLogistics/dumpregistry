@@ -44,7 +44,8 @@ export default function CitiesHubPage() {
         <h1>Verified cities</h1>
         <p>
           {pages.length} indexable city-program guides across {covered.size} cities. Open a city, then click
-          through related items to keep reading.
+          through related items to keep reading. Suburban HHW is on{" "}
+          <Link href="/counties">county program hubs</Link>.
         </p>
       </header>
 

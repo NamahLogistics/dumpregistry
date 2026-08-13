@@ -1,0 +1,1260 @@
+[
+  {
+    "county": "New York City",
+    "county_slug": "new-york-city",
+    "state": "NY",
+    "state_slug": "new-york",
+    "kind": "consolidated",
+    "program_name": "DSNY Special Waste / SAFE",
+    "who_qualifies": "Residents of the five boroughs. Nassau, Westchester, and New Jersey counties are different programs.",
+    "city_note": "There is no separate NYC county HHW. The city program is the program.",
+    "access": "Special Waste Drop-Off sites and SAFE events \u2014 residency rules on the DSNY page.",
+    "cities": [
+      {
+        "city": "New York",
+        "city_slug": "new-york",
+        "population": 8336817
+      }
+    ],
+    "source_name": "NYC DSNY \u2014 Special Waste Drop-Off",
+    "source_url": "https://www.nyc.gov/site/dsny/what-we-do/programs/special-waste-drop-off.page",
+    "facility": "DSNY Special Waste Drop-Off",
+    "fee_note": "Free for NYC residents at Special Waste / SAFE pathways (limits apply)",
+    "accepted_hint": null,
+    "not_accepted_hint": null,
+    "last_verified_at": "2026-08-10",
+    "indexable": true
+  },
+  {
+    "county": "Los Angeles County",
+    "county_slug": "los-angeles",
+    "state": "CA",
+    "state_slug": "california",
+    "kind": "county_distinct",
+    "program_name": "LA County Public Works CleanLA HHW / E-waste",
+    "who_qualifies": "Los Angeles County residents. City of Los Angeles also has S.A.F.E. Centers; Long Beach has its own HHW page.",
+    "city_note": "City of Los Angeles S.A.F.E. Centers are not the county weekend-event / permanent-center program. Confirm which site your address may use.",
+    "access": "Free HHW/e-waste events and listed permanent centers. Do not transport more than the county\u2019s posted limit (commonly 15 gallons / 125 lb).",
+    "cities": [
+      {
+        "city": "Los Angeles",
+        "city_slug": "los-angeles",
+        "population": 3898747
+      },
+      {
+        "city": "Long Beach",
+        "city_slug": "long-beach",
+        "population": 466742
+      }
+    ],
+    "source_name": "LA County Public Works \u2014 CleanLA Household Hazardous Waste",
+    "source_url": "https://cleanla.lacounty.gov/hhw/",
+    "facility": "County events plus permanent centers (including EDCO Signal Hill and Antelope Valley). Confirm the current calendar on CleanLA.",
+    "fee_note": "County collection events and listed centers are free for residents. Confirm on CleanLA.",
+    "accepted_hint": "Household chemicals, batteries, paint, and many electronics at county HHW/e-waste events.",
+    "not_accepted_hint": "Business waste, explosives, radioactive materials, trash, tires, and white goods (appliances).",
+    "last_verified_at": "2026-08-13",
+    "indexable": true
+  },
+  {
+    "county": "Cook County",
+    "county_slug": "cook",
+    "state": "IL",
+    "state_slug": "illinois",
+    "kind": "no_county_depot",
+    "program_name": "Cook County Environment and Sustainability \u2014 suburban HHW",
+    "who_qualifies": "Suburban Cook is not Chicago. Chicago residents use HCCRF. Suburbs use municipal programs or regional sites the county lists.",
+    "city_note": "Chicago HCCRF (1150 N. Branch) is a city facility. It is not a substitute county depot for every suburb.",
+    "access": "Confirm current suburban drop-off on the Cook County environment page before you haul. Do not assume the South Holland project is open.",
+    "cities": [
+      {
+        "city": "Chicago",
+        "city_slug": "chicago",
+        "population": 2746388
+      }
+    ],
+    "source_name": "Cook County \u2014 Environment and Sustainability",
+    "source_url": "https://www.cookcountyil.gov/agency/environment-and-sustainability",
+    "facility": "No single countywide depot we can treat as open. The county has pointed residents at Chicago HCCRF, Naperville, and other Illinois sites while a South Holland facility was planned.",
+    "fee_note": "Fees and hours belong to the site you use. Confirm on that official page.",
+    "accepted_hint": "Typical HHW (paint, solvents, batteries, auto fluids) at whatever site your suburb actually uses.",
+    "not_accepted_hint": "Do not treat a city-only site as countywide without checking residency.",
+    "last_verified_at": "2026-08-13",
+    "indexable": true
+  },
+  {
+    "county": "Harris County",
+    "county_slug": "harris",
+    "state": "TX",
+    "state_slug": "texas",
+    "kind": "county_distinct",
+    "program_name": "Harris County Household Hazardous Waste Facility",
+    "who_qualifies": "Harris County residents who live outside incorporated Houston \u2014 people who do not receive City of Houston water, trash, or recycling.",
+    "city_note": "City of Houston residents use Environmental Service Centers, not the county Hahl Road facility.",
+    "access": "Appointment only. Tue/Wed 9 a.m.\u20133 p.m.; 2nd and 4th Saturdays 9 a.m.\u20132 p.m. Precinct HazMobile events in spring and fall.",
+    "cities": [
+      {
+        "city": "Houston",
+        "city_slug": "houston",
+        "population": 2304580
+      }
+    ],
+    "source_name": "Harris County Office of the County Engineer \u2014 HHW",
+    "source_url": "https://oce.harriscountytx.gov/Services/Household-Hazardous-Waste",
+    "facility": "6900 Hahl Road, Houston, TX 77040 (290 and Gessner).",
+    "fee_note": "No charge for qualifying household waste. Confirm on the county page.",
+    "accepted_hint": "Household chemicals, paint, batteries, aerosols, small propane, mercury items, limited tires. Household use only.",
+    "not_accepted_hint": "TVs and computers, sharps, smoke detectors, explosives, appliances, furniture, trash, and business waste.",
+    "last_verified_at": "2026-08-13",
+    "indexable": true
+  },
+  {
+    "county": "Maricopa County",
+    "county_slug": "maricopa",
+    "state": "AZ",
+    "state_slug": "arizona",
+    "kind": "no_county_depot",
+    "program_name": "Maricopa County solid waste \u2014 no general HHW depot",
+    "who_qualifies": "Incorporated cities run their own HHW. Unincorporated areas use private service, not a county HHW plant.",
+    "city_note": "Phoenix solid-waste customers use the city\u2019s HHW home collection (limits apply). Mesa and other cities have their own sites.",
+    "access": "Use your city\u2019s HHW program or a private hazardous-waste service. Confirm oil/antifreeze limits at a county transfer station before you go.",
+    "cities": [
+      {
+        "city": "Phoenix",
+        "city_slug": "phoenix",
+        "population": 1608139
+      }
+    ],
+    "source_name": "Maricopa County \u2014 refuse / HHW FAQ",
+    "source_url": "https://www.maricopa.gov/faq.aspx?qid=498",
+    "facility": "County transfer stations are not a general HHW depot. They may take a small amount of used oil and antifreeze only.",
+    "fee_note": "Do not assume free county drop-off. Confirm on your city program.",
+    "accepted_hint": "City programs vary. Phoenix is home collection for eligible solid-waste customers.",
+    "not_accepted_hint": "Batteries, paint, and mixed HHW are prohibited at county disposal facilities.",
+    "last_verified_at": "2026-08-13",
+    "indexable": true
+  },
+  {
+    "county": "Philadelphia County",
+    "county_slug": "philadelphia",
+    "state": "PA",
+    "state_slug": "pennsylvania",
+    "kind": "consolidated",
+    "program_name": "City of Philadelphia Sanitation Convenience Centers / HHW events",
+    "who_qualifies": "Philadelphia residents. Suburban counties (Montgomery, Bucks, Delaware, Camden) are different programs.",
+    "city_note": "The city and the county are the same government. This hub is the city HHW/SCC path, not a second county plant.",
+    "access": "Convenience centers and posted HHW events. Confirm liquids vs dried latex on the city page.",
+    "cities": [
+      {
+        "city": "Philadelphia",
+        "city_slug": "philadelphia",
+        "population": 1603797
+      }
+    ],
+    "source_name": "City of Philadelphia \u2014 Sanitation Convenience Centers",
+    "source_url": "https://www.phila.gov/services/trash-recycling-city-upkeep/find-a-sanitation-convenience-center-to-drop-off-trash-or-recycling/",
+    "facility": "Philadelphia trash / SCC / HHW event",
+    "fee_note": "Solidify for trash or SCC; liquid latex also listed at HHW events",
+    "accepted_hint": null,
+    "not_accepted_hint": null,
+    "last_verified_at": "2026-08-10",
+    "indexable": true
+  },
+  {
+    "county": "Bexar County",
+    "county_slug": "bexar",
+    "state": "TX",
+    "state_slug": "texas",
+    "kind": "city_anchor",
+    "program_name": "City of San Antonio Household Hazardous Waste",
+    "who_qualifies": "The program we verified is City of San Antonio HHW (CPS bill + ID). Unincorporated Bexar and other cities must confirm eligibility.",
+    "city_note": "Do not assume a suburban Bexar address can use 7030 Culebra. Check the official SA HHW page.",
+    "access": "City HHW drop-off with posted limits. Confirm hours and ID on sa.gov.",
+    "cities": [
+      {
+        "city": "San Antonio",
+        "city_slug": "san-antonio",
+        "population": 1434625
+      }
+    ],
+    "source_name": "City of San Antonio SWMD \u2014 Household Hazardous Waste",
+    "source_url": "https://www.sa.gov/Directory/Departments/SWMD/HHW",
+    "facility": "San Antonio HHW \u2014 7030 Culebra Road",
+    "fee_note": "Free HHW drop-off (CPS bill + ID; limits)",
+    "accepted_hint": null,
+    "not_accepted_hint": null,
+    "last_verified_at": "2026-08-10",
+    "indexable": true
+  },
+  {
+    "county": "San Diego County",
+    "county_slug": "san-diego",
+    "state": "CA",
+    "state_slug": "california",
+    "kind": "city_anchor",
+    "program_name": "City of San Diego Household Hazardous Waste Transfer Facility",
+    "who_qualifies": "The program we verified is the City of San Diego Miramar HHW facility. Other county cities and unincorporated areas use different sites.",
+    "city_note": "Miramar HHW is a city Environmental Services site. It is not automatically the countywide depot.",
+    "access": "City HHW transfer facility \u2014 confirm residency and hours on the city page.",
+    "cities": [
+      {
+        "city": "San Diego",
+        "city_slug": "san-diego",
+        "population": 1386932
+      }
+    ],
+    "source_name": "City of San Diego \u2014 Household Hazardous Waste Transfer Facility",
+    "source_url": "https://www.sandiego.gov/environmental-services/ep/hazardous",
+    "facility": "Miramar HHW Transfer Facility \u2014 5161 Convoy St",
+    "fee_note": "Free for eligible residents at HHW facility",
+    "accepted_hint": null,
+    "not_accepted_hint": null,
+    "last_verified_at": "2026-08-10",
+    "indexable": true
+  },
+  {
+    "county": "Tarrant County",
+    "county_slug": "tarrant",
+    "state": "TX",
+    "state_slug": "texas",
+    "kind": "county_program",
+    "program_name": "Fort Worth Environmental Collection Center / Drop-Off Station HHW",
+    "who_qualifies": "Fort Worth residents use ECC / drop-off stations. Arlington\u2019s verified path is the Fort Worth ECC \u2014 confirm current Arlington eligibility.",
+    "city_note": "This is the Tarrant-side chemical drop-off we verified. It is not Dallas County\u2019s Home Chemical Collection Center.",
+    "access": "ECC and drop-off station HHW with posted gallon caps. Confirm on Fort Worth Environmental Services.",
+    "cities": [
+      {
+        "city": "Fort Worth",
+        "city_slug": "fort-worth",
+        "population": 918915
+      },
+      {
+        "city": "Arlington",
+        "city_slug": "arlington",
+        "population": 394266
+      }
+    ],
+    "source_name": "City of Fort Worth \u2014 Household hazardous waste / ECC",
+    "source_url": "https://www.fortworthtexas.gov/departments/environmental-services/solidwaste/hazardouswaste",
+    "facility": "Fort Worth ECC / Drop-Off Stations",
+    "fee_note": "ECC and/or Drop-Off Station HHW (DOS ~20 gal chemicals / 3 months)",
+    "accepted_hint": null,
+    "not_accepted_hint": null,
+    "last_verified_at": "2026-08-10",
+    "indexable": true
+  },
+  {
+    "county": "Dallas County",
+    "county_slug": "dallas",
+    "state": "TX",
+    "state_slug": "texas",
+    "kind": "county_program",
+    "program_name": "Dallas County Home Chemical Collection Center",
+    "who_qualifies": "Dallas residents use the Home Chemical Collection Center we verified. Other Dallas County cities should confirm they are listed.",
+    "city_note": "The city sanitation page points at a county chemical-collection site \u2014 that is the suburban-style program for this metro.",
+    "access": "Home Chemical Collection Center \u2014 confirm hours and residency on the Dallas sanitation page.",
+    "cities": [
+      {
+        "city": "Dallas",
+        "city_slug": "dallas",
+        "population": 1304379
+      }
+    ],
+    "source_name": "City of Dallas Sanitation \u2014 Home Chemical Waste Disposal",
+    "source_url": "https://dallascityhall.com/departments/sanitation/Pages/home_chemical.aspx",
+    "facility": "Dallas County Home Chemical Collection Center \u2014 11234 Plano Road",
+    "fee_note": "Free for Dallas residents at Home Chemical Collection Center",
+    "accepted_hint": null,
+    "not_accepted_hint": null,
+    "last_verified_at": "2026-08-10",
+    "indexable": true
+  },
+  {
+    "county": "Santa Clara County",
+    "county_slug": "santa-clara",
+    "state": "CA",
+    "state_slug": "california",
+    "kind": "county_program",
+    "program_name": "County of Santa Clara Household Hazardous Waste",
+    "who_qualifies": "Santa Clara County residents, including San Jose, with an appointment on the county HHW site.",
+    "city_note": "San Jose does not run a separate city HHW plant. The county program is the program.",
+    "access": "County HHW drop-off by appointment. Confirm on hhw.santaclaracounty.gov.",
+    "cities": [
+      {
+        "city": "San Jose",
+        "city_slug": "san-jose",
+        "population": 1013240
+      }
+    ],
+    "source_name": "County of Santa Clara \u2014 Household Hazardous Waste",
+    "source_url": "https://hhw.santaclaracounty.gov/drop-household-waste",
+    "facility": "Santa Clara County HHW (appointment required)",
+    "fee_note": "Free for eligible residents at HHW facility",
+    "accepted_hint": null,
+    "not_accepted_hint": null,
+    "last_verified_at": "2026-08-10",
+    "indexable": true
+  },
+  {
+    "county": "Travis County",
+    "county_slug": "travis",
+    "state": "TX",
+    "state_slug": "texas",
+    "kind": "city_anchor",
+    "program_name": "Austin Resource Recovery on-demand HHW / Recycle & Reuse Center",
+    "who_qualifies": "The program we verified is Austin Resource Recovery. Other Travis County cities and unincorporated areas must confirm their own HHW.",
+    "city_note": "On-demand HHW and the Recycle & Reuse Center are city services, not a countywide depot.",
+    "access": "On-demand pickup (posted gallon/year caps) or RRC appointment. Confirm on austintexas.gov.",
+    "cities": [
+      {
+        "city": "Austin",
+        "city_slug": "austin",
+        "population": 961855
+      }
+    ],
+    "source_name": "Austin Resource Recovery \u2014 On-demand bulk, brush & HHW collection",
+    "source_url": "https://www.austintexas.gov/resource-recovery/programs/demand-bulk-brush-and-household-hazardous-waste-collection",
+    "facility": "Austin on-demand HHW / Recycle and Reuse Center",
+    "fee_note": "On-demand HHW (\u226430 gal, \u22643/year) or RRC appointment",
+    "accepted_hint": null,
+    "not_accepted_hint": null,
+    "last_verified_at": "2026-08-10",
+    "indexable": true
+  },
+  {
+    "county": "Duval County",
+    "county_slug": "duval",
+    "state": "FL",
+    "state_slug": "florida",
+    "kind": "consolidated",
+    "program_name": "City of Jacksonville Household Hazardous Waste Facility",
+    "who_qualifies": "Jacksonville / Duval consolidated-government residents. Nearby counties (Clay, St. Johns) are different programs.",
+    "city_note": "The city and most of the county are the same government. The HHW facility is the metro program.",
+    "access": "HHW Facility \u2014 never curbside. Confirm gallon limits on jacksonville.gov.",
+    "cities": [
+      {
+        "city": "Jacksonville",
+        "city_slug": "jacksonville",
+        "population": 949611
+      }
+    ],
+    "source_name": "City of Jacksonville \u2014 Household hazardous wastes (HHW)",
+    "source_url": "https://www.jacksonville.gov/departments/office-of-administrative-services/solid-waste/disposal-operations/household-hazardous-wastes-(hhw)",
+    "facility": "Jacksonville HHW Facility \u2014 2675 Commonwealth Avenue",
+    "fee_note": "HHW Facility \u2014 never curbside (paint/oil 27 gal each / 30 days)",
+    "accepted_hint": null,
+    "not_accepted_hint": null,
+    "last_verified_at": "2026-08-10",
+    "indexable": true
+  },
+  {
+    "county": "Franklin County",
+    "county_slug": "franklin",
+    "state": "OH",
+    "state_slug": "ohio",
+    "kind": "county_program",
+    "program_name": "SWACO Household Hazardous Waste Facility",
+    "who_qualifies": "The Columbus page we verified sends HHW to SWACO (Solid Waste Authority of Central Ohio). Confirm your Franklin County city is eligible.",
+    "city_note": "This is a regional authority, not a Columbus-only closet. City bulky rules are a different channel.",
+    "access": "SWACO HHW \u2014 645 E 8th Ave. Confirm current hours on the Columbus / SWACO pages.",
+    "cities": [
+      {
+        "city": "Columbus",
+        "city_slug": "columbus",
+        "population": 905748
+      }
+    ],
+    "source_name": "City of Columbus \u2014 Household hazardous waste collection",
+    "source_url": "https://www.columbus.gov/Services/Trash-Recycling-Bulk-Collection/Household-Trash-Collection/Household-Hazardous-Waste-Collection",
+    "facility": "SWACO Household Hazardous Waste Facility",
+    "fee_note": "SWACO HHW \u2014 645 E 8th Ave (Mon\u2013Fri 9\u20135; first Sat 9\u20132)",
+    "accepted_hint": null,
+    "not_accepted_hint": null,
+    "last_verified_at": "2026-08-10",
+    "indexable": true
+  },
+  {
+    "county": "Marion County",
+    "county_slug": "marion",
+    "state": "IN",
+    "state_slug": "indiana",
+    "kind": "county_program",
+    "program_name": "Marion County ToxDrop",
+    "who_qualifies": "Marion County / Indianapolis residents at posted Saturday ToxDrop sites.",
+    "city_note": "ToxDrop is the county hazardous-waste drop-off, not a city bulky day.",
+    "access": "Saturday drop-offs with posted weight/gallon caps. Confirm sites on indy.gov.",
+    "cities": [
+      {
+        "city": "Indianapolis",
+        "city_slug": "indianapolis",
+        "population": 887642
+      }
+    ],
+    "source_name": "City of Indianapolis \u2014 Hazardous waste drop-off sites",
+    "source_url": "https://www.indy.gov/activity/hazardous-waste-dropoff-sites",
+    "facility": "Marion County ToxDrop \u2014 Traders Point / Perry Township",
+    "fee_note": "Free Marion County ToxDrop \u2014 Sat drop-offs; 20 gal / 75 lb",
+    "accepted_hint": null,
+    "not_accepted_hint": null,
+    "last_verified_at": "2026-08-11",
+    "indexable": true
+  },
+  {
+    "county": "Mecklenburg County",
+    "county_slug": "mecklenburg",
+    "state": "NC",
+    "state_slug": "north-carolina",
+    "kind": "county_program",
+    "program_name": "Mecklenburg County Solid Waste / Wipe Out Waste",
+    "who_qualifies": "Mecklenburg County residents, including Charlotte, at full-service recycling centers that take HHW.",
+    "city_note": "Charlotte\u2019s verified HHW path is the county solid-waste program.",
+    "access": "County full-service recycling center HHW. Confirm on wipeoutwaste.mecknc.gov.",
+    "cities": [
+      {
+        "city": "Charlotte",
+        "city_slug": "charlotte",
+        "population": 874579
+      }
+    ],
+    "source_name": "Mecklenburg County Solid Waste \u2014 Wipe Out Waste / recycling centers",
+    "source_url": "https://wipeoutwaste.mecknc.gov/",
+    "facility": "Mecklenburg County full-service recycling center",
+    "fee_note": "Mecklenburg County full-service recycling center (HHW)",
+    "accepted_hint": null,
+    "not_accepted_hint": null,
+    "last_verified_at": "2026-08-10",
+    "indexable": true
+  },
+  {
+    "county": "San Francisco City and County",
+    "county_slug": "san-francisco",
+    "state": "CA",
+    "state_slug": "california",
+    "kind": "consolidated",
+    "program_name": "Recology San Francisco Household Hazardous Waste Facility",
+    "who_qualifies": "San Francisco residents. Daly City, South San Francisco, and San Mateo County are different programs.",
+    "city_note": "The city and county are the same government. 501 Tunnel Ave is the city/county HHW facility.",
+    "access": "Recology HHW Facility \u2014 confirm hours and residency on the Recology SF page.",
+    "cities": [
+      {
+        "city": "San Francisco",
+        "city_slug": "san-francisco",
+        "population": 873965
+      }
+    ],
+    "source_name": "Recology San Francisco \u2014 Household Hazardous Waste",
+    "source_url": "https://www.recology.com/recology-san-francisco/hazardous-waste/",
+    "facility": "Recology HHW Facility \u2014 501 Tunnel Ave",
+    "fee_note": "Free for eligible residents at HHW facility",
+    "accepted_hint": null,
+    "not_accepted_hint": null,
+    "last_verified_at": "2026-08-10",
+    "indexable": true
+  },
+  {
+    "county": "King County",
+    "county_slug": "king",
+    "state": "WA",
+    "state_slug": "washington",
+    "kind": "county_program",
+    "program_name": "Seattle / King County household hazardous waste facilities",
+    "who_qualifies": "The Seattle page we verified is for King County residents at the North and South Seattle HHW facilities.",
+    "city_note": "This is the county hazardous-waste program hosted at Seattle facilities \u2014 not Seattle bulky pickup.",
+    "access": "North/South Seattle HHW facilities. Confirm hours on Seattle Public Utilities.",
+    "cities": [
+      {
+        "city": "Seattle",
+        "city_slug": "seattle",
+        "population": 737015
+      }
+    ],
+    "source_name": "Seattle Public Utilities \u2014 Where to Dispose of HHW",
+    "source_url": "https://www.seattle.gov/utilities/your-services/collection-and-disposal/garbage/hazardous-waste-items/where-to-dispose-of-hazardous-waste",
+    "facility": "North/South Seattle HHW facilities",
+    "fee_note": "Free for King County residents at Seattle HHW facilities",
+    "accepted_hint": null,
+    "not_accepted_hint": null,
+    "last_verified_at": "2026-08-10",
+    "indexable": true
+  },
+  {
+    "county": "Denver City and County",
+    "county_slug": "denver",
+    "state": "CO",
+    "state_slug": "colorado",
+    "kind": "consolidated",
+    "program_name": "City and County of Denver Household Hazardous Waste",
+    "who_qualifies": "Denver residents. Aurora, Lakewood, and other metro cities are different programs.",
+    "city_note": "Denver is a consolidated city-county. Aurora has its own paint/chemicals page.",
+    "access": "HHW At-Your-Door and posted paint/battery drop-off. Confirm copays and limits on denvergov.org.",
+    "cities": [
+      {
+        "city": "Denver",
+        "city_slug": "denver",
+        "population": 715522
+      }
+    ],
+    "source_name": "City and County of Denver \u2014 Household Hazardous Waste",
+    "source_url": "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Recycle-Compost-Trash/Additional-Services/Hazardous-Waste",
+    "facility": "Denver Household Hazardous Waste program",
+    "fee_note": "HHW At-Your-Door (limits; copay) / paint & battery drop-off programs",
+    "accepted_hint": null,
+    "not_accepted_hint": null,
+    "last_verified_at": "2026-08-10",
+    "indexable": true
+  },
+  {
+    "county": "District of Columbia",
+    "county_slug": "district",
+    "state": "DC",
+    "state_slug": "district-of-columbia",
+    "kind": "consolidated",
+    "program_name": "DC DPW Special Waste Collection Events",
+    "who_qualifies": "District residents. Montgomery, Prince George\u2019s, Arlington, and Fairfax are different programs.",
+    "city_note": "There is no permanent DC HHW depot in the program we verified \u2014 events only.",
+    "access": "Special Waste Events (including RFK Lot 8). No permanent depot. Confirm the calendar on dpw.dc.gov.",
+    "cities": [
+      {
+        "city": "Washington",
+        "city_slug": "washington",
+        "population": 689545
+      }
+    ],
+    "source_name": "DC DPW \u2014 Special Waste Collection Events",
+    "source_url": "https://dpw.dc.gov/service/household-hazardous-waste-hhw-e-cycling-document-shredding",
+    "facility": "DC DPW Special Waste Events (RFK Lot 8)",
+    "fee_note": "Special Waste Events only \u2014 no permanent depot",
+    "accepted_hint": null,
+    "not_accepted_hint": null,
+    "last_verified_at": "2026-08-12",
+    "indexable": true
+  },
+  {
+    "county": "Davidson County",
+    "county_slug": "davidson",
+    "state": "TN",
+    "state_slug": "tennessee",
+    "kind": "consolidated",
+    "program_name": "Metro Nashville Household Hazardous Waste",
+    "who_qualifies": "Metro Nashville / Davidson County residents. Surrounding counties are different programs.",
+    "city_note": "Metro is the city-county. Latex/acrylic is often trash after it is fully dry \u2014 not HHW.",
+    "access": "Metro HHW / convenience-center rules. Confirm what is not accepted on nashville.gov.",
+    "cities": [
+      {
+        "city": "Nashville",
+        "city_slug": "nashville",
+        "population": 689447
+      }
+    ],
+    "source_name": "Metro Nashville \u2014 Household hazardous waste",
+    "source_url": "https://www.nashville.gov/departments/waste-services/convenience-centers/household-hazardous-waste",
+    "facility": "Trash after fully dry (Metro Nashville)",
+    "fee_note": "Dry out for trash \u2014 latex/acrylic NOT accepted at HHW",
+    "accepted_hint": null,
+    "not_accepted_hint": null,
+    "last_verified_at": "2026-08-11",
+    "indexable": true
+  },
+  {
+    "county": "Oklahoma County",
+    "county_slug": "oklahoma",
+    "state": "OK",
+    "state_slug": "oklahoma",
+    "kind": "city_anchor",
+    "program_name": "City of Oklahoma City HHW Collection Center",
+    "who_qualifies": "The program we verified is the OKC HHW Collection Center with a water bill. Other Oklahoma County cities must confirm eligibility.",
+    "city_note": "1621 S. Portland is a city facility, not an automatic countywide depot.",
+    "access": "HHW Collection Center \u2014 confirm hours and ID on okc.gov.",
+    "cities": [
+      {
+        "city": "Oklahoma City",
+        "city_slug": "oklahoma-city",
+        "population": 681054
+      }
+    ],
+    "source_name": "City of OKC \u2014 Household Hazardous Waste Collection Center",
+    "source_url": "https://www.okc.gov/Services/Water-Trash-Recycling/Household-Hazardous-Waste-Collection-Center",
+    "facility": "OKC HHW Collection Center \u2014 1621 S. Portland Ave",
+    "fee_note": "Free OKC HHW \u2014 Tue\u2013Fri 9:30\u201318:00, Sat 8:30\u201311:30 (water bill required)",
+    "accepted_hint": null,
+    "not_accepted_hint": null,
+    "last_verified_at": "2026-08-11",
+    "indexable": true
+  },
+  {
+    "county": "El Paso County",
+    "county_slug": "el-paso",
+    "state": "TX",
+    "state_slug": "texas",
+    "kind": "city_anchor",
+    "program_name": "City of El Paso Citizen Collection Stations \u2014 HHW",
+    "who_qualifies": "The program we verified is City of El Paso collection stations (water bill + ID). Other El Paso County towns must confirm.",
+    "city_note": "This is not El Paso County, Colorado. Texas El Paso CCS HHW is a city service.",
+    "access": "HHW at Citizen Collection Stations. Confirm hours on elpasotexas.gov.",
+    "cities": [
+      {
+        "city": "El Paso",
+        "city_slug": "el-paso",
+        "population": 678815
+      }
+    ],
+    "source_name": "City of El Paso \u2014 Collection stations",
+    "source_url": "https://www.elpasotexas.gov/environmental-services/collection-stations/",
+    "facility": "El Paso Citizen Collection Stations \u2014 HHW at all CCS",
+    "fee_note": "Free CCS HHW \u2014 Tue\u2013Sat 8:00\u201316:00 (water bill + ID)",
+    "accepted_hint": null,
+    "not_accepted_hint": null,
+    "last_verified_at": "2026-08-11",
+    "indexable": true
+  },
+  {
+    "county": "Suffolk County",
+    "county_slug": "suffolk",
+    "state": "MA",
+    "state_slug": "massachusetts",
+    "kind": "city_anchor",
+    "program_name": "City of Boston Zero Waste Day",
+    "who_qualifies": "Boston residents at posted Zero Waste Day events. Other Suffolk County cities (Revere, Chelsea, Winthrop) run their own events.",
+    "city_note": "Boston has no permanent HHW depot in the program we verified \u2014 events only.",
+    "access": "Zero Waste Day with residency proof and posted gallon caps. Confirm the calendar on boston.gov.",
+    "cities": [
+      {
+        "city": "Boston",
+        "city_slug": "boston",
+        "population": 675647
+      }
+    ],
+    "source_name": "City of Boston \u2014 Zero Waste Day",
+    "source_url": "https://www.boston.gov/departments/public-works/zero-waste-day",
+    "facility": "Boston Zero Waste Day events",
+    "fee_note": "Zero Waste Day (residency proof; 20 gal chemicals/paint/oil; \u22645 gal containers)",
+    "accepted_hint": null,
+    "not_accepted_hint": null,
+    "last_verified_at": "2026-08-10",
+    "indexable": true
+  },
+  {
+    "county": "Multnomah County",
+    "county_slug": "multnomah",
+    "state": "OR",
+    "state_slug": "oregon",
+    "kind": "county_program",
+    "program_name": "Oregon Metro household hazardous waste",
+    "who_qualifies": "The Portland path we verified is Oregon Metro HHW \u2014 a regional program, not a Portland-only closet.",
+    "city_note": "Metro covers the Portland metro (including parts of Clackamas and Washington counties). Confirm your address on oregonmetro.gov.",
+    "access": "Metro HHW facilities / dried-can rules. Liquid product goes to Metro, not the trash cart.",
+    "cities": [
+      {
+        "city": "Portland",
+        "city_slug": "portland",
+        "population": 652503
+      }
+    ],
+    "source_name": "Oregon Metro \u2014 Common hazardous products",
+    "source_url": "https://www.oregonmetro.gov/waste-disposal-and-prevention/need-get-rid-something/household-hazardous-waste/common-hazardous",
+    "facility": "Oregon Metro HHW / dried-can rules",
+    "fee_note": "Dried latex <1 in \u2014 recycle/trash per Metro; liquid \u2192 Metro HHW",
+    "accepted_hint": null,
+    "not_accepted_hint": null,
+    "last_verified_at": "2026-08-11",
+    "indexable": true
+  },
+  {
+    "county": "Clark County",
+    "county_slug": "clark",
+    "state": "NV",
+    "state_slug": "nevada",
+    "kind": "county_program",
+    "program_name": "Clark County Household Hazardous Waste",
+    "who_qualifies": "Clark County residents. Las Vegas city bulky is a different channel.",
+    "city_note": "The Las Vegas HHW path we verified is the county rotating-site / HHW program.",
+    "access": "County HHW rotating sites. Dried latex is often trash; liquid goes to HHW. Confirm on clarkcountynv.gov.",
+    "cities": [
+      {
+        "city": "Las Vegas",
+        "city_slug": "las-vegas",
+        "population": 641903
+      }
+    ],
+    "source_name": "Clark County \u2014 Household hazardous waste",
+    "source_url": "https://www.clarkcountynv.gov/government/departments/environment_and_sustainability/household_hazardous_waste",
+    "facility": "Household trash (dried) / Clark County HHW rotating sites",
+    "fee_note": "Fully dried latex in trash; liquid latex at HHW rotating sites",
+    "accepted_hint": null,
+    "not_accepted_hint": null,
+    "last_verified_at": "2026-08-11",
+    "indexable": true
+  },
+  {
+    "county": "Wayne County",
+    "county_slug": "wayne",
+    "state": "MI",
+    "state_slug": "michigan",
+    "kind": "city_anchor",
+    "program_name": "City of Detroit DPW Household Hazardous Waste",
+    "who_qualifies": "The program we verified is Detroit resident HHW at 2000 E. Ferry. Other Wayne County cities have their own drop-offs.",
+    "city_note": "Detroit DPW HHW is not a countywide Wayne depot.",
+    "access": "DPW HHW Receiving Facility \u2014 posted weekday and 4th-Saturday hours. Confirm on detroitmi.gov.",
+    "cities": [
+      {
+        "city": "Detroit",
+        "city_slug": "detroit",
+        "population": 639111
+      }
+    ],
+    "source_name": "City of Detroit \u2014 Household hazardous waste information",
+    "source_url": "https://detroitmi.gov/departments/department-public-works/refuse-collection/household-hazardous-waste-information",
+    "facility": "DPW HHW Receiving Facility \u2014 2000 E. Ferry Street",
+    "fee_note": "Free Detroit resident HHW \u2014 Thu 7:30\u201314:00 + 4th Sat 8\u201314:00",
+    "accepted_hint": null,
+    "not_accepted_hint": null,
+    "last_verified_at": "2026-08-11",
+    "indexable": true
+  },
+  {
+    "county": "Shelby County",
+    "county_slug": "shelby",
+    "state": "TN",
+    "state_slug": "tennessee",
+    "kind": "county_program",
+    "program_name": "Shelby County Household Hazardous Waste",
+    "who_qualifies": "Shelby County / Memphis residents at the county HHW program. Latex is often not accepted \u2014 dry it for trash.",
+    "city_note": "Memphis\u2019s verified HHW path is the county program, not a city bulky day.",
+    "access": "County HHW. Confirm what is refused (including latex) on shelbycountytn.gov.",
+    "cities": [
+      {
+        "city": "Memphis",
+        "city_slug": "memphis",
+        "population": 633104
+      }
+    ],
+    "source_name": "Shelby County \u2014 Household hazardous waste",
+    "source_url": "https://www.shelbycountytn.gov/439/Household-Hazardous-Waste",
+    "facility": "Trash after fully dry (Memphis / Shelby County)",
+    "fee_note": "Dry out for trash \u2014 latex NOT accepted at Shelby County HHW",
+    "accepted_hint": null,
+    "not_accepted_hint": null,
+    "last_verified_at": "2026-08-11",
+    "indexable": true
+  },
+  {
+    "county": "Jefferson County",
+    "county_slug": "jefferson",
+    "state": "KY",
+    "state_slug": "kentucky",
+    "kind": "consolidated",
+    "program_name": "Louisville Metro Haz Bin",
+    "who_qualifies": "Louisville Metro / Jefferson County residents. Surrounding Kentucky counties are different programs.",
+    "city_note": "Metro is the city-county. Latex is often trash after it is fully dry \u2014 not Haz Bin.",
+    "access": "Haz Bin hazardous-materials drop-off. Confirm what is not accepted on louisvilleky.gov.",
+    "cities": [
+      {
+        "city": "Louisville",
+        "city_slug": "louisville",
+        "population": 633045
+      }
+    ],
+    "source_name": "Louisville Metro \u2014 Haz Bin hazardous materials disposal",
+    "source_url": "https://louisvilleky.gov/government/public-works/services/hazardous-materials-disposal-haz-bin",
+    "facility": "Trash after fully dry (Louisville Metro)",
+    "fee_note": "Dry out for trash \u2014 latex NOT accepted at Haz Bin HHW",
+    "accepted_hint": null,
+    "not_accepted_hint": null,
+    "last_verified_at": "2026-08-11",
+    "indexable": true
+  },
+  {
+    "county": "Baltimore City",
+    "county_slug": "baltimore-city",
+    "state": "MD",
+    "state_slug": "maryland",
+    "kind": "consolidated",
+    "program_name": "City of Baltimore Household Hazardous Waste",
+    "who_qualifies": "Baltimore City residents. Baltimore County is a different government with a different HHW program.",
+    "city_note": "This is the independent city, not Baltimore County. Do not haul city waste to a county site without checking.",
+    "access": "City HHW / Sisson Street for oil paint. Dried latex is often trash. Confirm on baltimorecity.gov.",
+    "cities": [
+      {
+        "city": "Baltimore",
+        "city_slug": "baltimore",
+        "population": 585708
+      }
+    ],
+    "source_name": "City of Baltimore \u2014 Household hazardous waste recycling",
+    "source_url": "https://www.baltimorecity.gov/publicworks/recycling-services/household-hazardous-waste-recycling",
+    "facility": "Trash after dry / Sisson Street for oil paint",
+    "fee_note": "Dry for trash \u2014 oil paint goes to Sisson Street HHW",
+    "accepted_hint": null,
+    "not_accepted_hint": null,
+    "last_verified_at": "2026-08-11",
+    "indexable": true
+  },
+  {
+    "county": "Milwaukee County",
+    "county_slug": "milwaukee",
+    "state": "WI",
+    "state_slug": "wisconsin",
+    "kind": "county_program",
+    "program_name": "MMSD home haz-mat collection",
+    "who_qualifies": "The Milwaukee path we verified is Milwaukee Metropolitan Sewerage District HHW \u2014 a regional program.",
+    "city_note": "MMSD is not City bulky. Medications are not accepted at MMSD HHW.",
+    "access": "Lincoln Avenue and 13th Street sites with posted hours. Confirm on mmsd.com.",
+    "cities": [
+      {
+        "city": "Milwaukee",
+        "city_slug": "milwaukee",
+        "population": 577222
+      }
+    ],
+    "source_name": "MMSD \u2014 Home haz-mat collection",
+    "source_url": "https://www.mmsd.com/what-you-can-do/home-haz-mat-collection",
+    "facility": "MMSD HHW at South Drop Off / 13th Street",
+    "fee_note": "MMSD HHW \u2014 Lincoln Ave Thu\u2013Sat 7\u201315; 13th St Tue/Sat hours",
+    "accepted_hint": null,
+    "not_accepted_hint": null,
+    "last_verified_at": "2026-08-11",
+    "indexable": true
+  },
+  {
+    "county": "Bernalillo County",
+    "county_slug": "bernalillo",
+    "state": "NM",
+    "state_slug": "new-mexico",
+    "kind": "county_program",
+    "program_name": "Albuquerque / Bernalillo Household Hazardous Waste Collection Center",
+    "who_qualifies": "The city page we verified lists Albuquerque and Bernalillo County residents at the Girard HHW center.",
+    "city_note": "This is the metro HHW center, not a bulky-furniture site.",
+    "access": "HHW Collection Center \u2014 2720 Girard Blvd NE. Confirm hours on cabq.gov.",
+    "cities": [
+      {
+        "city": "Albuquerque",
+        "city_slug": "albuquerque",
+        "population": 564559
+      }
+    ],
+    "source_name": "City of Albuquerque \u2014 Hazardous waste",
+    "source_url": "https://www.cabq.gov/solidwaste/hazardous-waste",
+    "facility": "HHW Collection Center \u2014 2720 Girard Blvd NE",
+    "fee_note": "Free HHWCC \u2014 Mon/Wed/Fri 8\u201314, Sat 8\u201315 (ABQ+Bernalillo)",
+    "accepted_hint": null,
+    "not_accepted_hint": null,
+    "last_verified_at": "2026-08-11",
+    "indexable": true
+  },
+  {
+    "county": "Pima County",
+    "county_slug": "pima",
+    "state": "AZ",
+    "state_slug": "arizona",
+    "kind": "city_anchor",
+    "program_name": "City of Tucson Household Hazardous Waste",
+    "who_qualifies": "The program we verified is City of Tucson HHW at Los Reales. Other Pima County towns must confirm eligibility.",
+    "city_note": "Los Reales Sustainability Campus HHW is a city Environmental Services site.",
+    "access": "HHW with posted paint-product caps. Confirm on tucsonaz.gov.",
+    "cities": [
+      {
+        "city": "Tucson",
+        "city_slug": "tucson",
+        "population": 542629
+      }
+    ],
+    "source_name": "City of Tucson \u2014 Household Hazardous Waste",
+    "source_url": "https://www.tucsonaz.gov/Departments/Environmental-Services/Household-Hazardous-Waste",
+    "facility": "Los Reales Sustainability Campus HHW \u2014 5300 E Los Reales Rd",
+    "fee_note": "HHW up to 25 gal paint products; dried latex can go in trash",
+    "accepted_hint": null,
+    "not_accepted_hint": null,
+    "last_verified_at": "2026-08-11",
+    "indexable": true
+  },
+  {
+    "county": "Fresno County",
+    "county_slug": "fresno",
+    "state": "CA",
+    "state_slug": "california",
+    "kind": "county_program",
+    "program_name": "Fresno County Environmental Compliance Center / HHW network",
+    "who_qualifies": "The Fresno city page we verified sends residential HHW to the county ECC and network sites.",
+    "city_note": "City trash rules and county HHW are different channels.",
+    "access": "Fresno County ECC and listed network sites. Confirm on the city / county pages.",
+    "cities": [
+      {
+        "city": "Fresno",
+        "city_slug": "fresno",
+        "population": 542107
+      }
+    ],
+    "source_name": "City of Fresno \u2014 Hazardous Waste and Sharps Disposal",
+    "source_url": "https://www.fresno.gov/publicutilities/trash-disposal-recycling/used-motor-oil-oil-flter-recycling/",
+    "facility": "Fresno County Environmental Compliance Center \u2014 1327 W. Dan Ronquillo Drive",
+    "fee_note": "Free residential HHW at Fresno County ECC / network sites",
+    "accepted_hint": null,
+    "not_accepted_hint": null,
+    "last_verified_at": "2026-08-10",
+    "indexable": true
+  },
+  {
+    "county": "Sacramento County",
+    "county_slug": "sacramento",
+    "state": "CA",
+    "state_slug": "california",
+    "kind": "city_anchor",
+    "program_name": "City of Sacramento HHW at Sacramento Recycling & Transfer",
+    "who_qualifies": "The program we verified is the city HHW site at 8491 Fruitridge. Other Sacramento County cities have their own drop-offs.",
+    "city_note": "Unincorporated county and cities such as Elk Grove are not automatically this Fruitridge site.",
+    "access": "City HHW facility. Confirm residency on cityofsacramento.gov.",
+    "cities": [
+      {
+        "city": "Sacramento",
+        "city_slug": "sacramento",
+        "population": 524943
+      }
+    ],
+    "source_name": "City of Sacramento \u2014 HHW at Sacramento Recycling & Transfer Station",
+    "source_url": "https://www.cityofsacramento.gov/public-works/recycling-solid-waste/Householdhazardouswaste/HHWfacilities",
+    "facility": "Sacramento HHW \u2014 8491 Fruitridge Road",
+    "fee_note": "Free for eligible residents at HHW facility",
+    "accepted_hint": null,
+    "not_accepted_hint": null,
+    "last_verified_at": "2026-08-10",
+    "indexable": true
+  },
+  {
+    "county": "Jackson County",
+    "county_slug": "jackson",
+    "state": "MO",
+    "state_slug": "missouri",
+    "kind": "city_anchor",
+    "program_name": "KC Water Household Hazardous Waste",
+    "who_qualifies": "The program we verified is KC Water HHW for Kansas City, Missouri residents. Kansas-side Johnson County is a different program.",
+    "city_note": "KCMO HHW is not a stand-in for every Jackson County suburb, and it is not Kansas.",
+    "access": "KC Water Environmental Campus HHW \u2014 4707 Deramus. Confirm hours on kcwater.us.",
+    "cities": [
+      {
+        "city": "Kansas City",
+        "city_slug": "kansas-city",
+        "population": 508090
+      }
+    ],
+    "source_name": "KC Water \u2014 Household Hazardous Waste",
+    "source_url": "https://www.kcwater.us/programs/hhw/",
+    "facility": "KC Water Environmental Campus HHW \u2014 4707 Deramus Ave",
+    "fee_note": "Free KC Water HHW \u2014 Thu\u2013Fri 9\u201318 Sat 9\u201316; KCMO residents",
+    "accepted_hint": null,
+    "not_accepted_hint": null,
+    "last_verified_at": "2026-08-11",
+    "indexable": true
+  },
+  {
+    "county": "Fulton County",
+    "county_slug": "fulton",
+    "state": "GA",
+    "state_slug": "georgia",
+    "kind": "no_county_depot",
+    "program_name": "Fulton County / City of Atlanta \u2014 no permanent HHW depot",
+    "who_qualifies": "Atlanta has no city HHW facility in the program we verified. Fulton points to annual pollution-prevention days, not a year-round plant.",
+    "city_note": "Dried latex may go in Atlanta trash. Liquid chemicals are not a city drop-off we can send you to.",
+    "access": "Watch for posted Fulton HHW days and city events. Do not pour chemicals in a drain or storm sewer.",
+    "cities": [
+      {
+        "city": "Atlanta",
+        "city_slug": "atlanta",
+        "population": 498715
+      }
+    ],
+    "source_name": "Fulton County \u2014 pollution prevention / HHW days",
+    "source_url": "https://www.fultoncountyga.gov/services/water-services/public-education-and-outreach/pollution-prevention",
+    "facility": "No permanent city or county HHW depot we can list. Georgia EPD also notes statewide HHW options are limited.",
+    "fee_note": "Do not invent a drop-off fee. Confirm the event you actually use.",
+    "accepted_hint": "Event-based only when a day is posted. Confirm the current flyer.",
+    "not_accepted_hint": "There is no everyday Atlanta HHW gate.",
+    "last_verified_at": "2026-08-13",
+    "indexable": true
+  },
+  {
+    "county": "Douglas County",
+    "county_slug": "douglas",
+    "state": "NE",
+    "state_slug": "nebraska",
+    "kind": "county_program",
+    "program_name": "Under The Sink \u2014 Omaha metro HHW",
+    "who_qualifies": "The Omaha path we verified is Under The Sink, a metro HHW facility \u2014 confirm your city is listed.",
+    "city_note": "This is not Omaha bulky pickup. Latex may have a per-container fee; oil paint is listed separately.",
+    "access": "Under The Sink \u2014 4001 S 120th St. Confirm fees and hours on underthesink.org.",
+    "cities": [
+      {
+        "city": "Omaha",
+        "city_slug": "omaha",
+        "population": 486051
+      }
+    ],
+    "source_name": "Under The Sink \u2014 Omaha metro HHW",
+    "source_url": "https://underthesink.org/",
+    "facility": "Under The Sink HHW \u2014 4001 S 120th St",
+    "fee_note": "Under The Sink HHW \u2014 latex $1/container; oil paint free",
+    "accepted_hint": null,
+    "not_accepted_hint": null,
+    "last_verified_at": "2026-08-11",
+    "indexable": true
+  },
+  {
+    "county": "El Paso County",
+    "county_slug": "el-paso",
+    "state": "CO",
+    "state_slug": "colorado",
+    "kind": "county_program",
+    "program_name": "El Paso County Household Hazardous Waste",
+    "who_qualifies": "El Paso County, Colorado residents. This is not El Paso, Texas.",
+    "city_note": "Colorado Springs\u2019s verified HHW path is the county facility at 3255 Akers Dr.",
+    "access": "County HHW with a posted annual gallon cap. Confirm on elpasoco.com.",
+    "cities": [
+      {
+        "city": "Colorado Springs",
+        "city_slug": "colorado-springs",
+        "population": 478961
+      }
+    ],
+    "source_name": "El Paso County \u2014 Household hazardous waste",
+    "source_url": "https://communityresources.elpasoco.com/household-hazardous-waste",
+    "facility": "El Paso County HHW \u2014 3255 Akers Dr",
+    "fee_note": "Free at El Paso HHW \u2014 latex and oil; 50 gal/year limit",
+    "accepted_hint": null,
+    "not_accepted_hint": null,
+    "last_verified_at": "2026-08-11",
+    "indexable": true
+  },
+  {
+    "county": "Wake County",
+    "county_slug": "wake",
+    "state": "NC",
+    "state_slug": "north-carolina",
+    "kind": "county_program",
+    "program_name": "Wake County Household Hazardous Waste",
+    "who_qualifies": "Wake County residents, including Raleigh, at county HHW.",
+    "city_note": "Raleigh\u2019s verified HHW path is the county program. Dried latex may be trash; oil paint goes to HHW.",
+    "access": "Wake County HHW (South site listed on the county page). Confirm limits on wake.gov.",
+    "cities": [
+      {
+        "city": "Raleigh",
+        "city_slug": "raleigh",
+        "population": 474069
+      }
+    ],
+    "source_name": "Wake County \u2014 Household hazardous waste",
+    "source_url": "https://www.wake.gov/departments/environmental-services/waste-management/household-hazardous-waste",
+    "facility": "Household trash (dried) / Wake County HHW \u2014 South Apex",
+    "fee_note": "Dried latex in trash OR \u226410 gal at Wake HHW; oil paint at HHW only",
+    "accepted_hint": null,
+    "not_accepted_hint": null,
+    "last_verified_at": "2026-08-11",
+    "indexable": true
+  },
+  {
+    "county": "Virginia Beach",
+    "county_slug": "virginia-beach",
+    "state": "VA",
+    "state_slug": "virginia",
+    "kind": "consolidated",
+    "program_name": "Virginia Beach Household Hazardous Waste",
+    "who_qualifies": "Virginia Beach residents. Norfolk, Chesapeake, and Hampton are independent cities with their own programs.",
+    "city_note": "Virginia Beach is an independent city \u2014 there is no surrounding county HHW for this address.",
+    "access": "Recycling and Refuse Center HHW with posted weight/gallon caps. Confirm on vbgov.com.",
+    "cities": [
+      {
+        "city": "Virginia Beach",
+        "city_slug": "virginia-beach",
+        "population": 459808
+      }
+    ],
+    "source_name": "Virginia Beach \u2014 Household hazardous waste",
+    "source_url": "https://www.vbgov.com/government/departments/public-works/waste-management/household-hazardous-waste",
+    "facility": "Virginia Beach RRC HHW \u2014 1989 Jake Sears Rd",
+    "fee_note": "RRC HHW \u2014 5 gal / 75 lb limit; Tue\u2013Sat 7:00\u201316:30",
+    "accepted_hint": null,
+    "not_accepted_hint": null,
+    "last_verified_at": "2026-08-11",
+    "indexable": true
+  },
+  {
+    "county": "Miami-Dade County",
+    "county_slug": "miami-dade",
+    "state": "FL",
+    "state_slug": "florida",
+    "kind": "county_program",
+    "program_name": "Miami-Dade Home Chemical Collection Centers",
+    "who_qualifies": "Miami-Dade County residents, including the City of Miami.",
+    "city_note": "The City of Miami path we verified is the county Home Chemical Collection Centers \u2014 not a city-only closet.",
+    "access": "County Home Chemical Collection Centers. Confirm sites on miamidade.gov.",
+    "cities": [
+      {
+        "city": "Miami",
+        "city_slug": "miami",
+        "population": 442241
+      }
+    ],
+    "source_name": "Miami-Dade County \u2014 Home Chemical Collection Centers",
+    "source_url": "https://www.miamidade.gov/global/service.page?Mduid_service=ser1464798615648535",
+    "facility": "Miami-Dade Home Chemical Collection Centers (West Dade / South Dade)",
+    "fee_note": "Free for Miami-Dade residents at Home Chemical Collection Centers",
+    "accepted_hint": null,
+    "not_accepted_hint": null,
+    "last_verified_at": "2026-08-10",
+    "indexable": true
+  },
+  {
+    "county": "Alameda County",
+    "county_slug": "alameda",
+    "state": "CA",
+    "state_slug": "california",
+    "kind": "county_program",
+    "program_name": "Alameda County / StopWaste Household Hazardous Waste",
+    "who_qualifies": "Alameda County residents, including Oakland, at county HHW.",
+    "city_note": "Oakland\u2019s verified HHW path is StopWaste / county HHW, not a city bulky day.",
+    "access": "Alameda County HHW \u2014 2100 E. 7th St, Oakland. Confirm on stopwaste.org.",
+    "cities": [
+      {
+        "city": "Oakland",
+        "city_slug": "oakland",
+        "population": 440646
+      }
+    ],
+    "source_name": "Alameda County / StopWaste \u2014 Household Hazardous Waste",
+    "source_url": "https://www.stopwaste.org/recycling-disposal/hazardous-waste/household-hazardous-waste",
+    "facility": "Alameda County HHW \u2014 2100 E. 7th St, Oakland",
+    "fee_note": "Free for eligible residents at HHW facility",
+    "accepted_hint": null,
+    "not_accepted_hint": null,
+    "last_verified_at": "2026-08-10",
+    "indexable": true
+  },
+  {
+    "county": "Hennepin County",
+    "county_slug": "hennepin",
+    "state": "MN",
+    "state_slug": "minnesota",
+    "kind": "county_program",
+    "program_name": "Hennepin County Green Disposal Guide / HHW",
+    "who_qualifies": "Hennepin County residents, including Minneapolis.",
+    "city_note": "Minneapolis\u2019s verified HHW path is the county program (Bloomington site listed).",
+    "access": "Hennepin County HHW \u2014 1400 W 96th St, Bloomington. Confirm hours on hennepin.us.",
+    "cities": [
+      {
+        "city": "Minneapolis",
+        "city_slug": "minneapolis",
+        "population": 429954
+      }
+    ],
+    "source_name": "Hennepin County \u2014 Green Disposal Guide / HHW",
+    "source_url": "https://www.hennepin.us/residents/recycling-and-waste/green-disposal-guide",
+    "facility": "Hennepin County HHW \u2014 Bloomington",
+    "fee_note": "Hennepin County HHW \u2014 Bloomington 1400 W 96th St; Tue\u2013Sat 9\u201317",
+    "accepted_hint": null,
+    "not_accepted_hint": null,
+    "last_verified_at": "2026-08-11",
+    "indexable": true
+  },
+  {
+    "county": "Tulsa County",
+    "county_slug": "tulsa",
+    "state": "OK",
+    "state_slug": "oklahoma",
+    "kind": "city_anchor",
+    "program_name": "City of Tulsa bulky / Household Pollutant Collection Facility",
+    "who_qualifies": "The program we verified is City of Tulsa bulky and HPCF. Other Tulsa County towns must confirm their own HHW.",
+    "city_note": "Tulsa bulky latex limits and HPCF are city services, not a countywide depot.",
+    "access": "Bulky pickup caps and HPCF at 4502 S Galveston. Confirm on cityoftulsa.org.",
+    "cities": [
+      {
+        "city": "Tulsa",
+        "city_slug": "tulsa",
+        "population": 413066
+      }
+    ],
+    "source_name": "City of Tulsa \u2014 Bulky Waste Pick Up",
+    "source_url": "https://www.cityoftulsa.org/government/departments/public-works/refuse-recycling/residential-services/bulky-waste-pick-up/",
+    "facility": "Tulsa Bulky Waste Pick Up / HPCF \u2014 4502 S Galveston Ave",
+    "fee_note": "Bulky up to 10 gal latex OR HPCF latex+oil",
+    "accepted_hint": null,
+    "not_accepted_hint": null,
+    "last_verified_at": "2026-08-11",
+    "indexable": true
+  },
+  {
+    "county": "Kern County",
+    "county_slug": "kern",
+    "state": "CA",
+    "state_slug": "california",
+    "kind": "county_program",
+    "program_name": "Kern County Special Waste Facility",
+    "who_qualifies": "Kern County residents, including Bakersfield, at the county Special Waste Facility.",
+    "city_note": "Bakersfield\u2019s verified HHW path is the county Public Works site.",
+    "access": "Kern County Special Waste Facility \u2014 4951 Standard. Confirm on kernpublicworks.com.",
+    "cities": [
+      {
+        "city": "Bakersfield",
+        "city_slug": "bakersfield",
+        "population": 403455
+      }
+    ],
+    "source_name": "Kern County Public Works \u2014 Residential Hazardous Waste",
+    "source_url": "https://www.kernpublicworks.com/services/solid-waste/hazardous-waste/residential-hazardous-waste",
+    "facility": "Kern County Special Waste Facility \u2014 4951 Standard Street, Bakersfield",
+    "fee_note": "Free for Kern County residents at Special Waste Facility",
+    "accepted_hint": null,
+    "not_accepted_hint": null,
+    "last_verified_at": "2026-08-10",
+    "indexable": true
+  },
+  {
+    "county": "Sedgwick County",
+    "county_slug": "sedgwick",
+    "state": "KS",
+    "state_slug": "kansas",
+    "kind": "county_program",
+    "program_name": "Sedgwick County Household Hazardous Waste",
+    "who_qualifies": "Sedgwick County residents, including Wichita.",
+    "city_note": "Wichita\u2019s verified HHW path is the county facility, not city bulky.",
+    "access": "Sedgwick County HHW \u2014 801 Stillwell St. Confirm hours on sedgwickcounty.org.",
+    "cities": [
+      {
+        "city": "Wichita",
+        "city_slug": "wichita",
+        "population": 397532
+      }
+    ],
+    "source_name": "Sedgwick County \u2014 Household hazardous waste",
+    "source_url": "https://www.sedgwickcounty.org/environment/hazardous-waste/",
+    "facility": "Sedgwick County HHW \u2014 801 Stillwell St",
+    "fee_note": "Free at Sedgwick County HHW \u2014 Tue\u2013Fri 9\u20135 Sat 9\u20133",
+    "accepted_hint": null,
+    "not_accepted_hint": null,
+    "last_verified_at": "2026-08-11",
+    "indexable": true
+  },
+  {
+    "county": "Arapahoe County",
+    "county_slug": "arapahoe",
+    "state": "CO",
+    "state_slug": "colorado",
+    "kind": "city_anchor",
+    "program_name": "City of Aurora paint and household chemicals",
+    "who_qualifies": "The program we verified is City of Aurora (PaintCare or dry-for-trash). Aurora spans Arapahoe and Adams counties \u2014 there is no single Aurora-county depot in that page.",
+    "city_note": "Do not use Denver At-Your-Door for an Aurora address. Denver is a different city-county.",
+    "access": "PaintCare drop-off or fully dried latex in the Aurora trash cart. Confirm on auroragov.org.",
+    "cities": [
+      {
+        "city": "Aurora",
+        "city_slug": "aurora",
+        "population": 386261
+      }
+    ],
+    "source_name": "City of Aurora \u2014 Paint & Household Chemicals",
+    "source_url": "https://www.auroragov.org/residents/trash___recycling/recycling_opportunities/paint___household_chemicals",
+    "facility": "PaintCare location / Aurora trash cart \u2014 dried latex",
+    "fee_note": "PaintCare free drop-off OR dry completely \u2192 regular trash",
+    "accepted_hint": null,
+    "not_accepted_hint": null,
+    "last_verified_at": "2026-08-11",
+    "indexable": true
+  }
+]

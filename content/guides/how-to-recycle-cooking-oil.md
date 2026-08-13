@@ -1,10 +1,10 @@
 ---
-title: How to recycle cooking oil and fat near you
+title: How to recycle cooking oil
 description: Grease and cooking-oil disposal — why drains fail, when “fat recycling service” makes sense, and household drop-off options in U.S. cities.
 date: 2026-08-12
 ---
 
-# How to recycle cooking oil and fat near you
+# How to recycle cooking oil
 
 Searches like “how to recycle cooking oil near me” and “fat recycling service” are the same problem: grease does not belong in the sink or storm drain. It cools into fatbergs, clogs laterals, and creates expensive sewer backups.
 

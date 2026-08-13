@@ -9,9 +9,11 @@ import { HaulerCta } from "@/components/HaulerCta";
 import { ZipNearList } from "@/components/ZipNearList";
 import {
   cityItemHref,
+  countyHhwHref,
   getCity,
   getCityPages,
   getCityProgramGroups,
+  getCountyHhwForCity,
   getCtrOverride,
   getIndexablePages,
   getSiblingCities,
@@ -75,6 +77,7 @@ export default async function CityHubPage({ params }: Props) {
   const zips = getZipHubs().filter(
     (z) => z.city_slug === city && z.state_slug === state && z.indexable,
   );
+  const countyHhw = getCountyHhwForCity(state, city);
 
   const programListLd = {
     "@context": "https://schema.org",
@@ -132,6 +135,16 @@ export default async function CityHubPage({ params }: Props) {
           </p>
         )}
       </header>
+
+      {countyHhw ? (
+        <p>
+          Outside {place.city} limits?{" "}
+          <Link href={countyHhwHref(countyHhw)}>
+            {countyHhw.county} household hazardous waste
+          </Link>{" "}
+          is the suburban / county program.
+        </p>
+      ) : null}
 
       {guides.length ? <CityProgramBoard city={place.city} groups={programs} /> : null}
 

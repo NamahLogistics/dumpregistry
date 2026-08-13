@@ -25,6 +25,7 @@ export function SiteHeader() {
           </Link>
           <nav className="nav" aria-label="Primary">
             <Link href="/cities">Cities</Link>
+            <Link href="/counties">County HHW</Link>
             <Link href="/materials">Materials</Link>
             <Link href="/centers">Centers</Link>
             <Link href="/guides">Guides</Link>

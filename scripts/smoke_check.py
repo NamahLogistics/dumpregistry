@@ -69,6 +69,31 @@ def main() -> None:
     assert "/texas/houston/dispose/mattress" in chunk
     assert "/texas/houston/dispose/sofa" not in chunk
     assert "/texas/houston/dispose/helium-tank" in chunk
+    assert "/texas/county/harris" in chunk
+    assert "/counties" in chunk
+    assert "/california/county/los-angeles" in chunk
+    hubs = json.loads((ROOT / "data" / "geo" / "county_hhw.json").read_text())
+    assert len(hubs) == 48
+    assert sum(len(h["cities"]) for h in hubs) == 50
+    harris = next(h for h in hubs if h["county_slug"] == "harris")
+    assert "houston" in harris["source_url"] or "harriscountytx" in harris["source_url"]
+    assert "outside" in harris["who_qualifies"].lower() or "outside" in harris["city_note"].lower()
+    assert all(h.get("source_url") for h in hubs)
+
+    overrides = json.loads((ROOT / "data" / "seo" / "ctr_overrides.json").read_text())
+    centers = overrides["/centers"]
+    assert "ZIP" in centers["title"]
+    assert "near me" not in centers["title"].lower()
+    assert "near you" not in centers["title"].lower()
+    for path, row in overrides.items():
+        title = (row.get("title") or "").lower()
+        if path.startswith("/guides/"):
+            assert "near me" not in title, path
+        if path.startswith("/materials/"):
+            assert "near me" in title, path
+        if "/dispose/" in path:
+            assert "near me" not in title, path
+            assert " in " in title, path
 
     base = os.environ.get("SMOKE_BASE_URL")
     if base:

@@ -18,7 +18,9 @@ import {
   CITY_PROGRAMS,
   cityItemHref,
   cityProgramKey,
+  countyHhwHref,
   getCityPages,
+  getCountyHhwForCity,
   getCtrOverride,
   getDisposeStaticParams,
   getPage,
@@ -71,6 +73,7 @@ export default async function DisposeItemPage({ params }: Props) {
   const zipRefs = zips.map((z) => ({ zip: z.zip, lat: z.lat, lng: z.lng }));
   const programKey = cityProgramKey(page.category);
   const programLabel = CITY_PROGRAMS.find((p) => p.key === programKey)?.label ?? "city program";
+  const countyHhw = programKey === "hhw" ? getCountyHhwForCity(state, city) : undefined;
 
   return (
     <div className="shell page">
@@ -152,6 +155,11 @@ export default async function DisposeItemPage({ params }: Props) {
             <SourceLink url={page.source_url} title={page.source_name}>
               View source
             </SourceLink>
+          ) : null}
+          {countyHhw ? (
+            <span>
+              <Link href={countyHhwHref(countyHhw)}>{countyHhw.county} HHW</Link>
+            </span>
           ) : null}
         </div>
       </section>

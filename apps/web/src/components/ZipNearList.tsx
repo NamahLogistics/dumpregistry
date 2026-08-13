@@ -33,7 +33,7 @@ export function ZipNearList({
 
   return (
     <section className="zip-near" aria-labelledby="zip-near-heading">
-      <h2 id="zip-near-heading">ZIP hubs near you</h2>
+      <h2 id="zip-near-heading">ZIP hubs in this city</h2>
       <NearMeBar zipRefs={zips} cityCenter={cityCenter} onOriginChange={setOrigin} />
       <div className="hub-grid">
         {ranked.map((z) => (

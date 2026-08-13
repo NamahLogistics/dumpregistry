@@ -56,6 +56,6 @@ Fluids and batteries should never be stuffed inside a tire for “convenient” 
 
 - Open the [tires material hub](/materials/tires)
 - City guides: [San Francisco](/california/san-francisco/dispose/tires), [Boston](/massachusetts/boston/dispose/tires), [New York](/new-york/new-york/dispose/tires), [Dallas](/texas/dallas/dispose/tires)
-- Use [Centers](/centers?material=tires) — that is the “dump tires near me” list from city research
+- Use [Centers](/centers?material=tires) to search verified sites by ZIP
 
 If you only need rim scrap after the rubber is gone, say so at the gate — pricing changes when the load is metal-only.

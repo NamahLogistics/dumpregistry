@@ -65,6 +65,7 @@ def main() -> None:
         (f"{BASE}/methodology", "0.5", None),
         (f"{BASE}/partners", "0.6", None),
         (f"{BASE}/cities", "0.8", None),
+        (f"{BASE}/counties", "0.75", None),
         (f"{BASE}/materials", "0.85", None),
         (f"{BASE}/centers", "0.85", None),
         (f"{BASE}/guides", "0.8", None),
@@ -79,6 +80,13 @@ def main() -> None:
         urls.append((f"{BASE}/{state_slug}", "0.75", None))
     for state_slug, city_slug in covered_cities:
         urls.append((f"{BASE}/{state_slug}/{city_slug}", "0.7", None))
+    county_hubs = []
+    county_path = ROOT / "data" / "geo" / "county_hhw.json"
+    if county_path.exists():
+        county_hubs = json.loads(county_path.read_text())
+    for h in county_hubs:
+        if h.get("indexable") and h.get("state_slug") and h.get("county_slug"):
+            urls.append((f"{BASE}/{h['state_slug']}/county/{h['county_slug']}", "0.7", h.get("last_verified_at")))
     for z in zip_hubs:
         if z.get("indexable"):
             urls.append((f"{BASE}/{z['state_slug']}/{z['city_slug']}/{z['zip']}", "0.55", None))

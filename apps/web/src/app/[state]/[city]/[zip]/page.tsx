@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!hub) return { robots: { index: false, follow: false } };
   return pageMetadata({
     title: `${hub.city} ZIP ${hub.zip} drop-off`,
-    description: `Verified drop-off sites and item guides near ZIP ${hub.zip} in ${hub.city}, ${hub.state}.`,
+    description: `Verified drop-off sites and item guides in ${hub.city}, ${hub.state} ZIP ${hub.zip}.`,
     path: `/${hub.state_slug}/${hub.city_slug}/${hub.zip}`,
   });
 }

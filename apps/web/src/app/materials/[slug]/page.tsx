@@ -12,7 +12,7 @@ import {
   getMaterialOverview,
 } from "@/lib/data";
 import { pageMetadata } from "@/lib/seo";
-import { clipMetaDescription } from "@/lib/snippets";
+import { materialHubDescription, materialHubTitle } from "@/lib/snippets";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -31,10 +31,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const path = `/materials/${item.slug}`;
   const override = getCtrOverride(path);
   return pageMetadata({
-    title: override?.title ?? `How to dispose of ${item.name.toLowerCase()}`,
-    description: clipMetaDescription(
-      override?.description ?? `${desc} City-by-city drop-off and bulky rules with official sources.`,
-    ),
+    title: materialHubTitle(item.name, override?.title),
+    description: materialHubDescription(item.name, desc, override?.description),
     path,
   });
 }
@@ -53,7 +51,7 @@ export default async function MaterialPage({ params }: Props) {
       <p className="eyebrow">
         <Link href="/materials">Materials</Link> · {item.category}
       </p>
-      <h1>How to dispose of {item.name}</h1>
+      <h1>{item.name} disposal near me</h1>
       <p>{overview?.overview ?? item.summary_default}</p>
 
       <section>
@@ -77,8 +75,8 @@ export default async function MaterialPage({ params }: Props) {
           </li>
         </ul>
         <p>
-          Rules vary by city. Use a verified local guide below — or find drop-off sites on{" "}
-          <Link href={`/centers?material=${item.slug}`}>Centers near you</Link>.
+          Rules vary by city. Open a verified local guide below, or search drop-off sites by ZIP on{" "}
+          <Link href={`/centers?material=${item.slug}`}>Centers</Link>.
         </p>
       </section>
 

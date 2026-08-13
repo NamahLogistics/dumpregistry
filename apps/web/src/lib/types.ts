@@ -67,6 +67,33 @@ export type DisposalPage = {
   nearby_zips?: string[];
 };
 
+export type CountyHhwCity = {
+  city: string;
+  city_slug: string;
+  population: number;
+};
+
+export type CountyHhw = {
+  county: string;
+  county_slug: string;
+  state: string;
+  state_slug: string;
+  kind: "county_program" | "county_distinct" | "consolidated" | "no_county_depot" | "city_anchor" | string;
+  program_name: string;
+  who_qualifies: string;
+  city_note: string;
+  access: string;
+  cities: CountyHhwCity[];
+  source_name: string | null;
+  source_url: string | null;
+  facility: string | null;
+  fee_note: string | null;
+  accepted_hint?: string | null;
+  not_accepted_hint?: string | null;
+  last_verified_at: string | null;
+  indexable: boolean;
+};
+
 export type ZipHub = {
   state_slug: string;
   city_slug: string;

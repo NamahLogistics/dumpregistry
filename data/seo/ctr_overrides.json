@@ -1,10 +1,10 @@
 {
   "/centers": {
-    "title": "Dump, HHW & bulky drop-off near you",
-    "description": "Find verified dump, transfer, HHW, and e-waste drop-off sites by ZIP or material — city-researched, with official program links."
+    "title": "Find dump & HHW drop-off by ZIP",
+    "description": "Search verified dump, transfer, HHW, and e-waste drop-off sites by ZIP or material — city-researched, with official program links."
   },
   "/guides/bulk-trash-drop-off-near-me": {
-    "title": "Bulk trash drop-off near me",
+    "title": "How bulk trash drop-off works",
     "description": "How U.S. transfer stations and citizen drop-off sites work — residency, fees, and what curb bulky day will not take."
   },
   "/guides/how-city-bulk-pickup-works": {
@@ -20,31 +20,31 @@
     "description": "Bulky pickup vs drop-off for mattresses in U.S. cities — bag rules, fees, and why the trash cart will not take it."
   },
   "/guides/how-to-dispose-of-propane-tanks": {
-    "title": "Propane tank disposal near me",
+    "title": "How to dispose of propane tanks",
     "description": "Exchange, HHW, and specialty drop-off for BBQ and camping cylinders — never put a pressurized tank in the trash."
   },
   "/guides/how-to-dispose-of-lithium-batteries": {
-    "title": "Lithium battery drop-off near me",
+    "title": "How to drop off lithium batteries",
     "description": "Tape terminals and take lithium packs to HHW or retailer drop-off. Trash and recycling carts start truck fires."
   },
   "/guides/how-to-dispose-of-tires": {
-    "title": "Dump tires near me",
+    "title": "How to dump scrap tires",
     "description": "Retailer take-back, transfer-station fees, and rim rules — scrap tires are banned from household trash in most states."
   },
   "/guides/how-to-dispose-of-a-refrigerator": {
-    "title": "Fridge and freezer disposal near me",
+    "title": "How to dispose of a fridge or freezer",
     "description": "Freon recovery, utility haul-away, and city appliance drop-off — a freezer is not ordinary bulky trash."
   },
   "/guides/how-to-dispose-of-ewaste": {
-    "title": "Electronics recycling near me",
+    "title": "How to recycle electronics",
     "description": "TVs, computers, and phones — landfill bans, data wipe, retailer take-back, and municipal e-waste drop-off in U.S. cities."
   },
   "/guides/how-to-dispose-of-a-hard-drive": {
-    "title": "Hard drive disposal near me",
+    "title": "How to dispose of a hard drive",
     "description": "Wipe or destroy a drive, then use city e-waste drop-off. Hard drives are not household trash or blue-bin recycling."
   },
   "/guides/how-to-dispose-of-yard-waste": {
-    "title": "Yard waste drop-off near me",
+    "title": "How to dispose of yard waste",
     "description": "Green cart, seasonal set-out, and yard-waste drop-off for leaves and brush — what contaminates organics in U.S. cities."
   },
   "/guides/how-to-dispose-of-a-dishwasher": {
@@ -52,19 +52,19 @@
     "description": "Disconnect and haul a dishwasher via city bulky, scrap, or retailer take-back — not the regular trash cart."
   },
   "/guides/how-to-recycle-cooking-oil": {
-    "title": "Cooking oil disposal near me",
+    "title": "How to recycle cooking oil",
     "description": "Do not pour grease down the drain. Household cooking-oil drop-off and city organics rules, with official program links."
   },
   "/guides/how-to-dispose-of-motor-oil": {
-    "title": "Used motor oil drop-off near me",
+    "title": "How to dispose of used motor oil",
     "description": "Auto-parts take-back and city HHW for used oil and filters. Do not mix antifreeze or dump it in a drain. Official city rules linked."
   },
   "/guides/how-to-dispose-of-helium-tanks": {
-    "title": "Helium tank disposal near me",
+    "title": "How to dispose of helium tanks",
     "description": "Disposable party tanks are not recycling-cart metal. HHW vs empty-and-puncture vs return-to-supplier — follow the city program."
   },
   "/guides/how-to-dispose-of-solar-panels": {
-    "title": "Solar panel disposal near me",
+    "title": "How to dispose of solar panels",
     "description": "Rooftop PV is not mixed e-waste. Installer take-back and specialty recyclers — city TV drop-off usually refuses a panel."
   },
   "/materials/solar-panel": {
@@ -72,7 +72,7 @@
     "description": "Confirm PV on the official city program. Household e-waste sites are for TVs and computers, not rooftop modules."
   },
   "/guides/how-to-dispose-of-styrofoam": {
-    "title": "Styrofoam disposal near me",
+    "title": "How to dispose of Styrofoam",
     "description": "EPS foam is almost never curbside recycling. Blocks, peanuts, and food trays are different — densifier or trash, not the blue cart."
   },
   "/guides/how-to-dispose-of-medical-sharps": {
@@ -80,7 +80,7 @@
     "description": "Needle containers, pharmacy take-back, and mail-back — loose sharps never go in trash or recycling. City rules linked."
   },
   "/guides/how-to-dispose-of-a-car-battery": {
-    "title": "Car battery disposal near me",
+    "title": "How to dispose of a car battery",
     "description": "Auto-parts take-back and HHW for lead-acid car batteries. Keep them out of the trash cart — city guides with sources."
   },
   "/materials/helium-tank": {
@@ -112,11 +112,11 @@
     "description": "City bulky pickup and drop-off for mattresses — bag rules, fees, and why the regular trash cart rejects them."
   },
   "/materials/car-parts": {
-    "title": "Where to dispose of car parts",
+    "title": "Car parts disposal near me",
     "description": "Auto recyclers and scrap for car parts — fluids and batteries stay out of the trash. City-sourced drop-off guides."
   },
   "/materials/refrigerator": {
-    "title": "Where can I dump a freezer",
+    "title": "Fridge and freezer disposal near me",
     "description": "Fridge and freezer disposal — Freon recovery, utility pickup, and city appliance drop-off with official sources."
   },
   "/materials/e-waste-mixed": {

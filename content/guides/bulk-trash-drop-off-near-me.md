@@ -1,10 +1,10 @@
 ---
-title: Bulk trash drop-off near me — how it works
-description: Find bulk trash and oversized-item drop-off in U.S. cities — transfer stations, residency rules, fees, and what curb bulky day will not take.
+title: How bulk trash drop-off works
+description: How U.S. transfer stations and citizen drop-off sites work — residency, fees, and what curb bulky day will not take.
 date: 2026-08-12
 ---
 
-# Bulk trash drop-off near me — how it works
+# How bulk trash drop-off works
 
 “Bulk trash drop off near me” usually means you want to haul oversized junk yourself today — not wait for a zone bulky day. In most metros that is a **transfer station**, **citizen drop-off center**, or **landfill scale house** with a residential lane.
 

@@ -22,7 +22,7 @@ Start here: [Materials · Bulky](/materials) and city hubs such as [New York](/n
 
 **Often not for:** latex paint (many cities say dry it out for trash), Freon appliances, large TVs, tires, business waste.
 
-Find sites: [Centers](/centers) filtered by material, or the HHW section of a city dispose page.
+Find sites: [Centers](/centers) filtered by material, the HHW section of a city dispose page, or the [county HHW hubs](/counties) for suburban programs.
 
 ## E-waste / electronics
 

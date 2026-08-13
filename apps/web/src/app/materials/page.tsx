@@ -5,9 +5,9 @@ import { getItems, getMaterialGuideCount } from "@/lib/data";
 import { pageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = pageMetadata({
-  title: "How to dispose of hard-to-trash materials",
+  title: "Hard-to-trash materials encyclopedia",
   description:
-    "National overviews plus city-sourced guides for mattresses, paint, TVs, batteries, and 70 disposal materials.",
+    "National material hubs for mattresses, paint, TVs, batteries, and 70 items. Each hub links to city-sourced dispose guides.",
   path: "/materials",
 });
 
@@ -25,8 +25,9 @@ export default function MaterialsIndexPage() {
       <header className="prose">
         <h1>Materials encyclopedia</h1>
         <p>
-          National starting points for hard-to-trash materials. Every material page links into
-          city-sourced dispose guides — the local program is always the source of truth.
+          National starting points for hard-to-trash materials. Each material hub is the
+          “near me” page; city dispose pages are the “in Houston” page. The local program
+          is always the source of truth.
         </p>
       </header>
 

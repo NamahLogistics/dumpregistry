@@ -5,10 +5,13 @@ import { getCities, getCtrOverride, getFacilities, getItems, getZipHubs } from "
 import { formatMiles, sortByDistance } from "@/lib/geo";
 import { facilitySlug, pageMetadata } from "@/lib/seo";
 
+const centersOverride = getCtrOverride("/centers");
+
 export const metadata: Metadata = pageMetadata({
-  title: "Dump, HHW & bulky drop-off near you",
+  title: centersOverride?.title ?? "Find dump & HHW drop-off by ZIP",
   description:
-    "Find verified dump, transfer, HHW, and e-waste drop-off sites by ZIP or material — city-researched, with official program links.",
+    centersOverride?.description ??
+    "Search verified dump, transfer, HHW, and e-waste drop-off sites by ZIP or material — city-researched, with official program links.",
   path: "/centers",
 });
 
@@ -49,9 +52,10 @@ export default async function CentersPage({ searchParams }: Props) {
       <header className="prose">
         <h1>Drop-off centers</h1>
         <p>
-          Authentic finder: {getFacilities().length} verified drop-off sites from official program
-          sources (not scraped directories). Coverage grows city-by-city — filter by ZIP and material,
-          then confirm hours on the linked official page before you go.
+          ZIP finder: {getFacilities().length} verified drop-off sites from official program
+          sources (not scraped directories). Filter by ZIP and material, then confirm hours on
+          the linked official page before you go. City dispose pages own the local rule; this
+          page is the site list.
         </p>
       </header>
 

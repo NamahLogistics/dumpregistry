@@ -63,38 +63,38 @@ export default function HomePage() {
 
         <ContinueReading
           id="home-near-me"
-          heading="Drop-off near you"
-          lead="National how-tos Google is already testing — then open your city page for the local rule."
+          heading="Start with the material"
+          lead="Material hubs own “near me.” Open your city page for the local rule, or search Centers by ZIP."
           links={[
             {
-              href: "/guides/bulk-trash-drop-off-near-me",
-              title: "Bulk trash drop-off",
-              meta: "Transfer stations",
+              href: "/materials/mattress",
+              title: "Mattress",
+              meta: "Near me · then your city",
             },
             {
-              href: "/guides/how-to-dispose-of-construction-debris",
+              href: "/materials/construction-debris",
               title: "Construction debris",
-              meta: "Concrete, drywall, lumber",
+              meta: "Near me · then your city",
             },
             {
               href: "/centers",
               title: "Dump & HHW centers",
-              meta: "Filter by ZIP",
+              meta: "ZIP finder",
             },
             {
-              href: "/guides/how-to-dispose-of-propane-tanks",
+              href: "/materials/propane-tank",
               title: "Propane tanks",
-              meta: "Exchange vs HHW",
+              meta: "Near me · then your city",
             },
             {
-              href: "/guides/how-to-dispose-of-lithium-batteries",
+              href: "/materials/lithium-battery",
               title: "Lithium batteries",
-              meta: "Drop-off, not trash",
+              meta: "Near me · then your city",
             },
             {
-              href: "/guides/how-to-dispose-of-tires",
-              title: "Dump tires",
-              meta: "Retailer or transfer",
+              href: "/materials/tires",
+              title: "Tires",
+              meta: "Near me · then your city",
             },
           ]}
         />

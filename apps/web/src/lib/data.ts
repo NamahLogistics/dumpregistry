@@ -3,7 +3,7 @@ import path from "node:path";
 import { isTrueAlias } from "./aliases";
 import { dataRoot } from "./paths";
 import type { SnippetOverride } from "./snippets";
-import type { City, DisposalPage, Facility, Item, ZipHub } from "./types";
+import type { City, CountyHhw, DisposalPage, Facility, Item, ZipHub } from "./types";
 
 function readJson<T>(rel: string): T {
   const full = path.join(dataRoot(), rel);
@@ -17,6 +17,7 @@ let cache: {
   zipHubs?: ZipHub[];
   facilities?: Facility[];
   ctrOverrides?: Record<string, SnippetOverride>;
+  countyHhw?: CountyHhw[];
 } = {};
 
 export function getItems(): Item[] {
@@ -33,6 +34,25 @@ export function getCities(): City[] {
     }
   }
   return cache.cities;
+}
+
+export function getCountyHhwHubs(): CountyHhw[] {
+  cache.countyHhw ??= readJson<CountyHhw[]>("geo/county_hhw.json");
+  return cache.countyHhw;
+}
+
+export function getCountyHhw(stateSlug: string, countySlug: string): CountyHhw | undefined {
+  return getCountyHhwHubs().find((h) => h.state_slug === stateSlug && h.county_slug === countySlug);
+}
+
+export function getCountyHhwForCity(stateSlug: string, citySlug: string): CountyHhw | undefined {
+  return getCountyHhwHubs().find(
+    (h) => h.state_slug === stateSlug && h.cities.some((c) => c.city_slug === citySlug),
+  );
+}
+
+export function countyHhwHref(hub: Pick<CountyHhw, "state_slug" | "county_slug">): string {
+  return `/${hub.state_slug}/county/${hub.county_slug}`;
 }
 
 export function getStates() {

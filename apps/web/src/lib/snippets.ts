@@ -145,6 +145,26 @@ export function disposeDescription(
   return lead;
 }
 
+/** Material hub owns the “near me” query. City dispose owns “in {city}.” */
+export function materialHubTitle(itemName: string, override?: string): string {
+  if (override) return clipAtWord(override, TITLE_MAX);
+  return clipAtWord(`${itemName} disposal near me`, TITLE_MAX);
+}
+
+export function materialHubDescription(
+  itemName: string,
+  overview: string,
+  override?: string,
+): string {
+  if (override) return clipMetaDescription(override);
+  const lead = overview.replace(/\s+/g, " ").trim();
+  const tail = ` City-by-city rules with official sources. Search /centers by ZIP for a site list.`;
+  if (lead && lead.length + tail.length <= DESC_MAX) return `${lead}${tail}`;
+  return clipMetaDescription(
+    `${itemName} drop-off and bulky rules by U.S. city, with official program sources. Use the ZIP finder for sites.`,
+  );
+}
+
 export function cityHubTitle(city: string, state: string): string {
   const hooked = `${city}, ${state} dump, bulky pickup & HHW`;
   if (hooked.length <= TITLE_MAX) return hooked;
@@ -156,6 +176,24 @@ export function cityHubDescription(city: string, state: string, guideCount: numb
   const n = guideCount > 0 ? `${guideCount} verified` : "Verified";
   return clipMetaDescription(
     `${n} guides for ${city}, ${state} — dump and transfer drop-off, bulky pickup, HHW, and e-waste, with official sources.`,
+  );
+}
+
+export function countyHhwTitle(county: string, state: string, override?: string): string {
+  if (override) return clipAtWord(override, TITLE_MAX);
+  const hooked = `${county}, ${state} household hazardous waste`;
+  if (hooked.length <= TITLE_MAX) return hooked;
+  return clipAtWord(`${county} HHW`, TITLE_MAX);
+}
+
+export function countyHhwDescription(hub: {
+  county: string;
+  state: string;
+  who_qualifies: string;
+  program_name: string;
+}): string {
+  return clipMetaDescription(
+    `${hub.program_name} — who can use it in ${hub.county}, ${hub.state}. ${hub.who_qualifies}`,
   );
 }
 
