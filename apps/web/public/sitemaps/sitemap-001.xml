@@ -73138,4 +73138,34 @@
     <changefreq>monthly</changefreq>
     <priority>0.55</priority>
   </url>
+  <url>
+    <loc>https://www.dumpregistry.org/centers/washington-dc-dpw-special-waste-collection-rfk-parking-lot-8-rfk-parking-lot-8-2500-independence</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.55</priority>
+  </url>
+  <url>
+    <loc>https://www.dumpregistry.org/centers/washington-montgomery-county-shady-grove-transfer-station-16101-frederick-road-derwood-md-20855</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.55</priority>
+  </url>
+  <url>
+    <loc>https://www.dumpregistry.org/centers/washington-montgomery-county-household-hazardous-waste-shady-grove-shady-grove-hhw-compound-1610</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.55</priority>
+  </url>
+  <url>
+    <loc>https://www.dumpregistry.org/centers/washington-fairfax-county-i-66-transfer-station-hhw-4618-west-ox-road-fairfax-va-22030</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.55</priority>
+  </url>
+  <url>
+    <loc>https://www.dumpregistry.org/centers/washington-fairfax-county-i-95-landfill-complex-hhw-lorton-9850-furnace-road-lorton-va-22079</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.55</priority>
+  </url>
+  <url>
+    <loc>https://www.dumpregistry.org/centers/washington-prince-george-s-county-brown-station-road-convenience-center-3501-brown-station-road-</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.55</priority>
+  </url>
 </urlset>

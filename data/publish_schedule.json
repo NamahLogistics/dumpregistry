@@ -1,9 +1,9 @@
 {
   "policy": "Indexable city-sourced URLs + hard facility detail pages (true aliases omitted)",
-  "current_url_count": 12698,
+  "current_url_count": 12704,
   "files_written": [
     "sitemap-001.xml"
   ],
   "covered_city_count": 300,
-  "facility_page_count": 2409
+  "facility_page_count": 2415
 }

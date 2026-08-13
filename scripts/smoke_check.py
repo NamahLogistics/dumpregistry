@@ -72,6 +72,15 @@ def main() -> None:
     assert "/texas/county/harris" in chunk
     assert "/counties" in chunk
     assert "/california/county/los-angeles" in chunk
+    assert "/centers/" in chunk
+    dc_facs = [
+        f
+        for f in json.loads((ROOT / "data" / "facilities" / "all.json").read_text())
+        if f.get("city_slug") == "washington"
+    ]
+    assert len(dc_facs) >= 7, f"DC metro density still thin: {len(dc_facs)}"
+    assert any("RFK" in (f.get("name") or "") for f in dc_facs)
+    assert any("Shady Grove" in (f.get("name") or "") for f in dc_facs)
     hubs = json.loads((ROOT / "data" / "geo" / "county_hhw.json").read_text())
     assert len(hubs) == 48
     assert sum(len(h["cities"]) for h in hubs) == 50
