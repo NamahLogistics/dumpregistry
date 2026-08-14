@@ -13,10 +13,21 @@ type Partner = {
   notes: string | null;
   plan: string | null;
   status: string;
+  shop_zip: string | null;
+  coverage_zips: unknown;
+  radius_miles: number | null;
+  dodo_customer_id: string | null;
+  lead_credits: number | null;
+  leads_routed_count: number | null;
   created_at: string;
 };
 
-const STATUSES = ["pending", "active", "paused", "rejected"] as const;
+const STATUSES = ["active", "paused", "paused_payment", "rejected"] as const;
+
+function zipCount(coverage: unknown) {
+  if (Array.isArray(coverage)) return coverage.length;
+  return 0;
+}
 
 export default function AdminPartnersPage() {
   const [token, setToken] = useState("");
@@ -55,16 +66,16 @@ export default function AdminPartnersPage() {
       setError(data.error ?? "Update failed");
       return;
     }
-    setNote(status === "active" ? "Partner activated — activation email sent if Resend is configured." : "Saved");
+    setNote(data.note ?? "Saved");
     await load();
   }
 
   return (
     <main className="admin-review">
-      <h1>Partner applications</h1>
+      <h1>Partners</h1>
       <p>
-        Set status to <strong>active</strong> so new consumer leads in matching cities are emailed to that
-        hauler via Resend.
+        Emergency pause or reject only. Haulers go live from the partners form (trial) or Dodo payment — do not
+        use this page to onboard.
       </p>
       <form className="admin-auth" onSubmit={load}>
         <label>
@@ -80,7 +91,7 @@ export default function AdminPartnersPage() {
           <li key={r.id}>
             <div>
               <strong>
-                {r.company} · {r.plan ?? "starter"} · {r.status}
+                {r.company} · {r.plan ?? "trial"} · {r.status}
               </strong>
               <span>{new Date(r.created_at).toLocaleString()}</span>
             </div>
@@ -88,7 +99,13 @@ export default function AdminPartnersPage() {
               {r.contact_name} · {r.email}
               {r.phone ? ` · ${r.phone}` : ""}
             </p>
-            <p>Cities: {r.cities}</p>
+            <p>
+              Credits: {r.lead_credits ?? 0} · routed: {r.leads_routed_count ?? 0} · ZIPs: {zipCount(r.coverage_zips)}
+              {r.shop_zip ? ` · shop ${r.shop_zip}` : ""}
+              {r.radius_miles ? ` · ${r.radius_miles} mi` : ""}
+            </p>
+            <p>{r.cities}</p>
+            {r.dodo_customer_id ? <p>Dodo customer: {r.dodo_customer_id}</p> : null}
             <p>Services: {r.services}</p>
             {r.notes ? <p>{r.notes}</p> : null}
             <div className="admin-actions">

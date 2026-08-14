@@ -1,104 +1,43 @@
 import { mkdirSync, appendFileSync } from "node:fs";
 import path from "node:path";
 import { NextResponse } from "next/server";
+import { normalizeZip } from "@/lib/coverage";
 import { getSql } from "@/lib/db";
 import { escapeHtml, opsInbox, sendEmail } from "@/lib/email";
+import { ensureMarketplaceSchema } from "@/lib/marketplace-schema";
+import { maybePauseIfEmpty, pickPartnerForZip } from "@/lib/partner-billing";
 import { dataRoot } from "@/lib/paths";
+import { siteUrl } from "@/lib/dodo";
 
-function partnerCovers(citiesField: string, city: string, state: string) {
-  const hay = citiesField.toLowerCase();
-  if (/(all cities|any city|nationwide|entire us|united states|all metros|all states)/i.test(hay)) {
-    return true;
-  }
-  if (city && hay.includes(city.toLowerCase())) return true;
-  if (state.length >= 2 && hay.includes(state.toLowerCase())) return true;
-  return false;
-}
-
-function normalizeZip(raw: unknown) {
-  const digits = String(raw ?? "").replace(/\D/g, "");
-  if (digits.length < 5) return null;
-  return digits.slice(0, 5);
-}
-
-async function notifyLead(opts: {
+async function notifyResident(opts: {
   name: string;
   email: string;
   city: string;
   state: string;
-  zip: string | null;
-  phone: string | null;
-  notes: string | null;
+  zip: string;
   itemSlug: string | null;
+  routed: boolean;
 }) {
-  const site = process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.dumpregistry.org";
+  const where = `${opts.city}, ${opts.state} ${opts.zip}`;
   const item = opts.itemSlug ?? "pickup";
-  const where = opts.zip
-    ? `${opts.city}, ${opts.state} ${opts.zip}`
-    : `${opts.city}, ${opts.state}`;
-
   await sendEmail({
     to: opts.email,
-    subject: `We received your ${opts.city} pickup request`,
-    html: `<p>Hi ${escapeHtml(opts.name)},</p>
+    subject: opts.routed
+      ? `We sent your ${opts.city} pickup request to a local hauler`
+      : `We received your ${opts.city} pickup request`,
+    html: opts.routed
+      ? `<p>Hi ${escapeHtml(opts.name)},</p>
+<p>We received your pickup request for <strong>${escapeHtml(item)}</strong> in ${escapeHtml(where)} and sent it to one hauler who listed that ZIP.</p>
+<p>They may call with a quote. You pay them, not DumpRegistry. The free disposal guide stays free.</p>
+<p><a href="${siteUrl()}">DumpRegistry</a></p>`
+      : `<p>Hi ${escapeHtml(opts.name)},</p>
 <p>Thanks — we received your pickup request for <strong>${escapeHtml(item)}</strong> in ${escapeHtml(where)}.</p>
-<p>If a hauler in our network covers your area, they may call with a quote. This is separate from the free disposal guide on DumpRegistry. You pay the hauler, not us.</p>
-<p><a href="${site}">DumpRegistry</a></p>`,
-    text: `Hi ${opts.name},\n\nWe received your pickup request for ${item} in ${where}. A hauler may follow up if they cover your area.\n`,
+<p>No hauler in our network currently covers that ZIP, so nobody will call yet. We’ll keep the request if a matching hauler comes online.</p>
+<p><a href="${siteUrl()}">DumpRegistry</a></p>`,
+    text: opts.routed
+      ? `Hi ${opts.name},\n\nWe sent your ${item} request in ${where} to one hauler covering that ZIP.\n`
+      : `Hi ${opts.name},\n\nWe received your ${item} request in ${where}. No hauler covers that ZIP yet.\n`,
   });
-
-  const ops = opsInbox();
-  if (ops) {
-    await sendEmail({
-      to: ops,
-      subject: `[Lead] ${opts.city} — ${item}`,
-      replyTo: opts.email,
-      html: `<p>New consumer lead</p>
-<ul>
-<li>Where: ${escapeHtml(where)}</li>
-<li>Item: ${escapeHtml(item)}</li>
-<li>Name: ${escapeHtml(opts.name)}</li>
-<li>Email: ${escapeHtml(opts.email)}</li>
-<li>Phone: ${escapeHtml(opts.phone ?? "—")}</li>
-<li>Notes: ${escapeHtml(opts.notes ?? "—")}</li>
-</ul>
-<p>Route in <a href="${site}/admin/leads">/admin/leads</a></p>`,
-    });
-  }
-
-  const db = getSql();
-  if (!db) return;
-
-  try {
-    const partners = await db`
-      SELECT email, company, contact_name, cities
-      FROM partner_applications
-      WHERE status = 'active'
-      LIMIT 100
-    `;
-    const matched = partners.filter((p) => partnerCovers(String(p.cities ?? ""), opts.city, opts.state));
-
-    for (const p of matched) {
-      await sendEmail({
-        to: String(p.email),
-        subject: `DumpRegistry lead: ${opts.city} — ${item}`,
-        replyTo: ops ?? undefined,
-        html: `<p>Hi ${escapeHtml(String(p.contact_name ?? p.company))},</p>
-<p>New pickup lead in <strong>${escapeHtml(where)}</strong>:</p>
-<ul>
-<li>Item: ${escapeHtml(item)}</li>
-<li>Name: ${escapeHtml(opts.name)}</li>
-<li>Email: ${escapeHtml(opts.email)}</li>
-<li>Phone: ${escapeHtml(opts.phone ?? "—")}</li>
-<li>Notes: ${escapeHtml(opts.notes ?? "—")}</li>
-</ul>
-<p>Reply to the customer directly to quote.</p>`,
-        text: `New lead in ${where} for ${item}.\n${opts.name} / ${opts.email} / ${opts.phone ?? ""}\n${opts.notes ?? ""}\n`,
-      });
-    }
-  } catch (err) {
-    console.error("[leads] partner notify failed", err);
-  }
 }
 
 export async function POST(req: Request) {
@@ -117,12 +56,15 @@ export async function POST(req: Request) {
   }
 
   const db = getSql();
+  let leadId: number | null = null;
   if (db) {
-    await db`ALTER TABLE lead_requests ADD COLUMN IF NOT EXISTS zip VARCHAR(16)`;
-    await db`
+    await ensureMarketplaceSchema(db);
+    const inserted = await db`
       INSERT INTO lead_requests (city, state, zip, item_slug, name, email, phone, notes, status)
       VALUES (${city}, ${state}, ${zip}, ${itemSlug}, ${name}, ${email}, ${phone}, ${notes}, 'new')
+      RETURNING id
     `;
+    leadId = inserted.length ? Number(inserted[0].id) : null;
   } else {
     const dir = path.join(dataRoot(), "submissions");
     mkdirSync(dir, { recursive: true });
@@ -144,7 +86,66 @@ export async function POST(req: Request) {
     );
   }
 
-  await notifyLead({ name, email, city, state, zip, phone, notes, itemSlug });
+  let routed = false;
+  let partnerName: string | null = null;
+  if (db && leadId) {
+    try {
+      const partner = await pickPartnerForZip(db, zip);
+      if (partner) {
+        await db`
+          UPDATE lead_requests
+          SET status = 'routed', partner_id = ${partner.id}, routed_at = NOW()
+          WHERE id = ${leadId}
+        `;
+        routed = true;
+        partnerName = partner.company;
+        const where = `${city}, ${state} ${zip}`;
+        const item = itemSlug ?? "pickup";
+        await sendEmail({
+          to: partner.email,
+          subject: `DumpRegistry lead: ${city} ${zip} — ${item}`,
+          replyTo: email,
+          html: `<p>Hi ${escapeHtml(partner.contact_name ?? partner.company)},</p>
+<p>New pickup lead in <strong>${escapeHtml(where)}</strong> (ZIP is in your coverage):</p>
+<ul>
+<li>Item: ${escapeHtml(item)}</li>
+<li>Name: ${escapeHtml(name)}</li>
+<li>Email: ${escapeHtml(email)}</li>
+<li>Phone: ${escapeHtml(phone)}</li>
+<li>Notes: ${escapeHtml(notes ?? "—")}</li>
+</ul>
+<p>Reply to the customer directly to quote. This used 1 prepaid credit (${partner.lead_credits} left).</p>`,
+          text: `New lead in ${where} for ${item}.\n${name} / ${email} / ${phone}\n${notes ?? ""}\n`,
+        });
+        await maybePauseIfEmpty(db, partner);
+      } else {
+        await db`UPDATE lead_requests SET status = 'unmatched' WHERE id = ${leadId}`;
+      }
+    } catch (err) {
+      console.error("[leads] route failed", err);
+    }
+  }
 
-  return NextResponse.json({ ok: true, storage: db ? "neon" : "file" });
+  await notifyResident({ name, email, city, state, zip, itemSlug, routed });
+
+  const ops = opsInbox();
+  if (ops) {
+    const where = `${city}, ${state} ${zip}`;
+    await sendEmail({
+      to: ops,
+      subject: routed ? `[Lead routed] ${city} ${zip}` : `[Lead unmatched] ${city} ${zip}`,
+      replyTo: email,
+      html: `<p>${routed ? `Routed to ${escapeHtml(partnerName ?? "partner")}` : "No covering hauler"}</p>
+<ul>
+<li>Where: ${escapeHtml(where)}</li>
+<li>Item: ${escapeHtml(itemSlug ?? "pickup")}</li>
+<li>Name: ${escapeHtml(name)}</li>
+<li>Email: ${escapeHtml(email)}</li>
+<li>Phone: ${escapeHtml(phone)}</li>
+<li>Notes: ${escapeHtml(notes ?? "—")}</li>
+</ul>`,
+    });
+  }
+
+  return NextResponse.json({ ok: true, storage: db ? "neon" : "file", routed });
 }

@@ -12,11 +12,12 @@ type Lead = {
   email: string;
   phone: string | null;
   notes: string | null;
+  partner_id: number | null;
   status: string;
   created_at: string;
 };
 
-const STATUSES = ["new", "qualified", "routed", "closed", "spam"] as const;
+const STATUSES = ["new", "qualified", "routed", "unmatched", "closed", "spam"] as const;
 
 export default function AdminLeadsPage() {
   const [token, setToken] = useState("");
@@ -63,8 +64,8 @@ export default function AdminLeadsPage() {
     <main className="admin-review">
       <h1>Lead marketplace queue</h1>
       <p>
-        Qualify and route pickup requests to partners who cover that ZIP. Status changes never auto-bill
-        buyers.
+        Qualify pickup requests. Routing and billing are automatic (ZIP match + Dodo credits). Status here is
+        an override only.
       </p>
       <form className="admin-auth" onSubmit={load}>
         <label>
@@ -83,6 +84,7 @@ export default function AdminLeadsPage() {
                 {r.city}, {r.state}
                 {r.zip ? ` ${r.zip}` : ""}
                 {r.item_slug ? ` · ${r.item_slug}` : ""}
+                {r.partner_id ? ` · partner #${r.partner_id}` : ""}
               </strong>
               <span>
                 {r.status} · {new Date(r.created_at).toLocaleString()}

@@ -17,7 +17,7 @@ export function LeadModule({
   itemName?: string;
   askLocation?: boolean;
 }) {
-  const [status, setStatus] = useState<"idle" | "ok" | "err">("idle");
+  const [status, setStatus] = useState<"idle" | "ok" | "unmatched" | "err">("idle");
   const item = itemName || "this item";
 
   async function submit(e: React.FormEvent<HTMLFormElement>) {
@@ -39,8 +39,9 @@ export function LeadModule({
         notes: fd.get("notes"),
       }),
     });
-    setStatus(res.ok ? "ok" : "err");
+    const data = await res.json().catch(() => ({}));
     if (res.ok) {
+      setStatus(data.routed ? "ok" : "unmatched");
       trackEvent("generate_lead", {
         lead_type: "pickup",
         city: cityVal,
@@ -48,6 +49,8 @@ export function LeadModule({
         item_slug: itemSlug,
       });
       e.currentTarget.reset();
+    } else {
+      setStatus("err");
     }
   }
 
@@ -113,11 +116,14 @@ export function LeadModule({
           Get a pickup quote
         </button>
         <p className="lead-privacy">
-          We’ll share this with a hauler who covers your area. Not a bid war.{" "}
+          We’ll share this with at most one hauler whose coverage includes your ZIP. Not a bid war.{" "}
           <Link href="/privacy">Privacy</Link>
         </p>
         {status === "ok" ? (
-          <p className="form-ok">Request received — a hauler may call if one covers your ZIP.</p>
+          <p className="form-ok">Request sent to one hauler who covers your ZIP. They may call with a quote.</p>
+        ) : null}
+        {status === "unmatched" ? (
+          <p className="form-ok">Request received. No hauler in our network covers that ZIP yet — nobody will call until one does.</p>
         ) : null}
         {status === "err" ? <p className="form-err">Something went wrong. Try again.</p> : null}
       </form>

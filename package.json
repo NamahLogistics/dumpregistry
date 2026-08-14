@@ -13,6 +13,7 @@
     "db:seed": "pnpm --filter @dumpregistry/db seed",
     "data:resolve": "python3 scripts/resolve_pages.py",
     "data:zips": "python3 scripts/download_zips.py",
+    "data:zip-index": "python3 scripts/build_zip_index.py",
     "data:sitemaps": "python3 scripts/generate_sitemaps.py",
     "data:indexnow": "python3 scripts/ping_indexnow.py",
     "data:indexnow:live": "INDEXNOW_DRY_RUN=0 python3 scripts/ping_indexnow.py",

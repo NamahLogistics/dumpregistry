@@ -27,7 +27,8 @@ export default function PrivacyPage() {
       </p>
       <p>
         <strong>Hauler partner applications</strong> on <Link href="/partners">/partners</Link>: company name,
-        contact name, work email, phone if you provide one, cities you cover, services, plan, and notes.
+        contact name, work email, phone if you provide one, shop ZIP, coverage ZIPs and/or radius, services, plan,
+        and an attestation that you serve that area.
       </p>
       <p>
         <strong>Corrections</strong> (“Did this city change their rules?”): the message, an official source URL,
@@ -41,14 +42,15 @@ export default function PrivacyPage() {
       <h2>Pickup requests and local haulers</h2>
       <p>
         A pickup request is optional and separate from the free disposal answer on the same page. If you submit
-        one, we may share it with a hauler whose coverage includes your city, state, or a nationwide area so
-        they can contact you about options. That share can include your name, email, phone, ZIP, item, city,
-        and notes.
+        one, we match your ZIP to haulers who listed that ZIP in their coverage. We send the request to at most
+        one matched hauler who has prepaid credits (or trial credits) so they can contact you about a quote. That
+        share can include your name, email, phone, ZIP, item, city, and notes.
       </p>
       <p>
-        We review and route requests ourselves. We do not send them to bulk lead networks, HomeAdvisor-style
-        marketplaces, or unrelated advertisers. A hauler who receives a request invoices you directly; DumpRegistry
-        is not the hauler.
+        If no hauler covers your ZIP, we store the request and do not send it. We do not blast your details to
+        every partner, bulk lead networks, or unrelated advertisers. A hauler who receives a request invoices you
+        directly; DumpRegistry is not the hauler. Haulers pay DumpRegistry separately for prepaid lead packs via
+        Dodo Payments.
       </p>
 
       <h2>Analytics and hosting</h2>
@@ -92,7 +94,7 @@ export default function PrivacyPage() {
       </p>
       <p>
         If you are in a place with a “do not sell or share” right: we do not sell your information to data
-        brokers. Sharing a pickup request with a hauler you asked us to contact is the service that form
+        brokers. Sharing a pickup request with the one matched hauler for your ZIP is the service that form
         provides. Email the same address if you want us to stop sharing a request that has not already been
         sent.
       </p>

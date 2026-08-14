@@ -1,22 +1,12 @@
 "use client";
 
-import { FormEvent, Suspense, useMemo, useState } from "react";
+import { FormEvent, useState } from "react";
 import Link from "next/link";
-import { useSearchParams } from "next/navigation";
 import { trackEvent } from "@/lib/analytics";
 
 function PartnersForm() {
-  const params = useSearchParams();
-  const presetCity = params.get("city") ?? "";
   const [status, setStatus] = useState<"idle" | "ok" | "err">("idle");
-
-  const cityDefault = useMemo(() => {
-    if (!presetCity) return "";
-    return presetCity
-      .split("-")
-      .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
-      .join(" ");
-  }, [presetCity]);
+  const [message, setMessage] = useState<string | null>(null);
 
   async function submit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -29,30 +19,45 @@ function PartnersForm() {
         contactName: fd.get("contactName"),
         email: fd.get("email"),
         phone: fd.get("phone"),
-        cities: fd.get("cities"),
         services: fd.get("services"),
         notes: fd.get("notes"),
         plan: fd.get("plan"),
+        shopZip: fd.get("shopZip"),
+        coverageZips: fd.get("coverageZips"),
+        radiusMiles: fd.get("radiusMiles"),
+        attest: fd.get("attest") === "on",
       }),
     });
-    setStatus(res.ok ? "ok" : "err");
-    if (res.ok) {
-      trackEvent("generate_lead", {
-        lead_type: "partner",
-        plan: String(fd.get("plan") ?? ""),
-      });
-      e.currentTarget.reset();
+    const data = await res.json().catch(() => ({}));
+    if (!res.ok) {
+      setStatus("err");
+      setMessage(typeof data.error === "string" ? data.error : "Something went wrong.");
+      return;
     }
+    trackEvent("generate_lead", {
+      lead_type: "partner",
+      plan: String(fd.get("plan") ?? ""),
+    });
+    if (typeof data.checkoutUrl === "string" && data.checkoutUrl) {
+      window.location.href = data.checkoutUrl;
+      return;
+    }
+    setStatus("ok");
+    setMessage(
+      data.status === "pending_payment"
+        ? (data.error ?? "Coverage saved. We’ll email a Dodo pay link when checkout is configured.")
+        : `You’re live for ${data.zipCount ?? "your"} ZIPs with 10 trial leads.`,
+    );
+    e.currentTarget.reset();
   }
 
   return (
     <form className="partner-form" onSubmit={submit}>
       <label>
-        Plan
-        <select name="plan" defaultValue="pilot" required>
-          <option value="pilot">Network trial — 10 free leads in your coverage area</option>
-          <option value="starter">Coverage — pay per lead wherever you work</option>
-          <option value="exclusive">Exclusive metro — sole partner in one city (later)</option>
+        Start with
+        <select name="plan" defaultValue="trial" required>
+          <option value="trial">Network trial — 10 free leads in my ZIP coverage</option>
+          <option value="pack">Pay now — 10-lead pack ($250) via Dodo</option>
         </select>
       </label>
       <label>
@@ -74,15 +79,36 @@ function PartnersForm() {
         </label>
       </div>
       <label>
-        Cities you cover
+        Shop ZIP
         <input
-          name="cities"
+          name="shopZip"
           required
-          maxLength={400}
-          defaultValue={cityDefault}
-          placeholder="Nationwide, or Texas / Dallas / 50-mile radius…"
+          inputMode="numeric"
+          pattern="[0-9]{5}"
+          maxLength={10}
+          placeholder="14604"
         />
       </label>
+      <div className="partner-form-row">
+        <label>
+          Radius from shop (miles)
+          <input
+            name="radiusMiles"
+            type="number"
+            min={1}
+            max={150}
+            placeholder="Optional, max 150"
+          />
+        </label>
+        <label>
+          Extra ZIPs
+          <input name="coverageZips" maxLength={2000} placeholder="Optional: 14604, 14620…" />
+        </label>
+      </div>
+      <p className="partner-coverage-hint">
+        We expand a radius into real US ZIPs and only send jobs whose ZIP is in that set. Shop ZIP is always
+        included. Max radius 150 miles.
+      </p>
       <label>
         What you haul
         <input
@@ -94,23 +120,24 @@ function PartnersForm() {
       </label>
       <label>
         Anything we should know
-        <textarea
-          name="notes"
-          maxLength={1500}
-          placeholder="License, service radius, how many jobs you want per week…"
-        />
+        <textarea name="notes" maxLength={1500} placeholder="License, crew size, items you refuse…" />
+      </label>
+      <label className="partner-attest">
+        <input name="attest" type="checkbox" required />
+        <span>
+          I legally serve these ZIPs and will quote jobs we send there. DumpRegistry does not check junk
+          licenses; coverage is the ZIP set I submit.
+        </span>
       </label>
       <button type="submit" className="btn-primary">
-        Request partner access
+        Go live
       </button>
       <p className="lead-privacy">
-        We’ll use this to evaluate a partnership — not to sell your contact to unrelated lists.{" "}
+        Trial starts immediately. Paid packs activate when Dodo confirms payment — no admin step.{" "}
         <Link href="/privacy">Privacy</Link>
       </p>
-      {status === "ok" ? (
-        <p className="form-ok">Got it. We’ll email next steps and a sample lead format.</p>
-      ) : null}
-      {status === "err" ? <p className="form-err">Something went wrong. Try again.</p> : null}
+      {status === "ok" ? <p className="form-ok">{message}</p> : null}
+      {status === "err" ? <p className="form-err">{message ?? "Something went wrong. Try again."}</p> : null}
     </form>
   );
 }
@@ -121,15 +148,14 @@ export default function PartnersPage() {
       <section className="partner-hero">
         <div className="shell partner-hero-inner">
           <p className="partner-brand">DumpRegistry Partners</p>
-          <h1>Jobs from 300 cities — you set the coverage, not one metro.</h1>
+          <h1>Jobs in the ZIPs you serve — prepaid, one hauler per request.</h1>
           <p className="partner-hero-lead">
-            People land on disposal guides nationwide. When they cannot self-haul, they request pickup with a
-            ZIP. We email you the job if it falls in the area you listed — nationwide, a state, or a radius.
-            Not a bidding war. Not “buy Rochester exclusive.”
+            Residents ask for pickup with a ZIP. We match that ZIP to your coverage, email you the job, and
+            subtract one prepaid credit. Not a bid war. Not a nationwide blast.
           </p>
           <div className="partner-hero-actions">
             <a className="btn-primary" href="#apply">
-              Apply with your coverage
+              Set coverage and go live
             </a>
             <Link className="btn-secondary" href="/cities">
               See live cities
@@ -142,19 +168,19 @@ export default function PartnersPage() {
         <h2>How it works</h2>
         <ol className="partner-steps">
           <li>
-            <strong>Someone needs haul-away</strong>
-            <span>They get the free official answer first, then ask for a pickup quote with name, phone, and ZIP.</span>
+            <strong>You declare a service area</strong>
+            <span>Shop ZIP plus a radius and/or a ZIP list. We store the ZIP set. That is how we know you serve the area.</span>
           </li>
           <li>
-            <strong>We match coverage, not a single city seat</strong>
+            <strong>Someone requests haul-away</strong>
+            <span>They get the free official answer first, then a pickup form with name, phone, and ZIP.</span>
+          </li>
+          <li>
+            <strong>One matching hauler gets the job</strong>
             <span>
-              If you listed nationwide, their state, or their city, you get the email. Write “nationwide” if you
-              take jobs anywhere you can legally work.
+              If your ZIP set includes theirs and you have credits, you get the email. You quote and invoice the
+              customer. After trial, a 10-lead pack is $250 on Dodo — paid packs refill automatically.
             </span>
-          </li>
-          <li>
-            <strong>You quote and keep the job</strong>
-            <span>You call the customer, quote, and invoice them. No job commission.</span>
           </li>
         </ol>
       </section>
@@ -165,38 +191,36 @@ export default function PartnersPage() {
           <article>
             <h3>Network trial</h3>
             <p className="partner-price">10 free leads</p>
-            <p>Your coverage area — nationwide, a state, or a list of metros. Prove job quality before you pay.</p>
+            <p>Live as soon as you submit coverage. No admin activation.</p>
           </article>
           <article>
-            <h3>Coverage</h3>
-            <p className="partner-price">Pay per lead</p>
-            <p>Shared jobs anywhere you said you work. Pricing sent after you apply — not locked to one city.</p>
+            <h3>Lead pack</h3>
+            <p className="partner-price">$250 / 10 leads</p>
+            <p>Prepaid on Dodo. When credits hit zero we email a new checkout. You go live again on payment.</p>
           </article>
           <article>
             <h3>Exclusive metro</h3>
-            <p className="partner-price">Monthly + per lead</p>
-            <p>Optional later, only where volume is real. Do not start here — clicks are spread across the country.</p>
+            <p className="partner-price">Later</p>
+            <p>Not in this desk. Shared coverage uses fair rotation among haulers who listed that ZIP.</p>
           </article>
         </div>
       </section>
 
       <section className="shell partner-section partner-why">
-        <h2>Why haulers use this</h2>
+        <h2>Why this is automated</h2>
         <ul>
-          <li>Leads come from people who already decided they need haul-away — mattress, bulky, C&amp;D, appliances.</li>
-          <li>Coverage is yours: nationwide, a state, or named cities. We will not sit on Rochester-only seats.</li>
-          <li>You keep the customer and the invoice. Apply once, onboard by email.</li>
+          <li>Coverage is a ZIP set, not a city-name guess. Unknown ZIPs stay unmatched.</li>
+          <li>One hauler per request. You keep the customer invoice.</li>
+          <li>Fees are prepaid Dodo packs. No one invoices you by hand.</li>
         </ul>
       </section>
 
       <section className="shell partner-section" id="apply" aria-labelledby="apply-heading">
-        <h2 id="apply-heading">Apply</h2>
+        <h2 id="apply-heading">Go live</h2>
         <p className="partner-apply-lead">
-          Tell us where you actually take jobs. “Nationwide” is valid. We’ll email a sample lead format.
+          Shop ZIP is required. Add a radius or extra ZIPs so we can match real pickup requests.
         </p>
-        <Suspense fallback={<p>Loading form…</p>}>
-          <PartnersForm />
-        </Suspense>
+        <PartnersForm />
       </section>
     </div>
   );

@@ -59,4 +59,4 @@ pnpm data:indexnow:live   # production ping
 
 ## Monetization
 
-Set `NEXT_PUBLIC_ADS_PROVIDER=adsense` and `NEXT_PUBLIC_ADSENSE_CLIENT=ca-pub-…` (script + `ads.txt`). Lead pickup forms post to `/api/leads`.
+Set `NEXT_PUBLIC_ADS_PROVIDER=adsense` and `NEXT_PUBLIC_ADSENSE_CLIENT=ca-pub-…` (script + `ads.txt`). Pickup forms post to `/api/leads` (ZIP-matched, one hauler, Dodo prepaid packs). Partner apply is `/partners`. Webhook: `DODO_PAYMENTS_API_KEY`, `DODO_PAYMENTS_WEBHOOK_KEY`, `DODO_PAYMENTS_ENVIRONMENT`, `DODO_PRODUCT_ID_LEAD_PACK`.

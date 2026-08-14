@@ -135,11 +135,43 @@ export const leadRequests = pgTable("lead_requests", {
   id: serial("id").primaryKey(),
   city: varchar("city", { length: 120 }).notNull(),
   state: varchar("state", { length: 2 }).notNull(),
+  zip: varchar("zip", { length: 16 }),
   itemSlug: varchar("item_slug", { length: 120 }),
   name: varchar("name", { length: 160 }).notNull(),
   email: varchar("email", { length: 200 }).notNull(),
   phone: varchar("phone", { length: 40 }),
   notes: text("notes"),
   status: varchar("status", { length: 40 }).notNull().default("new"),
+  partnerId: integer("partner_id"),
+  routedAt: timestamp("routed_at", { withTimezone: true }),
+  createdAt: timestamp("created_at", { withTimezone: true }).defaultNow(),
+});
+
+export const partnerApplications = pgTable("partner_applications", {
+  id: serial("id").primaryKey(),
+  company: varchar("company", { length: 160 }).notNull(),
+  contactName: varchar("contact_name", { length: 120 }).notNull(),
+  email: varchar("email", { length: 200 }).notNull(),
+  phone: varchar("phone", { length: 40 }),
+  cities: text("cities").notNull(),
+  services: text("services").notNull(),
+  notes: text("notes"),
+  plan: varchar("plan", { length: 40 }).default("trial"),
+  status: varchar("status", { length: 40 }).notNull().default("pending"),
+  shopZip: varchar("shop_zip", { length: 16 }),
+  coverageZips: text("coverage_zips"),
+  radiusMiles: integer("radius_miles"),
+  attestAt: timestamp("attest_at", { withTimezone: true }),
+  dodoCustomerId: varchar("dodo_customer_id", { length: 80 }),
+  leadCredits: integer("lead_credits").notNull().default(0),
+  leadsRoutedCount: integer("leads_routed_count").notNull().default(0),
+  createdAt: timestamp("created_at", { withTimezone: true }).defaultNow(),
+});
+
+export const dodoPayments = pgTable("dodo_payments", {
+  id: serial("id").primaryKey(),
+  paymentId: varchar("payment_id", { length: 80 }).notNull().unique(),
+  partnerId: integer("partner_id").notNull(),
+  creditsGranted: integer("credits_granted").notNull(),
   createdAt: timestamp("created_at", { withTimezone: true }).defaultNow(),
 });

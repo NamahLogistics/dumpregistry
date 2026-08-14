@@ -13,6 +13,9 @@ importers:
       '@vercel/analytics':
         specifier: ^2.0.1
         version: 2.0.1(next@16.3.0(@babel/core@7.29.7)(@types/node@20.19.43)(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(react@19.2.8)
+      dodopayments:
+        specifier: ^2.46.0
+        version: 2.46.0
       leaflet:
         specifier: ^1.9.4
         version: 1.9.4
@@ -1492,6 +1495,10 @@ packages:
   doctrine@2.1.0:
     resolution: {integrity: sha512-35mSku4ZXK0vfCuHEDAwt55dg2jNajHZ1odvF+8SSr82EsZY4QmXfuWso8oEd8zRhVObSN18aM0CjSdoBX7zIw==}
     engines: {node: '>=0.10.0'}
+
+  dodopayments@2.46.0:
+    resolution: {integrity: sha512-KL1LQtqG7TsNHRgmyhgHC17NANrGa8Ei85TBHk/gY9Eok7ZFt4lzmlZeriG9R6MlOEXNGnQrU8DsS66uCfXSWg==}
+    hasBin: true
 
   drizzle-kit@0.31.10:
     resolution: {integrity: sha512-7OZcmQUrdGI+DUNNsKBn1aW8qSoKuTH7d0mYgSP8bAzdFzKoovxEFnoGQp2dVs82EOJeYycqRtciopszwUf8bw==}
@@ -3815,6 +3822,10 @@ snapshots:
   doctrine@2.1.0:
     dependencies:
       esutils: 2.0.3
+
+  dodopayments@2.46.0:
+    dependencies:
+      standardwebhooks: 1.0.0
 
   drizzle-kit@0.31.10:
     dependencies:

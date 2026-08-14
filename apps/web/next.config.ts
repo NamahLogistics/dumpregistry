@@ -6,6 +6,9 @@ const nextConfig: NextConfig = {
   experimental: {
     externalDir: true,
   },
+  outputFileTracingIncludes: {
+    "/api/partners/**": ["../../data/geo/zip_index.json"],
+  },
 };
 
 export default nextConfig;
