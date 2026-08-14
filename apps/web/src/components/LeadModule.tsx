@@ -8,22 +8,30 @@ export function LeadModule({
   city,
   state,
   itemSlug,
+  itemName,
+  askLocation = false,
 }: {
-  city: string;
-  state: string;
+  city?: string;
+  state?: string;
   itemSlug?: string;
+  itemName?: string;
+  askLocation?: boolean;
 }) {
   const [status, setStatus] = useState<"idle" | "ok" | "err">("idle");
+  const item = itemName || "this item";
 
   async function submit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     const fd = new FormData(e.currentTarget);
+    const cityVal = String(fd.get("city") ?? city ?? "").trim();
+    const stateVal = String(fd.get("state") ?? state ?? "").trim();
     const res = await fetch("/api/leads", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
-        city,
-        state,
+        city: cityVal,
+        state: stateVal,
+        zip: fd.get("zip"),
         itemSlug,
         name: fd.get("name"),
         email: fd.get("email"),
@@ -35,8 +43,8 @@ export function LeadModule({
     if (res.ok) {
       trackEvent("generate_lead", {
         lead_type: "pickup",
-        city,
-        state,
+        city: cityVal,
+        state: stateVal,
         item_slug: itemSlug,
       });
       e.currentTarget.reset();
@@ -45,37 +53,73 @@ export function LeadModule({
 
   return (
     <section className="lead-module" aria-labelledby="lead-heading">
-      <h2 id="lead-heading">Need pickup in {city}?</h2>
+      <p className="lead-kicker">Pickup quote</p>
+      <h2 id="lead-heading">Can’t take this {item} yourself?</h2>
       <p>
-        If you cannot haul it yourself, request pickup options. We may share this request with vetted local
-        haulers in our lead marketplace. Optional — separate from the free disposal answer above.
+        The official drop-off steps above stay free. If you want someone to haul it, a hauler in our network
+        may call with a quote — you pay them, not DumpRegistry.
       </p>
       <form onSubmit={submit} className="lead-form">
+        {askLocation ? (
+          <div className="lead-form-row">
+            <label>
+              City
+              <input name="city" required maxLength={120} placeholder="Your city" defaultValue={city} />
+            </label>
+            <label>
+              State
+              <input name="state" required maxLength={40} placeholder="TX" defaultValue={state} />
+            </label>
+          </div>
+        ) : (
+          <>
+            <input type="hidden" name="city" value={city} />
+            <input type="hidden" name="state" value={state} />
+          </>
+        )}
+        <div className="lead-form-row">
+          <label>
+            Name
+            <input name="name" required maxLength={120} autoComplete="name" />
+          </label>
+          <label>
+            Phone
+            <input name="phone" type="tel" required maxLength={40} autoComplete="tel" placeholder="So they can quote you" />
+          </label>
+        </div>
+        <div className="lead-form-row">
+          <label>
+            Email
+            <input name="email" type="email" required maxLength={200} autoComplete="email" />
+          </label>
+          <label>
+            ZIP
+            <input
+              name="zip"
+              required
+              inputMode="numeric"
+              pattern="[0-9]{5}"
+              maxLength={10}
+              autoComplete="postal-code"
+              placeholder="12345"
+            />
+          </label>
+        </div>
         <label>
-          Name
-          <input name="name" required maxLength={120} />
+          What should they know?
+          <textarea name="notes" maxLength={1000} placeholder="Size, stairs, timing, gate code…" />
         </label>
-        <label>
-          Email
-          <input name="email" type="email" required maxLength={200} />
-        </label>
-        <label>
-          Phone
-          <input name="phone" type="tel" maxLength={40} />
-        </label>
-        <label>
-          Notes
-          <textarea name="notes" maxLength={1000} placeholder="Item size, stairs, timing…" />
-        </label>
-        <button type="submit" className="btn-secondary">
-          Request pickup options
+        <button type="submit" className="btn-primary">
+          Get a pickup quote
         </button>
         <p className="lead-privacy">
-          Optional. We may share this request with a vetted local hauler.{" "}
+          We’ll share this with a hauler who covers your area. Not a bid war.{" "}
           <Link href="/privacy">Privacy</Link>
         </p>
-        {status === "ok" ? <p className="form-ok">Request received.</p> : null}
-        {status === "err" ? <p className="form-err">Something went wrong.</p> : null}
+        {status === "ok" ? (
+          <p className="form-ok">Request received — a hauler may call if one covers your ZIP.</p>
+        ) : null}
+        {status === "err" ? <p className="form-err">Something went wrong. Try again.</p> : null}
       </form>
     </section>
   );

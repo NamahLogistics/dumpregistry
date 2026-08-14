@@ -6,6 +6,7 @@ type Lead = {
   id: number;
   city: string;
   state: string;
+  zip: string | null;
   item_slug: string | null;
   name: string;
   email: string;
@@ -62,8 +63,8 @@ export default function AdminLeadsPage() {
     <main className="admin-review">
       <h1>Lead marketplace queue</h1>
       <p>
-        Qualify and route pickup requests to partners. Status changes never auto-bill buyers — routing stays
-        manual until partner contracts are live.
+        Qualify and route pickup requests to partners who cover that ZIP. Status changes never auto-bill
+        buyers.
       </p>
       <form className="admin-auth" onSubmit={load}>
         <label>
@@ -80,6 +81,7 @@ export default function AdminLeadsPage() {
             <div>
               <strong>
                 {r.city}, {r.state}
+                {r.zip ? ` ${r.zip}` : ""}
                 {r.item_slug ? ` · ${r.item_slug}` : ""}
               </strong>
               <span>

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { LeadModule } from "@/components/LeadModule";
 import {
   badgeLabel,
   cityItemHref,
@@ -79,6 +80,8 @@ export default async function MaterialPage({ params }: Props) {
           <Link href={`/centers?material=${item.slug}`}>Centers</Link>.
         </p>
       </section>
+
+      <LeadModule itemSlug={item.slug} itemName={item.name} askLocation />
 
       {overview ? (
         <>

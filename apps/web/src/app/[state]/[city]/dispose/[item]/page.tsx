@@ -186,6 +186,13 @@ export default async function DisposeItemPage({ params }: Props) {
         phone={primaryPhone}
       />
 
+      <LeadModule
+        city={page.city}
+        state={page.state}
+        itemSlug={page.item_slug}
+        itemName={page.item_name}
+      />
+
       <ContinueReading
         id="related-same-city"
         heading={`Also disposing in ${page.city}?`}
@@ -245,8 +252,6 @@ export default async function DisposeItemPage({ params }: Props) {
           }))}
         />
       ) : null}
-
-      <LeadModule city={page.city} state={page.state} itemSlug={page.item_slug} />
 
       <CityItemFinder
         city={page.city}

@@ -22,8 +22,8 @@ export default function PrivacyPage() {
 
       <h2>What we collect when you choose to submit</h2>
       <p>
-        <strong>Pickup requests</strong> (optional form on city item pages): name, email, phone if you provide
-        one, city and state, the item, and any notes you write.
+        <strong>Pickup requests</strong> (optional form on city item and material pages): name, email, phone,
+        ZIP, city and state, the item, and any notes you write.
       </p>
       <p>
         <strong>Hauler partner applications</strong> on <Link href="/partners">/partners</Link>: company name,
@@ -41,8 +41,9 @@ export default function PrivacyPage() {
       <h2>Pickup requests and local haulers</h2>
       <p>
         A pickup request is optional and separate from the free disposal answer on the same page. If you submit
-        one, we may share it with a vetted local hauler who covers that city so they can contact you about
-        options. That share can include your name, email, phone, item, city, and notes.
+        one, we may share it with a hauler whose coverage includes your city, state, or a nationwide area so
+        they can contact you about options. That share can include your name, email, phone, ZIP, item, city,
+        and notes.
       </p>
       <p>
         We review and route requests ourselves. We do not send them to bulk lead networks, HomeAdvisor-style

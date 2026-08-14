@@ -14,8 +14,10 @@ export async function GET(req: Request) {
   const db = getSql();
   if (!db) return NextResponse.json({ error: "DATABASE_URL required" }, { status: 503 });
 
+  await db`ALTER TABLE lead_requests ADD COLUMN IF NOT EXISTS zip VARCHAR(16)`;
+
   const rows = await db`
-    SELECT id, city, state, item_slug, name, email, phone, notes, status, created_at
+    SELECT id, city, state, zip, item_slug, name, email, phone, notes, status, created_at
     FROM lead_requests
     ORDER BY created_at DESC
     LIMIT 200

@@ -50,9 +50,9 @@ function PartnersForm() {
       <label>
         Plan
         <select name="plan" defaultValue="pilot" required>
-          <option value="pilot">Pilot — 10 free leads in one city</option>
-          <option value="starter">Starter — pay per shared lead</option>
-          <option value="exclusive">Exclusive — sole partner in a city</option>
+          <option value="pilot">Network trial — 10 free leads in your coverage area</option>
+          <option value="starter">Coverage — pay per lead wherever you work</option>
+          <option value="exclusive">Exclusive metro — sole partner in one city (later)</option>
         </select>
       </label>
       <label>
@@ -80,7 +80,7 @@ function PartnersForm() {
           required
           maxLength={400}
           defaultValue={cityDefault}
-          placeholder="Houston, Dallas, Austin…"
+          placeholder="Nationwide, or Texas / Dallas / 50-mile radius…"
         />
       </label>
       <label>
@@ -121,14 +121,15 @@ export default function PartnersPage() {
       <section className="partner-hero">
         <div className="shell partner-hero-inner">
           <p className="partner-brand">DumpRegistry Partners</p>
-          <h1>Pickup leads from people already trying to dispose of something.</h1>
+          <h1>Jobs from 300 cities — you set the coverage, not one metro.</h1>
           <p className="partner-hero-lead">
-            Residents land on city disposal guides. When they cannot self-haul, they request pickup. Those
-            requests go to local haulers — not a marketplace bidding war.
+            People land on disposal guides nationwide. When they cannot self-haul, they request pickup with a
+            ZIP. We email you the job if it falls in the area you listed — nationwide, a state, or a radius.
+            Not a bidding war. Not “buy Rochester exclusive.”
           </p>
           <div className="partner-hero-actions">
             <a className="btn-primary" href="#apply">
-              Apply for your cities
+              Apply with your coverage
             </a>
             <Link className="btn-secondary" href="/cities">
               See live cities
@@ -141,16 +142,19 @@ export default function PartnersPage() {
         <h2>How it works</h2>
         <ol className="partner-steps">
           <li>
-            <strong>Someone needs help</strong>
-            <span>They finish the free disposal answer, then ask for pickup options on that page.</span>
+            <strong>Someone needs haul-away</strong>
+            <span>They get the free official answer first, then ask for a pickup quote with name, phone, and ZIP.</span>
           </li>
           <li>
-            <strong>We match by city</strong>
-            <span>Active partners covering that city get the request by email.</span>
+            <strong>We match coverage, not a single city seat</strong>
+            <span>
+              If you listed nationwide, their state, or their city, you get the email. Write “nationwide” if you
+              take jobs anywhere you can legally work.
+            </span>
           </li>
           <li>
-            <strong>You close the job</strong>
-            <span>You contact the customer, quote, and invoice them directly. No job commission.</span>
+            <strong>You quote and keep the job</strong>
+            <span>You call the customer, quote, and invoice them. No job commission.</span>
           </li>
         </ol>
       </section>
@@ -159,19 +163,19 @@ export default function PartnersPage() {
         <h2>Plans</h2>
         <div className="partner-plans">
           <article>
-            <h3>Pilot</h3>
+            <h3>Network trial</h3>
             <p className="partner-price">10 free leads</p>
-            <p>One city while we prove match quality. Best if you want to test volume before paying.</p>
+            <p>Your coverage area — nationwide, a state, or a list of metros. Prove job quality before you pay.</p>
           </article>
           <article>
-            <h3>Starter</h3>
+            <h3>Coverage</h3>
             <p className="partner-price">Pay per lead</p>
-            <p>Shared city coverage. Pricing depends on city and item — sent after you apply.</p>
+            <p>Shared jobs anywhere you said you work. Pricing sent after you apply — not locked to one city.</p>
           </article>
           <article>
-            <h3>Exclusive</h3>
+            <h3>Exclusive metro</h3>
             <p className="partner-price">Monthly + per lead</p>
-            <p>Sole partner in a city. Limited seats — apply with the metros you can actually cover.</p>
+            <p>Optional later, only where volume is real. Do not start here — clicks are spread across the country.</p>
           </article>
         </div>
       </section>
@@ -179,15 +183,17 @@ export default function PartnersPage() {
       <section className="shell partner-section partner-why">
         <h2>Why haulers use this</h2>
         <ul>
-          <li>Leads come from people who already decided they need disposal help in a specific city.</li>
-          <li>No cold call required to join — apply once, onboard by email.</li>
-          <li>You keep the customer relationship and the invoice.</li>
+          <li>Leads come from people who already decided they need haul-away — mattress, bulky, C&amp;D, appliances.</li>
+          <li>Coverage is yours: nationwide, a state, or named cities. We will not sit on Rochester-only seats.</li>
+          <li>You keep the customer and the invoice. Apply once, onboard by email.</li>
         </ul>
       </section>
 
       <section className="shell partner-section" id="apply" aria-labelledby="apply-heading">
         <h2 id="apply-heading">Apply</h2>
-        <p className="partner-apply-lead">Tell us where you work. We’ll reply with onboarding and sample lead format.</p>
+        <p className="partner-apply-lead">
+          Tell us where you actually take jobs. “Nationwide” is valid. We’ll email a sample lead format.
+        </p>
         <Suspense fallback={<p>Loading form…</p>}>
           <PartnersForm />
         </Suspense>

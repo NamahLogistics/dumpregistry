@@ -588,6 +588,29 @@ button.facility-action {
   gap: 0.85rem;
 }
 
+.lead-module {
+  margin: 1.25rem 0 0.5rem;
+  padding: 1.15rem 1.2rem 1.25rem;
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--brand);
+  background: var(--surface);
+}
+
+.lead-kicker {
+  margin: 0;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--brand-strong, var(--brand));
+}
+
+.lead-form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+}
+
 .trust-panel {
   padding: 1.1rem 1.15rem;
   background: var(--surface);
@@ -873,6 +896,13 @@ button.facility-action {
   padding: 1rem;
   background: var(--surface);
   border: 1px solid var(--line);
+}
+
+.lead-module .lead-form {
+  margin-top: 0.15rem;
+  padding: 0;
+  border: 0;
+  background: transparent;
 }
 
 .form-ok {
@@ -1737,7 +1767,8 @@ button.facility-action {
     grid-template-columns: 1fr;
   }
 
-  .partner-form-row {
+  .partner-form-row,
+  .lead-form-row {
     grid-template-columns: 1fr;
   }
 
