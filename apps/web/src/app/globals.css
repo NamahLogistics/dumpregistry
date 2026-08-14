@@ -267,6 +267,10 @@ a:hover {
   color: rgba(255, 255, 255, 0.7);
 }
 
+.footer-bar-inner a {
+  color: #fff;
+}
+
 /* —— Hero —— */
 .hero-plane {
   background:
@@ -879,6 +883,13 @@ button.facility-action {
   color: var(--danger);
 }
 
+.lead-privacy {
+  margin: 0;
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: var(--ink-soft, #5c6b7a);
+}
+
 .hub-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
@@ -1274,6 +1285,7 @@ button.facility-action {
 }
 
 .prose h1,
+.prose h2,
 .page h2 {
   font-family: var(--font-display);
   color: var(--brand-ink);

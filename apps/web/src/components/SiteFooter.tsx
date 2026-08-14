@@ -27,6 +27,7 @@ export function SiteFooter() {
             <Link href="/methodology">Verification method</Link>
             <Link href="/sources">Official sources</Link>
             <Link href="/about">About</Link>
+            <Link href="/privacy">Privacy</Link>
           </div>
           <div className="footer-links">
             <h2>Partners</h2>
@@ -37,6 +38,7 @@ export function SiteFooter() {
       <div className="footer-bar">
         <div className="shell footer-bar-inner">
           <span>© {new Date().getFullYear()} DumpRegistry</span>
+          <Link href="/privacy">Privacy</Link>
           <span>Last editorial standard: city-sourced · dated · actionable</span>
         </div>
       </div>

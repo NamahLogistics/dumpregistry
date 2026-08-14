@@ -62,6 +62,7 @@ def main() -> None:
     urls: list[tuple[str, str, str | None]] = [
         (f"{BASE}/", "1.0", None),
         (f"{BASE}/about", "0.5", None),
+        (f"{BASE}/privacy", "0.4", None),
         (f"{BASE}/methodology", "0.5", None),
         (f"{BASE}/partners", "0.6", None),
         (f"{BASE}/cities", "0.8", None),

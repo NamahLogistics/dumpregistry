@@ -103,6 +103,10 @@ function PartnersForm() {
       <button type="submit" className="btn-primary">
         Request partner access
       </button>
+      <p className="lead-privacy">
+        We’ll use this to evaluate a partnership — not to sell your contact to unrelated lists.{" "}
+        <Link href="/privacy">Privacy</Link>
+      </p>
       {status === "ok" ? (
         <p className="form-ok">Got it. We’ll email next steps and a sample lead format.</p>
       ) : null}

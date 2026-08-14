@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import { trackEvent } from "@/lib/analytics";
 
 export function LeadModule({
@@ -69,6 +70,10 @@ export function LeadModule({
         <button type="submit" className="btn-secondary">
           Request pickup options
         </button>
+        <p className="lead-privacy">
+          Optional. We may share this request with a vetted local hauler.{" "}
+          <Link href="/privacy">Privacy</Link>
+        </p>
         {status === "ok" ? <p className="form-ok">Request received.</p> : null}
         {status === "err" ? <p className="form-err">Something went wrong.</p> : null}
       </form>

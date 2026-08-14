@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import { Merriweather, Source_Sans_3 } from "next/font/google";
+import Script from "next/script";
 import { Analytics } from "@/components/Analytics";
 import { OfficialViewerProvider } from "@/components/OfficialViewer";
+import { ADSENSE_PUB, adsenseClient } from "@/lib/ads";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 import { site } from "@/lib/site";
@@ -45,6 +47,9 @@ export const metadata: Metadata = {
         google: gscVerification,
       }
     : undefined,
+  other: {
+    "google-adsense-account": adsenseClient() ?? ADSENSE_PUB,
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
@@ -86,6 +91,13 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           <main className="flex-1">{children}</main>
           <SiteFooter />
         </OfficialViewerProvider>
+        <Script
+          id="adsense"
+          async
+          src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${adsenseClient() ?? ADSENSE_PUB}`}
+          crossOrigin="anonymous"
+          strategy="beforeInteractive"
+        />
         <Analytics />
       </body>
     </html>

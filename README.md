@@ -59,4 +59,4 @@ pnpm data:indexnow:live   # production ping
 
 ## Monetization
 
-Set `NEXT_PUBLIC_ADS_PROVIDER` to `adsense`, `journey`, or `mediavine`. Lead pickup forms post to `/api/leads`.
+Set `NEXT_PUBLIC_ADS_PROVIDER=adsense` and `NEXT_PUBLIC_ADSENSE_CLIENT=ca-pub-…` (script + `ads.txt`). Lead pickup forms post to `/api/leads`.
