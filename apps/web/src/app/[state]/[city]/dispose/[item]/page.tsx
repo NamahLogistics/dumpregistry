@@ -142,6 +142,11 @@ export default async function DisposeItemPage({ params }: Props) {
         <div className="meta-row">
           <span>Category: {page.category}</span>
           <span>
+            <Link href={`/materials/${page.item_slug}`}>
+              {page.item_name} disposal near me
+            </Link>
+          </span>
+          <span>
             <Link href={`/${page.state_slug}/${page.city_slug}#${programKey}`}>
               {page.city} {programLabel}
             </Link>

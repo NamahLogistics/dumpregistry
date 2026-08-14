@@ -1,7 +1,9 @@
 import { readFileSync } from "node:fs";
 import path from "node:path";
 import { isTrueAlias } from "./aliases";
+import { milesBetween } from "./geo";
 import { dataRoot } from "./paths";
+import { facilitySlug } from "./seo";
 import type { SnippetOverride } from "./snippets";
 import type { City, CountyHhw, DisposalPage, Facility, Item, ZipHub } from "./types";
 
@@ -9,6 +11,14 @@ function readJson<T>(rel: string): T {
   const full = path.join(dataRoot(), rel);
   return JSON.parse(readFileSync(full, "utf8")) as T;
 }
+
+type RankingPriority = { cities: string[]; items: string[] };
+
+export type IndexedFacility = {
+  f: Facility;
+  city: City;
+  slug: string;
+};
 
 let cache: {
   items?: Item[];
@@ -18,6 +28,8 @@ let cache: {
   facilities?: Facility[];
   ctrOverrides?: Record<string, SnippetOverride>;
   countyHhw?: CountyHhw[];
+  rankingPriority?: RankingPriority;
+  indexedFacilities?: IndexedFacility[];
 } = {};
 
 export function getItems(): Item[] {
@@ -135,13 +147,80 @@ export function getFacilities(): Facility[] {
   return cache.facilities;
 }
 
+export function getRankingPriority(): RankingPriority {
+  if (!cache.rankingPriority) {
+    try {
+      cache.rankingPriority = readJson<RankingPriority>("seo/ranking_priority.json");
+    } catch {
+      cache.rankingPriority = { cities: [], items: [] };
+    }
+  }
+  return cache.rankingPriority;
+}
+
+function rankingCityRank(citySlug: string): number {
+  const i = getRankingPriority().cities.indexOf(citySlug);
+  return i === -1 ? 999 : i;
+}
+
+function rankingItemRank(itemSlug: string): number {
+  const i = getRankingPriority().items.indexOf(itemSlug);
+  return i === -1 ? 999 : i;
+}
+
+export function getIndexedFacilities(): IndexedFacility[] {
+  if (cache.indexedFacilities) return cache.indexedFacilities;
+  const cities = new Map(getCities().map((c) => [c.city_slug, c]));
+  const seen = new Set<string>();
+  const rows: IndexedFacility[] = [];
+  for (const f of getFacilities()) {
+    if (f.lat == null || f.lng == null) continue;
+    const city = cities.get(f.city_slug);
+    if (!city) continue;
+    const slug = facilitySlug(f);
+    if (seen.has(slug)) continue;
+    seen.add(slug);
+    rows.push({ f, city, slug });
+  }
+  cache.indexedFacilities = rows;
+  return rows;
+}
+
+export function getFacilityBySlug(slug: string): IndexedFacility | undefined {
+  return getIndexedFacilities().find((row) => row.slug === slug);
+}
+
+export function getCityIndexedFacilities(citySlug: string): IndexedFacility[] {
+  return getIndexedFacilities().filter((row) => row.f.city_slug === citySlug);
+}
+
+export function getNearbyIndexedFacilities(slug: string, limit = 6): IndexedFacility[] {
+  const origin = getFacilityBySlug(slug);
+  if (!origin || origin.f.lat == null || origin.f.lng == null) return [];
+  const here = { lat: origin.f.lat, lng: origin.f.lng };
+  return getIndexedFacilities()
+    .filter((row) => row.slug !== slug && row.f.lat != null && row.f.lng != null)
+    .map((row) => ({
+      row,
+      sameCity: row.f.city_slug === origin.f.city_slug ? 0 : 1,
+      mi: milesBetween(here, { lat: row.f.lat as number, lng: row.f.lng as number }),
+    }))
+    .filter((x) => x.mi <= 40)
+    .sort((a, b) => a.sameCity - b.sameCity || a.mi - b.mi)
+    .slice(0, limit)
+    .map((x) => x.row);
+}
+
 /** City dispose guides that cover a material — for encyclopedia deep links. */
 export function getMaterialCityGuides(itemSlug: string, limit = 24): DisposalPage[] {
   const pop = new Map(getCities().map((c) => [c.city_slug, c.population ?? 0]));
   return [...(getPagesIndex().byItem.get(itemSlug) ?? [])]
+    .filter((p) => p.indexable || isTrueAlias(itemSlug))
     .sort(
       (a, b) =>
-        (pop.get(b.city_slug) ?? 0) - (pop.get(a.city_slug) ?? 0) || a.city.localeCompare(b.city),
+        rankingCityRank(a.city_slug) - rankingCityRank(b.city_slug) ||
+        (pop.get(b.city_slug) ?? 0) - (pop.get(a.city_slug) ?? 0) ||
+        a.city.localeCompare(b.city),
     )
     .slice(0, limit);
 }
@@ -252,8 +331,8 @@ export function badgeLabel(badge: string) {
 /** High-intent items — good first clicks for hubs and continue-reading. */
 export const HIGH_INTENT_ITEMS = [
   "mattress",
+  "television",
   "construction-debris",
-  "concrete",
   "helium-tank",
   "styrofoam",
   "solar-panel",
@@ -261,20 +340,24 @@ export const HIGH_INTENT_ITEMS = [
   "propane-tank",
   "tires",
   "refrigerator",
+  "air-conditioner",
   "paint-latex",
+  "paint-oil",
+  "medical-sharps",
 ] as const;
 
 export function getRelatedInCity(page: DisposalPage, limit = 6): DisposalPage[] {
   const others = getCityPages(page.state_slug, page.city_slug).filter(
     (p) => p.item_slug !== page.item_slug,
   );
+  const ranking = others.filter((p) => rankingItemRank(p.item_slug) < 999 && p.indexable);
   const sameCat = others.filter((p) => p.category === page.category);
   const high = others.filter((p) =>
     (HIGH_INTENT_ITEMS as readonly string[]).includes(p.item_slug),
   );
   const seen = new Set<string>();
   const out: DisposalPage[] = [];
-  for (const p of [...sameCat, ...high, ...others]) {
+  for (const p of [...ranking, ...sameCat, ...high, ...others]) {
     if (seen.has(p.item_slug)) continue;
     seen.add(p.item_slug);
     out.push(p);
@@ -284,9 +367,19 @@ export function getRelatedInCity(page: DisposalPage, limit = 6): DisposalPage[] 
 }
 
 export function getSameItemOtherCities(page: DisposalPage, limit = 6): DisposalPage[] {
+  const pop = new Map(getCities().map((c) => [c.city_slug, c.population ?? 0]));
   return (getPagesIndex().byItem.get(page.item_slug) ?? [])
-    .filter((p) => !(p.state_slug === page.state_slug && p.city_slug === page.city_slug))
-    .sort((a, b) => a.city.localeCompare(b.city))
+    .filter(
+      (p) =>
+        p.indexable &&
+        !(p.state_slug === page.state_slug && p.city_slug === page.city_slug),
+    )
+    .sort(
+      (a, b) =>
+        rankingCityRank(a.city_slug) - rankingCityRank(b.city_slug) ||
+        (pop.get(b.city_slug) ?? 0) - (pop.get(a.city_slug) ?? 0) ||
+        a.city.localeCompare(b.city),
+    )
     .slice(0, limit);
 }
 
@@ -318,6 +411,11 @@ export function getDisposeStaticParams() {
     ...new Set(pages.map((p) => cityKey(p.state_slug, p.city_slug))),
   ].sort((a, b) => (pop.get(b) ?? 0) - (pop.get(a) ?? 0));
   const fullCities = new Set(rankedCities.slice(0, PRERENDER_FULL_CITY_COUNT));
+  for (const c of getCities()) {
+    if (rankingCityRank(c.city_slug) < 999) {
+      fullCities.add(cityKey(c.state_slug, c.city_slug));
+    }
+  }
   return pages
     .filter(
       (p) =>
@@ -341,13 +439,24 @@ export function getTopCoveredCities(limit = 12) {
 }
 
 export function getCityHighIntentGuides(stateSlug: string, citySlug: string, limit = 10) {
-  const bySlug = new Map(getCityPages(stateSlug, citySlug).map((p) => [p.item_slug, p]));
-  const pinned = HIGH_INTENT_ITEMS.map((slug) => bySlug.get(slug)).filter(Boolean) as DisposalPage[];
-  if (pinned.length >= limit) return pinned.slice(0, limit);
-  const rest = getCityPages(stateSlug, citySlug).filter(
-    (p) => !(HIGH_INTENT_ITEMS as readonly string[]).includes(p.item_slug),
-  );
-  return [...pinned, ...rest].slice(0, limit);
+  const indexable = getCityPages(stateSlug, citySlug).filter((p) => p.indexable);
+  const bySlug = new Map(indexable.map((p) => [p.item_slug, p]));
+  const pin = [...getRankingPriority().items, ...HIGH_INTENT_ITEMS];
+  const pinned: DisposalPage[] = [];
+  const seen = new Set<string>();
+  for (const slug of pin) {
+    const hit = bySlug.get(slug);
+    if (!hit || seen.has(slug)) continue;
+    seen.add(slug);
+    pinned.push(hit);
+    if (pinned.length >= limit) return pinned;
+  }
+  for (const p of indexable) {
+    if (seen.has(p.item_slug)) continue;
+    pinned.push(p);
+    if (pinned.length >= limit) break;
+  }
+  return pinned;
 }
 
 export const CITY_PROGRAMS = [

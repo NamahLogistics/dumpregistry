@@ -45,7 +45,14 @@ Default without env is dry-run (safe for local).
 
 ## 4. Weekly GSC loop (Phase 4)
 
-- Queries with impressions + low CTR → rewrite titles/descriptions in `data/seo/ctr_overrides.json` (pathname → `{ title, description }`). Dispose pages pick these up at build time.
+- **Position ≤ 20 only.** Ignore the 24-hour long tail and anything on page 3+.
+- Export Search Console Pages (or Queries) for ≥7 days as CSV, then:
+
+```bash
+python3 scripts/gsc_ctr_candidates.py path/to/gsc.csv
+```
+
+- Low CTR on those candidates → rewrite titles/descriptions in `data/seo/ctr_overrides.json` (pathname → `{ title, description }`). Keep material hubs as “near me,” city dispose as “in {city},” `/centers` as the ZIP tool.
 - Default snippets are generated in `apps/web/src/lib/snippets.ts` from verified city/item fields (no invented fees).
 - Pages on page 2 → expand internal links from materials/hubs
 - Soft-duplicate ZIP hubs → `noindex` if they cannibalize city pages

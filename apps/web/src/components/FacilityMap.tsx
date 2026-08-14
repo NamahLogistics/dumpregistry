@@ -28,12 +28,14 @@ export function FacilityMap({
   lng,
   facilities = [],
   zipRefs = [],
+  heading,
 }: {
   city: string;
   lat?: number | null;
   lng?: number | null;
   facilities?: Facility[];
   zipRefs?: Array<{ zip: string; lat?: number | null; lng?: number | null }>;
+  heading?: string;
 }) {
   const cityCenter =
     lat != null && lng != null ? ({ lat, lng } satisfies LatLng) : null;
@@ -90,7 +92,7 @@ export function FacilityMap({
   return (
     <section className="map-block" aria-labelledby="facilities-heading">
       <div className="map-heading-row">
-        <h2 id="facilities-heading">Where to take it in {city}</h2>
+        <h2 id="facilities-heading">{heading ?? `Where to take it in ${city}`}</h2>
         {pins.length > 0 ? <span className="map-stay-badge">Map stays on this page</span> : null}
       </div>
 

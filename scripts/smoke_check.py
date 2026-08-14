@@ -94,6 +94,15 @@ def main() -> None:
     assert "ZIP" in centers["title"]
     assert "near me" not in centers["title"].lower()
     assert "near you" not in centers["title"].lower()
+    aliases = json.loads((ROOT / "data" / "seo" / "item_aliases.json").read_text())
+    true_aliases = set(aliases.get("true_aliases", {}))
+    ranking = json.loads((ROOT / "data" / "seo" / "ranking_priority.json").read_text())
+    assert ranking["cities"] and ranking["items"]
+    assert "rochester" in ranking["cities"]
+    assert "mattress" in ranking["items"]
+    overlap = true_aliases & set(ranking["items"])
+    assert not overlap, f"ranking_priority items include true aliases: {overlap}"
+
     for path, row in overrides.items():
         title = (row.get("title") or "").lower()
         if path.startswith("/guides/"):

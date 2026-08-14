@@ -14,6 +14,21 @@ export function milesBetween(a: LatLng, b: LatLng): number {
   return 2 * R * Math.asin(Math.min(1, Math.sqrt(h)));
 }
 
+/** Google Maps directions to an address or lat/lng. */
+export function mapsDirectionsUrl(opts: {
+  address?: string | null;
+  lat?: number | null;
+  lng?: number | null;
+}): string | null {
+  if (opts.address) {
+    return `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(opts.address)}`;
+  }
+  if (opts.lat != null && opts.lng != null) {
+    return `https://www.google.com/maps/dir/?api=1&destination=${opts.lat},${opts.lng}`;
+  }
+  return null;
+}
+
 export function formatMiles(mi: number): string {
   if (mi < 0.1) return "<0.1 mi";
   if (mi < 10) return `${mi.toFixed(1)} mi`;

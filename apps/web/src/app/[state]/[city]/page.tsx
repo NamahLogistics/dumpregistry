@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { CityItemFinder } from "@/components/CityItemFinder";
 import { CityProgramBoard } from "@/components/CityProgramBoard";
-import { ContinueReading } from "@/components/ContinueReading";
+import { ContinueReading, pagesToContinueLinks } from "@/components/ContinueReading";
 import { CorrectionWidget } from "@/components/CorrectionWidget";
 import { HaulerCta } from "@/components/HaulerCta";
 import { ZipNearList } from "@/components/ZipNearList";
@@ -11,6 +11,8 @@ import {
   cityItemHref,
   countyHhwHref,
   getCity,
+  getCityHighIntentGuides,
+  getCityIndexedFacilities,
   getCityPages,
   getCityProgramGroups,
   getCountyHhwForCity,
@@ -78,6 +80,8 @@ export default async function CityHubPage({ params }: Props) {
     (z) => z.city_slug === city && z.state_slug === state && z.indexable,
   );
   const countyHhw = getCountyHhwForCity(state, city);
+  const featured = getCityHighIntentGuides(state, city, 8);
+  const dropOffs = getCityIndexedFacilities(city);
 
   const programListLd = {
     "@context": "https://schema.org",
@@ -144,6 +148,44 @@ export default async function CityHubPage({ params }: Props) {
           </Link>{" "}
           is the suburban / county program.
         </p>
+      ) : null}
+
+      {featured.length ? (
+        <ContinueReading
+          id="high-intent"
+          heading={`High-intent ${place.city} guides`}
+          lead="Mattress, bulky, HHW, and e-waste — the city rules residents actually search."
+          links={pagesToContinueLinks(featured, "item")}
+        />
+      ) : null}
+
+      {dropOffs.length ? (
+        <section className="city-dropoffs">
+          <h2>Verified drop-offs in {place.city}</h2>
+          <p className="muted">
+            Named dumps, transfer stations, and HHW sites tied to this city’s research. Confirm hours
+            on the official source.
+          </p>
+          <ul className="facility-result-list">
+            {dropOffs.slice(0, 8).map((row) => (
+              <li key={row.slug}>
+                <Link href={`/centers/${row.slug}`}>
+                  <strong>{row.f.name}</strong>
+                </Link>
+                <span>
+                  {row.f.facility_type}
+                  {row.f.address ? ` · ${row.f.address}` : ""}
+                </span>
+                {row.f.hours ? <span>Hours: {row.f.hours}</span> : null}
+              </li>
+            ))}
+          </ul>
+          {dropOffs.length > 8 ? (
+            <p>
+              <Link href="/centers">All centers by ZIP</Link>
+            </p>
+          ) : null}
+        </section>
       ) : null}
 
       {guides.length ? <CityProgramBoard city={place.city} groups={programs} /> : null}
